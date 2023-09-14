@@ -1,0 +1,8 @@
+most UI text is in BlockText.xbf
+some is in lua, eg. C:\games\wii\0079\0079_en\DATA\files\_2d\Common\ingame_lua.arc._tempdir\arc
+
+StringGroup -> String -> Size => text scaling, can be used to display more lines!
+StringGroup -> String -> Color => -1 white. 16711680dec 0x00FF0000 => red, 65280dec 0x0000FF00 => green, 255dec 0x000000FF => blue. First byte alpha? Seems unused
+StringGroup -> String -> PositionFlag => some id to screen position? not absolute
+StringGroup -> String -> ID => pointer to BlockText.xbf
+StringGroup -> String -> TabSpace => negative moves text right, positive moves text left. Weeeeird

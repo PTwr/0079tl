@@ -8,11 +8,12 @@ namespace XBFLib
     {
         const int headerLength = 4 + 4 * 2 * 4;
         const string magicNumber = "XBF\0";
-        public XbfRootSegment() : base(null, magicNumber, headerLength)
+        public XbfRootSegment(bool isUTF8 = false) : base(null, magicNumber, headerLength)
         {
+            IsUTF8 = isUTF8;
         }
 
-        public XbfRootSegment(XmlDocument doc) : this()
+        public XbfRootSegment(XmlDocument doc, bool isUTF8 = false) : this(isUTF8)
         {
             var allNodes = doc.SelectNodes("//*");
             if (allNodes == null)
@@ -165,5 +166,6 @@ namespace XBFLib
         public int AttributeDictLength { get; private set; }
         public int StringDictPosition { get; private set; }
         public int StringDictLength { get; private set; }
+        public bool IsUTF8 { get; private set; }
     }
 }

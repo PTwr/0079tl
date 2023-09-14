@@ -19,9 +19,9 @@ namespace InMemoryBinaryFile.Helpers
 
             return buffer.Slice(0, l);
         }
-        public static Span<byte> FindNullTerminatedString(this byte[] buffer)
+        public static Span<byte> FindNullTerminatedString(this byte[] buffer, int start = 0)
         {
-            return FindNullTerminator(buffer.AsSpan());
+            return FindNullTerminator(buffer.AsSpan(), start);
         }
 
         public static string ToW1250String(this Span<byte> buffer)
@@ -64,6 +64,16 @@ namespace InMemoryBinaryFile.Helpers
         public static byte[] ToW1250Bytes(this string text, bool appendNullTerminator = false)
         {
             var bytes = EncodingHelper.Windows1250.GetBytes(text);
+
+            if (appendNullTerminator)
+            {
+                return bytes.Concat(NullTerminator).ToArray();
+            }
+            return bytes.ToArray();
+        }
+        public static byte[] ToShiftJisBytes(this string text, bool appendNullTerminator = false)
+        {
+            var bytes = EncodingHelper.Shift_JIS.GetBytes(text);
 
             if (appendNullTerminator)
             {

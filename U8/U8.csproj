@@ -7,4 +7,9 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InMemoryBinaryFile\InMemoryBinaryFile.csproj" />
+    <ProjectReference Include="..\XBFLib\XBFLib.csproj" />
+  </ItemGroup>
+
 </Project>

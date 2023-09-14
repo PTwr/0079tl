@@ -28,7 +28,7 @@ namespace XBFLib
                 //series of null terminated strings
                 var s = body.Slice(start).FindNullTerminator();
                 start += s.Length + 1;
-                var ss = s.ToW1250String();
+                var ss = Parent.IsUTF8 ? s.ToUTF8String() : s.ToW1250String();
                 if (string.IsNullOrEmpty(ss))
                 {
                     //TODO special handling for nulls?
@@ -42,6 +42,6 @@ namespace XBFLib
         {
         }
 
-        protected override IEnumerable<byte> BodyBytes => values.SelectMany(s => s.ToW1250Bytes(appendNullTerminator: true));
+        protected override IEnumerable<byte> BodyBytes => values.SelectMany(s => Parent.IsUTF8 ? s.ToUTF8Bytes(appendNullTerminator: true) : s.ToW1250Bytes(appendNullTerminator: true));
     }
 }

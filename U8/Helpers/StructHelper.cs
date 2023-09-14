@@ -4,6 +4,16 @@ namespace U8.Helpers
 {
     public static class StructHelper
     {
+        public static T ReadStruct<T>(this Span<byte> bytes, out int offset)
+            where T : struct
+        {
+            offset = Marshal.SizeOf<T>();
+            return bytes.Slice(0, offset).CastToStruct<T>();
+        }
+        public static T CastToStruct<T>(this Span<byte> data) where T : struct
+        {
+            return data.ToArray().CastToStruct<T>();
+        }
         public static T CastToStruct<T>(this byte[] data) where T : struct
         {
             var pData = GCHandle.Alloc(data, GCHandleType.Pinned);
@@ -38,6 +48,19 @@ namespace U8.Helpers
             for (int i = 0; i < length; i++)
             {
                 result[i] = ReadStruct<T>(reader);
+            }
+            return result;
+        }
+
+        public static T[] ReadStructArray<T>(this Span<byte> bytes, uint length, out int offset)
+            where T : struct
+        {
+            T[] result = new T[length];
+            offset = 0;
+            for (int i = 0; i < length; i++)
+            {
+                result[i] = bytes.Slice(offset).ReadStruct<T>(out var o);
+                offset += o;
             }
             return result;
         }

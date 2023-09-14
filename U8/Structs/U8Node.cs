@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace U8.Structs
 {
     [StructLayout(LayoutKind.Sequential, Pack = 1)]
-    struct U8_node
+    struct U8Node
     {
         public UInt16 type; //this is really a u8
         public UInt16 name_offset; //really a "u24"
