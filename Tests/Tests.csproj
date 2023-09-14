@@ -24,6 +24,7 @@
   <ItemGroup>
     <ProjectReference Include="..\U8\U8.csproj" />
     <ProjectReference Include="..\InMemoryBinaryFile\InMemoryBinaryFile.csproj" />
+    <ProjectReference Include="..\XBFLib\XBFLib.csproj" />
   </ItemGroup>
 
 </Project>

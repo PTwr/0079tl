@@ -1,6 +1,6 @@
 namespace Tests;
 
-using U8.Helpers;
+using InMemoryBinaryFile.Helpers;
 
 public class StringTests
 {
@@ -10,7 +10,7 @@ public class StringTests
     [Fact]
     public void NullTerminatedStringExtraction()
     {
-        Assert.Equal("ABC", asciiBytesWithstring.AsSpan(3).FindNullTerminator().AsciiBytesToString());
-        Assert.Equal("¹êæ", UTF8BytesWithstring.AsSpan(3).FindNullTerminator().UTF8BytesToString());
+        Assert.Equal("ABC", asciiBytesWithstring.AsSpan(3).FindNullTerminator().ToAsciiString());
+        Assert.Equal("¹êæ", UTF8BytesWithstring.AsSpan(3).FindNullTerminator().ToUTF8String());
     }
 }
