@@ -17,6 +17,7 @@ namespace U8
     {
         public void Parse(Span<byte> content)
         {
+            //TODO offset out parameters SUUUUCKS, maybe out sliced span? but that will require using span sliced only from start
             var Header = content.ReadStruct<U8ArchiveHeader>(out var o);
             var offset = o;
             var RootNode = content.Slice(offset).ReadStruct<U8Node>(out o);
@@ -34,32 +35,12 @@ namespace U8
 
 
             List<string> strs = new List<string>();
-            while (offset < Header.data_offset)
-            {
-                var strbytes = content.FindNullTerminator(offset);
-                strs.Add(strbytes.ToAsciiString());
-                offset += strbytes.Length + 1;
-            }
 
-            //var strsss = Nodes
-            //    //.Where(i=>i.name_offset < stringTableSize)
-            //    .Select(i => BinaryPrimitives.ReverseEndianness(i.name_offset))
-            //    .Select(i => StringTableBytes.FindNullTerminatedString(i).ToAsciiString()).ToList();
-
-            strs.Clear();
             for (int i = 0; i < Nodes.Length; i++)
             {
-                //Nodes[i].ReverseEndianness();
                 var nameoffset = BinaryPrimitives.ReverseEndianness(Nodes[i].name_offset);
                 strs.Add(StringTableBytes.FindNullTerminator(nameoffset).ToAsciiString());
             }
-
-            //var nodeEnumerator = Nodes.Cast<U8Node>().GetEnumerator();
-            //totalParsedNodes = 1; //rootNode already parsed
-            //while (totalParsedNodes < RootNode.size)
-            //{
-            //    ParseNode(outputDirectory, nodeEnumerator);
-            //}
         }
     }
 }
