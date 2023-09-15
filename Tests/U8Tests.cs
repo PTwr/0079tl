@@ -111,6 +111,25 @@ public class U8Tests
                     updated = true;
                 }
             }
+            else if (node.IsFile && node.Name.EndsWith(".xml"))
+            {
+                var path = Path.Combine(dumpDir, node.Path);
+                path = path.Replace(".xml", ".en.xml");
+                if (File.Exists(path))
+                {
+                    var lua = File.ReadAllText(path);
+
+                    var newData = lua.ToUTF8Bytes();
+
+                    offsetChange -= node.BinaryData.Length;
+                    offsetChange += newData.Length;
+
+                    node.BinaryData = newData;
+                    node.Size = newData.Length;
+
+                    updated = true;
+                }
+            }
         }
         return updated;
     }

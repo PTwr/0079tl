@@ -28,12 +28,89 @@ unit names
 "C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BRIEFING_lua.arc\arc\d_unitname.lua"
 "C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BRIEFING_lua.arc\arc\d_weaponname.lua"
 
-campaign scrolling text
+campaign scrolling text (per mission, not overall prolog)
 "C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\PROLOGUE_MAP_ME_text.arc\arc\PROLOGUE_MAP.arc\arc\BlockText.xbf.en.xml" 
 has both EFF and Zeon? PROLOGUE_MAP_MZ_text.arc has same?
 
-Mission:
+Mission briefing is fully in main menu, doesnt affect gev/evc
 briefing screen: C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\OP_ME01.arc\arc
 chat: C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\CH_ME01.arc\arc
-C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\Briefing_Select.arc\arc ??? some menu with save button
+menu before mission, with progress preview, save, and stuff: C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\Briefing_Select.arc\arc
 extended briefing with animations and shit: C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\BR_ME01.arc\arc
+
+Mission loading screen:
+C:\games\wii\0079\0079_unpacked\DATA\files\_2d\TELOP\TELOP_ME01.arc\arc
+big fancy text is in brres texture
+
+EVC => 3d animation with game engine
+tutorial intro animation
+C:\games\wii\0079\0079_unpacked\DATA\files\evc\EVC_TU_000.arc\arc
+adding entires in EvcScene to play more sounds works
+
+AI pathfinding during mission?
+C:\games\wii\0079\0079_unpacked\DATA\files\event\missionevent\ace\AA01_ROOT.arc
+
+C:\games\wii\0079\0079_unpacked\DATA\files\evc\EVC_TEST00.arc\arc\EvcScene.xbf has Text nodes!!!!  <Text>CUT1_01</Text>
+Text matches nodes in EvcText.xbf ?
+replacing EVC_TUT_000 with EVC_TEST00 in TR01.gev changes voices and camera, but no text :(
+removed after debug maybe? :(
+Ace Amuro EVC shows picture, maybe display subtitle with that trick? from EVC_AC_000. at start of voice playback amuro in nromal suit pops out
+cutins match unit definition?
+
+display amuro face
+    <Frame type="f32">300</Frame>
+    <ImgCutIn>Unit00</ImgCutIn>
+	
+all cutins are in C:\games\wii\0079\0079_unpacked\DATA\files\_2d\ImageCutIn
+amuro is C:\games\wii\0079\0079_unpacked\DATA\files\_2d\ImageCutIn\IC_AMR.arc\arc
+	
+Frame is animation frame, increased value makes it show later
+
+Can't find link between ImgCutIn Unit00 and evc/gev
+
+displaying multiple in succession works but resets animation on each invoke
+
+    <Frame type="f32">0</Frame>	
+    <ImgCutIn>Unit00</ImgCutIn>
+
+    <Frame type="f32">50</Frame>
+    <ImgCutIn>Unit00</ImgCutIn>
+	
+    <Frame type="f32">100</Frame>
+    <ImgCutIn>Unit00</ImgCutIn>
+	
+    <Frame type="f32">150</Frame>
+    <ImgCutIn>Unit00</ImgCutIn>
+	
+    <Frame type="f32">200</Frame>
+    <ImgCutIn>Unit00</ImgCutIn>
+	
+    <Frame type="f32">250</Frame>
+    <ImgCutIn>Unit00</ImgCutIn>
+	
+    <Frame type="f32">300</Frame>
+    <ImgCutIn>Unit00</ImgCutIn>
+	
+seems to require <unit> definition beforehand?
+
+
+    <Unit>
+      <ScnName>Player0</ScnName>
+      <EvcName>Unit00</EvcName>
+    </Unit>
+    <Unit>
+      <ScnName>Friend0</ScnName>
+      <EvcName>Unit01</EvcName>
+    </Unit>
+    <Unit>
+      <ScnName>Friend1</ScnName>
+      <EvcName>Unit02</EvcName>
+    </Unit>
+	
+	has matching ScnName in GEV
+	
+swapping position entries in GEV does not affect EVC
+Player0 Friend0 Friend1 EVC_AC_000 PNT0_B0_L0_AFA PNT0_B0_L0_APA PNT0_B0_L0_AFA1
+
+changing HM_AM1 to HM_CH1 in GEV switches amuro face for chars face
+npc mechs can be replaced by changing their codes in GEV, directly in EVE not in OFS/STR
