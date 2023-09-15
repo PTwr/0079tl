@@ -6,3 +6,34 @@ StringGroup -> String -> Color => -1 white. 16711680dec 0x00FF0000 => red, 65280
 StringGroup -> String -> PositionFlag => some id to screen position? not absolute
 StringGroup -> String -> ID => pointer to BlockText.xbf
 StringGroup -> String -> TabSpace => negative moves text right, positive moves text left. Weeeeird
+
+Paus menu mission objectives:
+C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Pause\PAUSE_A.arc\arc\AA01_text.lua
+
+Popup windows:
+some are in
+C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Window\Window_text.arc\arc\Window.arc\arc 
+
+Mission objectives before starting:
+C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_AA01_text.arc\arc\OP_AA01.arc\arc (Ace Amuro)
+
+LUA encoding: code comments are in shift_jis, strings are in utf8!?!?!?
+
+Pre-mission chit chat: 
+C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BRIEFING_lua.arc\arc\CH_ME01.lua - first EFF mission
+
+Mission names and map names
+"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BRIEFING_lua.arc\arc\d_missionname.lua"
+unit names
+"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BRIEFING_lua.arc\arc\d_unitname.lua"
+"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BRIEFING_lua.arc\arc\d_weaponname.lua"
+
+campaign scrolling text
+"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\PROLOGUE_MAP_ME_text.arc\arc\PROLOGUE_MAP.arc\arc\BlockText.xbf.en.xml" 
+has both EFF and Zeon? PROLOGUE_MAP_MZ_text.arc has same?
+
+Mission:
+briefing screen: C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\OP_ME01.arc\arc
+chat: C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\CH_ME01.arc\arc
+C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\Briefing_Select.arc\arc ??? some menu with save button
+extended briefing with animations and shit: C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\BR_ME01.arc\arc

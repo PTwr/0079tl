@@ -56,10 +56,6 @@ public class U8Tests
         int offsetChange = 0;
         foreach (var node in root.Nodes)
         {
-            if (node.IsFile)
-            {
-                //node.DataOffset += offsetChange;
-            }
             if (node.IsArc)
             {
                 var nestedRoot = new U8RootSegment();
@@ -73,7 +69,7 @@ public class U8Tests
                 node.BinaryData = newData;
                 node.Size = newData.Length;
             }
-            if (node.IsXbf)
+            else if (node.IsXbf)
             {
                 var xmlenpath = Path.Combine(dumpDir, node.Path);
                 xmlenpath = xmlenpath.Replace(".xbf", ".xbf.en.xml");
@@ -86,6 +82,25 @@ public class U8Tests
                     var parsed = new XbfRootSegment(doc, XbfRootSegment.ShouldBeUTF8(xmlenpath));
 
                     var newData = parsed.GetBytes().ToArray();
+
+                    offsetChange -= node.BinaryData.Length;
+                    offsetChange += newData.Length;
+
+                    node.BinaryData = newData;
+                    node.Size = newData.Length;
+
+                    updated = true;
+                }
+            }
+            else if (node.IsFile && node.Name.EndsWith(".lua"))
+            {
+                var luapath = Path.Combine(dumpDir, node.Path);
+                luapath = luapath.Replace(".lua", ".en.lua");
+                if (File.Exists(luapath))
+                {
+                    var lua = File.ReadAllText(luapath);
+
+                    var newData = lua.ToUTF8Bytes();
 
                     offsetChange -= node.BinaryData.Length;
                     offsetChange += newData.Length;
