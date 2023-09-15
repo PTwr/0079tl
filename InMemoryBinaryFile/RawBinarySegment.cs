@@ -11,7 +11,7 @@ namespace InMemoryBinaryFile
     {
         private IEnumerable<byte> body = Enumerable.Empty<byte>();
 
-        public RawBinarySegment(TParent parent, Span<byte> content, string magicNumber = "", int headerLength = 0) : base(parent, magicNumber, headerLength)
+        public RawBinarySegment(TParent parent, Span<byte> content, byte[]? magicNumber = null, int headerLength = 0) : base(parent, magicNumber, headerLength)
         {
         }
 

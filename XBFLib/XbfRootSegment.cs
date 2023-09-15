@@ -1,17 +1,41 @@
 ﻿using InMemoryBinaryFile;
 using InMemoryBinaryFile.Helpers;
+using System.Text;
+using System.Text.Unicode;
 using System.Xml;
 
 namespace XBFLib
 {
     public class XbfRootSegment : ParentBinarySegment<IBinarySegment, _BaseBinarySegment<XbfRootSegment>>
     {
+        public static bool ShouldBeUTF8(string path)
+        {
+            return path.Contains("BlockText.xbf");
+        }
+
+        public void DumpToDisk(string path)
+        {
+            if (IsUTF8)
+            {
+                using (TextWriter sw = new StreamWriter(path, false, Encoding.UTF8)) //Set encoding
+                {
+                    this.NodeTree.XmlDocument.Save(sw);
+                }
+            }
+            else
+            {
+                File.WriteAllText(path, this.NodeTree.ToString());
+            }
+        }
+
         const int headerLength = 4 + 4 * 2 * 4;
-        const string magicNumber = "XBF\0";
-        public XbfRootSegment(bool isUTF8 = false) : base(null, magicNumber, headerLength)
+        public const string magicNumber = "XBF\0";
+        public XbfRootSegment(bool isUTF8 = false) : base(null, magicNumber.ToASCIIBytes(), headerLength)
         {
             IsUTF8 = isUTF8;
         }
+
+        Encoding Encoding => IsUTF8 ? Encoding.UTF8 : EncodingHelper.Windows1250;
 
         public XbfRootSegment(XmlDocument doc, bool isUTF8 = false) : this(isUTF8)
         {
@@ -22,13 +46,13 @@ namespace XBFLib
             }
             var nodes = allNodes.Cast<XmlNode>();
 
-            NodeDict = new XbfStringListSegment(this, nodes.Select(i => i.Name));
+            NodeDict = new XbfStringListSegment(this, nodes.Select(i => i.Name), Encoding);
 
             var attributeNodes = doc.SelectNodes("//*/@*")!.Cast<XmlAttribute>();
-            AttributeDict = new XbfStringListSegment(this, attributeNodes.Select(i => i.Name));
+            AttributeDict = new XbfStringListSegment(this, attributeNodes.Select(i => i.Name), Encoding);
 
             var texts = ExtractXbfStringsFromXml(doc.DocumentElement).Distinct().ToList();
-            StringDict = new XbfStringListSegment(this, texts);
+            StringDict = new XbfStringListSegment(this, texts, Encoding);
 
             NodeTree = new XbfNodeTreeSegment(this, doc);
 
@@ -93,9 +117,9 @@ namespace XBFLib
         {
             int bodyOffset = headerLength + magicNumber.Length;
             NodeTree = new XbfNodeTreeSegment(this);
-            NodeDict = new XbfStringListSegment(this);
-            AttributeDict = new XbfStringListSegment(this);
-            StringDict = new XbfStringListSegment(this);
+            NodeDict = new XbfStringListSegment(this, Encoding);
+            AttributeDict = new XbfStringListSegment(this, Encoding);
+            StringDict = new XbfStringListSegment(this, Encoding);
 
             NodeDict.Parse(body.Slice(NodeDictPosition - bodyOffset, AttributeDictPosition - NodeDictPosition));
             AttributeDict.Parse(body.Slice(AttributeDictPosition - bodyOffset, StringDictPosition - AttributeDictPosition));

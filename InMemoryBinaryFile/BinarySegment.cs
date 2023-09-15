@@ -24,14 +24,14 @@ namespace InMemoryBinaryFile
 
         public byte[] MagicNumber { get; }
 
-        public _BaseBinarySegment(TParent parent, string magicNumber = "", int headerLength = 0)
+        public _BaseBinarySegment(TParent? parent, byte[]? magicNumber = null, int headerLength = 0)
         {
             Parent = parent;
             HeaderLength = headerLength;
-            MagicNumber = magicNumber.ToASCIIBytes();
+            MagicNumber = magicNumber ?? new byte[] { };
         }
 
-        public void Parse(Span<byte> content)
+        public virtual void Parse(Span<byte> content)
         {
             if (!content.StartsWithMagicNumber(MagicNumber))
             {
@@ -52,7 +52,7 @@ namespace InMemoryBinaryFile
         protected abstract void ParseHeader(Span<byte> header);
         protected abstract void ParseBody(Span<byte> body);
 
-        public TParent Parent { get; private set; }
+        public TParent? Parent { get; private set; }
         public int HeaderLength { get; }
 
         protected IEnumerable<T> Concatenate<T>(params IEnumerable<T>[] values)

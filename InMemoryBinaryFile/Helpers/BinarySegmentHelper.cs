@@ -49,10 +49,15 @@ namespace InMemoryBinaryFile.Helpers
 
         public static IEnumerable<byte> PadToAlignment(this IEnumerable<byte> bytes, int alignmentBytes)
         {
-            var misalignedBy = bytes.Count() % alignmentBytes;
-            var missingZeros = (alignmentBytes - misalignedBy) % 4;
+            return bytes.PadToAlignment(alignmentBytes, out _);
+        }
 
-            return bytes.PadRight(missingZeros, 0);
+        public static IEnumerable<byte> PadToAlignment(this IEnumerable<byte> bytes, int alignmentBytes, out int paddedBy)
+        {
+            var misalignedBy = bytes.Count() % alignmentBytes;
+            paddedBy = (alignmentBytes - misalignedBy) % alignmentBytes;
+
+            return bytes.PadRight(paddedBy, 0);
         }
 
         public static byte[] SubArray(this byte[] bytes, int from, int to)
@@ -63,6 +68,10 @@ namespace InMemoryBinaryFile.Helpers
         public static Int32 GetBigEndianDWORD(this Span<byte> bytes, int location = 0)
         {
             return BinaryPrimitives.ReadInt32BigEndian(bytes.Slice(location, 4));
+        }
+        public static UInt32 GetBigEndianUDWORD(this Span<byte> bytes, int location = 0)
+        {
+            return BinaryPrimitives.ReadUInt32BigEndian(bytes.Slice(location, 4));
         }
         public static Int16 GetBigEndianWORD(this Span<byte> bytes, int location = 0)
         {

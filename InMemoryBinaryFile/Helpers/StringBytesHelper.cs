@@ -24,62 +24,54 @@ namespace InMemoryBinaryFile.Helpers
             return FindNullTerminator(buffer.AsSpan(), start);
         }
 
+        public static string ToDecodedString(this Span<byte> buffer, Encoding encoding)
+        {
+            return encoding.GetString(buffer);
+        }
+
         public static string ToW1250String(this Span<byte> buffer)
         {
-            return EncodingHelper.Windows1250.GetString(buffer);
+            return buffer.ToDecodedString(EncodingHelper.Windows1250);
         }
         public static string ToShiftJisString(this Span<byte> buffer)
         {
-            return EncodingHelper.Shift_JIS.GetString(buffer);
+            return buffer.ToDecodedString(EncodingHelper.Shift_JIS);
         }
         public static string ToAsciiString(this Span<byte> buffer)
         {
-            return System.Text.Encoding.ASCII.GetString(buffer);
+            return buffer.ToDecodedString(System.Text.Encoding.ASCII);
         }
         public static string ToUTF8String(this Span<byte> buffer)
         {
-            return System.Text.Encoding.UTF8.GetString(buffer);
+            return buffer.ToDecodedString(System.Text.Encoding.UTF8);
+        }
+
+        public static byte[] ToBytes(this string text, Encoding encoding, bool appendNullTerminator = false)
+        {
+            var bytes = encoding.GetBytes(text);
+
+            if (appendNullTerminator)
+            {
+                return bytes.Concat(NullTerminator).ToArray();
+            }
+            return bytes.ToArray();
         }
 
         public static byte[] ToUTF8Bytes(this string text, bool appendNullTerminator = false)
         {
-            var bytes = System.Text.Encoding.UTF8.GetBytes(text);
-
-            if (appendNullTerminator)
-            {
-                return bytes.Concat(NullTerminator).ToArray();
-            }
-            return bytes.ToArray();
+            return text.ToBytes(System.Text.Encoding.UTF8, appendNullTerminator);
         }
         public static byte[] ToASCIIBytes(this string text, bool appendNullTerminator = false)
         {
-            var bytes = System.Text.Encoding.ASCII.GetBytes(text);
-
-            if (appendNullTerminator)
-            {
-                return bytes.Concat(NullTerminator).ToArray();
-            }
-            return bytes.ToArray();
+            return text.ToBytes(System.Text.Encoding.ASCII, appendNullTerminator);
         }
         public static byte[] ToW1250Bytes(this string text, bool appendNullTerminator = false)
         {
-            var bytes = EncodingHelper.Windows1250.GetBytes(text);
-
-            if (appendNullTerminator)
-            {
-                return bytes.Concat(NullTerminator).ToArray();
-            }
-            return bytes.ToArray();
+            return text.ToBytes(EncodingHelper.Windows1250, appendNullTerminator);
         }
         public static byte[] ToShiftJisBytes(this string text, bool appendNullTerminator = false)
         {
-            var bytes = EncodingHelper.Shift_JIS.GetBytes(text);
-
-            if (appendNullTerminator)
-            {
-                return bytes.Concat(NullTerminator).ToArray();
-            }
-            return bytes.ToArray();
+            return text.ToBytes(EncodingHelper.Shift_JIS, appendNullTerminator);
         }
         private static byte[] NullTerminator = new byte[] { 0 };
 }

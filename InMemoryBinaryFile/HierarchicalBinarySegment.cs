@@ -18,7 +18,7 @@ namespace InMemoryBinaryFile
 
         protected virtual List<TChild> children => new List<TChild>();
 
-        protected ParentBinarySegment(TParent parent, string magicNumber = "", int headerLength = 0) : base(parent, magicNumber, headerLength)
+        protected ParentBinarySegment(TParent? parent, byte[]? magicNumber = null, int headerLength = 0) : base(parent, magicNumber, headerLength)
         {
         }
 

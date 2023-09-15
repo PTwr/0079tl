@@ -184,24 +184,10 @@ namespace Tests
                     .Replace(".xbf", ".xml");
                 var expected = File.ReadAllBytes(file.FullName);
 
-                bool isUTF8 = file.Name.Contains("BlockText.xbf");
-
-                var parsed = new XbfRootSegment(isUTF8);
+                var parsed = new XbfRootSegment(XbfRootSegment.ShouldBeUTF8(file.Name));
                 parsed.Parse(expected.AsSpan());
 
-
-
-                if (isUTF8)
-                {
-                    using (TextWriter sw = new StreamWriter(xmlFile, false, Encoding.UTF8)) //Set encoding
-                    {
-                        parsed.NodeTree.XmlDocument.Save(sw);
-                    }
-                }
-                else
-                {
-                    File.WriteAllText(xmlFile, parsed.NodeTree.ToString());
-                }
+                parsed.DumpToDisk(xmlFile);
 
                 c++;
             }
@@ -227,13 +213,11 @@ namespace Tests
                         .Replace("0079_jp", "0079_en");
                     var expected = File.ReadAllBytes(file.FullName);
 
-                    bool isUTF8 = file.Name.Contains("BlockText.xbf");
-
                     var xml = File.ReadAllText(xmlFile);
                     XmlDocument doc = new XmlDocument();
                     doc.LoadXml(xml);
 
-                    var parsed = new XbfRootSegment(doc, isUTF8);
+                    var parsed = new XbfRootSegment(doc, XbfRootSegment.ShouldBeUTF8(file.Name));
 
                     var bytes = parsed.GetBytes().ToArray();
                     File.WriteAllBytes(outputFile, bytes);
