@@ -47,6 +47,12 @@ tutorial intro animation
 C:\games\wii\0079\0079_unpacked\DATA\files\evc\EVC_TU_000.arc\arc
 adding entires in EvcScene to play more sounds works
 
+
+Ace Amuro HUD - probably shared with most of EFF?
+C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Indicator\IEFANM.arc\arc
+Degine - GetLifeRate() returns current hitpoints
+
+
 AI pathfinding during mission?
 C:\games\wii\0079\0079_unpacked\DATA\files\event\missionevent\ace\AA01_ROOT.arc
 
@@ -114,3 +120,4 @@ Player0 Friend0 Friend1 EVC_AC_000 PNT0_B0_L0_AFA PNT0_B0_L0_APA PNT0_B0_L0_AFA1
 
 changing HM_AM1 to HM_CH1 in GEV switches amuro face for chars face
 npc mechs can be replaced by changing their codes in GEV, directly in EVE not in OFS/STR
+

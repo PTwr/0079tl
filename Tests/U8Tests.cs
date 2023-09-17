@@ -98,9 +98,9 @@ public class U8Tests
                 luapath = luapath.Replace(".lua", ".en.lua");
                 if (File.Exists(luapath))
                 {
-                    var lua = File.ReadAllText(luapath);
+                    //var lua = File.ReadAllText(luapath);
 
-                    var newData = lua.ToUTF8Bytes();
+                    var newData = File.ReadAllBytes(luapath);
 
                     offsetChange -= node.BinaryData.Length;
                     offsetChange += newData.Length;
@@ -117,9 +117,9 @@ public class U8Tests
                 path = path.Replace(".xml", ".en.xml");
                 if (File.Exists(path))
                 {
-                    var lua = File.ReadAllText(path);
+                    //var lua = File.ReadAllText(path);
 
-                    var newData = lua.ToUTF8Bytes();
+                    var newData = File.ReadAllBytes(path);
 
                     offsetChange -= node.BinaryData.Length;
                     offsetChange += newData.Length;

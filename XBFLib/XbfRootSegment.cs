@@ -10,7 +10,7 @@ namespace XBFLib
     {
         public static bool ShouldBeUTF8(string path)
         {
-            return path.Contains("BlockText.xbf");
+            return path.Contains("BlockText.xbf") || path.Contains("EvcText.xbf");
         }
 
         public void DumpToDisk(string path)
