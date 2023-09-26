@@ -26,7 +26,7 @@ public class U8Tests
     }
 
     [Fact]
-    public void ArcUpdateXbf()
+    public void ArcAplyPatch()
     {
         var files = new System.IO.DirectoryInfo(@"C:\games\wii\0079\0079_jp\DATA")
             .GetFiles("*.arc", SearchOption.AllDirectories);
@@ -34,13 +34,18 @@ public class U8Tests
         foreach (var file in files)
         {
             var arcjp = file.FullName;
-            var dumpDir = arcjp.Replace("0079_jp", "0079_unpacked");
+            var patchDir = arcjp.Replace(@"C:\games\wii\0079\0079_jp", @"C:\Users\LordOfTheSkrzynka\Documents\Git\0079tl\Translation\Patch");
+
+            if(!Directory.Exists(patchDir))
+            {
+                continue;
+            }
 
             var bytes = File.ReadAllBytes(arcjp).AsSpan();
             var root = new U8RootSegment();
             root.Parse(bytes);
 
-            var updated = UpdateU8Root(root, dumpDir);
+            var updated = UpdateU8Root(root, patchDir);
 
             if (updated)
             {

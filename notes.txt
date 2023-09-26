@@ -51,6 +51,7 @@ adding entires in EvcScene to play more sounds works
 Ace Amuro HUD - probably shared with most of EFF?
 C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Indicator\IEFANM.arc\arc
 Degine - GetLifeRate() returns current hitpoints
+Lua Message() calls Animation from .brres via MEssage.xbf list
 
 
 AI pathfinding during mission?
