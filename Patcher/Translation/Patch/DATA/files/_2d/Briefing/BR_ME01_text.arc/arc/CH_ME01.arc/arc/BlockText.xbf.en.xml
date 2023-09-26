@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Texts>
+  <Block>
+    <ID>CHAT_A_BTN_01</ID>
+    <Text>∈</Text>
+  </Block>
+  <Block>
+    <ID>eve002_01</ID>
+    <Text>I am the captain of Unit 1. This is Ensign Alan Aylward.
+It was suddenly organized as a combat unit, but that's all.
+Since expectations are high, let's do our best.</Text>
+  </Block>
+  <Block>
+    <ID>eve003_01</ID>
+    <Text>I'm Corporal Hoare Blanchett, and I'm the unit's operator.
+We collect, analyze, and communicate information so that you can concentrate on the battle.
+I will do it.  thank you.</Text>
+  </Block>
+  <Block>
+    <ID>eve004_01</ID>
+    <Text>This is Sergeant Dennis Barrow.
+I wonder if he will be the only one with actual combat experience in this unit.  Best regards from now!
+Eh, especially the cute girls!</Text>
+  </Block>
+  <Block>
+    <ID>eve005_01</ID>
+    <Text>Hahaha… Dennis, I rely on you for so many things.</Text>
+  </Block>
+  <Block>
+    <ID>eve005b_01</ID>
+    <Text>Jeez…. By all means, such a mysterious force...
+I guess I'm being transferred...</Text>
+  </Block>
+  <Block>
+    <ID>eve005b_02</ID>
+    <Text>I'm Warrant Officer Lil Somers from Augusta.
+Although he has no actual combat experience, he is quite skilled at piloting MS.</Text>
+  </Block>
+  <Block>
+    <ID>eve005b_03</ID>
+    <Text>Well, I think they'll be poached from the elite forces soon.
+Until then, thank you!</Text>
+  </Block>
+  <Block>
+    <ID>eve006_01</ID>
+    <Text>Augusta means test pilot...
+That seems promising. Thank you for your support both in public and private life.</Text>
+  </Block>
+  <Block>
+    <ID>eve007_01</ID>
+    <Text>Hmm! I have no intention of getting along with you!
+nice to meet you!</Text>
+  </Block>
+  <Block>
+    <ID>eve008_01</ID>
+    <Text>Hehehe...I was relieved to see so many fun people.</Text>
+  </Block>
+  <Block>
+    <ID>eve009_01</ID>
+    <Text>Well, there are many people, including myself, who have no actual combat experience.
+They are members with high potential, so as long as they gain experience,
+We should be able to make a good team.</Text>
+  </Block>
+  <Block>
+    <ID>eve009_02</ID>
+    <Text>First of all, we will complete this mission perfectly and
+I'll prove to you that I'm a right staff!</Text>
+  </Block>
+  <Block>
+    <ID>aln161_01</ID>
+    <Text>Now, everyone, get ready to sortie!</Text>
+  </Block>
+  <Block>
+    <ID>eve703_01</ID>
+    <Text>Roger that!</Text>
+  </Block>
+  <Block>
+    <ID>test</ID>
+    <Text>１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０
+１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０
+１２３４５６７８９０１２３４５６７８９０１２３４５６７８９</Text>
+  </Block>
+</Texts>

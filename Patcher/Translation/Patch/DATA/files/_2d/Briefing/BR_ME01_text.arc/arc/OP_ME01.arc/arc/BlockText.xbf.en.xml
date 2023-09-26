@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Texts>
+  <Block>
+    <ID>OPERATION_TITLE</ID>
+    <Text>BRIEFING</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_MISSION</ID>
+    <Text>MISSION</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_BUTTON_INFO_01</ID>
+    <Text>｜∈Next｜</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_WIN</ID>
+    <Text>Victory</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_WIN_CONTENT</ID>
+    <Text>Search and destroy</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_LOSS</ID>
+    <Text>Defeat</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_LOSS_CONTENT</ID>
+    <Text>Mobile suit destruction</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_COMMENT</ID>
+    <Text>Comment</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_COMMENT_CONTENT</ID>
+    <Text>If you discover a Gau attack carrier,
+Shoot this down as much as possible</Text>
+  </Block>
+</Texts>
