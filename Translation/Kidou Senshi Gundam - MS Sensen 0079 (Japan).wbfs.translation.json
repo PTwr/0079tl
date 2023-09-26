@@ -14290,7 +14290,7 @@
   {
     "FileName": "sound/stream/eva001.brstm",
     "Translation": "Hayato! Kai! I'll open path for White Base, follow me!",
-    "Miliseconds": 15000,
+    "Miliseconds": 5000,
     "Color": 4278255615,
     "Enabled": true,
     "AllowDuplicate": false
@@ -14298,7 +14298,7 @@
   {
     "FileName": "sound/stream/eva002.brstm",
     "Translation": "(MTL) Hey hey, even though I'm trying to relax, \nI don't have any confidence in my fighting ability.",
-    "Miliseconds": 15000,
+    "Miliseconds": 5000,
     "Color": 4278255615,
     "Enabled": true,
     "AllowDuplicate": false
@@ -14306,7 +14306,7 @@
   {
     "FileName": "sound/stream/eva003.brstm",
     "Translation": "(MTL) I'll show Amuro what I can do.",
-    "Miliseconds": 15000,
+    "Miliseconds": 5000,
     "Color": 4278255615,
     "Enabled": true,
     "AllowDuplicate": false
