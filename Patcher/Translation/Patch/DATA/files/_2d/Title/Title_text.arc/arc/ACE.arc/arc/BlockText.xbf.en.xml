@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Texts>
+  <Block>
+    <ID>TITLE_01</ID>
+    <Text>ACE PILOT MODE</Text>
+  </Block>
+  <Block>
+    <ID>BUTTON_INFO_01</ID>
+    <Text>｜≒Move｜∈Select｜∋Back｜</Text>
+  </Block>
+  <Block>
+    <ID>ACE_Amuro_Ray</ID>
+    <Text>Amuro Ray</Text>
+  </Block>
+  <Block>
+    <ID>ACE_Shiroh_Amada</ID>
+    <Text>Shiroh Amada</Text>
+  </Block>
+  <Block>
+    <ID>ACE_Christina_Mackenzie</ID>
+    <Text>Christina Mackenzie</Text>
+  </Block>
+  <Block>
+    <ID>ACE_You_Kajima</ID>
+    <Text>You Kajima</Text>
+  </Block>
+  <Block>
+    <ID>ACE_Char_Aznable</ID>
+    <Text>Char Aznable</Text>
+  </Block>
+  <Block>
+    <ID>ACE_Ramba_Ral</ID>
+    <Text>Ramba Ral</Text>
+  </Block>
+  <Block>
+    <ID>ACE_Guyya</ID>
+    <Text>Guyya</Text>
+  </Block>
+  <Block>
+    <ID>ACE_Norris_Packard</ID>
+    <Text>Norris Packard</Text>
+  </Block>
+  <Block>
+    <ID>ACE_Bernard_Wiseman</ID>
+    <Text>Bernard Wiseman</Text>
+  </Block>
+  <Block>
+    <ID>ACE_Akahana</ID>
+    <Text>Akahana</Text>
+  </Block>
+  <Block>
+    <ID>ACE_SECRET</ID>
+    <Text>????? ?????</Text>
+  </Block>
+  <Block>
+    <ID>ACE_EFF_00</ID>
+    <Text>Earth Federation Force</Text>
+  </Block>
+  <Block>
+    <ID>ACE_ZEON_00</ID>
+    <Text>Principality of Zeon Force</Text>
+  </Block>
+  <Block>
+    <ID>ACE_SECRET_00</ID>
+    <Text>Secret Force </Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_AMR_00</ID>
+    <Text>Amuro Ray, a civilian boy, gets caught up in the war.
+As a Gundam pilot, he achieves incredible growth.
+third line
+fourth line</Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_SIR_00</ID>
+    <Text>Shiro Amada, commander of the 08th MS Platoon of Kojima Battalion.
+She questions his military's methods and pursues the path she believes in.</Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_CRS_00</ID>
+    <Text>Christina McKenzie, a federal military test pilot,
+In response to an attack by enemy forces, she takes out a new Gundam that is currently being tested.</Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_YOU_00</ID>
+    <Text>Pilot of an experimental aircraft equipped with the mysterious system "EXAM",
+Yuu Kajima runs on the battlefield as the "Blue Grim Reaper".</Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_CHR_00</ID>
+    <Text>Char Aznable was feared as Zeon's "Red Comet".
+His encounter with Gundam changes his fate...</Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_RMB_00</ID>
+    <Text>Ramba Ral is known as the "Blue Giant".
+She receives a special mission to avenge Garma Zabi and approaches Gundam.</Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_GUY_00</ID>
+    <Text>Gaia is the leader of a unit feared as the "Black Tri-Star."
+He descends on the ground to defeat the White Base team.</Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_NRS_00</ID>
+    <Text>Norris Packard is an ace of the Far East Army who serves the Sakhalin family.
+With his outstanding fighting sense, he fights to overcome the situation.</Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_BER_00</ID>
+    <Text>Bernard Wiseman, a new soldier in the Cyclops Corps.
+With his determination to die, he carries out the mission to destroy the new Gundam.</Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_AKA_00</ID>
+    <Text>Akahana of the Mad Angler Corps commanded by Char.
+He drives the Acguy and attempts sabotage inside Jaburo.</Text>
+  </Block>
+  <Block>
+    <ID>ACE_INF_SECRET_00</ID>
+    <Text>Unseen warriors cannot be selected.</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_A_TITLE</ID>
+    <Text>mission select</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_A_01</ID>
+    <Text>mission 1</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_A_02</ID>
+    <Text>mission 2</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_A_03</ID>
+    <Text>mission 3</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_A_10</ID>
+    <Text>@ACE_MISSION_A_10@</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_A_20</ID>
+    <Text>@ACE_MISSION_A_20@</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_A_30</ID>
+    <Text>@ACE_MISSION_A_30@</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_TITLE</ID>
+    <Text>mission select</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_01</ID>
+    <Text>mission 1</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_02</ID>
+    <Text>mission 2</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_03</ID>
+    <Text>mission 3</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_04</ID>
+    <Text>mission 4</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_05</ID>
+    <Text>mission 5</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_06</ID>
+    <Text>mission 6</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_10</ID>
+    <Text>@ACE_MISSION_B_10@</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_20</ID>
+    <Text>@ACE_MISSION_B_20@</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_30</ID>
+    <Text>@ACE_MISSION_B_30@</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_40</ID>
+    <Text>@ACE_MISSION_B_40@</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_50</ID>
+    <Text>@ACE_MISSION_B_50@</Text>
+  </Block>
+  <Block>
+    <ID>ACE_MISSION_B_60</ID>
+    <Text>@ACE_MISSION_B_60@</Text>
+  </Block>
+</Texts>

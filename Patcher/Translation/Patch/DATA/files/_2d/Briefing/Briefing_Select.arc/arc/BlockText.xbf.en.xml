@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Texts>
+  <Block>
+    <ID>BR_SELECT_TITLE_01</ID>
+    <Text>BRIEFING</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_BUTTON_INFO_01</ID>
+    <Text>｜≒Move｜∈Ok｜∋Return｜</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_HUNGER</ID>
+    <Text>Preparation for sortie</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_ROOT</ID>
+    <Text>Confirm progress route</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_OPERATION</ID>
+    <Text>Confirmation of strategy details/conversation</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_COND</ID>
+    <Text>Victory/defeat conditions</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_SAVE</ID>
+    <Text>SAVE</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_LOAD</ID>
+    <Text>LOAD</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_HUNGER_INFO</ID>
+    <Text>Head to the hanger to sortie.
+In addition to sorties, you can also set up your MS (mobile suit).</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_ROOT_INFO</ID>
+    <Text>Check the progress route you have followed so far.</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_OPERATION_INFO</ID>
+    <Text>Check the briefing screen and conversation again.
+Make sure you understand the details of the strategy and take on the battle.</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_COND_INFO</ID>
+    <Text>Check the victory and defeat conditions in a simple display.
+Make sure you understand the details of the strategy and take on the battle.</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_SAVE_INFO</ID>
+    <Text>Save the story data up to this point.</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_LOAD_INFO</ID>
+    <Text>Load story data.</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_ROOT_STSL_INFO</ID>
+    <Text>
+    </Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_SAVE_STSL_INFO</ID>
+    <Text>
+    </Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_LOAD_STSL_INFO</ID>
+    <Text>
+    </Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_SAVE_DMY_INFO</ID>
+    <Text>Due to a problem with the Wii's storage memory, the game cannot be saved.</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_LOAD_DMY_INFO</ID>
+    <Text>Unable to load due to a problem with the Wii's storage memory.</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_ROOT_DMY</ID>
+    <Text>－－－</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_SAVE_DMY</ID>
+    <Text>－－－</Text>
+  </Block>
+  <Block>
+    <ID>BR_SELECT_LOAD_DMY</ID>
+    <Text>－－－</Text>
+  </Block>
+</Texts>

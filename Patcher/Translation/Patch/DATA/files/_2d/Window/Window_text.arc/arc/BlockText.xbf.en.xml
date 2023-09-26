@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Texts>
+  <Block>
+    <ID>MULTI_Window_YES</ID>
+    <Text>YES</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_NO</ID>
+    <Text>NO</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_MSG</ID>
+    <Text>@MESSAGE@</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_01</ID>
+    <Text>Heading out?？ </Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_02</ID>
+    <Text>[unused test text]</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_03</ID>
+    <Text>Exit game？
+（Save point will remain）</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_03_no_save</ID>
+    <Text>Game not saved、
+Quit？</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_03_simple</ID>
+    <Text>Exit game？</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_VS</ID>
+    <Text>PRess ≡ＨＯＭＥ on 2nd Wiimote</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_04</ID>
+    <Text>Costs too high
+Please lower the cost</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_05</ID>
+    <Text>Would you like to get a weapon?</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_06</ID>
+    <Text>There are some weapons that the unit doesn't have yet.
+Do you want to exit without getting it?</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_07</ID>
+    <Text>Start battle？</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_08</ID>
+    <Text>Return to pilot selection?</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_09</ID>
+    <Text>This map cannot be selected yet</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_10</ID>
+    <Text>Finish ＭＳ painting？</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_11</ID>
+    <Text>Return to mission select?</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_12</ID>
+    <Text>Play this mission？</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_13</ID>
+    <Text>Open the HOME button menu and select Player 2's
+Please let the Wii remote control be recognized.。</Text>
+  </Block>
+  <Block>
+    <ID>MULTI_Window_14</ID>
+    <Text>Delete save?</Text>
+  </Block>
+  <Block>
+    <ID>RESULT_MSG_WIN_00</ID>
+    <Text>@RESULT_MSG_WIN_00@
+is now available</Text>
+  </Block>
+  <Block>
+    <ID>RESULT_MSG_WIN_01</ID>
+    <Text>@RESULT_MSG_WIN_01@
+can be used by Zeon</Text>
+  </Block>
+  <Block>
+    <ID>RESULT_MSG_WIN_02</ID>
+    <Text>@RESULT_MSG_WIN_02@
+can be used by EFF</Text>
+  </Block>
+  <Block>
+    <ID>RESULT_MSG_WIN_03</ID>
+    <Text>New squad cost: @RESULT_MSG_WIN_03@
+MS and weapons to be sortied
+Let's organize while considering the cost!</Text>
+  </Block>
+  <Block>
+    <ID>RESULT_MSG_WIN_04</ID>
+    <Text>to formation stock
+「@RESULT_MSG_WIN_04@」
+added</Text>
+  </Block>
+  <Block>
+    <ID>RESULT_MSG_WIN_05</ID>
+    <Text>ACE PILOT
+「@RESULT_MSG_WIN_05@」
+Is now available</Text>
+  </Block>
+  <Block>
+    <ID>RESULT_MSG_WIN_06</ID>
+    <Text>VERSUS/SURVIVAL/COMBINATION
+「@RESULT_MSG_WIN_06@」
+Is now available</Text>
+  </Block>
+  <Block>
+    <ID>RESULT_MSG_WIN_07</ID>
+    <Text>VERSUS
+「@RESULT_MSG_WIN_07@」
+Is now available</Text>
+  </Block>
+  <Block>
+    <ID>RESULT_MSG_WIN_08</ID>
+    <Text>You can now acquire enemy aircraft!
+When you perform a headshot in Snipe mode,
+You can get enemy aircraft.</Text>
+  </Block>
+  <Block>
+    <ID>
+    </ID>
+    <Text>
+    </Text>
+  </Block>
+</Texts>
