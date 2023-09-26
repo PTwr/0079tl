@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Texts>
+  <Block>
+    <ID>TITLE_01</ID>
+    <Text>COMBINATION</Text>
+  </Block>
+  <Block>
+    <ID>BUTTON_INFO_01</ID>
+    <Text>｜≒Select｜∈Ok｜∋Back｜</Text>
+  </Block>
+  <Block>
+    <ID>EFSF</ID>
+    <Text>E.F.F</Text>
+  </Block>
+  <Block>
+    <ID>ZEON</ID>
+    <Text>ZEON</Text>
+  </Block>
+  <Block>
+    <ID>INFO_EFSF</ID>
+    <Text>Earth Federation missions</Text>
+  </Block>
+  <Block>
+    <ID>INFO_ZEON</ID>
+    <Text>Principality of Zeon mission</Text>
+  </Block>
+  <Block>
+    <ID>INFO_EFSF_MISSION</ID>
+    <Text>Please select a mission</Text>
+  </Block>
+  <Block>
+    <ID>INFO_ZEON_MISSION</ID>
+    <Text>Please select a mission</Text>
+  </Block>
+  <Block>
+    <ID>CROSS_MISSION_01</ID>
+    <Text>Mission１</Text>
+  </Block>
+  <Block>
+    <ID>CROSS_MISSION_02</ID>
+    <Text>Mission２</Text>
+  </Block>
+  <Block>
+    <ID>CROSS_MISSION_03</ID>
+    <Text>Mission３</Text>
+  </Block>
+  <Block>
+    <ID>CROSS_MIS_01_EF_NAME</ID>
+    <Text>“A ruthless snow field that covers even death”</Text>
+  </Block>
+  <Block>
+    <ID>CROSS_MIS_02_EF_NAME</ID>
+    <Text>"The sound of waves cannot be heard far away"</Text>
+  </Block>
+  <Block>
+    <ID>CROSS_MIS_03_EF_NAME</ID>
+    <Text>"Eternal struggle, momentary end"</Text>
+  </Block>
+  <Block>
+    <ID>CROSS_MIS_01_ZE_NAME</ID>
+    <Text>"Phantom Sniper"</Text>
+  </Block>
+  <Block>
+    <ID>CROSS_MIS_02_ZE_NAME</ID>
+    <Text>"Born to Assault"</Text>
+  </Block>
+  <Block>
+    <ID>CROSS_MIS_03_ZE_NAME</ID>
+    <Text>"Bloody Sunset"</Text>
+  </Block>
+  <Block>
+    <ID>CROSS_MISSION_WIN_TITLE</ID>
+    <Text>MISSION SELECT</Text>
+  </Block>
+</Texts>

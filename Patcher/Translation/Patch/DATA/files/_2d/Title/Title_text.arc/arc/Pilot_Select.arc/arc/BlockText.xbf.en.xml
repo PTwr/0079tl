@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Texts>
+  <Block>
+    <ID>TITLE_01</ID>
+    <Text>FORCE SELECT</Text>
+  </Block>
+  <Block>
+    <ID>BUTTON_INFO_01</ID>
+    <Text>｜≒Select｜∈Ok｜∋Back｜</Text>
+  </Block>
+  <Block>
+    <ID>EFSF</ID>
+    <Text>E.F.F</Text>
+  </Block>
+  <Block>
+    <ID>ZEON</ID>
+    <Text>ZEON</Text>
+  </Block>
+  <Block>
+    <ID>INFO_EFSF</ID>
+    <Text>As Alan Aylward, platoonleader of「ＳＲＴ－Unit１」
+follow story of Earth Federation Forces</Text>
+  </Block>
+  <Block>
+    <ID>INFO_ZEON</ID>
+    <Text>As Leo Braughter, platoonleader of「Brawyer Squad」
+follow story of Principality of Zeon forces</Text>
+  </Block>
+</Texts>
