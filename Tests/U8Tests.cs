@@ -34,7 +34,7 @@ public class U8Tests
         foreach (var file in files)
         {
             var arcjp = file.FullName;
-            var patchDir = arcjp.Replace(@"C:\games\wii\0079\0079_jp", @"C:\Users\LordOfTheSkrzynka\Documents\Git\0079tl\Translation\Patch");
+            var patchDir = arcjp.Replace(@"C:\games\wii\0079\0079_jp", @"../../../../Patcher/Translation/Patch");
 
             if(!Directory.Exists(patchDir))
             {
