@@ -42,11 +42,11 @@
   </Block>
   <Block>
     <ID>TUTORIAL_SUB_01</ID>
-    <Text>Basic operations</Text>
+    <Text>Basic</Text>
   </Block>
   <Block>
     <ID>TUTORIAL_SUB_02</ID>
-    <Text>Melee combat</Text>
+    <Text>Melee</Text>
   </Block>
   <Block>
     <ID>TIME_SUB_01</ID>
@@ -164,6 +164,6 @@ View mission score</Text>
   </Block>
   <Block>
     <ID>TUTORIAL_SUB_03</ID>
-    <Text>Combat elements</Text>
+    <Text>Combat</Text>
   </Block>
 </Texts>
