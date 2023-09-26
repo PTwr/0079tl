@@ -122,3 +122,12 @@ Player0 Friend0 Friend1 EVC_AC_000 PNT0_B0_L0_AFA PNT0_B0_L0_APA PNT0_B0_L0_AFA1
 changing HM_AM1 to HM_CH1 in GEV switches amuro face for chars face
 npc mechs can be replaced by changing their codes in GEV, directly in EVE not in OFS/STR
 
+deduplicate
+d_missionname.en.lua
+and similar
+some kind of symlink or metadata file for arc updater?
+
+check if mission.arc\Briefing_Select.arc is duplicated
+Window.arc is duplicated too
+
+gather Block ID's to generate xbf from shared translation list?
