@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Texts>
+  <Block>
+    <ID>OPERATION_TITLE</ID>
+    <Text>BRIEFING</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_MISSION</ID>
+    <Text>MISSION</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_BUTTON_INFO_01</ID>
+    <Text>｜∈Next｜</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_WIN</ID>
+    <Text>Victory</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_WIN_CONTENT</ID>
+    <Text>Defeat all enemies</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_LOSS</ID>
+    <Text>Defeat</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_LOSS_CONTENT</ID>
+    <Text>Destroyed own MS</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_COMMENT</ID>
+    <Text>Summary</Text>
+  </Block>
+  <Block>
+    <ID>OPERATION_COMMENT_CONTENT</ID>
+    <Text>Caught up in the flames of war on Side 7
+Amuro Ray became Gundam's pilot.
+Escaping from Char's pursuit to earth
+White Base landed in enemy teritory</Text>
+  </Block>
+</Texts>
