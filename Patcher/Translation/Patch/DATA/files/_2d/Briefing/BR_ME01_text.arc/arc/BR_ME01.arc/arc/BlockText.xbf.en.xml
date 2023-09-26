@@ -30,7 +30,8 @@
   </Block>
   <Block>
     <ID>BR_DATA_C_02</ID>
-    <Text>Garma Zabi memorial service</Text>
+    <Text>Garma Zabi
+memorial service</Text>
   </Block>
   <Block>
     <ID>BR_DATA_D_01</ID>
@@ -46,37 +47,38 @@
   </Block>
   <Block>
     <ID>BR_INFO_A_02</ID>
-    <Text>The mission location this time is an abandoned section of Seattle, North America.</Text>
+    <Text>The mission location this time is an abandoned section
+of Seattle, North America.</Text>
   </Block>
   <Block>
     <ID>BR_INFO_B_01</ID>
-    <Text>Although it is a place with low strategic value, it is Zeon's largest base.
-Due to its proximity to California Bass,</Text>
+    <Text>Although it is a place with low strategic value, it is 
+Zeon's largest base. Due to its proximity to California Base,</Text>
   </Block>
   <Block>
     <ID>BR_INFO_B_02</ID>
-    <Text>As a movement route for enemy troops, centered on Gau attack aircraft carriers, etc.
-It is also an area where many sightings have been reported.</Text>
+    <Text>As important route for enemy troops
+many Gau attack carriers have been spotted</Text>
   </Block>
   <Block>
     <ID>BR_INFO_C_01</ID>
-    <Text>There was a big battle in the same area the other day, and in this battle,
-Garma Zabi, commander of the Zeon Earth Forces, has been confirmed dead.</Text>
+    <Text>In recent battle in this aree Garma Zabi, commander of 
+the Zeon Earth Forces, has been confirmed dead.</Text>
   </Block>
   <Block>
     <ID>BR_INFO_C_02</ID>
-    <Text>Gihren Zabi, the commander of the Principality of Zeon, uses this to boost morale.
-He made a worldwide memorial broadcast.</Text>
+    <Text>Gihren Zabi, the commander of the Principality of Zeon, 
+uses funeral to boost morale on worldwide broadcast.</Text>
   </Block>
   <Block>
     <ID>BR_INFO_D_01</ID>
-    <Text>Your basic mission is to collect data during mobile suit operations.
-Scout this ruined area.</Text>
+    <Text>Your basic mission is to collect data during mobile suit 
+operations. Scout this ruined area.</Text>
   </Block>
   <Block>
     <ID>BR_INFO_D_02</ID>
-    <Text>There is a high possibility that enemy forces are currently deployed, but if you encounter them,
-Destroy this.</Text>
+    <Text>There is a high possibility that enemy forces are currently 
+deployed, destroy if encountered</Text>
   </Block>
   <Block>
     <ID>BR_INFO_D_03</ID>
