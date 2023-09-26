@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Texts>
+  <Block>
+    <ID>RESULT_TITLE_01</ID>
+    <Text>RESULTS</Text>
+  </Block>
+  <Block>
+    <ID>BUTTON_INFO_01</ID>
+    <Text>｜∈Skip｜</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_FINISH_TIME</ID>
+    <Text>FINISH TIME</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_TIME_A</ID>
+    <Text>@RESULUT_TIME_A@</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_TIME_B</ID>
+    <Text>@RESULUT_TIME_B@</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_TIME_C</ID>
+    <Text>@RESULUT_TIME_C@</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_TIME_SCORE</ID>
+    <Text>@RESULUT_TIME_SCORE@</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_DEMOLISED</ID>
+    <Text>DEMOLISHED</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_DEMOLISED_SCORE</ID>
+    <Text>@RESULUT_DEMOLISED_SCORE@</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_BONUS</ID>
+    <Text>POINT BONUS</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_BONUS_SCORE</ID>
+    <Text>@RESULUT_BONUS_SCORE@</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_BONUS_SCORE_CROSS</ID>
+    <Text>×@RESULUT_BONUS_SCORE_CROSS@</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_LIFE</ID>
+    <Text>LIFE RECOVER</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_LIFE_SCORE</ID>
+    <Text>@RESULUT_LIFE_SCORE@</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_SPECIAL</ID>
+    <Text>SPECIAL</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_SPECIAL_SCORE</ID>
+    <Text>@RESULUT_SPECIAL_SCORE@</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_TOTAL</ID>
+    <Text>TOTAL SCORE</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_TOTAL_SCORE</ID>
+    <Text>@RESULUT_TOTAL_SCORE@</Text>
+  </Block>
+  <Block>
+    <ID>RESULUT_RANK_FONT</ID>
+    <Text>RANK</Text>
+  </Block>
+</Texts>
