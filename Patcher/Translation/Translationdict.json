@@ -1,0 +1,6559 @@
+[
+  {
+    "ID": "MAP",
+    "Text": "MAP"
+  },
+  {
+    "ID": "STATUS",
+    "Text": "STATUS"
+  },
+  {
+    "ID": "MISSION",
+    "Text": "MISSION"
+  },
+  {
+    "ID": "MS_MANUAL",
+    "Text": "MS MANUAL"
+  },
+  {
+    "ID": "RETRY",
+    "Text": "RETRY"
+  },
+  {
+    "ID": "RETURN_TO_SET-UP",
+    "Text": "RETURN TO\nSET-UP"
+  },
+  {
+    "ID": "QUIT_GAME",
+    "Text": "EXIT GAME"
+  },
+  {
+    "ID": "MS_NAME",
+    "Text": "@MS_NAME@"
+  },
+  {
+    "ID": "HP",
+    "Text": "HP："
+  },
+  {
+    "ID": "FIGHT_WEAPON",
+    "Text": "Melee："
+  },
+  {
+    "ID": "SHOT_WEAPON",
+    "Text": "Ranged："
+  },
+  {
+    "ID": "SUB1",
+    "Text": "ＳＵＢ１："
+  },
+  {
+    "ID": "SUB2",
+    "Text": "ＳＵＢ２："
+  },
+  {
+    "ID": "BEAM",
+    "Text": "Beam："
+  },
+  {
+    "ID": "DOUBLE",
+    "Text": "Two handed："
+  },
+  {
+    "ID": "SHOULDER",
+    "Text": "Shoulder："
+  },
+  {
+    "ID": "SHOOT",
+    "Text": "Ranged："
+  },
+  {
+    "ID": "RELOAD",
+    "Text": "Reload："
+  },
+  {
+    "ID": "FIGHT_WEAPON_NAME",
+    "Text": "@FIGHT_WEAPON_NAME@"
+  },
+  {
+    "ID": "SHOT_WEAPON_NAME",
+    "Text": "@SHOT_WEAPON_NAME@"
+  },
+  {
+    "ID": "SUB1_NAME",
+    "Text": "@SUB1_NAME@"
+  },
+  {
+    "ID": "SUB2_NAME",
+    "Text": "@SUB2_NAME@"
+  },
+  {
+    "ID": "MISSION1",
+    "Text": "@MISSION1@"
+  },
+  {
+    "ID": "MISSION2",
+    "Text": "@MISSION2@"
+  },
+  {
+    "ID": "MISSION3",
+    "Text": "@MISSION3@"
+  },
+  {
+    "ID": "FORMATION",
+    "Text": "FORMATION"
+  },
+  {
+    "ID": "MISSION1_CONTENT",
+    "Text": "@MISSION1_CONTENT@"
+  },
+  {
+    "ID": "MISSION2_CONTENT",
+    "Text": "@MISSION2_CONTENT@"
+  },
+  {
+    "ID": "MISSION3_CONTENT",
+    "Text": "@MISSION3_CONTENT@"
+  },
+  //TODO mission result might require shorter string
+  {
+    "ID": "MS",
+    "Text": "MOBILE SUIT"
+  },
+  {
+    "ID": "MANUAL_PAGE",
+    "Text": "@MANUAL_CONTENT@"
+  },
+  {
+    "ID": "MAP_INF",
+    "Text": "｜≒Select｜∈Cursor｜∋or⊂Back｜"
+  },
+  {
+    "ID": "MAP1_INF",
+    "Text": "｜∈MAP zoom in｜∋Hide cursor｜⊂Back｜"
+  },
+  {
+    "ID": "MAP2_INF",
+    "Text": "｜∈or∋MAP zoom out｜⊂Back｜"
+  },
+  {
+    "ID": "STATUS_INF",
+    "Text": "｜≒Select｜≒←→Pilot Select｜∋or⊂Back｜"
+  },
+  {
+    "ID": "MISSION1_INF",
+    "Text": "｜≒Select｜∋or⊂Back｜"
+  },
+  {
+    "ID": "MISSION2_INF",
+    "Text": "｜≒Select｜∋or⊂Back｜"
+  },
+  {
+    "ID": "MS_INF",
+    "Text": "｜≒Select｜≒←→Page Select｜∋or⊂Back｜"
+  },
+  {
+    "ID": "QUIT_INF",
+    "Text": "｜≒Select｜∈Ok｜∋or⊂Back｜"
+  },
+  {
+    "ID": "PILOT1",
+    "Text": "LEADER"
+  },
+  {
+    "ID": "PILOT2",
+    "Text": "LEFT-WING"
+  },
+  {
+    "ID": "PILOT3",
+    "Text": "RIGHT-WING"
+  },
+  {
+    "ID": "WINDOW_RETRY",
+    "Text": "Start the mission over again.\nAre you sure?"
+  },
+  {
+    "ID": "WINDOW_RETURN",
+    "Text": "We will return to the unit headquarters and try again.\nAre you sure?"
+  },
+  {
+    "ID": "WINDOW_QUIT",
+    "Text": "Quit the game.\nYou will restart from the point where you saved.\nAre you sure?"
+  },
+  {
+    "ID": "WINDOW_QUIT_NO_SAVE",
+    "Text": "Quit the game.\nAre you sure?"
+  },
+  {
+    "ID": "MULTI_Window_YES",
+    "Text": "YES"
+  },
+  {
+    "ID": "MULTI_Window_NO",
+    "Text": "NO"
+  },
+  {
+    "ID": "BEAM_OK",
+    "Text": "○"
+  },
+  {
+    "ID": "BEAM_NG",
+    "Text": "×"
+  },
+  {
+    "ID": "DOUBLE_OK",
+    "Text": "○"
+  },
+  {
+    "ID": "DOUBLE_NG",
+    "Text": "×"
+  },
+  {
+    "ID": "SHOULDER_OK",
+    "Text": "○"
+  },
+  {
+    "ID": "SHOULDER_NG",
+    "Text": "×"
+  },
+  {
+    "ID": "UNIT",
+    "Text": "@UNIT@"
+  },
+  {
+    "ID": "UNIT_TARGET",
+    "Text": "GUARD"
+  },
+  {
+    "ID": "WING",
+    "Text": "@WING@"
+  },
+  {
+    "ID": "ENEMY",
+    "Text": "@ENEMY@"
+  },
+  {
+    "ID": "ENEMY_TARGET",
+    "Text": "TARGET"
+  },
+  {
+    "ID": "WEAPON",
+    "Text": " WEAPON"
+  },
+  {
+    "ID": "SUPPLY",
+    "Text": "SUPPLY POINT"
+  },
+  {
+    "ID": "ESCAPE",
+    "Text": "ESCAPE/MOVE POINT"
+  },
+  {
+    "ID": "MANUAL_1",
+    "Text": "●Shooting\nUse wiimote to target your gun\nLock enemy target with⊆\n\n\n●Melee\nHold ∈ when near enemy\nmelee weapon can be used during lock-on\n取り出しTank type ＭＳ\ncan't perform melee attacks'\n\n●Melee guard\nPress ∈ while fighting (holding ∋)\nto perform melee guard/\nProjectile attack can't be blocked'\n　　　　　　　　　　　　　　ＰＡＧＥ－２"
+  },
+  {
+    "ID": "MANUAL_A",
+    "Text": "              　　Basic action １\n"
+  },
+  {
+    "ID": "MANUAL_2",
+    "Text": "●Sub weapon\nPress ⊃ to switch to subweapon\nPressing it again will switch to main weapon\nFor missles hold ∋\nto perform multi-lock-on\n\n\n●Snipe mode\nPress any ≒ to snipe\nfor increased accuracy at distance\nYou can see enemy status\nbut can't move'\nSome enemy attacks\nwill cancel snipe mode.\n　　　　　　　　　　　　　　ＰＡＧＥ－３"
+  },
+  {
+    "ID": "MANUAL_B",
+    "Text": "              　　Basic action ２\n"
+  },
+  {
+    "ID": "MANUAL_3",
+    "Text": "●Guard parry\nWhen guarding (hold ∈＋∋)\nIf you shake wiimote at precise moment\nparry will happen\nallowing for counter attack\n\n\n●Clash\nIf your and enemy melee attack meete\na contest of strength will occur.\nKeep swinging wiimote\nto win clash\n\n\n　　　　　　　　　　　　　　ＰＡＧＥ－４"
+  },
+  {
+    "ID": "MANUAL_C",
+    "Text": "              　　Advanced action １\n"
+  },
+  {
+    "ID": "MANUAL_4",
+    "Text": "●Part desctruction\nEach part has independent durability\nYou can score more points by destroying parts\nDestroyed part will detach from target\nDestroy parts to disable enemy weapons\n\nYour machine parts will not be destroyed\n\n\n●Headshot\nIn sniper mode（Press ≒\nif you hit enemy's head you will １-shot them\nSometimes headshot will drop enemy weapon\nallowing you to use it\n\n　　　　　　　　　　　　　　ＰＡＧＥ－５"
+  },
+  {
+    "ID": "MANUAL_D",
+    "Text": "              　　Advanced action ２\n"
+  },
+  {
+    "ID": "MANUAL_5",
+    "Text": "●Beam weapons／conventional weapons\nWeapons are categorized into beam and conventional\n\nSome ＭＳ are not capable of using beam weapons\n\n\n●One handed\nMost common shape for both beam and conventional\nmost ＭＳ can use them\nSome weapons have secondary mode\nwhich will override ＳＵＢ２\n\nAs long as such weapon is equipped\nＭＳ ＳＵＢ２ can't be used'\nHave that in mind\n　　　　　　　　　　　　　　ＰＡＧＥ－６"
+  },
+  {
+    "ID": "MANUAL_E",
+    "Text": "              　　About weapons １\n"
+  },
+  {
+    "ID": "MANUAL_6",
+    "Text": "●Shoulder weapon\nBazzoka and rocket launchers are held on shoulder\nIf ＭＳ has shoulder based subweapon \nたsuch weapon can't be held by ＭＳ\nAttacking shoulder weapon deals damage to main body\nShoulder weapon often deal splash damage\nwith explosive warheads\n\n●Two handed\nCan't be equiped with shield'\nIf ＭＳ picks it up, it will discard shield\nShield will not drop\nWhile having great power, range, and velocity\nthey usually can't be used on the move'\nUse with caution\n　　　　　　　　　　　　　　ＰＡＧＥ－７"
+  },
+  {
+    "ID": "MANUAL_F",
+    "Text": "              　　About weapons ２\n"
+  },
+  {
+    "ID": "MANUAL_7",
+    "Text": "●Weapon change\nLook at weapon\nand press ∈ to pick it up\nIf ＭＳ can't use Beam weapon\nit can't pick it up\nTank-type ＭＳ can't pick up weapons'\nHave that in mind\n\n●Supply container\nLook at container\nand press ∈ to resupply\nPress ∈ again to cancel\nEnemy attack will stop resupply\nITs a valuable place for ＭＳ\nthat can't change weapons'\n　　　　　　　　　　　　　　ＰＡＧＥ－８"
+  },
+  {
+    "ID": "MANUAL_G",
+    "Text": "              　About environment １\n"
+  },
+  {
+    "ID": "MANUAL_8",
+    "Text": "●Formation\n※Can't be used in'「ACE PILOT」\nPress ∪ o change formation in battle\nFollowing formations are available\n「Ｖ」wingmans on your flank\nArrow where your ＭＳ is leading\nand dispersed formation where squad fights separately\nFormation affects wingman stats\nPossible changes are\nOffense：\n　Attack up ２０％ Defense down ２０％\nDefense：\n　Defense up ２０％ Attack down ２０％\nNormal：\n　no change\n　　　　　　　　　　　　　　ＰＡＧＥ－９"
+  },
+  {
+    "ID": "MANUAL_H",
+    "Text": "              　About environment ２\n"
+  },
+  {
+    "ID": "MANUAL_9",
+    "Text": "●Radar marker\nCompass is on top of screen and radar on bottom\nRadar displays enemies and allies\non map。\nRadar marker meaning:\n\n"
+  },
+  {
+    "ID": "MANUAL_10",
+    "Text": "：Wingman\n"
+  },
+  {
+    "ID": "MANUAL_11",
+    "Text": "：Ally\n（Not eligible for formation change）\n"
+  },
+  {
+    "ID": "MANUAL_12",
+    "Text": "：Weapon\n"
+  },
+  {
+    "ID": "MANUAL_13",
+    "Text": "：Supply container\n"
+  },
+  {
+    "ID": "MANUAL_14",
+    "Text": "：Attack target\n"
+  },
+  {
+    "ID": "MANUAL_15",
+    "Text": "：Defense target\n"
+  },
+  {
+    "ID": "MANUAL_16",
+    "Text": "：Withdrawal point／Moving point\n"
+  },
+  {
+    "ID": "MANUAL_17",
+    "Text": "　　　　　　　　　　　　　　ＰＡＧＥ－１\n"
+  },
+  {
+    "ID": "MANUAL_18",
+    "Text": "：Enemy\n"
+  },
+  {
+    "ID": "MANUAL_I",
+    "Text": "              　Radar marker\n"
+  },
+  {
+    "ID": "icon_01",
+    "Text": "●"
+  },
+  {
+    "ID": "icon_02",
+    "Text": "§"
+  },
+  {
+    "ID": "icon_03",
+    "Text": "￡"
+  },
+  {
+    "ID": "icon_04",
+    "Text": "▼"
+  },
+  {
+    "ID": "icon_05",
+    "Text": "●"
+  },
+  {
+    "ID": "BAT_OP_TITLE",
+    "Text": "BATTLE OPTION"
+  },
+  {
+    "ID": "BAT_OP_COST",
+    "Text": "Maximum cost"
+  },
+  {
+    "ID": "BAT_OP_COST_VALUE",
+    "Text": "@BAT_OP_COST_VALUE@"
+  },
+  {
+    "ID": "BAT_OPT_MS1",
+    "Text": "MS1:LEADER"
+  },
+  {
+    "ID": "BAT_OPT_MS1_THINK",
+    "Text": "AI Type"
+  },
+  {
+    "ID": "BAT_OPT_MS1_THINK_SELECT",
+    "Text": "Player ＭＳ can't be changed'"
+  },
+  {
+    "ID": "BAT_OPT_MS1_DEFENCE",
+    "Text": "Defense"
+  },
+  {
+    "ID": "BAT_OPT_MS1_DEFENCE_VALUE",
+    "Text": "@BAT_OPT_MS1_DEFENCE_VALUE@％"
+  },
+  {
+    "ID": "BAT_OPT_MS2",
+    "Text": "MS2:RIGHT WING"
+  },
+  {
+    "ID": "BAT_OPT_MS2_THINK",
+    "Text": "AI Type"
+  },
+  {
+    "ID": "BAT_OPT_MS2_THINK_SELECT",
+    "Text": "@BAT_OPT_MS2_THINK_SELECT@"
+  },
+  {
+    "ID": "BAT_OPT_MS2_DEFENCE",
+    "Text": "Defense"
+  },
+  {
+    "ID": "BAT_OPT_MS2_DEFENCE_VALUE",
+    "Text": "@BAT_OPT_MS2_DEFENCE_VALUE@"
+  },
+  {
+    "ID": "BAT_OPT_MS3",
+    "Text": "MS2:LEFT WING"
+  },
+  {
+    "ID": "BAT_OPT_MS3_THINK",
+    "Text": "AI Type"
+  },
+  {
+    "ID": "BAT_OPT_MS3_THINK_SELECT",
+    "Text": "@BAT_OPT_MS3_THINK_SELECT@"
+  },
+  {
+    "ID": "BAT_OPT_MS3_DEFENCE",
+    "Text": "Defense"
+  },
+  {
+    "ID": "BAT_OPT_MS3_DEFENCE_VALUE",
+    "Text": "@BAT_OPT_MS3_DEFENCE_VALUE@"
+  },
+  {
+    "ID": "BAT_OPT_INFO_COST",
+    "Text": "Change cost limit"
+  },
+  {
+    "ID": "BAT_OPT_INFO_THINK",
+    "Text": "Change AI type"
+  },
+  {
+    "ID": "BAT_OPT_INFO_DEFENCE",
+    "Text": "Change defense strength"
+  },
+  {
+    "ID": "OPERATION_TITLE",
+    "Text": "BRIEFING"
+  },
+  {
+    "ID": "OPERATION_MISSION",
+    "Text": "MISSION"
+  },
+  {
+    "ID": "OPERATION_BUTTON_INFO_01",
+    "Text": "｜∈Next｜"
+  },
+  {
+    "ID": "OPERATION_WIN",
+    "Text": "VICTORY"
+  },
+  //TODO check if it has multiple values
+  //{
+  //  "ID": "OPERATION_WIN_CONTENT",
+  //  "Text": "Defeating enemy troops"
+  //},
+  {
+    "ID": "OPERATION_LOSS",
+    "Text": "DEFEAT"
+  },
+  //TODO check if it has multiple values
+  //{
+  //  "ID": "OPERATION_LOSS_CONTENT",
+  //  "Text": "Destroyed your MS"
+  //},
+  {
+    "ID": "OPERATION_COMMENT",
+    "Text": "REMARKS"
+  },
+  //TODO check if it has multiple values
+  //{
+  //  "ID": "OPERATION_COMMENT_CONTENT",
+  //  "Text": "Amuro Ray was caught up in the war on Side 7 and became the pilot of the Gundam.\nHe managed to shake off Char's pursuit and successfully descended to Earth, but it turned out to be within the enemy's sphere of influence"
+  //},
+  {
+    "ID": "BR_SELECT_TITLE_01",
+    "Text": "BRIEFING"
+  },
+  {
+    "ID": "BR_SELECT_BUTTON_INFO_01",
+    "Text": "｜≒Select｜∈Ok｜∋Main Menu｜"
+  },
+  {
+    "ID": "BR_SELECT_HUNGER",
+    "Text": "HANGAR"
+  },
+  {
+    "ID": "BR_SELECT_ROOT",
+    "Text": "HISTORY"
+  },
+  {
+    "ID": "BR_SELECT_OPERATION",
+    "Text": "INTEL"
+  },
+  {
+    "ID": "BR_SELECT_COND",
+    "Text": "OJBECTIVES"
+  },
+  {
+    "ID": "BR_SELECT_SAVE",
+    "Text": "SAVE"
+  },
+  {
+    "ID": "BR_SELECT_LOAD",
+    "Text": "LOAD"
+  },
+  {
+    "ID": "BR_SELECT_HUNGER_INFO",
+    "Text": "Head to hangar to sortie\nPrepare your MS for combat"
+  },
+  {
+    "ID": "BR_SELECT_ROOT_INFO",
+    "Text": "Check the progress route you have followed so far"
+  },
+  {
+    "ID": "BR_SELECT_OPERATION_INFO",
+    "Text": "heck the briefing screen and conversation again\nMake sure you understand the details of the strategy"
+  },
+  {
+    "ID": "BR_SELECT_COND_INFO",
+    "Text": "Check the victory and defeat conditions in a simple display\nMake sure you understand the details of mission"
+  },
+  {
+    "ID": "BR_SELECT_SAVE_INFO",
+    "Text": "Save the story data up to this point"
+  },
+  {
+    "ID": "BR_SELECT_LOAD_INFO",
+    "Text": "Load story data"
+  },
+  {
+    "ID": "BR_SELECT_ROOT_STSL_INFO",
+    "Text": ""
+  },
+  {
+    "ID": "BR_SELECT_SAVE_STSL_INFO",
+    "Text": ""
+  },
+  {
+    "ID": "BR_SELECT_LOAD_STSL_INFO",
+    "Text": ""
+  },
+  {
+    "ID": "BR_SELECT_SAVE_DMY_INFO",
+    "Text": "ue to a problem with the Wii's storage memory, the game cannot be saved."
+  },
+  {
+    "ID": "BR_SELECT_LOAD_DMY_INFO",
+    "Text": "Unable to load due to a problem with the Wii's storage memory."
+  },
+  {
+    "ID": "BR_SELECT_ROOT_DMY",
+    "Text": "－－－"
+  },
+  {
+    "ID": "BR_SELECT_SAVE_DMY",
+    "Text": "－－－"
+  },
+  {
+    "ID": "BR_SELECT_LOAD_DMY",
+    "Text": "－－－"
+  },
+  {
+    "ID": "BR_TITLE_01",
+    "Text": "BRIEFING"
+  },
+  {
+    "ID": "BR_BUTTON_INFO_01",
+    "Text": "｜∈Next｜"
+  },
+  //TODO this probably differs between missions
+  //{
+  //  "ID": "BR_DATA_A_01",
+  //  "Text": "AREA"
+  //},
+  //{
+  //  "ID": "BR_DATA_A_02",
+  //  "Text": "Seattle"
+  //},
+  //{
+  //  "ID": "BR_DATA_B_01",
+  //  "Text": "ZEON CARRIER"
+  //},
+  //{
+  //  "ID": "BR_DATA_B_02",
+  //  "Text": "Gau attack carrier"
+  //},
+  //{
+  //  "ID": "BR_DATA_C_01",
+  //  "Text": "ZEON"
+  //},
+  //{
+  //  "ID": "BR_DATA_C_02",
+  //  "Text": "Garma Zabi\nmemorial service"
+  //},
+  //{
+  //  "ID": "BR_DATA_D_01",
+  //  "Text": "ZEON MS"
+  //},
+  //{
+  //  "ID": "BR_DATA_D_02",
+  //  "Text": "MS-06J"
+  //},
+  //{
+  //  "ID": "BR_INFO_A_01",
+  //  "Text": "SRT-Unit 1 first mission."
+  //},
+  //{
+  //  "ID": "BR_INFO_A_02",
+  //  "Text": "he mission location this time is an abandoned section\nof Seattle, North America."
+  //},
+  //{
+  //  "ID": "BR_INFO_B_01",
+  //  "Text": "Although it is a place with low strategic value, it is \nZeon's largest base. Due to its proximity to California Base"
+  //},
+  //{
+  //  "ID": "BR_INFO_B_02",
+  //  "Text": "As important route for enemy troops\nmany Gau attack carriers have been spotted"
+  //},
+  //{
+  //  "ID": "BR_INFO_C_01",
+  //  "Text": "In recent battle in this aree Garma Zabi, commander of \nthe Zeon Earth Forces, has been confirmed dead"
+  //},
+  //{
+  //  "ID": "BR_INFO_C_02",
+  //  "Text": "Gihren Zabi, the commander of the Principality of Zeon,\nuses funeral to boost morale on worldwide broadcast"
+  //},
+  //{
+  //  "ID": "BR_INFO_D_01",
+  //  "Text": "Your basic mission is to collect data during mobile suit \noperations. Scout this ruined area"
+  //},
+  //{
+  //  "ID": "BR_INFO_D_02",
+  //  "Text": "There is a high possibility that enemy forces are currently \ndeployed, destroy if encountered"
+  //},
+  //{
+  //  "ID": "BR_INFO_D_03",
+  //  "Text": "Well then, I wish you good luck!"
+  //},
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": "∈"
+  },
+  //TODO translate dialog? check if dialog codes are not repeating? they should not, as its voicefile_textline
+  {
+    "ID": "eve002_01",
+    "Text": "僕が「ユニット1」の隊長。　アラン・アイルワード少尉です。\nなんかいきなり実戦部隊として編成されちゃいましたが、それだけ\n期待されているということで、まぁ、頑張っていこう。"
+  },
+  {
+    "ID": "eve003_01",
+    "Text": "部隊のオペレーターを勤めます、ホア･ブランシェット伍長です。\nみなさんが戦闘に集中できるよう、情報収集、解析、伝達などを\n行います。　よろしくお願いします。"
+  },
+  {
+    "ID": "eve004_01",
+    "Text": "デニス・バロウ曹長だ。\nこの部隊で唯一の実戦経験者になるかな。　これからよろしく！\nえ～、特にキュートな女の子たち！"
+  },
+  {
+    "ID": "eve005_01",
+    "Text": "ハハハ…、デニス、色々と頼りにしてるよ。"
+  },
+  {
+    "ID": "eve005b_01",
+    "Text": "まったく…。　よりによって、こんな得体の知れない部隊に\n転属だなんて…。"
+  },
+  {
+    "ID": "eve005b_02",
+    "Text": "私はオーガスタから来た、リル・ソマーズ准尉。\n実戦経験はないけど、MSの操縦にかけてはかなりの腕前よ。"
+  },
+  {
+    "ID": "eve005b_03",
+    "Text": "まぁ、すぐに精鋭部隊から引き抜きがかかると思うけど、\nそれまでよろしく！"
+  },
+  {
+    "ID": "eve006_01",
+    "Text": "オーガスタってことは、テストパイロットあがりか…。\nそいつは期待できそうだ。　公私共によろしく～。"
+  },
+  {
+    "ID": "eve007_01",
+    "Text": "ふん！　馴れ合うつもりはないわ！\nよ･ろ･し･く！"
+  },
+  {
+    "ID": "eve008_01",
+    "Text": "フフフ…、楽しい人ばかりでホッとしました～。"
+  },
+  {
+    "ID": "eve009_01",
+    "Text": "まぁ、僕も含めて、実戦経験のない人が多いけど、\nポテンシャルの高いメンバーだから、経験さえ積めば\n良いチームになれるはずさ。"
+  },
+  {
+    "ID": "eve009_02",
+    "Text": "まずは、今回の任務をバッチリこなして、僕たちが\nライトスタッフであることを上に証明してやろう！"
+  },
+  {
+    "ID": "aln161_01",
+    "Text": "では、各員、出撃準備！"
+  },
+  {
+    "ID": "eve703_01",
+    "Text": "了解！"
+  },
+  {
+    "ID": "test",
+    "Text": "--debug string--"
+  },
+  //TODO mission dependent text
+  //{
+  //  "ID": "BR_INFO_A_03",
+  //  "Text": "近々、我が軍は大きな反攻作戦の実施を計画している。"
+  //},
+  {
+    "ID": "eve034_01",
+    "Text": "というわけで、初勝利の余韻に浸る間もなく新たな任務だ。\nてっきり反攻作戦への参加命令だと思ってたけど、\n小規模な戦闘で済みそうで、一安心ってとこだね。"
+  },
+  {
+    "ID": "eve035_01",
+    "Text": "なにが、一安心よ！\nなんで、せっかくのMS部隊を\n反攻作戦の主力として配備しないのよ！"
+  },
+  {
+    "ID": "eve036_01",
+    "Text": "無理言うなよリルちゃん。　俺らより前から運用試験にあたっている\n部隊だって外されてるんだぜ？\n結局、こっちは未だ主力足りうる練度に達していないってことなのさ。"
+  },
+  {
+    "ID": "eve037_01",
+    "Text": "でも、この前は上手くやったじゃない！\n味方の士気だって上がるはずなのに！"
+  },
+  {
+    "ID": "eve038_01",
+    "Text": "この前の戦果は、敵の油断と、我が軍がMSを持っているはずがない\nという混乱に付け入った勝利でしたから…。\n仕方ないんじゃないかしら？"
+  },
+  {
+    "ID": "eve039_01",
+    "Text": "ちょ、ちょっとホア…。\n私たちの実力じゃないって言いたいの！？"
+  },
+  {
+    "ID": "eve040_01",
+    "Text": "え？　え～と…、そうですけど？\n当然、リルさんレベルのパイロットなら、\n敵に相当の混乱があったことは、気づいているものかと？？？"
+  },
+  {
+    "ID": "eve041_01",
+    "Text": "ムムムム～～～！！！！！"
+  },
+  {
+    "ID": "eve042_01",
+    "Text": "（うわぁ…）\nそ、そりゃあ！　リルくらいにもなれば、当然気づいてたさ！\nねぇ？　当たり前だよね？　リル！　ハ、ハハハハ…。"
+  },
+  {
+    "ID": "eve043_01",
+    "Text": "リ、リルちゃんが言いたいのは、前回の戦闘と同様に、こっちにMSが\nあることで敵のメンタル面を攻めないのはおかしいってことだよな！\nな！？　さっすが、リルちゃん！　いやぁ～、考えが深いなぁ～！"
+  },
+  {
+    "ID": "eve044_01",
+    "Text": "あ、あったりまえじゃない！\n優秀なパイロットたるもの、常に戦術、戦略レベルまで\n想定しているものよ！　ちょ、ちょっと試しただけだからっ！"
+  },
+  {
+    "ID": "eve045_01",
+    "Text": "な～んだ。　さすがリルさん。\nでも、レビル将軍は大局を見極められる方ですから、\nきっと、切り札はまだ使い時ではないとお考えなんですよ。"
+  },
+  {
+    "ID": "eve046_01",
+    "Text": "だね。　無理な制圧地区拡大のせいで、\nジオンの地上部隊は、補給もままならない状態だから…。"
+  },
+  {
+    "ID": "eve047_01",
+    "Text": "たとえ犠牲が多く出ても、現行戦力を使った物量戦で\n十分にやれるという判断だろうな。\nもっとも、その後は俺たちが相当頑張らなくちゃならんだろうけど。"
+  },
+  {
+    "ID": "eve048_01",
+    "Text": "あぁ。　そのためにも、今は少しでも経験値を積んで、\n切り札になりうる実力をつけないと。\nじゃあ、そろそろ行こうか。　各員出撃準備！"
+  },
+  {
+    "ID": "eve704_01",
+    "Text": "了解！"
+  },
+  //TODO per mission
+  //{
+  //  "ID": "BR_INFO_C_03",
+  //  "Text": "ミデア輸送機にて、敵勢力圏へと強行突入し、降下。\n敵部隊を強襲せよ。"
+  //},
+  //{
+  //  "ID": "BR_INFO_D_04",
+  //  "Text": "では、健闘を祈る！"
+  //},
+  {
+    "ID": "eve068_01",
+    "Text": "オデッサ作戦決行の為の陽動ってことだったんだけど、\nウチは運悪く、危険度の高い任務を引き当てちゃったね。\nオデッサ方面へ移動する敵部隊に対しての単独強襲任務だもんな。"
+  },
+  {
+    "ID": "eve069_01",
+    "Text": "やったじゃない！\n他の部隊より、ウチが当てにされている…、\n認められてるってことでしょ？"
+  },
+  {
+    "ID": "eve070_01",
+    "Text": "それか、潰れてもいいってことだな。"
+  },
+  {
+    "ID": "eve071_01",
+    "Text": "うっわ！　ネガティヴなこと言わないでよ！"
+  },
+  {
+    "ID": "eve072_01",
+    "Text": "敵勢力圏への強行突入ですから、\n今までとはケタ違いに危険な任務ですよ。"
+  },
+  {
+    "ID": "eve073_01",
+    "Text": "うん。　確かに危険だね。\nただ、逆にそこが付け入る隙になるはずだし、勝機はあるさ。\nなぁに、大丈夫。　僕たちならやれるよ。"
+  },
+  {
+    "ID": "eve074_01",
+    "Text": "そうよ！　私たちならやれるわ！　名を上げる絶好のチャンス\nじゃない！　みんなも「２つ名」を考えておいたほうがいいわよ。\n私の「ポイズン・アップル」みたいなやつ！"
+  },
+  {
+    "ID": "eve075_01",
+    "Text": "うわぁ～、素敵ですね～。\nリルさんにピッタリ！"
+  },
+  {
+    "ID": "eve076_01",
+    "Text": "褒めてるのか、けなしてるのか分からないな…。\nまぁ、俺らならやれるってことを信じるしかないな。"
+  },
+  {
+    "ID": "eve076_02",
+    "Text": "気持ちが折れたらそれまでさ。\n危険だなんだっていうなら、いつもそうだしな。"
+  },
+  {
+    "ID": "eve077_01",
+    "Text": "そうそう。　今回の作戦は、ある意味凄くシンプルだよ。\nビューっと降下して、油断してる敵をババババっとやっつけて、\nヒューーっと帰ってくるだけだからね。"
+  },
+  {
+    "ID": "eve078_01",
+    "Text": "そうそう！　分かってるじゃん、アラン。\nあなたの２つ名は…そうねぇ…\n「ひょうひょうたる家猫」とかどう？"
+  },
+  {
+    "ID": "eve079_01",
+    "Text": "う～ん。　…遠慮しとく。"
+  },
+  {
+    "ID": "eve080_01",
+    "Text": "ま、みんなも実戦を経験して分かったと思うけど、\n戦場ってのは、いつ何が起こるかなんて分かりゃしない。"
+  },
+  {
+    "ID": "eve080_02",
+    "Text": "命令は可能な限り守るけど、いざとなれば俺は、\n自分で見て、決めて、動く。"
+  },
+  {
+    "ID": "eve081_01",
+    "Text": "うん。　それでいいと思うよ。\nそれじゃ、ユニット1、各員出撃準備！"
+  },
+  {
+    "ID": "eve705_01",
+    "Text": "了解！"
+  },
+  //TODO per  mission
+  //{
+  //  "ID": "BR_INFO_A_04",
+  //  "Text": "次期主力足りうると判断した結果といえよう。"
+  //},
+  {
+    "ID": "eve502",
+    "Text": "オデッサ作戦決行のための、陽動ってことだったんだけど、\nウチはさらに後方での、火消し役を仰せつかったってことになるな。\n長い目で見れば、重要な任務なのには違いないね。"
+  },
+  {
+    "ID": "eve503",
+    "Text": "う～ん。　微妙なとこだけど、新装備も回して貰えたし、\n期待されてるって考えていいよね？"
+  },
+  {
+    "ID": "eve504",
+    "Text": "MS実験部隊や、SRTの他のユニットなんかじゃ、すでに結構な被害が\n出てるようだから、ウチは上手くやってるほうさ。"
+  },
+  {
+    "ID": "eve505",
+    "Text": "民間人が運用しているって噂の、ホワイトベース隊の活躍に\n比べれば、かすんでしまいますけどね。"
+  },
+  {
+    "ID": "eve506",
+    "Text": "え～～！？　ホア…、アナタあんな噂話を信じてるの？\n普通に考えて、ありえないでしょ。"
+  },
+  {
+    "ID": "eve507",
+    "Text": "そうですか？　色んな情報を統合すると、真実に思えますけど。\n我軍のMSの制御ソフトには、ホワイトベース隊所属の「ガンダム」\nのデータがフィードバックされてますし。"
+  },
+  {
+    "ID": "eve508",
+    "Text": "おいおい、ホアちゃん…。\n一体そんな情報どこから仕入れて来るんだい？\nどう考えても機密っぽい内容だけど…。"
+  },
+  {
+    "ID": "eve509",
+    "Text": "フフフ…、ちょちょいのちょいっと！ですよ。\n詳しくは企業秘密です。"
+  },
+  {
+    "ID": "eve510",
+    "Text": "うはぁ、物騒だねぇ～。\nま、聞かなかったことにしとくよ。"
+  },
+  {
+    "ID": "eve511",
+    "Text": "MSの制御ソフトや、対MS戦の解析データなんかは、確かに\nここ1、2ヶ月で突然進歩したよね。\n僕も実はファンなんだよ。　ホワイトベースの。"
+  },
+  {
+    "ID": "eve512",
+    "Text": "はぁ…、ミーハーというか、モノ好きというか…。\nとにかく！\n私たちも戦場の語り草になるくらいの活躍をしなきゃね！"
+  },
+  {
+    "ID": "eve513",
+    "Text": "ハハハ、大きく出たなぁ。\nまぁ、生き残ってる限りは、その資質十分ってことさ。"
+  },
+  {
+    "ID": "eve514",
+    "Text": "そうそう。　どうせこれからどんどん戦争は激化して、\n危ない任務も増えるんだし。\nとにかく、1戦1戦を確実にこなして、生き残ることが大事だよ。"
+  },
+  {
+    "ID": "eve515",
+    "Text": "ま、まぁ、別にそんな焦ってるわけじゃないのよ？\nどうせ、終戦の頃には、ジオンの「赤い彗星」ばりの、\nメジャーなエースになるでしょうから。"
+  },
+  {
+    "ID": "eve516",
+    "Text": "期待してるよ。　リル。\nそれじゃ、ユニット1。　各員出撃準備！"
+  },
+  {
+    "ID": "eve702",
+    "Text": "了解！"
+  },
+  {
+    "ID": "eve090",
+    "Text": "オデッサ作戦は、ほぼ順調に進行してるみたいだね。"
+  },
+  {
+    "ID": "eve091",
+    "Text": "まぁ、ここに来て攻めあぐねてるみたいだが…。"
+  },
+  {
+    "ID": "eve092",
+    "Text": "でも、物量の差は歴然じゃない。\nあと一日もあれば、押し切れるわよ。"
+  },
+  {
+    "ID": "eve093",
+    "Text": "で、その最後の一押しをするための後方予備戦力を\n僕らが護衛するわけだ。"
+  },
+  {
+    "ID": "eve094",
+    "Text": "フッフッフ…、ついに上層部も私の実力を認めたってわけね。\nアンタたちも腕は悪くないんだから、バッチリアピールしないと\n損するわよ。"
+  },
+  {
+    "ID": "eve095",
+    "Text": "フフ…、リルさんは相変わらず野心的ですね。\n私は、今もジャブローとかから誘われたりしてますけど、\nこのチームが好きなんで。　今までどおり地道に頑張りますね。"
+  },
+  {
+    "ID": "eve096",
+    "Text": "ジャ…ジャブローから誘われてるんだ…。\nふぅ～ん、ホアも結構やるじゃない。"
+  },
+  {
+    "ID": "eve097",
+    "Text": "そういや、隊長もこの前お誘いがかかってたろ？\n受けないのかい？"
+  },
+  {
+    "ID": "eve098",
+    "Text": "さすがデニスは情報通だなぁ。　でも、僕は地球が好きなんでね。\nフェーベ所属のMS隊じゃ、宇宙に上がることになるだろうから。　\n苦手なんだよねぇ…、無重力のプカっとした感じ。"
+  },
+  {
+    "ID": "eve099_01",
+    "Text": "な！？　フェーベって…\nレビル将軍が乗艦予定の主力艦隊の旗艦じゃない！\nあ、あんた！　なに断わってんのよ！！"
+  },
+  {
+    "ID": "eve099_02",
+    "Text": "「プカっ」が苦手とか…\nアンタのそのプカっとした性格をまずなんとかしなさいよ！\nバッカじゃない！？　ハァハァハァ…。"
+  },
+  {
+    "ID": "eve100_01",
+    "Text": "ま、まぁまぁ、リルちゃん。　落ち着いて。　\nフェーベが旗艦の予定とかって、すごい重要機密だから、\nそんな大声で言っちゃダメね…。"
+  },
+  {
+    "ID": "eve100_02",
+    "Text": "あと。\n一応、隊長なんだから、アンタとかバカとか言っちゃダーメ。"
+  },
+  {
+    "ID": "eve101_01",
+    "Text": "ハハハ…。　この部隊の人は、みんな情報通で困るなぁ。\nいやぁ、参った参った。"
+  },
+  {
+    "ID": "eve101_02",
+    "Text": "リル。　このチームは絶対凄く良いチームになるから、\nもう少し我慢してね。　あんまり焦ってもいいことないからね。\n冷静に、堅実に、地道に…ね？"
+  },
+  {
+    "ID": "eve102",
+    "Text": "さて、では、我隊の輝ける歴史に、また1つ大戦果を加えるべく、\nそろそろ出撃しよう！"
+  },
+  {
+    "ID": "eve703",
+    "Text": "了解！"
+  },
+  {
+    "ID": "eve131",
+    "Text": "ふぅ、オデッサ作戦に勝利したってのに、ご褒美どころか\n代役の任務を仰せつかりました～。"
+  },
+  {
+    "ID": "eve132",
+    "Text": "さすがに、こう続けての出撃はキツイなぁ…。"
+  },
+  {
+    "ID": "eve133",
+    "Text": "この前の戦いでは、リルちゃんがやらかしてくれたからなぁ。"
+  },
+  {
+    "ID": "eve134",
+    "Text": "うぅ…。　悪かったわよ…、ホントに。"
+  },
+  {
+    "ID": "eve135",
+    "Text": "デニスさん、もうそのことはいいじゃないですか。\n本人も反省してますし。\nもう一度やったら、その時は…ね？"
+  },
+  {
+    "ID": "eve136",
+    "Text": "ぜ、ぜったい二度といたしませんっっ！！"
+  },
+  {
+    "ID": "eve137",
+    "Text": "まぁまぁ、みんな。\nリルも聞き分けの良い子になったから、そのくらいでね。"
+  },
+  {
+    "ID": "eve138",
+    "Text": "あぁ…、この連中ならこうなることは予測できたはずなのに…。\nし、死にたい…。"
+  },
+  {
+    "ID": "eve139",
+    "Text": "しかしまぁ、今後はMS隊が主力として扱われるようになっていく\nから、新設部隊の練度が安定するまでは、一層忙しくなるぞ。"
+  },
+  {
+    "ID": "eve140",
+    "Text": "そうだね。\nそれに、敗走する部隊への追撃や掃討が主な任務になる…。"
+  },
+  {
+    "ID": "eve141",
+    "Text": "スコア稼ぎのチャンス！\n…なんて楽観は、とてもできないわね。\n弱い者イジメみたいで、気分良くない…。"
+  },
+  {
+    "ID": "eve142",
+    "Text": "それでも僕らは兵士だ。\n敗走する部隊は、各地に戦火を撒き散らす…。\n野放しにすれば、民間人に被害が及ぶからね。"
+  },
+  {
+    "ID": "eve143",
+    "Text": "そんなこと、絶対に許せないです。"
+  },
+  {
+    "ID": "eve144",
+    "Text": "うん。　さて、それじゃ、そろそろ行くよ。\nユニット1、出撃準備！"
+  },
+  {
+    "ID": "eve706",
+    "Text": "了解！"
+  },
+  {
+    "ID": "eve532",
+    "Text": "いやぁ、随分と思い切った任務に抜擢されたもんだね。"
+  },
+  {
+    "ID": "eve533",
+    "Text": "しかし、まぁ、敵部隊に対して先回りが出来ることと、\nあくまでもガウの破壊が目的で、目的達成後に離脱して\nいいってんなら、なんとかなりそうだな。"
+  },
+  {
+    "ID": "eve534",
+    "Text": "支援砲撃はあまりアテになりそうに無いけど、\nでもまぁ、敵を攪乱するくらいの効果はあるだろうしね。"
+  },
+  {
+    "ID": "eve535",
+    "Text": "上も、ようやくMS隊の有効性を認めたって解釈していいのかな？"
+  },
+  {
+    "ID": "eve536",
+    "Text": "そうだね。\nでも、今までのように敵に対するメンタル面への効果は、\nあまりないと思っておいたほうがいいだろうね。"
+  },
+  {
+    "ID": "eve537",
+    "Text": "指揮系統が乱れているといっても、すでに、各地での目撃情報は\n浸透し始めているでしょうしね。"
+  },
+  {
+    "ID": "aln161",
+    "Text": "では、各員、出撃準備！"
+  },
+  {
+    "ID": "eve700",
+    "Text": "了解！"
+  },
+  {
+    "ID": "eve149",
+    "Text": "というわけで、次の戦地は北の外れの雪原だね。"
+  },
+  {
+    "ID": "eve150",
+    "Text": "うぅ…。　わたし寒いの苦手です～。"
+  },
+  {
+    "ID": "eve151",
+    "Text": "女の子は冷え性だからなぁ。\nいつでも俺が暖めてやるよ？"
+  },
+  {
+    "ID": "eve152",
+    "Text": "最低ね。"
+  },
+  {
+    "ID": "eve153",
+    "Text": "最低です。"
+  },
+  {
+    "ID": "eve154",
+    "Text": "わ、悪かったって…。\nそんな冷めたリアクションするなよ…。"
+  },
+  {
+    "ID": "eve155",
+    "Text": "ま、まぁ、MSも指揮所も暖房は効くから…。"
+  },
+  {
+    "ID": "eve156",
+    "Text": "でも、寒いものは寒いです～。"
+  },
+  {
+    "ID": "eve157",
+    "Text": "オーガスタの技研でも、MS戦闘における最大の敵は、\n苛酷な自然環境だって、技術屋さんが泣いてたわね…。"
+  },
+  {
+    "ID": "eve158",
+    "Text": "寒冷地は、ある意味砂漠より怖いからね…。"
+  },
+  {
+    "ID": "eve159",
+    "Text": "マシントラブルで暖房が止まったら、凍死しちまうよなぁ。\nハッハッハ…。"
+  },
+  {
+    "ID": "eve160",
+    "Text": "うぅ…、そうなったら、デニスさんに人力発電してもらいます\nからね。　えーっと、予備の発電機と自転車とムチ…\nあと、足かせはどこにあったかなぁ…。"
+  },
+  {
+    "ID": "eve161",
+    "Text": "ほ、ホアさん…、本気で探すのはやめて下さい。"
+  },
+  {
+    "ID": "eve162",
+    "Text": "はいはい。　そろそろ行くよ。\nユニット1、出撃準備！"
+  },
+  {
+    "ID": "eve707",
+    "Text": "了解！"
+  },
+  {
+    "ID": "eve546",
+    "Text": "建造物が密集した市街地での戦闘は、初になるね。"
+  },
+  {
+    "ID": "eve547",
+    "Text": "人はいませんが、街はほぼ原形をとどめているようです。\nビルを遮蔽物にして、うまく戦う必要がありそうですね。"
+  },
+  {
+    "ID": "eve548",
+    "Text": "行動が制限されるフィールドでは、戦車でさえ\n結構な脅威になるな。"
+  },
+  {
+    "ID": "eve549",
+    "Text": "MSは機動戦がウリなのに、それが生かせないなら、\nただの大きな的だもんね。"
+  },
+  {
+    "ID": "eve550",
+    "Text": "防衛目標のガンタンクだけど、かなり広域に配置されてるから、\n僕らの管轄区域からすると、二手に分かれないとフォローでき\nないね。　リルとデニスで組んでもらって、僕は単独行動だな。"
+  },
+  {
+    "ID": "eve551",
+    "Text": "俺が単独でも構わないが…。\nいや、隊長のほうが適任だろうな。"
+  },
+  {
+    "ID": "eve552",
+    "Text": "そうさせてもらうよ。"
+  },
+  {
+    "ID": "eve553",
+    "Text": "じゃあ、そろそろ行くよ。\nユニット1、出撃準備！"
+  },
+  {
+    "ID": "eve177",
+    "Text": "知っての通り、ベルファスト基地は連邦軍の重要拠点の1つだ。\n今回はあまり余裕が無いから、準備が出来次第すぐに向かう。"
+  },
+  {
+    "ID": "eve178",
+    "Text": "ここまでなりふり構わずの行動をとられると、\n気の毒にさえ思えるわね。"
+  },
+  {
+    "ID": "eve179",
+    "Text": "俺には、地道な情報収集の上で勝機を見出したからこその\n行動に思えるがな…。　連邦の前線部隊全体に、浮かれムードが\nあるのを見透かしての襲撃だろ？"
+  },
+  {
+    "ID": "eve180",
+    "Text": "う…。　た、確かにオデッサの勝利で優勢になったからって、\n浮かれてる人たち多いよね。"
+  },
+  {
+    "ID": "eve181",
+    "Text": "ビンソン計画によって宇宙艦隊の再建が終わり、宇宙への反撃が\n開始されたところで、ようやく対等になると思うべきだろうね。"
+  },
+  {
+    "ID": "eve182",
+    "Text": "と、議論は後で。\nユニット1、出撃だ！"
+  },
+  {
+    "ID": "eve568",
+    "Text": "僕たちはこれより、エリア526の渓谷に向かう。"
+  },
+  {
+    "ID": "eve569",
+    "Text": "遭難した輸送機の捜索かぁ。"
+  },
+  {
+    "ID": "eve570",
+    "Text": "こんな無茶をして行かせるくらいだから、よっぽど重要な物資を\n積載していたんだろうな。"
+  },
+  {
+    "ID": "eve571",
+    "Text": "なんだろう…？　新型のMSとかかな？"
+  },
+  {
+    "ID": "eve572",
+    "Text": "詳細は機密だそうですよ。\nそれより、到着予定時刻からすると、現場は濃霧に包まれている\n頃だと思います。　視界が悪いのは厳しいですね。"
+  },
+  {
+    "ID": "eve573",
+    "Text": "そうだね。\nそれに、墜落自体が敵の攻撃によるものなら、鉢合わせになる\n可能性もあるから、十分注意していこう。"
+  },
+  {
+    "ID": "eve192",
+    "Text": "緊急事態だ！\nジオンの大部隊が、このジャブローに迫っている。\n僕たちも地上に出て迎撃。　基地施設の防衛にあたるぞ！"
+  },
+  {
+    "ID": "eve193",
+    "Text": "最後の大勝負をしかけてきたってわけね…。"
+  },
+  {
+    "ID": "eve194",
+    "Text": "くそ、まさかジャブローの位置が特定されるとはなぁ…。\nホワイトベースめ、つけられたな？"
+  },
+  {
+    "ID": "eve195",
+    "Text": "見た目も戦歴も、とにかく目立つフネですから…。"
+  },
+  {
+    "ID": "eve196",
+    "Text": "この後、宇宙艦隊の打ち上げを派手に行えば、\nどうせ見つかっただろうけど…。"
+  },
+  {
+    "ID": "eve197",
+    "Text": "そう。　その前に見つかったってのは意味合いが全然違う…。\nヘタをすれば、打ち上げ時の無防備な艦隊を攻撃される恐れも\nあるからなぁ…。"
+  },
+  {
+    "ID": "eve198",
+    "Text": "でも、敵は宇宙艦隊打ち上げ計画を知らない…。"
+  },
+  {
+    "ID": "eve199",
+    "Text": "だから、それを待たずに、今攻めてきた。"
+  },
+  {
+    "ID": "eve200",
+    "Text": "そういうことだ。\nこの敵を退けて、宇宙反攻作戦の主力艦隊とMS隊を送り出すのは、\n地上を任された僕たちの責務だ。　絶対に食い止めるぞ！"
+  },
+  {
+    "ID": "aln172",
+    "Text": "ユニット1、出撃準備だ！"
+  },
+  {
+    "ID": "eve701",
+    "Text": "了解！"
+  },
+  {
+    "ID": "eve214",
+    "Text": "敵は、予想以上に内部まで浸透しているようだ。"
+  },
+  {
+    "ID": "eve215",
+    "Text": "地下水脈を使って侵入した、工作隊の存在が\n大きかったようです。"
+  },
+  {
+    "ID": "eve216",
+    "Text": "指揮系統が混乱してないのが救いだな。"
+  },
+  {
+    "ID": "eve217",
+    "Text": "新米パイロットたちじゃ、やっぱりジオンの相手は\n無理みたいね。"
+  },
+  {
+    "ID": "eve218",
+    "Text": "俺たちは、本部施設の護衛をしつつ、同区画の敵を排除する。"
+  },
+  {
+    "ID": "eve219",
+    "Text": "そういえば、さっきのアムロくんとの会話の時から、「俺」とか\n言ってるわよね？"
+  },
+  {
+    "ID": "eve220",
+    "Text": "茶化すなよ、リル。\n正規部隊だって頼りになるってとこを見せてやらなきゃ、\n彼は頑張りすぎで、危なっかしいんだよ…。"
+  },
+  {
+    "ID": "eve221",
+    "Text": "ガラじゃないけど、そのほうが、ずっと「らしい」わよ？\nアラン隊長。　フフフ…。"
+  },
+  {
+    "ID": "eve222",
+    "Text": "ほ、ほら！　時間がないぞ！\nユニット1、再出撃だ！"
+  },
+  {
+    "ID": "",
+    "Text": ""
+  },
+  {
+    "ID": "eve244",
+    "Text": "この期におよんで、新鋭機のテストとはね。\nまぁ、実力を認められたからこその任務だけど…。"
+  },
+  {
+    "ID": "eve245",
+    "Text": "新鋭機も興味あるけど、もう少しジャブローにいられれば、\n壮大な宇宙艦隊発進を間近で見られたのにぃ…。"
+  },
+  {
+    "ID": "eve246",
+    "Text": "あぁ。　俺も観たかったなぁ…。"
+  },
+  {
+    "ID": "eve247",
+    "Text": "さぞかし凄いんでしょうねぇ…。"
+  },
+  {
+    "ID": "eve248",
+    "Text": "俺だって観たかったよぉ…。"
+  },
+  {
+    "ID": "eve249",
+    "Text": "今回テストする機体が使えれば、宇宙、地上共に、\n今後の戦いが楽になるはずですよ。\nさ、気分を変えていきましょ！"
+  },
+  {
+    "ID": "eve250",
+    "Text": "だね。　じゃ、とりあえず模擬戦の指定地区に移動しようか。\nユニット1、出撃！"
+  },
+  {
+    "ID": "eve708",
+    "Text": "了解！"
+  },
+  {
+    "ID": "eve583",
+    "Text": "というわけで、雪原地帯で孤立している友軍の救助隊に\n同行することになった。"
+  },
+  {
+    "ID": "eve584",
+    "Text": "寒冷地は、MSにとっては、ある意味砂漠より怖いからね。\nこれもMS運用の、データ収集の一環だと思ってくれよ。"
+  },
+  {
+    "ID": "eve585",
+    "Text": "戦略的価値もないそんな場所にいるなんて、\n敵はやっぱりオデッサあたりからの敗走部隊なのかな？"
+  },
+  {
+    "ID": "eve586",
+    "Text": "そうなりますかね。　今、ジオンは無駄に戦火を広げてます…。\nしかも、指揮系統が機能していないせいで、盗賊のように\n民間人からの略奪行為に及ぶ部隊もあるそうです。　許せません。"
+  },
+  {
+    "ID": "eve587",
+    "Text": "もはや、軍隊とは呼べないな…。"
+  },
+  {
+    "ID": "eve588",
+    "Text": "戦火が飛び火するなら、俺たちがその火消しをするまでだよ。\nじゃ、そろそろ行くよ。　ユニット1、出撃準備！"
+  },
+  {
+    "ID": "eve266",
+    "Text": "近日実施予定の、アフリカ大陸への大規模掃討作戦に向けて、\n参加部隊がオデッサに集結中だ。　しかし、その背面にあたる\n地区に、ジオンの敗走部隊が潜伏しているとの情報が入った。"
+  },
+  {
+    "ID": "eve267",
+    "Text": "私たちに、その敵を捜索、殲滅しろってわけね。"
+  },
+  {
+    "ID": "eve268",
+    "Text": "この状況下で、部隊としての機能を維持しているってことは、\n敵の部隊指揮官は、相当のてだれだな…。"
+  },
+  {
+    "ID": "eve269",
+    "Text": "補給もままならず、絶望的ともいえる状況下で、死を覚悟\nするような戦闘を強いるわけですからね…。"
+  },
+  {
+    "ID": "eve270",
+    "Text": "そうだ。\n今回の敵は、かなり手ごわいと思っていいだろう。"
+  },
+  {
+    "ID": "eve271",
+    "Text": "気を引き締めていかないと、こっちがやられる…か。"
+  },
+  {
+    "ID": "eve272",
+    "Text": "本部じゃ、地上の掃討作戦は、もう消化試合程度に\n考えてるからな。\n最後の詰めにこそ、戦力を余剰投入するべきなのによ。"
+  },
+  {
+    "ID": "eve273",
+    "Text": "大きな反撃もできない地上の残党を後回しにして、宇宙に戦力を\n集中…、一気に終戦させたいっていう、レビル将軍の思惑は\n分かるけどね。"
+  },
+  {
+    "ID": "eve274",
+    "Text": "ジャブローに残って、地上部隊を指揮してる方々には、\n利己主義の狸さんが多いですから。"
+  },
+  {
+    "ID": "eve275",
+    "Text": "ハハハ…。　せいぜい化かされて、命まで落とすことにならないよう\n気をつけるさ。　この戦争はもうすぐ終る…。\n全員生き残ろう！　ユニット1、出撃だ！"
+  },
+  {
+    "ID": "eve604",
+    "Text": "北極基地から、宇宙への物資打ち上げが行われる。\nこの基地は先日、ジオンの攻撃を受けて、守備隊にかなりの\n損害が出たようだね。"
+  },
+  {
+    "ID": "eve605",
+    "Text": "守備隊の代役で、打ち上げを警護するってわけね？"
+  },
+  {
+    "ID": "eve606",
+    "Text": "我ら広域特殊対応部隊も、ついに北の果てまで足を延ばすように\nなったかぁ。"
+  },
+  {
+    "ID": "eve607",
+    "Text": "看板に偽りなしってことさ。"
+  },
+  {
+    "ID": "eve608",
+    "Text": "一度襲撃を受けたってことは、位置や規模は、\n敵に知られてるってことね？"
+  },
+  {
+    "ID": "eve609",
+    "Text": "今の地上部隊の混乱からすると、そこは五分五分だな。\nしかし、噂が広がるのが速いのは世の常だしな。"
+  },
+  {
+    "ID": "eve610",
+    "Text": "それより、また寒い場所なんですよ～。\nそっちのほうが問題ですよ～。"
+  },
+  {
+    "ID": "eve611",
+    "Text": "…ホアの寒がりにも困ったもんだなぁ。"
+  },
+  {
+    "ID": "eve612",
+    "Text": "それほど長居はしないから、我慢してね？\nよし、ユニット1、出撃だ！"
+  },
+  {
+    "ID": "eve709",
+    "Text": "了解！"
+  },
+  {
+    "ID": "eve298",
+    "Text": "アフリカ掃討作戦の滑り出しは順調だね。\nここからの送り出しも、さっき入ってきたビッグ･トレーが\n最終便だ。"
+  },
+  {
+    "ID": "eve299",
+    "Text": "しかしまぁ、投入されるMS隊のほとんどが、宇宙に向けて送り\n出される予定の素人とはな…。\nこりゃ、無駄に損害が増えるだろうな…。"
+  },
+  {
+    "ID": "eve300",
+    "Text": "実際の主力は、航空部隊になるようです。\n結局のところ、物量での力技ですね。"
+  },
+  {
+    "ID": "eve301",
+    "Text": "ほんと、そういう旧体制的なとこは変わらないわねぇ…。"
+  },
+  {
+    "ID": "eve302",
+    "Text": "MS隊に関しては、ただ戦場の雰囲気に慣れさせたいって\nだけだろうね。\nきっと、敵を囲んで立ってるだけとかだよ。"
+  },
+  {
+    "ID": "eve303",
+    "Text": "まぁ、それが正解だな。"
+  },
+  {
+    "ID": "eve304",
+    "Text": "さて、そろそろ交代時間だな。\nユニット1、出撃準備だ！"
+  },
+  {
+    "ID": "eve629",
+    "Text": "シアトルか…。\n俺たちの初任務の場所だね。"
+  },
+  {
+    "ID": "eve630",
+    "Text": "リルちゃんの尖がり具合が、懐かしいねぇ～。"
+  },
+  {
+    "ID": "eve631",
+    "Text": "ご希望ならデニスの相手は、そっちでやってあげようか？\nんん？"
+  },
+  {
+    "ID": "eve632",
+    "Text": "いやぁ…、遠慮しておくよ…。"
+  },
+  {
+    "ID": "eve633",
+    "Text": "リルは、本当に丸くなったものねぇ。"
+  },
+  {
+    "ID": "eve634",
+    "Text": "丸くなったっていうのはヤメテ！！\n違う意味に聞こえるでしょ！？"
+  },
+  {
+    "ID": "eve635",
+    "Text": "あ！　ごめん、ごめん！　最近気にしてたもんね…。"
+  },
+  {
+    "ID": "eve636",
+    "Text": "（くぅ～。　この、天然悪魔っ子めぇ……。）"
+  },
+  {
+    "ID": "eve637",
+    "Text": "で、肝心の任務だけど…。\nあの廃墟は、確かに潜伏するには最適だよな。"
+  },
+  {
+    "ID": "eve638",
+    "Text": "あぁ。　間違いなく敵の部隊がいるはずだ。\n待ち伏せてる敵の中に入ることになる。\n十分注意していこう。"
+  },
+  {
+    "ID": "eve322_01",
+    "Text": "アフリカ掃討作戦に、ケリをつけるための増援部隊が、\n間もなくインド洋沿岸に到着予定だ。"
+  },
+  {
+    "ID": "eve322_02",
+    "Text": "上陸時、部隊は密集状態で無防備になる。\nギャロップや、ダブデなどの大型陸戦艇からの砲撃は、\n最大の脅威となるわけだ。"
+  },
+  {
+    "ID": "eve323",
+    "Text": "私たちが強襲する基地には、\nギャロップ、ダブデが、1輌ずつ確認されています。"
+  },
+  {
+    "ID": "eve324",
+    "Text": "とにかく、それを潰せばいいんだな？"
+  },
+  {
+    "ID": "eve325",
+    "Text": "でも、私たちの小隊だけでなんて、結構無謀よね。"
+  },
+  {
+    "ID": "eve326",
+    "Text": "そうだな。\n一応、支援爆撃があるが、大した効果は期待できないだろうね。"
+  },
+  {
+    "ID": "eve327",
+    "Text": "陸戦艇の破壊後は、無理に戦闘せずに、\n合流ポイントに向かってください。\nミデアがピックアップして脱出します。"
+  },
+  {
+    "ID": "eve328",
+    "Text": "もちろん、状況次第では、\n俺たちだけで基地を攻略してもいいんだけどね。"
+  },
+  {
+    "ID": "eve329",
+    "Text": "欲を出すと、ロクなこと無いわよ？　ハハハ…。"
+  },
+  {
+    "ID": "eve330",
+    "Text": "ちゃんと覚えてて良かったよ。\nリルから、それを聞いて少し安心した。"
+  },
+  {
+    "ID": "eve331",
+    "Text": "多分この任務が、俺たちの、この戦争最後の大仕事になる。\n絶対に全員で、生きて帰るぞ。\nでは、ユニット1、出撃だ！"
+  },
+  {
+    "ID": "eve648",
+    "Text": "よし、いよいよ決戦だぞ。"
+  },
+  {
+    "ID": "eve649",
+    "Text": "突入の先陣を切るなんて…。　ワクワクするわ！"
+  },
+  {
+    "ID": "eve650",
+    "Text": "また、そんなこと言って…。　一番危険な仕事ですよ？"
+  },
+  {
+    "ID": "eve651",
+    "Text": "しかしまぁ、敵の防衛戦力は、主力部隊が攻略中の、\n基地主要施設と、宇宙施設のある区画に集中してるようだからな。"
+  },
+  {
+    "ID": "eve652",
+    "Text": "そうだな。\nこの作戦は、とにかく時間との戦いだ。"
+  },
+  {
+    "ID": "eve653",
+    "Text": "突入後、制限時間内に攻撃目標になっている施設を\n破壊してください。"
+  },
+  {
+    "ID": "eve654",
+    "Text": "それで基地制圧のための部隊を載せたミデアが、\n滑走路に強行着陸する。"
+  },
+  {
+    "ID": "eve655",
+    "Text": "その後は、そのミデアを守ればいいのね？"
+  },
+  {
+    "ID": "eve656",
+    "Text": "そういうこと。\n後は、基地主要施設の攻略にあたっている主力部隊が、\nそれを制圧するか、この区画の敵を殲滅するまで戦闘を継続する。"
+  },
+  {
+    "ID": "eve657",
+    "Text": "大仕事だなぁ～。"
+  },
+  {
+    "ID": "evz002_01",
+    "Text": "俺がこの小隊の隊長、レオ・ブラウアー少尉だ。\nよろしくな。"
+  },
+  {
+    "ID": "evz003_01",
+    "Text": "クラウス・ベルトラン曹長です。\n主に部隊の運営面、事務的な部分で隊長をサポートしていますが、\n本職はMSパイロットです。"
+  },
+  {
+    "ID": "evz004_01",
+    "Text": "隊長と、副隊長ってわけだな？　俺はトルド・ボブロフ軍曹。\n開戦以来の叩き上げのMSパイロットだ。\nまぁ、これからよろしく頼むぜ。"
+  },
+  {
+    "ID": "evz005_01",
+    "Text": "そりゃ、心強いな。　よろしく頼むぜ、トルド軍曹。"
+  },
+  {
+    "ID": "evz006_01",
+    "Text": "じ、自分は、アン・フリーベリ二等兵です。\nち、地球は初めてで…、実戦も初めてで…。\nご、ご、ご迷惑おかけしますが、これからよろしくお願いします！"
+  },
+  {
+    "ID": "evz007_01",
+    "Text": "よろしくな、フリーベリ二等兵。\n君の戦闘オペレーターとしての適性は、とても高いと聞いている。\n期待してるぜ？"
+  },
+  {
+    "ID": "evz007_02",
+    "Text": "まぁ、まずは、もう少しリラックスしてくれ。\nブラウアー隊で、固いのはナシだ。"
+  },
+  {
+    "ID": "evz008_01",
+    "Text": "レオ。　最初から規律を乱すようなことを…。\nもう少し隊長らしく、威厳をもってだなぁ…。"
+  },
+  {
+    "ID": "evz009_01",
+    "Text": "まぁまぁ、クラウス。　そう固いこと言うなよ。\n戦地では、部隊は家族みたいなもんだろ？"
+  },
+  {
+    "ID": "evz010_01",
+    "Text": "家族…か…。\n隊長！　わたし、精一杯頑張ります！"
+  },
+  {
+    "ID": "evz011_01",
+    "Text": "はっはっはっは…！　いいねぇ、若いってのは。\n気に入ったぜ隊長さん。\n俺もせいぜい、頑張らせてもらうとするかね。"
+  },
+  {
+    "ID": "evz012_01",
+    "Text": "あぁ。　トルド、アン、頼んだぜ？\nさて、新生ブラウアー隊の初任務だ。　各員、出撃準備！"
+  },
+  {
+    "ID": "evz703_01",
+    "Text": "了解！"
+  },
+  {
+    "ID": "evz042",
+    "Text": "荷物受け入れのガウの警備だってよ。\n便利屋ならではのお仕事ってわけだ。\nまぁ、たまには楽させてもらおうぜ。"
+  },
+  {
+    "ID": "evz043",
+    "Text": "突っ立ってるだけってのは、ちょいと退屈だなぁ。"
+  },
+  {
+    "ID": "evz044",
+    "Text": "あまり気を抜くなよ。\n連邦のやつら、近々大きな行動を起こすに違いないからな。"
+  },
+  {
+    "ID": "evz045",
+    "Text": "確かに、ここ最近の連邦軍の動きからすると、\n次の任務地あたりも、危険地帯といえますね。\n…大丈夫でしょうか？"
+  },
+  {
+    "ID": "evz046",
+    "Text": "クラウス。\nアンを心配させるようなことを言うなって。\nお前は神経質すぎるんだよ。"
+  },
+  {
+    "ID": "evz047",
+    "Text": "ふん。　心構えが無くて、いざって時に混乱されても困るし。\nなにより知って尚、それに抗える精神力がなければ、\nこれから先、戦い続けることなんて出来やしない。"
+  },
+  {
+    "ID": "evz048",
+    "Text": "クラウスさんよぉ。\nそりゃ、もっともな話だが、無駄に脅かすこともねえだろぉ。"
+  },
+  {
+    "ID": "evz049",
+    "Text": "み、みなさん…。\nけ、ケンカしないで下さいよぉ。"
+  },
+  {
+    "ID": "evz050",
+    "Text": "け、ケンカなんかしてないぞ！\nなぁ？　クラウス。"
+  },
+  {
+    "ID": "evz051",
+    "Text": "あ、あぁ。"
+  },
+  {
+    "ID": "evz052",
+    "Text": "ならいいんです。\n私、大丈夫ですから。\nどんなことが起きても、キチンと皆さんのお役にたってみせます。"
+  },
+  {
+    "ID": "evz053",
+    "Text": "ハッハッハッハ…！　そりゃ、心強いな。"
+  },
+  {
+    "ID": "evz054",
+    "Text": "お？　そろそろ時間かな。\nでは、ブラウアー隊、出撃準備だ。"
+  },
+  {
+    "ID": "evz704",
+    "Text": "了解！"
+  },
+  {
+    "ID": "evz080",
+    "Text": "ダブデを擁する部隊が、連邦の包囲網の一角を突破して、\n脱出を試みる。\nこいつの通り道を作ってやるのが、次の俺たちの仕事だ。"
+  },
+  {
+    "ID": "evz081",
+    "Text": "陸戦艇は貴重な戦力だからな。\nここで、無駄に失いたくはないってわけか。"
+  },
+  {
+    "ID": "evz082",
+    "Text": "レオ…。\nこれは正式な命令じゃないぞ。　それでもやるのか？"
+  },
+  {
+    "ID": "evz083",
+    "Text": "本来の指揮系統外からの依頼ですね…。"
+  },
+  {
+    "ID": "evz084",
+    "Text": "この状況で、指揮系統が回復するのなんか待ってたら、\nそれこそ無駄に戦力を失って、立て直せなくなっちまうぜ？\nこれは俺の独断だ。"
+  },
+  {
+    "ID": "evz085",
+    "Text": "まぁ、僕はレオの決定に従うよ。\nブラウアー隊の隊長は君だ。"
+  },
+  {
+    "ID": "evz086",
+    "Text": "俺も別に異論はねぇぜ。"
+  },
+  {
+    "ID": "evz087",
+    "Text": "私も！　隊長の判断を信じます！"
+  },
+  {
+    "ID": "evz088",
+    "Text": "へへ、んじゃ、決まりだな！\nここから先、ブラウアー隊は、独自の判断により活動する\n独立遊撃隊となる。"
+  },
+  {
+    "ID": "evz089",
+    "Text": "機材調達や、補給なんかの交渉ごとは、僕に任せておいてくれ。\nフッ、正規の部隊より充実させてみせるよ。"
+  },
+  {
+    "ID": "evz090",
+    "Text": "ふふ…。　なんだか楽しくなってきましたね。"
+  },
+  {
+    "ID": "evz091",
+    "Text": "ハッハッハ…！\nこの状況でそれが言えりゃ合格だぜ、お嬢ちゃん。"
+  },
+  {
+    "ID": "leo161",
+    "Text": "よし。　ブラウアー隊、出撃準備だ！"
+  },
+  {
+    "ID": "evz702",
+    "Text": "了解！"
+  },
+  {
+    "ID": "evz101",
+    "Text": "随分と、思い切った行動に出た部隊があったもんだなぁ。\nまぁ、俺たちみたいな物好きがいて、初めて成立する\nプランだけどよ。"
+  },
+  {
+    "ID": "evz102",
+    "Text": "ベルファスト基地は、それほどの防衛戦力を\n保有していないからな。\n敵の油断に付入るってのも、作戦としては悪くはないよ。"
+  },
+  {
+    "ID": "evz103",
+    "Text": "灯台下暗しっていうがな。\nよくも敵基地のすぐ近くで、今まで潜伏していられたもんだ。\nしかも、そこを通過して脱出しようってんだからなぁ。"
+  },
+  {
+    "ID": "evz104",
+    "Text": "私たちは、受け入れ用の潜水艦をエスコートしつつ、\n途中で転進。　基地へ奇襲をかけて、友軍が突破する間、\n陽動を行えばいいんですね。"
+  },
+  {
+    "ID": "evz105",
+    "Text": "そういうこと。\nクラウス、水陸両用MSの準備は出来てるか？"
+  },
+  {
+    "ID": "evz106",
+    "Text": "あぁ。　黒海周辺に配備予定だったヤツを入手してある。"
+  },
+  {
+    "ID": "evz107",
+    "Text": "ほぇ～、そんなことが出来るものなんですか？"
+  },
+  {
+    "ID": "evz108",
+    "Text": "地道に構築した人脈と、駆け引き次第さ。"
+  },
+  {
+    "ID": "evz109",
+    "Text": "ほんっと、頼りになるぜ、相棒。"
+  },
+  {
+    "ID": "evz110",
+    "Text": "まぁ、その分、夜道には気をつけなくちゃならんだろうがな。"
+  },
+  {
+    "ID": "evz111",
+    "Text": "フッ、その点もぬかりはないから、ご心配なく。"
+  },
+  {
+    "ID": "evz112",
+    "Text": "ハハッ、いったい、どんな魔法を使ってるんだよ？\n終戦したら、商人になることをオススメするぜ。"
+  },
+  {
+    "ID": "evz113",
+    "Text": "それ、いいですね。　早く戦争、終らせなくちゃ。"
+  },
+  {
+    "ID": "evz401",
+    "Text": "なんでまた、迂回なんかしたんだか…。"
+  },
+  {
+    "ID": "evz402",
+    "Text": "行き場を失ったってことなんだろうけどね。"
+  },
+  {
+    "ID": "evz403",
+    "Text": "しかしまぁ、こういう困った奴等ほど、\nお前さんは放っておけないんだろ？"
+  },
+  {
+    "ID": "evz404",
+    "Text": "ま、そうなんだよなぁ。"
+  },
+  {
+    "ID": "evz405",
+    "Text": "人員受け入れ用のユーコン級潜水艦、北部海岸に向けて、\n移動開始しました。　それにしても、こんなものまで手配できる\nなんて、クラウスさん凄いですねぇ…。"
+  },
+  {
+    "ID": "evz406",
+    "Text": "まぁ、今回のは、少し高くついたけどね。"
+  },
+  {
+    "ID": "evz407",
+    "Text": "いやまったく、大したもんだよ。"
+  },
+  {
+    "ID": "evz408",
+    "Text": "あとは俺らが、敵を蹴散らしてやればいいってわけだな。"
+  },
+  {
+    "ID": "evz700",
+    "Text": "了解！"
+  },
+  {
+    "ID": "evz119",
+    "Text": "シアトルっていやぁ、ガルマ・ザビが戦死した場所だな…。"
+  },
+  {
+    "ID": "evz120",
+    "Text": "「コロニー落し」の影響と、度重なる爆撃で、完全な廃墟に\nなっているらしいね。"
+  },
+  {
+    "ID": "evz121",
+    "Text": "そりゃ、敵部隊が潜伏するにはもってこいだな。\nそれか、戦場を彷徨う、亡霊の仕業かもなぁ…？\nイッヒッヒッヒ…。"
+  },
+  {
+    "ID": "evz122",
+    "Text": "ぼ、亡霊…ですか？　こ、この宇宙世紀に、そんなの、\nい、いるはずないじゃないですかぁ。"
+  },
+  {
+    "ID": "evz123",
+    "Text": "そいつはどうかなぁ？　俺も戦場に出てからは、よく聞くぜ？\n亡霊のたぐいの話。　誰も乗ってないMSが、突然転倒したり…。\n1人きりの暗いコクピットの中で、突然背中から首を絞められたとか。"
+  },
+  {
+    "ID": "evz124",
+    "Text": "ひ、ひぃっ！\nク、クラウスさんは、そんな話、信じませんよね！？"
+  },
+  {
+    "ID": "evz125",
+    "Text": "ば、ば、ば、ばかばかしい！　非科学的な妄想だよ！\nそ、そ、そ、そんなことがあるはずないだろ。\nは、ははは、ははは………。"
+  },
+  {
+    "ID": "evz126",
+    "Text": "俺は亡霊なんかより、生身の人間のほうが\nよっぽど怖いけどなぁ。"
+  },
+  {
+    "ID": "evz127",
+    "Text": "ば、ばかな！　物理的攻撃を無効とする亡霊は、霊的能力を\n持ち合わせていない、僕のような平凡な天才には、唯一無二の\n畏怖すべき存在なのだ！"
+  },
+  {
+    "ID": "evz128",
+    "Text": "なのだ！って…。\nクラウスは、昔っからこの手の話だけはダメなんだよなぁ…。"
+  },
+  {
+    "ID": "evz129",
+    "Text": "とはいえ、仕事は仕事だ。"
+  },
+  {
+    "ID": "leo169",
+    "Text": "ブラウアー隊、いくぜ！"
+  },
+  {
+    "ID": "evz705",
+    "Text": "了解！"
+  },
+  //TODO per mission
+  //{
+  //  "ID": "BR_INFO_B_03",
+  //  "Text": "完成すれば、連邦の総司令本部「ジャブロー」攻略さえ、\n実現可能になると言われている。"
+  //},
+  {
+    "ID": "evz419",
+    "Text": "ラサ基地の新兵器、「アプサラス」のテスト機が、\n試験場で消息を絶ったらしい。"
+  },
+  {
+    "ID": "evz420",
+    "Text": "なんだよ、秘密兵器のわりにだらしねぇなぁ。"
+  },
+  {
+    "ID": "evz421",
+    "Text": "開発途中なんですから、無理言っちゃダメです。"
+  },
+  {
+    "ID": "evz422",
+    "Text": "同地点では、敵部隊の展開も確認されている。"
+  },
+  {
+    "ID": "evz423",
+    "Text": "今度の仕事は、荒っぽい宝探しってわけだな？"
+  },
+  {
+    "ID": "evz424",
+    "Text": "そういうことだ。"
+  },
+  {
+    "ID": "evz425",
+    "Text": "現状、ラサ基地からはあまり戦力を割けないようですね。"
+  },
+  {
+    "ID": "evz426",
+    "Text": "連邦が近々、ラサ基地に総攻撃を仕掛けるというのは、\n結構、信憑性の高い噂だからな。"
+  },
+  {
+    "ID": "evz427",
+    "Text": "あぁ。　とにかく消息を絶った地点に向かい、\n目標の捜索と、現場の確保を行うぞ。"
+  },
+  {
+    "ID": "evz136",
+    "Text": "今回は少し、イレギュラーな仕事だ。\nクラウス、例のものは手に入ったか？"
+  },
+  {
+    "ID": "evz137",
+    "Text": "極東方面で鹵獲された、技研預けのヤツをなんとか入手したよ。\nでも、連邦のMSなんか、どうしようっていうんだ？"
+  },
+  {
+    "ID": "evz138",
+    "Text": "連邦のMS…ですか？"
+  },
+  {
+    "ID": "evz139",
+    "Text": "戦争にもルールはある。\nが、本来ならご法度なことを今回はやらかす。"
+  },
+  {
+    "ID": "evz140",
+    "Text": "敵に偽装して、捜索隊に紛れ込もうってわけか？"
+  },
+  {
+    "ID": "evz141",
+    "Text": "そうだ。\n俺が敵のMSで紛れ込んで、目標の位置を掴む。\nその後、敵捜索隊を殲滅し、目標を回収する。"
+  },
+  {
+    "ID": "evz142",
+    "Text": "また、無茶なことを考えたな…。\n識別はどうする？　すぐにバレるぞ？"
+  },
+  {
+    "ID": "evz143",
+    "Text": "あ、それなら、私のほうで少しの間なら、誤魔化せると思います。"
+  },
+  {
+    "ID": "evz144",
+    "Text": "それに期待してたんだ。　よろしく頼むぜ。\n今回は、時間との勝負だ。"
+  },
+  {
+    "ID": "evz145",
+    "Text": "敵にばれる前に、レオが捜索。　僕たちが合流して、\nだまし討ちと奇襲で、捜索隊を壊滅。　すぐさま回収作業を行い、\n敵の別働隊が来る前に撤収…ってわけか。"
+  },
+  {
+    "ID": "evz146",
+    "Text": "このタイミングで、あえて本国が送ってきた物資だ。\n内容も重要だが、それをキチンと受け取れたってことで、\n友軍の士気も、上がるはずだ。"
+  },
+  {
+    "ID": "evz147",
+    "Text": "ま、偽装によるだまし討ち程度は、\n汚れ仕事っていうほどのもんじゃないぜ…。\n開戦時の、コロニーへの攻撃なんかに比べりゃな…。"
+  },
+  {
+    "ID": "evz706",
+    "Text": "了解！"
+  },
+  {
+    "ID": "evz444",
+    "Text": "現在ラサ基地は、\n連邦の大規模な包囲攻撃にさらされている。"
+  },
+  {
+    "ID": "evz445",
+    "Text": "基地内では既に、ザンジバルによる脱出計画も\n始動しているようです。"
+  },
+  {
+    "ID": "evz446",
+    "Text": "そう。\nだからこそ、俺たちも脱出の支援をしてやろうってわけさ。"
+  },
+  {
+    "ID": "evz447",
+    "Text": "敵は山岳部への攻撃に集中して、\nちょいと後ろが、お留守のようだしな。"
+  },
+  {
+    "ID": "evz448",
+    "Text": "市街に、要塞への砲撃部隊が展開している。\nこれはザンジバルの発進にも、脅威になるはずだね。"
+  },
+  {
+    "ID": "evz449",
+    "Text": "そうだ。\n目標は、長距離砲撃を担当しているタンクタイプのMSのみだ。"
+  },
+  {
+    "ID": "evz450",
+    "Text": "…戦力比は、半端じゃない。\n砲撃部隊を排除したら、すぐに離脱しないと、\nこっちまで脱出できなくなるぞ？"
+  },
+  {
+    "ID": "evz451",
+    "Text": "そうですね…。"
+  },
+  {
+    "ID": "evz452",
+    "Text": "わかってるさ。　俺だって命は惜しいんだぜ？"
+  },
+  {
+    "ID": "evz453",
+    "Text": "どうだかなぁ…。"
+  },
+  {
+    "ID": "evz454",
+    "Text": "目標は、市街広域に分散しています。\n少し心配ですが、戦力を分散して各個に強襲。\n目標排除後、合流地点へ離脱してください。"
+  },
+  {
+    "ID": "evz455",
+    "Text": "さて、そうと決まれば、さっさと片付けに行こうぜ！"
+  },
+  {
+    "ID": "evz707",
+    "Text": "了解！"
+  },
+  {
+    "ID": "evz165",
+    "Text": "さすが「赤い彗星」ってことか。\nこの土壇場で、反撃のチャンスを生み出すとはなぁ。"
+  },
+  {
+    "ID": "evz166",
+    "Text": "とはいえ、ジャブローを攻めるには、\n少し準備不足な気がするけどな…。"
+  },
+  {
+    "ID": "evz167",
+    "Text": "敵は一日単位で、戦力をガンガン増強しやがるんだ。\n早過ぎってことはねぇだろうよ。"
+  },
+  {
+    "ID": "evz168",
+    "Text": "でも、アフリカ戦線からの増援は、\n間に合いそうにありませんね…。"
+  },
+  {
+    "ID": "evz169",
+    "Text": "なに、頭さえ潰せば、敵はしばらく軍隊としての機能を失うはずだ。\nそうなりゃ、出し渋ってる本国からの援軍も来て、\n一気に地上を制圧。　それで、この戦争は終わりだぜ！"
+  },
+  {
+    "ID": "evz170",
+    "Text": "ま、とにかく、やるからには負けられないな。"
+  },
+  {
+    "ID": "evz171",
+    "Text": "ですね！\nこ、怖いけど…、頑張ります！"
+  },
+  {
+    "ID": "evz172",
+    "Text": "なぁーに、敵さんも立て続けの勝利で、浮かれてるところだ。\nしかも総司令部にいきなり総攻撃だなんて、考えちゃいないだろ。\nやれるぜ！"
+  },
+  {
+    "ID": "evz173",
+    "Text": "俺たちは、先発するガウからの降下部隊として参加する。\n降下後、地上の対空設備を排除し、後続部隊を支援する。"
+  },
+  {
+    "ID": "evz174",
+    "Text": "作戦の第一段階としては、妥当なところだね。"
+  },
+  {
+    "ID": "evz175",
+    "Text": "よし、出撃準備をして、指定のガウへ移動。\nジャブローを落としにいくぜ！"
+  },
+  {
+    "ID": "evz184",
+    "Text": "全体像は把握できていないが、先行した部隊によって、\nこのエリアの構造は、大体把握できたぜ。"
+  },
+  {
+    "ID": "evz185",
+    "Text": "我々は、水路を使って侵入。\n制限時間内に、攻撃目標の司令施設と、MS工廠を破壊。\nその後、地下水脈を使って撤退します。"
+  },
+  {
+    "ID": "evz186",
+    "Text": "全体の戦況は、あまりよくないようだな…。"
+  },
+  {
+    "ID": "evz187",
+    "Text": "だからこそ、少しでも打撃を加えておかないとな。"
+  },
+  {
+    "ID": "evz188",
+    "Text": "そうだ。\n俺たちで、一矢報いてやろうぜ！"
+  },
+  {
+    "ID": "evz189",
+    "Text": "ブラウアー隊、行動開始だ！"
+  },
+  {
+    "ID": "evz206",
+    "Text": "ガウとの合流地点まで、もう少しだ。\nただし、現地に着いても、生き残りの友軍を収容するまで、\n俺たちが盾になるぞ！"
+  },
+  {
+    "ID": "evz207",
+    "Text": "生き残った部隊…、殆どいないようですね…。"
+  },
+  {
+    "ID": "evz208",
+    "Text": "まさに、壊滅状態だね…。"
+  },
+  {
+    "ID": "evz209",
+    "Text": "だから尚更、ここで俺たちまでくたばっちまうわけには、\nいかねぇな。"
+  },
+  {
+    "ID": "evz210",
+    "Text": "そうだ。\n俺たちは、どんなみっともなく足掻いてでも、\n生き延びなきゃならない。"
+  },
+  {
+    "ID": "evz211",
+    "Text": "はい。　たとえどんなに少数でも、生き残った味方と共に、\n帰還しましょう！"
+  },
+  {
+    "ID": "evz212",
+    "Text": "さぁ、もうひと働きするぞ！"
+  },
+  {
+    "ID": "evz708",
+    "Text": "了解！"
+  },
+  {
+    "ID": "evz225",
+    "Text": "ここからの戦いは、もはや、ただの意地だ。\nみんな、無理に俺に付き合う必要はないぜ？"
+  },
+  {
+    "ID": "evz226",
+    "Text": "意地でいいじゃないですか！\nわたし、最後まで諦めませんよ！"
+  },
+  {
+    "ID": "evz227",
+    "Text": "あぁ。　こうなったら最後の最後まで、少しでも連邦の\n悩みの種になってやろうじゃないか。"
+  },
+  {
+    "ID": "evz228",
+    "Text": "で、まずは敵の新型MSを潰すという細かい嫌がらせに出るわけだ。\nハッハッハ！　いいねぇー。\n俺は好きだぜ、隊長のそういうところがよ。"
+  },
+  {
+    "ID": "evz229",
+    "Text": "へへ、小さなところからコツコツと…だ。\n一発逆転のギャンブルは、失敗したばっかりだからなぁ。"
+  },
+  {
+    "ID": "evz230",
+    "Text": "ふふふ…、ですね。\n目一杯チクチクと、嫌がらせしちゃいましょ！"
+  },
+  {
+    "ID": "evz231",
+    "Text": "情報によると、連邦は地上での掃討作戦を実戦訓練用程度に\n考えてるみたいだ。\nこの程度で勝った気になってるところ…、詰めが甘いね。"
+  },
+  {
+    "ID": "evz232",
+    "Text": "訓練なんて、家の中だけでやって、とっとと宇宙に\n上げとけば良かったって、たっぷり後悔させてやるさ。"
+  },
+  {
+    "ID": "evz471",
+    "Text": "で、まずは敵の侵攻を妨害する嫌がらせってわけか。\nハッハッハ！　いいねぇー。\n好きだぜ、隊長のそういうところがよ。"
+  },
+  {
+    "ID": "evz472",
+    "Text": "情報によると、連邦はシアトルの廃墟に、\nキャリフォルニア･ベース攻略のための、予備戦力を集めている\nところらしいな。"
+  },
+  {
+    "ID": "evz473",
+    "Text": "俺たちゃ、廃墟に相応しい悪霊ってわけだ。"
+  },
+  {
+    "ID": "evz241",
+    "Text": "さて諸君。　今回は、火事場泥棒をやってみようと思う。\n…といっても、元々ジオンの基地なんだから、\n奪還作戦と言えなくもない。"
+  },
+  {
+    "ID": "evz242",
+    "Text": "確かな筋の情報だよ。\n貯蔵物資の有無だけで言えば、まず間違いないと思うけどね。"
+  },
+  {
+    "ID": "evz243",
+    "Text": "嫌がらせの次は、泥棒かよ…。\nヘヘヘ…、いよいよ悪党が、板についてきたなぁ。"
+  },
+  {
+    "ID": "evz244",
+    "Text": "貯蔵されてる物資って、なんですかね？"
+  },
+  {
+    "ID": "evz245_01",
+    "Text": "非公式に貯蔵していたものだからね。\n大方、誰かさんが、終戦後に着服しようとでも考えてたもの…。\nつまりは金目のもの。"
+  },
+  {
+    "ID": "evz245_02",
+    "Text": "金とかダイヤとかだと換金が楽で最高だけど、\n今なら熱核反応炉に必須な、ジルコンとかのレアメタルでも、\n結構な金になるはずだよ。"
+  },
+  {
+    "ID": "evz246",
+    "Text": "ほわぁ～、金銀財宝ですね！　…ステキ。"
+  },
+  {
+    "ID": "evz247",
+    "Text": "ま、ネコババしても、誰も文句は言えねぇわな。"
+  },
+  {
+    "ID": "evz248",
+    "Text": "俺たちも含め、アフリカで潜伏を決め込んだ部隊の\n軍資金になれば、しめたもんだ。"
+  },
+  {
+    "ID": "evz249",
+    "Text": "ちょっともったいないですねぇ…。"
+  },
+  {
+    "ID": "evz250",
+    "Text": "ハハッ、そういうなよ。\nじゃ、泥棒に出かけるとしますか！"
+  },
+  {
+    "ID": "evz479",
+    "Text": "残念ながら、キャリフォルニア･ベースは、もうダメだ。\n主要部隊の脱出を手助けして、俺たちもここを離れる…。"
+  },
+  {
+    "ID": "evz480",
+    "Text": "まだ連邦も、完全包囲には到ってないしな。"
+  },
+  {
+    "ID": "evz481",
+    "Text": "敵さんの主力は、基地司令施設と、宇宙基地に集中してるみたい\nだからな…。　まぁ、空軍施設は、まだマシだろうよ。"
+  },
+  {
+    "ID": "evz482",
+    "Text": "まさかキャリフォルニア･ベースが、こうも簡単に落ちるなんて…。"
+  },
+  {
+    "ID": "evz483",
+    "Text": "こっちが奪ったときも、随分簡単だったそうじゃねぇか？\nまぁ、お互い様よ。"
+  },
+  {
+    "ID": "evz484",
+    "Text": "やっぱり、ジャブロー攻略戦の失敗が痛かったな。"
+  },
+  {
+    "ID": "evz485",
+    "Text": "いいか？\nお前ら、絶対こんなところで、くたばるんじゃねぇぞ。"
+  },
+  {
+    "ID": "evz486",
+    "Text": "そのための脱出支援じゃないか。\nもちろん、こんなとこでやられる気はないぜ。"
+  },
+  {
+    "ID": "evz487",
+    "Text": "はい。　まだ、やりたいこと、いっぱいありますから！"
+  },
+  {
+    "ID": "evz488",
+    "Text": "そのいきだ！\nじゃ、ブラウアー隊、出るぜ！"
+  },
+  {
+    "ID": "evz709",
+    "Text": "了解！"
+  },
+  {
+    "ID": "evz264",
+    "Text": "手土産もできたことだし、\n一刻も早く、アフリカ戦線に合流したかったところだが…。"
+  },
+  {
+    "ID": "evz265",
+    "Text": "友軍からの救援要請…。\n放っておけないですよね。"
+  },
+  {
+    "ID": "evz266",
+    "Text": "…にしても、\n今回は、ちぃっとばかり危険度が高すぎるかもなぁ。"
+  },
+  {
+    "ID": "evz267",
+    "Text": "あぁ…、分ってる。　"
+  },
+  {
+    "ID": "evz268",
+    "Text": "ギャロップが部隊を回収、離脱するまでの間、\n周囲の敵を引き付ける。\n今までも似たようなことは、散々やってきたとはいえ…ね。"
+  },
+  {
+    "ID": "evz269",
+    "Text": "極東から欧州方面にかけての一帯は、\n完全に連邦の勢力圏となっています。\n現状では、通り抜けることさえ難しいですね。"
+  },
+  {
+    "ID": "evz270",
+    "Text": "もたもたすれば、あっという間に囲まれて、袋叩きってわけだ。　"
+  },
+  {
+    "ID": "evz271",
+    "Text": "でも！　実戦経験豊富なブラウアー隊でしか、\n成し遂げられないのも確かですよ。"
+  },
+  {
+    "ID": "evz272",
+    "Text": "そういうこと。\nやってやろうぜ！　みんな！"
+  },
+  {
+    "ID": "evz512",
+    "Text": "みんな…、気持ちを切り替えろ。"
+  },
+  {
+    "ID": "evz513",
+    "Text": "…はい。"
+  },
+  {
+    "ID": "evz514",
+    "Text": "…そうだな。"
+  },
+  {
+    "ID": "evz515",
+    "Text": "クラウス。　情報は確かなんだろうな？"
+  },
+  {
+    "ID": "evz516",
+    "Text": "地上潜伏を決めた友軍をかくまっている組織の情報だ。\nアテにしていいと思う。"
+  },
+  {
+    "ID": "evz517",
+    "Text": "開戦前から、サイド3の独立に賛同していた協力組織です。\n非公式ではありますが、私も信用していいと思います。"
+  },
+  {
+    "ID": "evz518",
+    "Text": "なるほどな。　脱出を共にする友軍の命運は、俺たちにかかってる。\nMS乗りは2人になっちまったが、敵はそれほど多くない。\nいけるな？　クラウス。"
+  },
+  {
+    "ID": "evz519",
+    "Text": "任せてくれよ。\nそれに、組織のほうからも支援があるはずだ。"
+  },
+  {
+    "ID": "evz710",
+    "Text": "了解！"
+  },
+  {
+    "ID": "evz288",
+    "Text": "最後まで抵抗を続けていた友軍の部隊が、現在こちらに\n向かっている。　しかし、受け入れ要求の呼びかけに、\n他の基地は答えようとしていない…。"
+  },
+  {
+    "ID": "evz289",
+    "Text": "あーぁ。　せっかく準備万端で篭城を決め込んだってのに…。"
+  },
+  {
+    "ID": "evz290",
+    "Text": "まぁ、それじゃ仕方ないわなぁ。"
+  },
+  {
+    "ID": "evz291",
+    "Text": "じゃ、早速、戦闘準備と、受け入れ態勢を整えなくちゃですね！"
+  },
+  {
+    "ID": "evz292",
+    "Text": "お、おいおい。\nさすがの俺でも、ここはどうすべきか悩んでるんだぜ？"
+  },
+  {
+    "ID": "evz293",
+    "Text": "ふふ…、だって私たち、ブラウアー隊ですから。"
+  },
+  {
+    "ID": "evz294",
+    "Text": "ハァ～、いまさら何言ってるんだか…。\nすぐにでも飛び出したいって顔して、よく言うよ。"
+  },
+  {
+    "ID": "evz295",
+    "Text": "ハッハッハ。　まぁ、そういうことだな。"
+  },
+  {
+    "ID": "evz296",
+    "Text": "お、俺はだなぁ！\n……いや、すまないな、みんな。"
+  },
+  {
+    "ID": "evz297",
+    "Text": "念のため、基地にいる他の人たちには、\n移動準備をしてもらいますね。"
+  },
+  {
+    "ID": "evz298",
+    "Text": "無駄、無駄！　やめとけよ、アン。"
+  },
+  {
+    "ID": "evz299",
+    "Text": "え？　…隊長？"
+  },
+  {
+    "ID": "evz300",
+    "Text": "フッ、そんな必要、俺がなくしてやるぜ！"
+  },
+  {
+    "ID": "evz301",
+    "Text": "プッ！　そうそう！　それでこそ、レオだよ。"
+  },
+  {
+    "ID": "evz302",
+    "Text": "ハハ！　調子出てきたじゃねぇかよ、大将！"
+  },
+  {
+    "ID": "evz303",
+    "Text": "はい！　それでこそ、隊長です！"
+  },
+  {
+    "ID": "evz535",
+    "Text": "この基地には、少し前に友軍の特殊部隊が一度攻撃を仕掛けている。\nその際、守備隊に壊滅的な打撃を与えた。"
+  },
+  {
+    "ID": "evz536",
+    "Text": "当然、連邦も戦力の増強はしているはず、\nだけど、ここまで独立した基地なら\n間違っても周辺からの援軍は来ないよな。"
+  },
+  {
+    "ID": "evz537",
+    "Text": "でも、シャトルを奪われたことが伝われば、\n衛星軌道で迎撃されてしまいますから、\nまずは、通信施設の無力化が最優先ですね。"
+  },
+  {
+    "ID": "evz538",
+    "Text": "そうだ。　強襲して、通信施設を破壊。\nシャトルを確保して、基地の守備隊を殲滅。\nあとは、運を天に任せて、宇宙へ上がるだけだ。"
+  },
+  {
+    "ID": "evz539",
+    "Text": "宇宙かぁ…。\n私、そんなに長い間、地球にいたわけじゃないですけど…、\n懐かしいです。"
+  },
+  {
+    "ID": "evz540",
+    "Text": "そうだな…。\nみんな想いは同じだ。　俺たちはその希望を背負って戦うんだ。"
+  },
+  {
+    "ID": "evz541",
+    "Text": "あぁ。　やろう、レオ。"
+  },
+  {
+    "ID": "evz542",
+    "Text": "持てる力を…全て出し切って。"
+  },
+  {
+    "ID": "evz543",
+    "Text": "そうだ！　ここは、出し惜しみなしだ！\n俺たちの全てを出し切って、この作戦を完遂させるぞ！"
+  },
+  {
+    "ID": "evz315",
+    "Text": "基地の周りに設置した爆薬を一斉に点火。\nその隙に、ギャロップで一気に包囲網を突破し、\n受け入れ準備をしている基地に逃げ込む…。"
+  },
+  {
+    "ID": "evz316",
+    "Text": "レオ、ちょっと強引すぎないか？"
+  },
+  {
+    "ID": "evz317",
+    "Text": "せめてMSで、陽動位したほうがいいだろ？"
+  },
+  {
+    "ID": "evz318",
+    "Text": "いや、今回はだめだ。\nMS3機程度で足止めできる規模じゃない。\nなぁに、大丈夫、うまくいくさ！"
+  },
+  {
+    "ID": "evz319",
+    "Text": "隊長、脱出用のギャロップは準備できました。\n…MSは破棄で、いいんですね？"
+  },
+  {
+    "ID": "evz320",
+    "Text": "あぁ。\n少しでも身軽にして、とにかく全速で突破するんだ。"
+  },
+  {
+    "ID": "evz321",
+    "Text": "分りました。　では、後は私たちだけです。"
+  },
+  {
+    "ID": "evz322",
+    "Text": "よし。\nでは、ギャロップに搭乗しろ。\n俺は爆薬の起爆装置をセットしてから行く。"
+  },
+  {
+    "ID": "ROOT_TITLE_01",
+    "Text": "PROGRESS STATUS"
+  },
+  {
+    "ID": "ROOT_TITLE_02",
+    "Text": "MISSION SELECT"
+  },
+  {
+    "ID": "ROOT_RANK_VALUE",
+    "Text": "@ROOT_RANK_VALUE@"
+  },
+  {
+    "ID": "ROOT_RANK",
+    "Text": "RANK"
+  },
+  {
+    "ID": "BUTTON_INFO_01",
+    "Text": "｜≒Select｜∋Back｜"
+  },
+  {
+    "ID": "BUTTON_INFO_02",
+    "Text": "｜≒Select｜∈Ok｜∋Back｜"
+  },
+  {
+    "ID": "ROOT_LEVEL",
+    "Text": "@ROOT_LEVEL@"
+  },
+  {
+    "ID": "ROOT_TELOP_NAME",
+    "Text": "@ROOT_TELOP_NAME@"
+  },
+  {
+    "ID": "ROOT_MISSION_NUMBER",
+    "Text": "@ROOT_MISSION_NUMBER@"
+  },
+  {
+    "ID": "ROOT_DATE",
+    "Text": "@ROOT_DATE@"
+  },
+  {
+    "ID": "ROOT_PLACE_NAME",
+    "Text": "@ROOT_PLACE_NAME@"
+  },
+  {
+    "ID": "ROOT_SCORE",
+    "Text": "SCORE"
+  },
+  {
+    "ID": "ROOT_RESULT",
+    "Text": "RESULT"
+  },
+  {
+    "ID": "ROOT_PERFORMANCE",
+    "Text": "達成度"
+  },
+  {
+    "ID": "ROOT_PERFORMANCE_VALUE",
+    "Text": "@ROOT_PERFORMANCE_VALUE@"
+  },
+  {
+    "ID": "ROOT_SCORE_VALUE",
+    "Text": "@ROOT_SCORE_VALUE@"
+  },
+  //TODO split dict into smaller files?
+  {
+    "ID": "SPACE_PROLOGUE_ME01",
+    "Text": "宇宙世紀0079。　9月26日。\n\n\nMSパイロット適正試験にパスした僕のもとに、\n\n\n士官学校、繰り上げ卒業の通知と共に、\n\n\n新規に設立された部隊への配属命令が下された。\n\n\n\nジオンによる地球降下作戦の後、\n\n\n半年もの間、膠着状態となっていた戦局が、\n\n\n今、まさに、動き始めようとしていた。\n\n\n\nそして、運命の10月6日。\n\n\n僕は、広域特殊対応MS部隊の第1小隊、\n\n\n通称「SRT-ユニット1」の小隊長として、\n\n\n初めての実戦任務を言い渡され、\n\n\nこれから共に戦っていく仲間たちと出会った…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME02",
+    "Text": "地球連邦軍は、\n\n\n\n近々決行を予定している、オデッサでの\n\n\n\n大反攻作戦のため、ワルシャワを集結ポイントとして、\n\n\n\n各拠点からの部隊移動を開始した。\n\n\n\n\n\n\n同日、初陣を勝利で飾った僕らにも、\n\n\n\n上層部より新たな命令が下った。\n\n\n\n\n\n\nそれは、数ヶ月に及ぶ膠着状態を脱し、\n\n\n\n連邦が反攻作戦を開始する予兆だった…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME03",
+    "Text": "連邦軍の大反攻作戦である、\n\n\n「オデッサ作戦」の準備は整った。\n\n\n\n確実な勝利を手にするため、\n\n\nジオン側の戦力集中を避け、最終攻撃目標は、\n\n\nギリギリまで隠蔽しなければならない。\n\n\n\nそのために、多くの陽動部隊を\n\n\n各地で展開させることになり、\n\n\nレビル将軍は、これに虎の子のMS部隊を\n\n\n投入することを決定した。\n\n\n\nある程度の練度に達していたMS部隊が選出される中、\n\n\n2度の実戦を経験し、少なからずの戦果を上げていた\n\n\n僕らの部隊にも召集令が下った…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME04",
+    "Text": "連邦軍の大反攻作戦に参加する部隊は、\n\n集結ポイントであるワルシャワに到達した。\n\n\nオデッサ作戦の準備は、\n\n着々と整いつつある。\n\n\n確実な勝利を手にするために、\n\nジオン側の戦力集中を避け、\n\n最終攻撃目標は、\n\nギリギリまで隠蔽しなければならない。\n\n\nそのために、多くの陽動部隊を\n\n各地で展開させることになり、\n\nレビル将軍は、これに虎の子のMS部隊を\n\n投入することを決定した。\n\n\nある程度の練度に達していたMS部隊が選出される中、\n\n2度の実戦を経験し、\n\n少なからずの戦果を上げていた僕らの部隊にも、\n\n召集命令が下った…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME05",
+    "Text": "11月7日。\n\n\nついに「オデッサ作戦」は開始された。\n\n\n\nワルシャワに集結していた連邦軍の大部隊は、\n\n\nオデッサの鉱物資源採掘基地を目標として\n\n\n進軍を開始。\n\n\nこれに対しジオンは、欧州方面制圧軍の\n\n\nユーリ・ケラーネ少将指揮のもと、\n\n\n防衛線の縮小により、抵抗を試みた。\n\n\n連邦軍は手詰まりとなり、\n\n\n一時的に戦闘は膠着状態となっていた。\n\n\n\nそんな中、僕らは後方部隊の護衛任務に\n\n\nつくこととなった…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME06",
+    "Text": "オデッサの防衛に当たっていたジオンの部隊は、\n\n\n劣勢とみるや、早々に撤退、脱出に転じ、\n\n\nその敗走部隊の多くは、\n\n\nアフリカ方面、極東方面へと逃れた。\n\n\n\n両軍ともに多大な被害を出しつつも、\n\n\nオデッサの戦いは連邦軍の勝利で幕を閉じ、\n\n\n地上でのミリタリーバランスは、\n\n\n大きく連邦側へと傾いた。\n\n\n\n僕らは疲弊した本隊に代わり、\n\n\n周辺地区の哨戒任務につくことになった。\n\n\n\n僕らだって、結構疲弊してるんだけどなぁ…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME07",
+    "Text": "オデッサの防衛に当たっていたジオンの部隊は、\n\n\n劣勢とみるや、早々に撤退、脱出に転じ、\n\n\nその敗走部隊の多くは、\n\n\nアフリカ方面、極東方面へと逃れた。\n\n\n\n\n\n両軍ともに多大な被害を出しつつも、\n\n\nオデッサの戦いは連邦軍の勝利で幕を閉じ、\n\n\n地上でのミリタリーバランスは、\n\n\n大きく連邦側へと傾いた。\n\n\n\n\n\n僕らは、極東方面に脱出する敵の一団に対して、\n\n\n奇襲作戦を行うこととなった…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME08",
+    "Text": "指揮系統を失った、ジオン欧州方面制圧軍は、\n\n\n混乱の極みにあり、\n\n\n各地で、まだ戦線を維持しているエリアへと\n\n\n敗走する部隊が相次いだ。\n\n\nようやく、その実力を認められた少数のMS部隊は、\n\n\n敗走部隊への遊撃、掃討戦を\n\n\n主な任務とすることになっていった。\n\n\n\nもちろん、僕たちの部隊も例外ではなく、\n\n\n掃討戦のための出撃命令が下った。　\n\n\n逃げる敵を追い回して殲滅する…。\n\n\n気は乗らないが、無駄に戦火を広げないために、\n\n\nやらなければならないことだった…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME09",
+    "Text": "極東アジア方面軍、コジマ大隊による、\n\n\nジオンの拠点である、ラサ基地への\n\n\n包囲攻撃が開始された。\n\n\nオデッサ作戦を終えた僕たちは、市街地に展開する、\n\n\n量産ガンタンクの砲撃部隊の、\n\n\n警備の穴埋め役に回されることとなった。\n\n\nコジマ大隊は、連邦軍ではかなり初期から\n\n\nMSを実戦運用していた部隊なので、\n\n\n情報交換が行えるだけでも、\n\n\n僕らにとっては大きな収穫といえる。\n\n\n…などと、この時の僕らは、\n\nオデッサの勝利とそのムードに呑まれ、\n\n少し、戦いを甘くみていたのかもしれない…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME10",
+    "Text": "11月18日。\n\nもはや、戦場神話となっている、\n\n連邦軍所属の強襲揚陸艦「ホワイトベース」は、\n\nベルファスト基地へと入港した。\n\n\n\n11月21日に、同基地は、ジオン海洋部隊の襲撃をうけ、\n\n基地守備隊は、壊滅的打撃を受けたものの、\n\nホワイトベース所属のMS部隊の活躍により、\n\nそれを撃退した。\n\n\n\nホワイトベースは、地球連邦軍総司令本部\n\nジャブローに向け出港し、ベルファスト基地は、\n\n基地守備隊の増強に奔走していた。\n\n\n\nしかし、その情報を入手した\n\nジオンの陸上部隊の移動が確認され、\n\n僕たちは、ホワイトベースと入れ違いの形で、\n\nベルファスト基地の防衛にあたることとなった…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME11",
+    "Text": "僕らがコジマ大隊との合同作戦から外れて\n\n移動したのち、ラサ基地は陥落した。\n\n\n敵の新兵器の出現により、友軍にも\n\nかなりの被害が出たようだが、これでますます、\n\nジオン敗走部隊は行き場を失くすことになった。\n\n\n\n残念なことに、08小隊の隊長は、要塞攻略戦の\n\n最中に、消息不明になってしまったらしい…。\n\n\n彼とは、いつかゆっくりと話しをしたかった。\n\n\n生きていて欲しいと切に願う…。\n\n\n\nそれにしても、\n\n今回の件で、実戦経験のあるMS部隊が、\n\n連邦軍内で希少なのだと、改めて思い知らされた。\n\n\nMSの開発、生産のようには、\n\nパイロット養成は上手くいっていないようだ…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME12",
+    "Text": "11月末。\n\n\n連邦軍総司令本部のある、南米ジャブローに\n\n僕たちは招集された。\n\n\nジャブローでは、ビンソン計画によって再建された\n\n宇宙艦隊と、大量生産が実現したMSが、\n\n打ち上げを間近に控えていた。\n\nすでに実戦でMSを運用している部隊を集めて、\n\n参考意見を聞きたいという現場の声に対し、\n\n僕たちの部隊にも声がかかったらしい。\n\n僕たちの今までの戦いが、上層部にも、\n\nきちんと評価されていたということが\n\n確認できたのは、嬉しいことだった。\n\n\nしかし、時を同じくして、\n\nジオン地上最大の拠点である、\n\nキャリフォルニア･ベースからは、\n\n起死回生をかけた、ジャブロー攻略の大部隊が\n\n飛び立っていたのだった…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME13",
+    "Text": "11月30日。\n\n\nジャブローに対するジオンの降下作戦は、\n\n佳境を迎えていた。\n\n\n\n圧倒的物量で応戦する連邦に対し、\n\n決死の覚悟で挑むジオン。\n\n多大な犠牲を払いつつ、一部のMSが\n\nジャブロー内部への侵入に成功していた。\n\n\n\n時間をかければ、これらを掃討することは\n\n簡単だったが、\n\nもし、再建された艦隊に被害を出した場合、\n\nこの後の宇宙への反撃は、大幅な遅延を\n\n余儀なくされることになる。\n\n\n\n迅速に、全ての敵MSを\n\n排除しなくてはならない連邦軍こそ、\n\n窮地に立たされていると言えた…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME14",
+    "Text": "12月2日。\n\n\nジャブローから、宇宙艦隊が発進した。\n\n\nこれより、戦いの主戦場は\n\n\n宇宙へと移っていくことになる。\n\n\n\nしかし、まだ地上の戦いは終わったわけではない。\n\n\nジャブロー降下作戦の失敗により、\n\n\nジオン地上部隊は、致命的ともいえる戦力を損失した。\n\n\nこれを好機とみた連邦軍は、その2大拠点である、\n\n\nキャリフォルニア･ベースと、アフリカ戦線に対し、\n\n\n大規模な掃討作戦の準備を開始。\n\n\n\nそんな中、僕たちの部隊にはなぜか、\n\n\n新型MSのテスト命令が下った…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME15",
+    "Text": "12月に入った時点で、\n\nすでにジオンの地上部隊は、事実上瓦解していた。\n\n\n各地の指揮官は、我先にと宇宙へ脱出し、\n\n前線の兵士たちは、指揮系統を失って、\n\n置き去られる形になった。\n\n\n来るべき反撃の時を信じて、早々に潜伏する者。\n\n\n故郷である宇宙に帰還しようと、\n\n数少ない宇宙基地への退路を探して彷徨う者。\n\n\n戦線を辛うじて支えている、\n\nアフリカ大陸への脱出を試みる者。\n\n\n世界各地で、ジオン地上部隊の迷走は続いていた…。\n\n\nそれに対して連邦は、主戦場を宇宙に移すべく、\n\n再建した宇宙艦隊をジャブローから打ち上げ、\n\nさらにその勢いを増していた。\n\n\nそんな中、僕たちの部隊に新たな命令が下った…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME16",
+    "Text": "12月に入った時点で、\n\n\nすでにジオンの地上部隊は、事実上瓦解していた。\n\n\n\n各地の指揮官は、我先にと宇宙へ脱出し、\n\n\n前線の兵士たちは、指揮系統を失って、\n\n\n置き去られる形になった。\n\n\n\n来るべき反撃の時を信じて、早々に潜伏する者。\n\n\n\n故郷である宇宙に帰還しようと、\n\n\n数少ない宇宙基地への退路を探して彷徨う者。\n\n\n\n戦線を辛うじて支えている、\n\n\nアフリカ大陸への脱出を試みる者。\n\n\n\n世界各地で、ジオン地上部隊の迷走は続いていた…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME17",
+    "Text": "前回の戦闘で、僕の脳裏をかすめた最悪の疑念は、\n\nやつらが本当にジオンだったのか？\n\nということだ…。\n\nやつらがミデアを襲わなかったなら、\n\nジオンだと確信できたが…、\n\n物資も脱出の足も欲しがっているはずのジオン部隊が、\n\n有無を言わさずミデアを攻撃したことに、\n\nどうしても納得のいく理由が思い浮かばなかった…。\n\n\nもともと、僕らの部隊をなかば強引に設立したのは\n\nレビル将軍だが、その将軍も、\n\n今は宇宙へと上がってしまっている…。\n\n\n軍上層部の派閥争いなどに巻き込まれ、\n\n謀殺される事例は、表に出ないだけで少なくない。\n\nしかし、この真相が明かされることはないということも、\n\n兵士であり、隊長である僕には分っていた。\n\n\nただ、部隊のみんなを\n\n無駄に危険にさらした自分自身に、腹が立った…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME18",
+    "Text": "12月5日。\n\n\nアフリカ掃討作戦が、ついに始動した。\n\n\n連邦軍は、北米キャリフォルニア･ベースへの\n\n\n掃討作戦も同時に始動し、\n\n\nこの2つの大規模作戦の完遂をもって、\n\n\n地球上における戦闘に、ピリオドを打とうとしていた。\n\n\n\n僕らの部隊は、\n\n\nアフリカ掃討作戦の後方部隊に従軍することになった。\n\n\n橋頭堡となるオデッサにて、\n\n\n集結中の部隊の警護を行い、前線に送り出す…。\n\n\n最後の戦いの第一段階は、\n\n\n意外にあっけない内容だった…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME19",
+    "Text": "12月5日。\n\n\n連邦軍は、ジオン掃討作戦と称して、\n\nアフリカと、北米キャリフォルニア･ベースの\n\n2大拠点に対する、掃討作戦を開始した。\n\n\nこの2つの掃討作戦の完遂をもって、\n\n地球における、ジオン掃討作戦は、\n\n一旦の終了を迎える。\n\n\n\n僕らの部隊は、キャリフォルニア･ベース攻略の\n\n予備戦力として、後方に控えていた。\n\n\n\n作戦開始から1週間が過ぎたころ、\n\n追加戦力として移動中の部隊が、\n\nシアトル付近で消息を絶った。\n\n\n僕たちは、\n\nその原因究明のため、\n\n廃墟のシアトルへ偵察に向かうことになった…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME20",
+    "Text": "12月5日から開始されたアフリカ掃討作戦は、\n\n予想以上のジオンの抵抗の前に難航していた。\n\n\nロンメル中佐や、ロイ･グリンウッド少佐など、\n\nジオンの名のあるエースたちが、\n\n効果的に機能していたことと、\n\n物量のみで、素人同然の部隊を送りこんだ\n\n連邦上層部の読みの甘さが、\n\n最大の要因と言わざるをえなかった…。\n\n\nその上、アフリカ各地の\n\n廃鉱を利用した地下基地は厄介で、\n\nそれらを発見、攻略することは至難のわざだった。\n\n\n僕らは、敵拠点の1つになっているものと推測される\n\nアハガル山地の鉱山基地に、単独でミデアからの\n\n降下強襲作戦を決行することとなった。\n\n\nかなりの危険をともなう任務だが、\n\nなんとか、成し遂げなければ…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_ME21",
+    "Text": "12月15日。\n\nついにキャリフォルニア･ベース攻略部隊は、\n\n基地周辺まで、その侵攻の手を伸ばしつつあった。\n\nいよいよ、チェックメイトというところだ。\n\n\n\nキャリフォルニア･ベースは、元々連邦軍の拠点で、\n\n広大な敷地には、それぞれ、陸海空と宇宙の4軍が\n\n複合的に居をなしている基地だ。\n\nさらに、\n\n兵器開発の技研、工場までも持つ。\n\nこの基地を奪還することは、\n\n連邦にとっては、悲願というべきことだった。\n\n\n\n僕らは、航空基地にあたる区画への\n\n突入の先陣を任されることとなった。\n\n\n\nかなりの危険をともなう任務だが、\n\nなんとか、成し遂げなければ…。"
+  },
+  {
+    "ID": "SPACE_ME01_TEXT_01",
+    "Text": "Seattle"
+  },
+  {
+    "ID": "SPACE_ME02_TEXT_01",
+    "Text": "Desert Area"
+  },
+  {
+    "ID": "SPACE_ME03_TEXT_01",
+    "Text": "Africa"
+  },
+  {
+    "ID": "SPACE_ME04_TEXT_01",
+    "Text": "Valley"
+  },
+  {
+    "ID": "SPACE_ME05_TEXT_01",
+    "Text": "Near Odessa"
+  },
+  {
+    "ID": "SPACE_ME06_TEXT_01",
+    "Text": "Near Odessa"
+  },
+  {
+    "ID": "SPACE_ME07_TEXT_01",
+    "Text": "Desert Area"
+  },
+  {
+    "ID": "SPACE_ME08_TEXT_01",
+    "Text": "Snowy Field"
+  },
+  {
+    "ID": "SPACE_ME09_TEXT_01",
+    "Text": "Lhasa Base"
+  },
+  {
+    "ID": "SPACE_ME10_TEXT_01",
+    "Text": "Belfast Base"
+  },
+  {
+    "ID": "SPACE_ME11_TEXT_01",
+    "Text": "Valley Area 526"
+  },
+  {
+    "ID": "SPACE_ME12_TEXT_01",
+    "Text": "Jaburo Ground"
+  },
+  {
+    "ID": "SPACE_ME13_TEXT_01",
+    "Text": "Jaburo Underground"
+  },
+  {
+    "ID": "SPACE_ME14_TEXT_01",
+    "Text": "Valley"
+  },
+  {
+    "ID": "SPACE_ME15_TEXT_01",
+    "Text": "Snowy Field"
+  },
+  {
+    "ID": "SPACE_ME16_TEXT_01",
+    "Text": "Gobi DEsert"
+  },
+  {
+    "ID": "SPACE_ME17_TEXT_01",
+    "Text": "Arctic Base"
+  },
+  {
+    "ID": "SPACE_ME18_TEXT_01",
+    "Text": "Near Odessa"
+  },
+  {
+    "ID": "SPACE_ME19_TEXT_01",
+    "Text": "Seattle"
+  },
+  {
+    "ID": "SPACE_ME20_TEXT_01",
+    "Text": "Africa Mining Base"
+  },
+  {
+    "ID": "SPACE_ME21_TEXT_01",
+    "Text": "California Base"
+  },
+  //TODO move to other file?
+  {
+    "ID": "SPACE_PROLOGUE_MZ01",
+    "Text": "宇宙世紀0079。\n\nブリティッシュ作戦、ルウム戦役を経て、\n\n連邦を無条件降伏させる目論見に失敗したジオンは、\n\n地上への直接侵攻を開始。\n\n俺と親友のクラウスは、第2次降下作戦に参加。\n\n第2地上機動師団の補助部隊員として、\n\n地上に降り立った。\n\n\n電撃的に実行された侵攻作戦は、\n\n主だった資源採掘地と軍事拠点の確保をもって収束。\n\n俺は、その間に増援として\n\n地上に降ろされたMS小隊の、小隊長に任命された。\n\n各方面軍の直接管理下から離れ、\n\n便利屋として各地の小競り合いに駆り出される日々。\n\n\n長らく膠着状態だった戦局に、一石を投じる\n\n連邦軍の不穏な動きが感知され始めた頃、\n\n損耗した我が「ブラウアー小隊」に、\n\n補充要員として、新人のオペレーターと\n\n古参のMSパイロットが配属されてきた。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ02",
+    "Text": "欧州を中心とした\n\n連邦軍の不審な部隊移動の活性化に始まり、\n\n10月末には、各地で散漫な戦闘が始まった。\n\nこれらが、何かしらの陽動であることは明らかだった。\n\n\n僕たちが前回遭遇した、連邦軍製MSの情報は、\n\n上の判断によって公表されることは無かった。\n\n今までどおり、多くのジオン兵は、\n\nMSという強力な最新兵器を\n\n我軍だけが保有していると信じていた。\n\n\n僕に言わせれば、\n\n噂によって広まることでの漠然とした不安感…\n\nそして、もし、それと遭遇してしまった時の混乱を考え、\n\nきちんとした形で、上層部からの見解を\n\n発表するべきだと思うのだが…。\n\n\nまぁ所詮、\n\n上に立つ人間には、戦場の空気など\n\n感じ取ることは、できないのだろうけどね…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ03",
+    "Text": "9ヶ月間の沈黙を破り実行された、\n\n連邦軍の大反攻作戦によって、ジオンは\n\n最大の鉱物資源採掘基地を失うこととなりました。\n\nマ･クベ少佐は、早々にオデッサを放棄し、\n\n地球外へと脱出。\n\nここから本国へ送られた資源の量は、\n\n軽く10年の戦争に耐えうるものと言われていますが、\n\n実際に戦闘を行うのは、\n\n私たちを含む前線の兵士たち…。\n\n正直、そんな長期戦に耐えられるはずはない\n\nというのが、現実でした。\n\nオデッサの敗北によって、\n\n今後の戦いに最も大きな影響を与えたのは、\n\n資源採掘基地の損失ではなく、防衛に当っていた\n\n欧州方面制圧軍が、甚大な被害を受け、\n\n指揮系統が混乱を極めたということでした。\n\n前線部隊が、独断で敗走をはじめ、\n\n散漫な戦闘を行うようになり、\n\n地上での戦いが、泥沼化していくことは、\n\n私にも感じとれたのです…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ04",
+    "Text": "俺たちは独立遊撃隊として、\n\n\n独自の判断により行動する部隊としての\n\n\n活動を開始した。\n\n\n\n\n欧州方面制圧軍の敗走は続き、多くの部隊が\n\n\n宇宙への脱出、アフリカや、極東方面への\n\n\n撤退行動を行っていた。\n\n\n\n\n少しでも多くの友軍を無事に脱出させ、\n\n\n戦線の立て直しを図るべく、\n\n\n俺たちは、情報収集を徹底し、\n\n\n支援が必要と思われる各地を転戦していくことを\n\n\n決めたのだった。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ05",
+    "Text": "俺たちは独立遊撃隊として、\n\n\n独自の判断により行動する部隊としての\n\n\n活動を開始した。\n\n\n\n\n欧州方面制圧軍の敗走は続き、多くの部隊が\n\n\n宇宙への脱出、アフリカや、極東方面への\n\n\n撤退行動を行っていた。\n\n\n\n\n少しでも多くの友軍を無事に脱出させ、\n\n\n戦線の立て直しを図るべく、\n\n\n俺たちは、情報収集を徹底し、\n\n\n支援が必要と思われる各地を転戦していくことを\n\n\n決めたのだった。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ06",
+    "Text": "ジオン地上制圧軍、最大の拠点の1つである\n\nキャリフォルニア･ベース。\n\n\n\nこれは、\n\n陸海空、3軍の基地を中心に、\n\n打ち上げ用大型カタパルトを備えた宇宙基地、\n\n兵器開発工場までをその敷地内に持つ\n\n大規模な複合基地だ。\n\n\n\n元々、連邦軍の拠点だったこの基地を\n\nジオンは、第2次地球降下作戦時に、\n\nほとんど無傷で奪取することに成功し\n\n転用していた。\n\n\n\n欧州方面で、大敗をきっした我々が、\n\n再度、連邦に対して攻勢に転じることが\n\n出来るか否かは、この基地の存続にかかっていると\n\n言っても、過言ではなかった。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ07",
+    "Text": "ラサ基地は、ジオン極東方面軍の拠点の1つ。\n\n\n通称、アプサラス基地。\n\n\nここは、地上における\n\n\n新兵器の研究、開発を担う基地の1つだ。\n\n\n\nアプサラスと呼ばれる、新型モビルアーマーが\n\n\n完成すれば、悲願である、連邦の総司令本部\n\n\nジャブローへの攻撃も可能とされている。\n\n\n\nもっとも、1機のモビルアーマーやMSが、\n\n\n戦局に影響を及ぼせるほど、現実は甘くないのだが。\n\n\n今の地上の状況では、\n\n\nそういったものを信じてみたくなるのも、\n\n\n止むを得ないといったところか…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ08",
+    "Text": "11月も下旬になると、ジオン本国であるサイド3では、\n\n連邦軍の宇宙侵攻に備えるべく、\n\nその兵力、物資を、本土防衛線である\n\n月のグラナダ、宇宙要塞ソロモン、\n\nそして、ア･バオア･クーに集中させる動きを見せた。\n\n\n\nこの時点で地上部隊は、\n\n事実上、切り離されることとなった。\n\n\n\n慣れない地上に置き去りにされ、\n\n補給すらままならない状況下で、\n\n兵士たちの疲弊の色は、日に日に濃くなっていった。\n\n\n\n\nそんな中、宇宙との橋頭堡として\n\n辛うじて機能していたキャリフォルニア･ベースに、\n\n宇宙から支援物資の投下が行われることが報じられ、\n\n前線の兵達の間でも、\n\nそれがわずかな希望となっていた。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ09",
+    "Text": "11月も下旬になると、ジオン本国である\n\nサイド3では、連邦軍の宇宙侵攻に備えるべく、\n\nその兵力、物資を、本土防衛線である\n\n月のグラナダ、宇宙要塞ソロモン、\n\nそして、ア･バオア･クーに集中させる動きを見せた。\n\n\nこの時点で、地上部隊は、\n\n事実上、切り離されることとなった。\n\n\n\n慣れない地上に置き去りにされ、\n\n補給すらままならない状況下で、\n\n兵士たちの疲弊の色は、日に日に濃くなっていった。\n\n\n\nそんな中、極東方面の抵抗拠点の1つである\n\nラサ基地が、連邦軍の包囲攻撃により、\n\n危機に陥っていた。\n\n\nここが落ちれば、欧州に続いて極東方面も\n\n連邦の手に落ちることになりかねなかった…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ10",
+    "Text": "赤い彗星こと、シャア・アズナブル中佐率いる\n\nマッド・アングラー隊の調査によって、\n\nついに、連邦軍総司令本部ジャブローの\n\n正確な位置が発覚しました。\n\n\n\nそして、これを受け、\n\nキャリフォルニア･ベースに温存されていた部隊による\n\n総攻撃が決定されたのです。\n\n\n\nこの戦いが、ジオン地上制圧軍の命運を決することは\n\n明白でした…。\n\n\n\n勝てば、地上におけるミリタリーバランスは\n\n再びジオンに傾き、\n\n負ければ、温存戦力のほとんどを失い、\n\n連邦の掃討作戦の前に、\n\n抵抗さえできないほどの深手を受ける…。\n\n\nこの作戦は、そういう、博打的ともいえるものでした…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ11",
+    "Text": "私たちの部隊は、担当区画の\n\n\n防空設備の破壊という第一目標を達成し、\n\n\nついに、ジャブローの内部へと突入しました。\n\n\n\n\n\n\n\nジャブローの内部は、\n\n\n鍾乳洞を利用して作られた、\n\n\n広大な地下の大空洞でした。\n\n\n\n\nその自然の神秘に目を奪われつつも、\n\n\n入り組んだ迷路のような薄暗い地下の道を\n\n\n私たちは、勝利のために突き進んだのでした…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ12",
+    "Text": "ジオンによる、ジャブロー攻略作戦は\n\n我軍の惨敗で終わりました…。\n\n\n\n降下部隊のほとんどは、地上で撃破され、\n\nごく一部の部隊のみが、内部侵入を果たしたものの、\n\nそれらの部隊も、\n\n連邦のMS部隊を前に壊滅してしまいました…。\n\n\n\n私たちが破壊工作に成功したブロックは、\n\n所詮ジャブローのほんの一角にしかすぎず、\n\n結局、今の連邦の勢いを削りとるほどの効果は\n\nありませんでした…。\n\n\n\nこの作戦の失敗により、\n\n今後、ますます酷い状況に\n\nおちいるであろう友軍の助けになるためにも、\n\nこの時は、とにかく…\n\n生きて脱出することが、最優先事項だったのです…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ13",
+    "Text": "起死回生をかけたジャブロー攻略戦の敗北により、\n\nキャリフォルニア･ベースの戦力の大半を失った\n\nジオン地上制圧軍は、\n\nもはや、連邦に対抗するすべを失っていた。\n\n\nそれに対し、連邦は再建した宇宙艦隊の\n\n打ち上げも成功させ、いよいよ、\n\n宇宙での最終決戦にのぞむ構えを見せていた…。\n\n\nそれならそれで、いっそこっちは\n\n放っておいてくれればいいんだが、\n\nご丁寧なことに、ジオン掃討作戦なんてものを\n\n計画中のようだ。\n\n\nまぁ、むこうがやる気なら、\n\nこっちも最後まで、付き合うまでだ。\n\n\n俺…、\n\nいや、ブラウアー隊は、\n\n呆れるほどに、あきらめが悪いんでな。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ14",
+    "Text": "起死回生をかけたジャブロー攻略戦の敗北により、\n\nキャリフォルニア･ベースの戦力の大半を失った\n\nジオン地上制圧軍は、\n\nもはや、連邦に対抗するすべを失っていた。\n\n\nそれに対し、連邦は再建した宇宙艦隊の\n\n打ち上げも成功させ、いよいよ、\n\n宇宙での最終決戦にのぞむ構えを見せていた…。\n\n\nそれならそれで、いっそこっちは\n\n放っておいてくれればいいんだが、\n\nご丁寧なことに、ジオン掃討作戦なんてものを\n\n計画中のようだ。\n\n\nまぁ、むこうがやる気なら、\n\nこっちも最後まで、付き合うまでだ。\n\n\n俺…、\n\nいや、ブラウアー隊は、\n\n呆れるほどに、あきらめが悪いんでな。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ15",
+    "Text": "ジオン極東方面軍の拠点の1つ、ラサ基地。\n\n同基地は、連邦軍の包囲攻撃を受けて陥落。\n\n\n\n\nしかし、この基地で極秘裏に開発されていた\n\nアプサラスの反撃により、連邦の制圧部隊も\n\n壊滅的な打撃を受けていた。\n\n\n現在、ラサ基地には、連邦の調査団と、\n\n最低限の守備隊が駐屯しているのみ。\n\n\n\n\n僕の掴んだ情報では、この基地の地下には、\n\n独立ブロックの地下貯蔵庫がある。\n\n\n\n…中身は、大体予想がつくというものだ。\n\n\n\n部隊の維持には、何かとお金がかかるんでね。\n\nなんとしてでも、これを連邦が発見する前に、\n\n奪いとりたいところだ。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ16",
+    "Text": "キャリフォルニア･ベース。\n\nここは、ジオン地上制圧軍最大の拠点だ。\n\n\n\nしかし、ここももはや陥落は時間の問題だ。\n\n俺としちゃあ、せっかく出会った気の合う仲間を\n\nこんなところで失いたくはない。\n\n\n\nジャブロー攻めに失敗した時点で、\n\nもう、地上での起死回生はあり得ない。\n\n\n\n正直、早いとこ潜伏先を決めて、\n\n宇宙のやつらが戦況を逆転してくれるまで、\n\n身を潜めるべきだと思うんだが。\n\n\nウチの隊長が、そんなことを聞くわけもねぇか…。\n\n\n\n\nまぁ、あいつらと一緒なら、\n\nたとえここで命を落すことになっても…本望か。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ17",
+    "Text": "俺たちは、アフリカ方面へと向かう道中、\n\n\n砂漠地帯で行き場を失っている部隊からの\n\n\n救援要請を受けた。\n\n\nガウで運べれば楽なんだが、\n\n\nジャブローで、そのほとんどが失われ、\n\n\nさすがのクラウスも、手配することは不可能だった。\n\n\n\n\nなんとかギャロップを手配し、陸路での\n\n\n撤収を支援することにした俺たち。\n\n\nしかし、この地区は、ジオン掃討作戦を控えた\n\n\n連邦部隊の通り道になっていた…。\n\n\n\n\n久々に、骨の折れる仕事になりそうだ…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ18",
+    "Text": "俺たちは、トルドのおかげで\n\n\n陥落寸前のキャリフォルニア･ベースから、\n\n\n脱出することに成功した…。\n\n\n\n\n地上は、\n\n\nアフリカ戦線がかろうじて抵抗を続けるのみで、\n\n\nもはや完全に、連邦の軍門に下ったといえた。\n\n\n\n\n\n\n俺たちは、宇宙へ脱出の望みを繋ぐべく、\n\n\n目立ちすぎるガウを捨て、この状況下で少しでも\n\n\n安全な部隊移動の足を得るために、\n\n\n連邦の輸送部隊を襲撃することに決めた…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ19",
+    "Text": "12月中旬には、キャリフォルニア･ベースと、\n\nアフリカ戦線への、連邦による2大掃討作戦は\n\nそれぞれの山場を迎えていた。\n\n圧倒的な戦力差の前に、ジオン地上部隊は、\n\n壊滅の危機に瀕していた。\n\n\nしかし、アフリカには、かつての鉱山を利用した\n\nジオンの地下基地が無数に作られており、\n\nそのほとんどは、入り口を固く閉ざし、\n\nいつの日か訪れるであろう、反撃の時に向けて、\n\n冬眠状態に入っていた。\n\nこうなるとこれらの基地は、その性質上、\n\n攻略はもとより、発見さえも難しくなり、\n\n連邦としても無視するしかないのが現実だった。\n\n\nもはや、活動のきっかけさえ\n\nつかめなくなっていた俺たちの部隊も、\n\n1つの鉱山基地を陣どり、潜伏していたのだが…。\n\nどうやら、最後の最後まで、楽は出来ないようだ…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ20",
+    "Text": "宇宙への脱出の望みを果たすべく、\n\n俺たちは、連邦の宇宙基地がある北極に\n\n向かっていた。\n\n\n\n\n宇宙に上がれたとしても、連邦の監視の目を\n\nかいくぐって、無事に月か中立のサイド６に\n\n逃げ込めるかは、わからない…。\n\nそれでも、今の俺たちは、\n\nそのかすかな望みにかけるしかなかった。\n\n\n\n\n\nしかし、俺の心の片隅には、\n\nまだ、地上でやれることがあるんじゃないか？\n\n…なんて考えが、残っていた。\n\n\n\n\nトルド…、守ってくれなんて言わない。\n\nせめて、俺たちを見守っていてくれ…。"
+  },
+  {
+    "ID": "SPACE_PROLOGUE_MZ21",
+    "Text": "暦が、宇宙世紀0079から、\n\n0080になろうとしている12月の末。\n\n\n\n折角、いい感じでしめたハズだったんだが…。\n\n\n\n悪いな、\n\nもう少しだけ付き合ってくれ。\n\n\n\n\n俺たちの潜伏する鉱山基地は、この土壇場で\n\n発見され、インド洋から上陸した部隊によって、\n\n完全に包囲されてしまった…。\n\n\n\n幸いにして、今までの行いのおかげなのか、\n\n脱出が成功した際に受け入れてくれる\n\n基地は見つかった。\n\n\n\n\nさて、これが本当に、最後の戦いになりそうだ…。"
+  },
+  {
+    "ID": "SPACE_MZ01_TEXT_01",
+    "Text": "Desert Area"
+  },
+  {
+    "ID": "SPACE_MZ02_TEXT_01",
+    "Text": "Near Odessa"
+  },
+  {
+    "ID": "SPACE_MZ03_TEXT_01",
+    "Text": "Near Odessa"
+  },
+  {
+    "ID": "SPACE_MZ04_TEXT_01",
+    "Text": "Belfast"
+  },
+  {
+    "ID": "SPACE_MZ05_TEXT_01",
+    "Text": "Snowy Field"
+  },
+  {
+    "ID": "SPACE_MZ06_TEXT_01",
+    "Text": "Seattle"
+  },
+  {
+    "ID": "SPACE_MZ07_TEXT_01",
+    "Text": "Valley Area 526"
+  },
+  {
+    "ID": "SPACE_MZ08_TEXT_01",
+    "Text": "Lhasa Base"
+  },
+  {
+    "ID": "SPACE_MZ09_TEXT_01",
+    "Text": "Jaburo Ground"
+  },
+  {
+    "ID": "SPACE_MZ10_TEXT_01",
+    "Text": "Jaburo Underground"
+  },
+  {
+    "ID": "SPACE_MZ11_TEXT_01",
+    "Text": "Jaburo Underground"
+  },
+  {
+    "ID": "SPACE_MZ12_TEXT_01",
+    "Text": "Jaburo Ground"
+  },
+  {
+    "ID": "SPACE_MZ13_TEXT_01",
+    "Text": "Valley"
+  },
+  {
+    "ID": "SPACE_MZ14_TEXT_01",
+    "Text": "Seattle"
+  },
+  {
+    "ID": "SPACE_MZ15_TEXT_01",
+    "Text": "Lhasa City"
+  },
+  {
+    "ID": "SPACE_MZ16_TEXT_01",
+    "Text": "California Base"
+  },
+  {
+    "ID": "SPACE_MZ17_TEXT_01",
+    "Text": "Desert Area"
+  },
+  {
+    "ID": "SPACE_MZ18_TEXT_01",
+    "Text": "Snowy Field"
+  },
+  {
+    "ID": "SPACE_MZ19_TEXT_01",
+    "Text": "Africa Mining Base"
+  },
+  {
+    "ID": "SPACE_MZ20_TEXT_01",
+    "Text": "Arctic Base"
+  },
+  {
+    "ID": "SPACE_MZ21_TEXT_01",
+    "Text": "Africa Mining Base"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_OK_01",
+    "Text": "Save completed"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_ALLOC_FAILED_01",
+    "Text": "ERROR:ALLOC_FAILED"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_BUSY_01",
+    "Text": "ERROR:BUSY"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_AUTHENTICATION_01",
+    "Text": "Save file corrupted\nDelete?"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_AUTHENTICATION_02",
+    "Text": "Save file corrupted\nContinue without save/load？"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_CORRUPT_01",
+    "Text": "The Wii's storage memory has been corrupted.\nPlease read the Wii's instruction manual for details."
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_ECC_CRIT_01",
+    "Text": "This file\ncannot be used because its data is corrupt.\nAre you sure you want to delete the file?"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_ECC_CRIT_02",
+    "Text": "This file\ncannot be used because the data is corrupted.\nDo you want to continue without saving/loading?"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_MAXBLOCKS_01",
+    "Text": "There is an error in the amount of free space in the Wii's storage memory.\nPlease read the Wii's instruction manual for details."
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_MAXFILES_01",
+    "Text": "The number of free files in the Wii's storage memory is abnormal.\nPlease read the Wii's instruction manual for details."
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_UNKNOWN_01",
+    "Text": "ERROR:UNKNOWN"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_ACCESS_01",
+    "Text": "ERROR:ACCESS"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_EXISTS_01",
+    "Text": "ERROR:EXISTS"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_INVALID_01",
+    "Text": "ERROR:INVALID"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_MAXFD_01",
+    "Text": "ERROR:MAXFD"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_NOEXISTS_01",
+    "Text": "ERROR:NOEXISTS"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_OPENFD_01",
+    "Text": "ERROR:OPENFD"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_FATAL_ERROR_01",
+    "Text": "ERROR:FATAL_ERROR"
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXBLOCKS_01",
+    "Text": "There is not enough free space in the Wii's storage memory.\nPlease move the data to the SD card on the save data screen, or delete the data to free up @NEED_BLOCKS@ blocks."
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXBLOCKS_02",
+    "Text": "To organize the contents of the Wii console memory,\nplease use the Wii console's Wii console memory editing screen\n."
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXBLOCKS_03",
+    "Text": "Continue playing the game without saving/loading."
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXFILES_01",
+    "Text": "There are not enough free files in the Wii's storage memory.\nPlease move the data to the SD card on the save data screen, or delete the data."
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXFILES_02",
+    "Text": "To organize the contents of the Wii console's memory,\nplease use the Wii console's Wii console memory editing screen."
+  },
+  {
+    "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXFILES_03",
+    "Text": "Continue playing the game without saving/loading."
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_OK_01",
+    "Text": "Loading finished."
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_ALLOC_FAILED_01",
+    "Text": "ERROR:ALLOC_FAILED"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_BUSY_01",
+    "Text": "ERROR:BUSY"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_AUTHENTICATION_01",
+    "Text": "This file\ncannot be used because its data is corrupt.\nAre you sure you want to delete the file?"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_AUTHENTICATION_02",
+    "Text": "This file\ncannot be used because the data is corrupted.\nDo you want to continue without saving/loading?"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_CORRUPT_01",
+    "Text": "The Wii's storage memory has been corrupted.\nPlease read the Wii's instruction manual for details."
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_ECC_CRIT_01",
+    "Text": "This file\ncannot be used because its data is corrupt.\nAre you sure you want to delete the file?"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_ECC_CRIT_02",
+    "Text": "This file\ncannot be used because the data is corrupted.\nDo you want to continue without saving/loading?"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_MAXBLOCKS_01",
+    "Text": "There is an error in the amount of free space in the Wii's storage memory.\nPlease read the Wii's instruction manual for details."
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_MAXFILES_01",
+    "Text": "The number of free files in the Wii's storage memory is abnormal.\nPlease read the Wii's instruction manual for details."
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_UNKNOWN_01",
+    "Text": "ERROR:UNKNOWN"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_ACCESS_01",
+    "Text": "ERROR:ACCESS"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_EXISTS_01",
+    "Text": "ERROR:EXISTS"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_INVALID_01",
+    "Text": "ERROR:INVALID"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_MAXFD_01",
+    "Text": "ERROR:MAXFD"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_NOEXISTS_01",
+    "Text": "ERROR:NOEXISTS"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_OPENFD_01",
+    "Text": "ERROR:OPENFD"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_FATAL_ERROR_01",
+    "Text": "ERROR:FATAL_ERROR"
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXBLOCKS_01",
+    "Text": "There is not enough free space in the Wii's storage memory.\nPlease move the data to the SD card on the save data screen, or delete the data to free up @NEED_BLOCKS@blocks."
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXBLOCKS_02",
+    "Text": "To organize the contents of the Wii console memory,\nplease go to the Wii console's Wii console memory editing screen."
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXBLOCKS_03",
+    "Text": "Start game without saving/loading."
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXFILES_01",
+    "Text": "There are not enough free files in the Wii's storage memory.\nPlease move the data to the SD card on the save data screen, or delete the data."
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXFILES_02",
+    "Text": "To organize the contents of the Wii console memory,\nplease go to the Wii console's Wii console memory editing screen."
+  },
+  {
+    "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXFILES_03",
+    "Text": "Start game without saving/loading."
+  },
+  {
+    "ID": "MSG_SAVE_START_A_01",
+    "Text": "Save your story data.\nThe next time you play, you will restart from this point.\nAre you sure you want to save?"
+  },
+  {
+    "ID": "MSG_SAVE_START_B_01",
+    "Text": "Start saving. Are you sure?\n(Global data) (tentative) (This will not be used at this time)"
+  },
+  {
+    "ID": "MSG_SAVE_START_C_01",
+    "Text": "Do you want to save your changes?"
+  },
+  {
+    "ID": "MSG_SAVE_RUN_A_01",
+    "Text": "Saving story data.\n\nPlease do not touch the power button."
+  },
+  {
+    "ID": "MSG_SAVE_RUN_B_01",
+    "Text": "Auto-saving system data.\n(Story data will not be saved)\nPlease do not touch the power button."
+  },
+  {
+    "ID": "MSG_SAVE_RUN_C_01",
+    "Text": "Saving option changes.\n\nPlease do not touch the power button."
+  },
+  {
+    "ID": "MSG_LOAD_START_A_01",
+    "Text": "Start loading. Are you sure?"
+  },
+  {
+    "ID": "MSG_LOAD_START_B_01",
+    "Text": "Start loading. Are you sure?"
+  },
+  {
+    "ID": "MSG_LOAD_RUN_A_01",
+    "Text": "Loading.\nPlease do not touch the power button."
+  },
+  {
+    "ID": "MSG_LOAD_RUN_B_01",
+    "Text": "Loading.\nPlease do not touch the power button."
+  },
+  {
+    "ID": "MSG_CHECK_NAND_MEM_01",
+    "Text": "Checking Wii storage memory..."
+  },
+  {
+    "ID": "MSG_DELETE_FILE_01",
+    "Text": "Deleting corrupted files."
+  },
+  {
+    "ID": "MSG_DELETE_FILE_02",
+    "Text": "Corrupted files have been deleted."
+  },
+  {
+    "ID": "MSG_NEW_SAVE_CONFIRM_A_01",
+    "Text": "Create story data.\nAre you sure?"
+  },
+  {
+    "ID": "MSG_NEW_SAVE_CONFIRM_B_01",
+    "Text": "Create system data.\nAre you sure?"
+  },
+  {
+    "ID": "MSG_NEW_SAVE_CONFIRM_C_01",
+    "Text": "Are you sure you want to create\na save file to record your optional settings?"
+  },
+  {
+    "ID": "COLOR_CHANGE_TITLE",
+    "Text": "MS COLOR CHANGE"
+  },
+  {
+    "ID": "COLOR_BOX_TITLE",
+    "Text": "Color Box"
+  },
+  {
+    "ID": "COLOR_PALETTE_TITLE",
+    "Text": "Color Palette"
+  },
+  {
+    "ID": "BLUE_FONT",
+    "Text": "Blue"
+  },
+  {
+    "ID": "BLUE_VALUE",
+    "Text": "@BLUE_VALUE@"
+  },
+  {
+    "ID": "GREEN_FONT",
+    "Text": "Green"
+  },
+  {
+    "ID": "GREEN_VALUE",
+    "Text": "@GREEN_VALUE@"
+  },
+  {
+    "ID": "RED_BAR_0",
+    "Text": "¶"
+  },
+  {
+    "ID": "RED_BAR_255",
+    "Text": "¶"
+  },
+  {
+    "ID": "RED_FONT",
+    "Text": "Red"
+  },
+  {
+    "ID": "RED_VALUE",
+    "Text": "@RED_VALUE@"
+  },
+  {
+    "ID": "SPE_FONT",
+    "Text": "Gloss"
+  },
+  {
+    "ID": "SPE_VALUE",
+    "Text": "@SPE_VALUE@"
+  },
+  {
+    "ID": "SPE_BAR_0",
+    "Text": "¶"
+  },
+  {
+    "ID": "SPE_BAR_100",
+    "Text": "¶"
+  },
+  {
+    "ID": "COLOR_INFO_01",
+    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+  },
+  {
+    "ID": "COLOR_INFO_02",
+    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+  },
+  {
+    "ID": "COLOR_INFO_03",
+    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+  },
+  {
+    "ID": "COLOR_INFO_04",
+    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+  },
+  {
+    "ID": "COLOR_INFO_05",
+    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+  },
+  {
+    "ID": "COLOR_INFO_06",
+    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+  },
+  {
+    "ID": "COLOR_INFO_PALETTE",
+    "Text": "Select the color palette you want to change by pressing ∈\nYou cannot change the color of color boxes 4, 5, and 6"
+  },
+  {
+    "ID": "COLOR_INFO_RED",
+    "Text": "Red ≒←→Adjust ⊆：Enlarge⊇：Reduce\n∪：rotate left∩：rtoate right. Control stick：position adjustoment"
+  },
+  {
+    "ID": "COLOR_INFO_GREEN",
+    "Text": "Green ≒←→Adjust ⊆：Enlarge⊇：Reduce\n∪：rotate left∩：rtoate right. Control stick：position adjustoment"
+  },
+  {
+    "ID": "COLOR_INFO_BLUE",
+    "Text": "Blue ≒←→Adjust ⊆：Enlarge⊇：Reduce\n∪：rotate left∩：rtoate right. Control stick：position adjustoment"
+  },
+  {
+    "ID": "COLOR_INFO_SPE",
+    "Text": "Adjust gloss with≒←→\nHigher number => more gloss"
+  },
+  {
+    "ID": "MULTI_Window_MSG",
+    "Text": "@MESSAGE@"
+  },
+  {
+    "ID": "MULTI_Window_01",
+    "Text": "出撃します、よろしいですか？ "
+  },
+  {
+    "ID": "MULTI_Window_02",
+    "Text": "--debug text--"
+  },
+  {
+    "ID": "MULTI_Window_03",
+    "Text": "When you restart, you will start from where you saved. \nQuit the game. Is it OK?"
+  },
+  {
+    "ID": "MULTI_Window_03_no_save",
+    "Text": "You haven't saved progress.\nAre you sure you want to exit the game?"
+  },
+  {
+    "ID": "MULTI_Window_03_simple",
+    "Text": "Exit the game. Is it OK?"
+  },
+  {
+    "ID": "MULTI_Window_VS",
+    "Text": "PRess ≡ＨＯＭＥ to connect 2nd player wiimote"
+  },
+  {
+    "ID": "MULTI_Window_04",
+    "Text": "Cost too high\nplease lower cost\nby changing MS and/or weapons"
+  },
+  {
+    "ID": "MULTI_Window_05",
+    "Text": "Select this weapon？"
+  },
+  {
+    "ID": "MULTI_Window_06",
+    "Text": "There is a weapon in your squad that you don't have yet.\nWould you like to exit without acquiring it?"
+  },
+  {
+    "ID": "MULTI_Window_07",
+    "Text": "Do you want to start a battle?"
+  },
+  {
+    "ID": "MULTI_Window_08",
+    "Text": "Return to the pilot selection screen. \nAre you sure?"
+  },
+  {
+    "ID": "MULTI_Window_09",
+    "Text": "This map cannot be selected yet."
+  },
+  {
+    "ID": "MULTI_Window_10",
+    "Text": "Do you want to end MS color change?"
+  },
+  {
+    "ID": "MULTI_Window_11",
+    "Text": "Go back to mission select.\nAre you sure?"
+  },
+  {
+    "ID": "MULTI_Window_12",
+    "Text": "Are you sure you want this stage?"
+  },
+  {
+    "ID": "MULTI_Window_13",
+    "Text": "PRess ＨＯＭＥ to connect 2nd player wiimote"
+  },
+  {
+    "ID": "MULTI_Window_14",
+    "Text": "We want to erase your data. Are you sure?"
+  },
+  {
+    "ID": "RESULT_MSG_WIN_00",
+    "Text": "@RESULT_MSG_WIN_00@ is now\navailable."
+  },
+  {
+    "ID": "RESULT_MSG_WIN_01",
+    "Text": "@RESULT_MSG_WIN_01@ is now available for use by Zeon forces."
+  },
+  {
+    "ID": "RESULT_MSG_WIN_02",
+    "Text": "@RESULT_MSG_WIN_02@ is now available for\nFederal forces."
+  },
+  {
+    "ID": "RESULT_MSG_WIN_03",
+    "Text": "The unit cost is now @RESULT_MSG_WIN_03@!\nLet's organize while considering the\ncost of the MS and weapons that will be deployed!"
+  },
+  {
+    "ID": "RESULT_MSG_WIN_04",
+    "Text": "@RESULT_MSG_WIN_04@\nhas been added to the formation stock."
+  },
+  {
+    "ID": "RESULT_MSG_WIN_05",
+    "Text": "@RESULT_MSG_WIN_05@ is now\nplayable in ACE PILOT. "
+  },
+  {
+    "ID": "RESULT_MSG_WIN_06",
+    "Text": "@RESULT_MSG_WIN_06@ is now\navailable for VERSUS/SURVIVAL/COMBINATION. "
+  },
+  {
+    "ID": "RESULT_MSG_WIN_07",
+    "Text": "@RESULT_MSG_WIN_07@ is now\nselectable in VERSUS. "
+  },
+  {
+    "ID": "RESULT_MSG_WIN_08",
+    "Text": "You can now capture enemy aircraft!\nYou can capture enemy aircraft by performing a headshot in Snipe mode."
+  },
+  {
+    "ID": "Staff_Cast_Title",
+    "Text": "Cast"
+  },
+  {
+    "ID": "Space_000",
+    "Text": "¶"
+  },
+  {
+    "ID": "Staff_Cast_000",
+    "Text": "Amuro Ray"
+  },
+  {
+    "ID": "Staff_Cast_001",
+    "Text": "Toru Furuya"
+  },
+  {
+    "ID": "Staff_Cast_002",
+    "Text": "Kai Shiden"
+  },
+  {
+    "ID": "Staff_Cast_003",
+    "Text": "Toshio Furukawa"
+  },
+  {
+    "ID": "Staff_Cast_004",
+    "Text": "Hayato Kobayashi"
+  },
+  {
+    "ID": "Staff_Cast_005",
+    "Text": "Kiyonobu Suzuki"
+  },
+  {
+    "ID": "Staff_Cast_006",
+    "Text": "Christina McKenzie"
+  },
+  {
+    "ID": "Staff_Cast_007",
+    "Text": "Megumi Hayashibara"
+  },
+  {
+    "ID": "Staff_Cast_008",
+    "Text": "Shiro Amada"
+  },
+  {
+    "ID": "Staff_Cast_009",
+    "Text": "Nobuyuki Hiyama"
+  },
+  {
+    "ID": "Staff_Cast_010",
+    "Text": "Karen Joshiwa/Kycilia Zabi"
+  },
+  {
+    "ID": "Staff_Cast_011",
+    "Text": "Mami Koyama"
+  },
+  {
+    "ID": "Staff_Cast_012",
+    "Text": "Terry Sanders Jr."
+  },
+  {
+    "ID": "Staff_Cast_013",
+    "Text": "Tetsusho Genda"
+  },
+  {
+    "ID": "Staff_Cast_014",
+    "Text": "South Banning"
+  },
+  {
+    "ID": "Staff_Cast_015",
+    "Text": "Masashi Sugawara"
+  },
+  {
+    "ID": "Staff_Cast_016",
+    "Text": "Yu Kajima"
+  },
+  {
+    "ID": "Staff_Cast_017",
+    "Text": "Junichi Suwabe"
+  },
+  {
+    "ID": "Staff_Cast_018",
+    "Text": "Yazan Gable"
+  },
+  {
+    "ID": "Staff_Cast_019",
+    "Text": "Yoshitada Otsuka"
+  },
+  {
+    "ID": "Staff_Cast_020",
+    "Text": "Char Aznable"
+  },
+  {
+    "ID": "Staff_Cast_021",
+    "Text": "Shuichi Ikeda"
+  },
+  {
+    "ID": "Staff_Cast_022",
+    "Text": "Ramba Ral"
+  },
+  {
+    "ID": "Staff_Cast_023",
+    "Text": "Masashi Hirose"
+  },
+  {
+    "ID": "Staff_Cast_024",
+    "Text": "Gaia (Black Triple Star)"
+  },
+  {
+    "ID": "Staff_Cast_025",
+    "Text": "Tokumaru Kan"
+  },
+  {
+    "ID": "Staff_Cast_026",
+    "Text": "Ma Kube"
+  },
+  {
+    "ID": "Staff_Cast_027",
+    "Text": "Masahiko Tanaka"
+  },
+  {
+    "ID": "Staff_Cast_028",
+    "Text": "Akahana"
+  },
+  {
+    "ID": "Staff_Cast_029",
+    "Text": "Osamu Kato"
+  },
+  {
+    "ID": "Staff_Cast_030",
+    "Text": "Bernard Wiseman"
+  },
+  {
+    "ID": "Staff_Cast_031",
+    "Text": "Koshi Tsujitani"
+  },
+  {
+    "ID": "Staff_Cast_032",
+    "Text": "Aina Sakhalin"
+  },
+  {
+    "ID": "Staff_Cast_033",
+    "Text": "Kikuko Inoue"
+  },
+  {
+    "ID": "Staff_Cast_034",
+    "Text": "Norris Packard"
+  },
+  {
+    "ID": "Staff_Cast_035",
+    "Text": "Osamu Ichikawa"
+  },
+  {
+    "ID": "Staff_Cast_036",
+    "Text": "Annabelle Gato"
+  },
+  {
+    "ID": "Staff_Cast_037",
+    "Text": "Akio Otsuka"
+  },
+  {
+    "ID": "Space_019",
+    "Text": "Nimbus Stazen"
+  },
+  {
+    "ID": "Staff_Cast_038",
+    "Text": "/Guineas Sakhalin"
+  },
+  {
+    "ID": "Staff_Cast_039",
+    "Text": "Hayami Sho"
+  },
+  {
+    "ID": "Staff_Cast_040",
+    "Text": "Alan Aylward"
+  },
+  {
+    "ID": "Staff_Cast_041",
+    "Text": "Hiroshi Kamiya"
+  },
+  {
+    "ID": "Staff_Cast_042",
+    "Text": "Dennis Barrow"
+  },
+  {
+    "ID": "Staff_Cast_043",
+    "Text": "Hiroki Takahashi"
+  },
+  {
+    "ID": "Staff_Cast_044",
+    "Text": "Lil Somers"
+  },
+  {
+    "ID": "Staff_Cast_045",
+    "Text": "Masumi Asano"
+  },
+  {
+    "ID": "Staff_Cast_046",
+    "Text": "Hoare Blanchett"
+  },
+  {
+    "ID": "Staff_Cast_047",
+    "Text": "Sayaka Ohara"
+  },
+  {
+    "ID": "Staff_Cast_048",
+    "Text": "Leo Brauer"
+  },
+  {
+    "ID": "Staff_Cast_049",
+    "Text": "Kotaro Namura"
+  },
+  {
+    "ID": "Staff_Cast_050",
+    "Text": "Klaus Bertrand"
+  },
+  {
+    "ID": "Staff_Cast_051",
+    "Text": "Daisuke Ono"
+  },
+  {
+    "ID": "Staff_Cast_052",
+    "Text": "Told Bobrov"
+  },
+  {
+    "ID": "Staff_Cast_053",
+    "Text": "Osamu Hosoi"
+  },
+  {
+    "ID": "Staff_Cast_054",
+    "Text": "Ann Friberg"
+  },
+  {
+    "ID": "Staff_Cast_055",
+    "Text": "Fumiko Orikasa"
+  },
+  {
+    "ID": "Staff_Cast_056",
+    "Text": "Soldier"
+  },
+  {
+    "ID": "Staff_Cast_057",
+    "Text": "Mitsuhiro Ichiki"
+  },
+  {
+    "ID": "Staff_Cast_058",
+    "Text": "Masashi Yabe"
+  },
+  {
+    "ID": "Staff_Cast_059",
+    "Text": "Toru Inada"
+  },
+  {
+    "ID": "Staff_Cast_060",
+    "Text": "Eishi Takemoto"
+  },
+  {
+    "ID": "Staff_Cast_061",
+    "Text": "Naoki Imamura"
+  },
+  {
+    "ID": "Staff_Cast_062",
+    "Text": "Kazunari Tanaka"
+  },
+  {
+    "ID": "Staff_Cast_063",
+    "Text": "Recording Studio"
+  },
+  {
+    "ID": "Staff_Cast_064",
+    "Text": "Recording Studio"
+  },
+  {
+    "ID": "Staff_Cast_065",
+    "Text": "Studio T&T"
+  },
+  {
+    "ID": "Staff_Cast_066",
+    "Text": "Sound Director"
+  },
+  {
+    "ID": "Staff_Cast_067",
+    "Text": "Sadayoshi Fujino"
+  },
+  {
+    "ID": "Staff_Cast_068",
+    "Text": "Mixer"
+  },
+  {
+    "ID": "Staff_Cast_069",
+    "Text": "Kohei Oishi"
+  },
+  {
+    "ID": "Staff_Cast_070",
+    "Text": "Sound production"
+  },
+  {
+    "ID": "Staff_Cast_071",
+    "Text": "Cruise"
+  },
+  {
+    "ID": "Game_Staff_Title",
+    "Text": "Game Staff"
+  },
+  {
+    "ID": "Staff_Game_Plan_00",
+    "Text": "Game Design"
+  },
+  {
+    "ID": "Staff_Game_Plan_01",
+    "Text": "Main Planning"
+  },
+  {
+    "ID": "Staff_Game_001",
+    "Text": "Susumu Nakazawa"
+  },
+  {
+    "ID": "Staff_Game_002",
+    "Text": "Yuji Nagasaki"
+  },
+  {
+    "ID": "Staff_Game_003",
+    "Text": "Hiroaki Hori"
+  },
+  {
+    "ID": "Staff_Game_004",
+    "Text": "Takahiro Kano"
+  },
+  {
+    "ID": "Staff_Game_005",
+    "Text": "Mariko Iguchi"
+  },
+  {
+    "ID": "Staff_Game_006",
+    "Text": "Masahiko Tokushima"
+  },
+  {
+    "ID": "Staff_Game_Program_00",
+    "Text": "Program"
+  },
+  {
+    "ID": "Staff_Game_Program_01",
+    "Text": "Main program"
+  },
+  {
+    "ID": "Staff_Game_007",
+    "Text": "Hidenori Ishikawa"
+  },
+  {
+    "ID": "Staff_Game_009",
+    "Text": "Wataru Minegishi"
+  },
+  {
+    "ID": "Staff_Game_010",
+    "Text": "Yutaka Ishida"
+  },
+  {
+    "ID": "Space_044",
+    "Text": "In-game"
+  },
+  {
+    "ID": "Space_047",
+    "Text": "Out Game"
+  },
+  {
+    "ID": "Staff_Game_011",
+    "Text": "Hiroyuki Nakatsuka"
+  },
+  {
+    "ID": "Staff_Game_012",
+    "Text": "Kanzaka Fair"
+  },
+  {
+    "ID": "Staff_Game_013",
+    "Text": "Toshio Kikuchi"
+  },
+  {
+    "ID": "Staff_Game_014",
+    "Text": "Tetsuya Otsu"
+  },
+  {
+    "ID": "Staff_Game_042",
+    "Text": "Yuji Inaguma"
+  },
+  {
+    "ID": "Staff_Game_015",
+    "Text": "Toshihiro Tsukiyama"
+  },
+  {
+    "ID": "Staff_Game_016",
+    "Text": "Hiroaki Morishima"
+  },
+  {
+    "ID": "Staff_Game_017",
+    "Text": "Shinichiro Umetani"
+  },
+  {
+    "ID": "Staff_Game_018",
+    "Text": "Kazuhisa Higuchi"
+  },
+  {
+    "ID": "Staff_Game_Program_02",
+    "Text": "Program Manager"
+  },
+  {
+    "ID": "Staff_Game_008",
+    "Text": "Kota Yasoshima"
+  },
+  {
+    "ID": "Staff_Game_graphic_00",
+    "Text": "Graphic"
+  },
+  {
+    "ID": "Staff_Game_graphic_01",
+    "Text": "Art Director"
+  },
+  {
+    "ID": "Staff_Game_020",
+    "Text": "Yukito Okui"
+  },
+  {
+    "ID": "Space_054",
+    "Text": "Effect"
+  },
+  {
+    "ID": "Staff_Game_021",
+    "Text": "Masakazu Doi"
+  },
+  {
+    "ID": "Space_055",
+    "Text": "MS Modeling & Texture"
+  },
+  {
+    "ID": "Staff_Game_022",
+    "Text": "Hideyuki Kikuchi"
+  },
+  {
+    "ID": "Space_056",
+    "Text": "Motion Design"
+  },
+  {
+    "ID": "Staff_Game_023",
+    "Text": "Takayuki Aihara"
+  },
+  {
+    "ID": "Space_057",
+    "Text": "Background Design"
+  },
+  {
+    "ID": "Staff_Game_024",
+    "Text": "NABEO"
+  },
+  {
+    "ID": "Staff_Game_025",
+    "Text": "Daisuke Shimoda"
+  },
+  {
+    "ID": "Staff_Game_026",
+    "Text": "Junko Sawada"
+  },
+  {
+    "ID": "Staff_Game_027",
+    "Text": "Daisuke Fukagawa"
+  },
+  {
+    "ID": "Staff_Game_028",
+    "Text": "Akihisa Watabiki"
+  },
+  {
+    "ID": "Staff_Game_029",
+    "Text": "Yuji Nagasaki"
+  },
+  {
+    "ID": "Staff_Game_030",
+    "Text": "Tatsushi Hashimoto"
+  },
+  {
+    "ID": "Staff_Game_031",
+    "Text": "Masakazu Yanagita"
+  },
+  {
+    "ID": "Staff_Game_032",
+    "Text": "Atsuhiro Miura"
+  },
+  {
+    "ID": "Staff_Game_033",
+    "Text": "Kazuki Baba"
+  },
+  {
+    "ID": "Staff_Game_034",
+    "Text": "Takayuki Miyazaki"
+  },
+  {
+    "ID": "Space_058",
+    "Text": "2D Design"
+  },
+  {
+    "ID": "Space_059",
+    "Text": "Actual machine event"
+  },
+  {
+    "ID": "Staff_Game_graphic_02",
+    "Text": "Graphics Manager"
+  },
+  {
+    "ID": "Staff_Game_019",
+    "Text": "Hiroshi Kikuchi"
+  },
+  {
+    "ID": "Staff_Game_Sound",
+    "Text": "Sound"
+  },
+  {
+    "ID": "Staff_Game_035",
+    "Text": "Makino Tadayoshi"
+  },
+  {
+    "ID": "Staff_Game_036",
+    "Text": "Koji Yamada"
+  },
+  {
+    "ID": "Staff_Game_037",
+    "Text": "Satoshi Ishikawa"
+  },
+  {
+    "ID": "Staff_Game_038",
+    "Text": "Naoto Ohba"
+  },
+  {
+    "ID": "Space_062",
+    "Text": "Kunida Ikkan"
+  },
+  {
+    "ID": "Space_063",
+    "Text": "Shinichi Nakagawa"
+  },
+  {
+    "ID": "Staff_Game_Scenario",
+    "Text": "Scenario/Direction"
+  },
+  {
+    "ID": "Staff_Game_039",
+    "Text": "Masahiko Tokushima"
+  },
+  {
+    "ID": "Space_064",
+    "Text": "Ando Kensho"
+  },
+  {
+    "ID": "Space_065",
+    "Text": "Kotetsu Arima"
+  },
+  {
+    "ID": "Staff_Game_Design",
+    "Text": "New character design"
+  },
+  {
+    "ID": "Staff_Game_040",
+    "Text": "Takashi Fujisawa"
+  },
+  {
+    "ID": "manager_00",
+    "Text": "General Manager"
+  },
+  {
+    "ID": "manager_01",
+    "Text": "Makoto Takanashi"
+  },
+  {
+    "ID": "Staff_Game_Producer",
+    "Text": "Producer"
+  },
+  {
+    "ID": "Staff_Game_041",
+    "Text": "Takeo Isogai"
+  },
+  {
+    "ID": "Staff_Studio_Title_00",
+    "Text": "Recording Studio"
+  },
+  {
+    "ID": "Staff_Studio_00",
+    "Text": "Sound Adjustment Studio"
+  },
+  {
+    "ID": "Staff_Studio_01",
+    "Text": "Studio T&T"
+  },
+  {
+    "ID": "Staff_Studio_Title_01",
+    "Text": "Sound Director"
+  },
+  {
+    "ID": "Staff_Studio_Boss_00",
+    "Text": "Sadayoshi Fujino"
+  },
+  {
+    "ID": "Staff_Studio_Title_02",
+    "Text": "Recording"
+  },
+  {
+    "ID": "Staff_Studio_Boss_01",
+    "Text": "Masato Muto"
+  },
+  {
+    "ID": "Staff_Studio_Title_03",
+    "Text": "Sound production"
+  },
+  {
+    "ID": "Staff_Studio_Boss_02",
+    "Text": "Cruise"
+  },
+  {
+    "ID": "Staff_Alliance_Title",
+    "Text": "Production Cooperation"
+  },
+  {
+    "ID": "Staff_Alliance_000",
+    "Text": "Fontworks Co., Ltd."
+  },
+  {
+    "ID": "Staff_Alliance_002",
+    "Text": "Beck Quality Control Office"
+  },
+  {
+    "ID": "Staff_Alliance_003",
+    "Text": "Sotsu"
+  },
+  {
+    "ID": "Staff_Alliance_004",
+    "Text": "Retsu Tamura"
+  },
+  {
+    "ID": "Staff_Alliance_005",
+    "Text": "Homare Muto"
+  },
+  {
+    "ID": "Staff_Alliance_006",
+    "Text": "Tomoki Nakano"
+  },
+  {
+    "ID": "Staff_Alliance_007",
+    "Text": "Sunrise"
+  },
+  {
+    "ID": "Staff_Alliance_008",
+    "Text": "Akihiro Morita"
+  },
+  {
+    "ID": "Staff_Alliance_009",
+    "Text": "Koji Nakajima"
+  },
+  {
+    "ID": "Staff_Alliance_010",
+    "Text": "Too Takeshi"
+  },
+  {
+    "ID": "Staff_Alliance_011",
+    "Text": "Yusuke Inui"
+  },
+  {
+    "ID": "Staff_Alliance_012",
+    "Text": "Design Studio Omega"
+  },
+  {
+    "ID": "Staff_Alliance_013",
+    "Text": "Art Director Higashitaka Ota"
+  },
+  {
+    "ID": "Staff_Alliance_014",
+    "Text": "Promotion"
+  },
+  {
+    "ID": "Staff_Alliance_015",
+    "Text": "Hirotaka Watanabe"
+  },
+  {
+    "ID": "Staff_Alliance_016",
+    "Text": "Kai Tanaka"
+  },
+  {
+    "ID": "Staff_Alliance_017",
+    "Text": "Yoko Seki"
+  },
+  {
+    "ID": "Staff_Alliance_018",
+    "Text": "Sales"
+  },
+  {
+    "ID": "Staff_Alliance_019",
+    "Text": "Fuyuki Nishizawa"
+  },
+  {
+    "ID": "Staff_Alliance_020",
+    "Text": "Maki Hoshiai"
+  },
+  {
+    "ID": "Staff_Alliance_021",
+    "Text": "Naoki Kumada"
+  },
+  {
+    "ID": "Staff_Alliance_022",
+    "Text": "Mami Furuta"
+  },
+  {
+    "ID": "Staff_Alliance_023",
+    "Text": "Hideyuki Yamazaki"
+  },
+  {
+    "ID": "Staff_Alliance_024",
+    "Text": "Yuki Inaba"
+  },
+  {
+    "ID": "Staff_Alliance_025",
+    "Text": "Hiroshi Saeki"
+  },
+  {
+    "ID": "Staff_Alliance_026",
+    "Text": "Yoichiro Mogi"
+  },
+  {
+    "ID": "Staff_Alliance_028",
+    "Text": "Yoshiyasu Horiuchi"
+  },
+  {
+    "ID": "Staff_Alliance_029",
+    "Text": "Hirofumi Inagaki"
+  },
+  {
+    "ID": "Staff_Alliance_030",
+    "Text": "Norihiko Ushimura"
+  },
+  {
+    "ID": "Staff_Alliance_031",
+    "Text": "Megumi Yamashita"
+  },
+  {
+    "ID": "Space_081",
+    "Text": "Takashi Funatani"
+  },
+  {
+    "ID": "Staff_Special_000",
+    "Text": "Special Thanks"
+  },
+  {
+    "ID": "Staff_Special_001",
+    "Text": "Etsumi Sawada"
+  },
+  {
+    "ID": "Staff_Special_002",
+    "Text": "Tomoaki Imanishi"
+  },
+  {
+    "ID": "Staff_Special_003",
+    "Text": "Kenta Kanayama"
+  },
+  {
+    "ID": "Staff_Special_004",
+    "Text": "Kei Hirono"
+  },
+  {
+    "ID": "Staff_Special_005",
+    "Text": "Shinichiro Fukunishi"
+  },
+  {
+    "ID": "Staff_Special_006",
+    "Text": "Akiyuki Okazaki"
+  },
+  {
+    "ID": "Staff_Producer_000",
+    "Text": "Assistant Producer"
+  },
+  {
+    "ID": "Staff_Producer_001",
+    "Text": "Yoshito Kikuchi"
+  },
+  {
+    "ID": "Staff_Producer_006",
+    "Text": "Producer"
+  },
+  {
+    "ID": "Staff_Producer_007",
+    "Text": "Yoshitaka Goto"
+  },
+  {
+    "ID": "Staff_Producer_002",
+    "Text": "Chief Producer"
+  },
+  {
+    "ID": "Staff_Producer_003",
+    "Text": "Yuji Tsuyuki"
+  },
+  {
+    "ID": "Staff_Producer_004",
+    "Text": "Executive Producer"
+  },
+  {
+    "ID": "Staff_Producer_005",
+    "Text": "Nobuo Unosawa"
+  },
+  {
+    "ID": "development_000",
+    "Text": "Development"
+  },
+  {
+    "ID": "development_001",
+    "Text": "Beck Co., Ltd."
+  },
+  {
+    "ID": "development_002",
+    "Text": "Team White Dingo"
+  },
+  {
+    "ID": "development_003",
+    "Text": "Director"
+  },
+  {
+    "ID": "development_004",
+    "Text": "Masahiko Tokushima"
+  },
+  {
+    "ID": "FORMATION_TITLE",
+    "Text": "FORMATION LIST"
+  },
+  {
+    "ID": "FORMATION_LIST_01",
+    "Text": "@FORMATION_LIST_01@"
+  },
+  {
+    "ID": "FORMATION_LIST_02",
+    "Text": "@FORMATION_LIST_02@"
+  },
+  {
+    "ID": "FORMATION_LIST_03",
+    "Text": "@FORMATION_LIST_03@"
+  },
+  {
+    "ID": "FORMATION_LIST_04",
+    "Text": "@FORMATION_LIST_04@"
+  },
+  {
+    "ID": "FORMATION_LIST_05",
+    "Text": "@FORMATION_LIST_05@"
+  },
+  {
+    "ID": "FORMATION_STOCK_TITLE",
+    "Text": "FORMATION STOCK"
+  },
+  {
+    "ID": "FORMATION_STOCK_01",
+    "Text": "@FORMATION_STOCK_01@"
+  },
+  {
+    "ID": "FORMATION_STOCK_02",
+    "Text": "@FORMATION_STOCK_02@"
+  },
+  {
+    "ID": "FORMATION_STOCK_03",
+    "Text": "@FORMATION_STOCK_03@"
+  },
+  {
+    "ID": "FORMATION_STOCK_04",
+    "Text": "@FORMATION_STOCK_04@"
+  },
+  {
+    "ID": "FORMATION_STOCK_05",
+    "Text": "@FORMATION_STOCK_05@"
+  },
+  {
+    "ID": "BUTTON_INFO_FORM",
+    "Text": "｜≒Select｜∈Ok｜∋Back｜"
+  },
+  {
+    "ID": "FORMATION_INFO_FORM",
+    "Text": "Select formation for use in battle\nfrom available list"
+  },
+  {
+    "ID": "TITLE_01",
+    "Text": "MS HANGAR"
+  },
+  {
+    "ID": "COST_01",
+    "Text": "COST"
+  },
+  {
+    "ID": "COST_NOW",
+    "Text": "@COST_NOW@"
+  },
+  {
+    "ID": "COST_03",
+    "Text": "/"
+  },
+  {
+    "ID": "COST_MAX",
+    "Text": "@COST_MAX@"
+  },
+  {
+    "ID": "LEADER_00",
+    "Text": "MS1 LEADER"
+  },
+  {
+    "ID": "LEADER_PILOT",
+    "Text": "@LEADER_PILOT@"
+  },
+  {
+    "ID": "LEADER_MS",
+    "Text": "@LEADER_MS@"
+  },
+  {
+    "ID": "LEADER_SELECT",
+    "Text": "Sortie"
+  },
+  {
+    "ID": "RIGHT_00",
+    "Text": "MS2 RIGHT WING"
+  },
+  {
+    "ID": "RIGHT_PILOT",
+    "Text": "@RIGHT_PILOT@"
+  },
+  {
+    "ID": "RIGHT_MS",
+    "Text": "@RIGHT_MS@"
+  },
+  {
+    "ID": "RIGHT_SELECT_01",
+    "Text": "Sortie"
+  },
+  {
+    "ID": "RIGHT_SELECT_02",
+    "Text": "Stand-by"
+  },
+  {
+    "ID": "LEFT_00",
+    "Text": "MS3 LEFT WING"
+  },
+  {
+    "ID": "LEFT_PILOT",
+    "Text": "@LEFT_PILOT@"
+  },
+  {
+    "ID": "LEFT_MS",
+    "Text": "@LEFT_MS@"
+  },
+  {
+    "ID": "START_BATTLE",
+    "Text": "START MISSION"
+  },
+  {
+    "ID": "LEFT_SELECT_01",
+    "Text": "Sortie"
+  },
+  {
+    "ID": "LEFT_SELECT_02",
+    "Text": "Stand-by"
+  },
+  {
+    "ID": "INFO_HANGAR_01",
+    "Text": "Please select a pilot to perform the settings."
+  },
+  {
+    "ID": "INFO_HANGAR_02",
+    "Text": "Set up MS1 LEADER."
+  },
+  {
+    "ID": "INFO_HANGAR_03",
+    "Text": "Set up MS2 RIGHT WING."
+  },
+  {
+    "ID": "INFO_HANGAR_04",
+    "Text": "Set up MS3 LEFT WING."
+  },
+  {
+    "ID": "INFO_HANGAR_05",
+    "Text": "Sortie."
+  },
+  {
+    "ID": "SALLY_WIN_00",
+    "Text": "The cost has exceeded.\nPlease select the MS/weapon again."
+  },
+  {
+    "ID": "SALLY_WIN_01",
+    "Text": "Lil has dispatched alone!!\nLil's settings cannot be configured."
+  },
+  {
+    "ID": "SALLY_WIN_02",
+    "Text": "You will act separately from Lil and Dennis.\nYou cannot select Lil and Dennis."
+  },
+  {
+    "ID": "SALLY_WIN_03",
+    "Text": "For this mission, Lil and Dennis will be deployed at the gym as part of data collection."
+  },
+  {
+    "ID": "SALLY_WIN_04",
+    "Text": "As with the previous battle, when Lil and Dennis go out,\nyou will be asked to use the gym."
+  },
+  {
+    "ID": "SALLY_WIN_05",
+    "Text": "For this operation, all units will be fixed.\nYou cannot change the MS."
+  },
+  {
+    "ID": "SALLY_WIN_06",
+    "Text": "\nFor this operation, please launch from an amphibious MS."
+  },
+  {
+    "ID": "SALLY_WIN_07",
+    "Text": "You will deploy the Federation MS you have procured.\nYou will not be able to select your wingman."
+  },
+  {
+    "ID": "SALLY_WIN_08",
+    "Text": "Klaus and Tord will act separately.\nYou cannot select Klaus and Tord."
+  },
+  {
+    "ID": "SALLY_WIN_09",
+    "Text": "This will be a sortie/departure from underwater.\nFor this operation, please sortie from an amphibious MS."
+  },
+  {
+    "ID": "SALLY_WIN_10",
+    "Text": "I'm leaving. Are you sure?"
+  },
+  {
+    "ID": "SALLY_WIN_11",
+    "Text": "Due to the nature of the operation,\nUse of Jim Sniper Custom is recommended."
+  },
+  {
+    "ID": "SALLY_WIN_YES",
+    "Text": "YES"
+  },
+  {
+    "ID": "SALLY_WIN_NO",
+    "Text": "NO"
+  },
+  {
+    "ID": "PILOT_NAME",
+    "Text": "@PILOT_NAME@"
+  },
+  {
+    "ID": "PILOT_STATUS",
+    "Text": "PILOT STATUS"
+  },
+  {
+    "ID": "MS_COLOR_CHANGE",
+    "Text": "MS COLOR CHANGE"
+  },
+  {
+    "ID": "CONFRONT",
+    "Text": "Melee"
+  },
+  {
+    "ID": "DEFENCE",
+    "Text": "Defence"
+  },
+  {
+    "ID": "THRUSTOR",
+    "Text": "Boost"
+  },
+  {
+    "ID": "MOBILITY",
+    "Text": "Speed"
+  },
+  {
+    "ID": "SUB_WEAPON1",
+    "Text": "SUB1"
+  },
+  {
+    "ID": "SUB_WEAPON1_NAME",
+    "Text": "：@SUB_WEAPON1_NAME@"
+  },
+  {
+    "ID": "SUB_WEAPON2",
+    "Text": "SUB2"
+  },
+  {
+    "ID": "SUB_WEAPON2_NAME",
+    "Text": "：@SUB_WEAPON2@"
+  },
+  {
+    "ID": "SHIELD",
+    "Text": "Shield"
+  },
+  {
+    "ID": "SHIELD_LOAD",
+    "Text": "：@SHIELD_LOAD@"
+  },
+  {
+    "ID": "BEAM_LOAD",
+    "Text": "：@BEAM_LOAD@"
+  },
+  {
+    "ID": "SHOULDER_WEAPON",
+    "Text": "Shoulder"
+  },
+  {
+    "ID": "SHOULDER_WEAPON_LOAD",
+    "Text": "：@SHOULDER_LOAD@"
+  },
+  {
+    "ID": "HANDS",
+    "Text": "Two-handed"
+  },
+  {
+    "ID": "HANDS_LOAD",
+    "Text": "：@HANDS_LOAD@"
+  },
+  {
+    "ID": "MS_LIMIT",
+    "Text": "Limit to １"
+  },
+  {
+    "ID": "MS_LIMIT_LOAD",
+    "Text": "：@MS_LIMIT_LOAD@"
+  },
+  {
+    "ID": "PILOT_CONFRONT",
+    "Text": "Melee"
+  },
+  {
+    "ID": "PILOT_CONFRONT_VALUE",
+    "Text": "：@PILOT_CONFRONT_VALUE@"
+  },
+  {
+    "ID": "PILOT_SHOOT",
+    "Text": "Ranged"
+  },
+  {
+    "ID": "PILOT_SHOOT_VALUE",
+    "Text": "：@PILOT_SHOOT_VALUE@"
+  },
+  {
+    "ID": "PILOT_RELOAD",
+    "Text": "Reload"
+  },
+  {
+    "ID": "PILOT_RELOAD_VALUE",
+    "Text": "：@PILOT_RELOAD_VALUE@"
+  },
+  {
+    "ID": "PILOT_SNIPE",
+    "Text": "Snipe"
+  },
+  {
+    "ID": "PILOT_SNIPE_VALUE",
+    "Text": "：@PILOT_SNIPE_VALUE@"
+  },
+  {
+    "ID": "PILOT_DEFENCE",
+    "Text": "Defense"
+  },
+  {
+    "ID": "PILOT_DEFENCE_VALUE",
+    "Text": "：@PILOT_DEFENCE_VALUE@"
+  },
+  {
+    "ID": "PILOT_MOBILITY",
+    "Text": "Speed"
+  },
+  {
+    "ID": "PILOT_MOBILITY_VALUE",
+    "Text": "：@PILOT_MOBILITY_VALUE@"
+  },
+  {
+    "ID": "PILOT_THRUSTOR",
+    "Text": "Boost"
+  },
+  {
+    "ID": "PILOT_THRUSTOR_VALUE",
+    "Text": "：@PILOT_THRUSTOR_VALUE@"
+  },
+  {
+    "ID": "MS_TITLE_01",
+    "Text": "MS"
+  },
+  {
+    "ID": "MS_TITLE_02",
+    "Text": "COST"
+  },
+  {
+    "ID": "MS_NAME_01",
+    "Text": "@MS_NAME_01@"
+  },
+  {
+    "ID": "MS_NAME_02",
+    "Text": "@MS_NAME_02@"
+  },
+  {
+    "ID": "MS_NAME_03",
+    "Text": "@MS_NAME_03@"
+  },
+  {
+    "ID": "MS_NAME_04",
+    "Text": "@MS_NAME_04@"
+  },
+  {
+    "ID": "MS_NAME_05",
+    "Text": "@MS_NAME_05@"
+  },
+  {
+    "ID": "MS_COST_01",
+    "Text": "@MS_COST_01@"
+  },
+  {
+    "ID": "MS_COST_02",
+    "Text": "@MS_COST_02@"
+  },
+  {
+    "ID": "MS_COST_03",
+    "Text": "@MS_COST_03@"
+  },
+  {
+    "ID": "MS_COST_04",
+    "Text": "@MS_COST_04@"
+  },
+  {
+    "ID": "MS_COST_05",
+    "Text": "@MS_COST_05@"
+  },
+  {
+    "ID": "WEAPON_TITLE_01",
+    "Text": "MAIN WEAPON（Ranged）"
+  },
+  {
+    "ID": "WEAPON_TITLE_02",
+    "Text": "COST"
+  },
+  {
+    "ID": "WEAPON_NAME_01",
+    "Text": "@WEAPON_NAME_01@"
+  },
+  {
+    "ID": "WEAPON_NAME_02",
+    "Text": "@WEAPON_NAME_02@"
+  },
+  {
+    "ID": "WEAPON_NAME_03",
+    "Text": "@WEAPON_NAME_03@"
+  },
+  {
+    "ID": "WEAPON_NAME_04",
+    "Text": "@WEAPON_NAME_04@"
+  },
+  {
+    "ID": "WEAPON_NAME_05",
+    "Text": "@WEAPON_NAME_05@"
+  },
+  {
+    "ID": "WEAPON_COST_01",
+    "Text": "@WEAPON_COST_01@"
+  },
+  {
+    "ID": "WEAPON_COST_02",
+    "Text": "@WEAPON_COST_02@"
+  },
+  {
+    "ID": "WEAPON_COST_03",
+    "Text": "@WEAPON_COST_03@"
+  },
+  {
+    "ID": "WEAPON_COST_04",
+    "Text": "@WEAPON_COST_04@"
+  },
+  {
+    "ID": "WEAPON_COST_05",
+    "Text": "@WEAPON_COST_05@"
+  },
+  {
+    "ID": "WEAPON_POWER",
+    "Text": "Power"
+  },
+  {
+    "ID": "WEAPON_RANGE",
+    "Text": "Range"
+  },
+  {
+    "ID": "WEAPON_RELOAD",
+    "Text": "Reload"
+  },
+  {
+    "ID": "WEAPON_NUMBER",
+    "Text": "Ammo：×"
+  },
+  {
+    "ID": "WEAPON_NUMBER_VALUE",
+    "Text": "@WEAPON_NUMBER_VALUE@"
+  },
+  {
+    "ID": "WEAPON_BULLET",
+    "Text": "Type"
+  },
+  {
+    "ID": "WEAPON_BULLET_VALUE",
+    "Text": "：@WEAPON_BULLET_VALUE@"
+  },
+  {
+    "ID": "WEAPON_TYPE",
+    "Text": "Type"
+  },
+  {
+    "ID": "WEAPON_TYPE_VALUE",
+    "Text": "：@WEAPON_TYPE_VALUE@"
+  },
+  {
+    "ID": "WEAPON_INCLUSIVE",
+    "Text": "Special"
+  },
+  {
+    "ID": "WEAPON_INCLUSIVE_VALUE",
+    "Text": "：@WEAPON_INCLUSIVE_VALUE@"
+  },
+  {
+    "ID": "WEAPON_ATTEND",
+    "Text": "@WEAPON_ATTEND@"
+  },
+  {
+    "ID": "INFO_MS",
+    "Text": "Select an MS (mobile suit) to deploy.\nBe careful of the cost you use."
+  },
+  {
+    "ID": "INFO_PILOT_STATUS",
+    "Text": "Check the pilot's status.\nLet's get to know the pilot's characteristics."
+  },
+  {
+    "ID": "INFO_COLOR_CHANGE",
+    "Text": "Change the color of your MS (mobile suit).\nCreate your favorite color."
+  },
+  {
+    "ID": "INFO_MS_SELECT",
+    "Text": "Please select MS (Mobile Suit)."
+  },
+  {
+    "ID": "INFO_WEAPON_SELECT",
+    "Text": "Please select a weapon."
+  },
+  {
+    "ID": "TITLE_MS_VIEWER",
+    "Text": "GALLERY"
+  },
+  {
+    "ID": "MS_NAME_BIG",
+    "Text": "@MS_NAME_BIG@"
+  },
+  {
+    "ID": "EFSF_SELECT_FONT",
+    "Text": "E.F.F"
+  },
+  {
+    "ID": "ZEON_SELECT_FONT",
+    "Text": "ZEON"
+  },
+  {
+    "ID": "BUTTON_INFO_03",
+    "Text": "｜≒↑↓ Select ＭＳ｜∈Audio play/stop｜∋Back｜⊂Action｜"
+  },
+  {
+    "ID": "BUTTON_INFO_04",
+    "Text": "｜⊂Cancel Action｜"
+  },
+  {
+    "ID": "MINI_EFSF_ROGO",
+    "Text": "E.F.F"
+  },
+  {
+    "ID": "MINI_ZEON_ROGO",
+    "Text": "ZEON"
+  },
+  {
+    "ID": "MS_LIST_TITLE",
+    "Text": "MS SELECT"
+  },
+  {
+    "ID": "MS_LIST_01",
+    "Text": "@MS_LIST_01@"
+  },
+  {
+    "ID": "MS_LIST_02",
+    "Text": "@MS_LIST_02@"
+  },
+  {
+    "ID": "MS_LIST_03",
+    "Text": "@MS_LIST_03@"
+  },
+  {
+    "ID": "MS_LIST_04",
+    "Text": "@MS_LIST_04@"
+  },
+  {
+    "ID": "MS_LIST_05",
+    "Text": "@MS_LIST_05@"
+  },
+  {
+    "ID": "MS_LIST_06",
+    "Text": "@MS_LIST_06@"
+  },
+  {
+    "ID": "MS_LIST_07",
+    "Text": "@MS_LIST_07@"
+  },
+  {
+    "ID": "MS_LIST_08",
+    "Text": "@MS_LIST_08@"
+  },
+  {
+    "ID": "MUSIC_BGM",
+    "Text": "BGM"
+  },
+  {
+    "ID": "MUSIC_TRACK",
+    "Text": "♪@MUSIC_TRACK@"
+  },
+  {
+    "ID": "MUSIC_PLAY",
+    "Text": "←≒→ Music Select"
+  },
+  {
+    "ID": "MUSIC_STOP",
+    "Text": "⊇STOP"
+  },
+  {
+    "ID": "MUSIC_SELECT",
+    "Text": "←≒→ Music Select"
+  },
+  {
+    "ID": "RECORD_TITLE_01",
+    "Text": "RECORD"
+  },
+  {
+    "ID": "RECORD_FINISH_TIME",
+    "Text": "FINISH TIME"
+  },
+  {
+    "ID": "RECORD_TIME_B",
+    "Text": "@RECORD_TIME_B@"
+  },
+  {
+    "ID": "RECORD_TIME_SCORE",
+    "Text": "@RECORD_TIME_SCORE@"
+  },
+  {
+    "ID": "RECORD_DEMOLISED",
+    "Text": "DEMOLISHED"
+  },
+  {
+    "ID": "RECORD_DEMOLISED_SCORE",
+    "Text": "@RECORD_DEMOLISED_SCORE@"
+  },
+  {
+    "ID": "RECORD_BONUS",
+    "Text": "POINT BONUS"
+  },
+  {
+    "ID": "RECORD_BONUS_SCORE",
+    "Text": "@RECORD_BONUS_SCORE@"
+  },
+  {
+    "ID": "PAO_STORY_CROSS",
+    "Text": "×@PAO_STORY_CROSS@"
+  },
+  {
+    "ID": "RECORD_LIFE",
+    "Text": "LIFE RECOVER"
+  },
+  {
+    "ID": "RECORD_LIFE_SCORE",
+    "Text": "@RECORD_LIFE_SCORE@"
+  },
+  {
+    "ID": "RECORD_SPECIAL",
+    "Text": "SPECIAL"
+  },
+  {
+    "ID": "RECORD_SPECIAL_SCORE",
+    "Text": "@RECORD_SPECIAL_SCORE@"
+  },
+  {
+    "ID": "RECORD_TOTAL",
+    "Text": "TOTAL SCORE"
+  },
+  {
+    "ID": "RECORD_TOTAL_SCORE",
+    "Text": "@RECORD_TOTAL_SCORE@"
+  },
+  {
+    "ID": "RECORD_RANK",
+    "Text": "RANK"
+  },
+  {
+    "ID": "RECORD_STORY",
+    "Text": "STORY"
+  },
+  {
+    "ID": "RECORD_STORY_EFF",
+    "Text": "E.F.F"
+  },
+  {
+    "ID": "RECORD_STORY_ZEON",
+    "Text": "ZEON"
+  },
+  {
+    "ID": "RECORD_ACE_PILOT",
+    "Text": "ACE PILOT"
+  },
+  {
+    "ID": "RECORD_ACE_PILOT_EFF",
+    "Text": "E.F.F"
+  },
+  {
+    "ID": "RECORD_ACE_PILOT_ZEON",
+    "Text": "ZEON"
+  },
+  {
+    "ID": "RECORD_TIME_BATTLE",
+    "Text": "SURVIVAL"
+  },
+  {
+    "ID": "RECORD_TIME_BATTLE_EFF",
+    "Text": "E.F.F"
+  },
+  {
+    "ID": "RECORD_TIME_BATTLE_ZEON",
+    "Text": "ZEON"
+  },
+  {
+    "ID": "RECORD_CROSS_SWORD",
+    "Text": "COMBINATION"
+  },
+  {
+    "ID": "RECORD_CROSS_SWORD_EFF",
+    "Text": "E.F.F"
+  },
+  {
+    "ID": "RECORD_CROSS_SWORD_ZEON",
+    "Text": "ZEON"
+  },
+  {
+    "ID": "RECORD_LIST_TITLE",
+    "Text": "Mission List"
+  },
+  {
+    "ID": "RECORD_LIST_01",
+    "Text": "@RECORD_LIST_01@"
+  },
+  {
+    "ID": "RECORD_LIST_02",
+    "Text": "@RECORD_LIST_02@"
+  },
+  {
+    "ID": "RECORD_LIST_03",
+    "Text": "@RECORD_LIST_03@"
+  },
+  {
+    "ID": "RECORD_LIST_04",
+    "Text": "@RECORD_LIST_04@"
+  },
+  {
+    "ID": "RECORD_LIST_05",
+    "Text": "@RECORD_LIST_05@"
+  },
+  {
+    "ID": "RECORD_LIST_06",
+    "Text": "@RECORD_LIST_06@"
+  },
+  {
+    "ID": "RECORD_LIST_07",
+    "Text": "@RECORD_LIST_07@"
+  },
+  {
+    "ID": "RECORD_LIST_08",
+    "Text": "@RECORD_LIST_08@"
+  },
+  {
+    "ID": "RECORD_CROSS_FINISH_TIME",
+    "Text": "FINISH TIME"
+  },
+  {
+    "ID": "RECORD_CROSS_TIME",
+    "Text": "@RECORD_CROSS_TIME@"
+  },
+  {
+    "ID": "RECORD_CROSS_TIME_SCORE",
+    "Text": "@RECORD_CROSS_TIME_SCORE@"
+  },
+  {
+    "ID": "RECORD_CROSS_DEMOLISED",
+    "Text": "DEMOLISHED"
+  },
+  {
+    "ID": "RECORD_CROSS_BONUS",
+    "Text": "POINT BONUS"
+  },
+  {
+    "ID": "RECORD_CROSS_LIFE",
+    "Text": "LIFE RECOVER"
+  },
+  {
+    "ID": "RECORD_CROSS_SPECIAL",
+    "Text": "SPECIAL BONUS"
+  },
+  {
+    "ID": "RECORD_CROSS_SPECIAL_SCORE",
+    "Text": "@RECORD_CROSS_SPECIAL_SCORE@"
+  },
+  {
+    "ID": "RECORD_CROSS_DEMOLISED_1P",
+    "Text": "@RECORD_CROSS_DEMOLISED_1P@"
+  },
+  {
+    "ID": "RECORD_CROSS_DEMOLISED_2P",
+    "Text": "@RECORD_CROSS_DEMOLISED_2P@"
+  },
+  {
+    "ID": "RECORD_CROSS_BONUS_1P",
+    "Text": "@RECORD_CROSS_BONUS_1P@"
+  },
+  {
+    "ID": "RECORD_CROSS_BONUS_1C",
+    "Text": "×@RECORD_CROSS_BONUS_1C@"
+  },
+  {
+    "ID": "RECORD_CROSS_BONUS_2P",
+    "Text": "@RECORD_CROSS_BONUS_2P@"
+  },
+  {
+    "ID": "RECORD_CROSS_BONUS_2C",
+    "Text": "×@RECORD_CROSS_BONUS_2C@"
+  },
+  {
+    "ID": "RECORD_CROSS_LIFE_1P",
+    "Text": "@RECORD_CROSS_LIFE_1P@"
+  },
+  {
+    "ID": "RECORD_CROSS_LIFE_2P",
+    "Text": "@RECORD_CROSS_LIFE_2P@"
+  },
+  {
+    "ID": "RECORD_CROSS_TOTAL_SCORE",
+    "Text": "@RECORD_CROSS_TOTAL_SCORE@"
+  },
+  {
+    "ID": "RECORD_CROSS_RANK",
+    "Text": "RANK"
+  },
+  {
+    "ID": "RECORD_TIME_USE_MS",
+    "Text": "USED MS"
+  },
+  {
+    "ID": "RECORD_TIME_USE_PILOT",
+    "Text": "PILOT"
+  },
+  {
+    "ID": "RECORD_TIME_DEMOLISED",
+    "Text": "DEMOLISHED"
+  },
+  {
+    "ID": "RECORD_TIME_TOTAL",
+    "Text": "TOTAL DEMOLISHED"
+  },
+  {
+    "ID": "RECORD_TIME_USE_MS_NAME",
+    "Text": "@RECORD_TIME_USE_MS_NAME@"
+  },
+  {
+    "ID": "RECORD_TIME_USE_PILOT_NAME",
+    "Text": "@RECORD_TIME_USE_PILOT_NAME@"
+  },
+  {
+    "ID": "RECORD_TIME_DEMOLISED_SCORE",
+    "Text": "@RECORD_TIME_DEMOLISED_SCORE@"
+  },
+  {
+    "ID": "RECORD_TIME_TOTAL_SCORE",
+    "Text": "@RECORD_TIME_TOTAL_SCORE@"
+  },
+  {
+    "ID": "RECORD_CROSS_TOTAL_SCORE_F",
+    "Text": "TOTAL SCORE"
+  },
+  {
+    "ID": "RECORD_TIME_RANK",
+    "Text": "RANK"
+  },
+  {
+    "ID": "RECORD_INFO_01",
+    "Text": "Check the STORY record."
+  },
+  {
+    "ID": "RECORD_INFO_02",
+    "Text": "Check the ACE PILOT record."
+  },
+  {
+    "ID": "RECORD_INFO_03",
+    "Text": "Check SURVIVAL record."
+  },
+  {
+    "ID": "RECORD_INFO_04",
+    "Text": "Check the COMBINATION record."
+  },
+  {
+    "ID": "RECORD_INFO_05",
+    "Text": "Please select a mission to confirm."
+  },
+  {
+    "ID": "RECORD_INFO_06",
+    "Text": "SURVIVAL record."
+  },
+  {
+    "ID": "RECORD_INFO_07",
+    "Text": "COMBINATION record."
+  },
+  {
+    "ID": "MSRESULT_TITLE",
+    "Text": "GET MOBILE SUIT"
+  },
+  {
+    "ID": "MSRESULT_MS_NAME",
+    "Text": "@MS_NAME_01@"
+  },
+  {
+    "ID": "MSRESULT_COST_VALUE",
+    "Text": "COST:@MS_COST_01@"
+  },
+  {
+    "ID": "INFO_MSRESULT_01",
+    "Text": "We have successfully acquired the enemy's MS (mobile suit).\nYou can use it as a weapon for your own unit in the future."
+  },
+  {
+    "ID": "INFO_MSRESULT_02",
+    "Text": "We have successfully acquired an enemy MS (mobile suit).\nSince it is already deployed to our own unit, \nwe will provide it to the research facility."
+  },
+  {
+    "ID": "RESULT_TITLE_01",
+    "Text": "RESULTS"
+  },
+  {
+    "ID": "RESULUT_FINISH_TIME",
+    "Text": "FINISH TIME"
+  },
+  {
+    "ID": "RESULUT_TIME_A",
+    "Text": "@RESULUT_TIME_A@"
+  },
+  {
+    "ID": "RESULUT_TIME_B",
+    "Text": "@RESULUT_TIME_B@"
+  },
+  {
+    "ID": "RESULUT_TIME_C",
+    "Text": "@RESULUT_TIME_C@"
+  },
+  {
+    "ID": "RESULUT_TIME_SCORE",
+    "Text": "@RESULUT_TIME_SCORE@"
+  },
+  {
+    "ID": "RESULUT_DEMOLISED",
+    "Text": "DEMOLISHED"
+  },
+  {
+    "ID": "RESULUT_DEMOLISED_SCORE",
+    "Text": "@RESULUT_DEMOLISED_SCORE@"
+  },
+  {
+    "ID": "RESULUT_BONUS",
+    "Text": "POINT BONUS"
+  },
+  {
+    "ID": "RESULUT_BONUS_SCORE",
+    "Text": "@RESULUT_BONUS_SCORE@"
+  },
+  {
+    "ID": "RESULUT_BONUS_SCORE_CROSS",
+    "Text": "×@RESULUT_BONUS_SCORE_CROSS@"
+  },
+  {
+    "ID": "RESULUT_LIFE",
+    "Text": "LIFE RECOVER"
+  },
+  {
+    "ID": "RESULUT_LIFE_SCORE",
+    "Text": "@RESULUT_LIFE_SCORE@"
+  },
+  {
+    "ID": "RESULUT_SPECIAL",
+    "Text": "SPECIAL"
+  },
+  {
+    "ID": "RESULUT_SPECIAL_SCORE",
+    "Text": "@RESULUT_SPECIAL_SCORE@"
+  },
+  {
+    "ID": "RESULUT_TOTAL",
+    "Text": "TOTAL SCORE"
+  },
+  {
+    "ID": "RESULUT_TOTAL_SCORE",
+    "Text": "@RESULUT_TOTAL_SCORE@"
+  },
+  {
+    "ID": "RESULUT_RANK_FONT",
+    "Text": "RANK"
+  },
+  {
+    "ID": "WEAPONRESULT_TITLE",
+    "Text": "GET WEAPON"
+  },
+  {
+    "ID": "WEAPONRESULT_WEAPON_NAME",
+    "Text": "@WEAPON_NAME_01@"
+  },
+  {
+    "ID": "INFO_RESULTWEAPON_01",
+    "Text": "You have obtained the weapon. \nYou can use it from the next battle."
+  },
+  {
+    "ID": "INFO_RESULTWEAPON_02",
+    "Text": "Enemy weapons have been acquired."
+  },
+  {
+    "ID": "EWResult_titol",
+    "Text": "WEAPON　SELECT"
+  },
+  {
+    "ID": "EWResult_button",
+    "Text": "｜≒Select｜∈Ok｜∋Cancel｜"
+  },
+  {
+    "ID": "WeaponA",
+    "Text": "@WeaponA@"
+  },
+  {
+    "ID": "WeaponB",
+    "Text": "@WeaponB@"
+  },
+  {
+    "ID": "WeaponC",
+    "Text": "@WeaponC@"
+  },
+  {
+    "ID": "Bullet",
+    "Text": "Ammo："
+  },
+  {
+    "ID": "BulletNumber",
+    "Text": "@BulletNumber@"
+  },
+  {
+    "ID": "Hand",
+    "Text": "Type：@Hand@"
+  },
+  {
+    "ID": "Note",
+    "Text": "：@Note@"
+  },
+  {
+    "ID": "EWResult_INF",
+    "Text": "You have acquired an enemy weapon.\nYou may only take one item back to your unit. Please select."
+  },
+  {
+    "ID": "Note_comment",
+    "Text": "Special"
+  },
+  {
+    "ID": "RESULUT_USE_MS",
+    "Text": "MOBILE SUIT"
+  },
+  {
+    "ID": "RESULUT_USE_PILOT",
+    "Text": "PILOT"
+  },
+  {
+    "ID": "RESULUT_RANK",
+    "Text": "RANK"
+  },
+  {
+    "ID": "RESULUT_USE_MS_NAME",
+    "Text": "@RESULUT_USE_MS_NAME@"
+  },
+  {
+    "ID": "RESULUT_USE_PILOT_NAME",
+    "Text": "@RESULUT_USE_PILOT_NAME@"
+  },
+  {
+    "ID": "RESULUT_TIME",
+    "Text": "@RESULUT_TIME@"
+  },
+  {
+    "ID": "RESULUT_DEMOLISED_1P",
+    "Text": "@RESULUT_DEMOLISED_1P@"
+  },
+  {
+    "ID": "RESULUT_DEMOLISED_2P",
+    "Text": "@RESULUT_DEMOLISED_2P@"
+  },
+  {
+    "ID": "RESULUT_BONUS_1P",
+    "Text": "@RESULUT_BONUS_1P@"
+  },
+  {
+    "ID": "RESULUT_BONUS_2P",
+    "Text": "@RESULUT_BONUS_2P@"
+  },
+  {
+    "ID": "RESULUT_LIFE_1P",
+    "Text": "@RESULUT_LIFE_1P@"
+  },
+  {
+    "ID": "RESULUT_LIFE_2P",
+    "Text": "@RESULUT_LIFE_2P@"
+  },
+  {
+    "ID": "RESULUT_BONUS_1P_CROSS",
+    "Text": "×@RESULUT_BONUS_1P_CROSS@"
+  },
+  {
+    "ID": "RESULUT_BONUS_2P_CROSS",
+    "Text": "×@RESULUT_BONUS_2P_CROSS@"
+  },
+  {
+    "ID": "ACE_Amuro_Ray",
+    "Text": "Amuro Ray"
+  },
+  {
+    "ID": "ACE_Shiroh_Amada",
+    "Text": "Shiroh Amada"
+  },
+  {
+    "ID": "ACE_Christina_Mackenzie",
+    "Text": "Christina Mackenzie"
+  },
+  {
+    "ID": "ACE_You_Kajima",
+    "Text": "You Kajima"
+  },
+  {
+    "ID": "ACE_Char_Aznable",
+    "Text": "Char Aznable"
+  },
+  {
+    "ID": "ACE_Ramba_Ral",
+    "Text": "Ramba Ral"
+  },
+  {
+    "ID": "ACE_Guyya",
+    "Text": "Guyya"
+  },
+  {
+    "ID": "ACE_Norris_Packard",
+    "Text": "Norris Packard"
+  },
+  {
+    "ID": "ACE_Bernard_Wiseman",
+    "Text": "Bernard Wiseman"
+  },
+  {
+    "ID": "ACE_Akahana",
+    "Text": "Akahana"
+  },
+  {
+    "ID": "ACE_SECRET",
+    "Text": "????? ?????"
+  },
+  {
+    "ID": "ACE_EFF_00",
+    "Text": "Earth Federation Force"
+  },
+  {
+    "ID": "ACE_ZEON_00",
+    "Text": "Principality of Zeon Force"
+  },
+  {
+    "ID": "ACE_SECRET_00",
+    "Text": "Secret Force "
+  },
+  {
+    "ID": "ACE_INF_AMR_00",
+    "Text": "Amuro Ray, a civilian boy, gets caught up in the war and grows tremendously as a Gundam pilot."
+  },
+  {
+    "ID": "ACE_INF_SIR_00",
+    "Text": "Shiro Amada, commander of the 08th MS Platoon of Kojima Battalion.\nHe questions the military's methods and pursues the path he believes in."
+  },
+  {
+    "ID": "ACE_INF_CRS_00",
+    "Text": "Federal Forces test pilot Christina McKenzie takes out the new Gundam she is testing against an enemy attack."
+  },
+  {
+    "ID": "ACE_INF_YOU_00",
+    "Text": "Yuu Kajima, the pilot of an experimental aircraft equipped with the mysterious system 'EXAM' runs on the battlefield as the 'Blue Grim Reaper'"
+  },
+  {
+    "ID": "ACE_INF_CHR_00",
+    "Text": "Char Aznable was feared as Zeon's Red Comet. \nAn encounter with Gundam changes his fate... "
+  },
+  {
+    "ID": "ACE_INF_RMB_00",
+    "Text": "Ramba Ral, also known as the ``Blue Giant.'' \nReceiving a special mission to avenge Garma Zabi, he approaches Gundam. "
+  },
+  {
+    "ID": "ACE_INF_GUY_00",
+    "Text": "Gaia is the leader of a unit feared as the Black Tri-Star. \n Descending to the ground to defeat the White Base team. "
+  },
+  {
+    "ID": "ACE_INF_NRS_00",
+    "Text": "Norris Packard is an ace of the Far East Army who serves the Sakhalin family.\nWith his outstanding combat sense, he fights to overcome the situation."
+  },
+  {
+    "ID": "ACE_INF_BER_00",
+    "Text": "Bernard Wiseman is a new soldier in the Cyclops Corps.\nHe carries out the mission to destroy the new Gundam with determination."
+  },
+  {
+    "ID": "ACE_INF_AKA_00",
+    "Text": "Akahana of the Mad Angler Corps commanded by Char.\nRiding an Acguy, he attempts sabotage inside Jaburo."
+  },
+  {
+    "ID": "ACE_INF_SECRET_00",
+    "Text": "Unable to select unseen warriors."
+  },
+  {
+    "ID": "ACE_MISSION_A_TITLE",
+    "Text": "Mission Select"
+  },
+  {
+    "ID": "ACE_MISSION_A_01",
+    "Text": "Mission 1"
+  },
+  {
+    "ID": "ACE_MISSION_A_02",
+    "Text": "Mission 2"
+  },
+  {
+    "ID": "ACE_MISSION_A_03",
+    "Text": "Mission 3"
+  },
+  {
+    "ID": "ACE_MISSION_A_10",
+    "Text": "@ACE_MISSION_A_10@"
+  },
+  {
+    "ID": "ACE_MISSION_A_20",
+    "Text": "@ACE_MISSION_A_20@"
+  },
+  {
+    "ID": "ACE_MISSION_A_30",
+    "Text": "@ACE_MISSION_A_30@"
+  },
+  {
+    "ID": "ACE_MISSION_B_TITLE",
+    "Text": "Mission Select"
+  },
+  {
+    "ID": "ACE_MISSION_B_01",
+    "Text": "Mission 1"
+  },
+  {
+    "ID": "ACE_MISSION_B_02",
+    "Text": "Mission 2"
+  },
+  {
+    "ID": "ACE_MISSION_B_03",
+    "Text": "Mission 3"
+  },
+  {
+    "ID": "ACE_MISSION_B_04",
+    "Text": "Mission 4"
+  },
+  {
+    "ID": "ACE_MISSION_B_05",
+    "Text": "Mission 5"
+  },
+  {
+    "ID": "ACE_MISSION_B_06",
+    "Text": "Mission 6"
+  },
+  {
+    "ID": "ACE_MISSION_B_10",
+    "Text": "@ACE_MISSION_B_10@"
+  },
+  {
+    "ID": "ACE_MISSION_B_20",
+    "Text": "@ACE_MISSION_B_20@"
+  },
+  {
+    "ID": "ACE_MISSION_B_30",
+    "Text": "@ACE_MISSION_B_30@"
+  },
+  {
+    "ID": "ACE_MISSION_B_40",
+    "Text": "@ACE_MISSION_B_40@"
+  },
+  {
+    "ID": "ACE_MISSION_B_50",
+    "Text": "@ACE_MISSION_B_50@"
+  },
+  {
+    "ID": "ACE_MISSION_B_60",
+    "Text": "@ACE_MISSION_B_60@"
+  },
+  {
+    "ID": "BRIGHT_TITLE",
+    "Text": "BRIGHTNESS"
+  },
+  {
+    "ID": "BRIGHT_L",
+    "Text": "-50"
+  },
+  {
+    "ID": "BRIGHT_C",
+    "Text": "0"
+  },
+  {
+    "ID": "BRIGHT_R",
+    "Text": "+50"
+  },
+  {
+    "ID": "INFO_BRIGHT_01",
+    "Text": "Adjust brightness so that both A and E are visible"
+  },
+  {
+    "ID": "EFSF",
+    "Text": "E.F.F"
+  },
+  {
+    "ID": "ZEON",
+    "Text": "ZEON"
+  },
+  {
+    "ID": "INFO_EFSF",
+    "Text": "Earth Federation Forces"
+  },
+  {
+    "ID": "INFO_ZEON",
+    "Text": "Principality of Zeon"
+  },
+  {
+    "ID": "INFO_EFSF_MISSION",
+    "Text": "Please select a mission."
+  },
+  {
+    "ID": "INFO_ZEON_MISSION",
+    "Text": "Please select a mission."
+  },
+  {
+    "ID": "CROSS_MISSION_01",
+    "Text": "Mission 1"
+  },
+  {
+    "ID": "CROSS_MISSION_02",
+    "Text": "Mission 2"
+  },
+  {
+    "ID": "CROSS_MISSION_03",
+    "Text": "Mission 3"
+  },
+  {
+    "ID": "CROSS_MIS_01_EF_NAME",
+    "Text": "'A ruthless snowfield that covers even death.'"
+  },
+  {
+    "ID": "CROSS_MIS_02_EF_NAME",
+    "Text": "The sound of waves cannot be heard far away."
+  },
+  {
+    "ID": "CROSS_MIS_03_EF_NAME",
+    "Text": "'Eternal Struggle, Momentary End'"
+  },
+  {
+    "ID": "CROSS_MIS_01_ZE_NAME",
+    "Text": "'Phantom Sniper'"
+  },
+  {
+    "ID": "CROSS_MIS_02_ZE_NAME",
+    "Text": "'Born to Assault'"
+  },
+  {
+    "ID": "CROSS_MIS_03_ZE_NAME",
+    "Text": "'Bloody Sunset'"
+  },
+  {
+    "ID": "CROSS_MISSION_WIN_TITLE",
+    "Text": "MISSION SELECT"
+  },
+  {
+    "ID": "CONTINUE",
+    "Text": "CONTINUE"
+  },
+  {
+    "ID": "MISSION_SELECT",
+    "Text": "MISSION SELECT"
+  },
+  {
+    "ID": "DELETE",
+    "Text": "DELETE"
+  },
+  {
+    "ID": "EFSF_01",
+    "Text": "Earth Federation Forces"
+  },
+  {
+    "ID": "ZEON_01",
+    "Text": "Principality of Zeon Army"
+  },
+  {
+    "ID": "CHARACTER",
+    "Text": "Weapon"
+  },
+  {
+    "ID": "UC0079",
+    "Text": "Ｕ.Ｃ.００７９"
+  },
+  {
+    "ID": "DATE",
+    "Text": "@DATE@"
+  },
+  {
+    "ID": "MISSION_COMPLETE",
+    "Text": "/@MISSION_COMPLETE@"
+  },
+  {
+    "ID": "MS_COMPLETE",
+    "Text": "/@MS_COMPLETE@"
+  },
+  {
+    "ID": "CHARACTER_COMPLETE",
+    "Text": "/@CHARACTER_COMPLETE@"
+  },
+  {
+    "ID": "INF_00",
+    "Text": "Please select a file to use in your story."
+  },
+  {
+    "ID": "INF_CONTINUE",
+    "Text": "Resume from where you last saved."
+  },
+  {
+    "ID": "INF_MISSION",
+    "Text": "You can select the mission you want to play. However, you cannot record scores, obtain MS/weapons, change MS color, etc."
+  },
+  {
+    "ID": "INF_DELETE",
+    "Text": "Erase the file."
+  },
+  {
+    "ID": "MENU_STORY",
+    "Text": "STORY"
+  },
+  {
+    "ID": "MENU_ACE",
+    "Text": "ACE PILOT"
+  },
+  {
+    "ID": "MENU_TUTORIAL",
+    "Text": "TUTORIAL"
+  },
+  {
+    "ID": "MENU_VERSUS",
+    "Text": "VERSUS"
+  },
+  {
+    "ID": "MENU_TIME",
+    "Text": "SURVIVAL"
+  },
+  {
+    "ID": "MENU_CROSS",
+    "Text": "COMBINATION"
+  },
+  {
+    "ID": "MENU_EXTRA",
+    "Text": "EXTRA"
+  },
+  {
+    "ID": "MENU_OPTION",
+    "Text": "OPTION"
+  },
+  {
+    "ID": "TUTORIAL_SUB_01",
+    "Text": "Basic"
+  },
+  {
+    "ID": "TUTORIAL_SUB_02",
+    "Text": "Melee"
+  },
+  {
+    "ID": "TIME_SUB_01",
+    "Text": "1P PLAY"
+  },
+  {
+    "ID": "TIME_SUB_02",
+    "Text": "VS 2P"
+  },
+  {
+    "ID": "EXTRA_SUB_01",
+    "Text": "GALLERY"
+  },
+  {
+    "ID": "EXTRA_SUB_02",
+    "Text": "RECORD"
+  },
+  {
+    "ID": "VERSUS_SUB_01",
+    "Text": "VS CPU"
+  },
+  {
+    "ID": "VERSUS_SUB_02",
+    "Text": "VS 2P"
+  },
+  {
+    "ID": "VERSUS_SUB_03",
+    "Text": "VS TAG"
+  },
+  {
+    "ID": "CROSS_SUB_01",
+    "Text": "E.F.F"
+  },
+  {
+    "ID": "CROSS_SUB_02",
+    "Text": "ZEON"
+  },
+  {
+    "ID": "INFO_STORY",
+    "Text": "Select the Federation Army or Zeon Army and play the original story."
+  },
+  {
+    "ID": "INFO_ACE",
+    "Text": "You can play as ace pilots from both sides. \nYou can simulate the famous situations of ace pilots."
+  },
+  {
+    "ID": "INFO_TUTORIAL",
+    "Text": "Ace pilots will teach you the general action and elements of the game. \nIf you learn properly, there is nothing scary on the battlefield."
+  },
+  {
+    "ID": "INFO_VERSUS",
+    "Text": "You can compete. To play 'VS 2P and 'VS TAG'\nOpen the HOME button menu and have 2P recognized."
+  },
+  {
+    "ID": "INFO_TIME",
+    "Text": "Try to see how many enemies you can defeat that appear one after another in 3 minutes.\nIn 「VS 2P」, you compete to see who can defeat the most enemies. "
+  },
+  {
+    "ID": "INFO_CROSS",
+    "Text": "Play original missions cooperatively with 2P.\nLet's fight in harmony with each other."
+  },
+  {
+    "ID": "INFO_EXTRA",
+    "Text": "You can see the details of the acquired MS and change its color for battle.\nYou can also check the score record of each mission."
+  },
+  {
+    "ID": "INFO_OPTION",
+    "Text": "You can adjust the sound, screen, and vibration."
+  },
+  {
+    "ID": "TUTORIAL_SUB_03",
+    "Text": "Combat"
+  },
+  {
+    "ID": "OPENING_TEXT_A_00",
+    "Text": "A half century has passed..."
+  },
+  //TODO move opening to another file
+  {
+    "ID": "Opening_Space_000",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_A_01",
+    "Text": ".. since humanity began moving..."
+  },
+  {
+    "ID": "Opening_Space_001",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_A_02",
+    "Text": "...its burgeoning population into space."
+  },
+  {
+    "ID": "Opening_Space_002",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_A_03",
+    "Text": "These gignatic space cities..."
+  },
+  {
+    "ID": "Opening_Space_003",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_A_04",
+    "Text": "... orbiting the Earth..."
+  },
+  {
+    "ID": "Opening_Space_004",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_A_05",
+    "Text": "...became a second home to humanity..."
+  },
+  {
+    "ID": "Opening_Space_005",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_A_06",
+    "Text": "...where people were born..."
+  },
+  {
+    "ID": "Opening_Space_006",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_A_07",
+    "Text": "...and raised..."
+  },
+  {
+    "ID": "Opening_Space_007",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_A_08",
+    "Text": "...and where they died."
+  },
+  {
+    "ID": "Opening_Space_008",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_009",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_010",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_011",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_012",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_013",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_B_00",
+    "Text": "宇宙世紀００７９。"
+  },
+  {
+    "ID": "Opening_Space_014",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_B_01",
+    "Text": "地球からもっとも遠い宇宙都市サイド３は、"
+  },
+  {
+    "ID": "Opening_Space_015",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_B_02",
+    "Text": "ジオン公国を名乗り、"
+  },
+  {
+    "ID": "Opening_Space_016",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_B_03",
+    "Text": "地球連邦政府に独立戦争を挑んできた。"
+  },
+  {
+    "ID": "Opening_Space_017",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_B_04",
+    "Text": "国力で劣るジオン軍は、"
+  },
+  {
+    "ID": "Opening_Space_018",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_B_05",
+    "Text": "ミノフスキー粒子による電子機器の攪乱と、"
+  },
+  {
+    "ID": "Opening_Space_019",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_B_06",
+    "Text": "有視界戦闘で絶大な威力を発揮する"
+  },
+  {
+    "ID": "Opening_Space_020",
+    "Text": "人型機動兵器「モビルスーツ」を"
+  },
+  {
+    "ID": "OPENING_TEXT_B_07",
+    "Text": "組み合わせた戦法により、"
+  },
+  {
+    "ID": "Opening_Space_021",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_B_08",
+    "Text": "圧倒的な物量を誇る連邦軍を翻弄した。"
+  },
+  {
+    "ID": "Opening_Space_022",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_023",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_024",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_025",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_026",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_B_09",
+    "Text": "その結果、"
+  },
+  {
+    "ID": "Opening_Space_027",
+    "Text": "開戦から1ヶ月あまりのわずかな期間で、"
+  },
+  {
+    "ID": "OPENING_TEXT_B_10",
+    "Text": "人類は、総人口の半数を"
+  },
+  {
+    "ID": "Opening_Space_028",
+    "Text": "失うこととなった…。"
+  },
+  {
+    "ID": "OPENING_TEXT_B_11",
+    "Text": "長期戦を望まないジオンは、"
+  },
+  {
+    "ID": "Opening_Space_029",
+    "Text": "進軍の手を休めることなく、"
+  },
+  {
+    "ID": "OPENING_TEXT_B_12",
+    "Text": "電撃的に地球降下作戦を決行。"
+  },
+  {
+    "ID": "Opening_Space_030",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_B_13",
+    "Text": "地上の各拠点を瞬く間に制圧し、"
+  },
+  {
+    "ID": "Opening_Space_031",
+    "Text": "その勢力を拡大していった。"
+  },
+  {
+    "ID": "OPENING_TEXT_B_14",
+    "Text": "しかし、"
+  },
+  {
+    "ID": "Opening_Space_032",
+    "Text": "伸びきった戦線を維持することは難しく、"
+  },
+  {
+    "ID": "OPENING_TEXT_B_15",
+    "Text": "戦争は膠着状態に入り、"
+  },
+  {
+    "ID": "Opening_Space_033",
+    "Text": "半年あまりが過ぎた…。"
+  },
+  {
+    "ID": "Opening_Space_034",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_035",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_036",
+    "Text": "¶"
+  },
+  {
+    "ID": "Opening_Space_037",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_C_00",
+    "Text": "ここにいたり、"
+  },
+  {
+    "ID": "Opening_Space_038",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_C_01",
+    "Text": "初戦の大敗からの立て直しに"
+  },
+  {
+    "ID": "Opening_Space_039",
+    "Text": "成功しつつある連邦軍と、"
+  },
+  {
+    "ID": "OPENING_TEXT_C_02",
+    "Text": "慣れない自然環境に翻弄され、"
+  },
+  {
+    "ID": "Opening_Space_040",
+    "Text": "¶"
+  },
+  {
+    "ID": "OPENING_TEXT_C_03",
+    "Text": "心身ともに疲弊し始めた、"
+  },
+  {
+    "ID": "Opening_Space_041",
+    "Text": "ジオン地上部隊との戦いは、"
+  },
+  {
+    "ID": "OPENING_TEXT_C_04",
+    "Text": "新たな局面を迎えようとしていた･･･。"
+  },
+  {
+    "ID": "POTION_TITLE",
+    "Text": "OPTION"
+  },
+  {
+    "ID": "OPTION_VIB",
+    "Text": "Vibration"
+  },
+  {
+    "ID": "OPTION_SYS",
+    "Text": "Sound"
+  },
+  {
+    "ID": "OPTION_SE",
+    "Text": "Volume"
+  },
+  {
+    "ID": "OPTION_BRIGHT",
+    "Text": "Brightness"
+  },
+  {
+    "ID": "OPTION_RE",
+    "Text": "Reset"
+  },
+  {
+    "ID": "VIB_ON",
+    "Text": "ON"
+  },
+  {
+    "ID": "VIB_OFF",
+    "Text": "OFF"
+  },
+  {
+    "ID": "SE_BGM",
+    "Text": "BGM"
+  },
+  {
+    "ID": "SE_SE",
+    "Text": "SE"
+  },
+  {
+    "ID": "SE_VOICE",
+    "Text": "Voice"
+  },
+  {
+    "ID": "RE_INFO",
+    "Text": "Restore settings to default. Are you sure?"
+  },
+  {
+    "ID": "RE_YES",
+    "Text": "Yes"
+  },
+  {
+    "ID": "RE_NO",
+    "Text": "No"
+  },
+  {
+    "ID": "INFO_OPTION_01",
+    "Text": "Turn vibration ON/OFF."
+  },
+  {
+    "ID": "INFO_OPTION_02",
+    "Text": "Switch the sound source."
+  },
+  {
+    "ID": "INFO_OPTION_03",
+    "Text": "Adjust the volume."
+  },
+  {
+    "ID": "INFO_OPTION_04",
+    "Text": "Adjust the screen brightness."
+  },
+  {
+    "ID": "INFO_OPTION_06",
+    "Text": "Restore settings to initial state."
+  },
+  {
+    "ID": "START_BUTTON",
+    "Text": "PRESS BUTTON"
+  },
+  {
+    "ID": "BANDAI_NAMCO",
+    "Text": "--debug text--"
+  },
+  {
+    "ID": "P1_BAT_OP_TITLE",
+    "Text": "BATTLE OPTION"
+  },
+  {
+    "ID": "P1_BAT_OP_COST",
+    "Text": "Maximum cost"
+  },
+  {
+    "ID": "P1_BAT_OP_COST_VALUE",
+    "Text": "@BAT_OP_COST_VALUE@"
+  },
+  {
+    "ID": "P1_BAT_OPT_MS1",
+    "Text": "MS1:LEADER"
+  },
+  {
+    "ID": "P1_BAT_OPT_MS1_THINK",
+    "Text": "AI Type"
+  },
+  {
+    "ID": "P1_BAT_OPT_MS1_THINK_SELECT",
+    "Text": "Player machine cannot be changed"
+  },
+  {
+    "ID": "P1_BAT_OPT_MS1_DEFENCE",
+    "Text": "Handicap: @BAT_OPT_MS1_DEFENCE_VALUE@"
+  },
+  {
+    "ID": "P1_BAT_OPT_MS1_DEFENCE_VALUE",
+    "Text": ""
+  },
+  {
+    "ID": "P1_BAT_OPT_INFO_COST",
+    "Text": "Change the cost limit.\nChoose from 300/450/600/unlimited."
+  },
+  {
+    "ID": "P1_BAT_OPT_INFO_THINK",
+    "Text": "Change your thinking type.\nThere are 4 levels: Easy/Medium/Hard/Ace."
+  },
+  {
+    "ID": "P1_BAT_OPT_INFO_DEFENCE",
+    "Text": "Change your handicap.\nYou can adjust the durability of your MS (mobile suit)."
+  },
+  {
+    "ID": "P１_BAT_OPT_BUTTON_INFO",
+    "Text": "｜≒Select｜∋Back｜"
+  },
+  {
+    "ID": "MAP_SELECT_MAP_NAME",
+    "Text": "@MAP_SELECT_MAP_NAME@"
+  },
+  {
+    "ID": "MAP_SELECT_OK",
+    "Text": "OK"
+  },
+  {
+    "ID": "MAP_SELECT_ROUND_VALUE",
+    "Text": "@MAP_SELECT_ROUND_VALUE@"
+  },
+  {
+    "ID": "MAP_SELECT_ROUND",
+    "Text": "ROUND"
+  },
+  {
+    "ID": "MAP_SELECT_TIME_VALUE",
+    "Text": "@MAP_SELECT_TIME_VALUE@"
+  },
+  {
+    "ID": "MAP_SELECT_TIME",
+    "Text": "TIME LIMIT"
+  },
+  {
+    "ID": "MAP_SELECT_INFO_VALUE",
+    "Text": "@MAP_SELECT_INFO_VALUE@"
+  },
+  {
+    "ID": "MAP_SELECT_INFO_02",
+    "Text": "Please choose a time to fight."
+  },
+  {
+    "ID": "MAP_SELECT_INFO_03",
+    "Text": "Please select the number of combat rounds."
+  },
+  {
+    "ID": "MAP_SELECT_INFO_04",
+    "Text": "Start battle."
+  },
+  {
+    "ID": "TITLE_V_2P",
+    "Text": "VERSUS 2P"
+  },
+  {
+    "ID": "TITLE_V_CPU",
+    "Text": "VERSUS CPU"
+  },
+  {
+    "ID": "TITLE_2PTUG",
+    "Text": "TAG MATCH"
+  },
+  {
+    "ID": "TITLE_TIME_1P",
+    "Text": "SURVIVAL 1P"
+  },
+  {
+    "ID": "TITLE_TIME_2P",
+    "Text": "SURVIVAL 2P"
+  },
+  {
+    "ID": "TITLE_CROSS",
+    "Text": "COMBINATION"
+  },
+  {
+    "ID": "PLAYER_NUMBER",
+    "Text": "@PLAYER_NUMBER@"
+  },
+  {
+    "ID": "OK",
+    "Text": "OK"
+  },
+  {
+    "ID": "BATTLE_OPTION",
+    "Text": "BATTLE OPTION"
+  },
+  {
+    "ID": "RANDOM",
+    "Text": "RANDOM"
+  },
+  {
+    "ID": "CHA1_NAME_VALUE",
+    "Text": "@CHA1_NAME_VALUE@"
+  },
+  {
+    "ID": "CHA1_MS1",
+    "Text": "MS1"
+  },
+  {
+    "ID": "LEADER",
+    "Text": "LEADER"
+  },
+  {
+    "ID": "CHA1_COST",
+    "Text": "COST:"
+  },
+  {
+    "ID": "CHA1_COST_VALUE",
+    "Text": "@CHA1_COST_VALUE@"
+  },
+  {
+    "ID": "CHA1_THINK",
+    "Text": "AI:"
+  },
+  {
+    "ID": "CHA1_THINK_VALUE",
+    "Text": "@CHA1_THINK_VALUE@"
+  },
+  {
+    "ID": "MS1_NAME_VALUE",
+    "Text": "@MS1_NAME_VALUE@"
+  },
+  {
+    "ID": "MS1_WEAPON_VALUE",
+    "Text": "@MS1_WEAPON_VALUE@"
+  },
+  {
+    "ID": "MS1_COST",
+    "Text": "COST:"
+  },
+  {
+    "ID": "MS1_COST_VALUE",
+    "Text": "@MS1_COST_VALUE@"
+  },
+  {
+    "ID": "MS1_DEFENSE",
+    "Text": "Handicap: @MS1_DEFENSE_VALUE@"
+  },
+  {
+    "ID": "MS1_DEFENSE_VALUE",
+    "Text": ""
+  },
+  {
+    "ID": "VS_MAIN_LIST_TITLE",
+    "Text": "@VS_MAIN_LIST_TITLE@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST",
+    "Text": "COST"
+  },
+  {
+    "ID": "VS_MAIN_LIST_01",
+    "Text": "@VS_MAIN_LIST_01@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_02",
+    "Text": "@VS_MAIN_LIST_02@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_03",
+    "Text": "@VS_MAIN_LIST_03@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_04",
+    "Text": "@VS_MAIN_LIST_04@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_05",
+    "Text": "@VS_MAIN_LIST_05@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_06",
+    "Text": "@VS_MAIN_LIST_06@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_07",
+    "Text": "@VS_MAIN_LIST_07@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_08",
+    "Text": "@VS_MAIN_LIST_08@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_09",
+    "Text": "@VS_MAIN_LIST_09@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_10",
+    "Text": "@VS_MAIN_LIST_10@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST_01",
+    "Text": "@VS_MAIN_LIST_COST_01@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST_02",
+    "Text": "@VS_MAIN_LIST_COST_02@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST_03",
+    "Text": "@VS_MAIN_LIST_COST_03@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST_04",
+    "Text": "@VS_MAIN_LIST_COST_04@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST_05",
+    "Text": "@VS_MAIN_LIST_COST_05@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST_06",
+    "Text": "@VS_MAIN_LIST_COST_06@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST_07",
+    "Text": "@VS_MAIN_LIST_COST_07@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST_08",
+    "Text": "@VS_MAIN_LIST_COST_08@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST_09",
+    "Text": "@VS_MAIN_LIST_COST_09@"
+  },
+  {
+    "ID": "VS_MAIN_LIST_COST_10",
+    "Text": "@VS_MAIN_LIST_COST_10@"
+  },
+  {
+    "ID": "INFO_CHA1_SELECT",
+    "Text": "Select pilot for MS1 LEADER."
+  },
+  {
+    "ID": "INFO_CHA1_PILOT",
+    "Text": "Please select a pilot for MS1 LEADER."
+  },
+  {
+    "ID": "INFO_MS1_SELECT",
+    "Text": "Select MS1 LEADER's MS (mobile suit)."
+  },
+  {
+    "ID": "INFO_MS2_SELECT",
+    "Text": "Select the MS (mobile suit) of MS2 RIGHT WING."
+  },
+  {
+    "ID": "INFO_MS3_SELECT",
+    "Text": "Select the MS (mobile suit) of MS3 LEFT WING."
+  },
+  {
+    "ID": "INFO_MS1_MS",
+    "Text": "Please select the MS (mobile suit) for MS1 LEADER."
+  },
+  {
+    "ID": "INFO_MS2_MS",
+    "Text": "Please select the MS (mobile suit) of MS2 RIGHT WING."
+  },
+  {
+    "ID": "INFO_MS3_MS",
+    "Text": "Please select the MS (mobile suit) of MS3 LEFT WING."
+  },
+  {
+    "ID": "INFO_SELECT_WEAPON",
+    "Text": "Please select a weapon."
+  },
+  {
+    "ID": "INFO_RANDOM",
+    "Text": "Randomly select pilot, MS (mobile suit), and weapon."
+  },
+  {
+    "ID": "INFO_BATTLE_OPTION",
+    "Text": "Cost/handicap can be changed."
+  },
+  {
+    "ID": "INFO_OK",
+    "Text": "Decide."
+  },
+  {
+    "ID": "VS_COLOR_CHANGE_TITLE",
+    "Text": "MS COLOR CHANGE"
+  },
+  {
+    "ID": "VS_COLOR_CHANGE_INF",
+    "Text": "Please select the color box number to use."
+  },
+  {
+    "ID": "BAT_CPU_MS1_THINK_SELECT",
+    "Text": "@BAT_CPU_MS1_THINK_SELECT@"
+  },
+  {
+    "ID": "BAT_OPT_BUTTON_INFO",
+    "Text": "｜≒Select｜∋Back｜"
+  },
+  {
+    "ID": "TITLE_VERSUS",
+    "Text": "VERSUS"
+  },
+  {
+    "ID": "TITLE_TIME",
+    "Text": "TIME BATTLE"
+  },
+  {
+    "ID": "CHA2_NAME_VALUE",
+    "Text": "@CHA2_NAME_VALUE@"
+  },
+  {
+    "ID": "CHA2_MS2",
+    "Text": "MS2"
+  },
+  {
+    "ID": "RIGHT_WING",
+    "Text": "RIGHT WING"
+  },
+  {
+    "ID": "CHA2_COST",
+    "Text": "COST:"
+  },
+  {
+    "ID": "CHA2_COST_VALUE",
+    "Text": "@CHA2_COST_VALUE@"
+  },
+  {
+    "ID": "CHA2_THINK",
+    "Text": "AI:"
+  },
+  {
+    "ID": "CHA2_THINK_VALUE",
+    "Text": "@CHA2_THINK_VALUE@"
+  },
+  {
+    "ID": "CHA3_MS3",
+    "Text": "MS3"
+  },
+  {
+    "ID": "LEFT_WING",
+    "Text": "LEFT WING"
+  },
+  {
+    "ID": "CHA3_COST",
+    "Text": "COST:"
+  },
+  {
+    "ID": "CHA3_COST_VALUE",
+    "Text": "@CHA3_COST_VALUE@"
+  },
+  {
+    "ID": "CHA3_THINK",
+    "Text": "AI:"
+  },
+  {
+    "ID": "CHA3_THINK_VALUE",
+    "Text": "@CHA3_THINK_VALUE@"
+  },
+  {
+    "ID": "MS2_NAME_VALUE",
+    "Text": "@MS2_NAME_VALUE@"
+  },
+  {
+    "ID": "MS2_WEAPON_VALUE",
+    "Text": "@MS2_WEAPON_VALUE@"
+  },
+  {
+    "ID": "MS2_COST",
+    "Text": "COST:"
+  },
+  {
+    "ID": "MS2_COST_VALUE",
+    "Text": "@MS2_COST_VALUE@"
+  },
+  {
+    "ID": "MS2_DEFENSE",
+    "Text": "Handicap: @MS2_DEFENSE_VALUE@"
+  },
+  {
+    "ID": "MS2_DEFENSE_VALUE",
+    "Text": ""
+  },
+  {
+    "ID": "MS3_NAME_VALUE",
+    "Text": "@MS3_NAME_VALUE@"
+  },
+  {
+    "ID": "MS3_WEAPON_VALUE",
+    "Text": "@MS3_WEAPON_VALUE@"
+  },
+  {
+    "ID": "MS3_COST",
+    "Text": "COST:"
+  },
+  {
+    "ID": "MS3_COST_VALUE",
+    "Text": "@MS3_COST_VALUE@"
+  },
+  {
+    "ID": "MS3_DEFENSE",
+    "Text": "Handicap: @MS3_DEFENSE_VALUE@"
+  },
+  {
+    "ID": "MS3_DEFENSE_VALUE",
+    "Text": ""
+  },
+  {
+    "ID": "INFO_CHA2_SELECT",
+    "Text": "Select pilot for MS2 RIGHT WING."
+  },
+  {
+    "ID": "INFO_CHA3_SELECT",
+    "Text": "Select pilot for MS3 LEFT WING."
+  },
+  {
+    "ID": "INFO_CHA2_PILOT",
+    "Text": "Please select a pilot for MS2 RIGHT WING."
+  },
+  {
+    "ID": "INFO_CHA3_PILOT",
+    "Text": "Please select a pilot for MS3 LEFT WING."
+  },
+  {
+    "ID": "CHA3_NAME_VALUE",
+    "Text": "@CHA3_NAME_VALUE@"
+  }
+]

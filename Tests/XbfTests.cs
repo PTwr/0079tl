@@ -1,4 +1,5 @@
 ﻿using InMemoryBinaryFile.Helpers;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -167,6 +168,70 @@ namespace Tests
 
                 c++;
             }
+        }
+
+        [Fact]
+        public void GatherXbfDictionary()
+        {
+            var files = new System.IO.DirectoryInfo(@"C:\games\wii\0079\0079_unpacked")
+                .GetFiles("*.xbf", SearchOption.AllDirectories)
+                //.Where(f => f.FullName.Contains(@"Window.arc"))
+                .Where(f => f.FullName.Contains(@"BlockText.xbf"));
+
+            Dictionary<string, string> unique = new Dictionary<string, string>();
+            Dictionary<string, List<Tuple<string, string>>> diffs = new Dictionary<string, List<Tuple<string, string>>>();
+            Dictionary<string, List<Tuple<string, string>>> everything = new Dictionary<string, List<Tuple<string, string>>>();
+            int c = 0;
+            foreach (var file in files)
+            {
+                var xmlFile = file.FullName
+                    .Replace("0079_jp", "0079_en")
+                    .Replace(".xbf", ".xml");
+                var expected = File.ReadAllBytes(file.FullName);
+
+                var parsed = new XbfRootSegment(XbfRootSegment.ShouldBeUTF8(file.Name));
+                parsed.Parse(expected.AsSpan());
+
+                var blocks = parsed.NodeTree.XmlDocument.SelectNodes("/Texts/Block");
+
+                foreach(XmlElement block in blocks)
+                {
+                    var id = block.ChildNodes[1].InnerText;
+                    var text = block.ChildNodes[2].InnerText;
+
+                    if (!everything.ContainsKey(id))
+                    {
+                        everything[id] = new List<Tuple<string, string>>();
+                    }
+                    everything[id].Add(new Tuple<string, string>(file.FullName, text));
+
+                    if (unique.TryGetValue(id, out var existing))
+                    {
+                        if (text!=existing)
+                        {
+                            if (!diffs.ContainsKey(id))
+                            {
+                                diffs[id] = new List<Tuple<string, string>>();
+                            }
+                            diffs[id].Add(new Tuple<string, string>(file.FullName, text));
+                            continue;
+                        }
+                    }
+
+                    unique[id] = text;
+                }
+                c++;
+            }
+
+            //TODO split dict to group files into logical segments, Window, Prologues, Chat
+            //TODO split dict to group away texts with conflicting ID's, like briefing intel page
+            var dict = unique.Select(i => new
+            {
+                ID = i.Key,
+                Text = i.Value,
+            }).ToList();
+            string output = JsonConvert.SerializeObject(dict, Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText("../../../../Patcher/Translation/Translationdict.json", output);
         }
 
         [Fact]

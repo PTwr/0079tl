@@ -1,4 +1,5 @@
 using InMemoryBinaryFile.Helpers;
+using Newtonsoft.Json;
 using System.Xml;
 using U8;
 using XBFLib;
@@ -35,17 +36,18 @@ public class U8Tests
         {
             var arcjp = file.FullName;
             var patchDir = arcjp.Replace(@"C:\games\wii\0079\0079_jp", @"../../../../Patcher/Translation/Patch");
-
-            if(!Directory.Exists(patchDir))
-            {
-                continue;
-            }
+            var unpackeddir = arcjp.Replace(@"C:\games\wii\0079\0079_jp", @"C:\games\wii\0079\0079_unpacked");
 
             var bytes = File.ReadAllBytes(arcjp).AsSpan();
             var root = new U8RootSegment();
             root.Parse(bytes);
 
-            var updated = UpdateU8Root(root, patchDir);
+            if(arcjp.Contains("BR_ME02_text.arc"))
+            {
+
+            }
+
+            var updated = UpdateU8Root(root, patchDir, unpackeddir);
 
             if (updated)
             {
@@ -55,8 +57,17 @@ public class U8Tests
         }
     }
 
-    private bool UpdateU8Root(U8RootSegment root, string dumpDir)
+    public class windowjsonentry
     {
+        public string ID { get; set; }
+        public string Text { get; set; }
+    }
+    private bool UpdateU8Root(U8RootSegment root, string dumpDir, string unpackeddir)
+    {
+        var windowjson = File.ReadAllText("../../../../Patcher/Translation/Translationdict.json");
+        var windowdict = JsonConvert.DeserializeObject<List<windowjsonentry>>(windowjson)
+            .ToDictionary(i=>i.ID, i=>i.Text);
+
         bool updated = false;
         int offsetChange = 0;
         foreach (var node in root.Nodes)
@@ -65,7 +76,7 @@ public class U8Tests
             {
                 var nestedRoot = new U8RootSegment();
                 nestedRoot.Parse(node.BinaryData);
-                updated |= UpdateU8Root(nestedRoot, Path.Combine(dumpDir, node.Path));
+                updated |= UpdateU8Root(nestedRoot, Path.Combine(dumpDir, node.Path), Path.Combine(unpackeddir, node.Path));
 
                 var newData = nestedRoot.GetBytes().ToArray();
                 offsetChange -= node.BinaryData.Length;
@@ -78,11 +89,40 @@ public class U8Tests
             {
                 var xmlenpath = Path.Combine(dumpDir, node.Path);
                 xmlenpath = xmlenpath.Replace(".xbf", ".xbf.en.xml");
+
+                if (!File.Exists(xmlenpath))
+                {
+                    //for Window.arc
+                    //if (xmlenpath.Contains("Window.arc") && xmlenpath.Contains("BlockText.xbf"))
+                    {
+                        //patch even without translation because we use shared dict
+                        xmlenpath = Path.Combine(unpackeddir, node.Path) + ".xml";
+                    }
+                }
+                if (xmlenpath.Contains("Briefing_Select.arc") && xmlenpath.Contains("BlockText"))
+                {
+
+                }
                 if (File.Exists(xmlenpath))
                 {
                     var xml = File.ReadAllText(xmlenpath);
                     XmlDocument doc = new XmlDocument();
                     doc.LoadXml(xml);
+
+                    //if (xmlenpath.Contains("Window.arc"))
+                    {
+                        var blocks = doc.SelectNodes("/Texts/Block");
+                        foreach (XmlElement block in blocks)
+                        {
+                            var id = block.ChildNodes[0].InnerText;
+                            var text = block.ChildNodes[1].InnerText;
+
+                            if (windowdict.TryGetValue(id, out var tl))
+                            {
+                                block.ChildNodes[1].InnerText = tl;
+                            }
+                        }
+                    }
 
                     var parsed = new XbfRootSegment(doc, XbfRootSegment.ShouldBeUTF8(xmlenpath));
 

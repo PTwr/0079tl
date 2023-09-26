@@ -1,1 +1,1 @@
-﻿those files appear to be unused
+﻿d_missionname.en.lua - mission name in Ace Pilot
