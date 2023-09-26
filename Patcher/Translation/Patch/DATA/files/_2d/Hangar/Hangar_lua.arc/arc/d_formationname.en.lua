@@ -27,6 +27,6 @@ D_FormationName = {
 		name = "Spread(Defense)", 
 	},
 	{
-		name = "--remove from list--", 
+		name = "--none--", 
 	},
 }

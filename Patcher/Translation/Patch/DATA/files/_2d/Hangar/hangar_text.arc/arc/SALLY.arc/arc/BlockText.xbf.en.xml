@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Texts>
+  <Block>
+    <ID>TITLE_01</ID>
+    <Text>MS HANGAR</Text>
+  </Block>
+  <Block>
+    <ID>BUTTON_INFO_01</ID>
+    <Text>｜≒Select｜∈Ok｜∋Back｜⊆Formation｜</Text>
+  </Block>
+  <Block>
+    <ID>COST_01</ID>
+    <Text>COST</Text>
+  </Block>
+  <Block>
+    <ID>COST_NOW</ID>
+    <Text>@COST_NOW@</Text>
+  </Block>
+  <Block>
+    <ID>COST_03</ID>
+    <Text>/</Text>
+  </Block>
+  <Block>
+    <ID>COST_MAX</ID>
+    <Text>@COST_MAX@</Text>
+  </Block>
+  <Block>
+    <ID>LEADER_00</ID>
+    <Text>MS1 LEADER</Text>
+  </Block>
+  <Block>
+    <ID>LEADER_PILOT</ID>
+    <Text>@LEADER_PILOT@</Text>
+  </Block>
+  <Block>
+    <ID>LEADER_MS</ID>
+    <Text>@LEADER_MS@</Text>
+  </Block>
+  <Block>
+    <ID>LEADER_SELECT</ID>
+    <Text>Sortie</Text>
+  </Block>
+  <Block>
+    <ID>RIGHT_00</ID>
+    <Text>MS2 RIGHT WING</Text>
+  </Block>
+  <Block>
+    <ID>RIGHT_PILOT</ID>
+    <Text>@RIGHT_PILOT@</Text>
+  </Block>
+  <Block>
+    <ID>RIGHT_MS</ID>
+    <Text>@RIGHT_MS@</Text>
+  </Block>
+  <Block>
+    <ID>RIGHT_SELECT_01</ID>
+    <Text>Sortie</Text>
+  </Block>
+  <Block>
+    <ID>RIGHT_SELECT_02</ID>
+    <Text>Stand by</Text>
+  </Block>
+  <Block>
+    <ID>LEFT_00</ID>
+    <Text>MS3 LEFT WING</Text>
+  </Block>
+  <Block>
+    <ID>LEFT_PILOT</ID>
+    <Text>@LEFT_PILOT@</Text>
+  </Block>
+  <Block>
+    <ID>LEFT_MS</ID>
+    <Text>@LEFT_MS@</Text>
+  </Block>
+  <Block>
+    <ID>START_BATTLE</ID>
+    <Text>START MISSION</Text>
+  </Block>
+  <Block>
+    <ID>LEFT_SELECT_01</ID>
+    <Text>Sortie</Text>
+  </Block>
+  <Block>
+    <ID>LEFT_SELECT_02</ID>
+    <Text>Stand-by</Text>
+  </Block>
+  <Block>
+    <ID>INFO_HANGAR_01</ID>
+    <Text>Pilot selection</Text>
+  </Block>
+  <Block>
+    <ID>INFO_HANGAR_02</ID>
+    <Text>MS1 LEADER settings</Text>
+  </Block>
+  <Block>
+    <ID>INFO_HANGAR_03</ID>
+    <Text>MS2 RIGHT WING settings</Text>
+  </Block>
+  <Block>
+    <ID>INFO_HANGAR_04</ID>
+    <Text>MS3 LEFT WING settings</Text>
+  </Block>
+  <Block>
+    <ID>INFO_HANGAR_05</ID>
+    <Text>出撃します。</Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_00</ID>
+    <Text>Cost too high
+Change MS/weapon
+and try again</Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_01</ID>
+    <Text>Lil has gone out on her own! !
+Lil settings cannot be made.
+    </Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_02</ID>
+    <Text>It will be a separate action from Lil and Dennis.
+Lil and Dennis cannot be selected.
+    </Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_03</ID>
+    <Text>The current operation is Lil and Dennis
+are part of data collection.
+I will be sortieing in GM.
+    </Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_04</ID>
+    <Text>As in the previous battle, 
+when Lil and Dennis sortie,
+Please use the GM.
+    </Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_05</ID>
+    <Text>In this mission, all units are pre-selected
+MS cannot be changed.
+    </Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_06</ID>
+    <Text>
+For this mission, please launch from an amphibious MS.
+    </Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_07</ID>
+    <Text>You will sortie alone using the procured EFF MS.
+You cannot select your wingman.
+    </Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_08</ID>
+    <Text>Klaus and Tord will act separately.
+You cannot configure Klaus and Tordo.
+    </Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_09</ID>
+    <Text>This will be a sortie from water.
+For this mission, please launch use an amphibious MS.
+    </Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_10</ID>
+    <Text>Heading out?</Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_11</ID>
+    <Text>Due to the nature of the operation, 
+Jim Sniper Custom is recommended
+    </Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_YES</ID>
+    <Text>YES</Text>
+  </Block>
+  <Block>
+    <ID>SALLY_WIN_NO</ID>
+    <Text>NO</Text>
+  </Block>
+</Texts>
