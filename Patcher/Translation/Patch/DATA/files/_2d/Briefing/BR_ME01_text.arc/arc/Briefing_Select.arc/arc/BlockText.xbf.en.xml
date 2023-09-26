@@ -44,7 +44,7 @@ In addition to sorties, you can also set up your MS</Text>
   <Block>
     <ID>BR_SELECT_OPERATION_INFO</ID>
     <Text>Check the briefing screen and conversation again
-Make sure you understand the details of the strategy and take on the battle</Text>
+Make sure you understand the details of the strategy</Text>
   </Block>
   <Block>
     <ID>BR_SELECT_COND_INFO</ID>
