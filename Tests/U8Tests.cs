@@ -170,6 +170,6 @@ public class U8Tests
                 }
             }
         }
-        return false;
+        return true;
     }
 }

@@ -5,7 +5,7 @@ MissionText = {
 	},
 	{
 		code = "AA01_EV02",
-		value = "A Red Comet has appeared! !\n
+		value = "A red comet has appeared! !\
 Defeat him! !",
 	},
 }
