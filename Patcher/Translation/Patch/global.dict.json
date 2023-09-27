@@ -202,11 +202,11 @@
   },
   {
     "ID": "DOUBLE_OK",
-    "Text": "○"
+    "Text": "     ○"
   },
   {
     "ID": "DOUBLE_NG",
-    "Text": "×"
+    "Text": "     ×"
   },
   {
     "ID": "SHOULDER_OK",
@@ -5201,7 +5201,7 @@
   },
   {
     "ID": "ACE_INF_AMR_00",
-    "Text": "Amuro Ray, a civilian boy, gets caught up in the war and grows tremendously as a Gundam pilot."
+    "Text": "Amuro Ray, a civilian boy, gets caught up in the war and \ngrows tremendously as a Gundam pilot."
   },
   {
     "ID": "ACE_INF_SIR_00",
