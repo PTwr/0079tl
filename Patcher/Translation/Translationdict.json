@@ -250,7 +250,7 @@
   },
   {
     "ID": "MANUAL_1",
-    "Text": "●Shooting\nUse wiimote to target your gun\nLock enemy target with⊆\n\n\n●Melee\nHold ∈ when near enemy\nmelee weapon can be used during lock-on\n取り出しTank type ＭＳ\ncan't perform melee attacks'\n\n●Melee guard\nPress ∈ while fighting (holding ∋)\nto perform melee guard/\nProjectile attack can't be blocked'\n　　　　　　　　　　　　　　ＰＡＧＥ－２"
+    "Text": "●Shooting\nUse wiimote to target your gun\nLock enemy target with⊆\n\n\n●Melee\nHold ∈ when near enemy\nmelee weapon can be used during lock-on\nTank type ＭＳ\ncan't perform melee attacks'\n\n●Melee guard\nPress ∈ while fighting (holding ∋)\nto perform melee guard/\nProjectile attack can't be blocked'\n　　　　　　　　　　　　　　ＰＡＧＥ－２"
   },
   {
     "ID": "MANUAL_A",
@@ -3269,7 +3269,7 @@
   },
   {
     "ID": "MULTI_Window_01",
-    "Text": "出撃します、よろしいですか？ "
+    "Text": "I'm heading out, are you sure?"
   },
   {
     "ID": "MULTI_Window_02",
