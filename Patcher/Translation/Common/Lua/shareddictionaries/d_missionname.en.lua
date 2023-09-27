@@ -5,14 +5,14 @@ D_MissionName = {
 		name = "First battle in moonlight", 
                 map = "Seattle",
 		difficulty = "EASY",
-	        date="0079/10/06",
+	        date="0079/10/06"
 	},
 	{
 		code = "ME02", 
 		name = "Gunshots among dunes", 
                 map = "Desert area",
 		difficulty = "EASY",
-	        date="0079/10/10",
+	        date="0079/10/10"
 	},
 	{
 		code = "ME03", 
@@ -296,182 +296,182 @@ D_MissionName = {
 	},
 	{
 		code = "AA01", 
-		name = "Break the siege！", 
+		name = "The Trap of M'Quve", --MSG#22
                 map = "Valley",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AA02", 
-		name = "ガルマ散る", 
+		name = "Garma's Fate", --MSG#10
                 map = "Seattle",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AA03", 
-		name = "ランバ・ラル特攻！", 
+		name = "Ramba Ral's Attack! ", --MSG#19
                 map = "Gobi Desert",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AA04", 
-		name = "迫撃！トリプル・ドム", 
+		name = "Black Tri-Star", 
                 map = "Odessa Suburbs",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AA05", 
-		name = "大西洋、血に染めて", 
+		name = "Across the Atlantic Ocean", --MSG#15
                 map = "Belfast",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AA06", 
-		name = "ジャブローに散る！", 
+		name = "Tragedy in Jaburo！", --MSG#28
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
-		code = "AK01", 
-		name = "アレックス、出撃！", 
+		code = "AK01",
+		name = "Alex, launching！", --War in the Pocket?
                 map = "Black Sea",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AS01", 
-		name = "熱砂戦線", 
+		name = "Battle Line on the Burning Sand",  --8th MS Team #6
                 map = "Area ５２６",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AS02", 
-		name = "震える山（前編）", 
+		name = "The Shuddering Mountain, Part I", --8th MS Team #10
                 map = "Lhasa Base",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AS03", 
-		name = "震える山（後編）", 
+		name = "The Shuddering Mountain, Part II", --8th MS Team #11
                 map = "Lhasa Base",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AY01", 
-		name = "蒼き死神", 
+		name = "Blue Grim Reaper", --Blue Destiny
                 map = "Lhasa Base",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AC01", 
-		name = "赤い彗星", 
+		name = "Red Comet", --??? probably some early MSG episode
                 map = "Seattle",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AC02", 
-		name = "復活のシャア", 
+		name = "Char Returns", --MSG#25
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AC03", 
-		name = "プレッシャー", 
+		name = "Pressure",  --??? MSG episode with fights in jaburo tunels?
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AR01", 
-		name = "熱砂の襲撃者", 
+		name = "Hot Sand Raider", --??? stardust memory?
                 map = "Gobi Desert",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AG01", 
-		name = "黒い三連星", 
+		name = "Black Tri-Stars",  --?? unit name, not episode name?
                 map = "Black Sea",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AH01", 
-		name = "マッド・アングラー", 
+		name = "Mad Angler", --??? name of submarine? Ship that nuke gundam escaped from australia in
                 map = "California Base",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AN01", 
-		name = "隻影の捜索者", 
+		name = "Shadow Seeker", --???
                 map = "Valley",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AN02", 
-		name = "我、死に場所を見つけたり", 
+		name = "I found a place to die", --?? 8th MS?
                 map = "Lhasa Base",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "AB01", 
-		name = "ポケットの中の戦争", 
+		name = "War in the pocket",  --War in the Pocket ep6
                 map = "Black Sea",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "CE01", 
-		name = "悪夢の狩猟場", 
+		name = "Nightmare Hunting Ground", --????
                 map = "Lhasa Base",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "CE02", 
-		name = "波音は遠く聞こえず", 
-                map = "Nakazawa",
+		name = "Sound of waves",  --?!??!
+                map = "Nakazawa", --??!?!?!
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "CE03", 
-		name = "悠久の闘争、刹那の終焉", 
-                map = "Nakazawa",
+		name = "Eternal struggle, momentary end", --???
+                map = "Nakazawa",--???
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "CZ01", 
-		name = "砂塵の守護者", 
-                map = "Desert area",
+		name = "Guardian of Dust", --!?!
+                map = "Desert area", 
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "CZ02", 
-		name = "ボーン・トゥ・アサルト", 
+		name = "Born to Assault", --?!?!
                 map = "Nakazawa",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
 	},
 	{
 		code = "CZ03", 
-		name = "ブラッディ・サンセット", 
+		name = "Bloody Sunset",  --?!??!
                 map = "Nakazawa",
 		difficulty = "HARD",
 	        date="0079/XX/XX",

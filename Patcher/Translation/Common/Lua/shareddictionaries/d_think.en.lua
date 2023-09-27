@@ -1,4 +1,4 @@
---difficulty level?
+--AI level
 D_ThinkName = {
 	{
 		code = "THI", 

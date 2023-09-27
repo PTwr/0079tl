@@ -174,7 +174,7 @@
   },
   {
     "ID": "WINDOW_RETURN",
-    "Text": "We will return to the unit headquarters and try again.\nAre you sure?"
+    "Text": "Return to base\nand try again??"                             
   },
   {
     "ID": "WINDOW_QUIT",

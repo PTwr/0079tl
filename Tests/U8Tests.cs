@@ -62,6 +62,16 @@ public class U8Tests
     {
         public string ID { get; set; }
         public string Text { get; set; }
+        public string[] Lines { get; set; }
+
+        public override string ToString()
+        {
+            if (Lines?.Any()==true)
+            {
+                return string.Join("\n", Lines);
+            }
+            return Text;
+        }
     }
     private bool UpdateU8Root(U8RootSegment root, string patchDir, string unpackeddir, List<Dictionary<string, string>> dicts)
     {
@@ -74,10 +84,13 @@ public class U8Tests
         {
             var nesteddictjson = File.ReadAllText(dictPath);
             var nesteddict = JsonConvert.DeserializeObject<List<windowjsonentry>>(nesteddictjson)
-                .ToDictionary(i => i.ID, i => i.Text);
-            //copy list, as its passed as reference not value
-            dicts = new List<Dictionary<string, string>>(dicts);
-            dicts.Add(nesteddict);
+                .ToDictionary(i => i.ID, i => i.ToString());
+
+            dicts = new List<Dictionary<string, string>>(dicts) //clone list
+            {
+                //append new dict
+                nesteddict
+            };
         }
 
         bool updated = false;
@@ -155,10 +168,21 @@ public class U8Tests
             {
                 var luapath = Path.Combine(patchDir, node.Path);
                 luapath = luapath.Replace(".lua", ".en.lua");
+
+                //override script with commont file
+                var filename = Path.GetFileName(luapath);
+                var commonfile = Directory //allow for subdirectories
+                    .EnumerateFiles("../../../../Patcher/Translation/Common/Lua", "*.*", SearchOption.AllDirectories)
+                    .Where(i => Path.GetFileName(i) == filename)
+                    .FirstOrDefault();
+                //var commonfile = Path.Combine(@"../../../../Patcher/Translation/Common/Lua", filename);
+                if(File.Exists(commonfile))
+                {
+                    luapath = commonfile;
+                }
+
                 if (File.Exists(luapath))
                 {
-                    //var lua = File.ReadAllText(luapath);
-
                     var newData = File.ReadAllBytes(luapath);
 
                     offsetChange -= node.BinaryData.Length;
@@ -176,8 +200,6 @@ public class U8Tests
                 path = path.Replace(".xml", ".en.xml");
                 if (File.Exists(path))
                 {
-                    //var lua = File.ReadAllText(path);
-
                     var newData = File.ReadAllBytes(path);
 
                     offsetChange -= node.BinaryData.Length;

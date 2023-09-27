@@ -1,3 +1,5 @@
 ﻿Pause screen objectives display
 just slash \ to indicate new line?
 adding \n breaks display
+adding line breaks breaks display too
+WTF?!
