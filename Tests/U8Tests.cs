@@ -42,11 +42,6 @@ public class U8Tests
             var root = new U8RootSegment();
             root.Parse(bytes);
 
-            if(arcjp.Contains("BR_ME02_text.arc"))
-            {
-
-            }
-
             var updated = UpdateU8Root(root, patchDir, unpackeddir);
 
             if (updated)
@@ -92,8 +87,7 @@ public class U8Tests
 
                 if (!File.Exists(xmlenpath))
                 {
-                    //for Window.arc
-                    //if (xmlenpath.Contains("Window.arc") && xmlenpath.Contains("BlockText.xbf"))
+                    if (xmlenpath.Contains("BlockText.xbf"))
                     {
                         //patch even without translation because we use shared dict
                         xmlenpath = Path.Combine(unpackeddir, node.Path) + ".xml";
@@ -134,7 +128,7 @@ public class U8Tests
                     node.BinaryData = newData;
                     node.Size = newData.Length;
 
-                    updated = true;
+                    updated |= true;
                 }
             }
             else if (node.IsFile && node.Name.EndsWith(".lua"))
@@ -153,7 +147,7 @@ public class U8Tests
                     node.BinaryData = newData;
                     node.Size = newData.Length;
 
-                    updated = true;
+                    updated |= true;
                 }
             }
             else if (node.IsFile && node.Name.EndsWith(".xml"))
@@ -172,7 +166,7 @@ public class U8Tests
                     node.BinaryData = newData;
                     node.Size = newData.Length;
 
-                    updated = true;
+                    updated |= true;
                 }
             }
         }

@@ -7,4 +7,24 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Translation\Patch\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\Briefing_Select.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\OP_ME01.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Briefing\EF_Root_text.arc\EF_Root.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Hangar\hangar_text.arc\arc\FORMATION.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Hangar\hangar_text.arc\arc\SALLY.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\result_story\result_story_text.arc\arc\MSRESULT.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\result_story\result_story_text.arc\arc\RESULT_WEAPON.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\ACE.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\BRIGHT.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\CROSS.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\File_Select.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\MAIN_MENU.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\OPTION.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\Pilot_Select.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\TITLE.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\Window.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Window\Window_text.arc\arc\Window.arc\arc\" />
+  </ItemGroup>
+
 </Project>
