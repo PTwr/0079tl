@@ -8,8 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Translation\Patch\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\Briefing_Select.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Briefing\BR_ME01_text.arc\arc\OP_ME01.arc\arc\" />
     <Folder Include="Translation\Patch\DATA\files\_2d\Briefing\EF_Root_text.arc\EF_Root.arc\arc\" />
     <Folder Include="Translation\Patch\DATA\files\_2d\Hangar\hangar_text.arc\arc\FORMATION.arc\arc\" />
     <Folder Include="Translation\Patch\DATA\files\_2d\Hangar\hangar_text.arc\arc\SALLY.arc\arc\" />

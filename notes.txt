@@ -131,3 +131,11 @@ check if mission.arc\Briefing_Select.arc is duplicated
 Window.arc is duplicated too
 
 gather Block ID's to generate xbf from shared translation list?
+
+
+UI text positioning
+texts are positioned according to [name]_TextSet.lua which point to 
+primary .arc -> [name].brres => 3DModels=>[link_model]=>Bones=>[link_name]
+Bones are positioned through their Translation
+
+dirty workaround is to add spaces and line breaks in BlockText.xbf, and modify TabSpace (+ is to the left, - is to the right) in StringGroup.xbf
