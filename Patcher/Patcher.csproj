@@ -8,30 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Translation\Patch\DATA\files\_2d\Briefing\BRIEFING_lua.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Briefing\EF_Root_text.arc\EF_Root.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Common\ingame_lua.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Hangar\Hangar_lua.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Hangar\hangar_text.arc\arc\FORMATION.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Hangar\hangar_text.arc\arc\SALLY.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\ms_viewer\ms_viewer_lua.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Pause\PAUSE_A.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Record\record_lua.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Record\record_text.arc\arc\RECORD.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\result_story\result_story_lua.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\result_story\result_story_text.arc\arc\MSRESULT.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\result_story\result_story_text.arc\arc\RESULT_WEAPON.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\ACE.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\BRIGHT.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\CROSS.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\File_Select.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\MAIN_MENU.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\OPTION.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\Pilot_Select.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\TITLE.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Title\Title_text.arc\arc\Window.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Versus\Versus_lua.arc\arc\" />
-    <Folder Include="Translation\Patch\DATA\files\_2d\Window\Window_text.arc\arc\Window.arc\arc\" />
+    <Folder Include="Translation\Patch\DATA\files\_2d\Briefing\PROLOGUE_MAP_ME_text.arc\" />
   </ItemGroup>
 
 </Project>

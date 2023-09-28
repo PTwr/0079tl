@@ -1,2 +1,0 @@
-﻿Post battle weapon acquisiting
-not affected bu result_story Window.arc?!

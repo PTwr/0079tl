@@ -115,10 +115,10 @@
     "ID": "MISSION3_CONTENT",
     "Text": "@MISSION3_CONTENT@"
   },
-  //TODO mission result might require shorter string
+  //TODO shared with hangar, hangar wants full name
   {
     "ID": "MS",
-    "Text": "MOBILE SUIT"
+    "Text": "MS："
   },
   {
     "ID": "MANUAL_PAGE",
