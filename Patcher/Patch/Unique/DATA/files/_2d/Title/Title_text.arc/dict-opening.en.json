@@ -1,0 +1,39 @@
+[
+  {
+    "ID": "OPENING_TEXT_A_00",
+    "Text": "A half century has passed..."
+  },
+  {
+    "ID": "OPENING_TEXT_A_01",
+    "Text": "... since humanity began moving..."
+  },
+  {
+    "ID": "OPENING_TEXT_A_02",
+    "Text": "...its burgeoning population into space."
+  },
+  {
+    "ID": "OPENING_TEXT_A_03",
+    "Text": "These gigantic space cities..."
+  },
+  {
+    "ID": "OPENING_TEXT_A_04",
+    "Text": "... orbiting the Earth..."
+  },
+  {
+    "ID": "OPENING_TEXT_A_05",
+    "Text": "...became a second home to humanity..."
+  },
+  {
+    "ID": "OPENING_TEXT_A_06",
+    "Text": "...where people were born..."
+  },
+  {
+    "ID": "OPENING_TEXT_A_07",
+    "Text": "...and raised..."
+  },
+  {
+    "ID": "OPENING_TEXT_A_08",
+    "Text": "...and where they died."
+  }
+  //TODO finish :)
+]

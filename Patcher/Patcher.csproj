@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Translation\Patch\DATA\files\_2d\Briefing\PROLOGUE_MAP_ME_text.arc\" />
+    <Folder Include="Patch\Unique\DATA\files\_2d\Briefing\PROLOGUE_MAP_ME_text.arc\" />
   </ItemGroup>
 
 </Project>

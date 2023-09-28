@@ -94,12 +94,12 @@ namespace U8
             throw new NotImplementedException("unused");
         }
 
-        public void DumpToDisk(string rootDir)
+        public void DumpToDisk(string outputDir)
         {
-            Directory.CreateDirectory(rootDir);
+            Directory.CreateDirectory(outputDir);
             foreach (var node in Nodes)
             {
-                var path = Path.Join(rootDir, node.Path);
+                var path = Path.Join(outputDir, node.Path);
                 if (node.IsDirectory)
                 {
                     Directory.CreateDirectory(path);
