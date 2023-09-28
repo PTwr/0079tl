@@ -33,7 +33,7 @@ public class U8Tests
     {
         var globaldictjson = File.ReadAllText(PatchDir + "/global." + TranslationDictFilename);
         var globaldict = JsonConvert.DeserializeObject<List<windowjsonentry>>(globaldictjson)
-            .ToDictionary(i => i.ID, i => i.Text);
+            .ToDictionary(i => i.ID, i => i);
 
         var files = new System.IO.DirectoryInfo(@"C:\games\wii\0079\0079_jp\DATA")
             .GetFiles("*.arc", SearchOption.AllDirectories);
@@ -48,7 +48,7 @@ public class U8Tests
             var root = new U8RootSegment();
             root.Parse(bytes);
 
-            var updated = UpdateU8Root(root, patchDir, unpackeddir, new List<Dictionary<string, string>>() { globaldict });
+            var updated = UpdateU8Root(root, patchDir, unpackeddir, new List<Dictionary<string, windowjsonentry>>() { globaldict });
 
             if (updated)
             {
@@ -63,30 +63,27 @@ public class U8Tests
         public string ID { get; set; }
         public string Text { get; set; }
         public string[] Lines { get; set; }
+        public string TabSpace { get; set; }
 
         public override string ToString()
         {
-            if (Lines?.Any()==true)
+            if (Lines?.Any() == true)
             {
                 return string.Join("\n", Lines);
             }
             return Text;
         }
     }
-    private bool UpdateU8Root(U8RootSegment root, string patchDir, string unpackeddir, List<Dictionary<string, string>> dicts)
+    private bool UpdateU8Root(U8RootSegment root, string patchDir, string unpackeddir, List<Dictionary<string, windowjsonentry>> dicts)
     {
-        if (patchDir.Contains("BR_ME01.arc"))
-        {
-
-        }
         var dictPath = Path.Combine(patchDir, TranslationDictFilename);
         if (File.Exists(dictPath))
         {
             var nesteddictjson = File.ReadAllText(dictPath);
             var nesteddict = JsonConvert.DeserializeObject<List<windowjsonentry>>(nesteddictjson)
-                .ToDictionary(i => i.ID, i => i.ToString());
+                .ToDictionary(i => i.ID, i => i);
 
-            dicts = new List<Dictionary<string, string>>(dicts) //clone list
+            dicts = new List<Dictionary<string, windowjsonentry>>(dicts) //clone list
             {
                 //append new dict
                 nesteddict
@@ -118,7 +115,7 @@ public class U8Tests
                 //TODO refactor
                 if (!File.Exists(xmlenpath))
                 {
-                    if (xmlenpath.Contains("BlockText.xbf"))
+                    if (xmlenpath.Contains("BlockText.xbf") || xmlenpath.Contains("StringGroup.xbf"))
                     {
                         //patch even without translation because we use shared dict
                         xmlenpath = Path.Combine(unpackeddir, node.Path) + ".xml";
@@ -130,7 +127,7 @@ public class U8Tests
                     XmlDocument doc = new XmlDocument();
                     doc.LoadXml(xml);
 
-                    //if (xmlenpath.Contains("Window.arc"))
+                    if (xmlenpath.Contains("BlockText.xbf"))
                     {
                         var blocks = doc.SelectNodes("/Texts/Block");
                         foreach (XmlElement block in blocks)
@@ -143,9 +140,32 @@ public class U8Tests
                             {
                                 if (dict.TryGetValue(id, out var tl))
                                 {
-                                    block.ChildNodes[1].InnerText = tl;
+                                    block.ChildNodes[1].InnerText = tl.ToString();
                                     //dont look in parent dict if TL was found
                                     break;
+                                }
+                            }
+                        }
+                    }
+                    if (xmlenpath.Contains("StringGroup.xbf"))
+                    {
+                        var strs = doc.SelectNodes("/StringGroup/String");
+                        foreach (XmlElement str in strs)
+                        {
+                            var id = str.SelectSingleNode("Code");
+                            var tabspace = str.SelectSingleNode("TabSpace");
+
+                            //from newest dict to oldest
+                            foreach (var dict in dicts.AsQueryable().Reverse())
+                            {
+                                if (dict.TryGetValue(id.InnerText, out var tl))
+                                {
+                                    if (!string.IsNullOrWhiteSpace(tl.TabSpace))
+                                    {
+                                        tabspace.InnerText = tl.TabSpace;
+                                        //dont look in parent dict if TL was found
+                                        break;
+                                    }
                                 }
                             }
                         }
@@ -176,7 +196,7 @@ public class U8Tests
                     .Where(i => Path.GetFileName(i) == filename)
                     .FirstOrDefault();
                 //var commonfile = Path.Combine(@"../../../../Patcher/Translation/Common/Lua", filename);
-                if(File.Exists(commonfile))
+                if (File.Exists(commonfile))
                 {
                     luapath = commonfile;
                 }

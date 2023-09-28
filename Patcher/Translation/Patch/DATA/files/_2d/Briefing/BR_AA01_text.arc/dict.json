@@ -1,0 +1,20 @@
+[
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Text": "Defeat all enemies"
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Text": "Destroyed own MS"
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "TabSpace": "5",
+    "Lines": [
+      "Caught up in the flames of war on Side 7",
+      "Amuro Ray became Gundam's pilot.",
+      "Escaping from Char's pursuit to Earth",
+      "White Base landed in enemy teritory"
+    ]
+  }
+]
