@@ -17,6 +17,8 @@ internal class Program
         public string PatchDir { get; set; }
         [Option('l', "language", Required = false, HelpText = "Language code, defaults to en", Default = "en")]
         public string LanguageCode { get; set; }
+        [Option('r', "rewrite", Required = false, HelpText = "Rewrite everything, even if not in patch", Default = false)]
+        public bool Rewrite { get; set; }
     }
     private static void Main(string[] args)
     {
@@ -41,12 +43,12 @@ internal class Program
                     return;
                 }
 
-                ArcPatchEerything(o.InputDir, o.OutputDir, o.PatchDir, o.LanguageCode);
+                ArcPatchEerything(o.InputDir, o.OutputDir, o.PatchDir, o.LanguageCode, o.Rewrite);
             });
     }
 
     const string TranslationDictFilenameMask = "dict*.{0}.json";
-    public static void ArcPatchEerything(string inputDir, string outputDir, string patchDir, string languageCode)
+    public static void ArcPatchEerything(string inputDir, string outputDir, string patchDir, string languageCode, bool rewrite)
     {
         //get global dicts first
         Dictionary<string, windowjsonentry> globaldict = GetTLDict(Path.Combine(patchDir, UniqueDir), languageCode);
@@ -65,7 +67,7 @@ internal class Program
             var arcPath = Path.GetRelativePath(inputDir, file.FullName);
             var updated = UpdateU8Root(root, Path.Combine(patchDir, UniqueDir, arcPath), Path.Combine(patchDir, CommonDir), Path.Combine(inputDir, arcPath), languageCode, new List<Dictionary<string, windowjsonentry>>() { globaldict });
 
-            if (updated)
+            if (updated || rewrite)
             {
                 var newbytes = root.GetBytes().ToArray();
                 var stub = Path.GetRelativePath(inputDir, file.FullName);
@@ -88,12 +90,12 @@ internal class Program
         Dictionary<string, windowjsonentry> result = new Dictionary<string, windowjsonentry>();
 
         //allow for multi-file dicts
-        foreach(var path in paths)
+        foreach (var path in paths)
         {
             var json = File.ReadAllText(path);
             var dict = JsonConvert.DeserializeObject<List<windowjsonentry>>(json);
 
-            foreach(var entry in dict)
+            foreach (var entry in dict)
             {
                 result[entry.ID] = entry;
             }
@@ -230,11 +232,6 @@ internal class Program
             {
                 byte[] newData = null;
 
-                if (node.Name.Contains("d_missionname"))
-                {
-
-                }
-
                 Console.WriteLine("LUA: " + inputDir + "/" + node.Name);
                 var patchfile = Path.Combine(patchDir, node.Path);
                 patchfile = patchfile.Replace(".lua", $".{languageCode}.lua");
@@ -288,7 +285,7 @@ internal class Program
                 }
             }
         }
-        return true;
+        return updated;
     }
 }
 

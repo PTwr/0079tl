@@ -2,7 +2,7 @@
   "profiles": {
     "0079Patcher": {
       "commandName": "Project",
-      "commandLineArgs": "--input \"C:\\games\\wii\\0079\\0079_jp\" --output \"C:\\games\\wii\\0079\\0079_en2\" --patch \"../../../../../Patcher/Patch\" --language en"
+      "commandLineArgs": "--input \"C:\\games\\wii\\0079\\0079_jp\" --output \"C:\\games\\wii\\0079\\0079_en\" --patch \"../../../../../Patcher/Patch\" --language en --rewrite true"
     }
   }
 }
