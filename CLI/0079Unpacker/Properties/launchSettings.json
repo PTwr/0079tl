@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "0079Unpacker": {
+      "commandName": "Project",
+      "commandLineArgs": "--input \"C:\\games\\wii\\0079\\0079_jp\" --output \"C:\\games\\wii\\0079\\0079_unpacked2\""
+    }
+  }
+}

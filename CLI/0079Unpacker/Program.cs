@@ -45,7 +45,10 @@ internal class Program
             var root = new U8RootSegment();
             root.Parse(bytes);
 
-            root.DumpToDisk(outputDir);
+            var relativePath = Path.GetRelativePath(inputDir, file.FullName);
+            var outputPath = Path.Combine(outputDir, relativePath);
+            Console.WriteLine("Unpacking " + file.FullName);
+            root.DumpToDisk(outputPath);
         }
     }
 }
