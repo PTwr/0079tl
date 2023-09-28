@@ -174,7 +174,7 @@
   },
   {
     "ID": "WINDOW_RETURN",
-    "Text": "Return to base\nand try again??"                             
+    "Text": "Return to base\nand try again??"
   },
   {
     "ID": "WINDOW_QUIT",
@@ -338,7 +338,9 @@
       "Compass is on top, radar in corner",
       "Radar displays enemies and allies",
       "non map.",
-      "Radar marker meaning:"
+      "Radar marker meaning:",
+      "",
+      ""
     ]
   },
   {
@@ -2980,7 +2982,7 @@
     "Lines": [
       "Do you want to save your campaign?",
       "Existing save will be overwriten"
-    ]
+    ],
     "Text": "Save your story data.\nThe next time you play, you will restart from this point.\nAre you sure you want to save?"
   },
   {
@@ -3008,7 +3010,7 @@
     "Lines": [
       "Load previous save?",
       "Unsaved progress will be lost!"
-    ]
+    ],
     "Text": "Start loading. Are you sure?"
   },
   {
@@ -4311,11 +4313,15 @@
   },
   {
     "ID": "SALLY_WIN_10",
-    "Text": "I'm leaving. Are you sure?"
+    "Text": "Begin mission?"
   },
   {
     "ID": "SALLY_WIN_11",
-    "Text": "Due to the nature of the operation,\nUse of Jim Sniper Custom is recommended."
+    "Lines": [
+      "RGM-79SC Sniper Custom",
+      "is recommended."
+    ],
+    "Text": "\n"
   },
   {
     "ID": "SALLY_WIN_YES",
@@ -5132,27 +5138,31 @@
   },
   {
     "ID": "Bullet",
-    "Text": "Ammo："
+    "Text": "Ammo： @BulletNumber@" //weapon acquisition
   },
   {
     "ID": "BulletNumber",
-    "Text": "@BulletNumber@"
+    "Text": ""
   },
   {
     "ID": "Hand",
-    "Text": "Type：@Hand@"
-  },
-  {
-    "ID": "Note",
-    "Text": "：@Note@"
-  },
-  {
-    "ID": "EWResult_INF",
-    "Text": "You have acquired an enemy weapon.\nYou may only take one item back to your unit. Please select."
+    "Text": "Grip： @Hand@" //weapon acquisition
   },
   {
     "ID": "Note_comment",
-    "Text": "Special"
+    "Text": "Special：\n@Note@" //weapon acquisition
+  },
+  {
+    "ID": "Note",
+    "Text": "" 
+  },
+  {
+    "ID": "EWResult_INF",
+    "Lines": [
+      "You can acquire enemy weapon.",
+      "Pick one."
+    ],
+    "Text": "You have acquired an enemy weapon.\nYou may only take one item back to your unit. Please select."
   },
   {
     "ID": "RESULUT_USE_MS",
