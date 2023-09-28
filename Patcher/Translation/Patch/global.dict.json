@@ -250,7 +250,26 @@
   },
   {
     "ID": "MANUAL_1",
-    "Text": "●Shooting\nUse wiimote to target your gun\nLock enemy target with⊆\n\n\n●Melee\nHold ∈ when near enemy\nmelee weapon can be used during lock-on\nTank type ＭＳ\ncan't perform melee attacks'\n\n●Melee guard\nPress ∈ while fighting (holding ∋)\nto perform melee guard/\nProjectile attack can't be blocked'\n　　　　　　　　　　　　　　ＰＡＧＥ－２"
+    "Lines": [
+      "●Shooting",
+      "Use wiimote to target your gun",
+      "Lock enemy target with⊆",
+      "",
+      "",
+      "●Melee",
+      "Hold ∈ when near enemy",
+      "melee weapon require lock-on",
+      "Tank type ＭＳ",
+      "can't perform melee attacks",
+      "",
+      "●Melee guard",
+      "Press ∈+∋ during melee combat",
+      "to perform melee guard",
+      "Projectile attack can't be blocked",
+      "　　　　　　　　　　　　　　ＰＡＧＥ－２",
+      "",
+      ""
+    ]
   },
   {
     "ID": "MANUAL_A",
@@ -314,7 +333,13 @@
   },
   {
     "ID": "MANUAL_9",
-    "Text": "●Radar marker\nCompass is on top of screen and radar on bottom\nRadar displays enemies and allies\non map。\nRadar marker meaning:\n\n"
+    "Lines": [
+      "●Radar marker",
+      "Compass is on top, radar in corner",
+      "Radar displays enemies and allies",
+      "non map.",
+      "Radar marker meaning:"
+    ]
   },
   {
     "ID": "MANUAL_10",

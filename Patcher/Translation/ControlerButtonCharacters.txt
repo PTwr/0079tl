@@ -1,7 +1,10 @@
 ﻿Button hint separator: ｜
 Big MS letters: ＭＳ
 Big colon: ：
-Big exclamation: !
+Big dot: 。
+Big dot: ●
+Triangle: ▼
+Unknown: § ￡ (probably manual icons)
 
 ｜≒Select｜           Dpad
 ｜∋Back｜             B button
