@@ -10,7 +10,7 @@
   },
   {
     "ID": "OPERATION_COMMENT_CONTENT",
-    "Text": "If you discover Gau Attack Carrier\nshot it down if possible"
+    "Text": "If you encounter Gau Attack Carrier\nshot it down if possible"
   },
   //intel page BR_MxNN.arc
   {
@@ -55,7 +55,10 @@
   },
   {
     "ID": "BR_INFO_B_01",
-    "Text": "Although it is a place with low strategic value, it is \nZeon's largest base. Due to its proximity to California Base."
+    "Lines": [
+      "Although it is a place of low strategic value, duo to its",
+      "proximity to California Base it is large Zeon base"
+    ]
   },
   {
     "ID": "BR_INFO_B_02",
@@ -63,7 +66,10 @@
   },
   {
     "ID": "BR_INFO_C_01",
-    "Text": "In recent battle in this aree Garma Zabi, commander of \nthe Zeon Earth Forces, has been confirmed dead."
+    "Lines": [
+      "In recent battle in this area Garma Zabi, commander of the",
+      "Zeon Earth Forces, has been confirmed killed in action"
+    ]
   },
   {
     "ID": "BR_INFO_C_02",

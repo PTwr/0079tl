@@ -2952,6 +2952,10 @@
   },
   {
     "ID": "MSG_SAVE_START_A_01",
+    "Lines": [
+      "Do you want to save your campaign?",
+      "Existing save will be overwriten"
+    ]
     "Text": "Save your story data.\nThe next time you play, you will restart from this point.\nAre you sure you want to save?"
   },
   {
@@ -2976,6 +2980,10 @@
   },
   {
     "ID": "MSG_LOAD_START_A_01",
+    "Lines": [
+      "Load previous save?",
+      "Unsaved progress will be lost!"
+    ]
     "Text": "Start loading. Are you sure?"
   },
   {
@@ -3028,7 +3036,8 @@
   },
   {
     "ID": "BLUE_FONT",
-    "Text": "Blue"
+    "TabSpace": 3,
+    "Text": "BLUE"
   },
   {
     "ID": "BLUE_VALUE",
@@ -3036,7 +3045,8 @@
   },
   {
     "ID": "GREEN_FONT",
-    "Text": "Green"
+    "TabSpace": 4,
+    "Text": "GREEN"
   },
   {
     "ID": "GREEN_VALUE",
@@ -3052,7 +3062,8 @@
   },
   {
     "ID": "RED_FONT",
-    "Text": "Red"
+    "TabSpace": 2,
+    "Text": "RED"
   },
   {
     "ID": "RED_VALUE",
@@ -3060,7 +3071,8 @@
   },
   {
     "ID": "SPE_FONT",
-    "Text": "Gloss"
+    "TabSpace": 3,
+    "Text": "LUM."
   },
   {
     "ID": "SPE_VALUE",
@@ -3076,43 +3088,73 @@
   },
   {
     "ID": "COLOR_INFO_01",
-    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+    "Lines": [
+      "Select palette for this ＭＳ",
+      "Press ∈ to edit palette"
+    ]
   },
   {
     "ID": "COLOR_INFO_02",
-    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+    "Lines": [
+      "Select palette for this ＭＳ",
+      "Press ∈ to edit palette"
+    ]
   },
   {
     "ID": "COLOR_INFO_03",
-    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+    "Lines": [
+      "Select palette for this ＭＳ",
+      "Press ∈ to edit palette"
+    ]
   },
   {
     "ID": "COLOR_INFO_04",
-    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+    "Lines": [
+      "Select palette for this ＭＳ",
+      "This palette can't be modified"
+    ]
   },
   {
     "ID": "COLOR_INFO_05",
-    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+    "Lines": [
+      "Select palette for this ＭＳ",
+      "This palette can't be modified"
+    ]
   },
   {
     "ID": "COLOR_INFO_06",
-    "Text": "The color box where the cursor is placed becomes the\ncolor used in the game. Press ∈ to go to the color palette."
+    "Lines": [
+      "Select palette for this ＭＳ",
+      "This palette can't be modified"
+    ]
   },
   {
     "ID": "COLOR_INFO_PALETTE",
-    "Text": "Select the color palette you want to change by pressing ∈\nYou cannot change the color of color boxes 4, 5, and 6"
+    "Lines": [
+      "Press ∈ to select color pallete to modify",
+      "(Palette #4, #5, and #6 can't be modified)"
+    ]
   },
   {
     "ID": "COLOR_INFO_RED",
-    "Text": "Red ≒←→Adjust ⊆：Enlarge⊇：Reduce\n∪：rotate left∩：rtoate right. Control stick：position adjustoment"
+    "Lines": [
+      "Red ≒←→Adjust ⊆：ZoomIn⊇：ZoomOut",
+      "∪：rotate left ∩：rotate right. Control stick：move"
+    ]
   },
   {
     "ID": "COLOR_INFO_GREEN",
-    "Text": "Green ≒←→Adjust ⊆：Enlarge⊇：Reduce\n∪：rotate left∩：rtoate right. Control stick：position adjustoment"
+    "Lines": [
+      "Red ≒←→Adjust ⊆：ZoomIn⊇：ZoomOut",
+      "∪：rotate left ∩：rotate right. Control stick：move"
+    ]
   },
   {
     "ID": "COLOR_INFO_BLUE",
-    "Text": "Blue ≒←→Adjust ⊆：Enlarge⊇：Reduce\n∪：rotate left∩：rtoate right. Control stick：position adjustoment"
+    "Lines": [
+      "Red ≒←→Adjust ⊆：ZoomIn⊇：ZoomOut",
+      "∪：rotate left ∩：rotate right. Control stick：move"
+    ]
   },
   {
     "ID": "COLOR_INFO_SPE",
@@ -3124,7 +3166,7 @@
   },
   {
     "ID": "MULTI_Window_01",
-    "Text": "I'm heading out, are you sure?"
+    "Text": "Proceed with mission?"
   },
   {
     "ID": "MULTI_Window_02",
@@ -3188,7 +3230,7 @@
   },
   {
     "ID": "MULTI_Window_14",
-    "Text": "We want to erase your data. Are you sure?"
+    "Text": "Do you want to delete save file?"
   },
   {
     "ID": "RESULT_MSG_WIN_00",
@@ -4152,11 +4194,11 @@
   },
   {
     "ID": "RIGHT_SELECT_01",
-    "Text": "Sortie"
+    "Text": "←Sortie→"
   },
   {
     "ID": "RIGHT_SELECT_02",
-    "Text": "Stand-by"
+    "Text": "←Stand-by→"
   },
   {
     "ID": "LEFT_00",
@@ -4176,11 +4218,11 @@
   },
   {
     "ID": "LEFT_SELECT_01",
-    "Text": "Sortie"
+    "Text": "←Sortie→"
   },
   {
     "ID": "LEFT_SELECT_02",
-    "Text": "Stand-by"
+    "Text": "←Stand-by→"
   },
   {
     "ID": "INFO_HANGAR_01",
@@ -4541,7 +4583,7 @@
   },
   {
     "ID": "INFO_MS",
-    "Text": "Select an MS (mobile suit) to deploy.\nBe careful of the cost you use."
+    "Text": "Select an MS (mobile suit) to deploy.\nMake sure to go over max cost of @COST_MAX@."
   },
   {
     "ID": "INFO_PILOT_STATUS",
@@ -4577,7 +4619,7 @@
   },
   {
     "ID": "BUTTON_INFO_03",
-    "Text": "｜≒↑↓ Select ＭＳ｜∈Audio play/stop｜∋Back｜⊂Action｜"
+    "Text": "｜≒↑↓ Select ＭＳ｜∈Description play/stop｜∋Back｜⊂Action｜"
   },
   {
     "ID": "BUTTON_INFO_04",
@@ -4925,7 +4967,7 @@
   },
   {
     "ID": "RECORD_INFO_05",
-    "Text": "Please select a mission to confirm."
+    "Text": "Please select a mission to view."
   },
   {
     "ID": "RECORD_INFO_06",
