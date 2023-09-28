@@ -1,0 +1,16 @@
+﻿Button hint separator: ｜
+Big MS letters: ＭＳ
+Big colon: ：
+Big exclamation: !
+
+｜≒Select｜           Dpad
+｜∋Back｜             B button
+｜∈Ok｜               A button
+｜⊂Action｜           + button
+｜≒↑↓ Select ＭＳ｜   Dpad, Up ▲, Down ▼
+←≒→ Music Select     Left ◄, Dpad, Right ►
+⊆：ZoomIn            C button
+⊇：ZoomOut           Z button
+∪：rotate left       1 button
+∩：rtoate right      2 button
+
