@@ -1,0 +1,100 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz315",
+    "Text": null,
+    "Lines": [
+      "基地の周りに設置した爆薬を一斉に点火。",
+      "その隙に、ギャロップで一気に包囲網を突破し、",
+      "受け入れ準備をしている基地に逃げ込む…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz316",
+    "Text": null,
+    "Lines": [
+      "レオ、ちょっと強引すぎないか？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz317",
+    "Text": null,
+    "Lines": [
+      "せめてMSで、陽動位したほうがいいだろ？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz318",
+    "Text": null,
+    "Lines": [
+      "いや、今回はだめだ。",
+      "MS3機程度で足止めできる規模じゃない。",
+      "なぁに、大丈夫、うまくいくさ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz319",
+    "Text": null,
+    "Lines": [
+      "隊長、脱出用のギャロップは準備できました。",
+      "…MSは破棄で、いいんですね？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz320",
+    "Text": null,
+    "Lines": [
+      "あぁ。",
+      "少しでも身軽にして、とにかく全速で突破するんだ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz321",
+    "Text": null,
+    "Lines": [
+      "分りました。　では、後は私たちだけです。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz322",
+    "Text": null,
+    "Lines": [
+      "よし。",
+      "では、ギャロップに搭乗しろ。",
+      "俺は爆薬の起爆装置をセットしてから行く。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz709",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

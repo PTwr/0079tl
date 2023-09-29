@@ -1,0 +1,256 @@
+[
+  {
+    "ID": "OPERATION_TITLE",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_MISSION",
+    "Text": null,
+    "Lines": [
+      "MISSION"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈次へ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN",
+    "Text": null,
+    "Lines": [
+      "勝利条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Text": null,
+    "Lines": [
+      "敵守備隊の全滅",
+      "ファット･アンクルの護衛"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS",
+    "Text": null,
+    "Lines": [
+      "敗北条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Text": null,
+    "Lines": [
+      "自機の大破",
+      "ファット･アンクルの破壊"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT",
+    "Text": null,
+    "Lines": [
+      "備考"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Text": null,
+    "Lines": [
+      "敵守備隊を全滅させ、",
+      "ファット･アンクルの着陸点を確保。",
+      "その後、目標物を回収するまでの間、",
+      "ファット･アンクルを護衛せよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_TITLE_01",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈次へ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": null,
+    "Lines": [
+      "AREA"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": null,
+    "Lines": [
+      "ラサ基地"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": null,
+    "Lines": [
+      "E.F.F"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": null,
+    "Lines": [
+      "基地守備隊"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": null,
+    "Lines": [
+      "ZEON PLANE"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Text": null,
+    "Lines": [
+      "ファット・アンクル"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": null,
+    "Lines": [
+      "AREA"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Text": null,
+    "Lines": [
+      "ラサ基地"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Text": null,
+    "Lines": [
+      "とっておきの情報だ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Text": null,
+    "Lines": [
+      "先日、連邦の攻撃で陥落した、極東方面軍のラサ基地に、",
+      "秘密貯蔵庫があることがわかった。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "Text": null,
+    "Lines": [
+      "現在、ラサ基地には連邦軍も最小の守備隊と、調査隊しか",
+      "配備していない。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_B_02",
+    "Text": null,
+    "Lines": [
+      "アプサラスⅢの攻撃による被害は相当のものだったようだ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "Text": null,
+    "Lines": [
+      "この秘密貯蔵庫の中身は不明だが、鉱山基地だったことも",
+      "あり、軍資金になりうる物資の可能性が高い。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_C_02",
+    "Text": null,
+    "Lines": [
+      "守備隊を奇襲し、回収用のファット･アンクルの着陸点を",
+      "確保。作業完了まで、これを護衛してくれ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Text": null,
+    "Lines": [
+      "ファット･アンクルの離脱確認後は、貴殿らも無理せず、",
+      "すみやかに撤収してくれて構わない。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Text": null,
+    "Lines": [
+      "潜伏するにしても、反撃に出るにしても、軍資金は必要だ。",
+      "ブラウアー隊の活躍に期待している。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

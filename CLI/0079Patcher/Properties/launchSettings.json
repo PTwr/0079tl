@@ -3,6 +3,10 @@
     "0079Patcher": {
       "commandName": "Project",
       "commandLineArgs": "--input \"C:\\games\\wii\\0079\\0079_jp/DATA/files\" --output \"%userprofile%/Documents/Dolphin Emulator/Load/Riivolution/R79JAF_EN\" --patch \"../../../../../Patcher/Patch\" --language en --clean"
+    },
+    "0079Patcher prepare": {
+      "commandName": "Project",
+      "commandLineArgs": "prepare --input \"C:/games/wii/0079/0079_unpacked/DATA/files/\" --output  \"../../../../../Patcher/Patch\" --language en"
     }
   }
 }

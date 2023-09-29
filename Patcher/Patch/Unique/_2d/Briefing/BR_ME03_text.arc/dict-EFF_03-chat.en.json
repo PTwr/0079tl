@@ -1,0 +1,183 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve068_01",
+    "Text": null,
+    "Lines": [
+      "オデッサ作戦決行の為の陽動ってことだったんだけど、",
+      "ウチは運悪く、危険度の高い任務を引き当てちゃったね。",
+      "オデッサ方面へ移動する敵部隊に対しての単独強襲任務だもんな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve069_01",
+    "Text": null,
+    "Lines": [
+      "やったじゃない！",
+      "他の部隊より、ウチが当てにされている…、",
+      "認められてるってことでしょ？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve070_01",
+    "Text": null,
+    "Lines": [
+      "それか、潰れてもいいってことだな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve071_01",
+    "Text": null,
+    "Lines": [
+      "うっわ！　ネガティヴなこと言わないでよ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve072_01",
+    "Text": null,
+    "Lines": [
+      "敵勢力圏への強行突入ですから、",
+      "今までとはケタ違いに危険な任務ですよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve073_01",
+    "Text": null,
+    "Lines": [
+      "うん。　確かに危険だね。",
+      "ただ、逆にそこが付け入る隙になるはずだし、勝機はあるさ。",
+      "なぁに、大丈夫。　僕たちならやれるよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve074_01",
+    "Text": null,
+    "Lines": [
+      "そうよ！　私たちならやれるわ！　名を上げる絶好のチャンス",
+      "じゃない！　みんなも「２つ名」を考えておいたほうがいいわよ。",
+      "私の「ポイズン・アップル」みたいなやつ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve075_01",
+    "Text": null,
+    "Lines": [
+      "うわぁ～、素敵ですね～。",
+      "リルさんにピッタリ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve076_01",
+    "Text": null,
+    "Lines": [
+      "褒めてるのか、けなしてるのか分からないな…。",
+      "まぁ、俺らならやれるってことを信じるしかないな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve076_02",
+    "Text": null,
+    "Lines": [
+      "気持ちが折れたらそれまでさ。",
+      "危険だなんだっていうなら、いつもそうだしな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve077_01",
+    "Text": null,
+    "Lines": [
+      "そうそう。　今回の作戦は、ある意味凄くシンプルだよ。",
+      "ビューっと降下して、油断してる敵をババババっとやっつけて、",
+      "ヒューーっと帰ってくるだけだからね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve078_01",
+    "Text": null,
+    "Lines": [
+      "そうそう！　分かってるじゃん、アラン。",
+      "あなたの２つ名は…そうねぇ…",
+      "「ひょうひょうたる家猫」とかどう？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve079_01",
+    "Text": null,
+    "Lines": [
+      "う～ん。　…遠慮しとく。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve080_01",
+    "Text": null,
+    "Lines": [
+      "ま、みんなも実戦を経験して分かったと思うけど、",
+      "戦場ってのは、いつ何が起こるかなんて分かりゃしない。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve080_02",
+    "Text": null,
+    "Lines": [
+      "命令は可能な限り守るけど、いざとなれば俺は、",
+      "自分で見て、決めて、動く。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve081_01",
+    "Text": null,
+    "Lines": [
+      "うん。　それでいいと思うよ。",
+      "それじゃ、ユニット1、各員出撃準備！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve705_01",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

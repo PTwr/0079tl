@@ -1,0 +1,256 @@
+[
+  {
+    "ID": "OPERATION_TITLE",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_MISSION",
+    "Text": null,
+    "Lines": [
+      "MISSION"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈次へ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN",
+    "Text": null,
+    "Lines": [
+      "勝利条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Text": null,
+    "Lines": [
+      "時間内に敵部隊を全滅",
+      "撤退するギャロップを護衛"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS",
+    "Text": null,
+    "Lines": [
+      "敗北条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Text": null,
+    "Lines": [
+      "自機の大破　／　時間オーバー",
+      "防衛目標の撃破"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT",
+    "Text": null,
+    "Lines": [
+      "備考"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Text": null,
+    "Lines": [
+      "撤退部隊の到着前に、すみやかに",
+      "展開中の敵部隊を排除せよ。",
+      "その後、ギャロップを中心とする友軍が",
+      "戦闘区域を離脱するまで護衛せよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_TITLE_01",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈次へ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": null,
+    "Lines": [
+      "ODESSA"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": null,
+    "Lines": [
+      "友軍部隊"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": null,
+    "Lines": [
+      "AREA"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": null,
+    "Lines": [
+      "ロシア雪原地帯"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": null,
+    "Lines": [
+      "APPUI"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Text": null,
+    "Lines": [
+      "脱出支援"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": null,
+    "Lines": [
+      "ZEON"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Text": null,
+    "Lines": [
+      "友軍救出任務"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Text": null,
+    "Lines": [
+      "オデッサの敗退により、我軍の指揮命令系統は、",
+      "未だに混乱したままである。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Text": null,
+    "Lines": [
+      "オデッサをはじめ、欧州の各地で撤退を開始した友軍に対し、",
+      "まともに支援さえ行うことができないのが現状だ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "Text": null,
+    "Lines": [
+      "極東方面やアフリカ方面へ脱出できた部隊は少なく、",
+      "多くの部隊が、各個に敵中突破を図り、玉砕している。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_B_02",
+    "Text": null,
+    "Lines": [
+      "現在、１つの部隊が、極東への突破を断念し、",
+      "追い込まれるように北上を続けている。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "Text": null,
+    "Lines": [
+      "ブラウアー隊には、この部隊の脱出支援を依頼したい。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_C_02",
+    "Text": null,
+    "Lines": [
+      "すでに部隊は、まともな戦闘力さえ持たない状態だ。",
+      "敵追撃部隊を撃破し、なんとか守ってやって欲しい。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Text": null,
+    "Lines": [
+      "連邦へ反撃を行うためにも、今は少しでも多くの友軍を",
+      "救出し、態勢を立て直さなくてはならない。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Text": null,
+    "Lines": [
+      "頼んだぞ、ブラウアー隊。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

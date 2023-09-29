@@ -1,0 +1,108 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve604",
+    "Text": null,
+    "Lines": [
+      "北極基地から、宇宙への物資打ち上げが行われる。",
+      "この基地は先日、ジオンの攻撃を受けて、守備隊にかなりの",
+      "損害が出たようだね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve605",
+    "Text": null,
+    "Lines": [
+      "守備隊の代役で、打ち上げを警護するってわけね？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve606",
+    "Text": null,
+    "Lines": [
+      "我ら広域特殊対応部隊も、ついに北の果てまで足を延ばすように",
+      "なったかぁ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve607",
+    "Text": null,
+    "Lines": [
+      "看板に偽りなしってことさ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve608",
+    "Text": null,
+    "Lines": [
+      "一度襲撃を受けたってことは、位置や規模は、",
+      "敵に知られてるってことね？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve609",
+    "Text": null,
+    "Lines": [
+      "今の地上部隊の混乱からすると、そこは五分五分だな。",
+      "しかし、噂が広がるのが速いのは世の常だしな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve610",
+    "Text": null,
+    "Lines": [
+      "それより、また寒い場所なんですよ～。",
+      "そっちのほうが問題ですよ～。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve611",
+    "Text": null,
+    "Lines": [
+      "…ホアの寒がりにも困ったもんだなぁ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve612",
+    "Text": null,
+    "Lines": [
+      "それほど長居はしないから、我慢してね？",
+      "よし、ユニット1、出撃だ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve709",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

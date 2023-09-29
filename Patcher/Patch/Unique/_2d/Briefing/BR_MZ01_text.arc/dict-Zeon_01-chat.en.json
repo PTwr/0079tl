@@ -1,0 +1,155 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz002_01",
+    "Text": null,
+    "Lines": [
+      "俺がこの小隊の隊長、レオ・ブラウアー少尉だ。",
+      "よろしくな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz003_01",
+    "Text": null,
+    "Lines": [
+      "クラウス・ベルトラン曹長です。",
+      "主に部隊の運営面、事務的な部分で隊長をサポートしていますが、",
+      "本職はMSパイロットです。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz004_01",
+    "Text": null,
+    "Lines": [
+      "隊長と、副隊長ってわけだな？　俺はトルド・ボブロフ軍曹。",
+      "開戦以来の叩き上げのMSパイロットだ。",
+      "まぁ、これからよろしく頼むぜ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz005_01",
+    "Text": null,
+    "Lines": [
+      "そりゃ、心強いな。　よろしく頼むぜ、トルド軍曹。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz006_01",
+    "Text": null,
+    "Lines": [
+      "じ、自分は、アン・フリーベリ二等兵です。",
+      "ち、地球は初めてで…、実戦も初めてで…。",
+      "ご、ご、ご迷惑おかけしますが、これからよろしくお願いします！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz007_01",
+    "Text": null,
+    "Lines": [
+      "よろしくな、フリーベリ二等兵。",
+      "君の戦闘オペレーターとしての適性は、とても高いと聞いている。",
+      "期待してるぜ？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz007_02",
+    "Text": null,
+    "Lines": [
+      "まぁ、まずは、もう少しリラックスしてくれ。",
+      "ブラウアー隊で、固いのはナシだ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz008_01",
+    "Text": null,
+    "Lines": [
+      "レオ。　最初から規律を乱すようなことを…。",
+      "もう少し隊長らしく、威厳をもってだなぁ…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz009_01",
+    "Text": null,
+    "Lines": [
+      "まぁまぁ、クラウス。　そう固いこと言うなよ。",
+      "戦地では、部隊は家族みたいなもんだろ？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz010_01",
+    "Text": null,
+    "Lines": [
+      "家族…か…。",
+      "隊長！　わたし、精一杯頑張ります！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz011_01",
+    "Text": null,
+    "Lines": [
+      "はっはっはっは…！　いいねぇ、若いってのは。",
+      "気に入ったぜ隊長さん。",
+      "俺もせいぜい、頑張らせてもらうとするかね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz012_01",
+    "Text": null,
+    "Lines": [
+      "あぁ。　トルド、アン、頼んだぜ？",
+      "さて、新生ブラウアー隊の初任務だ。　各員、出撃準備！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "evz703_01",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "test",
+    "Text": null,
+    "Lines": [
+      "１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０",
+      "１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０",
+      "１２３４５６７８９０１２３４５６７８９０１２３４５６７８９"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

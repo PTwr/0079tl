@@ -1,0 +1,263 @@
+[
+  {
+    "ID": "OPERATION_TITLE",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_MISSION",
+    "Text": null,
+    "Lines": [
+      "MISSION"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈次へ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN",
+    "Text": null,
+    "Lines": [
+      "勝利条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Text": null,
+    "Lines": [
+      "敵部隊の全滅",
+      "ダブデを離脱まで護衛"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS",
+    "Text": null,
+    "Lines": [
+      "敗北条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Text": null,
+    "Lines": [
+      "自機の大破",
+      "ダブデの破壊"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT",
+    "Text": null,
+    "Lines": [
+      "備考"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Text": null,
+    "Lines": [
+      ""
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_TITLE_01",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈次へ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": null,
+    "Lines": [
+      "AREA"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": null,
+    "Lines": [
+      "オデッサ"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": null,
+    "Lines": [
+      "ZEON"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": null,
+    "Lines": [
+      "友軍"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": null,
+    "Lines": [
+      "DEFENSE"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Text": null,
+    "Lines": [
+      "ダブデ級陸戦艇"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": null,
+    "Lines": [
+      "TARGET"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Text": null,
+    "Lines": [
+      "敵機動部隊"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Text": null,
+    "Lines": [
+      "我軍最大の採掘基地であったオデッサは、",
+      "連邦の反攻作戦の前に、陥落してしまった。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Text": null,
+    "Lines": [
+      "基地司令のマ・クベ少佐は、いち早く本国に送れるだけの",
+      "物資を最優先で打ち上げ、脱出に成功している。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "Text": null,
+    "Lines": [
+      "オデッサに取り残された友軍は、それぞれの判断により",
+      "脱出を試みているが、連邦の包囲は厚い。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_B_02",
+    "Text": null,
+    "Lines": [
+      "指揮系統の立て直しが最優先だが、",
+      "そうも言ってられない状態となっている。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "Text": null,
+    "Lines": [
+      "ダブデ級陸戦艇を中核とした友軍の部隊が、敵包囲網の",
+      "手薄な部分をつき、強行突破を図ろうとしている。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_C_02",
+    "Text": null,
+    "Lines": [
+      "ダブデ級陸戦艇は、我軍の地上部隊にとって、",
+      "貴重な戦力だ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Text": null,
+    "Lines": [
+      "ブラウアー隊は、ダブデの脱出を支援するべく、",
+      "進行ルートの敵部隊を排除して欲しい。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Text": null,
+    "Lines": [
+      "なんとしてでも、ダブデを無事に戦線より離脱させてくれ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_03",
+    "Text": null,
+    "Lines": [
+      "頼んだぞ、ブラウアー隊。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

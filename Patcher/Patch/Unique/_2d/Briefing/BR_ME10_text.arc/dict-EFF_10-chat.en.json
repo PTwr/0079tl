@@ -1,0 +1,81 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve177",
+    "Text": null,
+    "Lines": [
+      "知っての通り、ベルファスト基地は連邦軍の重要拠点の1つだ。",
+      "今回はあまり余裕が無いから、準備が出来次第すぐに向かう。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve178",
+    "Text": null,
+    "Lines": [
+      "ここまでなりふり構わずの行動をとられると、",
+      "気の毒にさえ思えるわね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve179",
+    "Text": null,
+    "Lines": [
+      "俺には、地道な情報収集の上で勝機を見出したからこその",
+      "行動に思えるがな…。　連邦の前線部隊全体に、浮かれムードが",
+      "あるのを見透かしての襲撃だろ？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve180",
+    "Text": null,
+    "Lines": [
+      "う…。　た、確かにオデッサの勝利で優勢になったからって、",
+      "浮かれてる人たち多いよね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve181",
+    "Text": null,
+    "Lines": [
+      "ビンソン計画によって宇宙艦隊の再建が終わり、宇宙への反撃が",
+      "開始されたところで、ようやく対等になると思うべきだろうね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve182",
+    "Text": null,
+    "Lines": [
+      "と、議論は後で。",
+      "ユニット1、出撃だ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve702",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

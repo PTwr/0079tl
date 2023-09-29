@@ -1,0 +1,88 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve568",
+    "Text": null,
+    "Lines": [
+      "僕たちはこれより、エリア526の渓谷に向かう。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve569",
+    "Text": null,
+    "Lines": [
+      "遭難した輸送機の捜索かぁ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve570",
+    "Text": null,
+    "Lines": [
+      "こんな無茶をして行かせるくらいだから、よっぽど重要な物資を",
+      "積載していたんだろうな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve571",
+    "Text": null,
+    "Lines": [
+      "なんだろう…？　新型のMSとかかな？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve572",
+    "Text": null,
+    "Lines": [
+      "詳細は機密だそうですよ。",
+      "それより、到着予定時刻からすると、現場は濃霧に包まれている",
+      "頃だと思います。　視界が悪いのは厳しいですね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve573",
+    "Text": null,
+    "Lines": [
+      "そうだね。",
+      "それに、墜落自体が敵の攻撃によるものなら、鉢合わせになる",
+      "可能性もあるから、十分注意していこう。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "aln161",
+    "Text": null,
+    "Lines": [
+      "では、各員、出撃準備！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve700",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

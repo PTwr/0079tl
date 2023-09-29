@@ -1,0 +1,253 @@
+[
+  {
+    "ID": "OPERATION_TITLE",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_MISSION",
+    "Text": null,
+    "Lines": [
+      "MISSION"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈次へ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN",
+    "Text": null,
+    "Lines": [
+      "勝利条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Text": null,
+    "Lines": [
+      "一定時間内、ガウを護衛"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS",
+    "Text": null,
+    "Lines": [
+      "敗北条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Text": null,
+    "Lines": [
+      "自機の大破",
+      "ガウの破壊"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT",
+    "Text": null,
+    "Lines": [
+      "備考"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Text": null,
+    "Lines": [
+      "友軍の脱出準備が整うまでの間、",
+      "ガウ攻撃空母を死守せよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_TITLE_01",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈次へ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": null,
+    "Lines": [
+      "ZEON BASE"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": null,
+    "Lines": [
+      "キャリフォルニア･ベース"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": null,
+    "Lines": [
+      "E.F.F"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": null,
+    "Lines": [
+      "敵ＭＳ部隊"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": null,
+    "Lines": [
+      "ZEON BASE"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Text": null,
+    "Lines": [
+      "空軍施設"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": null,
+    "Lines": [
+      "DEFENSE"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Text": null,
+    "Lines": [
+      "ガウ攻撃空母"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Text": null,
+    "Lines": [
+      "連邦によるキャリフォルニア･ベース掃討作戦は、",
+      "最終段階に入ったといえる。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Text": null,
+    "Lines": [
+      "残念ながら、ジャブロー攻略で失った戦力なくして、",
+      "この巨大な基地の防衛は不可能だ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "Text": null,
+    "Lines": [
+      "すでに脱出計画は発動しているが、",
+      "敵の進攻が予想以上に速い。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_B_02",
+    "Text": null,
+    "Lines": [
+      "すでに基地の外周へと到達し、基地への突入も時間の問題だ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "Text": null,
+    "Lines": [
+      "ブラウアー隊は、空軍施設の区画にて、",
+      "ガウの脱出準備完了まで、これを防衛して欲しい。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_C_02",
+    "Text": null,
+    "Lines": [
+      "もちろん、君たちの席も用意されている。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Text": null,
+    "Lines": [
+      "ギリギリまで敵部隊の進攻を阻止し、最後にガウに搭乗して",
+      "なんとか脱出してくれ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Text": null,
+    "Lines": [
+      "脱出後の行動に関しては、君たちに一任する。",
+      "ブラウアー隊、頼んだぞ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

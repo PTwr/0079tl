@@ -1,0 +1,130 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve322_01",
+    "Text": null,
+    "Lines": [
+      "アフリカ掃討作戦に、ケリをつけるための増援部隊が、",
+      "間もなくインド洋沿岸に到着予定だ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve322_02",
+    "Text": null,
+    "Lines": [
+      "上陸時、部隊は密集状態で無防備になる。",
+      "ギャロップや、ダブデなどの大型陸戦艇からの砲撃は、",
+      "最大の脅威となるわけだ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve323",
+    "Text": null,
+    "Lines": [
+      "私たちが強襲する基地には、",
+      "ギャロップ、ダブデが、1輌ずつ確認されています。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve324",
+    "Text": null,
+    "Lines": [
+      "とにかく、それを潰せばいいんだな？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve325",
+    "Text": null,
+    "Lines": [
+      "でも、私たちの小隊だけでなんて、結構無謀よね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve326",
+    "Text": null,
+    "Lines": [
+      "そうだな。",
+      "一応、支援爆撃があるが、大した効果は期待できないだろうね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve327",
+    "Text": null,
+    "Lines": [
+      "陸戦艇の破壊後は、無理に戦闘せずに、",
+      "合流ポイントに向かってください。",
+      "ミデアがピックアップして脱出します。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve328",
+    "Text": null,
+    "Lines": [
+      "もちろん、状況次第では、",
+      "俺たちだけで基地を攻略してもいいんだけどね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve329",
+    "Text": null,
+    "Lines": [
+      "欲を出すと、ロクなこと無いわよ？　ハハハ…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve330",
+    "Text": null,
+    "Lines": [
+      "ちゃんと覚えてて良かったよ。",
+      "リルから、それを聞いて少し安心した。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve331",
+    "Text": null,
+    "Lines": [
+      "多分この任務が、俺たちの、この戦争最後の大仕事になる。",
+      "絶対に全員で、生きて帰るぞ。",
+      "では、ユニット1、出撃だ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve702",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

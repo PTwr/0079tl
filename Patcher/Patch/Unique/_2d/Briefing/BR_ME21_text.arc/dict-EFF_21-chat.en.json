@@ -1,0 +1,127 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve648",
+    "Text": null,
+    "Lines": [
+      "よし、いよいよ決戦だぞ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve649",
+    "Text": null,
+    "Lines": [
+      "突入の先陣を切るなんて…。　ワクワクするわ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve650",
+    "Text": null,
+    "Lines": [
+      "また、そんなこと言って…。　一番危険な仕事ですよ？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve651",
+    "Text": null,
+    "Lines": [
+      "しかしまぁ、敵の防衛戦力は、主力部隊が攻略中の、",
+      "基地主要施設と、宇宙施設のある区画に集中してるようだからな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve652",
+    "Text": null,
+    "Lines": [
+      "そうだな。",
+      "この作戦は、とにかく時間との戦いだ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve653",
+    "Text": null,
+    "Lines": [
+      "突入後、制限時間内に攻撃目標になっている施設を",
+      "破壊してください。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve654",
+    "Text": null,
+    "Lines": [
+      "それで基地制圧のための部隊を載せたミデアが、",
+      "滑走路に強行着陸する。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve655",
+    "Text": null,
+    "Lines": [
+      "その後は、そのミデアを守ればいいのね？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve656",
+    "Text": null,
+    "Lines": [
+      "そういうこと。",
+      "後は、基地主要施設の攻略にあたっている主力部隊が、",
+      "それを制圧するか、この区画の敵を殲滅するまで戦闘を継続する。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve657",
+    "Text": null,
+    "Lines": [
+      "大仕事だなぁ～。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve331",
+    "Text": null,
+    "Lines": [
+      "多分この任務が、俺たちの、この戦争最後の大仕事になる。",
+      "絶対に全員で、生きて帰るぞ。",
+      "では、ユニット1、出撃だ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve702",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

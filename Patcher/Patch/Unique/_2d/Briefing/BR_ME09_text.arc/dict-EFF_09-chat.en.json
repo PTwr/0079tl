@@ -1,0 +1,99 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve546",
+    "Text": null,
+    "Lines": [
+      "建造物が密集した市街地での戦闘は、初になるね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve547",
+    "Text": null,
+    "Lines": [
+      "人はいませんが、街はほぼ原形をとどめているようです。",
+      "ビルを遮蔽物にして、うまく戦う必要がありそうですね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve548",
+    "Text": null,
+    "Lines": [
+      "行動が制限されるフィールドでは、戦車でさえ",
+      "結構な脅威になるな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve549",
+    "Text": null,
+    "Lines": [
+      "MSは機動戦がウリなのに、それが生かせないなら、",
+      "ただの大きな的だもんね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve550",
+    "Text": null,
+    "Lines": [
+      "防衛目標のガンタンクだけど、かなり広域に配置されてるから、",
+      "僕らの管轄区域からすると、二手に分かれないとフォローでき",
+      "ないね。　リルとデニスで組んでもらって、僕は単独行動だな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve551",
+    "Text": null,
+    "Lines": [
+      "俺が単独でも構わないが…。",
+      "いや、隊長のほうが適任だろうな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve552",
+    "Text": null,
+    "Lines": [
+      "そうさせてもらうよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve553",
+    "Text": null,
+    "Lines": [
+      "じゃあ、そろそろ行くよ。",
+      "ユニット1、出撃準備！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve700",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

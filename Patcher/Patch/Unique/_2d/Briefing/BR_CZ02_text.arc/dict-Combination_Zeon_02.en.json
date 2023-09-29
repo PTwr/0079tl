@@ -1,0 +1,83 @@
+[
+  {
+    "ID": "OPERATION_TITLE",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_MISSION",
+    "Text": null,
+    "Lines": [
+      "MISSION"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈スキップ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN",
+    "Text": null,
+    "Lines": [
+      "勝利条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Text": null,
+    "Lines": [
+      "未定。選定中。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS",
+    "Text": null,
+    "Lines": [
+      "敗北条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Text": null,
+    "Lines": [
+      "未定。選定中。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT",
+    "Text": null,
+    "Lines": [
+      "備考"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Text": null,
+    "Lines": [
+      "２機で協力して任務にあたれ"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

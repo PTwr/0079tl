@@ -1,0 +1,264 @@
+[
+  {
+    "ID": "OPERATION_TITLE",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_MISSION",
+    "Text": null,
+    "Lines": [
+      "MISSION"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈次へ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN",
+    "Text": null,
+    "Lines": [
+      "勝利条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Text": null,
+    "Lines": [
+      "敵大型陸戦艇を全て撃破",
+      "目標達成後、指定ポイントから撤退可能"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS",
+    "Text": null,
+    "Lines": [
+      "敗北条件"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Text": null,
+    "Lines": [
+      "自機の大破"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT",
+    "Text": null,
+    "Lines": [
+      "備考"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Text": null,
+    "Lines": [
+      "一定条件の達成で、撤退を許可する。",
+      "回収のミデアと指定ポイントで合流し、",
+      "すみやかに敵勢力圏より離脱せよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_TITLE_01",
+    "Text": null,
+    "Lines": [
+      "BRIEFING"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_BUTTON_INFO_01",
+    "Text": null,
+    "Lines": [
+      "｜∈次へ｜"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": null,
+    "Lines": [
+      "OPERATION"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": null,
+    "Lines": [
+      "アフリカ掃討作戦"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": null,
+    "Lines": [
+      "AREA"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": null,
+    "Lines": [
+      "アフリカ鉱山基地"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": null,
+    "Lines": [
+      "TARGET"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Text": null,
+    "Lines": [
+      "ギャロップ"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": null,
+    "Lines": [
+      "E.F.F"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Text": null,
+    "Lines": [
+      "揚陸部隊"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Text": null,
+    "Lines": [
+      "ジオン掃討作戦は、順調に推移しているといえるだろう。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Text": null,
+    "Lines": [
+      "しかしここにきて、アフリカ掃討作戦は、１つの問題に",
+      "直面している。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "Text": null,
+    "Lines": [
+      "アフリカのジオン軍は、無数にある廃鉱山を利用した",
+      "地下基地を建造し、潜伏を決め込んでいるのだ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_B_02",
+    "Text": null,
+    "Lines": [
+      "こうなってしまっては、その発見は難しい…。",
+      "ギャロップの移動経路から、そのうちの１つを特定した。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "Text": null,
+    "Lines": [
+      "間もなく、アフリカを一気に制圧するための増援として、",
+      "インド洋沿岸に揚陸部隊が到着する。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_C_02",
+    "Text": null,
+    "Lines": [
+      "潜伏中の敵部隊が、これに気づいた場合、陸戦艇などの",
+      "大型火砲による砲撃が、最大の脅威となる。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Text": null,
+    "Lines": [
+      "ユニット１は、特定された敵基地の１つに対し、",
+      "降下強襲作戦を実行せよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Text": null,
+    "Lines": [
+      "優先破壊目標は、敵の大型陸戦艇である。",
+      "すみやかにこれを破壊し、ミデア輸送機で戦線を離脱せよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "BR_INFO_D_03",
+    "Text": null,
+    "Lines": [
+      "では、ユニット１の健闘を祈る！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

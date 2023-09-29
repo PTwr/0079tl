@@ -1,0 +1,118 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve192",
+    "Text": null,
+    "Lines": [
+      "緊急事態だ！",
+      "ジオンの大部隊が、このジャブローに迫っている。",
+      "僕たちも地上に出て迎撃。　基地施設の防衛にあたるぞ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve193",
+    "Text": null,
+    "Lines": [
+      "最後の大勝負をしかけてきたってわけね…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve194",
+    "Text": null,
+    "Lines": [
+      "くそ、まさかジャブローの位置が特定されるとはなぁ…。",
+      "ホワイトベースめ、つけられたな？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve195",
+    "Text": null,
+    "Lines": [
+      "見た目も戦歴も、とにかく目立つフネですから…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve196",
+    "Text": null,
+    "Lines": [
+      "この後、宇宙艦隊の打ち上げを派手に行えば、",
+      "どうせ見つかっただろうけど…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve197",
+    "Text": null,
+    "Lines": [
+      "そう。　その前に見つかったってのは意味合いが全然違う…。",
+      "ヘタをすれば、打ち上げ時の無防備な艦隊を攻撃される恐れも",
+      "あるからなぁ…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve198",
+    "Text": null,
+    "Lines": [
+      "でも、敵は宇宙艦隊打ち上げ計画を知らない…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve199",
+    "Text": null,
+    "Lines": [
+      "だから、それを待たずに、今攻めてきた。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve200",
+    "Text": null,
+    "Lines": [
+      "そういうことだ。",
+      "この敵を退けて、宇宙反攻作戦の主力艦隊とMS隊を送り出すのは、",
+      "地上を任された僕たちの責務だ。　絶対に食い止めるぞ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "aln172",
+    "Text": null,
+    "Lines": [
+      "ユニット1、出撃準備だ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve701",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

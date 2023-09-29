@@ -1,0 +1,185 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve090",
+    "Text": null,
+    "Lines": [
+      "オデッサ作戦は、ほぼ順調に進行してるみたいだね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve091",
+    "Text": null,
+    "Lines": [
+      "まぁ、ここに来て攻めあぐねてるみたいだが…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve092",
+    "Text": null,
+    "Lines": [
+      "でも、物量の差は歴然じゃない。",
+      "あと一日もあれば、押し切れるわよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve093",
+    "Text": null,
+    "Lines": [
+      "で、その最後の一押しをするための後方予備戦力を",
+      "僕らが護衛するわけだ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve094",
+    "Text": null,
+    "Lines": [
+      "フッフッフ…、ついに上層部も私の実力を認めたってわけね。",
+      "アンタたちも腕は悪くないんだから、バッチリアピールしないと",
+      "損するわよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve095",
+    "Text": null,
+    "Lines": [
+      "フフ…、リルさんは相変わらず野心的ですね。",
+      "私は、今もジャブローとかから誘われたりしてますけど、",
+      "このチームが好きなんで。　今までどおり地道に頑張りますね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve096",
+    "Text": null,
+    "Lines": [
+      "ジャ…ジャブローから誘われてるんだ…。",
+      "ふぅ～ん、ホアも結構やるじゃない。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve097",
+    "Text": null,
+    "Lines": [
+      "そういや、隊長もこの前お誘いがかかってたろ？",
+      "受けないのかい？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve098",
+    "Text": null,
+    "Lines": [
+      "さすがデニスは情報通だなぁ。　でも、僕は地球が好きなんでね。",
+      "フェーベ所属のMS隊じゃ、宇宙に上がることになるだろうから。　",
+      "苦手なんだよねぇ…、無重力のプカっとした感じ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve099_01",
+    "Text": null,
+    "Lines": [
+      "な！？　フェーベって…",
+      "レビル将軍が乗艦予定の主力艦隊の旗艦じゃない！",
+      "あ、あんた！　なに断わってんのよ！！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve099_02",
+    "Text": null,
+    "Lines": [
+      "「プカっ」が苦手とか…",
+      "アンタのそのプカっとした性格をまずなんとかしなさいよ！",
+      "バッカじゃない！？　ハァハァハァ…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve100_01",
+    "Text": null,
+    "Lines": [
+      "ま、まぁまぁ、リルちゃん。　落ち着いて。　",
+      "フェーベが旗艦の予定とかって、すごい重要機密だから、",
+      "そんな大声で言っちゃダメね…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve100_02",
+    "Text": null,
+    "Lines": [
+      "あと。",
+      "一応、隊長なんだから、アンタとかバカとか言っちゃダーメ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve101_01",
+    "Text": null,
+    "Lines": [
+      "ハハハ…。　この部隊の人は、みんな情報通で困るなぁ。",
+      "いやぁ、参った参った。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve101_02",
+    "Text": null,
+    "Lines": [
+      "リル。　このチームは絶対凄く良いチームになるから、",
+      "もう少し我慢してね。　あんまり焦ってもいいことないからね。",
+      "冷静に、堅実に、地道に…ね？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve102",
+    "Text": null,
+    "Lines": [
+      "さて、では、我隊の輝ける歴史に、また1つ大戦果を加えるべく、",
+      "そろそろ出撃しよう！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve703",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

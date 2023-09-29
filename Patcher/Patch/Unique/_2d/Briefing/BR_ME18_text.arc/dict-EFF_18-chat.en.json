@@ -1,0 +1,91 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve298",
+    "Text": null,
+    "Lines": [
+      "アフリカ掃討作戦の滑り出しは順調だね。",
+      "ここからの送り出しも、さっき入ってきたビッグ･トレーが",
+      "最終便だ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve299",
+    "Text": null,
+    "Lines": [
+      "しかしまぁ、投入されるMS隊のほとんどが、宇宙に向けて送り",
+      "出される予定の素人とはな…。",
+      "こりゃ、無駄に損害が増えるだろうな…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve300",
+    "Text": null,
+    "Lines": [
+      "実際の主力は、航空部隊になるようです。",
+      "結局のところ、物量での力技ですね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve301",
+    "Text": null,
+    "Lines": [
+      "ほんと、そういう旧体制的なとこは変わらないわねぇ…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve302",
+    "Text": null,
+    "Lines": [
+      "MS隊に関しては、ただ戦場の雰囲気に慣れさせたいって",
+      "だけだろうね。",
+      "きっと、敵を囲んで立ってるだけとかだよ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve303",
+    "Text": null,
+    "Lines": [
+      "まぁ、それが正解だな。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve304",
+    "Text": null,
+    "Lines": [
+      "さて、そろそろ交代時間だな。",
+      "ユニット1、出撃準備だ！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve700",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]

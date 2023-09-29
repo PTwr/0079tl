@@ -1,0 +1,158 @@
+[
+  {
+    "ID": "CHAT_A_BTN_01",
+    "Text": null,
+    "Lines": [
+      "∈"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve131",
+    "Text": null,
+    "Lines": [
+      "ふぅ、オデッサ作戦に勝利したってのに、ご褒美どころか",
+      "代役の任務を仰せつかりました～。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve132",
+    "Text": null,
+    "Lines": [
+      "さすがに、こう続けての出撃はキツイなぁ…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve133",
+    "Text": null,
+    "Lines": [
+      "この前の戦いでは、リルちゃんがやらかしてくれたからなぁ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve134",
+    "Text": null,
+    "Lines": [
+      "うぅ…。　悪かったわよ…、ホントに。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve135",
+    "Text": null,
+    "Lines": [
+      "デニスさん、もうそのことはいいじゃないですか。",
+      "本人も反省してますし。",
+      "もう一度やったら、その時は…ね？"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve136",
+    "Text": null,
+    "Lines": [
+      "ぜ、ぜったい二度といたしませんっっ！！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve137",
+    "Text": null,
+    "Lines": [
+      "まぁまぁ、みんな。",
+      "リルも聞き分けの良い子になったから、そのくらいでね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve138",
+    "Text": null,
+    "Lines": [
+      "あぁ…、この連中ならこうなることは予測できたはずなのに…。",
+      "し、死にたい…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve139",
+    "Text": null,
+    "Lines": [
+      "しかしまぁ、今後はMS隊が主力として扱われるようになっていく",
+      "から、新設部隊の練度が安定するまでは、一層忙しくなるぞ。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve140",
+    "Text": null,
+    "Lines": [
+      "そうだね。",
+      "それに、敗走する部隊への追撃や掃討が主な任務になる…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve141",
+    "Text": null,
+    "Lines": [
+      "スコア稼ぎのチャンス！",
+      "…なんて楽観は、とてもできないわね。",
+      "弱い者イジメみたいで、気分良くない…。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve142",
+    "Text": null,
+    "Lines": [
+      "それでも僕らは兵士だ。",
+      "敗走する部隊は、各地に戦火を撒き散らす…。",
+      "野放しにすれば、民間人に被害が及ぶからね。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve143",
+    "Text": null,
+    "Lines": [
+      "そんなこと、絶対に許せないです。"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve144",
+    "Text": null,
+    "Lines": [
+      "うん。　さて、それじゃ、そろそろ行くよ。",
+      "ユニット1、出撃準備！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  },
+  {
+    "ID": "eve706",
+    "Text": null,
+    "Lines": [
+      "了解！"
+    ],
+    "TabSpace": null,
+    "Size": null
+  }
+]
