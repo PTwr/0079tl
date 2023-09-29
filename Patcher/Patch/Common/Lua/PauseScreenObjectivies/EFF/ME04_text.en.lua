@@ -1,7 +1,8 @@
 MissionText = {
 	{
 		code = "ME04_EV01",
-		value = "Search and destroy enemy convoy ASAP",
+		value = "Search and destroy enemy convoy\
+as fast as possible",
 	},
 	{
 		code = "ME04_EV02",
