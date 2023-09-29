@@ -6,7 +6,7 @@ MissionText = {
 	{
 		code = "AA03_EV02",
 		value = "Kai and Hayato are in danger！！\
-They need your support！！
+They need your support！！\
 Destroy enemy new weapons quickly！！",
 	},
 	{

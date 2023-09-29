@@ -5,8 +5,11 @@ Big EXAM letters: ＥＸＡＭ
 Big colon: ：
 Big dot: 。
 Big dot: ●
+Square in square: §
+Circle in circle: ￡
+Japanese quotes: 「ACE PILOT」
+Some weird star: ※
 Triangle: ▼
-Unknown: § ￡ (probably manual icons)
 Wide exclamation mark ！！
 
 ｜≒Select｜           Dpad

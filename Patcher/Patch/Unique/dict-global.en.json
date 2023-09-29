@@ -277,7 +277,23 @@
   },
   {
     "ID": "MANUAL_2",
-    "Text": "●Sub weapon\nPress ⊃ to switch to subweapon\nPressing it again will switch to main weapon\nFor missles hold ∋\nto perform multi-lock-on\n\n\n●Snipe mode\nPress any ≒ to snipe\nfor increased accuracy at distance\nYou can see enemy status\nbut can't move'\nSome enemy attacks\nwill cancel snipe mode.\n　　　　　　　　　　　　　　ＰＡＧＥ－３"
+    "Lines": [
+      "●Sub weapon",
+      "Press ⊃ to switch to subweapon",
+      "Pressing it again will switch to  ",
+      "main weapon.",
+      "For missles hold ∋ to perform ",
+      "multi target lock-on.",
+      "",
+      "●Snipe mode",
+      "Press any ≒ to snipe",
+      "for increased accuracy at distance",
+      "You can see enemy status",
+      "but can't move",
+      "Some enemy attacks",
+      "will cancel snipe mode.",
+      "　　　　　　　　　　　　　　ＰＡＧＥ－３"
+    ]
   },
   {
     "ID": "MANUAL_B",
@@ -285,7 +301,7 @@
   },
   {
     "ID": "MANUAL_3",
-    "Text": "●Guard parry\nWhen guarding (hold ∈＋∋)\nIf you shake wiimote at precise moment\nparry will happen\nallowing for counter attack\n\n\n●Clash\nIf your and enemy melee attack meete\na contest of strength will occur.\nKeep swinging wiimote\nto win clash\n\n\n　　　　　　　　　　　　　　ＰＡＧＥ－４"
+    "Text": "●Guard parry\nWhen guarding (hold ∈＋∋)\nIf you shake wiimote at precise moment\nparry will happen\nallowing for counter attack\n\n\n●Clash\nIf your and enemy melee attack meet\na contest of strength will occur.\nKeep swinging wiimote\nto win clash\n\n\n　　　　　　　　　　　　　　ＰＡＧＥ－４"
   },
   {
     "ID": "MANUAL_C",
@@ -293,7 +309,24 @@
   },
   {
     "ID": "MANUAL_4",
-    "Text": "●Part desctruction\nEach part has independent durability\nYou can score more points by destroying parts\nDestroyed part will detach from target\nDestroy parts to disable enemy weapons\n\nYour machine parts will not be destroyed\n\n\n●Headshot\nIn sniper mode（Press ≒\nif you hit enemy's head you will １-shot them\nSometimes headshot will drop enemy weapon\nallowing you to use it\n\n　　　　　　　　　　　　　　ＰＡＧＥ－５"
+    "Lines": [
+      "●Part desctruction",
+      "Each part has independent durability",
+      "Destroying parts rewards more points",
+      "Destroyed part will detach from target",
+      "Destroy parts to disable enemy weapons",
+      "",
+      "Your machine parts will not be destroyed",
+      "",
+      "",
+      "●Headshot",
+      "If you hit enemy head in sniper mode（≒)",
+      "you will １-shot them",
+      "Sometimes headshot will drop enemy ",
+      "weapon allowing you to use it.",
+      "",
+      "　　　　　　　　　　　　　　ＰＡＧＥ－５"
+    ]
   },
   {
     "ID": "MANUAL_D",
@@ -301,7 +334,24 @@
   },
   {
     "ID": "MANUAL_5",
-    "Text": "●Beam weapons／conventional weapons\nWeapons are categorized into beam and conventional\n\nSome ＭＳ are not capable of using beam weapons\n\n\n●One handed\nMost common shape for both beam and conventional\nmost ＭＳ can use them\nSome weapons have secondary mode\nwhich will override ＳＵＢ２\n\nAs long as such weapon is equipped\nＭＳ ＳＵＢ２ can't be used'\nHave that in mind\n　　　　　　　　　　　　　　ＰＡＧＥ－６"
+    "Lines": [
+      "●Beam weapons／conventional weapons",
+      "Weapons are categorized into beam",
+      " and conventional.",
+      "Some ＭＳ are not capable of using beam",
+      "weaponry.",
+      "",
+      "●One handed",
+      "Most common shape for both types.",
+      "Most ＭＳ can use them",
+      "Some weapons have secondary mode",
+      "which will override ＳＵＢ２",
+      "",
+      "As long as such weapon is equipped",
+      "ＭＳ ＳＵＢ２ can't be used",
+      "Have that in mind",
+      "　　　　　　　　　　　　　　ＰＡＧＥ－６"
+    ]
   },
   {
     "ID": "MANUAL_E",
@@ -309,7 +359,24 @@
   },
   {
     "ID": "MANUAL_6",
-    "Text": "●Shoulder weapon\nBazzoka and rocket launchers are held on shoulder\nIf ＭＳ has shoulder based subweapon \nたsuch weapon can't be held by ＭＳ\nAttacking shoulder weapon deals damage to main body\nShoulder weapon often deal splash damage\nwith explosive warheads\n\n●Two handed\nCan't be equiped with shield'\nIf ＭＳ picks it up, it will discard shield\nShield will not drop\nWhile having great power, range, and velocity\nthey usually can't be used on the move'\nUse with caution\n　　　　　　　　　　　　　　ＰＡＧＥ－７"
+    "Lines": [
+      "●Shoulder weapon",
+      "Bazzoka and rocket launchers are held",
+      " on shoulder, which disables shoulder",
+      "subweapons. Attacking it deals damage",
+      "to main body. ",
+      "Shoulder weapons often deal splash",
+      "damage with explosive warheads.",
+      "",
+      "●Two handed",
+      "Can't be equiped with shield.",
+      "Shield will be discared on pickup.",
+      "Shield can't be picked up again",
+      "While offering great power, range,",
+      "and velocity they usually can't",
+      "be used on the move.",
+      "　　　　　　　　　　　　　　ＰＡＧＥ－７"
+    ]
   },
   {
     "ID": "MANUAL_F",
@@ -317,7 +384,24 @@
   },
   {
     "ID": "MANUAL_7",
-    "Text": "●Weapon change\nLook at weapon\nand press ∈ to pick it up\nIf ＭＳ can't use Beam weapon\nit can't pick it up\nTank-type ＭＳ can't pick up weapons'\nHave that in mind\n\n●Supply container\nLook at container\nand press ∈ to resupply\nPress ∈ again to cancel\nEnemy attack will stop resupply\nITs a valuable place for ＭＳ\nthat can't change weapons'\n　　　　　　　　　　　　　　ＰＡＧＥ－８"
+    "Lines": [
+      "●Weapon change",
+      "Aim at weapon and press ∈.",
+      "Some ＭＳ can't use beam weapons",
+      "and can't pick them up.",
+      "Tank type ＭＳ can't pick up any.",
+      "",
+      "",
+      "",
+      "●Supply container",
+      "Aim at container and press ∈.",
+      "Press ∈ to cancel resupply.",
+      "Enemy attacks will cancel resupply.",
+      "ＭＳ that can't change weapon can",
+      "pick up amunition here.",
+      "",
+      "　　　　　　　　　　　　　　ＰＡＧＥ－８"
+    ]
   },
   {
     "ID": "MANUAL_G",
@@ -325,7 +409,25 @@
   },
   {
     "ID": "MANUAL_8",
-    "Text": "●Formation\n※Can't be used in'「ACE PILOT」\nPress ∪ o change formation in battle\nFollowing formations are available\n「Ｖ」wingmans on your flank\nArrow where your ＭＳ is leading\nand dispersed formation where squad fights separately\nFormation affects wingman stats\nPossible changes are\nOffense：\n　Attack up ２０％ Defense down ２０％\nDefense：\n　Defense up ２０％ Attack down ２０％\nNormal：\n　no change\n　　　　　　　　　　　　　　ＰＡＧＥ－９"
+    "Lines": [
+      "●Formation",
+      "※Can't be used in 「ACE PILOT」'",
+      "Press ∪ o change formation in battle:",
+      "「Ｖ」- wingmans on your flank",
+      " Arrow - where your ＭＳ is leading",
+      " Dispersed - no formation",
+      "",
+      "",
+
+      "Formation affects wingman stats",
+      "Offense：",
+      "　Attack up ２０％ Defense down ２０％",
+      "Defense：",
+      "　Defense up ２０％ Attack down ２０％",
+      "Normal：",
+      "　no change",
+      "　　　　　　　　　　　　　　ＰＡＧＥ－９"
+    ]
   },
   {
     "ID": "MANUAL_H",
@@ -381,7 +483,7 @@
   },
   {
     "ID": "MANUAL_I",
-    "Text": "              　Radar marker\n"
+    "Text": "●§￡▼●              　Radar marker\n"
   },
   {
     "ID": "icon_01",
@@ -397,7 +499,7 @@
   },
   {
     "ID": "icon_04",
-    "Text": "▼"
+    "Text": "▼" 
   },
   {
     "ID": "icon_05",
