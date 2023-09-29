@@ -19,7 +19,7 @@ internal class Program
         [Option('l', "language", Required = false, HelpText = "Language code, defaults to en", Default = "en")]
         public string LanguageCode { get; set; }
     }
-    //[Verb("patch", HelpText = "Create game patch from translation")]
+    [Verb("patch", HelpText = "Create game patch from translation")]
     public class Options
     {
         [Option('i', "input", Required = true, HelpText = "Directory containing clean game files")]
