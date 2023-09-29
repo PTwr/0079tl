@@ -7,7 +7,7 @@
   {
     "ID": "OPERATION_LOSS_CONTENT",
     "Lines": [
-      "Destroyed your MS",
+      "Destruction of your MS",
       "Target escapes operation area"
     ]
   },
@@ -70,7 +70,7 @@
     "ID": "BR_INFO_B_01",
     "Lines": [
       "Although test units avoided main front, General Revil ",
-      "recognized the success test operations."
+      "recognized the success of test operations."
     ]
   },
   {

@@ -1,0 +1,116 @@
+[
+  //sumary page OP_MxNN.arc
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Lines": [
+      "Protect Big Tray",
+      "Defeat enemy forces"
+    ]
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Lines": [
+      "Destruction of your MS",
+      "Destruction of Lil Summer MS",
+      "Destruction of Big Tray"
+    ]
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Lines": [
+      "Respond flexibily to changing situtation"
+    ]
+  },
+  //intel page BR_MxNN.arc
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": "OPERATION"
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": "Odessa"
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": "DEFENSE LINE"
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": "Zeon troops"
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": "DEFENSE"
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Lines": [
+      "Big Tray",
+      "landship"
+    ]
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": "ENEMY"
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Lines": [
+      "Dobday",
+      "Landship"
+    ]
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Lines": [
+      "EFF major counteroffensive,",
+      "'Operation Odessa' is progressing smoothly"
+    ]
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Lines": [
+      "Enemy resistance has increased,",
+      "by shortening their lines."
+    ]
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "Lines": [
+      "Although we have encircled enemy,",
+      "offensive felt into stalemate."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "Lines": [
+      "In order to overcome stalemate",
+      "reserve forces have been deployed."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_02",
+    "Lines": [
+      "Task force centered on Big Tray landship",
+      "is assembling, but defense is thin."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Lines": [
+      "Enemy force centered on Dobday landship has",
+      "broken through encirclement and approaches."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Lines": [
+      "SRT-1 is to head out immediately",
+      "and reinforce defenses."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_03",
+    "Text": "Well then, I wish you good luck!"
+  }
+]

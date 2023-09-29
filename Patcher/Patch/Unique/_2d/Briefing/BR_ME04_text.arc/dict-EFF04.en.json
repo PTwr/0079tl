@@ -1,0 +1,109 @@
+[
+  //sumary page OP_MxNN.arc
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Text": "Shoot down enemy transport plane"
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Lines": [
+      "Destruction of your MS",
+      "Enemy transport escapes"
+    ]
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Text": ""
+  },
+  //intel page BR_MxNN.arc
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": "AREA"
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": "Valley"
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": "ZEON BASE"
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": "Lhasa Base"
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": "TARGET"
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Text": "Fat Uncle"
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": "WEAPON"
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Text": "New Gear"
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Lines": [
+      "Finally, our army's large-scale",
+      "counteroffensive operation begins. "
+    ]
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Lines": [
+      "SRT-1 will perform diversionary operations",
+      "while main force is assembling."
+    ]
+  },
+  {
+    "ID": "BR_INFO_A_03",
+    "Lines": [
+      "Although test units avoided main front, General Revil ",
+      "recognized the success of test operations."
+    ]
+  },
+  {
+    "ID": "BR_INFO_A_04",
+    "Lines": [
+      "Our efforts ensured Mobile Suits will join main force."
+    ]
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "Lines": [
+      "Enemy convoy is moving toward Lhasa,",
+      "Zeon's base in Far East."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "Lines": [
+      "To protect rear of our forces in Operation Odessa,",
+      "we have to prevent reinvorcements in Far East."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_02",
+    "Lines": [
+      "Intercept and destroy enemy transport unit"
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Lines": [
+      "NEw equipment have been prepared for this operation.",
+      "Use it effectively."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Text": "Well then, I wish you good luck!"
+  }
+]

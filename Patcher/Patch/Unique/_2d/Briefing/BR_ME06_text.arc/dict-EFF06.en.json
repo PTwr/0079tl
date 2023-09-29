@@ -1,0 +1,110 @@
+[
+  //sumary page OP_MxNN.arc
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Lines": [
+      "Search and destroy",
+      "remaining enemy forces"
+    ]
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Text": "Destruction of your MS"
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Lines": [
+      "Respond flexibily to changing situtation"
+    ]
+  },
+  //intel page BR_MxNN.arc
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": "ALERT"
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": "Operation completed"
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": "TARGET"
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": "Routed enemies"
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": "ENEMY"
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Text": "Runway"
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": "ENEMY"
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Text": "Zeon troops"
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Text": "Operation Odessa was a success"
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Lines": [
+      "This greatly shifts power balance",
+      "in favor of our forces."
+    ]
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "Lines": [
+      "Some enemy units broken through encirclement",
+      "and retreat toward Zeon-held teritory."
+    ]
+  },
+  {
+    "ID": "BR_INFO_B_02",
+    "Lines": [
+      "Some Zeon troops hide in vicinity of Odessa,",
+      "waiting for opportunity to escape."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "Lines": [
+      "Zeon forces constructed temporary airstrips",
+      "in vicinity of Odessa."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_02",
+    "Lines": [
+      "SRT-1 is to head immediately to relief",
+      "main force, take on patrol duties in."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Lines": [
+      "If we allow enemy to escape, we'll",
+      "give them chance to counterattack."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Lines": [
+      "Search and destory",
+      "remianing enemy forces"
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_03",
+    "Text": "Well then, I wish you good luck!"
+  }
+]

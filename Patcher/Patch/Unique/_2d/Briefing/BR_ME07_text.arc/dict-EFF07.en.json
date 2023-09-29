@@ -1,0 +1,112 @@
+[
+  //sumary page OP_MxNN.arc
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Lines": [
+      "Shoot down Gau Carrier",
+      "and head out for extraction."
+    ]
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Lines": [
+      "Destruction of your MS.",
+      "Destruction of Midea.",
+      "Gau Carrier escape."
+    ]
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Lines": [
+      "Protect Midea for extraction",
+      "after objectives are meet."
+    ]
+  },
+  //intel page BR_MxNN.arc
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": "ALERT"
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": "Operation completed"
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": "ENEMY"
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": "Retreating enemy"
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": "ENEMY"
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Text": "Ground troops"
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": "TARGET"
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Text": "Gau Carrier"
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Text": "Operation Odessa was a success"
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Lines": [
+      "This greatly shifts power balance",
+      "in favor of our forces."
+    ]
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "Lines": [
+      "Some enemy units broken through encirclement",
+      "and retreat toward Zeon-held teritory."
+    ]
+  },
+  {
+    "ID": "BR_INFO_B_02",
+    "Lines": [
+      "Our patrol ha spotted enemy units",
+      "attempting to escape to Far East."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "Lines": [
+      "Gau Carrie is in the lead, followed",
+      "by ground forces and Gallop landship."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_02",
+    "Lines": [
+      "SRT-1 will cut off enemy escape route,",
+      "Gau Carrier is priority target."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Lines": [
+      "After shooting down Gau Carrier,",
+      "Mideo will be available for extraction.",
+      "Destroy as much enemy forces as possible."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Lines": [
+      "Don't chase too far.'",
+      "Well then, I wish you good luck!"
+    ]
+  }
+]
