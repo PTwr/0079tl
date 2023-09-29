@@ -1,0 +1,15 @@
+<wiidisc version="1">
+	<id game="R79"/>
+	<options>
+		<section name="Testing">
+			<option name="Full patch">
+				<choice name="EN">
+					<patch id="Full patch EN"/>
+				</choice>
+			</option>
+		</section>
+	</options>
+	<patch id="Full patch EN">
+		<folder disc="/" external="R79JAF_EN/" />
+	</patch>
+</wiidisc>

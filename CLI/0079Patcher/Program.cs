@@ -72,6 +72,7 @@ internal class Program
                 var newbytes = root.GetBytes().ToArray();
                 var stub = Path.GetRelativePath(inputDir, file.FullName);
                 var patchedFile = Path.Combine(outputDir, stub);
+                Directory.CreateDirectory(Path.GetDirectoryName(patchedFile));
                 File.WriteAllBytes(patchedFile, newbytes);
             }
         }
@@ -136,22 +137,24 @@ internal class Program
         int offsetChange = 0;
         foreach (var node in root.Nodes)
         {
-            if (!$"{inputDir}/{node.Name}".Contains("OP_AA01.arc"))
-            {
-                //continue;
-            }
             if (node.IsArc)
             {
                 var nestedRoot = new U8RootSegment();
                 nestedRoot.Parse(node.BinaryData);
-                updated |= UpdateU8Root(nestedRoot, Path.Combine(patchDir, node.Path), commonDir, Path.Combine(inputDir, node.Path), languageCode, dicts);
+                var nestedArcUpdated = UpdateU8Root(nestedRoot, Path.Combine(patchDir, node.Path), commonDir, Path.Combine(inputDir, node.Path), languageCode, dicts);
 
-                var newData = nestedRoot.GetBytes().ToArray();
-                offsetChange -= node.BinaryData.Length;
-                offsetChange += newData.Length;
+                if (nestedArcUpdated)
+                {
+                    var newData = nestedRoot.GetBytes().ToArray();
 
-                node.BinaryData = newData;
-                node.Size = newData.Length;
+                    updated |= !newData.SequenceEqual(node.BinaryData);
+
+                    offsetChange -= node.BinaryData.Length;
+                    offsetChange += newData.Length;
+
+                    node.BinaryData = newData;
+                    node.Size = newData.Length;
+                }
             }
             else if (node.IsXbf)
             {
@@ -233,13 +236,13 @@ internal class Program
 
                 var newData = parsed.GetBytes().ToArray();
 
+                updated |= !newData.SequenceEqual(node.BinaryData);
+
                 offsetChange -= node.BinaryData.Length;
                 offsetChange += newData.Length;
 
                 node.BinaryData = newData;
                 node.Size = newData.Length;
-
-                updated |= true;
             }
             else if (node.IsFile && node.Name.EndsWith(".lua"))
             {
@@ -270,14 +273,13 @@ internal class Program
 
                 if (newData != null)
                 {
+                    updated |= !newData.SequenceEqual(node.BinaryData);
 
                     offsetChange -= node.BinaryData.Length;
                     offsetChange += newData.Length;
 
                     node.BinaryData = newData;
                     node.Size = newData.Length;
-
-                    updated |= true;
                 }
             }
             else if (node.IsFile && node.Name.EndsWith(".xml"))
@@ -288,13 +290,13 @@ internal class Program
                 {
                     var newData = File.ReadAllBytes(path);
 
+                    updated |= !newData.SequenceEqual(node.BinaryData);
+
                     offsetChange -= node.BinaryData.Length;
                     offsetChange += newData.Length;
 
                     node.BinaryData = newData;
                     node.Size = newData.Length;
-
-                    updated |= true;
                 }
             }
         }

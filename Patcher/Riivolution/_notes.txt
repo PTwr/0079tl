@@ -1,0 +1,2 @@
+﻿Generate patch to empty directory
+Remove --rewrite flag from Patcher to generate minimalistic patch instead of every .arc
