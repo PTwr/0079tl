@@ -292,6 +292,7 @@
       "but can't move",
       "Some enemy attacks",
       "will cancel snipe mode.",
+      "",
       "　　　　　　　　　　　　　　ＰＡＧＥ－３"
     ]
   },
@@ -301,7 +302,7 @@
   },
   {
     "ID": "MANUAL_3",
-    "Text": "●Guard parry\nWhen guarding (hold ∈＋∋)\nIf you shake wiimote at precise moment\nparry will happen\nallowing for counter attack\n\n\n●Clash\nIf your and enemy melee attack meet\na contest of strength will occur.\nKeep swinging wiimote\nto win clash\n\n\n　　　　　　　　　　　　　　ＰＡＧＥ－４"
+    "Text": "●Guard parry\nWhen guarding (hold ∈＋∋)\nIf you shake wiimote at precise moment\nparry will happen\nallowing for counter attack\n\n\n●Clash\nIf your and enemy melee attack meet\na contest of strength will occur.\nKeep swinging wiimote\nto win clash\n\n\n\n\n　　　　　　　　　　　　　　ＰＡＧＥ－４"
   },
   {
     "ID": "MANUAL_C",
@@ -314,13 +315,13 @@
       "Each part has independent durability",
       "Destroying parts rewards more points",
       "Destroyed part will detach from target",
-      "Destroy parts to disable enemy weapons",
+      "Destroy parts to disable weapons",
       "",
-      "Your machine parts will not be destroyed",
+      "Your machine parts are indestructible",
       "",
       "",
       "●Headshot",
-      "If you hit enemy head in sniper mode（≒)",
+      "Headshot in sniper mode（≒)",
       "you will １-shot them",
       "Sometimes headshot will drop enemy ",
       "weapon allowing you to use it.",
@@ -483,7 +484,7 @@
   },
   {
     "ID": "MANUAL_I",
-    "Text": "●§￡▼●              　Radar marker\n"
+    "Text": "              　Radar marker\n"
   },
   {
     "ID": "icon_01",
@@ -5391,7 +5392,10 @@
   },
   {
     "ID": "ACE_INF_CRS_00",
-    "Text": "Federal Forces test pilot Christina Mackenzie takes out the new Gundam she is testing against an enemy attack."
+    "Lines": [
+      "Federal Forces test pilot Christina Mackenzie heads out",
+      "in new Gundam she is testing against an enemy attack"
+    ]
   },
   {
     "ID": "ACE_INF_YOU_00",
@@ -5415,7 +5419,12 @@
   },
   {
     "ID": "ACE_INF_BER_00",
-    "Text": "Bernard Wiseman is a new soldier in the Cyclops Corps.\nHe carries out the mission to destroy the new Gundam with determination."
+    "TabSpace": "4",
+    "Size": "0.9",
+    "Lines": [
+      "Bernard Wiseman is a new soldier in the Cyclops Team. He carries",
+      "out the mission to destroy the new Gundam with determination."
+    ]
   },
   {
     "ID": "ACE_INF_AKA_00",

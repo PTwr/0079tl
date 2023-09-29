@@ -21,12 +21,12 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "As last survivor of Cuclops Squar, on",
+      "As last survivor of Cyclops Squad, on",
       "a mission to destroy new Gundam,",
-      "Bernard challenges Gundam with Zaku II Kai",
-      "not knowing who's the pilot..."
+      "Bernard challenges Gundam with Zaku ",
+      "II Kai not knowing who's the pilot..."
     ],
-    "TabSpace": null,
+    "TabSpace": 4,
     "Size": null
   }
 ]
