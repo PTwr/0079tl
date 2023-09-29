@@ -3,8 +3,7 @@
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "Shot down enemy transport planes.",
-      "Defeat remaining troops or retreat."
+      "Search and Destroy"
     ],
     "TabSpace": null,
     "Size": null
@@ -13,8 +12,7 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "Destruction of your MS.",
-      "Failure to shoot down transport plane."
+      "Destruction of your MS."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,10 +21,10 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "After capturing General Revil during",
-      "Battle of Loum, Ace unit specializing in",
-      "Jet Stream Attack is assigned to",
-      "defeating White Base."
+      "Yuu and Nimbus have theri fates",
+      "controlled by mysterious ＥＸＡＭ",
+      "system. Their battle over it",
+      "continues..."
     ],
     "TabSpace": null,
     "Size": null

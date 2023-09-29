@@ -1,7 +1,7 @@
 MissionText = {
 	{
 		code = "AS02_EV01",
-		value = "Gun Cannons are key to siege.\
+		value = "Gun Tanks are key to siege.\
 Defend them at all costs！",
 	},
 	{
@@ -10,7 +10,7 @@ Defend them at all costs！",
 	},
 	{
 		code = "AS02_EV03",
-		value = "Gouf is destroying our Gun Cannons.\
+		value = "Gouf is destroying our Gun Tanks.\
 Defeat it！！",
 	},
 }

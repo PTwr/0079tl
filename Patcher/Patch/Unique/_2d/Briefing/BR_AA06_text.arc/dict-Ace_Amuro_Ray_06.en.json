@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "Search and Destroy",
-      "防衛目標の護衛"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Search and Destroy.",
+      "Defend escorted target."
     ],
     "TabSpace": null,
     "Size": null
@@ -59,16 +14,7 @@
     "Text": null,
     "Lines": [
       "Destruction of your MS.",
-      "防衛目標の破壊"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of escorted target."
     ],
     "TabSpace": null,
     "Size": null
@@ -77,10 +23,10 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "ホワイトベースは、ついにジャブローに入港。",
-      "宇宙での最終決戦に向け、準備が進められる。",
-      "しかし、ジオンによるジャブロー攻略作戦が",
-      "始まり、地上での最後の戦いが幕を開けた。"
+      "White Base finally arrived in Jaburo.",
+      "Preparations for final battle in space",
+      "are underway. However, Zeon's overation",
+      "against Jaburo has begun."
     ],
     "TabSpace": null,
     "Size": null

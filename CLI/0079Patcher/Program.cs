@@ -81,7 +81,7 @@ internal class Program
             {"AN", "Ace_Norris_Packard" }, //Zeon
             {"AR", "Ace_Ramba_Ral" }, //Zeon
             {"AS", "Ace_Shiro_Amada" }, //EFF 8th MS team
-            {"AY", "Ace_You_Kajima" }, //EFF blue destiny
+            {"AY", "Ace_Yuu_Kajima" }, //EFF blue destiny
             {"CE", "Combination_EFF" }, //EFF
             {"CZ", "Combination_Zeon" }, //Zeon
         };

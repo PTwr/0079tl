@@ -1,5 +1,7 @@
 ﻿Button hint separator: ｜
 Big MS letters: ＭＳ
+Big MA letters: ＭＡ
+Big EXAM letters: ＥＸＡＭ
 Big colon: ：
 Big dot: 。
 Big dot: ●
