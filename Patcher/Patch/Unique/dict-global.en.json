@@ -3387,7 +3387,10 @@
   },
   {
     "ID": "RESULT_MSG_WIN_06",
-    "Text": "@RESULT_MSG_WIN_06@ is now\navailable for VERSUS/SURVIVAL/COMBINATION. "
+    "Lines": [
+      "@RESULT_MSG_WIN_06@ is now available",
+      "for VERSUS/SURVIVAL/COMBINATION."
+    ]
   },
   {
     "ID": "RESULT_MSG_WIN_07",
