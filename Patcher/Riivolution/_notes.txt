@@ -1,2 +1,6 @@
 ﻿Generate patch to empty directory
 Remove --rewrite flag from Patcher to generate minimalistic patch instead of every .arc
+
+eg.
+
+0079Patcher.exe --input "C:\games\wii\0079\0079_jp\DATA\files" --output "%userprofile%/Documents/Dolphin Emulator/Load/Riivolution/R79JAF_EN" --patch "Patch" --language en

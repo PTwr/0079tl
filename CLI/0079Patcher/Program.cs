@@ -19,6 +19,8 @@ internal class Program
         public string LanguageCode { get; set; }
         [Option('r', "rewrite", Required = false, HelpText = "Rewrite everything, even if not in patch", Default = false)]
         public bool Rewrite { get; set; }
+        [Option('c', "clean", Required = false, HelpText = "Delets previous patch", Default = false)]
+        public bool Clean { get; set; }
     }
     private static void Main(string[] args)
     {
@@ -43,13 +45,18 @@ internal class Program
                     return;
                 }
 
-                ArcPatchEerything(o.InputDir, o.OutputDir, o.PatchDir, o.LanguageCode, o.Rewrite);
+                ArcPatchEerything(o.InputDir, o.OutputDir, o.PatchDir, o.LanguageCode, o.Rewrite, o.Clean);
             });
     }
 
     const string TranslationDictFilenameMask = "dict*.{0}.json";
-    public static void ArcPatchEerything(string inputDir, string outputDir, string patchDir, string languageCode, bool rewrite)
+    public static void ArcPatchEerything(string inputDir, string outputDir, string patchDir, string languageCode, bool rewrite, bool clean)
     {
+        if(Directory.Exists(outputDir) && clean)
+        {
+            Directory.Delete(outputDir, true);
+        }
+
         //get global dicts first
         Dictionary<string, windowjsonentry> globaldict = GetTLDict(Path.Combine(patchDir, UniqueDir), languageCode);
 
