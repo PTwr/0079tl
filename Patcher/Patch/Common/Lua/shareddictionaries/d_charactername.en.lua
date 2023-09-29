@@ -128,14 +128,14 @@ D_CharacterName = {
     {
         code = "MQV",
         excode = "HM_MQV",
-        name = "Ma Kube",
+        name = "M'Quve'",
         cost = 50,
         iconframe = 18,
     },
     {
         code = "GUY",
         excode = "HM_GUY",
-        name = "Gaia",
+        name = "Gaia", --black tri star
         cost = 50,
         iconframe = 16,
     },

@@ -9,6 +9,20 @@
 
   <ItemGroup>
     <Folder Include="Patch\Common\Lua\PauseScreenObjectivies\Zeon\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME08_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME09_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME10_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME11_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME12_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME13_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME14_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME15_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME16_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME17_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME18_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME19_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME20_text.arc\" />
+    <Folder Include="Patch\Unique\_2d\Briefing\BR_ME21_text.arc\" />
     <Folder Include="Patch\Unique\_2d\Briefing\PROLOGUE_MAP_ME_text.arc\" />
   </ItemGroup>
 
