@@ -1,0 +1,91 @@
+[
+  //sumary page OP_MxNN.arc
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Text": "Search and destroy"
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Text": "Destroyed your MS"
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Text": ""
+  },
+  //intel page BR_MxNN.arc
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": "AREA"
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": "Gobi deser"
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": "ZEON TANK"
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": "Magella attack"
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": "TARGET"
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Text": "Enemy patrol"
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": "E.F.F PLANE"
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Size": "0.6",
+    "Text": "Midea Transporter"
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Text": "A new mission for SRT-Unit 1. "
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Text": "The mission location this time is a desert area."
+  },
+  {
+    "ID": "BR_INFO_A_03",
+    "Lines": [
+      "Our military is planning to carry out a major",
+      "counteroffensive operation soon."
+    ]
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "TabSpace": 3,
+    "Lines": [
+      "Please keep in mind that this will be used as a basis for",
+      "deciding if mobile suits will be deployed in that operation."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "TabSpace": 3,
+    "Lines": [
+      "By ambushing enemy patrol we will demonstrate",
+      "capabilities of our mobile suit forces."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Lines": [
+      "Move to the target location using the Midea transport, ",
+      "ambush the enemy forces, and destroy them. "
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Text": "Well then, I wish you good luck!"
+  }
+]

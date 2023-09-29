@@ -1,0 +1,135 @@
+[
+  //sumary page OP_MxNN.arc
+  {
+    "ID": "OPERATION_WIN_CONTENT",
+    "Text": "Destroy target\nand reach extraction point"
+  },
+  {
+    "ID": "OPERATION_LOSS_CONTENT",
+    "Lines": [
+      "Destroyed your MS",
+      "Target escapes operation area"
+    ]
+  },
+  {
+    "ID": "OPERATION_COMMENT_CONTENT",
+    "Lines": [
+      "Eliminate as many enemy units as possible",
+      "Extraction possible after meeting requirements"
+    ]
+  },
+  //intel page BR_MxNN.arc
+  {
+    "ID": "BR_DATA_A_01",
+    "Text": "AREA"
+  },
+  {
+    "ID": "BR_DATA_A_02",
+    "Text": "Operation Odessa"
+  },
+  {
+    "ID": "BR_DATA_B_01",
+    "Text": "WHITE BASE FLEET"
+  },
+  {
+    "ID": "BR_DATA_B_02",
+    "Text": "RX78-2"
+  },
+  {
+    "ID": "BR_DATA_C_01",
+    "Text": "E.F.F PLANE"
+  },
+  {
+    "ID": "BR_DATA_C_02",
+    "Size": "0.6",
+    "Text": "Midea Transporter"
+  },
+  {
+    "ID": "BR_DATA_D_01",
+    "Text": "TARGET"
+  },
+  {
+    "ID": "BR_DATA_D_02",
+    "Text": "Gallop"
+  },
+  {
+    "ID": "BR_INFO_A_01",
+    "Lines": [
+      "Finally, our army's large-scale counteroffensive",
+      "operation begins."
+    ]
+  },
+  {
+    "ID": "BR_INFO_A_02",
+    "Lines": [
+      "SRT-Unit 1 will perform diversions to prevent the enemy",
+      "from identifying the target of main force."
+    ]
+  },
+  {
+    "ID": "BR_INFO_B_01",
+    "Lines": [
+      "Although test units avoided main front, General Revil ",
+      "recognized the success test operations."
+    ]
+  },
+  {
+    "ID": "BR_INFO_B_02",
+    "Lines": [
+      "Our efforts ensured Mobile Suits will join main force."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_01",
+    "Lines": [
+      "In response to our progres in European front",
+      "Zeon is shifting froces from African front."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_02",
+    "Lines": [
+      "To prevent that, SRT-1 is tasked with attacking",
+      "rally point of enemy reinforcements."
+    ]
+  },
+  {
+    "ID": "BR_INFO_C_03",
+    "Lines": [
+      "Use Midea Transport to penetrate enemy air zone,",
+      "and assault enemy forces once landed."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_01",
+    "Lines": [
+      "Enemy forces are numerous, therefore prioritize",
+      "destruction of enemy landship 'Gallop'"
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Lines": [
+      "After successfully destroying the target meet up",
+      "with Midea at the designated point for extraction"
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_02",
+    "Lines": [
+      "After successfully destroying the target meet up",
+      "with Midea at the designated point for extraction"
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_03",
+    "Lines": [
+      "Supply container was airdropped in battle area,",
+      "and air support will be provided by friendly forces."
+    ]
+  },
+  {
+    "ID": "BR_INFO_D_04",
+    "Text": "Well then, I wish you good luck!"
+  }
+]

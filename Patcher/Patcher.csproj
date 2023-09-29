@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Patch\Common\Lua\PauseScreenObjectivies\Zeon\" />
     <Folder Include="Patch\Unique\DATA\files\_2d\Briefing\PROLOGUE_MAP_ME_text.arc\" />
   </ItemGroup>
 
