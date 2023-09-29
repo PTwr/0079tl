@@ -39,7 +39,7 @@
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "敵部隊の全滅",
+      "Search and Destroy",
       "防衛目標の護衛"
     ],
     "TabSpace": null,
@@ -58,7 +58,7 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
+      "Destruction of your MS.",
       "防衛目標の破壊"
     ],
     "TabSpace": null,

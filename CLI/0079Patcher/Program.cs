@@ -73,7 +73,7 @@ internal class Program
             { "ME", "EFF" },
             { "MZ", "Zeon" },
             {"AA", "Ace_Amuro_Ray" }, //EFF
-            {"AB", "Ace_Bernard Wiseman" }, //Zeon War in The Pocekt (Zaku Kai)
+            {"AB", "Ace_Bernard_Wiseman" }, //Zeon War in The Pocekt (Zaku Kai)
             {"AC", "Ace_Char_Aznable" }, //Zeon
             {"AG", "Ace_Gaia" }, //Zeon (Black Tri Star)
             {"AH", "Ace_Akahana" }, //Zeon MSG, demolition expert in Acguy
