@@ -42,7 +42,7 @@
   {
     "ID": "BR_DATA_C_02",
     "Size": "0.6",
-    "Text": "Midea Transporter"
+    "Text": "Medea Transporter"
   },
   {
     "ID": "BR_DATA_D_01",
@@ -96,7 +96,7 @@
   {
     "ID": "BR_INFO_C_03",
     "Lines": [
-      "Use Midea Transport to penetrate enemy air zone,",
+      "Use Medea Transport to penetrate enemy air zone,",
       "and assault enemy forces once landed."
     ]
   },
@@ -111,14 +111,14 @@
     "ID": "BR_INFO_D_02",
     "Lines": [
       "After successfully destroying the target meet up",
-      "with Midea at the designated point for extraction"
+      "with Medea at the designated point for extraction"
     ]
   },
   {
     "ID": "BR_INFO_D_02",
     "Lines": [
       "After successfully destroying the target meet up",
-      "with Midea at the designated point for extraction"
+      "with Medea at the designated point for extraction"
     ]
   },
   {

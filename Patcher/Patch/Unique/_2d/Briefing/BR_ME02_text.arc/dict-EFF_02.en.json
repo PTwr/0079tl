@@ -44,7 +44,7 @@
   {
     "ID": "BR_DATA_D_02",
     "Size": "0.6",
-    "Text": "Midea Transporter"
+    "Text": "Medea Transporter"
   },
   {
     "ID": "BR_INFO_A_01",
@@ -80,7 +80,7 @@
   {
     "ID": "BR_INFO_D_01",
     "Lines": [
-      "Move to the target location using the Midea transport, ",
+      "Move to the target location using the Medea transport, ",
       "ambush the enemy forces, and destroy them. "
     ]
   },
