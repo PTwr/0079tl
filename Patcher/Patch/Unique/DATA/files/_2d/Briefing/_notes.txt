@@ -1,0 +1,4 @@
+﻿BR -> briefing with all those pictures and map
+CH -> chat wit hlots of text
+OP -> simple mission objectives
+BriefingSelect -> menu, shared with everything else

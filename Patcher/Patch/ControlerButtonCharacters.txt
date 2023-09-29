@@ -5,6 +5,7 @@ Big dot: 。
 Big dot: ●
 Triangle: ▼
 Unknown: § ￡ (probably manual icons)
+Wide exclamation mark ！！
 
 ｜≒Select｜           Dpad
 ｜∋Back｜             B button

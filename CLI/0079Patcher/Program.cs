@@ -110,6 +110,7 @@ internal class Program
         public string Text { get; set; }
         public string[] Lines { get; set; }
         public string TabSpace { get; set; }
+        public string Size { get; set; }
 
         public override string ToString()
         {
@@ -199,6 +200,7 @@ internal class Program
                     {
                         var id = str.SelectSingleNode("Code");
                         var tabspace = str.SelectSingleNode("TabSpace");
+                        var size = str.SelectSingleNode("Size");
 
                         //from newest dict to oldest
                         foreach (var dict in dicts.AsQueryable().Reverse())
@@ -208,7 +210,18 @@ internal class Program
                                 if (!string.IsNullOrWhiteSpace(tl.TabSpace))
                                 {
                                     tabspace.InnerText = tl.TabSpace;
-                                    //dont look in parent dict if TL was found
+                                    break;
+                                }
+                            }
+                        }
+                        //from newest dict to oldest
+                        foreach (var dict in dicts.AsQueryable().Reverse())
+                        {
+                            if (dict.TryGetValue(id.InnerText, out var tl))
+                            {
+                                if (!string.IsNullOrWhiteSpace(tl.Size))
+                                {
+                                    size.InnerText = tl.Size;
                                     break;
                                 }
                             }
