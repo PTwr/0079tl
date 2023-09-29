@@ -20,14 +20,13 @@
   {
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
+    "TabSpace":  5,
     "Lines": [
-      "White Base survived numerous battles.",
-      "Its journey to EFF HQ in Jaburo is ",
-      "almost completed. During port call at",
-      "Belfast Base it came under surprise attack",
-      "from Zeon Marine Corps."
+      "White Base journey to EFF HQ in Jaburo",
+      "is almost completed. During port call at",
+      "Belfast Base it came under surprise ",
+      "attack from Zeon Marine Corps."
     ],
-    "TabSpace": null,
     "Size": null
   }
 ]
