@@ -2,8 +2,8 @@ MissionText = {
 	{
 		code = "ME15_EV01",
 		value = "Received mayday from friendly transport unit\
-Midea must be protected to secure supplies.\
-Protect Midea at all costs!",
+Medea must be protected to secure supplies.\
+Protect Medea at all costs!",
 	},
 	{
 		code = "ME15_EV02",

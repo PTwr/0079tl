@@ -11,8 +11,8 @@ Lil in GM Command, and Dennis in Guncannon",
 	},
 	{
 		code = "ME14_EV03",
-		value = "Midea will transport new MS and test data,\
+		value = "Medea will transport new MS and test data,\
 we can't allow its destruction.\
-Protect Midea at all costs!",
+Protect Medea at all costs!",
 	},
 }

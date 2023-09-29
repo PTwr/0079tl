@@ -6,9 +6,9 @@ Destroy it before it can leave battle area!",
 	},
 	{
 		code = "ME07_EV02",
-		value = "Midea can't be destroyed\
+		value = "Medea can't be destroyed\
 if we want to return after destroying Gau carrier\
-Defent Midea to the last soldier!",
+Defent Medea to the last soldier!",
 	},
 	{
 		code = "ME07_EV03",
