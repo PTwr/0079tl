@@ -3,7 +3,8 @@ MissionText = {
 	{
 		code = "AG01_EV01",
 		value = "Enemy supply unit spotted.\
-No more than 3 planes are allowed to escape！\
+No more than 3 planes are allowed to\
+escape！\
 Destroy them at all costs！！",
 	},
 	{

@@ -6,7 +6,7 @@
       "Search and Destroy",
       "Or retreat after completing objectives"
     ],
-    "TabSpace": null,
+    "TabSpace": 1,
     "Size": null
   },
   {
@@ -22,11 +22,11 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "Zeon ace pilot, Char the Red Comet, only",
-      "failure was against Gundam. In ruins of",
-      "Seattle he challenges it again..."
+      "Zeon ace pilot, Char the Red Comet, his",
+      "only failure was against Gundam. In ruins ",
+      "of Seattle he challenges it again..."
     ],
-    "TabSpace": null,
+    "TabSpace": 4,
     "Size": null
   }
 ]

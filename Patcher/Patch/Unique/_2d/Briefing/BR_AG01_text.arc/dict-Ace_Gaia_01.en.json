@@ -16,7 +16,7 @@
       "Destruction of your MS.",
       "Failure to shoot down transport plane."
     ],
-    "TabSpace": null,
+    "TabSpace": 2,
     "Size": null
   },
   {
@@ -24,9 +24,9 @@
     "Text": null,
     "Lines": [
       "After capturing General Revil during",
-      "Battle of Loum, Ace unit specializing in",
-      "Jet Stream Attack is assigned to",
-      "defeating White Base."
+      "Battle of Loum, Ace unit specializing",
+      "in Jet Stream Attack is assigned",
+      "to defeating White Base."
     ],
     "TabSpace": null,
     "Size": null
