@@ -163,3 +163,7 @@ CHAT_name1 has teammates, CHAT_name2 has guests?
    model    = "CHAT_zzALNname_00",
    anim     = "_98",
 },
+
+
+
+Game Over Screen -> not in xbf, its in texture in g_over.arc

@@ -211,7 +211,7 @@ D_WeaponName = {
 	{
 		code = "BZG", 
 		excode = "WP_BZG", 
-		name = "Scattering Beam Cannon (Dom)", --G Buzz? Buzz is some engrish word?
+		name = "880mmRB-T27 Raketen", --G Buzz? Buzz is some engrish word?
                 bullet_type = "Conventional",
                 type = "Shoulder",
                 comment = "Splash damage", 
@@ -247,7 +247,7 @@ D_WeaponName = {
 	{
 		code = "SGK", 
 		excode = "WP_SGK", 
-		name = "shotgun", 
+		name = "ZUX-197 Jagdgewehr Shotgun", 
                 bullet_type = "Conventional",
                 type = "One handed",
                 comment = "--none--", 
