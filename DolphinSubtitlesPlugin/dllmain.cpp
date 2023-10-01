@@ -59,14 +59,15 @@ struct TranslationEntry
     u32 Color;
     bool Enabled;
     bool AllowDuplicate;
+    float Scale;
 
 public:
-    TranslationEntry() : Filename(""), Text(""), Miliseconds(0), Color(0), Enabled(false), AllowDuplicate(false)
+    TranslationEntry() : Filename(""), Text(""), Miliseconds(0), Color(0), Enabled(false), AllowDuplicate(false), Scale(1)
     {
 
     }
-    TranslationEntry(std::string filename, std::string text, u32 miliseconds, u32 color, bool enabled, bool allowDuplicates)
-        : Filename(filename), Text(text), Miliseconds(miliseconds), Color(color), Enabled(enabled), AllowDuplicate(allowDuplicates)
+    TranslationEntry(std::string filename, std::string text, u32 miliseconds, u32 color, bool enabled, bool allowDuplicates, float scale)
+        : Filename(filename), Text(text), Miliseconds(miliseconds), Color(color), Enabled(enabled), AllowDuplicate(allowDuplicates), Scale(scale)
     {
 
     }
@@ -97,13 +98,13 @@ public:
         if (!err.empty())
         {
             std::cerr << err << std::endl;
-            api->AddMessage("json error!", 2000, GREEN, 0, false);
+            api->AddMessage("json error!", 2000, GREEN, 0, false, 1);
             return;
         }
 
         if (!v.is<picojson::array>())
         {
-            api->AddMessage("not an array", 2000, GREEN, 0, false);
+            api->AddMessage("not an array", 2000, GREEN, 0, false, 1);
             return;
         }
 
@@ -116,18 +117,20 @@ public:
             auto Color = item.get("Color");
             auto Enabled = item.get("Enabled");
             auto AllowDuplicate = item.get("AllowDuplicate");
+            auto Scale = item.get("Scale");
 
             if (!FileName.is<std::string>() ||
                 !Translation.is<std::string>() ||
                 !Miliseconds.is<double>() ||
                 !Color.is<double>() ||
                 !Enabled.is<bool>() ||
-                !AllowDuplicate.is<bool>())
+                !AllowDuplicate.is<bool>() ||
+                !Scale.is<double>())
             {
                 continue;
             }
 
-            auto tl = TranslationEntry(FileName.to_str(), Translation.to_str(), Miliseconds.get<double>(), Color.get<double>(), Enabled.get<bool>(), AllowDuplicate.get<bool>());
+            auto tl = TranslationEntry(FileName.to_str(), Translation.to_str(), Miliseconds.get<double>(), Color.get<double>(), Enabled.get<bool>(), AllowDuplicate.get<bool>(), Scale.get<double>());
 
             if (tl.Enabled) {
                 Translations[tl.Filename] = tl;
@@ -141,32 +144,21 @@ public:
     virtual void OnGameLoad(const char* gamePath) override
     {
         std::string gameId = std::string(api->GetGameId());
-        api->AddMessage(gameId.c_str(), 2000, RED, 0, false);
+        api->AddMessage(gameId.c_str(), 2000, RED, 0, false, 1);
         if (gameId == "R79JAF")
         {
-            api->AddMessage("Staring subtitles for R79JAF game!", 2000, GREEN, 0, false);
+            api->AddMessage("Staring subtitles for R79JAF game!", 2000, GREEN, 0, false, 1);
             Initialize(std::string(gamePath) + ".translation.json");
         }
         else
         {
             isInitialized = false;
-            api->AddMessage("Not R79JAF game!", 2000, RED, 0, false);
+            api->AddMessage("Not R79JAF game!", 2000, RED, 0, false, 1);
         }
     };
     virtual void OnGameClose(const char* gamePath) override
     {
-        std::string gameId = std::string(api->GetGameId());
-        api->AddMessage(gameId.c_str(), 2000, RED, 0, false);
-        if (gameId == "R79JAF")
-        {
-            api->AddMessage("Staring subtitles for R79JAF game!", 2000, GREEN, 0, false);
-            Initialize(std::string(gamePath) + ".translation.json");
-        }
-        else
-        {
-            isInitialized = false;
-            api->AddMessage("Not R79JAF game!", 2000, RED, 0, false);
-        }
+        //TODO release memory?
     };
     virtual void OnFileAccess(const char* path) override
     {
@@ -179,7 +171,7 @@ public:
         if (Translations.contains(key))
         {
             auto tl = Translations[key];
-            api->AddMessage(tl.Text.c_str(), tl.Miliseconds, tl.Color, messageStackName, !tl.AllowDuplicate);
+            api->AddMessage(tl.Text.c_str(), tl.Miliseconds, tl.Color, messageStackName, !tl.AllowDuplicate, tl.Scale);
         }
     };
 };
