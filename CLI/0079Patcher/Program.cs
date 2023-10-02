@@ -210,11 +210,19 @@ internal class Program
         foreach (var path in paths)
         {
             var json = File.ReadAllText(path);
-            var dict = JsonConvert.DeserializeObject<List<tlentry>>(json);
 
-            foreach (var entry in dict)
+            try
             {
-                result[entry.ID] = entry;
+                var dict = JsonConvert.DeserializeObject<List<tlentry>>(json);
+
+                foreach (var entry in dict)
+                {
+                    result[entry.ID] = entry;
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         };
 

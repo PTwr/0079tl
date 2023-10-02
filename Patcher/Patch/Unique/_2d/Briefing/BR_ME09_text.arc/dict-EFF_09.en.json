@@ -1,54 +1,9 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "量産型ガンタンクの護衛"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Escort GunTanks"
     ],
     "TabSpace": null,
     "Size": null
@@ -57,17 +12,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
-      "防衛目標の全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.",
+      "Destruction of target"
     ],
     "TabSpace": null,
     "Size": null
@@ -76,25 +22,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "戦場の状況変化に柔軟に対応せよ"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Respond flexibly to changing",
+      "battlefield conditions"
     ],
     "TabSpace": null,
     "Size": null
@@ -112,7 +41,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "ラサ基地"
+      "Lhasa Base"
     ],
     "TabSpace": null,
     "Size": null
@@ -148,7 +77,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "砲撃支援"
+      "Artillery support"
     ],
     "TabSpace": null,
     "Size": null
@@ -175,8 +104,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "ジオン極東方面軍の拠点の１つである「ラサ基地」に対し、",
-      "コジマ大隊が大規模な包囲攻撃を計画している。"
+      "Kojima Battalion is planning large scale",
+      "siege of Lhasa, Zeons Far Easy base."
     ],
     "TabSpace": null,
     "Size": null
@@ -185,8 +114,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "山岳要塞攻略の要となるのは、市街地に配置される",
-      "量産型ガンタンクの砲撃部隊である。"
+      "Bombardment by Gun Tanks plced in urban",
+      "areas is essential for siege to success."
     ],
     "TabSpace": null,
     "Size": null
@@ -195,8 +124,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "ガンタンクの長距離砲撃と、航空部隊による爆撃によって、",
-      "強固な要塞表面を破砕し、基地機能を奪う。"
+      "Gun Tank artillery bombardment and air",
+      "raid will reduce enemy fortifications."
     ],
     "TabSpace": null,
     "Size": null
@@ -205,8 +134,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "各MS部隊は、市街広域に配置されたガンタンク隊の護衛に",
-      "分散してあたってもらう。"
+      "Mobile Suits will be spread around city",
+      "to protect Gun Tank units."
     ],
     "TabSpace": null,
     "Size": null
@@ -215,8 +144,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "敵機動部隊による襲撃が考えられるが、なんとしてでも",
-      "ガンタンクを守りきるのだ。"
+      "Enemy raid is highly likely.",
+      "Protect Gun Tanks at all costs."
     ],
     "TabSpace": null,
     "Size": null
@@ -225,8 +154,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "ユニット１は、２つの区画内のガンタンクの護衛任務に就け。",
-      "部隊の分散などに関してはアイルワード小隊長に一任する。"
+      "SRT-1 is tasked with protecting two sectors.",
+      "Commander Aylward will decide on dispersion."
     ],
     "TabSpace": null,
     "Size": null
@@ -235,7 +164,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "では、健闘を祈る！"
+      "Well then, I wish you good luck!"
     ],
     "TabSpace": null,
     "Size": null

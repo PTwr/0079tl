@@ -1,54 +1,9 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "敵部隊の捜索、全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Locate and destroy enemy forces"
     ],
     "TabSpace": null,
     "Size": null
@@ -57,16 +12,7 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS."
     ],
     "TabSpace": null,
     "Size": null
@@ -75,26 +21,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "敵部隊が潜伏している可能性は高い。",
-      "細心の注意をはらって偵察にあたれ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "High chance of enemy ambush.",
+      "Scout with extreme caution."
     ],
     "TabSpace": null,
     "Size": null
@@ -112,7 +40,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "北アメリカ大陸"
+      "North America"
     ],
     "TabSpace": null,
     "Size": null
@@ -130,7 +58,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "シアトル"
+      "Seattle"
     ],
     "TabSpace": null,
     "Size": null
@@ -148,7 +76,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "シアトル通過"
+      "Passing Seattle"
     ],
     "TabSpace": null,
     "Size": null
@@ -166,7 +94,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "掃討作戦"
+      "Mop-up operation"
     ],
     "TabSpace": null,
     "Size": null
@@ -175,8 +103,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "ジオン掃討作戦の1つ、キャリフォルニア･ベース掃討作戦が",
-      "ついに開始された。"
+      "Mop-up of Zeon forces in California  ",
+      "has finally bgegun."
     ],
     "TabSpace": null,
     "Size": null
@@ -185,7 +113,7 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "我軍は着々と敵基地への包囲網を縮めつつある。"
+      "Our forces are steadily encircling enemy base."
     ],
     "TabSpace": null,
     "Size": null
@@ -194,8 +122,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "しかし先ほど、追加戦力として本隊と合流予定だった友軍が",
-      "シアトル付近で消息を絶った。"
+      "However, recently friendly unit heading for",
+      "main force disappeared near Seattle."
     ],
     "TabSpace": null,
     "Size": null
@@ -204,8 +132,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "諸君らも知っての通り、シアトルは廃墟と化した都市だ。",
-      "通商破壊を行うような部隊の潜伏には格好の場所である。"
+      "As you all know, Seattle is in ruins. As such",
+      "its great place for enemy to lay in ambush."
     ],
     "TabSpace": null,
     "Size": null
@@ -214,8 +142,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "ユニット１は、ただちにシアトルへと向かい、",
-      "付近の捜索にあたり、敵を発見した場合、それを掃討せよ。"
+      "SRT-1 is to head immediately to Settle.",
+      "Search the area and eliminate enemy forces."
     ],
     "TabSpace": null,
     "Size": null
@@ -224,8 +152,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "いよいよ、地上での戦いも大詰めだ。",
-      "最後まで気を抜かず、任務を遂行せよ。"
+      "Finally, fighting on surface is almost done.",
+      "Do not give up and carry out your orders."
     ],
     "TabSpace": null,
     "Size": null
@@ -234,7 +162,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "では、ユニット１の健闘を祈る！"
+      "Well then, happy hunting SRT-1"
     ],
     "TabSpace": null,
     "Size": null

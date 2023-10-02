@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "ミデア輸送機の捜索と防衛",
-      "敵部隊の全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Locate and defend Medea Transport",
+      "Search and Destroy"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,17 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
-      "防衛目標の撃破"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.",
+      "Destruction of Medea Transport"
     ],
     "TabSpace": null,
     "Size": null
@@ -77,25 +23,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "敵よりも先にミデアを確保せよ"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Secure Medea before enemy forces",
+      "can reach it."
     ],
     "TabSpace": null,
     "Size": null
@@ -113,7 +42,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "ミデア輸送機"
+      "Medea Transport"
     ],
     "TabSpace": null,
     "Size": null
@@ -131,7 +60,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "エリア526"
+      "Area 526"
     ],
     "TabSpace": null,
     "Size": null
@@ -149,7 +78,8 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "敵部隊接近"
+      "Enemy troops",
+      "apporaching"
     ],
     "TabSpace": null,
     "Size": null
@@ -167,7 +97,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "ミデア輸送機"
+      "Medea Transport"
     ],
     "TabSpace": null,
     "Size": null
@@ -176,7 +106,7 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "緊急任務だ。"
+      "This is an urgent mission."
     ],
     "TabSpace": null,
     "Size": null
@@ -185,8 +115,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "重要物資を積載したミデア輸送機が、エリア526の渓谷で",
-      "消息を絶った。"
+      "Medea Transport carrying supplies went missing",
+      "in valley of Area 526."
     ],
     "TabSpace": null,
     "Size": null
@@ -195,8 +125,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "この渓谷は、ジオン極東方面軍が、射爆場として使用していた",
-      "場所だ。"
+      "This valley was used as bombing range by",
+      "Zeon Far Easy army."
     ],
     "TabSpace": null,
     "Size": null
@@ -205,8 +135,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "問題のミデアは、ラサ基地への包囲攻撃に合わせれば、",
-      "ここを安全に通過できると考えたようだ。"
+      "Medea attempted to pass use siege of Lhasa",
+      "as a distraction to passthrough safely."
     ],
     "TabSpace": null,
     "Size": null
@@ -215,8 +145,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "まだ、この遭難が敵の手によるものかは分らないが、",
-      "積載された荷を敵にくれてやるわけにもいかない。"
+      "We don't know if dissapearance is caused",
+      "by enemy, but cargo must be secured."
     ],
     "TabSpace": null,
     "Size": null
@@ -225,8 +155,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "最悪のケースを想定し、ユニット１は、渓谷内を索敵。",
-      "ミデアを発見せよ。"
+      "Assuming worst, SRT-1 is to search the valluy",
+      "for Medea Transport."
     ],
     "TabSpace": null,
     "Size": null
@@ -235,8 +165,8 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "もし、敵部隊と遭遇した際は、ミデアの防衛を最優先とし、",
-      "敵を掃討せよ。"
+      "Prioritize defense of Medea while",
+      "dealing with enemy forces."
     ],
     "TabSpace": null,
     "Size": null
@@ -245,7 +175,7 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "では、健闘を祈る！"
+      "Well then, I wish you good luck!"
     ],
     "TabSpace": null,
     "Size": null

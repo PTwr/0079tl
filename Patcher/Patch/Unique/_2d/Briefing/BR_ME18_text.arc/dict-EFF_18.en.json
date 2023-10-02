@@ -1,54 +1,9 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "ビッグ･トレーの警備"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Protect Big Tray"
     ],
     "TabSpace": null,
     "Size": null
@@ -57,17 +12,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
-      "防衛目標の破壊"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.",
+      "Destruction ofBig Tray"
     ],
     "TabSpace": null,
     "Size": null
@@ -76,25 +22,7 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "敵部隊出現の際は、その全滅。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Destroy enemy forces if any appear."
     ],
     "TabSpace": null,
     "Size": null
@@ -112,7 +40,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "アフリカ掃討作戦"
+      "African mop-up"
     ],
     "TabSpace": null,
     "Size": null
@@ -130,7 +58,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "敵MS部隊"
+      "Enemy MS"
     ],
     "TabSpace": null,
     "Size": null
@@ -148,7 +76,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "オデッサ近郊"
+      "Near Odessa"
     ],
     "TabSpace": null,
     "Size": null
@@ -166,7 +94,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "ビッグ・トレー級陸戦艇"
+      "Big Tray landship"
     ],
     "TabSpace": null,
     "Size": null
@@ -175,8 +103,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "ジオン掃討作戦の１つ、アフリカ掃討作戦がついに",
-      "開始された。"
+      "Mop-up of Zeon forces in Africa has",
+      "finalyl begun."
     ],
     "TabSpace": null,
     "Size": null
@@ -185,8 +113,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "大陸側からの進攻部隊は、オデッサで一度集結し、",
-      "その後、ジブラルタル海峡を渡り、アフリカへと進撃する。"
+      "Ground forces will gather in Odessa, before",
+      "crossing Gibraltar to advance into Africa."
     ],
     "TabSpace": null,
     "Size": null
@@ -195,8 +123,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "オデッサは完全に我軍の制圧下にあるが、先のオデッサ作戦",
-      "以後、付近に潜伏している敵部隊は少なくない。"
+      "Odessa is firmly under our control, but there",
+      "are still many enemy forces in hiding near."
     ],
     "TabSpace": null,
     "Size": null
@@ -205,8 +133,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "集結中の部隊が破れるようなことはないが、アフリカへの",
-      "進攻を前に無駄な損害を出すことは避けなければならない。"
+      "Although assembled force will not be defeated,",
+      "unnecessary losses are to be avoided."
     ],
     "TabSpace": null,
     "Size": null
@@ -215,7 +143,7 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "ユニット１は、集結点の１つでの警護にあたってもらう。"
+      "SRT-1 is assigned to guard one of rally points."
     ],
     "TabSpace": null,
     "Size": null
@@ -224,8 +152,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "いよいよ、地上での戦いも大詰めだ。",
-      "最後まで気を抜かず、任務を遂行せよ。"
+      "Finally, ground fighting is coming to an end.",
+      "Don't let up and carry your mission to the end."
     ],
     "TabSpace": null,
     "Size": null
@@ -234,7 +162,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "では、ユニット１の健闘を祈る！"
+      "Well then, happy hunting SRT-1"
     ],
     "TabSpace": null,
     "Size": null

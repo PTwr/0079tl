@@ -1,54 +1,9 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "敵部隊の探索、全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Locate and destroy enemies"
     ],
     "TabSpace": null,
     "Size": null
@@ -57,16 +12,7 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS."
     ],
     "TabSpace": null,
     "Size": null
@@ -75,26 +21,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "敵部隊の規模は不明である。",
-      "十分に注意し、状況変化に柔軟に対応せよ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Enemy force size is unknown.",
+      "Proceed with caution and adapt to situation."
     ],
     "TabSpace": null,
     "Size": null
@@ -112,7 +40,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "砂漠地帯"
+      "Desert"
     ],
     "TabSpace": null,
     "Size": null
@@ -130,7 +58,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "敵敗走部隊"
+      "Retreating enemies"
     ],
     "TabSpace": null,
     "Size": null
@@ -148,7 +76,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "オデッサ"
+      "Odessa"
     ],
     "TabSpace": null,
     "Size": null
@@ -166,7 +94,8 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "アフリカ進軍部隊"
+      "Troops heading",
+      "  for Africa"
     ],
     "TabSpace": null,
     "Size": null
@@ -175,7 +104,7 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "地上でのジオン掃討作戦が開始された。"
+      "Zeon mop-up operation on surface has begun."
     ],
     "TabSpace": null,
     "Size": null
@@ -184,8 +113,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "これは、ジオン地上部隊の拠点となっているアフリカと、",
-      "キャリフォルニア･ベースへの2大掃討作戦の総称である。"
+      "Its operation against Zeon ground forces",
+      "bases in Africa and California."
     ],
     "TabSpace": null,
     "Size": null
@@ -194,8 +123,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "アフリカへの掃討作戦参加のため、各地の部隊が",
-      "オデッサを第1集結点として、移動中である。"
+      "Units from whole Earth are gathering in",
+      "Odessa for African campaign."
     ],
     "TabSpace": null,
     "Size": null
@@ -204,8 +133,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "しかし、この後方にあたる砂漠地帯に、敵機動部隊が",
-      "潜伏しているとの情報が入った。"
+      "However, we obtained intel of enemy",
+      "forces hiding in desert on our rear."
     ],
     "TabSpace": null,
     "Size": null
@@ -214,8 +143,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "移動中の部隊への奇襲や、後方からの襲撃など、",
-      "あらゆるケースを想定した結果…"
+      "There is possibility of enemy attack ",
+      "against our convoys from rear."
     ],
     "TabSpace": null,
     "Size": null
@@ -224,8 +153,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "ユニット1に、この敵部隊の捜索、掃討にあたって",
-      "もらうことになった。"
+      "SRT-1 is tasked with locating and",
+      "and destroying those enemy forces."
     ],
     "TabSpace": null,
     "Size": null
@@ -234,8 +163,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "アフリカ掃討作戦の前哨戦として、友軍の士気向上の",
-      "ためにも、大きな戦果を期待する。"
+      "We hope for great results to improve",
+      "morale before African campaign."
     ],
     "TabSpace": null,
     "Size": null
@@ -244,7 +173,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "では、ユニット1の健闘を祈る！"
+      "Good hunting, SRT-1!"
     ],
     "TabSpace": null,
     "Size": null

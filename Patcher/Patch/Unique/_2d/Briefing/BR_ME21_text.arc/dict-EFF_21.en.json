@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "制限時間内に攻撃目標を全滅",
-      "ミデアの防衛　／　敵部隊の全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Destroy enemies withing timelimit",
+      "Defend Medea and destroy enemies"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,17 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破　／　時間オーバー",
-      "防衛目標の全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS or Medea",
+      "Time over"
     ],
     "TabSpace": null,
     "Size": null
@@ -77,28 +23,10 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "すみやかに攻撃目標を全て破壊し、",
-      "ミデア着陸のために滑走路を確保せよ。",
-      "その後、ミデアを防衛しつつ、担当区画の",
-      "敵部隊を全滅せよ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Quickly destroy enemy forces and",
+      "secure runaway for Medea.",
+      "Protect Medea while destroying",
+      "enemy forces."
     ],
     "TabSpace": null,
     "Size": null
@@ -116,7 +44,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "掃討作戦"
+      "Mop-up operation"
     ],
     "TabSpace": null,
     "Size": null
@@ -134,7 +62,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "滑走路確保"
+      "Secure the Runaway"
     ],
     "TabSpace": null,
     "Size": null
@@ -152,7 +80,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "施設破壊"
+      "Destroy facility"
     ],
     "TabSpace": null,
     "Size": null
@@ -170,7 +98,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "ミデア輸送機"
+      "Medea Transport"
     ],
     "TabSpace": null,
     "Size": null
@@ -179,7 +107,7 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "ジオン掃討作戦は、順調に推移しているといえるだろう。"
+      "Zeon mop-up is proceeding smoothly."
     ],
     "TabSpace": null,
     "Size": null
@@ -188,8 +116,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "キャリフォルニア･ベース奪還部隊も、",
-      "ついに基地周辺へと到達していた。"
+      "California Base Recapture Force has",
+      "finally reached the vicinity of base."
     ],
     "TabSpace": null,
     "Size": null
@@ -198,7 +126,7 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "ユニット1は、空軍施設の占拠を担当せよ。"
+      "SRT-1 is tasked with seizing airport."
     ],
     "TabSpace": null,
     "Size": null
@@ -207,8 +135,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "ここに、友軍の制圧部隊を載せたミデア輸送機が",
-      "強行着陸を試みる。"
+      "Medea transport carrying friendly forces",
+      "will perform combat landing."
     ],
     "TabSpace": null,
     "Size": null
@@ -217,8 +145,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "作戦の第一段階として、ユニット1は突入後、すみやかに、",
-      "滑走路付近の防空、管制施設を優先攻撃目標として破壊。"
+      "As first stage, SRT-1 will immediately",
+      "destroy air defense and control facilities."
     ],
     "TabSpace": null,
     "Size": null
@@ -227,8 +155,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "ミデア輸送機の着陸までに、第一段階を達成せよ。",
-      "その後、第二段階として、ミデアの護衛を行え。"
+      "Complete first stage before Medea lands.",
+      "As second stage, protect Medea."
     ],
     "TabSpace": null,
     "Size": null
@@ -237,8 +165,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "担当となる空軍施設に存在する敵部隊制圧も念頭に置き、",
-      "持てる力の全てを出し切って戦って欲しい。"
+      "Give it all you got to supress enemy",
+      "air defence in your assigned area."
     ],
     "TabSpace": null,
     "Size": null
@@ -247,8 +175,8 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "尚、基地中枢施設や、宇宙施設への突入も同時に開始される。",
-      "別部隊が基地の中枢施設を押さえた時点で、我軍の勝利だ。"
+      "Base HQ and spaceport will be assailted simultaneusly.",
+      "Once all objectives are completed, we will be victorious."
     ],
     "TabSpace": null,
     "Size": null
@@ -257,7 +185,7 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "では、ユニット1の健闘を祈る！"
+      "Good hunting, SRT-1!"
     ],
     "TabSpace": null,
     "Size": null

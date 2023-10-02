@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "敵部隊の全滅",
-      "対空警戒施設の防衛"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Search and Destroy",
+      "Defend AA"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,17 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
-      "一定以上の防衛目標の破壊"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.",
+      "Lose of too many AA."
     ],
     "TabSpace": null,
     "Size": null
@@ -78,24 +24,6 @@
     "Text": null,
     "Lines": [
       ""
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
     ],
     "TabSpace": null,
     "Size": null
@@ -113,7 +41,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "ジャブロー本部"
+      "Jaburo HQ"
     ],
     "TabSpace": null,
     "Size": null
@@ -131,7 +59,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "ガウ編隊"
+      "Gau Fleet"
     ],
     "TabSpace": null,
     "Size": null
@@ -149,7 +77,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "MS降下部隊"
+      "MS airdrop"
     ],
     "TabSpace": null,
     "Size": null
@@ -167,7 +95,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "ジャブロー施設"
+      "Jaburo Facility"
     ],
     "TabSpace": null,
     "Size": null
@@ -176,8 +104,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "連邦軍総司令本部「ジャブロー」では、来るべき宇宙での",
-      "最終決戦にむけた準備が、着々と進められている。"
+      "EFF forces at Jaburo are preparing for",
+      "upcoming offensive in space."
     ],
     "TabSpace": null,
     "Size": null
@@ -186,8 +114,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "増強されるMS部隊の要請により、諸君らのように早期から",
-      "実戦参加している部隊にレクチャーをと考えていたのだが…"
+      "Due to build up of MS forces, experienced test",
+      "pilots will provide training for fresh units."
     ],
     "TabSpace": null,
     "Size": null
@@ -196,8 +124,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "敵地上部隊最大の拠点「キャリフォルニア･ベース」から、",
-      "ガウ攻撃空母の大編隊が、こちらに向かっているらしい。"
+      "Large fleet of Gau Carriers is heading toward",
+      "us from California, largest enemy ground base."
     ],
     "TabSpace": null,
     "Size": null
@@ -206,8 +134,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "基地守備隊も全力で応戦するが、宇宙へ向けての装備である",
-      "MS部隊をここで消耗するわけにはいかない。"
+      "Base trops will mobilize, but we can't lose",
+      "MS units prepared for space offensive."
     ],
     "TabSpace": null,
     "Size": null
@@ -216,8 +144,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "ユニット1は、地上に出て敵の降下部隊を迎撃。",
-      "対空防衛のための施設を守りつつ、敵部隊の侵攻を防げ。"
+      "SRT-1 is to head to surface, intercept aidrop,",
+      "and protect AA facilities."
     ],
     "TabSpace": null,
     "Size": null
@@ -226,7 +154,8 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "歴戦のMS部隊である、ユニット1の活躍に期待する！"
+      "We look forward to seeing performance of ",
+      "Mobile Suit veterans of SRT-1!"
     ],
     "TabSpace": null,
     "Size": null
