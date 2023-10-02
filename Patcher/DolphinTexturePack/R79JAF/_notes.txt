@@ -1,4 +1,2 @@
 ﻿ME01 chat names
-each mission has its own texture? but only ME01 displays names?
-Only on first occurence of character maybe?
 tex1_256x256_d99ec15a885f41f8_3
