@@ -310,7 +310,8 @@ D_WeaponName = {
         {
 		code = "4PM", 
 		excode = "WP_4PM", 
-		name = "Quad Missle Launcher", --guntank hands?
+		--quad missle?!
+		name = "Quad Missle Launcher",
                 bullet_type = "Conventional",
                 type = "－",
                 comment = "Fixed", 
@@ -319,7 +320,8 @@ D_WeaponName = {
         {
 		code = "4GR", 
 		excode = "WP_4GR", 
-		name = "Quad Gun Launcher",  --wtf?!
+		--guntank hands?
+		name = "Quad Gun Launcher",
                 bullet_type = "Conventional",
                 type = "－",
                 comment = "Fixed", 

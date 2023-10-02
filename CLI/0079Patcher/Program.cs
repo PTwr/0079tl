@@ -4,10 +4,12 @@ using U8;
 using System.Xml;
 using XBFLib;
 using Newtonsoft.Json;
+using InMemoryBinaryFile.Helpers;
+using System.Reflection.Metadata.Ecma335;
 
 internal class Program
 {
-    [Verb("prepare", HelpText = "Extracts human-readable form for translation.")]
+    [Verb("mission", HelpText = "Extracts human-readable form for translation.")]
     public class ExtractionOptions
     {
         [Option('i', "input", Required = true, HelpText = "Directory containing unpacked game files")]
@@ -272,7 +274,6 @@ internal class Program
             }
             else if (node.IsXbf)
             {
-                Console.WriteLine("XBF: " + inputDir + "/" + node.Name);
                 var xmlenpath = Path.Combine(patchDir, node.Path);
                 xmlenpath = xmlenpath.Replace(".xbf", $".xbf.{languageCode}.xml");
 
@@ -285,7 +286,7 @@ internal class Program
                 {
                     //var xbf = (node as XbfRootSegment);
                     var xbf = new XbfRootSegment(XbfRootSegment.ShouldBeUTF8(xmlenpath));
-                    xbf.Parse(node.BinaryData.AsSpan());
+                    xbf.Parse(node.BinaryData.AsSpan(), node.BinaryData.AsSpan());
                     doc = xbf.NodeTree.XmlDocument;
                 }
 
@@ -350,6 +351,7 @@ internal class Program
 
                 var newData = parsed.GetBytes().ToArray();
 
+                Console.WriteLine("XBF: " + inputDir + "/" + node.Name);
                 updated |= !newData.SequenceEqual(node.BinaryData);
 
                 offsetChange -= node.BinaryData.Length;
@@ -362,7 +364,6 @@ internal class Program
             {
                 byte[] newData = null;
 
-                Console.WriteLine("LUA: " + inputDir + "/" + node.Name);
                 var patchfile = Path.Combine(patchDir, node.Path);
                 patchfile = patchfile.Replace(".lua", $".{languageCode}.lua");
 
@@ -382,13 +383,52 @@ internal class Program
                     if (File.Exists(commonfile))
                     {
                         newData = File.ReadAllBytes(commonfile);
+                        patchfile = commonfile;
                     }
                 }
 
                 if (newData != null)
                 {
+                    //try to match patch file length
+                    if (newData.Length > node.BinaryData.Length)
+                    {
+                        var dataReadAsText = File.ReadAllText(patchfile);
+
+                        var lines = dataReadAsText
+                            .Split('\x0D', '\x0A');
+
+                        var trimmedLines = lines
+                            .Select(i => i.Trim()) //ignore formatting
+                            .Select(i => i.Replace(" = ", "=")) // unnecessary spaces in middle of dict lines
+                            .Where(i => !i.StartsWith("--")) //skip comments
+                            .Where(i => !string.IsNullOrWhiteSpace(i)) //skip empty lines
+                            ;
+
+                        var trimmedscript = string.Join("\x0D\x0A", trimmedLines);
+                        newData = trimmedscript.ToUTF8Bytes();
+
+                        //padd spaces to match lnegth without tweaking .arc
+                        if (newData.Length < node.BinaryData.Length)
+                        {
+                            var diff = node.BinaryData.Length - newData.Length;
+                            var spaces = Enumerable.Repeat((byte)0x20, diff).ToArray();
+                            newData = newData.Concat(spaces).ToArray();
+                        }
+                        else
+                        {
+                            Console.WriteLine("LUA trimming failed for: " + inputDir + "/" + node.Name);
+                        }
+                    }
+                    else
+                    { 
+                        var diff = node.BinaryData.Length - newData.Length;
+                        var spaces = Enumerable.Repeat((byte)0x20, diff).ToArray();
+                        newData = newData.Concat(spaces).ToArray();
+                    }
+
                     updated |= !newData.SequenceEqual(node.BinaryData);
 
+                    Console.WriteLine("LUA: " + inputDir + "/" + node.Name);
                     offsetChange -= node.BinaryData.Length;
                     offsetChange += newData.Length;
 

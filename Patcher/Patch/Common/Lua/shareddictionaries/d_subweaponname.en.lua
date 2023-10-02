@@ -29,10 +29,11 @@ D_SubWeaponName = {
                 name = "Chest Vulcan",
                 excode = "WP_BBM",
 	},
---	{
---              name = "Chest Multi-Launcher",
---              excode = "WP_MRG",
---	},
+    --was commented out?
+	{
+              name = "Chest Multi-Launcher",
+              excode = "WP_MRG",
+	},
 	{
                 name = "Arm Gatling Gun",
                 excode = "WP_NTA",
