@@ -1,39 +1,948 @@
 [
   {
     "ID": "OPENING_TEXT_A_00",
-    "Text": "A half century has passed..."
+    "Text": null,
+    "Lines": [
+      "A half-centry has passed..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_000",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
   },
   {
     "ID": "OPENING_TEXT_A_01",
-    "Text": "... since humanity began moving..."
+    "Text": null,
+    "Lines": [
+      "since humanity began moving..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_001",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
   },
   {
     "ID": "OPENING_TEXT_A_02",
-    "Text": "...its burgeoning population into space."
+    "Text": null,
+    "Lines": [
+      "its burgeoning population into space."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_002",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
   },
   {
     "ID": "OPENING_TEXT_A_03",
-    "Text": "These gigantic space cities..."
+    "Text": null,
+    "Lines": [
+      "Those gigantic space colonies..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_003",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
   },
   {
     "ID": "OPENING_TEXT_A_04",
-    "Text": "... orbiting the Earth..."
+    "Text": null,
+    "Lines": [
+      "orbiting the Earth..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_004",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
   },
   {
     "ID": "OPENING_TEXT_A_05",
-    "Text": "...became a second home to humanity..."
+    "Text": null,
+    "Lines": [
+      "became a second home to humanity..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_005",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
   },
   {
     "ID": "OPENING_TEXT_A_06",
-    "Text": "...where people were born..."
+    "Text": null,
+    "Lines": [
+      "where people were born..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_006",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
   },
   {
     "ID": "OPENING_TEXT_A_07",
-    "Text": "...and raised..."
+    "Text": null,
+    "Lines": [
+      " and raised..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_007",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
   },
   {
     "ID": "OPENING_TEXT_A_08",
-    "Text": "...and where they died."
+    "Text": null,
+    "Lines": [
+      "and where they died."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_008",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_009",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_010",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_011",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_012",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_013",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1..4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_00",
+    "Text": null,
+    "Lines": [
+      "It is the year 0079 of",
+      "the Universal Century."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_014",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_01",
+    "Text": null,
+    "Lines": [
+      "The furthest space colony from Earth,",
+      "known as Side 3..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_015",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_02",
+    "Text": null,
+    "Lines": [
+      "proclaimed itself the principality of Zeon."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_016",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_03",
+    "Text": null,
+    "Lines": [
+      "It launched a war of independence",
+      "against the Earth Federation."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_017",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_04",
+    "Text": null,
+    "Lines": [
+      "Zeon military while inferior in numbers..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_018",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_05",
+    "Text": null,
+    "Lines": [
+      "presented tremendous power",
+      "in close combat..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_019",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_06",
+    "Text": null,
+    "Lines": [
+      "by utilising electronic distruption",
+      "with Minovksy particles..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_020",
+    "Text": null,
+    "Lines": [
+      "and humanoid weapon known as",
+      "Mobile Suit..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_07",
+    "Text": null,
+    "Lines": [
+      "they achieved tactical superiority..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_021",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_08",
+    "Text": null,
+    "Lines": [
+      "and humiliated numerically superior",
+      "Earth Federation Forces."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_022",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_023",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_024",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_025",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_026",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_09",
+    "Text": null,
+    "Lines": [
+      "In roughly one month of fighting"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_027",
+    "Text": null,
+    "Lines": [
+      "the Principality of Zeon..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_10",
+    "Text": null,
+    "Lines": [
+      "and the Federation Forces..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_028",
+    "Text": null,
+    "Lines": [
+      "caused death of half of",
+      "total population."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_11",
+    "Text": null,
+    "Lines": [
+      "Not wanting prolonged war..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_029",
+    "Text": null,
+    "Lines": [
+      "Zeon forces don't stop their advance..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_12",
+    "Text": null,
+    "Lines": [
+      "and carry out landing operations..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_030",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_13",
+    "Text": null,
+    "Lines": [
+      "quickly conquering surface bases..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_031",
+    "Text": null,
+    "Lines": [
+      "and expanding their power."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_14",
+    "Text": null,
+    "Lines": [
+      "However..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_032",
+    "Text": null,
+    "Lines": [
+      "it was difficult to maintain",
+      "such extended front."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_B_15",
+    "Text": null,
+    "Lines": [
+      "The war became a stalemante..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_033",
+    "Text": null,
+    "Lines": [
+      "and more than half a have now passed."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_034",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_035",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_036",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_037",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_C_00",
+    "Text": null,
+    "Lines": [
+      "On the surface..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_038",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_C_01",
+    "Text": null,
+    "Lines": [
+      "Recovering from first crushing defeats..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_039",
+    "Text": null,
+    "Lines": [
+      "Earth Federation forces",
+      "are regaining initiative..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_C_02",
+    "Text": null,
+    "Lines": [
+      "while Zeon forces unfamiliar with surface..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_040",
+    "Text": null,
+    "Lines": [
+      "¶"
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_C_03",
+    "Text": null,
+    "Lines": [
+      "are suffering physical and mental exhaustion."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "Opening_Space_041",
+    "Text": null,
+    "Lines": [
+      "The battle with Zeon ground forces..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
+  },
+  {
+    "ID": "OPENING_TEXT_C_04",
+    "Text": null,
+    "Lines": [
+      "is about to enter a new phase..."
+    ],
+    "TabSpace": "1",
+    "Size": "1.4",
+    "PositionFlag": "273",
+    "CharSpace": "1",
+    "LineSpace": "1",
+    "Color": "-1"
   }
-  //TODO finish :)
 ]
