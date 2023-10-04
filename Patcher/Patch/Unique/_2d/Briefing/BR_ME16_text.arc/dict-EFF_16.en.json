@@ -22,7 +22,8 @@
     "Text": null,
     "Lines": [
       "Enemy force size is unknown.",
-      "Proceed with caution and adapt to situation."
+      "Proceed with caution and adapt",
+      "to situation."
     ],
     "TabSpace": null,
     "Size": null
@@ -61,7 +62,7 @@
       "Retreating enemies"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.6
   },
   {
     "ID": "BR_DATA_C_01",
@@ -94,8 +95,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "Troops heading",
-      "  for Africa"
+      "Toward Africa"
     ],
     "TabSpace": null,
     "Size": null

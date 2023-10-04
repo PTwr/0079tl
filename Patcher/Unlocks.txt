@@ -4,3 +4,8 @@ Ace Bernard Wiseman -> Versus Wiseman
 Ace Char -> Ace Ramba Ral, Versus Ramba
 Ace Ramba Ral -> Ace Gaia
 Ace Gaia -> Versus Gaia
+EFF story? -> Ace Yuu Kajima, Blue Destiny
+Yuu Kajima -> nothing?
+
+Suits: headshots after clearing story one time, continue from same save for new game+
+list of available ms in: MS_POINT_LIST.lua

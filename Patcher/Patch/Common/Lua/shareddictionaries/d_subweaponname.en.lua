@@ -9,11 +9,11 @@ D_SubWeaponName = {
                 excode = "WP_HBG",
 	},
 	{
-                name = "Hand Grenade (weak)",
+                name = "Hand Grenade",
                 excode = "WP_HG_",
 	},
 	{
-                name = "Hand Grenade (strong)",
+                name = "Hand Grenade+",
                 excode = "WP_HG2",
 	},
 	{
@@ -67,11 +67,11 @@ D_SubWeaponName = {
                 excode = "WP_CT1",
 	},
 	{
-                name = "MIP-B6 Cracker Grenade (Weak)",
+                name = "MIP-B6 Cracker Grenade",
                 excode = "WP_CA_",
 	},
 	{
-                name = "MIP-B6 Cracker Grenade (strong)",
+                name = "MIP-B6 Cracker Grenade+",
                 excode = "WP_CA2",
 	},
 	{

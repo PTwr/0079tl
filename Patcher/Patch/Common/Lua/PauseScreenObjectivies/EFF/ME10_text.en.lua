@@ -5,9 +5,9 @@ MissionText = {
 	},
 	{
 		code = "ME10_EV02",
-		value = "Enemy amphibious MS has been spotted!\
-Anti-submarine guns will be essiential\
-for defending docks.\
+		value = "Enemy amphibious MS has been!\
+spotted Anti-submarine guns will be\
+essiential for defending docks.\
 Protect as many guns as possible!",
 	},
 }

@@ -2,7 +2,7 @@ MissionText = {
 	{
 		code = "ME14_EV01",
 		value = "Conduct tests of new Mobile Suits\
-Conduct mock battle and collect data against
+Conduct mock battle and collect data against\
 Lil in GM Command, and Dennis in Guncannon",
 	},
 	{

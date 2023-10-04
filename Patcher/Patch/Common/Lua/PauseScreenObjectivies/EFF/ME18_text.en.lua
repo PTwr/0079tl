@@ -1,7 +1,8 @@
 MissionText = {
 	{
 		code = "ME18_EV01",
-		value = "Big Tray is essential for Africa cleanup operation.
+		value = "Big Tray is essential for Africa\
+cleanup operation.\
 We can't afford to lose it.\
 Protect it at all costs!",
 	},

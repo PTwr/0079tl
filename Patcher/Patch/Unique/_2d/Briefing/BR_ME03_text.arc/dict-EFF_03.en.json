@@ -2,7 +2,10 @@
   //sumary page OP_MxNN.arc
   {
     "ID": "OPERATION_WIN_CONTENT",
-    "Text": "Destroy target\nand reach extraction point"
+    "Lines": [
+      "Destroy target",
+      "and reach extraction point"
+    ]
   },
   {
     "ID": "OPERATION_LOSS_CONTENT",
@@ -14,8 +17,10 @@
   {
     "ID": "OPERATION_COMMENT_CONTENT",
     "Lines": [
-      "Eliminate as many enemy units as possible",
-      "Extraction possible after meeting requirements"
+      "Eliminate as many enemy units",
+      "as possible.",
+      "Extraction possible after",
+      "meeting requirements."
     ]
   },
   //intel page BR_MxNN.arc

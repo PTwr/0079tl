@@ -2,294 +2,335 @@
 D_MissionName = {
 	{
 		code = "ME01", 
-		name = "First battle in moonlight", 
+		name = "ME01 First battle in moonlight", 
                 map = "Seattle",
 		difficulty = "EASY",
 	        date="0079/10/06"
 	},
 	{
 		code = "ME02", 
-		name = "Gunshots among dunes", 
+		name = "ME02 Gunshots among dunes", 
                 map = "Desert area",
 		difficulty = "EASY",
 	        date="0079/10/10"
 	},
 	{
 		code = "ME03", 
-		name = "Giant shadow in haze", 
+		name = "ME03 Giant shadow in haze", 
                 map = "African mining base",
 		difficulty = "NORMAL",
 	        date="0079/10/25",
 	},
 	{
 		code = "ME04", 
-		name = "硝煙は雨に溶けて", 
+		--8th MS team, SRT-1 ambushes Aina in her flying bunker
+		--The smoke dissolves into the rain
+		name = "ME04 Smoke in the rain", 
                 map = "Valley",
 		difficulty = "NORMAL",
-	        date="0079/10月下旬",
+	        date="0079/10/late",
 	},
 	{
 		code = "ME05", 
-		name = "昇る反撃の狼煙", 
+		--The rising smoke of a counterattack
+		name = "ME05 Flames of counterattack", 
                 map = "Odessa Suburbs",
 		difficulty = "NORMAL",
 	        date="0079/11/09",
 	},
 	{
 		code = "ME06", 
-		name = "闇に放たれし猟犬", 
+		--Hound released into the darkness
+		name = "ME06 Hounds in darkness", 
                 map = "Odessa Suburbs",
 		difficulty = "NORMAL",
 	        date="0079/11/10",
 	},
 	{
 		code = "ME07", 
-		name = "澄んだ夜空に舞う炎", 
+		--Flames dancing in the clear night sky
+		name = "ME07 Burning night", 
                 map = "Desert area",
 		difficulty = "NORMAL",
 	        date="0079/11/11",
 	},
 	{
 		code = "ME08", 
-		name = "死さえも覆う非情の雪原", 
+		--A ruthless snow field that covers even death
+		name = "ME08 Deadly frost", 
                 map = "Snowfield Area",
 		difficulty = "NORMAL",
 	        date="0079/11/13",
 	},
 	{
 		code = "ME09", 
-		name = "震える山、死の光", 
+		--Trembling mountain, death light
+		--8th MS team, siege, "The Shuddering Mountain, Part I"
+		name = "ME09 Shuddering Mountain 1",
                 map = "Lhasa Base",
 		difficulty = "NORMAL",
-	        date="0079/11月下旬",
+	        date="0079/11/late",
 	},
 	{
 		code = "ME10", 
-		name = "波音は遠く聞こえず", 
+		--The sound of waves can't be heard far away
+		name = "ME10 Silent waves", 
                 map = "Belfast Base",
 		difficulty = "NORMAL",
 	        date="0079/11/24",
 	},
 	{
 		code = "ME11", 
-		name = "霧の中の死闘", 
+		--Death struggle in the fog
+		name = "ME11 Deathly fog", 
                 map = "Valley・Area 526",
 		difficulty = "NORMAL",
-	        date="0079/11月下旬",
+	        date="0079/11/late",
 	},
 	{
 		code = "ME12", 
-		name = "緑の地獄と激戦の炎", 
+		--Green hell and fierce battle flames
+		name = "ME12 Green hell", 
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/11/30",
 	},
 	{
 		code = "ME13", 
-		name = "地の底で眠りゆく者達", 
+		--Those who sleep in the depths of the earth
+		name = "ME13 Echoes", 
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/11/30",
 	},
 	{
 		code = "ME14", 
-		name = "鉄の獣は檻の中", 
+		--鉄の獣は檻の中
+		name = "ME14 Caged beast", 
                 map = "Valley",
 		difficulty = "NORMAL",
 	        date="0079/12/02",
 	},
 	{
 		code = "ME15", 
-		name = "白き雪と黒き罠", 
+		--white snow and black trap
+		name = "ME15 Chilly trap", 
                 map = "Snowfield Area",
 		difficulty = "NORMAL",
 	        date="0079/12/02",
 	},
 	{
 		code = "ME16", 
-		name = "怒りの咆哮は砂塵に霞む", 
+		--The roar of anger becomes hazy in the dust
+		name = "ME16 Anger in dust", 
                 map = "Desert area",
 		difficulty = "HARD",
 	        date="0079/12/04",
 	},
 	{
 		code = "ME17", 
-		name = "白銀に消えゆく魂", 
+		--A soul disappearing into silver
+		name = "ME17 Silver Soul", 
                 map = "Arctic Base",
 		difficulty = "HARD",
 	        date="0079/12/04",
 	},
 	{
 		code = "ME18", 
-		name = "朝露は激震に堕つ", 
+		--The morning dew turns into a violent earthquake
+		name = "ME18 Earthquake in Morning", 
                 map = "Odessa Suburbs",
 		difficulty = "HARD",
 	        date="0079/12/06",
 	},
 	{
 		code = "ME19", 
-		name = "廃墟に潜みし悪魔", 
+		--The devil lurks in the ruins
+		name = "ME19 Hidden Devil", 
                 map = "Seattle",
 		difficulty = "HARD",
 	        date="0079/12/12",
 	},
 	{
 		code = "ME20", 
-		name = "死の鷹は舞い降りた", 
+		--The hawk of death has descended
+		--Hawk of Endymion? :D
+		name = "ME20 Hawk of Death", 
                 map = "African mining base",
 		difficulty = "HARD",
 	   date="0079/12/13 ",
 	},
 	{
 		code = "ME21", 
-		name = "悠久の闘争、刹那の終焉", 
+		--Eternal struggle, fleeting end
+		name = "ME21 Eternal Struggle", 
                 map = "California Base",
 		difficulty = "HARD",
 	        date="0079/12/15",
 	},
 	{
 		code = "MZ01", 
-		name = "灼髪の獅子", 
+		name = "MZ01 灼髪の獅子", 
                 map = "Desert area",
 		difficulty = "EASY",
 	        date="0079/11/01",
 	},
 	{
 		code = "MZ02", 
-		name = "オデッサ・デイ", 
+		--Burnt haired lion
+		name = "MZ02 Desert Lion", 
                 map = "Odessa Suburbs",
 		difficulty = "EASY",
 	        date="0079/11/07",
 	},
 	{
 		code = "MZ03", 
-		name = "決断のとき", 
+		--time of decision
+		name = "MZ03 Deciding Time", 
                 map = "Odessa Suburbs",
 		difficulty = "NORMAL",
 	        date="0079/11/08",
 	},
 	{
 		code = "MZ04", 
-		name = "ダークネス・ブルー", 
+		--Darkness Blue
+		name = "MZ04 Darkness Blue", 
                 map = "Belfast Base",
 		difficulty = "NORMAL",
 	        date="0079/11/13",
 	},
 	{
 		code = "MZ05", 
-		name = "雪原の迷走", 
+		name = "MZ05 雪原の迷走", 
                 map = "Snowfield Area",
 		difficulty = "NORMAL",
 	        date="0079/11/11",
 	},
 	{
 		code = "MZ06", 
-		name = "廃墟の亡霊", 
+		--Lost in the snowfield
+		name = "MZ06 Lost in Snowfield", 
                 map = "Seattle",
 		difficulty = "NORMAL",
 	        date="0079/11/19",
 	},
 	{
 		code = "MZ07", 
-		name = "破壊の女神", 
+		--goddess of destruction
+		name = "MZ07 Goddess of Destruction", 
                 map = "Valley・Area 526",
 		difficulty = "NORMAL",
 	        date="0079/11月中旬",
 	},
 	{
 		code = "MZ08", 
-		name = "偽装、大争奪戦", 
+		--Disguise, big battle
+		name = "MZ08 Ambush", 
                 map = "Valley",
 		difficulty = "NORMAL",
 	        date="0079/11/24",
 	},
 	{
 		code = "MZ09", 
-		name = "極東の攻防", 
+		--Battle of the Far East
+		name = "MZ09 Battle for Far East", 
                 map = "Lhasa Base",
 		difficulty = "NORMAL",
-	        date="0079/11月下旬",
+	        date="0079/11/late",
 	},
 	{
 		code = "MZ10", 
-		name = "ジャブロー、死の降下作戦", 
+		--Jaburo, Death Descent Operation
+		name = "MZ10 Jaburo Descent", 
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/11/30",
 	},
 	{
 		code = "MZ11", 
-		name = "地下空洞の激闘", 
+		--Fierce battle in the underground cavern
+		name = "MZ11 Cavernous Battle", 
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/11/30",
 	},
 	{
 		code = "MZ12", 
-		name = "脱出へのタイムリミット", 
+		--Time limit to escape
+		name = "MZ12 Time Limit", 
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/11/30",
 	},
 	{
 		code = "MZ13", 
-		name = "襲い掛かる猛獣", 
+		--A fierce beast that attacks
+		name = "MZ13 Fierce Beast", 
                 map = "Valley",
 		difficulty = "NORMAL",
 	        date="0079/12/03",
 	},
 	{
 		code = "MZ14", 
-		name = "後方に憂いを", 
+		--Sorrow behind me
+		name = "MZ14 Sorrow", 
                 map = "Seattle",
 		difficulty = "NORMAL",
 	        date="0079/12/04",
 	},
 	{
 		code = "MZ15", 
-		name = "ジオンのものはオレのもの", 
+		--What belongs to Zeon is mine
+		--Zeon's is mine
+		name = "MZ15 I am Zeon", 
                 map = "Lhasa Base",
 		difficulty = "HARD",
 	        date="0079/12/04",
 	},
 	{
 		code = "MZ16", 
-		name = "さよならは突然に", 
+		--Goodbye is sudden? Goodbye suddenly?
+		name = "MZ16 Sudden Farewell", 
                 map = "California Base",
 		difficulty = "HARD",
 	        date="0079/12/15",
 	},
 	{
 		code = "MZ17", 
-		name = "極限の撤退戦", 
+		--extreme retreat? ultimate retreat battle?
+		name = "MZ17 Final Retreat", 
                 map = "Desert area",
 		difficulty = "HARD",
 	        date="0079/12/05",
 	},
 	{
 		code = "MZ18", 
-		name = "最後の脱出路", 
+		--last escape route? the final escape route?
+		name = "MZ18 Last Escape", 
                 map = "Snowfield Area",
 		difficulty = "HARD",
 	        date="0079/12/18",
 	},
 	{
 		code = "MZ19", 
-		name = "受け入れし者たち", 
+		--those who accept
+		name = "MZ19 Acceptance", 
                 map = "African mining base",
 		difficulty = "HARD",
 	        date="0079/12/12",
 	},
 	{
 		code = "MZ20", 
-		name = "宇宙(そら)への帰還…", 
+		--Return to space...
+		name = "MZ20 Return to Space", 
                 map = "Arctic Base",
 		difficulty = "HARD",
 	        date="0079/12/20",
 	},
 	{
 		code = "MZ21", 
-		name = "大地の鎮魂歌（レクイエム）", 
+		--Requiem for the Earth
+		name = "MZ21 Requiem for Earth", 
                 map = "African mining base",
 		difficulty = "HARD",
 	        date="0080/01/01",

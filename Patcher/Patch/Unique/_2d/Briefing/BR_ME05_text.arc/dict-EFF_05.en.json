@@ -10,13 +10,13 @@
   {
     "ID": "OPERATION_LOSS_CONTENT",
     "Lines": [
-      "Destruction of your MS",
-      "Destruction of Lil Summer MS",
-      "Destruction of Big Tray"
+      "Destruction of your MS or Big Tray",
+      "Destruction of Lil Summer MS"
     ]
   },
   {
     "ID": "OPERATION_COMMENT_CONTENT",
+    "TabSpace": 3,
     "Lines": [
       "Respond flexibily to changing situtation"
     ]
@@ -45,8 +45,7 @@
   {
     "ID": "BR_DATA_C_02",
     "Lines": [
-      "Big Tray",
-      "landship"
+      "Big Tray landship"
     ]
   },
   {
@@ -56,8 +55,7 @@
   {
     "ID": "BR_DATA_D_02",
     "Lines": [
-      "Dobday",
-      "Landship"
+      "Dobday Landship"
     ]
   },
   {

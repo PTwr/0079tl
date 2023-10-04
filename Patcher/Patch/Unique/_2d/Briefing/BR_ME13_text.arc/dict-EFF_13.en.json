@@ -27,7 +27,7 @@
       "offensive, but they are inexperienced.",
       "Support them if possible."
     ],
-    "TabSpace": null,
+    "TabSpace": 3,
     "Size": null
   },
   {
@@ -46,7 +46,7 @@
       "Enemy infiltration"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.6
   },
   {
     "ID": "BR_DATA_B_01",
@@ -64,7 +64,7 @@
       "Jaburo Underground"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.6
   },
   {
     "ID": "BR_DATA_C_01",
@@ -82,7 +82,7 @@
       "Interception squad"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.7
   },
   {
     "ID": "BR_DATA_D_01",

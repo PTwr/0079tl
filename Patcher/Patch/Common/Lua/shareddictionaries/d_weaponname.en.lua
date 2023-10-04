@@ -25,7 +25,7 @@ D_WeaponName = {
 		name = "GM Machine Gun", 
                 bullet_type = "Conventional",
                 type = "One handed",
-                comment = "Grenade launcher will replace ＳＵＢ２", 
+                comment = "Grenade launcher\nwill replace ＳＵＢ２", 
 		cost = 10, 
 	},
 	{
@@ -169,7 +169,7 @@ D_WeaponName = {
 		name = "ＭＭＰ Machine Gun", 
                 bullet_type = "Conventional",
                 type = "One handed",
-                comment = "Grenade launcher will replace ＳＵＢ２", 
+                comment = "Grenade launcher\nwill replace ＳＵＢ２", 
 		cost = 10, 
 	},
 	{
@@ -229,7 +229,7 @@ D_WeaponName = {
 	{
 		code = "BZS", 
 		excode = "WP_BZS", 
-		name = "Scattering Beam Cannon (Dwadge)", 
+		name = "380mm Giant Bazooka", 
                 bullet_type = "Conventional",
                 type = "Shoulder",
                 comment = "Splash damage", 
@@ -238,7 +238,7 @@ D_WeaponName = {
 	{
 		code = "BZ2", 
 		excode = "WP_BZ2", 
-		name = "cattering Beam Cannon Ⅱ", 
+		name = "380mm Giant Bazooka Ⅱ", 
                 bullet_type = "Conventional",
                 type = "Shoulder",
                 comment = "Splash damage", 
@@ -310,7 +310,7 @@ D_WeaponName = {
         {
 		code = "4PM", 
 		excode = "WP_4PM", 
-		--quad missle?!
+		--Guntank Hands
 		name = "Quad Missle Launcher",
                 bullet_type = "Conventional",
                 type = "－",
@@ -320,7 +320,7 @@ D_WeaponName = {
         {
 		code = "4GR", 
 		excode = "WP_4GR", 
-		--guntank hands?
+		--Other guntank? Its fixed not shoulder
 		name = "Quad Gun Launcher",
                 bullet_type = "Conventional",
                 type = "－",

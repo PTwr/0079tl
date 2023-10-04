@@ -13,6 +13,7 @@
   },
   {
     "ID": "OPERATION_COMMENT_CONTENT",
+    "TabSpace": 4,
     "Lines": [
       "Respond flexibily to changing situtation"
     ]
@@ -24,6 +25,8 @@
   },
   {
     "ID": "BR_DATA_A_02",
+    "TabSpace": 0,
+    "Size": 0.6,
     "Text": "Operation completed"
   },
   {
@@ -32,6 +35,7 @@
   },
   {
     "ID": "BR_DATA_B_02",
+    "Size": 0.7,
     "Text": "Routed enemies"
   },
   {

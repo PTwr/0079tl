@@ -2540,7 +2540,7 @@
   },
   {
     "ID": "ROOT_PERFORMANCE",
-    "Text": "達成度"
+    "Text": "PROGRESS"
   },
   {
     "ID": "ROOT_PERFORMANCE_VALUE",
@@ -3364,19 +3364,23 @@
   },
   {
     "ID": "RESULT_MSG_WIN_00",
-    "Text": "@RESULT_MSG_WIN_00@ is now\navailable."
+    "Text": "@RESULT_MSG_WIN_00@\n is now navailable."
   },
   {
     "ID": "RESULT_MSG_WIN_01",
-    "Text": "@RESULT_MSG_WIN_01@ is now available for use by Zeon forces."
+    "Text": "@RESULT_MSG_WIN_01@\n is now available for use by Zeon forces."
   },
   {
     "ID": "RESULT_MSG_WIN_02",
-    "Text": "@RESULT_MSG_WIN_02@ is now available for\nFederal forces."
+    "Text": "@RESULT_MSG_WIN_02\n is now available for Federal forces."
   },
   {
     "ID": "RESULT_MSG_WIN_03",
-    "Text": "The unit cost is now @RESULT_MSG_WIN_03@!\nLet's organize while considering the\ncost of the MS and weapons that will be deployed!"
+    "Lines": [
+      "The unit cost limit is now @RESULT_MSG_WIN_03@!",
+      "Reorganize your team",
+      "to make use of new limit!"
+    ]
   },
   {
     "ID": "RESULT_MSG_WIN_04",
@@ -3399,7 +3403,7 @@
   },
   {
     "ID": "RESULT_MSG_WIN_08",
-    "Text": "You can now capture enemy aircraft!\nYou can capture enemy aircraft by performing a headshot in Snipe mode."
+    "Text": "You can now capture enemy suits!\nYBy performing headshot in Snipe mode."
   },
   {
     "ID": "Staff_Cast_Title",
@@ -4391,11 +4395,17 @@
   },
   {
     "ID": "SALLY_WIN_03",
-    "Text": "For this mission, Lil and Dennis will be deployed at the gym as part of data collection."
+    "Lines": [
+      "For this mission, Lil and Dennis will be ",
+      "deployed in GM as part of data collection."
+    ]
   },
   {
     "ID": "SALLY_WIN_04",
-    "Text": "As with the previous battle, when Lil and Dennis go out,\nyou will be asked to use the gym."
+    "Lines": [
+      "For this mission, Lil and Dennis will be ",
+      "deployed in GM as part of data collection."
+    ]
   },
   {
     "ID": "SALLY_WIN_05",
@@ -5128,7 +5138,7 @@
   },
   {
     "ID": "INFO_MSRESULT_01",
-    "Text": "We have successfully acquired the enemy's MS (mobile suit).\nYou can use it as a weapon for your own unit in the future."
+    "Text": "We have successfully acquired the enemy's Mobile Suit.\nYou can use it as a weapon for your own unit in the future."
   },
   {
     "ID": "INFO_MSRESULT_02",
