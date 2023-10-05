@@ -23,8 +23,9 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "Destroy all targets in assigned area withing",
-      "time limit, then escape through underground river."
+      "Destroy all targets in assigned area",
+      "within time limit, then escape",
+      "through underground river."
     ],
     "TabSpace": null,
     "Size": null

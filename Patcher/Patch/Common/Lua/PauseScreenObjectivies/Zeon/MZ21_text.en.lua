@@ -2,7 +2,7 @@ MissionText = {
 	{
 		code = "MZ21_EV01",
 		value = "Destroy radar site\
-or Hallop will be found out!\
+or Gallop will be found out!\
 Defeat all enemies within time limit.",
 	},
 	{
@@ -17,7 +17,7 @@ You only get one chance!",
 	},
 	{
 		code = "MZ21_EV04",
-		value = "Gallop began it escape.\
+		value = "Gallop began its escape.\
 Until it leaves,\
 protect it at all costs.",
 	},

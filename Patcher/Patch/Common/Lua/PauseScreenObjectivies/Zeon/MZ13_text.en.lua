@@ -3,7 +3,7 @@ MissionText = {
 		code = "MZ13_EV01",
 		value = "Locate new enemy MS.\
 This is enemy base, time is limited.\
-Defeant enemy MS withing time.",
+Defeat enemy MS withing time.",
 	},
 	{
 		code = "MZ13_EV02",

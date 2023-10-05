@@ -22,8 +22,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "Eliminate anit-air defenses in assigned",
-      "area."
+      "Eliminate anit-air defenses in ",
+      "assigned area."
     ],
     "TabSpace": null,
     "Size": null
@@ -152,7 +152,7 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "This battle will decide fate of Zeon groun forces"
+      "This battle will decide fate of Zeon ground forces."
     ],
     "TabSpace": null,
     "Size": null
@@ -171,7 +171,7 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "We count on you, Brayer's Team"
+      "We are counting on you, Brayer's Team!"
     ],
     "TabSpace": null,
     "Size": null

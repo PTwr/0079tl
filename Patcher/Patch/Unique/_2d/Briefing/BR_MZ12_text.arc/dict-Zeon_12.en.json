@@ -65,7 +65,7 @@
       "Friendly transport"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.6
   },
   {
     "ID": "BR_DATA_C_01",
@@ -83,7 +83,7 @@
       "Secure rendezvous"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.6
   },
   {
     "ID": "BR_DATA_D_01",
@@ -98,7 +98,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "Return"
+      "Retreat"
     ],
     "TabSpace": null,
     "Size": null
