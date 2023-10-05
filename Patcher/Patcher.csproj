@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Patch\Unique\_2d\Briefing\PROLOGUE_MAP_ME_text.arc\" />
-  </ItemGroup>
-
 </Project>

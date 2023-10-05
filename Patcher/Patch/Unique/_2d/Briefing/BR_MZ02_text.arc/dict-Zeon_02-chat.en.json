@@ -1,14 +1,5 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz042",
     "Text": null,
     "Lines": [
@@ -144,7 +135,7 @@
     "ID": "evz704",
     "Text": null,
     "Lines": [
-      "了解！"
+      "Roger that!"
     ],
     "TabSpace": null,
     "Size": null

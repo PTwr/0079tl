@@ -1,19 +1,10 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz002_01",
     "Text": null,
     "Lines": [
-      "俺がこの小隊の隊長、レオ・ブラウアー少尉だ。",
-      "よろしくな。"
+      "I'm the commander of this platoon, 2nd Lieutenant",
+      "Leo Brauer. Nice to meet you."
     ],
     "TabSpace": null,
     "Size": null
@@ -22,9 +13,9 @@
     "ID": "evz003_01",
     "Text": null,
     "Lines": [
-      "クラウス・ベルトラン曹長です。",
-      "主に部隊の運営面、事務的な部分で隊長をサポートしていますが、",
-      "本職はMSパイロットです。"
+      "I'm sergeant Klaus Bertrand.",
+      "I mainly support captain with administrative job.",
+      "My real job is a MS pilot, though."
     ],
     "TabSpace": null,
     "Size": null
@@ -33,9 +24,9 @@
     "ID": "evz004_01",
     "Text": null,
     "Lines": [
-      "隊長と、副隊長ってわけだな？　俺はトルド・ボブロフ軍曹。",
-      "開戦以来の叩き上げのMSパイロットだ。",
-      "まぁ、これからよろしく頼むぜ。"
+      "So there's a captain and a vice-captain, right?",
+      "I'm Sergeant Tord Bobrov. I've been MS pilot since",
+      "the start. Well, I'll be counting on you from now on."
     ],
     "TabSpace": null,
     "Size": null
@@ -44,7 +35,7 @@
     "ID": "evz005_01",
     "Text": null,
     "Lines": [
-      "そりゃ、心強いな。　よろしく頼むぜ、トルド軍曹。"
+      "That's reassuring. thank you, Seargant Tord."
     ],
     "TabSpace": null,
     "Size": null
@@ -53,9 +44,9 @@
     "ID": "evz006_01",
     "Text": null,
     "Lines": [
-      "じ、自分は、アン・フリーベリ二等兵です。",
-      "ち、地球は初めてで…、実戦も初めてで…。",
-      "ご、ご、ご迷惑おかけしますが、これからよろしくお願いします！"
+      "I-I'm private Anne Friberg. Its my first time on",
+      "Earth... and my first actual combat. I'm sorry for",
+      "the inconvenience, I look forward to working together."
     ],
     "TabSpace": null,
     "Size": null
@@ -64,9 +55,9 @@
     "ID": "evz007_01",
     "Text": null,
     "Lines": [
-      "よろしくな、フリーベリ二等兵。",
-      "君の戦闘オペレーターとしての適性は、とても高いと聞いている。",
-      "期待してるぜ？"
+      "Nice to meet you private Friberg.",
+      "I hear you aptitude as combat operator is high.",
+      "I'm looking forward to seeing it, aren't I？"
     ],
     "TabSpace": null,
     "Size": null
@@ -75,8 +66,8 @@
     "ID": "evz007_02",
     "Text": null,
     "Lines": [
-      "まぁ、まずは、もう少しリラックスしてくれ。",
-      "ブラウアー隊で、固いのはナシだ。"
+      "Well, first of all, please relax a little.",
+      "There is nothing stiff about Brauer's Team."
     ],
     "TabSpace": null,
     "Size": null
@@ -85,8 +76,8 @@
     "ID": "evz008_01",
     "Text": null,
     "Lines": [
-      "レオ。　最初から規律を乱すようなことを…。",
-      "もう少し隊長らしく、威厳をもってだなぁ…。"
+      "Leo, I think you should act more dignified.",
+      "You are distrupting discipline from start..."
     ],
     "TabSpace": null,
     "Size": null
@@ -95,8 +86,8 @@
     "ID": "evz009_01",
     "Text": null,
     "Lines": [
-      "まぁまぁ、クラウス。　そう固いこと言うなよ。",
-      "戦地では、部隊は家族みたいなもんだろ？"
+      "Oh, Klaus, don't be so harsh.",
+      "On battlefield unit is like a family, right？"
     ],
     "TabSpace": null,
     "Size": null
@@ -105,8 +96,8 @@
     "ID": "evz010_01",
     "Text": null,
     "Lines": [
-      "家族…か…。",
-      "隊長！　わたし、精一杯頑張ります！"
+      "Family...?",
+      "I'll do my best, Captain！"
     ],
     "TabSpace": null,
     "Size": null
@@ -115,9 +106,9 @@
     "ID": "evz011_01",
     "Text": null,
     "Lines": [
-      "はっはっはっは…！　いいねぇ、若いってのは。",
-      "気に入ったぜ隊長さん。",
-      "俺もせいぜい、頑張らせてもらうとするかね。"
+      "Hahhahahaha! Its nice being young...",
+      "I like it, Captain.",
+      "I guess I'll try my best as well."
     ],
     "TabSpace": null,
     "Size": null
@@ -126,8 +117,9 @@
     "ID": "evz012_01",
     "Text": null,
     "Lines": [
-      "あぁ。　トルド、アン、頼んだぜ？",
-      "さて、新生ブラウアー隊の初任務だ。　各員、出撃準備！"
+      "Ah.Tord, Ann, I'm counting on you, right?",
+      "Now, its time for first mission of new Brauer's Team！",
+      "Everyone, prepare for sortie!"
     ],
     "TabSpace": null,
     "Size": null
@@ -136,18 +128,7 @@
     "ID": "evz703_01",
     "Text": null,
     "Lines": [
-      "了解！"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "test",
-    "Text": null,
-    "Lines": [
-      "１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０",
-      "１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０",
-      "１２３４５６７８９０１２３４５６７８９０１２３４５６７８９"
+      "Roger that!"
     ],
     "TabSpace": null,
     "Size": null

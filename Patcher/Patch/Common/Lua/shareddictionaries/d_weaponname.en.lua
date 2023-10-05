@@ -292,7 +292,7 @@ D_WeaponName = {
 	{
 		code = "OGR", 
 		excode = "WP_OGR", 
-		name = "Large Gatgling Gun", 
+		name = "Large Gatling Gun", 
                 bullet_type = "Conventional",
                 type = "Two handed",
                 comment = "Damage +２０％ when sniping", 
