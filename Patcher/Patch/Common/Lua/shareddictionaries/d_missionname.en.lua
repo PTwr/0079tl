@@ -170,15 +170,15 @@ D_MissionName = {
 	},
 	{
 		code = "MZ01", 
-		name = "MZ01 灼髪の獅子", 
+		--Burnt haired lion
+		name = "MZ01 Desert Lion", 
                 map = "Desert area",
 		difficulty = "EASY",
 	        date="0079/11/01",
 	},
 	{
 		code = "MZ02", 
-		--Burnt haired lion
-		name = "MZ02 Desert Lion", 
+		name = "MZ02 Odessa Day", 
                 map = "Odessa Suburbs",
 		difficulty = "EASY",
 	        date="0079/11/07",
@@ -201,15 +201,16 @@ D_MissionName = {
 	},
 	{
 		code = "MZ05", 
-		name = "MZ05 雪原の迷走", 
+		--Lost in the snowfield
+		name = "MZ05 Lost in Snowfield", 
                 map = "Snowfield Area",
 		difficulty = "NORMAL",
 	        date="0079/11/11",
 	},
 	{
 		code = "MZ06", 
-		--Lost in the snowfield
-		name = "MZ06 Lost in Snowfield", 
+		--Ghost of Ruins
+		name = "MZ06 Ghost of Ruins", 
                 map = "Seattle",
 		difficulty = "NORMAL",
 	        date="0079/11/19",

@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "通信施設を時間内に破壊",
-      "敵部隊の全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Destroy comnet in time",
+      "Search and Destroy"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,16 +13,7 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS."
     ],
     "TabSpace": null,
     "Size": null
@@ -76,27 +22,9 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "宇宙への脱出の為、シャトルを強奪せよ。",
-      "通信施設を一定時間内に無効化し、",
-      "その後、敵守備隊を全滅させろ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Protect shuttle until launch.",
+      "Destroy comnet in time.",
+      "Destory enemy garrison."
     ],
     "TabSpace": null,
     "Size": null
@@ -114,7 +42,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "北極"
+      "Arctic"
     ],
     "TabSpace": null,
     "Size": null
@@ -132,7 +60,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "連邦軍北極基地"
+      "EFF Arctic Base"
     ],
     "TabSpace": null,
     "Size": null
@@ -150,7 +78,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "シャトル"
+      "Space Shuttle"
     ],
     "TabSpace": null,
     "Size": null
@@ -168,7 +96,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "宇宙脱出へ"
+      "Escape to Space!"
     ],
     "TabSpace": null,
     "Size": null
@@ -177,7 +105,7 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "宇宙脱出へのプラン、第二段階だ。"
+      "This is the second stage of our plan to escape to space."
     ],
     "TabSpace": null,
     "Size": null
@@ -186,7 +114,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "偽装したミデアで敵の北極基地を強襲し、シャトルを奪う。"
+      "Assault EFF North Pole base with disguised Medea and",
+      "steal Space Shuttle."
     ],
     "TabSpace": null,
     "Size": null
@@ -195,8 +124,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "この基地は、先日、友軍の特殊部隊が襲撃を成功させており、",
-      "基地守備隊にかなりの打撃を与えたことが確認されている。"
+      "Recently this base was successfully attacked by",
+      "friendly special forces. Garrison is weakened."
     ],
     "TabSpace": null,
     "Size": null
@@ -205,7 +134,7 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "ここもまた、時間との勝負だ。"
+      "Once again, its race against time."
     ],
     "TabSpace": null,
     "Size": null
@@ -214,8 +143,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "突入後、素早く全ての通信施設を破壊せよ。",
-      "その後、地下通路への入り口を捜索、ここより内部に潜入。"
+      "Quickly destroy all communication facilities,",
+      "then locate entrance to underground passage."
     ],
     "TabSpace": null,
     "Size": null
@@ -224,8 +153,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "地下通路を突破して、リフトを登れば、シャトル発射場だ。",
-      "発射場の守備隊さえ制圧してしまえばこちらの勝ちだ。"
+      "Break through underground passage and reach lift to",
+      "launch site, and secure it."
     ],
     "TabSpace": null,
     "Size": null
@@ -234,8 +163,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "今なら連邦の軌道部隊の動きもトレースできている。",
-      "宇宙への脱出は、これがラストチャンスだと思ってくれ。"
+      "We are tracking movement of EFF orbital forces.",
+      "This is your last chance to return to space."
     ],
     "TabSpace": null,
     "Size": null
@@ -244,7 +173,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "ブラウアー隊、頼んだぞ！"
+      "Brauer's team, we're counting on you!"
     ],
     "TabSpace": null,
     "Size": null

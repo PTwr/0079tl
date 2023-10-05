@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "全攻撃目標の破壊",
-      "敵部隊の全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Destroy all targets",
+      "Search and Destroy"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,16 +13,7 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS."
     ],
     "TabSpace": null,
     "Size": null
@@ -76,26 +22,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "司令塔であるビッグ･トレー、物資コンテナ、",
-      "そして敵進軍ルートの橋を全て破壊せよ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Destroy Big Tray, command tower, supply",
+      "containers, and bridges on enemy route."
     ],
     "TabSpace": null,
     "Size": null
@@ -113,7 +41,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "降下作戦失敗"
+      "Failed assault"
     ],
     "TabSpace": null,
     "Size": null
@@ -131,7 +59,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "宇宙へ"
+      "To Space!"
     ],
     "TabSpace": null,
     "Size": null
@@ -149,7 +77,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "ビッグ・トレー"
+      "Big Tray"
     ],
     "TabSpace": null,
     "Size": null
@@ -167,7 +95,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "橋・コンテナ"
+      "Bridge/Suppliers"
     ],
     "TabSpace": null,
     "Size": null
@@ -176,8 +104,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "我軍は、ジャブロー降下作戦の失敗により、温存していた",
-      "戦力のほとんどを失ってしまった。"
+      "Most of our remaiing ground forces were",
+      "lost in failed assault on Jaburo."
     ],
     "TabSpace": null,
     "Size": null
@@ -186,8 +114,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "連邦は、地上での戦況の不動を確信し、主戦場を宇宙へと",
-      "移しつつある。"
+      "Federation is confident in their superiority",
+      "on ground, and is perparing for space campaign."
     ],
     "TabSpace": null,
     "Size": null
@@ -196,8 +124,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "我々は、宇宙での戦いに友軍が勝利し、再び地上への攻勢に",
-      "転じるまで耐え抜くしかない。"
+      "We must wait for our allies to win in sapce",
+      "before resuming ground offensive."
     ],
     "TabSpace": null,
     "Size": null
@@ -206,8 +134,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "連邦は地上においても、キャリフォルニア･ベースの奪還を",
-      "始めとする大規模な作戦を準備中のようだ。"
+      "Federation is confident in their superiority",
+      "on ground, and is perparing for space campaign."
     ],
     "TabSpace": null,
     "Size": null
@@ -216,8 +144,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "現在、キャリフォルニア･ベース攻略に向けて、シアトルに",
-      "敵部隊の補給ポイントが構築されつつある。"
+      "Enemy established supply depot in Seattle",
+      "in preparation for attack on California Base."
     ],
     "TabSpace": null,
     "Size": null
@@ -226,8 +154,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "ここの指揮所である、ビッグ･トレー級陸戦艇と、",
-      "備蓄された物資コンテナを破壊して欲しい。"
+      "Destroy command point, Big Tray landship,",
+      "and resource depot."
     ],
     "TabSpace": null,
     "Size": null
@@ -236,8 +164,8 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "また、敵が移動するときに使うであろう「橋」を落せ。",
-      "これで、進攻の足を鈍らせることが出来るはずだ。"
+      "Destroy bridges along enemy route to",
+      "slow their advance."
     ],
     "TabSpace": null,
     "Size": null
@@ -246,8 +174,8 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "戦場の調律師と噂される、",
-      "ブラウアー隊の活躍に期待している。"
+      "You are rumored to be our miracle workers.",
+      "We are looking forward to your success."
     ],
     "TabSpace": null,
     "Size": null

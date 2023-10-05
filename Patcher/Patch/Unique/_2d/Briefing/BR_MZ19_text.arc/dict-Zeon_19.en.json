@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "敵部隊の全滅",
-      "ギャロップの防衛"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Search and Destroy",
+      "Defend Gallop"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,17 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
-      "ギャロップの破壊"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.",
+      "Destruction of Gallop"
     ],
     "TabSpace": null,
     "Size": null
@@ -77,26 +23,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "ギャロップの安全確保を最優先として、",
-      "敵の追撃部隊を全滅させよ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Protecting Gallop is top priority!",
+      "Defeat enemy pursuit."
     ],
     "TabSpace": null,
     "Size": null
@@ -114,7 +42,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "アフリカ戦線"
+      "African front"
     ],
     "TabSpace": null,
     "Size": null
@@ -132,7 +60,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "部隊"
+      "Allied forces"
     ],
     "TabSpace": null,
     "Size": null
@@ -150,7 +78,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "撤退"
+      "Retreat"
     ],
     "TabSpace": null,
     "Size": null
@@ -168,7 +96,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "ギャロップ"
+      "Gallop"
     ],
     "TabSpace": null,
     "Size": null
@@ -177,7 +105,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "連邦軍のジオン掃討作戦は、山場を迎えている。"
+      "Federation mop-up operations are reaching",
+      "their climax."
     ],
     "TabSpace": null,
     "Size": null
@@ -186,8 +115,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "キャリフォルニア･ベースは陥落。",
-      "アフリカでは、地下に潜み、敵をやり過ごすしかない。"
+      "California Base has fallen.",
+      "We have no choice but hide in Africa."
     ],
     "TabSpace": null,
     "Size": null
@@ -196,8 +125,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "いずれくる反撃の日を信じて、",
-      "今はこの屈辱に耐えるしかないのだ。"
+      "For now, we have no choice but to endure this",
+      "humilitation, awaiting chance for counterattack."
     ],
     "TabSpace": null,
     "Size": null
@@ -206,8 +135,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "現在、北部にて最後まで連邦の進軍を阻んでいた部隊が",
-      "撤退し、受け入れを求めている。"
+      "Troops that were stopping Federation advance from ",
+      "north are now withdrawing and seek acceptance to shelter."
     ],
     "TabSpace": null,
     "Size": null
@@ -216,8 +145,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "他の基地は、これを尊い犠牲として黙殺するつもりだ。",
-      "ここで基地の場所が発覚すれば、共倒れになりかねない。"
+      "Other bases intend to sacrifice them to avoid",
+      "detection by Federation forces."
     ],
     "TabSpace": null,
     "Size": null
@@ -226,8 +155,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "ギャロップを受け入れるなら、別座標で合流し、",
-      "追撃する敵部隊を完全に駆逐する必要があるだろう。"
+      "If we accept Gallop, we will need to meet up at",
+      "different coordinates, and completly destroy pursuit."
     ],
     "TabSpace": null,
     "Size": null
@@ -236,7 +165,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "ブラウアー隊、君たちにしか出来ない仕事だ…。"
+      "Brauer's Team, you're the only one who can do it!"
     ],
     "TabSpace": null,
     "Size": null

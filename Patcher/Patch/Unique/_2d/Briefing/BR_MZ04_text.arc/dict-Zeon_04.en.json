@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "規定時間内に、攻撃目標を全滅",
-      "友軍の一定数以上離脱　／　敵部隊の全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Eliminate targets withing time limit",
+      "Enough allies escape or all enemy destroyed"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,17 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破　／　時間オーバー",
-      "防衛目標の一定数以上撃破"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.／Time Over",
+      "Lost too many allies."
     ],
     "TabSpace": null,
     "Size": null
@@ -77,26 +23,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "すみやかに攻撃目標の敵施設を全滅。",
-      "その後、友軍の撤退を支援せよ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Quickly anihilate enemy defences.",
+      "Afterwards escort friendly forces."
     ],
     "TabSpace": null,
     "Size": null
@@ -114,7 +42,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "友軍支援"
+      "Escort allies"
     ],
     "TabSpace": null,
     "Size": null
@@ -132,7 +60,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "ヨーロッパ海域"
+      "European coast"
     ],
     "TabSpace": null,
     "Size": null
@@ -150,7 +78,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "対潜迎撃設備"
+      "Anti-Sub torpedoes"
     ],
     "TabSpace": null,
     "Size": null
@@ -168,7 +96,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "ルート確保"
+      "Secure the route"
     ],
     "TabSpace": null,
     "Size": null
@@ -177,8 +105,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "オデッサの敗退により、我軍の指揮命令系統は、",
-      "未だに混乱したままである。"
+      "Due to defeat at Odessa, our millitary's chain",
+      "of command is still in disaray."
     ],
     "TabSpace": null,
     "Size": null
@@ -187,8 +115,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "オデッサをはじめ、欧州の各地で撤退を開始した友軍に対し、",
-      "まともに支援さえ行うことができないのが現状だ。"
+      "We are not even able to properly support our",
+      "forces retreating from Odessa and rest of Europe."
     ],
     "TabSpace": null,
     "Size": null
@@ -197,7 +125,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "陸路での脱出を断念し、海路による脱出を試みる部隊がある。"
+      "Some units gave up on land routes and",
+      "attempt to escape by sea."
     ],
     "TabSpace": null,
     "Size": null
@@ -206,8 +135,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "この部隊は、敵のベルファスト基地近辺に潜伏しており、",
-      "隙を見て港施設を利用して脱出しようとしている。"
+      "This unit hiding near enemy's Belfast base is",
+      "trying to use this opportunity to escape via port."
     ],
     "TabSpace": null,
     "Size": null
@@ -216,7 +145,7 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "ブラウアー隊には、この部隊の脱出支援を依頼したい。"
+      "Brauer's Team is tasked with escort duties."
     ],
     "TabSpace": null,
     "Size": null
@@ -225,8 +154,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "敵基地を強襲し、脱出時の障害になる対潜攻撃設備を破壊。",
-      "その後、友軍の撤収までの護衛と陽動を行って欲しい。"
+      "Assault enemy defences and destroy torpedoe",
+      "emplacements, and protect friendly forces"
     ],
     "TabSpace": null,
     "Size": null
@@ -235,8 +164,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "連邦へ反撃を行うためにも、今は少しでも多くの友軍を",
-      "救出し、態勢を立て直さなくてはならない。"
+      "We must rescue as many friendly forces as",
+      "possible before counterattacking."
     ],
     "TabSpace": null,
     "Size": null
@@ -245,7 +174,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "頼んだぞ、ブラウアー隊。"
+      "We count on you, Brayer's Team"
     ],
     "TabSpace": null,
     "Size": null

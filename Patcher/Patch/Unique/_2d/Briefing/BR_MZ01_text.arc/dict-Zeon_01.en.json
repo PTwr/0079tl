@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "ミデア輸送機を一定数以上撃墜",
-      "敵陸上戦力の全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Shoot down Medea transports",
+      "and eliminate ground troops."
     ],
     "TabSpace": null,
     "Size": null
@@ -58,17 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
-      "目標が一定数以上離脱"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.",
+      "Too many Medea escapes."
     ],
     "TabSpace": null,
     "Size": null
@@ -92,15 +38,6 @@
     "Size": null
   },
   {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "BR_DATA_A_01",
     "Text": null,
     "Lines": [
@@ -113,7 +50,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "ミデア輸送機"
+      "Medea Transport"
     ],
     "TabSpace": null,
     "Size": null
@@ -131,7 +68,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "ゴビ砂漠"
+      "Gobi Desert"
     ],
     "TabSpace": null,
     "Size": null
@@ -149,7 +86,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "木馬"
+      "Trojan Horse"
     ],
     "TabSpace": null,
     "Size": null
@@ -176,8 +113,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "しばらく膠着状態が続いていたが、ここにきて各地の",
-      "連邦部隊に不穏な動きが見受けられる。"
+      "There has been stalmate for months, but",
+      "now we noticed EFF forces movements."
     ],
     "TabSpace": null,
     "Size": null
@@ -186,8 +123,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "偵察隊の情報で、ミデア輸送機を中核とした敵輸送部隊の",
-      "移動が確認された。"
+      "Reconnaissance team has spotted enemy",
+      "convoy centered on Medea transports."
     ],
     "TabSpace": null,
     "Size": null
@@ -196,7 +133,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "極東方面より欧州に向けて、砂漠地帯の横断を狙っている。"
+      "They will cross desert heading toward",
+      "Europe from Far East."
     ],
     "TabSpace": null,
     "Size": null
@@ -205,7 +143,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "敵の狙いは不明だが、黙って通してやることもない。"
+      "Enemy intentions are unknown, but we",
+      "can't allow them to pass quietly."
     ],
     "TabSpace": null,
     "Size": null
@@ -214,8 +153,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "この付近では、最近噂の「木馬」の目撃情報があり、",
-      "それを追撃中の「ランバ・ラル」隊も展開している。"
+      "Trojan Horse has been spotted in this area.",
+      "Ramba Ral squad will be passing by in pursuit."
     ],
     "TabSpace": null,
     "Size": null
@@ -224,8 +163,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "諸君らは、敵輸送部隊の予想ルート上にて待機。",
-      "通過するミデア輸送機を奇襲し、可能な限り撃墜せよ。"
+      "Intercept enemy transit route, prepare an",
+      "ambush, and shoot down Medea transports."
     ],
     "TabSpace": null,
     "Size": null
@@ -234,8 +173,8 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "敵地上部隊の展開も考えられるが、旧時代的な戦闘車両など",
-      "我軍のMSの前では赤子同然だ。"
+      "Eneme ground forces are expected, but such",
+      "obsolete units won't stand a chance against MS."
     ],
     "TabSpace": null,
     "Size": null
@@ -244,7 +183,7 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "では、ブラウアー隊の健闘を祈る！"
+      "Then, I wish Brauer's team good luck!"
     ],
     "TabSpace": null,
     "Size": null

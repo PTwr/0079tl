@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "アプサラスの捜索、防衛",
-      "敵部隊の全滅"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Locate and Defend Apsaras",
+      "Search and Destroy"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,17 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破　／　時間オーバー",
-      "アプサラスの破壊"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS／Time Over",
+      "Destruction of Apsaras"
     ],
     "TabSpace": null,
     "Size": null
@@ -77,26 +23,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "現場では、敵部隊の展開も確認されている。",
-      "敵より先にアプサラスを確保せよ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Enemy patrols have been spotted.",
+      "Secure Apsaras before enemy forces."
     ],
     "TabSpace": null,
     "Size": null
@@ -132,7 +60,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "エリア526"
+      "Area 526"
     ],
     "TabSpace": null,
     "Size": null
@@ -168,7 +96,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "別働隊接近"
+      "Another squad"
     ],
     "TabSpace": null,
     "Size": null
@@ -177,8 +105,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "ジオン極東方面軍の拠点の1つである、ラサ基地で",
-      "開発されていた新兵器が、テスト中に消息を絶った。"
+      "At Zeon far eastern Lhasa Base a new",
+      "weapon has been lost during test flight."
     ],
     "TabSpace": null,
     "Size": null
@@ -187,7 +115,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "場所は、射爆場として使用されていたエリア526の渓谷だ。"
+      "Incident occured in Valley of Area 526,",
+      "our bombing range."
     ],
     "TabSpace": null,
     "Size": null
@@ -196,8 +125,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "本来ならラサ基地から捜索隊を出すところなのだが、",
-      "周辺の敵部隊活性化に伴い、戦力を割けない状態だ。"
+      "Normalyl Lhasa Base would send out search",
+      "party, but enemy activities prevents that."
     ],
     "TabSpace": null,
     "Size": null
@@ -206,8 +135,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "この新兵器は、強力なメガ粒子砲を備え、特殊技術による",
-      "長距離単独飛行を実現するべく開発されていたもので、"
+      "New weapon employs powerful mega particle",
+      "cannon and new tech for long-distance attacks."
     ],
     "TabSpace": null,
     "Size": null
@@ -216,8 +145,8 @@
     "ID": "BR_INFO_B_03",
     "Text": null,
     "Lines": [
-      "完成すれば、連邦の総司令本部「ジャブロー」攻略さえ、",
-      "実現可能になると言われている。"
+      "Once completed, it should allow us to",
+      "capture Federation HQ at Jaburo."
     ],
     "TabSpace": null,
     "Size": null
@@ -226,8 +155,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "最悪の場合、敵にデータを渡さないために自爆することが",
-      "テストパイロットには義務付けられているが、"
+      "Once completed, it should allow us to",
+      "capture Federation HQ at Jaburo."
     ],
     "TabSpace": null,
     "Size": null
@@ -236,8 +165,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "地上での戦況を変えうる兵器と言うのであれば、",
-      "なんとか、回収したいところだ。"
+      "In worst case scenario, pilot will have to engage",
+      "self-destruct to protect our military secrets."
     ],
     "TabSpace": null,
     "Size": null
@@ -246,8 +175,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "現場では、敵部隊も展開し始めている。",
-      "敵より先に目標を発見し、防衛してくれ。"
+      "Its a weapon that can change the course of war.",
+      "We must recover it at all costs."
     ],
     "TabSpace": null,
     "Size": null
@@ -256,7 +185,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "頼んだぞ、ブラウアー隊。"
+      "We count on you, Brayer's Team"
     ],
     "TabSpace": null,
     "Size": null

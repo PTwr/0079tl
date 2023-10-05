@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "敵部隊の全滅",
-      "ダブデを離脱まで護衛"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Search and Destroy",
+      "Escord Dobday"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,17 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
-      "ダブデの破壊"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.",
+      "Destruction of Dobday"
     ],
     "TabSpace": null,
     "Size": null
@@ -78,24 +24,6 @@
     "Text": null,
     "Lines": [
       ""
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
     ],
     "TabSpace": null,
     "Size": null
@@ -113,7 +41,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "オデッサ"
+      "Odessa"
     ],
     "TabSpace": null,
     "Size": null
@@ -131,7 +59,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "友軍"
+      "Friendly forces"
     ],
     "TabSpace": null,
     "Size": null
@@ -149,7 +77,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "ダブデ級陸戦艇"
+      "Dobday landship"
     ],
     "TabSpace": null,
     "Size": null
@@ -167,7 +95,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "敵機動部隊"
+      "Enemy task force"
     ],
     "TabSpace": null,
     "Size": null
@@ -176,8 +104,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "我軍最大の採掘基地であったオデッサは、",
-      "連邦の反攻作戦の前に、陥落してしまった。"
+      "Odessa, our largest mining base, has",
+      "been lost to Federation's counterattack."
     ],
     "TabSpace": null,
     "Size": null
@@ -186,8 +114,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "基地司令のマ・クベ少佐は、いち早く本国に送れるだけの",
-      "物資を最優先で打ち上げ、脱出に成功している。"
+      "Commander M'Quve prioritized launching supplies",
+      "homeward and already escaped."
     ],
     "TabSpace": null,
     "Size": null
@@ -196,8 +124,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "オデッサに取り残された友軍は、それぞれの判断により",
-      "脱出を試みているが、連邦の包囲は厚い。"
+      "Friendly forces stranded in Odessa are attempting",
+      "to break through Federation encirclement."
     ],
     "TabSpace": null,
     "Size": null
@@ -206,8 +134,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "指揮系統の立て直しが最優先だが、",
-      "そうも言ってられない状態となっている。"
+      "Reestablishing chain of command is top priority,",
+      "but we are not in position to accomplish that."
     ],
     "TabSpace": null,
     "Size": null
@@ -216,8 +144,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "ダブデ級陸戦艇を中核とした友軍の部隊が、敵包囲網の",
-      "手薄な部分をつき、強行突破を図ろうとしている。"
+      "Dobday landship leads friendly forces breaking",
+      "through encirclement weakspot."
     ],
     "TabSpace": null,
     "Size": null
@@ -226,8 +154,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "ダブデ級陸戦艇は、我軍の地上部隊にとって、",
-      "貴重な戦力だ。"
+      "Dobday landship is valuable asset to our",
+      "ground forces."
     ],
     "TabSpace": null,
     "Size": null
@@ -236,8 +164,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "ブラウアー隊は、ダブデの脱出を支援するべく、",
-      "進行ルートの敵部隊を排除して欲しい。"
+      "Brauer's team is to eliminate enemy forces",
+      "along Dobday route."
     ],
     "TabSpace": null,
     "Size": null
@@ -246,7 +174,8 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "なんとしてでも、ダブデを無事に戦線より離脱させてくれ。"
+      "Dobday has to safely leave combat zone.",
+      "Protect it at all costs!"
     ],
     "TabSpace": null,
     "Size": null
@@ -255,7 +184,7 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "頼んだぞ、ブラウアー隊。"
+      "We count on you, Brayer's Team"
     ],
     "TabSpace": null,
     "Size": null

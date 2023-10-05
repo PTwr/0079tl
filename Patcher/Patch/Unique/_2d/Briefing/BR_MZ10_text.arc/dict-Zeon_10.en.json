@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "攻撃目標の全滅",
-      "担当区画内の敵の排除"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Destroy all targets",
+      "Eliminate enemis in area"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,16 +13,7 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS."
     ],
     "TabSpace": null,
     "Size": null
@@ -76,26 +22,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "担当区画内の対空砲、監視施設など",
-      "降下部隊の脅威対象を全て排除せよ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Eliminate anit-air defenses in assigned",
+      "area."
     ],
     "TabSpace": null,
     "Size": null
@@ -113,7 +41,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "ジャブロー"
+      "Jaburo"
     ],
     "TabSpace": null,
     "Size": null
@@ -131,7 +59,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "降下作戦"
+      "Infiltration"
     ],
     "TabSpace": null,
     "Size": null
@@ -149,7 +77,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "ジャブロー降下作戦"
+      "Battle for Jaburo"
     ],
     "TabSpace": null,
     "Size": null
@@ -167,7 +95,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "敵ＭＳ部隊"
+      "Enemy MS"
     ],
     "TabSpace": null,
     "Size": null
@@ -176,7 +104,7 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "連邦軍の総司令本部「ジャブロー」の位置が特定された。"
+      "Federation HQ 「Jaburo」 has been located."
     ],
     "TabSpace": null,
     "Size": null
@@ -185,8 +113,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "キャリフォルニア･ベースは、これを攻勢のチャンスとし、",
-      "総攻撃を決定した。"
+      "California Base uses this opportunity to launch",
+      "an all-out attack"
     ],
     "TabSpace": null,
     "Size": null
@@ -195,8 +123,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "集められる限りのMS部隊と、輸送のためのガウの準備を",
-      "しており、大降下作戦を決行予定である。"
+      "We are preparing as many MS as we can load on Gau",
+      "for overwhelming drop operation."
     ],
     "TabSpace": null,
     "Size": null
@@ -205,7 +133,7 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "諸君ら、ブラウアー隊にもこの作戦に参加して欲しい。"
+      "Gentlemen, I would like Brauer Team to join this operation."
     ],
     "TabSpace": null,
     "Size": null
@@ -214,8 +142,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "先発隊のガウに搭乗し、目標上空から降下。",
-      "主力部隊到着前に、地上にある対空迎撃施設を破壊してくれ。"
+      "Board advance team's Gau and airdrop on target.",
+      "Destroy AA emplacements before main force arrives."
     ],
     "TabSpace": null,
     "Size": null
@@ -224,8 +152,7 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "この戦いは、まさしくジオン地上部隊の命運を決める重要な",
-      "ものとなる。"
+      "This battle will decide fate of Zeon groun forces"
     ],
     "TabSpace": null,
     "Size": null
@@ -234,8 +161,8 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "危険な任務だが、諸君らならやり遂げられるものと",
-      "信じている。"
+      "Its dangerous mission, but we are confident in your",
+      "abilities."
     ],
     "TabSpace": null,
     "Size": null
@@ -244,7 +171,7 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "頼んだぞ、ブラウアー隊。"
+      "We count on you, Brayer's Team"
     ],
     "TabSpace": null,
     "Size": null

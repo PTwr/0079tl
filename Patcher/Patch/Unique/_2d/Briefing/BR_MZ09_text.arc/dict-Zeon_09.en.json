@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "量産型ガンタンクを全滅",
-      "目標達成後、制限時間内に撤退"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Destroy Gun Tanks",
+      "Withdraw within time limit"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,17 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
-      "撤退許可後の時間オーバー"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.",
+      "Failure to escape in time"
     ],
     "TabSpace": null,
     "Size": null
@@ -77,25 +23,7 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "状況に応じて、柔軟に対処せよ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+       "Be flexible and respond according to the situation."
     ],
     "TabSpace": null,
     "Size": null
@@ -113,7 +41,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "ラサ基地"
+      "Lhasa Base"
     ],
     "TabSpace": null,
     "Size": null
@@ -131,7 +59,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "ザンジバル"
+      "Zanzibar"
     ],
     "TabSpace": null,
     "Size": null
@@ -149,7 +77,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "敵ＭＳ部隊"
+      "Enemy MS"
     ],
     "TabSpace": null,
     "Size": null
@@ -167,7 +95,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "タンクタイプ"
+      "Tank type"
     ],
     "TabSpace": null,
     "Size": null
@@ -176,7 +104,7 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "ラサ基地に対する、連邦軍の包囲攻撃が開始された。"
+      "Federation has laid siege to Lhasa Base."
     ],
     "TabSpace": null,
     "Size": null
@@ -185,7 +113,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "敵の物量はすさまじく、もはや陥落は時間の問題である。"
+      "Enemy has superior numbers, it is only",
+      "matter of time before base falls."
     ],
     "TabSpace": null,
     "Size": null
@@ -194,8 +123,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "基地内では、ザンジバル級機動巡洋艦による脱出準備が",
-      "開始されている。"
+      "Preparations to evacuate with Zanzibar",
+      "cruiser have begun."
     ],
     "TabSpace": null,
     "Size": null
@@ -204,8 +133,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "しかし連邦は、基地攻略のために、市街地に多数の",
-      "タンクタイプの長距離砲撃型MSを配置している。"
+      "Federation deployed numerous artillery",
+      "pieces in urban area to bombard the base."
     ],
     "TabSpace": null,
     "Size": null
@@ -214,8 +143,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "ビームライフル装備の機体も確認されており、これらの",
-      "集中砲火を受ければ、ザンジバルといえど撃墜は必至だ。"
+      "Beam-armed MS have been spotted. Under their",
+      "concentrated fire even Zanizbar will be shot down."
     ],
     "TabSpace": null,
     "Size": null
@@ -224,8 +153,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "そこで、諸君らには市街地に展開するタンクタイプのMSの",
-      "破壊を優先目標とし、ラサ基地の支援を行ってもらいたい。"
+      "Support Lhasa Base and destroy enemy artillery",
+      "MS deployed in urban area."
     ],
     "TabSpace": null,
     "Size": null
@@ -234,8 +163,8 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "基地守備隊と協力し、目標をすみやかに破壊。",
-      "その後、敵の包囲が縮まる前に戦線を離脱してくれ。"
+      "Cooperate with base garrison to quickly destroy",
+      "targets, then retreat before base falls."
     ],
     "TabSpace": null,
     "Size": null
@@ -244,8 +173,8 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "危険な任務だが、諸君らならやり遂げられるものと",
-      "信じている。　頼んだぞ、ブラウアー隊。"
+      "It's dangerous task, but we know you'll accomplish it.",
+      "We are counting on you, Brauer Squad!"
     ],
     "TabSpace": null,
     "Size": null

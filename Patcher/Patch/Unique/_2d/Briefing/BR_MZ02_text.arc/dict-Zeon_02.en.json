@@ -1,54 +1,9 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "ガウ攻撃空母の警護"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Protect Gau Carrier"
     ],
     "TabSpace": null,
     "Size": null
@@ -57,17 +12,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
-      "ガウ攻撃空母の破壊"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.",
+      "Destruction of Gau Carrier"
     ],
     "TabSpace": null,
     "Size": null
@@ -76,26 +22,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "敵に不穏な動きが見られる。",
-      "十分に注意して警護にあたれ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Enemy actions are suspicious.",
+      "Stay vigilant."
     ],
     "TabSpace": null,
     "Size": null
@@ -113,7 +41,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "オデッサ近郊"
+      "Near Odessa"
     ],
     "TabSpace": null,
     "Size": null
@@ -131,7 +59,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "採掘物資輸送"
+      "Resource transport"
     ],
     "TabSpace": null,
     "Size": null
@@ -149,7 +77,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "ガウ攻撃空母"
+      "Gau Carrier"
     ],
     "TabSpace": null,
     "Size": null
@@ -167,7 +95,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "オデッサ近郊"
+      "Near Odessa"
     ],
     "TabSpace": null,
     "Size": null
@@ -176,7 +104,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "現在、連邦軍は各地で散漫な戦闘行動を開始している。"
+      "EFF forces have begun harrasment operations",
+      "in various arreas."
     ],
     "TabSpace": null,
     "Size": null
@@ -185,8 +114,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "敵の狙いは未だ不明だが、欧州方面で何かしらの作戦行動を",
-      "計画しているものと推測される。"
+      "Enemy objectives are unknown, but its",
+      "presumed to be operation in Europe."
     ],
     "TabSpace": null,
     "Size": null
@@ -195,7 +124,7 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "これに対し、我軍の各基地では迎撃態勢を整えつつある。"
+      "In response, our forces will intercept."
     ],
     "TabSpace": null,
     "Size": null
@@ -204,8 +133,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "それにより、欧州における採掘基地からの物資輸送の",
-      "警備の手が足りなくなっている。"
+      "As a result security of resource transport",
+      "has gotten thin."
     ],
     "TabSpace": null,
     "Size": null
@@ -214,8 +143,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "そこでブラウアー隊は、オデッサ近郊にて輸送待機している",
-      "ガウ攻撃空母の警備にあたってもらう。"
+      "Brauer's team will protect Gau carrier",
+      "awaiting for carge near Odessa."
     ],
     "TabSpace": null,
     "Size": null
@@ -224,7 +153,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "滑走路周辺の哨戒を行いつつ、ガウの離陸まで護衛せよ。"
+      "Patrol vicinity of runway, and escort",
+      "Gau carrier during takeoff."
     ],
     "TabSpace": null,
     "Size": null
@@ -233,7 +163,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "また、敵と遭遇した際は、これをすみやかに排除せよ。"
+      "Intercept and eliminate enemy forces."
     ],
     "TabSpace": null,
     "Size": null
@@ -242,7 +172,7 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "では、ブラウアー隊の健闘を祈る！"
+      "Then, I wish Brauer's team good luck!"
     ],
     "TabSpace": null,
     "Size": null

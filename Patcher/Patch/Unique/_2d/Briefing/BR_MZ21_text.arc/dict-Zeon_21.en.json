@@ -1,54 +1,9 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "ギャロップ脱出のための陽動"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Divert enemies from Gallop"
     ],
     "TabSpace": null,
     "Size": null
@@ -57,16 +12,7 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS."
     ],
     "TabSpace": null,
     "Size": null
@@ -75,25 +21,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "仲間を逃がすため、単身での出撃。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "They went off on their own to assist",
+      "our allies."
     ],
     "TabSpace": null,
     "Size": null
@@ -111,7 +40,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "連邦包囲網"
+      "EFF encirclement"
     ],
     "TabSpace": null,
     "Size": null
@@ -129,7 +58,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "アフリカ鉱山基地"
+      "African mines"
     ],
     "TabSpace": null,
     "Size": null
@@ -147,7 +76,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "偽装爆薬"
+      "Hidden explosives"
     ],
     "TabSpace": null,
     "Size": null
@@ -165,7 +94,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "ギャロップ強行突破"
+      "Gallop breakthrough!"
     ],
     "TabSpace": null,
     "Size": null
@@ -174,8 +103,8 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "インド洋から上陸した連邦軍の増援部隊は、その物量で、",
-      "アフリカ掃討作戦にピリオドを打とうとしている。"
+      "EFF forces have landed on eastern coast, and",
+      "are going to finish mop-up ops in Africa."
     ],
     "TabSpace": null,
     "Size": null
@@ -184,8 +113,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "敵の一団の目標が、ブラウアー隊の潜伏する鉱山基地で",
-      "あることが判明した。"
+      "Enemy target has been determined to be mining base",
+      "where Brauer's Team is hiding."
     ],
     "TabSpace": null,
     "Size": null
@@ -194,7 +123,7 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "すみやかに脱出し、他の基地への受け入れを求めるしかない。"
+      "We must quickly escape and seek admission to another base."
     ],
     "TabSpace": null,
     "Size": null
@@ -203,8 +132,8 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "脱出の際に、敵を混乱させるため、基地の周囲には、",
-      "偽装された大量の爆薬を設置してある。"
+      "Large amount of hidden explosives have been",
+      "placed around the base to cover our retreat."
     ],
     "TabSpace": null,
     "Size": null
@@ -213,7 +142,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "これを使えば、敵の足を止めるくらいはわけないはずだ。"
+      "If you use the, you should be able to stop enemy",
+      "advances for some time."
     ],
     "TabSpace": null,
     "Size": null
@@ -222,7 +152,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "MSなどは捨て、ギャロップで敵陣の強行突破を図る。"
+      "Abandon your Mobile Suits and board Gallop",
+      "to break through enemy territory."
     ],
     "TabSpace": null,
     "Size": null
@@ -231,7 +162,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "ブラウアー隊の、本当に最後の戦いだ。"
+      "This is your final battle, Brauer's Team."
     ],
     "TabSpace": null,
     "Size": null

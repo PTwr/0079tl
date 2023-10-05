@@ -1,55 +1,10 @@
 [
   {
-    "ID": "OPERATION_TITLE",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_MISSION",
-    "Text": null,
-    "Lines": [
-      "MISSION"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_WIN",
-    "Text": null,
-    "Lines": [
-      "勝利条件"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "敵部隊の捜索、全滅",
-      "ガウ攻撃空母の通過支援"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_LOSS",
-    "Text": null,
-    "Lines": [
-      "敗北条件"
+      "Locate and destroy enemy forces",
+      "Protect Gau Carrier"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,17 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "自機の大破",
-      "ガウ攻撃空母の撃墜"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "OPERATION_COMMENT",
-    "Text": null,
-    "Lines": [
-      "備考"
+      "Destruction of your MS.",
+      "Destruction of Gau carrier"
     ],
     "TabSpace": null,
     "Size": null
@@ -77,27 +23,9 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "ガウはキャリフォルニア･ベースへの",
-      "重要物資を運搬中である。",
-      "万全を期して通過を支援せよ。"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_TITLE_01",
-    "Text": null,
-    "Lines": [
-      "BRIEFING"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "BR_BUTTON_INFO_01",
-    "Text": null,
-    "Lines": [
-      "｜∈次へ｜"
+      "Gau is transporting important",
+      "suppliest to California base.",
+      "Stay alert and support its passage"
     ],
     "TabSpace": null,
     "Size": null
@@ -115,7 +43,7 @@
     "ID": "BR_DATA_A_02",
     "Text": null,
     "Lines": [
-      "キャリフォルニア･ベース"
+      "California Base"
     ],
     "TabSpace": null,
     "Size": null
@@ -133,7 +61,7 @@
     "ID": "BR_DATA_B_02",
     "Text": null,
     "Lines": [
-      "シアトル"
+      "Seattle"
     ],
     "TabSpace": null,
     "Size": null
@@ -151,7 +79,7 @@
     "ID": "BR_DATA_C_02",
     "Text": null,
     "Lines": [
-      "調査"
+      "Investigate"
     ],
     "TabSpace": null,
     "Size": null
@@ -169,7 +97,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "輸送ルート確保"
+      "Protect convoy"
     ],
     "TabSpace": null,
     "Size": null
@@ -178,7 +106,7 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "北米、キャリフォルニア･ベースは、我軍の最大の拠点だ。"
+      "California Base is our military's largest base."
     ],
     "TabSpace": null,
     "Size": null
@@ -187,8 +115,8 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "最近、この基地へ出入りする部隊が、",
-      "シアトル付近で消息を絶つ事件が相次いでいる。"
+      "Recently some of our pattrols went",
+      "missing near Seattle."
     ],
     "TabSpace": null,
     "Size": null
@@ -197,8 +125,8 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "またいつ連邦の大規模作戦が実行されるか分らない今、",
-      "基地戦力を割くのは得策ではない。"
+      "As we don't know when another Federation offensive",
+      "will occur, we can't allocate any more garrison."
     ],
     "TabSpace": null,
     "Size": null
@@ -207,8 +135,8 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "とはいえ、このまま放っておいて、ただでさえ貴重な",
-      "輸送ルートが分断されるのは、避けなければならない。"
+      "However we can't allow this situation to continue,",
+      "as its putting our transport route in danger."
     ],
     "TabSpace": null,
     "Size": null
@@ -217,7 +145,7 @@
     "ID": "BR_INFO_C_01",
     "Text": null,
     "Lines": [
-      "ブラウアー隊には、この区域の調査を行ってもらいたい。"
+      "Brauer's Team is to investigate this area."
     ],
     "TabSpace": null,
     "Size": null
@@ -226,8 +154,8 @@
     "ID": "BR_INFO_C_02",
     "Text": null,
     "Lines": [
-      "潜伏していると思われる敵部隊を見つけ出し、撃破してくれ。",
-      "作戦中に輸送部隊と遭遇した場合、この護衛もお願いする。"
+      "Locate and destroy enemy forces.",
+      "Escort any passing Gau carriers."
     ],
     "TabSpace": null,
     "Size": null
@@ -236,8 +164,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "連邦へ反撃を行うためにも、キャリフォルニア･ベースへの",
-      "輸送ルート確保、物資蓄積は必須である。"
+      "It's essential to secure transportation routes",
+      "to California to prepare counterattack."
     ],
     "TabSpace": null,
     "Size": null
@@ -246,7 +174,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "頼んだぞ、ブラウアー隊。"
+      "We count on you, Brayer's Team"
     ],
     "TabSpace": null,
     "Size": null
