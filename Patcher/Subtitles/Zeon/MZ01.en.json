@@ -28,8 +28,8 @@
   },
   {
     "FileName": "sound/stream/evz016.brstm",
-    "Translation": "evz016.brstm", 
-	"_Comment_": "amphibious MS is fast in water?",
+    "Translation": "evz016.brstm",
+    "_Comment_": "amphibious MS is fast in water?",
     "Miliseconds": 5000,
     "Color": 4294967050,
     "Enabled": true,
@@ -164,8 +164,8 @@
   },
   {
     "FileName": "sound/stream/evz031.brstm",
-    "Translation": "Please withdraw to not jeopardize your mission.", 
-	"_Comment_": "//unsure?",
+    "Translation": "Please withdraw to not jeopardize your mission.",
+    "_Comment_": "//unsure?",
     "Miliseconds": 5000,
     "Color": 4294967050,
     "Enabled": true,
@@ -202,7 +202,7 @@
   {
     "FileName": "sound/stream/evz035.brstm",
     "Translation": "They left without inflicting serious damage to their targets.",
-	"_Comment_": "huh? commenting about Ramba? not dealing damage or not receiving damage?",
+    "_Comment_": "huh? commenting about Ramba? not dealing damage or not receiving damage?",
     "Miliseconds": 5000,
     "Color": 4294967050,
     "Enabled": true,
@@ -238,8 +238,8 @@
   },
   {
     "FileName": "sound/stream/evz039.brstm",
-    "Translation": "Well, well, well. I wonder what will happen next.", 
-	"_Comment_": "//just some iddle chit chat",
+    "Translation": "Well, well, well. I wonder what will happen next.",
+    "_Comment_": "//just some iddle chit chat",
     "Miliseconds": 5000,
     "Color": 4294967050,
     "Enabled": true,
