@@ -6,7 +6,7 @@
     "Color": 4294967049,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/evs002.brstm",
@@ -15,7 +15,7 @@
     "Color": 4294967049,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/evs003.brstm",
@@ -24,7 +24,7 @@
     "Color": 4294967049,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/evs004.brstm",
@@ -33,7 +33,7 @@
     "Color": 4294967049,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/evs005.brstm",
@@ -42,7 +42,7 @@
     "Color": 4294967049,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/evs006.brstm",
@@ -51,7 +51,7 @@
     "Color": 4294967049,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/evs007.brstm",
@@ -60,7 +60,7 @@
     "Color": 4294967049,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/evs008.brstm",
@@ -69,6 +69,6 @@
     "Color": 4294967049,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]

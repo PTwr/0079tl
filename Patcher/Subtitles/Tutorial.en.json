@@ -1,749 +1,756 @@
 [
   {
     "FileName": "sound/stream/tut001.brstm",
-    "Translation": "tut001.brstm",
-    "Miliseconds": 5000,
+    "Translation": "From now on, you're going ot train to operate Movile Suit.\nIf you don't want to turn into minced meat you'll need to learn it throughly.",
+    "Miliseconds": 10000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut002.brstm",
-    "Translation": "tut002.brstm",
+    "Translation": "First, learn the basics of movement and shooting.",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut003.brstm",
-    "Translation": "tut003.brstm",
+    "Translation": "Try moving around to get used to it.",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut004.brstm",
-    "Translation": "tut004.brstm",
+    "Translation": "Keep an eye on hrusters gauge, if they overheat\nyou won't be able to dash or jump",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut005.brstm",
-    "Translation": "tut005.brstm",
+    "Translation": "It will cool down after a while, but don't neglect it",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut006.brstm",
-    "Translation": "tut006.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Lock-on function is useful assistance in combat\nYou can fight without it, but using it will be easier",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut007.brstm",
-    "Translation": "tut007.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Mobile suits are vulnerable to attacks from flanks and reare\nso move around when attacking",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut008.brstm",
-    "Translation": "tut008.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Don't expect bullets to fly right at lock-on target\nIts just an aid to keep nemy on screen so do your part",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut009.brstm",
-    "Translation": "tut009.brstm",
+    "Translation": "By destroying parts of Mobile Suits you can reduce their combat capabilities",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut010.brstm",
-    "Translation": "tut010.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Subweapons vary between Mobile Suits. Some are suitable for suppression\nother are more powerfull than main weapon. Select them wisely",
+    "Miliseconds": 10000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut011.brstm",
-    "Translation": "tut011.brstm",
+    "Translation": "If enemy hasn't noticed you, use this chance to snipe\nSome weapons have higher damage when sniping",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut012.brstm",
-    "Translation": "tut012.brstm",
+    "Translation": "Wrong!",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut013.brstm",
-    "Translation": "tut013.brstm",
+    "Translation": "Thats not it!",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut014.brstm",
-    "Translation": "tut014.brstm",
+    "Translation": "What are you doing?",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut015.brstm",
-    "Translation": "tut015.brstm",
+    "Translation": "Your aim is off",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut016.brstm",
-    "Translation": "tut016.brstm",
+    "Translation": "Wastefull, too many misses",
+    "_": "Wasteful, too many souls. Soulless? ghost shots? some slang?",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut017.brstm",
-    "Translation": "tut017.brstm",
+    "Translation": "Where are you aiming?",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut018.brstm",
-    "Translation": "tut018.brstm",
+    "Translation": "Not bad",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut019.brstm",
-    "Translation": "tut019.brstm",
+    "Translation": "All right. Keep it up.",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut020.brstm",
-    "Translation": "tut020.brstm",
+    "Translation": "Ooh, nice one",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut021.brstm",
-    "Translation": "tut021.brstm",
+    "Translation": "I haven't taught you that yet, don't be so hasty",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut022.brstm",
-    "Translation": "tut022.brstm",
+    "Translation": "All right, let's move on.",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut023.brstm",
-    "Translation": "tut023.brstm",
+    "Translation": "You're a quick learner, so I'll be your opponent.",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut024.brstm",
-    "Translation": "tut024.brstm",
+    "Translation": "Good job, I'll buy you a drink later",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut025.brstm",
-    "Translation": "tut025.brstm",
+    "Translation": "You're not done yet...100 pushups!",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut051.brstm",
-    "Translation": "tut051.brstm",
-    "Miliseconds": 5000,
+    "Translation": "I'm Yuu Kajima, I will  be your temporary instructor for\nhand-to-hand combat for Mobile Suit",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut052.brstm",
-    "Translation": "tut052.brstm",
-    "Miliseconds": 5000,
+    "Translation": "It's risky but you can decide battle in single attack\nOnce you run out of ammo, it will be your only means of attack",
+    "Miliseconds": 10000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut053.brstm",
-    "Translation": "tut053.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Just so you know, your guns has no ammunition loaded\nDon't think you can hit me from distance",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut054.brstm",
-    "Translation": "tut054.brstm",
+    "Translation": "You can guard against melee attacks",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut055.brstm",
-    "Translation": "tut055.brstm",
+    "Translation": "Remember that it is only effective against enemy melee attacks.",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut056.brstm",
-    "Translation": "tut056.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Be careful not to overheat your thrusters\nDashing and jumping can make difference in close combat",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut057.brstm",
-    "Translation": "tut057.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Thrusters will recover after some time\nbut always keep an eye on temperature gauge",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut058.brstm",
-    "Translation": "tut058.brstm",
+    "Translation": "Melee attacks are very effective, so you have to be aggressive",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut059.brstm",
-    "Translation": "tut059.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Vertical slash is effective against enemy in front\nIt leaves you open but its also very strong",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut060.brstm",
-    "Translation": "tut060.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Horizontal swing is effective when enemy is crowded together",
+    "_": "This is an attack with a wide range that is effective when enemies are crowded together.",
+    "Miliseconds": 10000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut061.brstm",
-    "Translation": "tut061.brstm",
+    "Translation": "Okay, keep attacking to break my guard",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut062.brstm",
-    "Translation": "tut062.brstm",
-    "Miliseconds": 5000,
+    "Translation": "It will be hard to do in actual combat, but for now try\nto break down the guard with frontal attacks",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut063.brstm",
-    "Translation": "tut063.brstm",
-    "Miliseconds": 5000,
+    "Translation": "If you break the guard, enemy will be off balance\ngiving you opportunity for attack",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut064.brstm",
-    "Translation": "tut064.brstm",
+    "Translation": "Well, if thats the way you want it I won't force you",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut065.brstm",
-    "Translation": "tut065.brstm",
+    "Translation": "You'll encounter Clash in real battle, so keep it in mind",
+    "-": "is this about guard? or about clash mechanics?",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut066.brstm",
-    "Translation": "tut066.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Its most difficult combat technique, but at high risk comes high reward",
+    "Miliseconds": 7500,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut067.brstm",
-    "Translation": "tut067.brstm",
+    "Translation": "Too slow",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut068.brstm",
-    "Translation": "tut068.brstm",
+    "Translation": "Too early, wait a bit",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut069.brstm",
-    "Translation": "tut069.brstm",
+    "Translation": "Looks like you're getting the feel for it.",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut070.brstm",
-    "Translation": "tut070.brstm",
+    "Translation": "Don't get too greedy, consider the damage you could receive",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut071.brstm",
-    "Translation": "tut071.brstm",
+    "Translation": "It will take practice, so don't fixate on it",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut072.brstm",
-    "Translation": "tut072.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Time for full combat training, including melee and ranged\nso give it everything you got",
+    "Miliseconds": 8000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut073.brstm",
-    "Translation": "tut073.brstm",
+    "Translation": "Relax your shoulders and remain calm",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut074.brstm",
-    "Translation": "tut074.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Don't waste amunition",
+    "Miliseconds": 3000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut075.brstm",
-    "Translation": "tut075.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Okay, good",
+    "Miliseconds": 3000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut076.brstm",
-    "Translation": "tut076.brstm",
+    "Translation": "That's it!'",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut077.brstm",
-    "Translation": "tut077.brstm",
+    "Translation": "Good timing",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut078.brstm",
-    "Translation": "tut078.brstm",
+    "Translation": "That's a combo",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut079.brstm",
-    "Translation": "tut079.brstm",
+    "Translation": "Okay, next",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut080.brstm",
-    "Translation": "tut080.brstm",
+    "Translation": "Let's see how you do",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut081.brstm",
-    "Translation": "tut081.brstm",
+    "Translation": "Well, that's how it goes in real battle\nDon't forget that feel",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut082.brstm",
-    "Translation": "tut082.brstm",
+    "Translation": "Keep up the good work and you'll be an ace one day",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut101.brstm",
-    "Translation": "tut101.brstm",
-    "Miliseconds": 5000,
+    "Translation": "I'm leader of Black Tri Stars, kid\nToday I'm gonna teach you how to fight in Mobile Suit",
+    "Miliseconds": 10000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut102.brstm",
-    "Translation": "tut102.brstm",
-    "Miliseconds": 5000,
+    "Translation": "To survive on battlefield, its important to understand Mobile Suit\ncharacteristics, and what they can and cannot do",
+    "Miliseconds": 8000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut103.brstm",
-    "Translation": "tut103.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Rick Dom has no limitations, but if you have Gouf with Vulcan Hand\nyou might not be able to carry two-handed weapons",
+    "Miliseconds": 13000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut104.brstm",
-    "Translation": "tut104.brstm",
-    "Miliseconds": 5000,
+    "Translation": "You'll be able to pickup weapons on the battlefield\nbut you'll be only able to carry around one",
+    "Miliseconds": 11000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut105.brstm",
-    "Translation": "tut105.brstm",
-    "Miliseconds": 5000,
+    "Translation": "At Supply Point you can replenish ammo and repair your suuit\nbut have in mind that you'll be defensless during resupply",
+    "Miliseconds": 9000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut106.brstm",
-    "Translation": "tut106.brstm",
-    "Miliseconds": 5000,
+    "Translation": "You'll never understand unless you'll try, so from here on\nits hands-on training on formation fighting",
+    "Miliseconds": 9000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut107.brstm",
-    "Translation": "tut107.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Sometimes you have to use your allies as a shield\nto preserve your machine",
+    "-": "defensive formation",
+    "Miliseconds": 7000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut108.brstm",
-    "Translation": "tut108.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Good for offensive, low squad attrition rate, concentrates firepower\nIf you're confident in your skills, it will be very effective",
+    "-": "wedge formation",
+    "Miliseconds": 10000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut109.brstm",
-    "Translation": "tut109.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Sometimes it may be necessary to fight separately\nYou can call your wingmen back by changing formation",
+    "-": "loose formation",
+    "Miliseconds": 10000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut110.brstm",
-    "Translation": "tut110.brstm",
+    "Translation": "Your people are taking damge, is that correct formation?",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut111.brstm",
-    "Translation": "tut111.brstm",
+    "Translation": "Trust your team, you're not fighting alone",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut112.brstm",
-    "Translation": "tut112.brstm",
+    "Translation": "Practice formations, you're going to have to think more about your team",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut113.brstm",
-    "Translation": "tut113.brstm",
+    "Translation": "Well, nothing goes perfectly for first time, try again",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut114.brstm",
-    "Translation": "tut114.brstm",
+    "Translation": "You grasped the importance of formations",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut115.brstm",
-    "Translation": "tut115.brstm",
+    "Translation": "Well, I think you understood it",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut116.brstm",
-    "Translation": "tut116.brstm",
+    "Translation": "No no no!",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut117.brstm",
-    "Translation": "tut117.brstm",
+    "Translation": "That's not it!",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut118.brstm",
-    "Translation": "tut118.brstm",
+    "Translation": "Are you okay?",
+    "-": "are you ok with that?",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut119.brstm",
-    "Translation": "tut119.brstm",
+    "Translation": "What happened?",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut120.brstm",
-    "Translation": "tut120.brstm",
+    "Translation": "We're not going into battle with such hindrance...",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut121.brstm",
-    "Translation": "tut121.brstm",
+    "Translation": "Be careful with that, you're supposed to use it not smash it!",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut122.brstm",
-    "Translation": "tut122.brstm",
+    "Translation": "Not bad, man",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut123.brstm",
-    "Translation": "tut123.brstm",
+    "Translation": "Yeah, yeah, that's it",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut124.brstm",
-    "Translation": "tut124.brstm",
+    "Translation": "You're good, man",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut125.brstm",
-    "Translation": "tut125.brstm",
+    "Translation": "You're not ready yet, gotta work harder",
     "Miliseconds": 5000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/tut126.brstm",
-    "Translation": "tut126.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Ooooh? Would you like to join my team? Black Quad Stars don't sound bad hahaha",
+    "Miliseconds": 9000,
     "Color": 4294967063,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]

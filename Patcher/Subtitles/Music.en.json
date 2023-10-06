@@ -6,7 +6,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_02.brstm",
@@ -15,7 +15,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_03.brstm",
@@ -24,7 +24,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_04.brstm",
@@ -33,7 +33,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_06.brstm",
@@ -42,7 +42,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_07.brstm",
@@ -51,7 +51,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_08.brstm",
@@ -60,7 +60,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_09.brstm",
@@ -69,7 +69,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_10.brstm",
@@ -78,7 +78,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_11.brstm",
@@ -87,7 +87,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_12.brstm",
@@ -96,7 +96,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_13.brstm",
@@ -105,7 +105,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_14.brstm",
@@ -114,7 +114,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_15.brstm",
@@ -123,7 +123,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_16.brstm",
@@ -132,7 +132,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_20.brstm",
@@ -141,7 +141,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_21.brstm",
@@ -150,7 +150,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_22.brstm",
@@ -159,7 +159,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_23.brstm",
@@ -168,7 +168,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_24.brstm",
@@ -177,7 +177,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_25.brstm",
@@ -186,7 +186,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_26.brstm",
@@ -195,7 +195,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_27.brstm",
@@ -204,7 +204,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_28.brstm",
@@ -213,7 +213,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_29.brstm",
@@ -222,7 +222,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_30.brstm",
@@ -231,7 +231,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_31.brstm",
@@ -240,7 +240,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_32.brstm",
@@ -249,7 +249,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_33.brstm",
@@ -258,7 +258,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_34.brstm",
@@ -267,7 +267,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_35.brstm",
@@ -276,7 +276,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_36.brstm",
@@ -285,7 +285,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_37.brstm",
@@ -294,7 +294,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_38.brstm",
@@ -303,7 +303,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_39.brstm",
@@ -312,7 +312,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_40.brstm",
@@ -321,7 +321,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_41.brstm",
@@ -330,7 +330,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_42.brstm",
@@ -339,7 +339,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_43.brstm",
@@ -348,7 +348,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_44.brstm",
@@ -357,7 +357,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_45.brstm",
@@ -366,7 +366,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_46.brstm",
@@ -375,7 +375,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_47.brstm",
@@ -384,7 +384,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_48.brstm",
@@ -393,7 +393,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_49.brstm",
@@ -402,7 +402,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_50.brstm",
@@ -411,7 +411,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_60.brstm",
@@ -420,7 +420,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_61.brstm",
@@ -429,7 +429,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_62.brstm",
@@ -438,7 +438,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_63.brstm",
@@ -447,7 +447,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_64.brstm",
@@ -456,7 +456,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_65.brstm",
@@ -465,7 +465,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_70.brstm",
@@ -474,7 +474,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_71.brstm",
@@ -483,7 +483,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_72.brstm",
@@ -492,7 +492,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_73.brstm",
@@ -501,7 +501,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_74.brstm",
@@ -510,7 +510,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/bgm_75.brstm",
@@ -519,6 +519,6 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]

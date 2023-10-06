@@ -193,3 +193,8 @@ EFF mission tree
 16 | 17
 18 | 19
 20 | 21
+
+PAUSE 
+A - stadnard
+E - tutorial
+T - team?

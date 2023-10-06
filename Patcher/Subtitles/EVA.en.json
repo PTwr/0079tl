@@ -6,7 +6,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva002.brstm",
@@ -15,7 +15,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva003.brstm",
@@ -24,7 +24,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva004.brstm",
@@ -33,7 +33,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva005.brstm",
@@ -42,7 +42,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva006.brstm",
@@ -51,7 +51,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva007.brstm",
@@ -60,7 +60,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva008.brstm",
@@ -69,7 +69,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva009.brstm",
@@ -78,7 +78,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva010.brstm",
@@ -87,7 +87,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva011.brstm",
@@ -96,7 +96,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva012.brstm",
@@ -105,7 +105,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva013.brstm",
@@ -114,7 +114,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva014.brstm",
@@ -123,7 +123,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva015.brstm",
@@ -132,7 +132,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva016.brstm",
@@ -141,7 +141,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva017.brstm",
@@ -150,7 +150,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva018.brstm",
@@ -159,7 +159,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva019.brstm",
@@ -168,7 +168,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva020.brstm",
@@ -177,7 +177,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva021.brstm",
@@ -186,7 +186,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva022.brstm",
@@ -195,7 +195,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva023.brstm",
@@ -204,7 +204,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva024.brstm",
@@ -213,7 +213,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva025.brstm",
@@ -222,7 +222,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva026.brstm",
@@ -231,7 +231,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva027.brstm",
@@ -240,7 +240,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva028.brstm",
@@ -249,7 +249,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva029.brstm",
@@ -258,7 +258,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva030.brstm",
@@ -267,7 +267,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva031.brstm",
@@ -276,7 +276,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva032.brstm",
@@ -285,7 +285,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva033.brstm",
@@ -294,7 +294,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva034.brstm",
@@ -303,7 +303,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva035.brstm",
@@ -312,7 +312,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva036.brstm",
@@ -321,7 +321,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva037.brstm",
@@ -330,7 +330,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva038.brstm",
@@ -339,7 +339,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva039.brstm",
@@ -348,7 +348,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva040.brstm",
@@ -357,7 +357,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva041.brstm",
@@ -366,7 +366,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva042.brstm",
@@ -375,7 +375,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva043.brstm",
@@ -384,7 +384,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva044.brstm",
@@ -393,7 +393,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva045.brstm",
@@ -402,7 +402,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva046.brstm",
@@ -411,7 +411,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva047.brstm",
@@ -420,7 +420,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva048.brstm",
@@ -429,7 +429,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva049.brstm",
@@ -438,7 +438,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva050.brstm",
@@ -447,7 +447,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva051.brstm",
@@ -456,7 +456,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva052.brstm",
@@ -465,7 +465,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva053.brstm",
@@ -474,7 +474,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva054.brstm",
@@ -483,7 +483,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva055.brstm",
@@ -492,7 +492,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva056.brstm",
@@ -501,7 +501,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva057.brstm",
@@ -510,7 +510,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva058.brstm",
@@ -519,7 +519,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva059.brstm",
@@ -528,7 +528,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva060.brstm",
@@ -537,7 +537,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva061.brstm",
@@ -546,7 +546,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva062.brstm",
@@ -555,7 +555,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva063.brstm",
@@ -564,7 +564,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva064.brstm",
@@ -573,7 +573,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva065.brstm",
@@ -582,7 +582,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva066.brstm",
@@ -591,7 +591,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva067.brstm",
@@ -600,7 +600,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva068.brstm",
@@ -609,7 +609,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva069.brstm",
@@ -618,7 +618,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva070.brstm",
@@ -627,7 +627,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva071.brstm",
@@ -636,7 +636,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva072.brstm",
@@ -645,7 +645,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva073.brstm",
@@ -654,7 +654,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva074.brstm",
@@ -663,7 +663,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva075.brstm",
@@ -672,7 +672,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva076.brstm",
@@ -681,7 +681,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva077.brstm",
@@ -690,7 +690,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva078.brstm",
@@ -699,7 +699,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva079.brstm",
@@ -708,7 +708,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva080.brstm",
@@ -717,7 +717,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva081.brstm",
@@ -726,7 +726,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva082.brstm",
@@ -735,7 +735,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva083.brstm",
@@ -744,7 +744,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva084.brstm",
@@ -753,7 +753,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva085.brstm",
@@ -762,7 +762,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva086.brstm",
@@ -771,7 +771,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva087.brstm",
@@ -780,7 +780,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva088.brstm",
@@ -789,7 +789,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva089.brstm",
@@ -798,7 +798,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva090.brstm",
@@ -807,7 +807,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva091.brstm",
@@ -816,7 +816,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva092.brstm",
@@ -825,7 +825,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva093.brstm",
@@ -834,7 +834,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva094.brstm",
@@ -843,7 +843,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva095.brstm",
@@ -852,7 +852,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva096.brstm",
@@ -861,7 +861,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva097.brstm",
@@ -870,7 +870,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva098.brstm",
@@ -879,7 +879,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva099.brstm",
@@ -888,7 +888,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva100.brstm",
@@ -897,7 +897,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva101.brstm",
@@ -906,7 +906,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva102.brstm",
@@ -915,7 +915,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva103.brstm",
@@ -924,7 +924,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva104.brstm",
@@ -933,7 +933,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva105.brstm",
@@ -942,7 +942,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva106.brstm",
@@ -951,7 +951,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva107.brstm",
@@ -960,7 +960,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva108.brstm",
@@ -969,7 +969,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva109.brstm",
@@ -978,7 +978,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva110.brstm",
@@ -987,7 +987,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva111.brstm",
@@ -996,7 +996,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva112.brstm",
@@ -1005,7 +1005,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva113.brstm",
@@ -1014,7 +1014,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva114.brstm",
@@ -1023,7 +1023,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva115.brstm",
@@ -1032,7 +1032,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva116.brstm",
@@ -1041,7 +1041,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva117.brstm",
@@ -1050,7 +1050,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva118.brstm",
@@ -1059,7 +1059,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva119.brstm",
@@ -1068,7 +1068,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva120.brstm",
@@ -1077,7 +1077,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva121.brstm",
@@ -1086,7 +1086,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva122.brstm",
@@ -1095,7 +1095,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva123.brstm",
@@ -1104,7 +1104,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva124.brstm",
@@ -1113,7 +1113,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva125.brstm",
@@ -1122,7 +1122,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva126.brstm",
@@ -1131,7 +1131,7 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eva127.brstm",
@@ -1140,6 +1140,6 @@
     "Color": 4294967047,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]

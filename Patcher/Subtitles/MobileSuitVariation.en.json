@@ -6,7 +6,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv002.brstm",
@@ -15,7 +15,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv003.brstm",
@@ -24,7 +24,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv004.brstm",
@@ -33,7 +33,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv005.brstm",
@@ -42,7 +42,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv006.brstm",
@@ -51,7 +51,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv007.brstm",
@@ -60,7 +60,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv008.brstm",
@@ -69,7 +69,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv009.brstm",
@@ -78,7 +78,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv010.brstm",
@@ -87,7 +87,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv011.brstm",
@@ -96,7 +96,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv012.brstm",
@@ -105,7 +105,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv013.brstm",
@@ -114,7 +114,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv014.brstm",
@@ -123,7 +123,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv015.brstm",
@@ -132,7 +132,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv016.brstm",
@@ -141,7 +141,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv017.brstm",
@@ -150,7 +150,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv018.brstm",
@@ -159,7 +159,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv019.brstm",
@@ -168,7 +168,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv020.brstm",
@@ -177,7 +177,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv021.brstm",
@@ -186,7 +186,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv022.brstm",
@@ -195,7 +195,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv023.brstm",
@@ -204,7 +204,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv024.brstm",
@@ -213,7 +213,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv025.brstm",
@@ -222,7 +222,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv026.brstm",
@@ -231,7 +231,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv027.brstm",
@@ -240,7 +240,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv028.brstm",
@@ -249,7 +249,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv029.brstm",
@@ -258,7 +258,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv030.brstm",
@@ -267,7 +267,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv031.brstm",
@@ -276,7 +276,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv032.brstm",
@@ -285,7 +285,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv033.brstm",
@@ -294,7 +294,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv034.brstm",
@@ -303,7 +303,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv035.brstm",
@@ -312,7 +312,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv036.brstm",
@@ -321,7 +321,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv037.brstm",
@@ -330,7 +330,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv038.brstm",
@@ -339,7 +339,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv039.brstm",
@@ -348,7 +348,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv040.brstm",
@@ -357,7 +357,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv041.brstm",
@@ -366,7 +366,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv042.brstm",
@@ -375,7 +375,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv043.brstm",
@@ -384,7 +384,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv044.brstm",
@@ -393,7 +393,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv045.brstm",
@@ -402,7 +402,7 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/msv046.brstm",
@@ -411,6 +411,6 @@
     "Color": 4294967058,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]

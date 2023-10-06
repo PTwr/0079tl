@@ -7,7 +7,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "-": "Scrolling text. after campaign ends? some post-game summary?",
@@ -17,6 +17,6 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]

@@ -6,7 +6,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve002.brstm",
@@ -15,7 +15,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve003.brstm",
@@ -24,7 +24,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve004.brstm",
@@ -33,7 +33,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve005.brstm",
@@ -42,7 +42,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve005b.brstm",
@@ -51,7 +51,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve006.brstm",
@@ -60,7 +60,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve007.brstm",
@@ -69,7 +69,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve008.brstm",
@@ -78,7 +78,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve009.brstm",
@@ -87,7 +87,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve010.brstm",
@@ -96,7 +96,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve011.brstm",
@@ -105,7 +105,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve012.brstm",
@@ -114,7 +114,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve013.brstm",
@@ -123,7 +123,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve014.brstm",
@@ -132,7 +132,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve015.brstm",
@@ -141,7 +141,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve016.brstm",
@@ -150,7 +150,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve017.brstm",
@@ -159,7 +159,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve018.brstm",
@@ -168,7 +168,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve019.brstm",
@@ -177,7 +177,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve020.brstm",
@@ -186,7 +186,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve021.brstm",
@@ -195,7 +195,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve022.brstm",
@@ -204,7 +204,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve023.brstm",
@@ -213,7 +213,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve024.brstm",
@@ -222,7 +222,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve025.brstm",
@@ -231,7 +231,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve026.brstm",
@@ -240,7 +240,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve027.brstm",
@@ -249,7 +249,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve028.brstm",
@@ -258,7 +258,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve029.brstm",
@@ -267,7 +267,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve030.brstm",
@@ -276,7 +276,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve031.brstm",
@@ -285,7 +285,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve032.brstm",
@@ -294,7 +294,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve033.brstm",
@@ -303,7 +303,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve034.brstm",
@@ -312,7 +312,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve035.brstm",
@@ -321,7 +321,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve036.brstm",
@@ -330,7 +330,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve037.brstm",
@@ -339,7 +339,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve038.brstm",
@@ -348,7 +348,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve039.brstm",
@@ -357,7 +357,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve040.brstm",
@@ -366,7 +366,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve041.brstm",
@@ -375,7 +375,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve042.brstm",
@@ -384,7 +384,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve043.brstm",
@@ -393,7 +393,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve044.brstm",
@@ -402,7 +402,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve045.brstm",
@@ -411,7 +411,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve046.brstm",
@@ -420,7 +420,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve047.brstm",
@@ -429,7 +429,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve048.brstm",
@@ -438,7 +438,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve049.brstm",
@@ -447,7 +447,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve050.brstm",
@@ -456,7 +456,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve051.brstm",
@@ -465,7 +465,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve052.brstm",
@@ -474,7 +474,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve053.brstm",
@@ -483,7 +483,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve054.brstm",
@@ -492,7 +492,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve055.brstm",
@@ -501,7 +501,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve056.brstm",
@@ -510,7 +510,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve057.brstm",
@@ -519,7 +519,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve058.brstm",
@@ -528,7 +528,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve059.brstm",
@@ -537,7 +537,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve060.brstm",
@@ -546,7 +546,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve061.brstm",
@@ -555,7 +555,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve062.brstm",
@@ -564,7 +564,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve063.brstm",
@@ -573,7 +573,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve064.brstm",
@@ -582,7 +582,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve065.brstm",
@@ -591,7 +591,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve066.brstm",
@@ -600,7 +600,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve067.brstm",
@@ -609,7 +609,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve068.brstm",
@@ -618,7 +618,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve069.brstm",
@@ -627,7 +627,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve070.brstm",
@@ -636,7 +636,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve071.brstm",
@@ -645,7 +645,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve072.brstm",
@@ -654,7 +654,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve073.brstm",
@@ -663,7 +663,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve074.brstm",
@@ -672,7 +672,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve075.brstm",
@@ -681,7 +681,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve076.brstm",
@@ -690,7 +690,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve077.brstm",
@@ -699,7 +699,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve078.brstm",
@@ -708,7 +708,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve079.brstm",
@@ -717,7 +717,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve080.brstm",
@@ -726,7 +726,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve081.brstm",
@@ -735,7 +735,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve082.brstm",
@@ -744,7 +744,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve083.brstm",
@@ -753,7 +753,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve084.brstm",
@@ -762,7 +762,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve085.brstm",
@@ -771,7 +771,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve086.brstm",
@@ -780,7 +780,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve087.brstm",
@@ -789,7 +789,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve088.brstm",
@@ -798,7 +798,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve089.brstm",
@@ -807,7 +807,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve090.brstm",
@@ -816,7 +816,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve091.brstm",
@@ -825,7 +825,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve092.brstm",
@@ -834,7 +834,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve093.brstm",
@@ -843,7 +843,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve094.brstm",
@@ -852,7 +852,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve095.brstm",
@@ -861,7 +861,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve096.brstm",
@@ -870,7 +870,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve097.brstm",
@@ -879,7 +879,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve098.brstm",
@@ -888,7 +888,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve099.brstm",
@@ -897,7 +897,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve100.brstm",
@@ -906,7 +906,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve101.brstm",
@@ -915,7 +915,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve102.brstm",
@@ -924,7 +924,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve103.brstm",
@@ -933,7 +933,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve104.brstm",
@@ -942,7 +942,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve105.brstm",
@@ -951,7 +951,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve106.brstm",
@@ -960,7 +960,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve107.brstm",
@@ -969,7 +969,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve108.brstm",
@@ -978,7 +978,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve109.brstm",
@@ -987,7 +987,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve110.brstm",
@@ -996,7 +996,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve111.brstm",
@@ -1005,7 +1005,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve112.brstm",
@@ -1014,7 +1014,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve113.brstm",
@@ -1023,7 +1023,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve114.brstm",
@@ -1032,7 +1032,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve115.brstm",
@@ -1041,7 +1041,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve116.brstm",
@@ -1050,7 +1050,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve117.brstm",
@@ -1059,7 +1059,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve118.brstm",
@@ -1068,7 +1068,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve119.brstm",
@@ -1077,7 +1077,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve120.brstm",
@@ -1086,7 +1086,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve121.brstm",
@@ -1095,7 +1095,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve122.brstm",
@@ -1104,7 +1104,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve123.brstm",
@@ -1113,7 +1113,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve124.brstm",
@@ -1122,7 +1122,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve125.brstm",
@@ -1131,7 +1131,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve126.brstm",
@@ -1140,7 +1140,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve127.brstm",
@@ -1149,7 +1149,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve128.brstm",
@@ -1158,7 +1158,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve129.brstm",
@@ -1167,7 +1167,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve130.brstm",
@@ -1176,7 +1176,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve131.brstm",
@@ -1185,7 +1185,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve132.brstm",
@@ -1194,7 +1194,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve133.brstm",
@@ -1203,7 +1203,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve134.brstm",
@@ -1212,7 +1212,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve135.brstm",
@@ -1221,7 +1221,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve136.brstm",
@@ -1230,7 +1230,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve137.brstm",
@@ -1239,7 +1239,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve138.brstm",
@@ -1248,7 +1248,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve139.brstm",
@@ -1257,7 +1257,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve140.brstm",
@@ -1266,7 +1266,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve141.brstm",
@@ -1275,7 +1275,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve142.brstm",
@@ -1284,7 +1284,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve143.brstm",
@@ -1293,7 +1293,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve144.brstm",
@@ -1302,7 +1302,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve144b.brstm",
@@ -1311,7 +1311,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve145.brstm",
@@ -1320,7 +1320,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve146.brstm",
@@ -1329,7 +1329,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve147.brstm",
@@ -1338,7 +1338,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve148.brstm",
@@ -1347,7 +1347,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve149.brstm",
@@ -1356,7 +1356,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve150.brstm",
@@ -1365,7 +1365,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve151.brstm",
@@ -1374,7 +1374,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve152.brstm",
@@ -1383,7 +1383,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve153.brstm",
@@ -1392,7 +1392,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve154.brstm",
@@ -1401,7 +1401,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve155.brstm",
@@ -1410,7 +1410,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve156.brstm",
@@ -1419,7 +1419,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve157.brstm",
@@ -1428,7 +1428,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve158.brstm",
@@ -1437,7 +1437,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve159.brstm",
@@ -1446,7 +1446,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve160.brstm",
@@ -1455,7 +1455,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve161.brstm",
@@ -1464,7 +1464,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve162.brstm",
@@ -1473,7 +1473,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve163.brstm",
@@ -1482,7 +1482,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve164.brstm",
@@ -1491,7 +1491,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve165.brstm",
@@ -1500,7 +1500,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve166.brstm",
@@ -1509,7 +1509,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve167.brstm",
@@ -1518,7 +1518,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve168.brstm",
@@ -1527,7 +1527,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve169.brstm",
@@ -1536,7 +1536,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve170.brstm",
@@ -1545,7 +1545,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve171.brstm",
@@ -1554,7 +1554,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve172.brstm",
@@ -1563,7 +1563,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve173.brstm",
@@ -1572,7 +1572,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve174.brstm",
@@ -1581,7 +1581,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve175.brstm",
@@ -1590,7 +1590,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve176.brstm",
@@ -1599,7 +1599,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve177.brstm",
@@ -1608,7 +1608,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve178.brstm",
@@ -1617,7 +1617,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve179.brstm",
@@ -1626,7 +1626,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve180.brstm",
@@ -1635,7 +1635,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve181.brstm",
@@ -1644,7 +1644,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve182.brstm",
@@ -1653,7 +1653,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve183.brstm",
@@ -1662,7 +1662,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve184.brstm",
@@ -1671,7 +1671,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve185.brstm",
@@ -1680,7 +1680,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve186.brstm",
@@ -1689,7 +1689,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve187.brstm",
@@ -1698,7 +1698,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve188.brstm",
@@ -1707,7 +1707,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve189.brstm",
@@ -1716,7 +1716,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve190.brstm",
@@ -1725,7 +1725,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve191.brstm",
@@ -1734,7 +1734,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve192.brstm",
@@ -1743,7 +1743,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve193.brstm",
@@ -1752,7 +1752,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve194.brstm",
@@ -1761,7 +1761,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve195.brstm",
@@ -1770,7 +1770,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve196.brstm",
@@ -1779,7 +1779,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve197.brstm",
@@ -1788,7 +1788,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve198.brstm",
@@ -1797,7 +1797,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve199.brstm",
@@ -1806,7 +1806,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve200.brstm",
@@ -1815,7 +1815,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve201.brstm",
@@ -1824,7 +1824,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve202.brstm",
@@ -1833,7 +1833,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve203.brstm",
@@ -1842,7 +1842,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve204.brstm",
@@ -1851,7 +1851,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve205.brstm",
@@ -1860,7 +1860,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve206.brstm",
@@ -1869,7 +1869,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve207.brstm",
@@ -1878,7 +1878,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve208.brstm",
@@ -1887,7 +1887,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve209.brstm",
@@ -1896,7 +1896,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve210.brstm",
@@ -1905,7 +1905,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve211.brstm",
@@ -1914,7 +1914,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve212.brstm",
@@ -1923,7 +1923,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve213.brstm",
@@ -1932,7 +1932,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve214.brstm",
@@ -1941,7 +1941,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve215.brstm",
@@ -1950,7 +1950,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve216.brstm",
@@ -1959,7 +1959,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve217.brstm",
@@ -1968,7 +1968,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve218.brstm",
@@ -1977,7 +1977,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve219.brstm",
@@ -1986,7 +1986,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve220.brstm",
@@ -1995,7 +1995,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve221.brstm",
@@ -2004,7 +2004,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve222.brstm",
@@ -2013,7 +2013,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve223.brstm",
@@ -2022,7 +2022,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve224.brstm",
@@ -2031,7 +2031,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve225.brstm",
@@ -2040,7 +2040,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve226.brstm",
@@ -2049,7 +2049,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve227.brstm",
@@ -2058,7 +2058,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve228.brstm",
@@ -2067,7 +2067,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve229.brstm",
@@ -2076,7 +2076,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve230.brstm",
@@ -2085,7 +2085,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve231.brstm",
@@ -2094,7 +2094,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve232.brstm",
@@ -2103,7 +2103,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve233.brstm",
@@ -2112,7 +2112,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve234.brstm",
@@ -2121,7 +2121,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve235.brstm",
@@ -2130,7 +2130,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve236.brstm",
@@ -2139,7 +2139,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve237.brstm",
@@ -2148,7 +2148,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve238.brstm",
@@ -2157,7 +2157,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve239.brstm",
@@ -2166,7 +2166,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve240.brstm",
@@ -2175,7 +2175,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve241.brstm",
@@ -2184,7 +2184,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve242.brstm",
@@ -2193,7 +2193,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve243.brstm",
@@ -2202,7 +2202,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve244.brstm",
@@ -2211,7 +2211,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve245.brstm",
@@ -2220,7 +2220,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve246.brstm",
@@ -2229,7 +2229,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve247.brstm",
@@ -2238,7 +2238,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve248.brstm",
@@ -2247,7 +2247,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve249.brstm",
@@ -2256,7 +2256,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve250.brstm",
@@ -2265,7 +2265,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve251.brstm",
@@ -2274,7 +2274,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve252.brstm",
@@ -2283,7 +2283,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve253.brstm",
@@ -2292,7 +2292,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve254.brstm",
@@ -2301,7 +2301,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve255.brstm",
@@ -2310,7 +2310,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve256.brstm",
@@ -2319,7 +2319,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve257.brstm",
@@ -2328,7 +2328,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve258.brstm",
@@ -2337,7 +2337,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve259.brstm",
@@ -2346,7 +2346,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve260.brstm",
@@ -2355,7 +2355,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve261.brstm",
@@ -2364,7 +2364,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve262.brstm",
@@ -2373,7 +2373,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve263.brstm",
@@ -2382,7 +2382,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve264.brstm",
@@ -2391,7 +2391,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve265.brstm",
@@ -2400,7 +2400,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve266.brstm",
@@ -2409,7 +2409,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve267.brstm",
@@ -2418,7 +2418,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve268.brstm",
@@ -2427,7 +2427,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve269.brstm",
@@ -2436,7 +2436,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve270.brstm",
@@ -2445,7 +2445,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve271.brstm",
@@ -2454,7 +2454,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve272.brstm",
@@ -2463,7 +2463,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve273.brstm",
@@ -2472,7 +2472,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve274.brstm",
@@ -2481,7 +2481,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve275.brstm",
@@ -2490,7 +2490,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve276.brstm",
@@ -2499,7 +2499,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve277.brstm",
@@ -2508,7 +2508,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve278.brstm",
@@ -2517,7 +2517,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve279.brstm",
@@ -2526,7 +2526,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve280.brstm",
@@ -2535,7 +2535,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve281.brstm",
@@ -2544,7 +2544,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve282.brstm",
@@ -2553,7 +2553,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve283.brstm",
@@ -2562,7 +2562,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve284.brstm",
@@ -2571,7 +2571,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve285.brstm",
@@ -2580,7 +2580,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve286.brstm",
@@ -2589,7 +2589,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve287.brstm",
@@ -2598,7 +2598,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve288.brstm",
@@ -2607,7 +2607,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve289.brstm",
@@ -2616,7 +2616,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve290.brstm",
@@ -2625,7 +2625,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve291.brstm",
@@ -2634,7 +2634,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve292.brstm",
@@ -2643,7 +2643,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve293.brstm",
@@ -2652,7 +2652,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve294.brstm",
@@ -2661,7 +2661,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve295.brstm",
@@ -2670,7 +2670,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve296.brstm",
@@ -2679,7 +2679,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve297.brstm",
@@ -2688,7 +2688,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve298.brstm",
@@ -2697,7 +2697,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve299.brstm",
@@ -2706,7 +2706,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve300.brstm",
@@ -2715,7 +2715,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve301.brstm",
@@ -2724,7 +2724,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve302.brstm",
@@ -2733,7 +2733,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve303.brstm",
@@ -2742,7 +2742,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve304.brstm",
@@ -2751,7 +2751,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve305.brstm",
@@ -2760,7 +2760,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve306.brstm",
@@ -2769,7 +2769,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve307.brstm",
@@ -2778,7 +2778,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve308.brstm",
@@ -2787,7 +2787,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve309.brstm",
@@ -2796,7 +2796,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve310.brstm",
@@ -2805,7 +2805,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve311.brstm",
@@ -2814,7 +2814,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve312.brstm",
@@ -2823,7 +2823,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve313.brstm",
@@ -2832,7 +2832,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve314.brstm",
@@ -2841,7 +2841,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve315.brstm",
@@ -2850,7 +2850,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve316.brstm",
@@ -2859,7 +2859,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve317.brstm",
@@ -2868,7 +2868,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve318.brstm",
@@ -2877,7 +2877,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve319.brstm",
@@ -2886,7 +2886,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve320.brstm",
@@ -2895,7 +2895,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve321.brstm",
@@ -2904,7 +2904,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve322.brstm",
@@ -2913,7 +2913,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve323.brstm",
@@ -2922,7 +2922,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve324.brstm",
@@ -2931,7 +2931,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve325.brstm",
@@ -2940,7 +2940,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve326.brstm",
@@ -2949,7 +2949,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve327.brstm",
@@ -2958,7 +2958,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve328.brstm",
@@ -2967,7 +2967,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve329.brstm",
@@ -2976,7 +2976,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve330.brstm",
@@ -2985,7 +2985,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve331.brstm",
@@ -2994,7 +2994,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve332.brstm",
@@ -3003,7 +3003,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve333.brstm",
@@ -3012,7 +3012,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve334.brstm",
@@ -3021,7 +3021,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve335.brstm",
@@ -3030,7 +3030,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve336.brstm",
@@ -3039,7 +3039,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve337.brstm",
@@ -3048,7 +3048,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve338.brstm",
@@ -3057,7 +3057,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve339.brstm",
@@ -3066,7 +3066,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve340.brstm",
@@ -3075,7 +3075,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve341.brstm",
@@ -3084,7 +3084,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve342.brstm",
@@ -3093,7 +3093,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve343.brstm",
@@ -3102,7 +3102,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve344.brstm",
@@ -3111,7 +3111,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve345.brstm",
@@ -3120,7 +3120,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve346.brstm",
@@ -3129,7 +3129,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve347.brstm",
@@ -3138,7 +3138,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve348.brstm",
@@ -3147,7 +3147,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve349.brstm",
@@ -3156,7 +3156,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve350.brstm",
@@ -3165,7 +3165,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve351.brstm",
@@ -3174,7 +3174,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve352.brstm",
@@ -3183,7 +3183,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve353.brstm",
@@ -3192,7 +3192,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve501.brstm",
@@ -3201,7 +3201,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve502.brstm",
@@ -3210,7 +3210,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve503.brstm",
@@ -3219,7 +3219,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve504.brstm",
@@ -3228,7 +3228,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve505.brstm",
@@ -3237,7 +3237,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve506.brstm",
@@ -3246,7 +3246,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve507.brstm",
@@ -3255,7 +3255,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve508.brstm",
@@ -3264,7 +3264,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve509.brstm",
@@ -3273,7 +3273,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve510.brstm",
@@ -3282,7 +3282,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve511.brstm",
@@ -3291,7 +3291,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve512.brstm",
@@ -3300,7 +3300,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve513.brstm",
@@ -3309,7 +3309,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve514.brstm",
@@ -3318,7 +3318,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve515.brstm",
@@ -3327,7 +3327,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve516.brstm",
@@ -3336,7 +3336,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve517.brstm",
@@ -3345,7 +3345,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve518.brstm",
@@ -3354,7 +3354,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve519.brstm",
@@ -3363,7 +3363,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve520.brstm",
@@ -3372,7 +3372,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve521.brstm",
@@ -3381,7 +3381,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve522.brstm",
@@ -3390,7 +3390,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve523.brstm",
@@ -3399,7 +3399,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve524.brstm",
@@ -3408,7 +3408,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve525.brstm",
@@ -3417,7 +3417,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve526.brstm",
@@ -3426,7 +3426,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve527.brstm",
@@ -3435,7 +3435,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve528.brstm",
@@ -3444,7 +3444,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve529.brstm",
@@ -3453,7 +3453,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve530.brstm",
@@ -3462,7 +3462,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve531.brstm",
@@ -3471,7 +3471,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve532.brstm",
@@ -3480,7 +3480,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve533.brstm",
@@ -3489,7 +3489,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve534.brstm",
@@ -3498,7 +3498,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve535.brstm",
@@ -3507,7 +3507,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve536.brstm",
@@ -3516,7 +3516,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve537.brstm",
@@ -3525,7 +3525,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve538.brstm",
@@ -3534,7 +3534,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve539.brstm",
@@ -3543,7 +3543,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve540.brstm",
@@ -3552,7 +3552,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve541.brstm",
@@ -3561,7 +3561,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve542.brstm",
@@ -3570,7 +3570,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve543.brstm",
@@ -3579,7 +3579,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve544.brstm",
@@ -3588,7 +3588,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve545.brstm",
@@ -3597,7 +3597,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve546.brstm",
@@ -3606,7 +3606,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve547.brstm",
@@ -3615,7 +3615,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve548.brstm",
@@ -3624,7 +3624,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve549.brstm",
@@ -3633,7 +3633,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve550.brstm",
@@ -3642,7 +3642,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve551.brstm",
@@ -3651,7 +3651,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve552.brstm",
@@ -3660,7 +3660,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve553.brstm",
@@ -3669,7 +3669,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve554.brstm",
@@ -3678,7 +3678,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve555.brstm",
@@ -3687,7 +3687,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve556.brstm",
@@ -3696,7 +3696,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve557.brstm",
@@ -3705,7 +3705,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve558.brstm",
@@ -3714,7 +3714,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve559.brstm",
@@ -3723,7 +3723,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve560.brstm",
@@ -3732,7 +3732,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve561.brstm",
@@ -3741,7 +3741,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve562.brstm",
@@ -3750,7 +3750,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve563.brstm",
@@ -3759,7 +3759,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve564.brstm",
@@ -3768,7 +3768,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve565.brstm",
@@ -3777,7 +3777,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve566.brstm",
@@ -3786,7 +3786,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve567.brstm",
@@ -3795,7 +3795,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve568.brstm",
@@ -3804,7 +3804,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve569.brstm",
@@ -3813,7 +3813,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve570.brstm",
@@ -3822,7 +3822,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve571.brstm",
@@ -3831,7 +3831,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve572.brstm",
@@ -3840,7 +3840,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve573.brstm",
@@ -3849,7 +3849,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve574.brstm",
@@ -3858,7 +3858,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve575.brstm",
@@ -3867,7 +3867,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve576.brstm",
@@ -3876,7 +3876,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve577.brstm",
@@ -3885,7 +3885,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve578.brstm",
@@ -3894,7 +3894,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve579.brstm",
@@ -3903,7 +3903,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve580.brstm",
@@ -3912,7 +3912,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve581.brstm",
@@ -3921,7 +3921,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve582.brstm",
@@ -3930,7 +3930,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve583.brstm",
@@ -3939,7 +3939,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve584.brstm",
@@ -3948,7 +3948,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve585.brstm",
@@ -3957,7 +3957,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve586.brstm",
@@ -3966,7 +3966,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve587.brstm",
@@ -3975,7 +3975,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve588.brstm",
@@ -3984,7 +3984,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve589.brstm",
@@ -3993,7 +3993,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve590.brstm",
@@ -4002,7 +4002,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve591.brstm",
@@ -4011,7 +4011,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve592.brstm",
@@ -4020,7 +4020,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve593.brstm",
@@ -4029,7 +4029,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve594.brstm",
@@ -4038,7 +4038,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve595.brstm",
@@ -4047,7 +4047,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve596.brstm",
@@ -4056,7 +4056,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve597.brstm",
@@ -4065,7 +4065,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve598.brstm",
@@ -4074,7 +4074,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve599.brstm",
@@ -4083,7 +4083,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve600.brstm",
@@ -4092,7 +4092,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve601.brstm",
@@ -4101,7 +4101,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve602.brstm",
@@ -4110,7 +4110,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve603.brstm",
@@ -4119,7 +4119,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve604.brstm",
@@ -4128,7 +4128,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve605.brstm",
@@ -4137,7 +4137,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve606.brstm",
@@ -4146,7 +4146,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve607.brstm",
@@ -4155,7 +4155,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve608.brstm",
@@ -4164,7 +4164,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve609.brstm",
@@ -4173,7 +4173,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve610.brstm",
@@ -4182,7 +4182,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve611.brstm",
@@ -4191,7 +4191,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve612.brstm",
@@ -4200,7 +4200,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve613.brstm",
@@ -4209,7 +4209,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve614.brstm",
@@ -4218,7 +4218,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve615.brstm",
@@ -4227,7 +4227,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve616.brstm",
@@ -4236,7 +4236,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve617.brstm",
@@ -4245,7 +4245,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve618.brstm",
@@ -4254,7 +4254,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve619.brstm",
@@ -4263,7 +4263,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve620.brstm",
@@ -4272,7 +4272,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve621.brstm",
@@ -4281,7 +4281,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve622.brstm",
@@ -4290,7 +4290,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve623.brstm",
@@ -4299,7 +4299,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve624.brstm",
@@ -4308,7 +4308,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve625.brstm",
@@ -4317,7 +4317,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve626.brstm",
@@ -4326,7 +4326,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve627.brstm",
@@ -4335,7 +4335,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve628.brstm",
@@ -4344,7 +4344,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve629.brstm",
@@ -4353,7 +4353,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve630.brstm",
@@ -4362,7 +4362,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve631.brstm",
@@ -4371,7 +4371,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve632.brstm",
@@ -4380,7 +4380,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve633.brstm",
@@ -4389,7 +4389,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve634.brstm",
@@ -4398,7 +4398,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve635.brstm",
@@ -4407,7 +4407,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve636.brstm",
@@ -4416,7 +4416,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve637.brstm",
@@ -4425,7 +4425,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve638.brstm",
@@ -4434,7 +4434,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve639.brstm",
@@ -4443,7 +4443,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve640.brstm",
@@ -4452,7 +4452,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve641.brstm",
@@ -4461,7 +4461,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve642.brstm",
@@ -4470,7 +4470,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve643.brstm",
@@ -4479,7 +4479,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve644.brstm",
@@ -4488,7 +4488,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve645.brstm",
@@ -4497,7 +4497,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve646.brstm",
@@ -4506,7 +4506,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve647.brstm",
@@ -4515,7 +4515,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve648.brstm",
@@ -4524,7 +4524,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve649.brstm",
@@ -4533,7 +4533,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve650.brstm",
@@ -4542,7 +4542,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve651.brstm",
@@ -4551,7 +4551,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve652.brstm",
@@ -4560,7 +4560,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve653.brstm",
@@ -4569,7 +4569,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve654.brstm",
@@ -4578,7 +4578,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve655.brstm",
@@ -4587,7 +4587,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve656.brstm",
@@ -4596,7 +4596,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve657.brstm",
@@ -4605,7 +4605,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve658.brstm",
@@ -4614,7 +4614,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve659.brstm",
@@ -4623,7 +4623,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve660.brstm",
@@ -4632,7 +4632,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve661.brstm",
@@ -4641,7 +4641,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve662.brstm",
@@ -4650,7 +4650,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve663.brstm",
@@ -4659,7 +4659,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve664.brstm",
@@ -4668,7 +4668,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve665.brstm",
@@ -4677,7 +4677,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve666.brstm",
@@ -4686,7 +4686,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve667.brstm",
@@ -4695,7 +4695,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve668.brstm",
@@ -4704,7 +4704,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve669.brstm",
@@ -4713,7 +4713,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve670.brstm",
@@ -4722,7 +4722,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve671.brstm",
@@ -4731,7 +4731,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve672.brstm",
@@ -4740,7 +4740,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve673.brstm",
@@ -4749,7 +4749,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve674.brstm",
@@ -4758,7 +4758,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve675.brstm",
@@ -4767,7 +4767,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve700.brstm",
@@ -4776,7 +4776,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve701.brstm",
@@ -4785,7 +4785,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve702.brstm",
@@ -4794,7 +4794,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve703.brstm",
@@ -4803,7 +4803,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve704.brstm",
@@ -4812,7 +4812,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve705.brstm",
@@ -4821,7 +4821,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve706.brstm",
@@ -4830,7 +4830,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve707.brstm",
@@ -4839,7 +4839,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve708.brstm",
@@ -4848,7 +4848,7 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/eve709.brstm",
@@ -4857,6 +4857,6 @@
     "Color": 4294967048,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]

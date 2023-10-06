@@ -6,7 +6,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai002.brstm",
@@ -15,7 +15,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai003.brstm",
@@ -24,7 +24,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai004.brstm",
@@ -33,7 +33,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai005.brstm",
@@ -42,7 +42,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai006.brstm",
@@ -51,7 +51,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai007.brstm",
@@ -60,7 +60,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai008.brstm",
@@ -69,7 +69,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai009.brstm",
@@ -78,7 +78,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai010.brstm",
@@ -87,7 +87,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai011.brstm",
@@ -96,7 +96,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai012.brstm",
@@ -105,7 +105,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai013.brstm",
@@ -114,7 +114,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai014.brstm",
@@ -123,7 +123,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai015.brstm",
@@ -132,7 +132,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai016.brstm",
@@ -141,7 +141,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai017.brstm",
@@ -150,7 +150,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai018.brstm",
@@ -159,7 +159,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai019.brstm",
@@ -168,7 +168,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai020.brstm",
@@ -177,7 +177,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai021.brstm",
@@ -186,7 +186,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai022.brstm",
@@ -195,7 +195,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai023.brstm",
@@ -204,7 +204,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai024.brstm",
@@ -213,7 +213,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai025.brstm",
@@ -222,7 +222,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai026.brstm",
@@ -231,7 +231,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai027.brstm",
@@ -240,7 +240,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai028.brstm",
@@ -249,7 +249,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai029.brstm",
@@ -258,7 +258,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai030.brstm",
@@ -267,7 +267,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai031.brstm",
@@ -276,7 +276,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai032.brstm",
@@ -285,7 +285,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai033.brstm",
@@ -294,7 +294,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai034.brstm",
@@ -303,7 +303,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai035.brstm",
@@ -312,7 +312,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai036.brstm",
@@ -321,7 +321,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai037.brstm",
@@ -330,7 +330,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai038.brstm",
@@ -339,7 +339,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai039.brstm",
@@ -348,7 +348,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai040.brstm",
@@ -357,7 +357,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai041.brstm",
@@ -366,7 +366,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai042.brstm",
@@ -375,7 +375,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai043.brstm",
@@ -384,7 +384,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai044.brstm",
@@ -393,7 +393,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai045.brstm",
@@ -402,7 +402,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai046.brstm",
@@ -411,7 +411,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai047.brstm",
@@ -420,7 +420,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai048.brstm",
@@ -429,7 +429,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai049.brstm",
@@ -438,7 +438,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai050.brstm",
@@ -447,7 +447,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai051.brstm",
@@ -456,7 +456,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai052.brstm",
@@ -465,7 +465,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai053.brstm",
@@ -474,7 +474,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai054.brstm",
@@ -483,7 +483,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai055.brstm",
@@ -492,7 +492,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai056.brstm",
@@ -501,7 +501,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai057.brstm",
@@ -510,7 +510,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai058.brstm",
@@ -519,7 +519,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai059.brstm",
@@ -528,7 +528,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai060.brstm",
@@ -537,7 +537,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai061.brstm",
@@ -546,7 +546,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai062.brstm",
@@ -555,7 +555,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai063.brstm",
@@ -564,7 +564,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai064.brstm",
@@ -573,7 +573,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai065.brstm",
@@ -582,7 +582,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai066.brstm",
@@ -591,7 +591,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai067.brstm",
@@ -600,7 +600,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai068.brstm",
@@ -609,7 +609,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai069.brstm",
@@ -618,7 +618,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai070.brstm",
@@ -627,7 +627,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai071.brstm",
@@ -636,7 +636,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai072.brstm",
@@ -645,7 +645,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai073.brstm",
@@ -654,7 +654,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai074.brstm",
@@ -663,7 +663,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai075.brstm",
@@ -672,7 +672,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai076.brstm",
@@ -681,7 +681,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai077.brstm",
@@ -690,7 +690,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai078.brstm",
@@ -699,7 +699,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai079.brstm",
@@ -708,7 +708,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai080.brstm",
@@ -717,7 +717,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai081.brstm",
@@ -726,7 +726,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai082.brstm",
@@ -735,7 +735,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai083.brstm",
@@ -744,7 +744,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai084.brstm",
@@ -753,7 +753,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai085.brstm",
@@ -762,7 +762,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai086.brstm",
@@ -771,7 +771,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai087.brstm",
@@ -780,7 +780,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai088.brstm",
@@ -789,7 +789,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai089.brstm",
@@ -798,7 +798,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai090.brstm",
@@ -807,7 +807,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai091.brstm",
@@ -816,7 +816,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai092.brstm",
@@ -825,7 +825,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai093.brstm",
@@ -834,7 +834,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai094.brstm",
@@ -843,7 +843,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai095.brstm",
@@ -852,7 +852,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai096.brstm",
@@ -861,7 +861,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai097.brstm",
@@ -870,7 +870,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai098.brstm",
@@ -879,7 +879,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai099.brstm",
@@ -888,7 +888,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai100.brstm",
@@ -897,7 +897,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai101.brstm",
@@ -906,7 +906,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai102.brstm",
@@ -915,7 +915,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai103.brstm",
@@ -924,7 +924,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai104.brstm",
@@ -933,7 +933,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai105.brstm",
@@ -942,7 +942,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai106.brstm",
@@ -951,7 +951,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai107.brstm",
@@ -960,7 +960,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai108.brstm",
@@ -969,7 +969,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai109.brstm",
@@ -978,7 +978,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai110.brstm",
@@ -987,7 +987,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai111.brstm",
@@ -996,7 +996,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai112.brstm",
@@ -1005,7 +1005,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai113.brstm",
@@ -1014,7 +1014,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai114.brstm",
@@ -1023,7 +1023,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai115.brstm",
@@ -1032,7 +1032,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai116.brstm",
@@ -1041,7 +1041,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai117.brstm",
@@ -1050,7 +1050,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai118.brstm",
@@ -1059,7 +1059,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai119.brstm",
@@ -1068,7 +1068,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai120.brstm",
@@ -1077,7 +1077,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai121.brstm",
@@ -1086,7 +1086,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai122.brstm",
@@ -1095,7 +1095,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai123.brstm",
@@ -1104,7 +1104,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai124.brstm",
@@ -1113,7 +1113,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai125.brstm",
@@ -1122,7 +1122,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai126.brstm",
@@ -1131,7 +1131,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai127.brstm",
@@ -1140,7 +1140,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai128.brstm",
@@ -1149,7 +1149,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai129.brstm",
@@ -1158,7 +1158,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai130.brstm",
@@ -1167,7 +1167,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai131.brstm",
@@ -1176,7 +1176,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai132.brstm",
@@ -1185,7 +1185,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai133.brstm",
@@ -1194,7 +1194,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai134.brstm",
@@ -1203,7 +1203,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai135.brstm",
@@ -1212,7 +1212,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai136.brstm",
@@ -1221,7 +1221,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai137.brstm",
@@ -1230,7 +1230,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai138.brstm",
@@ -1239,7 +1239,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai139.brstm",
@@ -1248,7 +1248,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai140.brstm",
@@ -1257,7 +1257,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai141.brstm",
@@ -1266,7 +1266,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai142.brstm",
@@ -1275,7 +1275,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai143.brstm",
@@ -1284,7 +1284,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai144.brstm",
@@ -1293,7 +1293,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai145.brstm",
@@ -1302,7 +1302,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai146.brstm",
@@ -1311,7 +1311,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai147.brstm",
@@ -1320,7 +1320,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai148.brstm",
@@ -1329,7 +1329,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai149.brstm",
@@ -1338,7 +1338,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai150.brstm",
@@ -1347,7 +1347,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai151.brstm",
@@ -1356,7 +1356,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai152.brstm",
@@ -1365,7 +1365,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai153.brstm",
@@ -1374,7 +1374,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai154.brstm",
@@ -1383,7 +1383,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai155.brstm",
@@ -1392,7 +1392,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai156.brstm",
@@ -1401,7 +1401,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai157.brstm",
@@ -1410,7 +1410,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai158.brstm",
@@ -1419,7 +1419,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai159.brstm",
@@ -1428,7 +1428,7 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/kai160.brstm",
@@ -1437,6 +1437,6 @@
     "Color": 4294944002,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]

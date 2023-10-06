@@ -6,7 +6,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/101.brstm",
@@ -15,7 +15,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/102.brstm",
@@ -24,7 +24,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/103new.brstm",
@@ -33,7 +33,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/104.brstm",
@@ -42,7 +42,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/105new.brstm",
@@ -51,7 +51,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/106.brstm",
@@ -60,7 +60,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/107new.brstm",
@@ -69,7 +69,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/108.brstm",
@@ -78,7 +78,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/109.brstm",
@@ -87,7 +87,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/110.brstm",
@@ -96,7 +96,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/111new.brstm",
@@ -105,7 +105,7 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/112.brstm",
@@ -114,6 +114,6 @@
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]

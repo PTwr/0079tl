@@ -6,7 +6,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat002.brstm",
@@ -15,7 +15,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat003.brstm",
@@ -24,7 +24,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat004.brstm",
@@ -33,7 +33,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat005.brstm",
@@ -42,7 +42,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat006.brstm",
@@ -51,7 +51,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat007.brstm",
@@ -60,7 +60,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat008.brstm",
@@ -69,7 +69,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat009.brstm",
@@ -78,7 +78,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat010.brstm",
@@ -87,7 +87,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat011.brstm",
@@ -96,7 +96,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat012.brstm",
@@ -105,7 +105,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat013.brstm",
@@ -114,7 +114,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat014.brstm",
@@ -123,7 +123,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat015.brstm",
@@ -132,7 +132,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat016.brstm",
@@ -141,7 +141,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat017.brstm",
@@ -150,7 +150,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat018.brstm",
@@ -159,7 +159,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat019.brstm",
@@ -168,7 +168,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat020.brstm",
@@ -177,7 +177,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat021.brstm",
@@ -186,7 +186,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat022.brstm",
@@ -195,7 +195,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat023.brstm",
@@ -204,7 +204,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat024.brstm",
@@ -213,7 +213,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat025.brstm",
@@ -222,7 +222,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat026.brstm",
@@ -231,7 +231,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat027.brstm",
@@ -240,7 +240,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat028.brstm",
@@ -249,7 +249,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat029.brstm",
@@ -258,7 +258,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat030.brstm",
@@ -267,7 +267,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat031.brstm",
@@ -276,7 +276,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat032.brstm",
@@ -285,7 +285,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat033.brstm",
@@ -294,7 +294,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat034.brstm",
@@ -303,7 +303,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat035.brstm",
@@ -312,7 +312,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat036.brstm",
@@ -321,7 +321,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat037.brstm",
@@ -330,7 +330,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat038.brstm",
@@ -339,7 +339,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat039.brstm",
@@ -348,7 +348,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat040.brstm",
@@ -357,7 +357,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat041.brstm",
@@ -366,7 +366,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat042.brstm",
@@ -375,7 +375,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat043.brstm",
@@ -384,7 +384,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat044.brstm",
@@ -393,7 +393,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat045.brstm",
@@ -402,7 +402,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat046.brstm",
@@ -411,7 +411,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat047.brstm",
@@ -420,7 +420,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat048.brstm",
@@ -429,7 +429,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat049.brstm",
@@ -438,7 +438,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat050.brstm",
@@ -447,7 +447,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat051.brstm",
@@ -456,7 +456,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat052.brstm",
@@ -465,7 +465,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat053.brstm",
@@ -474,7 +474,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat054.brstm",
@@ -483,7 +483,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat055.brstm",
@@ -492,7 +492,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat056.brstm",
@@ -501,7 +501,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat057.brstm",
@@ -510,7 +510,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat058.brstm",
@@ -519,7 +519,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat059.brstm",
@@ -528,7 +528,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat060.brstm",
@@ -537,7 +537,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat061.brstm",
@@ -546,7 +546,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat062.brstm",
@@ -555,7 +555,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat063.brstm",
@@ -564,7 +564,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat064.brstm",
@@ -573,7 +573,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat065.brstm",
@@ -582,7 +582,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat066.brstm",
@@ -591,7 +591,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat067.brstm",
@@ -600,7 +600,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat068.brstm",
@@ -609,7 +609,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat069.brstm",
@@ -618,7 +618,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat070.brstm",
@@ -627,7 +627,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat071.brstm",
@@ -636,7 +636,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat072.brstm",
@@ -645,7 +645,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat073.brstm",
@@ -654,7 +654,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat074.brstm",
@@ -663,7 +663,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat075.brstm",
@@ -672,7 +672,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat076.brstm",
@@ -681,7 +681,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat077.brstm",
@@ -690,7 +690,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat078.brstm",
@@ -699,7 +699,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat079.brstm",
@@ -708,7 +708,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat080.brstm",
@@ -717,7 +717,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat081.brstm",
@@ -726,7 +726,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat082.brstm",
@@ -735,7 +735,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat083.brstm",
@@ -744,7 +744,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat084.brstm",
@@ -753,7 +753,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat085.brstm",
@@ -762,7 +762,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat086.brstm",
@@ -771,7 +771,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat087.brstm",
@@ -780,7 +780,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat088.brstm",
@@ -789,7 +789,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat089.brstm",
@@ -798,7 +798,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat090.brstm",
@@ -807,7 +807,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat091.brstm",
@@ -816,7 +816,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat092.brstm",
@@ -825,7 +825,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat093.brstm",
@@ -834,7 +834,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat094.brstm",
@@ -843,7 +843,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat095.brstm",
@@ -852,7 +852,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat096.brstm",
@@ -861,7 +861,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat097.brstm",
@@ -870,7 +870,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat098.brstm",
@@ -879,7 +879,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat099.brstm",
@@ -888,7 +888,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat100.brstm",
@@ -897,7 +897,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat101.brstm",
@@ -906,7 +906,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat102.brstm",
@@ -915,7 +915,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat103.brstm",
@@ -924,7 +924,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat104.brstm",
@@ -933,7 +933,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat105.brstm",
@@ -942,7 +942,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat106.brstm",
@@ -951,7 +951,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat107.brstm",
@@ -960,7 +960,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat108.brstm",
@@ -969,7 +969,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat109.brstm",
@@ -978,7 +978,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat110.brstm",
@@ -987,7 +987,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat111.brstm",
@@ -996,7 +996,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat112.brstm",
@@ -1005,7 +1005,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat113.brstm",
@@ -1014,7 +1014,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat114.brstm",
@@ -1023,7 +1023,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat115.brstm",
@@ -1032,7 +1032,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat116.brstm",
@@ -1041,7 +1041,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat117.brstm",
@@ -1050,7 +1050,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat118.brstm",
@@ -1059,7 +1059,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat119.brstm",
@@ -1068,7 +1068,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat120.brstm",
@@ -1077,7 +1077,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat121.brstm",
@@ -1086,7 +1086,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat122.brstm",
@@ -1095,7 +1095,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat123.brstm",
@@ -1104,7 +1104,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat124.brstm",
@@ -1113,7 +1113,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat125.brstm",
@@ -1122,7 +1122,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat126.brstm",
@@ -1131,7 +1131,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat127.brstm",
@@ -1140,7 +1140,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat128.brstm",
@@ -1149,7 +1149,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat129.brstm",
@@ -1158,7 +1158,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat130.brstm",
@@ -1167,7 +1167,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat131.brstm",
@@ -1176,7 +1176,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat132.brstm",
@@ -1185,7 +1185,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat133.brstm",
@@ -1194,7 +1194,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat134.brstm",
@@ -1203,7 +1203,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat135.brstm",
@@ -1212,7 +1212,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat136.brstm",
@@ -1221,7 +1221,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat137.brstm",
@@ -1230,7 +1230,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat138.brstm",
@@ -1239,7 +1239,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat139.brstm",
@@ -1248,7 +1248,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat140.brstm",
@@ -1257,7 +1257,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat141.brstm",
@@ -1266,7 +1266,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat142.brstm",
@@ -1275,7 +1275,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat143.brstm",
@@ -1284,7 +1284,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat144.brstm",
@@ -1293,7 +1293,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat145.brstm",
@@ -1302,7 +1302,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat146.brstm",
@@ -1311,7 +1311,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat147.brstm",
@@ -1320,7 +1320,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat148.brstm",
@@ -1329,7 +1329,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat149.brstm",
@@ -1338,7 +1338,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat150.brstm",
@@ -1347,7 +1347,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat151.brstm",
@@ -1356,7 +1356,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat152.brstm",
@@ -1365,7 +1365,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat153.brstm",
@@ -1374,7 +1374,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat154.brstm",
@@ -1383,7 +1383,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat155.brstm",
@@ -1392,7 +1392,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat156.brstm",
@@ -1401,7 +1401,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat157.brstm",
@@ -1410,7 +1410,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat158.brstm",
@@ -1419,7 +1419,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat159.brstm",
@@ -1428,7 +1428,7 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/gat160.brstm",
@@ -1437,6 +1437,6 @@
     "Color": 4294967052,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]
