@@ -9,6 +9,7 @@ using System.Reflection.Metadata.Ecma335;
 
 internal class Program
 {
+    [Obsolete("Move to unpacker")]
     [Verb("mission", HelpText = "Extracts human-readable form for translation.")]
     public class ExtractionOptions
     {
@@ -21,6 +22,7 @@ internal class Program
         [Option('l', "language", Required = false, HelpText = "Language code, defaults to en", Default = "en")]
         public string LanguageCode { get; set; }
     }
+
     [Verb("patch", HelpText = "Create game patch from translation")]
     public class Options
     {
@@ -36,11 +38,13 @@ internal class Program
         public bool Rewrite { get; set; }
         [Option('c', "clean", Required = false, HelpText = "Delets previous patch", Default = false)]
         public bool Clean { get; set; }
+        [Option('s', "subtitles", Required = false, HelpText ="Output dir for subtitle files", Default = null)]
+        public string Subtitles { get; set; }
     }
     private static void Main(string[] args)
     {
         Parser.Default.ParseArguments<ExtractionOptions, Options>(args)
-            .WithParsed<ExtractionOptions>(o =>
+            .WithParsed((Action<ExtractionOptions>)(o =>
             {
                 if (!Directory.Exists(o.InputDir))
                 {
@@ -50,8 +54,8 @@ internal class Program
 
                 ExtractMissionTL(o.InputDir, o.OutputDir, o.LanguageCode, o.Overwrite);
 
-            })
-            .WithParsed<Options>(o =>
+            }))
+            .WithParsed((Action<Options>)(o =>
             {
                 if (!Directory.Exists(o.InputDir))
                 {
@@ -64,8 +68,35 @@ internal class Program
                     return;
                 }
 
-                ArcPatchEerything(o.InputDir, o.OutputDir, o.PatchDir, o.LanguageCode, o.Rewrite, o.Clean);
-            });
+                ArcPatchEerything(o.InputDir, o.OutputDir, Path.Combine(o.PatchDir, "Patch"), o.LanguageCode, o.Rewrite, o.Clean);
+                CopySubtitles(o);
+            }));
+    }
+
+    private static void CopySubtitles(Options o)
+    {
+        if (!string.IsNullOrWhiteSpace(o.Subtitles))
+        {
+            var outputDir = Path.Combine(o.Subtitles, "Subtitles");
+            var subtitleDir = Path.Combine(o.PatchDir, "Subtitles");
+
+            if (o.Clean && Directory.Exists(outputDir))
+            {
+                Directory.Delete(outputDir, true);
+            }
+
+            Directory.CreateDirectory(outputDir);
+
+            var subtitleFiles = Directory.EnumerateFiles(subtitleDir, $"*.{o.LanguageCode}.json");
+
+            foreach (var file in subtitleFiles)
+            {
+                var stub = Path.GetRelativePath(subtitleDir, file);
+                var output = Path.Combine(outputDir, stub);
+
+                File.Copy(file, output);
+            }
+        }
     }
 
     public static void ExtractMissionTL(string inputDir, string outputDir, string lang, bool overwrite)
