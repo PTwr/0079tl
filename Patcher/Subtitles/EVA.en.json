@@ -1,0 +1,1145 @@
+[
+  {
+    "FileName": "sound/stream/eva001.brstm",
+    "Translation": "eva001.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva002.brstm",
+    "Translation": "eva002.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva003.brstm",
+    "Translation": "eva003.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva004.brstm",
+    "Translation": "eva004.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva005.brstm",
+    "Translation": "eva005.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva006.brstm",
+    "Translation": "eva006.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva007.brstm",
+    "Translation": "eva007.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva008.brstm",
+    "Translation": "eva008.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva009.brstm",
+    "Translation": "eva009.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva010.brstm",
+    "Translation": "eva010.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva011.brstm",
+    "Translation": "eva011.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva012.brstm",
+    "Translation": "eva012.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva013.brstm",
+    "Translation": "eva013.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva014.brstm",
+    "Translation": "eva014.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva015.brstm",
+    "Translation": "eva015.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva016.brstm",
+    "Translation": "eva016.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva017.brstm",
+    "Translation": "eva017.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva018.brstm",
+    "Translation": "eva018.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva019.brstm",
+    "Translation": "eva019.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva020.brstm",
+    "Translation": "eva020.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva021.brstm",
+    "Translation": "eva021.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva022.brstm",
+    "Translation": "eva022.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva023.brstm",
+    "Translation": "eva023.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva024.brstm",
+    "Translation": "eva024.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva025.brstm",
+    "Translation": "eva025.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva026.brstm",
+    "Translation": "eva026.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva027.brstm",
+    "Translation": "eva027.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva028.brstm",
+    "Translation": "eva028.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva029.brstm",
+    "Translation": "eva029.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva030.brstm",
+    "Translation": "eva030.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva031.brstm",
+    "Translation": "eva031.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva032.brstm",
+    "Translation": "eva032.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva033.brstm",
+    "Translation": "eva033.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva034.brstm",
+    "Translation": "eva034.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva035.brstm",
+    "Translation": "eva035.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva036.brstm",
+    "Translation": "eva036.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva037.brstm",
+    "Translation": "eva037.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva038.brstm",
+    "Translation": "eva038.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva039.brstm",
+    "Translation": "eva039.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva040.brstm",
+    "Translation": "eva040.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva041.brstm",
+    "Translation": "eva041.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva042.brstm",
+    "Translation": "eva042.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva043.brstm",
+    "Translation": "eva043.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva044.brstm",
+    "Translation": "eva044.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva045.brstm",
+    "Translation": "eva045.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva046.brstm",
+    "Translation": "eva046.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva047.brstm",
+    "Translation": "eva047.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva048.brstm",
+    "Translation": "eva048.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva049.brstm",
+    "Translation": "eva049.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva050.brstm",
+    "Translation": "eva050.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva051.brstm",
+    "Translation": "eva051.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva052.brstm",
+    "Translation": "eva052.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva053.brstm",
+    "Translation": "eva053.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva054.brstm",
+    "Translation": "eva054.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva055.brstm",
+    "Translation": "eva055.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva056.brstm",
+    "Translation": "eva056.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva057.brstm",
+    "Translation": "eva057.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva058.brstm",
+    "Translation": "eva058.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva059.brstm",
+    "Translation": "eva059.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva060.brstm",
+    "Translation": "eva060.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva061.brstm",
+    "Translation": "eva061.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva062.brstm",
+    "Translation": "eva062.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva063.brstm",
+    "Translation": "eva063.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva064.brstm",
+    "Translation": "eva064.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva065.brstm",
+    "Translation": "eva065.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva066.brstm",
+    "Translation": "eva066.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva067.brstm",
+    "Translation": "eva067.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva068.brstm",
+    "Translation": "eva068.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva069.brstm",
+    "Translation": "eva069.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva070.brstm",
+    "Translation": "eva070.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva071.brstm",
+    "Translation": "eva071.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva072.brstm",
+    "Translation": "eva072.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva073.brstm",
+    "Translation": "eva073.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva074.brstm",
+    "Translation": "eva074.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva075.brstm",
+    "Translation": "eva075.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva076.brstm",
+    "Translation": "eva076.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva077.brstm",
+    "Translation": "eva077.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva078.brstm",
+    "Translation": "eva078.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva079.brstm",
+    "Translation": "eva079.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva080.brstm",
+    "Translation": "eva080.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva081.brstm",
+    "Translation": "eva081.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva082.brstm",
+    "Translation": "eva082.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva083.brstm",
+    "Translation": "eva083.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva084.brstm",
+    "Translation": "eva084.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva085.brstm",
+    "Translation": "eva085.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva086.brstm",
+    "Translation": "eva086.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva087.brstm",
+    "Translation": "eva087.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva088.brstm",
+    "Translation": "eva088.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva089.brstm",
+    "Translation": "eva089.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva090.brstm",
+    "Translation": "eva090.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva091.brstm",
+    "Translation": "eva091.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva092.brstm",
+    "Translation": "eva092.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva093.brstm",
+    "Translation": "eva093.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva094.brstm",
+    "Translation": "eva094.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva095.brstm",
+    "Translation": "eva095.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva096.brstm",
+    "Translation": "eva096.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva097.brstm",
+    "Translation": "eva097.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva098.brstm",
+    "Translation": "eva098.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva099.brstm",
+    "Translation": "eva099.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva100.brstm",
+    "Translation": "eva100.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva101.brstm",
+    "Translation": "eva101.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva102.brstm",
+    "Translation": "eva102.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva103.brstm",
+    "Translation": "eva103.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva104.brstm",
+    "Translation": "eva104.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva105.brstm",
+    "Translation": "eva105.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva106.brstm",
+    "Translation": "eva106.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva107.brstm",
+    "Translation": "eva107.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva108.brstm",
+    "Translation": "eva108.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva109.brstm",
+    "Translation": "eva109.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva110.brstm",
+    "Translation": "eva110.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva111.brstm",
+    "Translation": "eva111.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva112.brstm",
+    "Translation": "eva112.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva113.brstm",
+    "Translation": "eva113.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva114.brstm",
+    "Translation": "eva114.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva115.brstm",
+    "Translation": "eva115.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva116.brstm",
+    "Translation": "eva116.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva117.brstm",
+    "Translation": "eva117.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva118.brstm",
+    "Translation": "eva118.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva119.brstm",
+    "Translation": "eva119.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva120.brstm",
+    "Translation": "eva120.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva121.brstm",
+    "Translation": "eva121.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva122.brstm",
+    "Translation": "eva122.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva123.brstm",
+    "Translation": "eva123.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva124.brstm",
+    "Translation": "eva124.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva125.brstm",
+    "Translation": "eva125.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva126.brstm",
+    "Translation": "eva126.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/eva127.brstm",
+    "Translation": "eva127.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967047,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  }
+]

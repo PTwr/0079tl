@@ -1,0 +1,915 @@
+[
+  {
+    "FileName": "sound/stream/anf001.brstm",
+    "Translation": "You have reached designated point",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf002.brstm",
+    "Translation": "Everyone, please be careful.",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf003.brstm",
+    "Translation": "Start the operation",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf004.brstm",
+    "Translation": "Entering target airspace",
+    "_": "Operation reaches airspace",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf005.brstm",
+    "Translation": "Mobile Suits launching",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf006.brstm",
+    "Translation": "Enemy troops approaching",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf007.brstm",
+    "Translation": "Pay attentino to weather",
+    "_": "Mind the weather? Pay attentino to it?",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf008.brstm",
+    "Translation": "Captian, its an enemy unit",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf009.brstm",
+    "Translation": "Enemy Mobile Suit approaching",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf010.brstm",
+    "Translation": "Captain! We're being surrounded!",
+    "_": "confirm whats being surrounde/besieged, might be escort target not your team",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf011.brstm",
+    "Translation": "New enemy forces approaching",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf012.brstm",
+    "Translation": "Enemy fighting force has increased",
+    "_": "Target increased in strength?",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf013.brstm",
+    "Translation": "We have visuals on enemy detachment",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf014.brstm",
+    "Translation": "Enemy reinforcements arrived",
+    "_": "Target increased in sttrenght?",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf015.brstm",
+    "Translation": "More enemies approaching!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf016.brstm",
+    "Translation": "Roger that!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf017.brstm",
+    "Translation": "Y-yes sir!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf018.brstm",
+    "Translation": "On it!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf019.brstm",
+    "Translation": "G-got it",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf020.brstm",
+    "Translation": "Yes sir",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf021.brstm",
+    "Translation": "You're outside of the area of operation",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf022.brstm",
+    "Translation": "You are out of the operation area, please go back",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf023.brstm",
+    "Translation": "Mission target spotted",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf024.brstm",
+    "Translation": "Target is approaching",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf025.brstm",
+    "Translation": "Mission target located",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf026.brstm",
+    "Translation": "Enemy landship, Big Tray, has been spotted",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf027.brstm",
+    "Translation": "Enemy patrol plane, Dish, spotted",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf028.brstm",
+    "Translation": "Medea transport plane spotted",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf029.brstm",
+    "Translation": "Target is entering operational area",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf030.brstm",
+    "Translation": "Taret is taking off",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf031.brstm",
+    "Translation": "Target is still intact",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf032.brstm",
+    "Translation": "At this rate target will escape the area",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf033.brstm",
+    "Translation": "Target has left operational area",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf034.brstm",
+    "Translation": "Continue your attacks against target",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf035.brstm",
+    "Translation": "Target has been damaged",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf036.brstm",
+    "Translation": "Target is almost destroyed, keep up your attack",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf037.brstm",
+    "Translation": "Confirmed target destruction",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf038.brstm",
+    "Translation": "Please destroy remaining enemy forces as well",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf039.brstm",
+    "Translation": "You have achieved requried quota of destroyed targets",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf040.brstm",
+    "Translation": "All targets have been destroyed",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf041.brstm",
+    "Translation": "Set up defense of target",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf042.brstm",
+    "Translation": "Defense target spotted",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf043.brstm",
+    "Translation": "Enemy approaching defens etarget, please intercept",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf044.brstm",
+    "Translation": "Defense target is under attack",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf045.brstm",
+    "Translation": "Enemy is concentrating on defense target",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf046.brstm",
+    "Translation": "Defense target is destroyed!",
+    "_": "almost destroyed or destroyed already? cant tell",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf047.brstm",
+    "Translation": "Defense target has been destroyed!",
+    "_": "almost destroyed or destroyed already? cant tell",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf048.brstm",
+    "Translation": "Captain, defense target has been destroyed...",
+    "_": "almost destroyed or destroyed already? cant tell",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf049.brstm",
+    "Translation": "Its not a fatal loss yet, pleae protect remaining targets",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf050.brstm",
+    "Translation": "Damage is accomulating, if this continues our defenses will fall",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf051.brstm",
+    "Translation": "Target has been lost!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf052.brstm",
+    "Translation": "Target has been destroyed...",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf053.brstm",
+    "Translation": "Enemy bombers approaching!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf054.brstm",
+    "Translation": "Enemy airforce approaching on a bombing run, evade!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf055.brstm",
+    "Translation": "Watch out for enemy artillery fire",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf056.brstm",
+    "Translation": "Mission completed",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf057.brstm",
+    "Translation": "All enemy forces destroyed",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf058.brstm",
+    "Translation": "No contact in the area, all enemies are destroyed",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf059.brstm",
+    "Translation": "Thank you all for your hard work",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf060.brstm",
+    "Translation": "Mission objectives completed",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf061.brstm",
+    "Translation": "Mission failed",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf062.brstm",
+    "Translation": "Operatino has failed...",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf063.brstm",
+    "Translation": "Captain, casualties are rising",
+    "_": "enemy fire is increasing?",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf064.brstm",
+    "Translation": "Captain, it's getting dangerous!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf065.brstm",
+    "Translation": "Captain, we can't hold out anymore!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf066.brstm",
+    "Translation": "Captain! Please escape!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf067.brstm",
+    "Translation": "Claus got hit!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf068.brstm",
+    "Translation": "Claus is heavily damaged!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf069.brstm",
+    "Translation": "Claus won't last any longer!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf070.brstm",
+    "Translation": "Claus! Get out of there!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf071.brstm",
+    "Translation": "Tord got hit!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf072.brstm",
+    "Translation": "Tord is heavily damaged!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf073.brstm",
+    "Translation": "Tord won't last any longer!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf074.brstm",
+    "Translation": "Tord! Get out of there!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf075.brstm",
+    "Translation": "Repair and resupply is available in supply containers",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf076.brstm",
+    "Translation": "Please make good use of supply containers",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf077.brstm",
+    "Translation": "It's still doable, please hurry to designated point",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf078.brstm",
+    "Translation": "You can now proceed to extraction point",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf079.brstm",
+    "Translation": "Get to extraction point quickly!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf080.brstm",
+    "Translation": "Please make use of our reinforcements",
+    "-": "effective use of reserves? spare suits? new suits?",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf081.brstm",
+    "Translation": "Please check the strategy details",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf082.brstm",
+    "Translation": "Thats all for strategy explanation",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf083.brstm",
+    "Translation": "Final summary of strategy details",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf084.brstm",
+    "Translation": "Please prepare for sortie",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf085.brstm",
+    "Translation": "Please select unit formation",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf086.brstm",
+    "Translation": "Unable to sortie, cost too hight",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf087.brstm",
+    "Translation": "Ready to sortie",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf088.brstm",
+    "Translation": "Brauer's Team, heading out!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf089.brstm",
+    "Translation": "New mobile suit is available",
+    "-": "deployed/delviered/introduced?",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf090.brstm",
+    "Translation": "New weapons are available",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf091.brstm",
+    "Translation": "We have obtained enemy Mobile Suit",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf092.brstm",
+    "Translation": "We have obtained enemy weapon",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf093.brstm",
+    "Translation": "New pilot available in VS mode",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf094.brstm",
+    "Translation": "New pilot available in Ace Pilot mode",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf095.brstm",
+    "Translation": "Please see new elements",
+    "-": "Please check additional elements? new Items?",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf096.brstm",
+    "Translation": "All enemies in area have been eliminated\nThank you for your hard work",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf097.brstm",
+    "Translation": "Objective has been completed, we did it!",
+    "_": "goal has been reached?",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf098.brstm",
+    "Translation": "Defense target entered operational area",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf099.brstm",
+    "Translation": "Severe damage to defense target!",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/anf100.brstm",
+    "Translation": "Destroying target is our top priority",
+    "Miliseconds": 5000,
+    "Color": "AntiqueWhite",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  }
+]

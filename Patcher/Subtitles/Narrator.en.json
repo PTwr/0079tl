@@ -1,0 +1,22 @@
+[
+  {
+    "-": "Scrolling text before starting campaign",
+    "FileName": "sound/stream/na001.brstm",
+    "Translation": "na001.brstm",
+    "Miliseconds": 5000,
+    "Color": 4278255615,
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "-": "Scrolling text. after campaign ends? some post-game summary?",
+    "FileName": "sound/stream/na002.brstm",
+    "Translation": "na002.brstm",
+    "Miliseconds": 5000,
+    "Color": 4278255615,
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 5
+  }
+]

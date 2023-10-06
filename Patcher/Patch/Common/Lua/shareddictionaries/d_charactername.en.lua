@@ -58,7 +58,7 @@ D_CharacterName = {
     {
         code = "BNG",
         excode = "HM_BNG",
-        name = "South Banning",
+        name = "South Burning",
         cost = 60,
         iconframe = 9,
     },
@@ -72,7 +72,7 @@ D_CharacterName = {
     {
         code = "YOU",
         excode = "HM_YOU",
-        name = "Yu Kajima",
+        name = "Yuu Kajima",
         cost = 80,
         iconframe = 10,
     },
@@ -114,7 +114,7 @@ D_CharacterName = {
     {
         code = "TRD",
         excode = "HM_TRD",
-        name = "Told Bobrov",
+        name = "Tord Bobrov",
         cost = 40,
         iconframe = 26,
     },
@@ -156,7 +156,7 @@ D_CharacterName = {
     {
         code = "NIM",
         excode = "HM_NIM",
-        name = "Nimbus Stazen",
+        name = "Nimbus Schterzen",
         cost = 60,
         iconframe = 23,
     },

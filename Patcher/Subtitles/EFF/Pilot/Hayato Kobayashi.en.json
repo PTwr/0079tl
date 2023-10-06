@@ -1,0 +1,1442 @@
+[
+  {
+    "FileName": "sound/stream/hyt001.brstm",
+    "Translation": "hyt001.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt002.brstm",
+    "Translation": "hyt002.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt003.brstm",
+    "Translation": "hyt003.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt004.brstm",
+    "Translation": "hyt004.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt005.brstm",
+    "Translation": "hyt005.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt006.brstm",
+    "Translation": "hyt006.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt007.brstm",
+    "Translation": "hyt007.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt008.brstm",
+    "Translation": "hyt008.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt009.brstm",
+    "Translation": "hyt009.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt010.brstm",
+    "Translation": "hyt010.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt011.brstm",
+    "Translation": "hyt011.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt012.brstm",
+    "Translation": "hyt012.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt013.brstm",
+    "Translation": "hyt013.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt014.brstm",
+    "Translation": "hyt014.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt015.brstm",
+    "Translation": "hyt015.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt016.brstm",
+    "Translation": "hyt016.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt017.brstm",
+    "Translation": "hyt017.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt018.brstm",
+    "Translation": "hyt018.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt019.brstm",
+    "Translation": "hyt019.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt020.brstm",
+    "Translation": "hyt020.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt021.brstm",
+    "Translation": "hyt021.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt022.brstm",
+    "Translation": "hyt022.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt023.brstm",
+    "Translation": "hyt023.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt024.brstm",
+    "Translation": "hyt024.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt025.brstm",
+    "Translation": "hyt025.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt026.brstm",
+    "Translation": "hyt026.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt027.brstm",
+    "Translation": "hyt027.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt028.brstm",
+    "Translation": "hyt028.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt029.brstm",
+    "Translation": "hyt029.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt030.brstm",
+    "Translation": "hyt030.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt031.brstm",
+    "Translation": "hyt031.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt032.brstm",
+    "Translation": "hyt032.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt033.brstm",
+    "Translation": "hyt033.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt034.brstm",
+    "Translation": "hyt034.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt035.brstm",
+    "Translation": "hyt035.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt036.brstm",
+    "Translation": "hyt036.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt037.brstm",
+    "Translation": "hyt037.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt038.brstm",
+    "Translation": "hyt038.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt039.brstm",
+    "Translation": "hyt039.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt040.brstm",
+    "Translation": "hyt040.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt041.brstm",
+    "Translation": "hyt041.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt042.brstm",
+    "Translation": "hyt042.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt043.brstm",
+    "Translation": "hyt043.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt044.brstm",
+    "Translation": "hyt044.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt045.brstm",
+    "Translation": "hyt045.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt046.brstm",
+    "Translation": "hyt046.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt047.brstm",
+    "Translation": "hyt047.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt048.brstm",
+    "Translation": "hyt048.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt049.brstm",
+    "Translation": "hyt049.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt050.brstm",
+    "Translation": "hyt050.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt051.brstm",
+    "Translation": "hyt051.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt052.brstm",
+    "Translation": "hyt052.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt053.brstm",
+    "Translation": "hyt053.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt054.brstm",
+    "Translation": "hyt054.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt055.brstm",
+    "Translation": "hyt055.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt056.brstm",
+    "Translation": "hyt056.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt057.brstm",
+    "Translation": "hyt057.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt058.brstm",
+    "Translation": "hyt058.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt059.brstm",
+    "Translation": "hyt059.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt060.brstm",
+    "Translation": "hyt060.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt061.brstm",
+    "Translation": "hyt061.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt062.brstm",
+    "Translation": "hyt062.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt063.brstm",
+    "Translation": "hyt063.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt064.brstm",
+    "Translation": "hyt064.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt065.brstm",
+    "Translation": "hyt065.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt066.brstm",
+    "Translation": "hyt066.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt067.brstm",
+    "Translation": "hyt067.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt068.brstm",
+    "Translation": "hyt068.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt069.brstm",
+    "Translation": "hyt069.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt070.brstm",
+    "Translation": "hyt070.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt071.brstm",
+    "Translation": "hyt071.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt072.brstm",
+    "Translation": "hyt072.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt073.brstm",
+    "Translation": "hyt073.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt074.brstm",
+    "Translation": "hyt074.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt075.brstm",
+    "Translation": "hyt075.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt076.brstm",
+    "Translation": "hyt076.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt077.brstm",
+    "Translation": "hyt077.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt078.brstm",
+    "Translation": "hyt078.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt079.brstm",
+    "Translation": "hyt079.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt080.brstm",
+    "Translation": "hyt080.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt081.brstm",
+    "Translation": "hyt081.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt082.brstm",
+    "Translation": "hyt082.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt083.brstm",
+    "Translation": "hyt083.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt084.brstm",
+    "Translation": "hyt084.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt085.brstm",
+    "Translation": "hyt085.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt086.brstm",
+    "Translation": "hyt086.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt087.brstm",
+    "Translation": "hyt087.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt088.brstm",
+    "Translation": "hyt088.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt089.brstm",
+    "Translation": "hyt089.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt090.brstm",
+    "Translation": "hyt090.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt091.brstm",
+    "Translation": "hyt091.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt092.brstm",
+    "Translation": "hyt092.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt093.brstm",
+    "Translation": "hyt093.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt094.brstm",
+    "Translation": "hyt094.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt095.brstm",
+    "Translation": "hyt095.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt096.brstm",
+    "Translation": "hyt096.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt097.brstm",
+    "Translation": "hyt097.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt098.brstm",
+    "Translation": "hyt098.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt099.brstm",
+    "Translation": "hyt099.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt100.brstm",
+    "Translation": "hyt100.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt101.brstm",
+    "Translation": "hyt101.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt102.brstm",
+    "Translation": "hyt102.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt103.brstm",
+    "Translation": "hyt103.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt104.brstm",
+    "Translation": "hyt104.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt105.brstm",
+    "Translation": "hyt105.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt106.brstm",
+    "Translation": "hyt106.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt107.brstm",
+    "Translation": "hyt107.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt108.brstm",
+    "Translation": "hyt108.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt109.brstm",
+    "Translation": "hyt109.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt110.brstm",
+    "Translation": "hyt110.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt111.brstm",
+    "Translation": "hyt111.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt112.brstm",
+    "Translation": "hyt112.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt113.brstm",
+    "Translation": "hyt113.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt114.brstm",
+    "Translation": "hyt114.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt115.brstm",
+    "Translation": "hyt115.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt116.brstm",
+    "Translation": "hyt116.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt117.brstm",
+    "Translation": "hyt117.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt118.brstm",
+    "Translation": "hyt118.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt119.brstm",
+    "Translation": "hyt119.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt120.brstm",
+    "Translation": "hyt120.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt121.brstm",
+    "Translation": "hyt121.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt122.brstm",
+    "Translation": "hyt122.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt123.brstm",
+    "Translation": "hyt123.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt124.brstm",
+    "Translation": "hyt124.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt125.brstm",
+    "Translation": "hyt125.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt126.brstm",
+    "Translation": "hyt126.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt127.brstm",
+    "Translation": "hyt127.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt128.brstm",
+    "Translation": "hyt128.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt129.brstm",
+    "Translation": "hyt129.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt130.brstm",
+    "Translation": "hyt130.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt131.brstm",
+    "Translation": "hyt131.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt132.brstm",
+    "Translation": "hyt132.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt133.brstm",
+    "Translation": "hyt133.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt134.brstm",
+    "Translation": "hyt134.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt135.brstm",
+    "Translation": "hyt135.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt136.brstm",
+    "Translation": "hyt136.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt137.brstm",
+    "Translation": "hyt137.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt138.brstm",
+    "Translation": "hyt138.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt139.brstm",
+    "Translation": "hyt139.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt140.brstm",
+    "Translation": "hyt140.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt141.brstm",
+    "Translation": "hyt141.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt142.brstm",
+    "Translation": "hyt142.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt143.brstm",
+    "Translation": "hyt143.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt144.brstm",
+    "Translation": "hyt144.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt145.brstm",
+    "Translation": "hyt145.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt146.brstm",
+    "Translation": "hyt146.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt147.brstm",
+    "Translation": "hyt147.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt148.brstm",
+    "Translation": "hyt148.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt149.brstm",
+    "Translation": "hyt149.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt150.brstm",
+    "Translation": "hyt150.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt151.brstm",
+    "Translation": "hyt151.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt152.brstm",
+    "Translation": "hyt152.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt153.brstm",
+    "Translation": "hyt153.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt154.brstm",
+    "Translation": "hyt154.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt155.brstm",
+    "Translation": "hyt155.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt156.brstm",
+    "Translation": "hyt156.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt157.brstm",
+    "Translation": "hyt157.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt158.brstm",
+    "Translation": "hyt158.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt159.brstm",
+    "Translation": "hyt159.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/hyt160.brstm",
+    "Translation": "hyt160.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294944001,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  }
+]
