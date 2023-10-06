@@ -1,6 +1,7 @@
 ﻿using GEVLib.EVE;
 using GEVLib.GEV;
 using InMemoryBinaryFile;
+using InMemoryBinaryFile.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,20 +10,12 @@ using System.Threading.Tasks;
 
 namespace GEVLib.STR
 {
-    public class STRBinarySegment : HierarchicalBinarySegment<IChildBinarySegment<STRBinarySegment>, GEVBinaryRootSegment>
+    public class STRBinarySegment : StringDictSegment<GEVBinaryRootSegment>
     {
-        public STRBinarySegment(GEVBinaryRootSegment Parent, Span<byte> content) : base(Parent, content, MagicNumbers.STRMagicNumber)
+        public const string magicNumber = "$STR";
+        const int headerLength = 5 * 4;
+        public STRBinarySegment(GEVBinaryRootSegment Parent) : base(Parent, EncodingHelper.Shift_JIS, magicNumber.ToASCIIBytes(), alignment: 4)
         {
-        }
-
-        protected override void UnpackBody(Span<byte> body)
-        {
-            throw new NotImplementedException();
-        }
-
-        protected override void UnpackHeader(Span<byte> header)
-        {
-            throw new NotImplementedException();
         }
     }
 }

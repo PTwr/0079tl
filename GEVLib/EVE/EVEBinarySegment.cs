@@ -1,5 +1,6 @@
 ﻿using GEVLib.GEV;
 using InMemoryBinaryFile;
+using InMemoryBinaryFile.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,20 +9,25 @@ using System.Threading.Tasks;
 
 namespace GEVLib.EVE
 {
-    public class EVEBinarySegment : HierarchicalBinarySegment<IChildBinarySegment<EVEBinarySegment>, GEVBinaryRootSegment>
+    public class EVEBinarySegment : ParentBinarySegment<GEVBinaryRootSegment, _BaseBinarySegment<EVEBinarySegment>>
     {
-        public EVEBinarySegment(GEVBinaryRootSegment Parent, Span<byte> content) : base(Parent, content, MagicNumbers.EVEMagicNumber)
+        public const string magicNumber = "$EVE";
+        const int headerLength = 0;
+        public EVEBinarySegment(GEVBinaryRootSegment Parent) : base(Parent, magicNumber.ToASCIIBytes(), headerLength)
         {
         }
 
-        protected override void UnpackBody(Span<byte> body)
+        byte[] data;
+        protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
-            throw new NotImplementedException();
+            data = body.ToArray();
         }
 
-        protected override void UnpackHeader(Span<byte> header)
+        protected override void ParseHeader(Span<byte> header, Span<byte> everything)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
+
+        protected override IEnumerable<byte> BodyBytes => data;
     }
 }

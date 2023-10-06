@@ -1,8 +1,8 @@
 ﻿using GEVLib.EVE;
-using GEVLib.Helpers;
 using GEVLib.OFS;
 using GEVLib.STR;
 using InMemoryBinaryFile;
+using InMemoryBinaryFile.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,47 +11,78 @@ using System.Threading.Tasks;
 
 namespace GEVLib.GEV
 {
-    public class GEVBinaryRootSegment : ParentBinarySegment<IChildBinarySegment<GEVBinaryRootSegment>>
+    public class GEVBinaryRootSegment : ParentBinarySegment<IBinarySegment, _BaseBinarySegment<GEVBinaryRootSegment>>
     {
-        const int headerLength = 20;
-        public GEVBinaryRootSegment(Span<byte> content) : base(content, MagicNumbers.GEVMagicNumber)
+        public const string magicNumber = "$EVFEV02";
+        const int headerLength = 5 * 4;
+        public GEVBinaryRootSegment() : base(null, magicNumber.ToASCIIBytes(), headerLength)
         {
-            var header = content.Slice(MagicNumbers.GEVMagicNumber.Length, headerLength);
-            var body = content.Slice(MagicNumbers.GEVMagicNumber.Length + headerLength);
-
-            UnpackHeader(header);
-            UnpackHeader(body);
-
-            children = new List<IChildBinarySegment<GEVBinaryRootSegment>>()
-            {
-                new EVEBinarySegment(this, content.Slice(MagicNumbers.GEVMagicNumber.Length + headerLength, OFSStart - 4)),
-                new OFSBinarySegment(this, content.Slice(OFSStart - 4, STRStart - 4)),
-                new STRBinarySegment(this, content.Slice(MagicNumbers.GEVMagicNumber.Length + headerLength, OFSStart - 4)),
-            };
         }
 
-        protected override void UnpackHeader(Span<byte> header)
+        protected override void ParseHeader(Span<byte> header, Span<byte> everything)
         {
             EVEBlockCount = header.GetBigEndianDWORD(0);
-            Alignment = header.GetBigEndianDWORD(4);
-            OFSStart = header.GetBigEndianDWORD(8);
+            Alignment = header.GetBigEndianDWORD(4); //TODO check if it affects STR or just sections, is it bits (4B str alignment) or bytes?
+            OFSWordLength = header.GetBigEndianDWORD(8);
             OFSStart = header.GetBigEndianDWORD(12);
             STRStart = header.GetBigEndianDWORD(16);
+
+            if (OFSStart > 0 && STRStart == 0)
+                throw new NotSupportedException("OFS without STR is not supported");
+            if (OFSStart == 0 && STRStart > 0)
+                throw new NotSupportedException("OFS without STR is not supported");
+
+            var ofsLength = (OFSBinarySegment.magicNumber.Length + OFSWordLength * 2);
+            ofsLength += ofsLength % (Alignment / 8);
+            if (OFSStart > 0 && (STRStart - OFSStart) != ofsLength)
+                throw new NotSupportedException("OFS length mismatch");
         }
 
-        protected override void UnpackBody(Span<byte> body)
+        protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
-            throw new NotImplementedException();
+            //0x1bb4 0x1c28
+            EVE = new EVEBinarySegment(this);
+            var evebytes = body
+                .Slice(0, OFSStart - OFSBinarySegment.magicNumber.Length - this.HeaderLength - this.MagicNumber.Length);
+            EVE.Parse(evebytes);
+
+            if (OFSStart > 0)
+            {
+                OFS = new OFSBinarySegment(this);
+                var ofsbytes = everything.Slice(
+                    OFSStart - OFSBinarySegment.magicNumber.Length,
+                    OFSBinarySegment.magicNumber.Length + OFSWordLength * 4
+                    );
+                OFS.Parse(ofsbytes);
+            }
+
+            if (STRStart > 0)
+            {
+                STR = new STRBinarySegment(this);
+                var strbytes = everything.Slice(
+                    STRStart - OFSBinarySegment.magicNumber.Length
+                    );
+                STR.Parse(strbytes);
+            }
         }
+
+        protected override IEnumerable<byte> HeaderBytes => Concatenate(
+            EVEBlockCount.GetBigEndianBytes(),
+            Alignment.GetBigEndianBytes(),
+            OFSWordLength.GetBigEndianBytes(),
+            OFSStart.GetBigEndianBytes(),
+            STRStart.GetBigEndianBytes()
+            );
 
         public int EVEBlockCount { get; private set; }
         public int Alignment { get; private set; }
-        public int OFSWordCount { get; private set; }
+        public int OFSWordLength { get; private set; }
         public int OFSStart { get; private set; }
         public int STRStart { get; private set; }
 
-        public EVEBinarySegment EVE => (EVEBinarySegment)this.children[0];
-        public OFSBinarySegment OFS => (OFSBinarySegment)this.children[1];
-        public STRBinarySegment STR => (STRBinarySegment)this.children[2];
+        protected override List<_BaseBinarySegment<GEVBinaryRootSegment>> children => new List<_BaseBinarySegment<GEVBinaryRootSegment>> { EVE, OFS, STR };
+        public EVEBinarySegment EVE { get; private set; }
+        public OFSBinarySegment OFS { get; private set; }
+        public STRBinarySegment STR { get; private set; }
     }
 }
