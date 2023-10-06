@@ -1,7 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz013.brstm",
-    "Translation": "Anne, you'll be operating out of the area.\nNow let's go kick some feedie ass.",
+    "FileName": "sound/stream/evz205.brstm",
+    "Translation": "evz205.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -9,8 +9,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz014.brstm",
-    "Translation": "Resupply procedure is troublesome those days.\nDon't damage your MS recklessly.",
+    "FileName": "sound/stream/evz206.brstm",
+    "Translation": "evz206.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -18,8 +18,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz015.brstm",
-    "Translation": "Enemy combat vehicle approaching! Please be careful!",
+    "FileName": "sound/stream/evz207.brstm",
+    "Translation": "evz207.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -27,9 +27,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz016.brstm",
-    "Translation": "evz016.brstm",
-    "_Comment_": "amphibious MS is fast in water?",
+    "FileName": "sound/stream/evz208.brstm",
+    "Translation": "evz208.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -37,8 +36,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz017.brstm",
-    "Translation": "Locate and destroy Dish airplane to get enemy's attention.",
+    "FileName": "sound/stream/evz209.brstm",
+    "Translation": "evz209.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -46,8 +45,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz018.brstm",
-    "Translation": "Normally I'd welcome enemy gathering, but I don't want any to escape.\nSo if I see one, I shoot one.",
+    "FileName": "sound/stream/evz210.brstm",
+    "Translation": "evz210.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -55,8 +54,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz019.brstm",
-    "Translation": "Targets approach combat area. Everyone, focus on AA combat!",
+    "FileName": "sound/stream/evz211.brstm",
+    "Translation": "evz211.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -64,8 +63,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz020.brstm",
-    "Translation": "Understood. Leo, Tord, don't focus only on enemy in front of you.",
+    "FileName": "sound/stream/evz212.brstm",
+    "Translation": "evz212.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -73,8 +72,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz021.brstm",
-    "Translation": "I know, I'm not gotta let them get away with this, not even for a second.",
+    "FileName": "sound/stream/evz213.brstm",
+    "Translation": "evz213.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -82,8 +81,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz022.brstm",
-    "Translation": "Now... what kind of treasure are they carrying?",
+    "FileName": "sound/stream/evz214.brstm",
+    "Translation": "evz214.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -91,8 +90,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz023.brstm",
-    "Translation": "Whats that? A Mobile Suit?",
+    "FileName": "sound/stream/evz215.brstm",
+    "Translation": "evz215.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -100,8 +99,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz024.brstm",
-    "Translation": "No data. Its not one of ours.",
+    "FileName": "sound/stream/evz216.brstm",
+    "Translation": "evz216.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -109,8 +108,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz025.brstm",
-    "Translation": "No way, is that the white one rumored lately?",
+    "FileName": "sound/stream/evz217.brstm",
+    "Translation": "evz217.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -118,8 +117,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz026.brstm",
-    "Translation": "If you look at its movement, you'll see it ain't that good.",
+    "FileName": "sound/stream/evz218.brstm",
+    "Translation": "evz218.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,8 +126,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz027.brstm",
-    "Translation": "We have to do it anyway.",
+    "FileName": "sound/stream/evz219.brstm",
+    "Translation": "evz219.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,8 +135,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz028.brstm",
-    "Translation": "It seems that passing unit will provide us assistance.",
+    "FileName": "sound/stream/evz220.brstm",
+    "Translation": "evz220.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,8 +144,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz029.brstm",
-    "Translation": "Ooooh, Ramba Ral! Thats reassuring!",
+    "FileName": "sound/stream/evz221.brstm",
+    "Translation": "evz221.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,8 +153,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz030.brstm",
-    "Translation": "Captain Ral, we appreciate your support.",
+    "FileName": "sound/stream/evz222.brstm",
+    "Translation": "evz222.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,92 +162,8 @@
     "Scale": 2
   },
   {
-    "FileName": "sound/stream/evz031.brstm",
-    "Translation": "Please withdraw to not jeopardize your mission.",
-    "_Comment_": "//unsure?",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz032.brstm",
-    "Translation": "That's good enough. Thank you.",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz033.brstm",
-    "Translation": "Ramba Ral's unit leaving the battlefield",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz034.brstm",
-    "Translation": "Okay, we'll do the rest on our own.",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz035.brstm",
-    "Translation": "They left without inflicting serious damage to their targets.",
-    "_Comment_": "huh? commenting about Ramba? not dealing damage or not receiving damage?",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz036.brstm",
-    "Translation": "Mission accomplished. Thank you for your hard work.",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz037.brstm",
-    "Translation": "Good grief, I never thought I'd run into a federal MS. I was nervous.",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz038.brstm",
-    "Translation": "Enemy finally is deploying them for actual combat...",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz039.brstm",
-    "Translation": "Well, well, well. I wonder what will happen next.",
-    "_Comment_": "//just some iddle chit chat",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz040.brstm",
-    "Translation": "Anyway, mission has been completed. Lets get back to base.",
+    "FileName": "sound/stream/evz223.brstm",
+    "Translation": "evz223.brstm",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

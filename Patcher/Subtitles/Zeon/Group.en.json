@@ -1,0 +1,101 @@
+[,,,,,,,,,,,,,,,,,,
+  {
+    "FileName": "sound/stream/evz700.brstm",
+    "Translation": "Yes sir",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz701.brstm",
+    "Translation": "Yes sir!",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz702.brstm",
+    "Translation": "Yes sir!",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz703.brstm",
+    "Translation": "Yes sir",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz704.brstm",
+    "Translation": "Yes sir",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz705.brstm",
+    "Translation": "Y-yes sir",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz706.brstm",
+    "Translation": "Yes sir",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz707.brstm",
+    "Translation": "Yes sir",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz708.brstm",
+    "Translation": "Yes sir",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz709.brstm",
+    "Translation": "Yes sir",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz710.brstm",
+    "Translation": "Yes sir",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  }
+]
