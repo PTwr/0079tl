@@ -47,5 +47,14 @@ namespace GEVLib.OFS
         {
             get { return this.Parent.STR[stringIndexes[i] * 4]; }
         }
+
+        public void UpdateIndexes()
+        {
+            stringIndexes.Clear();
+            foreach(var str in Parent.STR.IndexedStrings)
+            {
+                stringIndexes.Add((ushort)(str.Key / 4));
+            }
+        }
     }
 }

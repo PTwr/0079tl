@@ -10,14 +10,24 @@
     "Size": null
   },
   {
+    "ID": "OPERATION_LOSS",
+    "Text": null,
+    "Lines": [
+      "DEFEAT"
+    ],
+    "TabSpace": null,
+    "Size": 0.8
+  },
+  {
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "Destruction of your MS.",
-      "Too many Medea escapes."
+      "Your MS has been destroyed!",
+      "Don't let too many Medea escape!",
+      "some very long test string to check if it fits"
     ],
-    "TabSpace": null,
-    "Size": null
+    "TabSpace": 3,
+    "Size": 0.5
   },
   {
     "ID": "OPERATION_COMMENT_CONTENT",

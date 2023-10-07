@@ -2,7 +2,7 @@
   "profiles": {
     "0079Patcher": {
       "commandName": "Project",
-      "commandLineArgs": "patch --input \"C:/games/wii/0079/0079_jp/DATA/files\" --output \"%userprofile%/Documents/Dolphin Emulator/Load/Riivolution/R79JAF_EN\" --patch \"../../../../../Patcher\" --language en --clean"
+      "commandLineArgs": "patch --input \"C:/games/wii/0079/0079_jp/DATA/files\" --output \"%userprofile%/Documents/Dolphin Emulator/Load/Riivolution/R79JAF_EN\" --patch \"../../../../../Patcher\" --language en --clean --gev"
     },
     "0079Patcher prepare": {
       "commandName": "Project",

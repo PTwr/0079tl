@@ -20,7 +20,7 @@ namespace Tests
 
             var strings = gev.STR.ToString();
 
-            Assert.Equal("EVC_TU_003", gev.STR.Values.Last());
+            Assert.Equal("EVC_TU_003", gev.STR.Strings.Last());
             Assert.Equal("EVC_TU_003", gev.STR[0x02D0*4]);
             Assert.Equal("EVC_TU_003", gev.OFS[55]);
         }
