@@ -2,21 +2,21 @@
 D_MissionName = {
 	{
 		code = "ME01", 
-		name = "ME01 First battle in moonlight", 
+		name = "ME01 First Battle in Moonlight", 
                 map = "Seattle",
 		difficulty = "EASY",
 	        date="0079/10/06"
 	},
 	{
 		code = "ME02", 
-		name = "ME02 Gunshots among dunes", 
+		name = "ME02 Gunshots Among Dunes", 
                 map = "Desert area",
 		difficulty = "EASY",
 	        date="0079/10/10"
 	},
 	{
 		code = "ME03", 
-		name = "ME03 Giant shadow in haze", 
+		name = "ME03 Demon in the Clouds", 
                 map = "African mining base",
 		difficulty = "NORMAL",
 	        date="0079/10/25",
@@ -25,7 +25,7 @@ D_MissionName = {
 		code = "ME04", 
 		--8th MS team, SRT-1 ambushes Aina in her flying bunker
 		--The smoke dissolves into the rain
-		name = "ME04 Smoke in the rain", 
+		name = "ME04 Smoke in the Rain", 
                 map = "Valley",
 		difficulty = "NORMAL",
 	        date="0079/10/late",
@@ -33,7 +33,7 @@ D_MissionName = {
 	{
 		code = "ME05", 
 		--The rising smoke of a counterattack
-		name = "ME05 Flames of counterattack", 
+		name = "ME05 Counterattack Rising", 
                 map = "Odessa Suburbs",
 		difficulty = "NORMAL",
 	        date="0079/11/09",
@@ -41,7 +41,7 @@ D_MissionName = {
 	{
 		code = "ME06", 
 		--Hound released into the darkness
-		name = "ME06 Hounds in darkness", 
+		name = "ME06 Hounds in Darkness", 
                 map = "Odessa Suburbs",
 		difficulty = "NORMAL",
 	        date="0079/11/10",
@@ -49,7 +49,7 @@ D_MissionName = {
 	{
 		code = "ME07", 
 		--Flames dancing in the clear night sky
-		name = "ME07 Burning night", 
+		name = "ME07 Burning Night", 
                 map = "Desert area",
 		difficulty = "NORMAL",
 	        date="0079/11/11",
@@ -57,7 +57,7 @@ D_MissionName = {
 	{
 		code = "ME08", 
 		--A ruthless snow field that covers even death
-		name = "ME08 Deadly frost", 
+		name = "ME08 Deadly Frost", 
                 map = "Snowfield Area",
 		difficulty = "NORMAL",
 	        date="0079/11/13",
@@ -74,7 +74,7 @@ D_MissionName = {
 	{
 		code = "ME10", 
 		--The sound of waves can't be heard far away
-		name = "ME10 Silent waves", 
+		name = "ME10 Silent Waves", 
                 map = "Belfast Base",
 		difficulty = "NORMAL",
 	        date="0079/11/24",
@@ -82,7 +82,7 @@ D_MissionName = {
 	{
 		code = "ME11", 
 		--Death struggle in the fog
-		name = "ME11 Deathly fog", 
+		name = "ME11 Deathly Fog", 
                 map = "Valley・Area 526",
 		difficulty = "NORMAL",
 	        date="0079/11/late",
@@ -90,7 +90,7 @@ D_MissionName = {
 	{
 		code = "ME12", 
 		--Green hell and fierce battle flames
-		name = "ME12 Green hell", 
+		name = "ME12 Green Hell", 
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/11/30",
@@ -106,7 +106,7 @@ D_MissionName = {
 	{
 		code = "ME14", 
 		--鉄の獣は檻の中
-		name = "ME14 Caged beast", 
+		name = "ME14 Caged Beast", 
                 map = "Valley",
 		difficulty = "NORMAL",
 	        date="0079/12/02",
@@ -114,7 +114,7 @@ D_MissionName = {
 	{
 		code = "ME15", 
 		--white snow and black trap
-		name = "ME15 Chilly trap", 
+		name = "ME15 A Chilly Trap", 
                 map = "Snowfield Area",
 		difficulty = "NORMAL",
 	        date="0079/12/02",
@@ -122,7 +122,7 @@ D_MissionName = {
 	{
 		code = "ME16", 
 		--The roar of anger becomes hazy in the dust
-		name = "ME16 Anger in dust", 
+		name = "ME16 Anger in the Dust", 
                 map = "Desert area",
 		difficulty = "HARD",
 	        date="0079/12/04",
@@ -186,7 +186,7 @@ D_MissionName = {
 	{
 		code = "MZ03", 
 		--time of decision
-		name = "MZ03 Deciding Time", 
+		name = "MZ03 The Time Is Now", 
                 map = "Odessa Suburbs",
 		difficulty = "NORMAL",
 	        date="0079/11/08",
@@ -221,7 +221,7 @@ D_MissionName = {
 		name = "MZ07 Goddess of Destruction", 
                 map = "Valley・Area 526",
 		difficulty = "NORMAL",
-	        date="0079/11月中旬",
+	        date="0079/11/mid",
 	},
 	{
 		code = "MZ08", 
@@ -258,7 +258,7 @@ D_MissionName = {
 	{
 		code = "MZ12", 
 		--Time limit to escape
-		name = "MZ12 Time Limit", 
+		name = "MZ12 Hasty Retreat", 
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/11/30",
@@ -283,7 +283,7 @@ D_MissionName = {
 		code = "MZ15", 
 		--What belongs to Zeon is mine
 		--Zeon's is mine
-		name = "MZ15 I am Zeon", 
+		name = "MZ15 I Am Zeon", 
                 map = "Lhasa Base",
 		difficulty = "HARD",
 	        date="0079/12/04",
@@ -331,7 +331,7 @@ D_MissionName = {
 	{
 		code = "MZ21", 
 		--Requiem for the Earth
-		name = "MZ21 Requiem for Earth", 
+		name = "MZ21 Earth's Requiem", 
                 map = "African mining base",
 		difficulty = "HARD",
 	        date="0080/01/01",
@@ -386,7 +386,7 @@ D_MissionName = {
 	{ 
 		--War in the Pocket?
 		code = "AK01",
-		name = "Alex, launching！",
+		name = "Alex, Launching！",
                 map = "Black Sea",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
@@ -394,7 +394,7 @@ D_MissionName = {
 	{
 		  --8th MS Team #6
 		code = "AS01", 
-		name = "Battle Line on the Burning Sand",
+		name = "Battle Line in the Burning Sand",
                 map = "Area ５２６",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
@@ -418,7 +418,7 @@ D_MissionName = {
 	{
 		 --Blue Destiny
 		code = "AY01", 
-		name = "Blue Grim Reaper",
+		name = "The Blue Grim Reaper",
                 map = "Lhasa Base",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
@@ -450,7 +450,7 @@ D_MissionName = {
 	{
 		 --??? stardust memory?
 		code = "AR01", 
-		name = "Hot Sand Raider",
+		name = "Burning Sand Raiders",
                 map = "Gobi Desert",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
@@ -482,7 +482,7 @@ D_MissionName = {
 	{
 		 --?? 8th MS?
 		code = "AN02", 
-		name = "I found a place to die",
+		name = "Eternal Resting Place",
                 map = "Lhasa Base",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
@@ -490,7 +490,7 @@ D_MissionName = {
 	{
 		--War in the Pocket ep6
 		code = "AB01", 
-		name = "War in the pocket",  
+		name = "War in the Pocket",  
                 map = "Black Sea",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
@@ -506,7 +506,7 @@ D_MissionName = {
 	{
 		 --TODO in game what is that supposed to be
 		code = "CE02", 
-		name = "Sound of waves",
+		name = "Sound of Waves",
                 map = "Nakazawa",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
@@ -514,7 +514,7 @@ D_MissionName = {
 	{
 		 --???
 		code = "CE03", 
-		name = "Eternal struggle, momentary end",
+		name = "Eternal Struggle, Momentary End",
                 map = "Nakazawa",--???
 		difficulty = "HARD",
 	        date="0079/XX/XX",
@@ -530,7 +530,7 @@ D_MissionName = {
 	{
 		 --?!?!
 		code = "CZ02", 
-		name = "Born to Assault",
+		name = "Born to Fight",
                 map = "Nakazawa",
 		difficulty = "HARD",
 	        date="0079/XX/XX",
