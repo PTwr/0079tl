@@ -43,6 +43,8 @@ internal class Program
         public string Subtitles { get; set; }
         [Option('g', "gev", Required = false, HelpText = "Patch GEV scripts", Default = false)]
         public bool GevPatch { get; set; }
+        [Option('a', "arc", Required = false, HelpText = "Patch ARC archives", Default = false)]
+        public bool ArcPatch { get; set; }
     }
     private static void Main(string[] args)
     {
@@ -71,7 +73,10 @@ internal class Program
                     return;
                 }
 
-                //ArcPatchEerything(o.InputDir, o.OutputDir, Path.Combine(o.PatchDir, "Patch"), o.LanguageCode, o.Rewrite, o.Clean);
+                if (o.ArcPatch)
+                {
+                    ArcPatchEerything(o.InputDir, o.OutputDir, Path.Combine(o.PatchDir, "Patch"), o.LanguageCode, o.Rewrite, o.Clean);
+                }
                 CopySubtitles(o);
                 PatchGev(o);
             }));

@@ -19,6 +19,27 @@ namespace GEVLib.GEV
         {
         }
 
+        public void UpdateHeader()
+        {
+            //TODO EVE
+
+            OFSStart = 0;
+            STRStart = 0;
+
+            if (OFS != null)
+            {
+                OFSWordLength = OFS.StringIndexes.Count();
+                OFSStart = this.MagicNumber.Length + this.HeaderLength + this.EVE.GetBytes().Count();
+                OFSStart += OFSBinarySegment.magicNumber.Length;
+            }
+
+            if (OFS != null && STR != null)
+            {
+                STRStart = OFSStart + this.OFS.GetBytes().Count();
+                STRStart += OFSBinarySegment.magicNumber.Length;
+            }
+        }
+
         protected override void ParseHeader(Span<byte> header, Span<byte> everything)
         {
             EVEBlockCount = header.GetBigEndianDWORD(0);
@@ -80,9 +101,19 @@ namespace GEVLib.GEV
         public int OFSStart { get; private set; }
         public int STRStart { get; private set; }
 
-        protected override List<_BaseBinarySegment<GEVBinaryRootSegment>> children => new List<_BaseBinarySegment<GEVBinaryRootSegment>> { EVE, OFS, STR };
+        protected override List<_BaseBinarySegment<GEVBinaryRootSegment>> children
+        {
+            get
+            {
+                var result = new List<_BaseBinarySegment<GEVBinaryRootSegment>> { EVE };
+                if (OFS != null) result.Add(OFS);
+                if (STR != null) result.Add(STR);
+                return result;
+            }
+        }
+
         public EVEBinarySegment EVE { get; private set; }
-        public OFSBinarySegment OFS { get; private set; }
-        public STRBinarySegment STR { get; private set; }
+        public OFSBinarySegment? OFS { get; private set; }
+        public STRBinarySegment? STR { get; private set; }
     }
 }

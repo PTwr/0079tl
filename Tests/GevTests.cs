@@ -10,6 +10,18 @@ namespace Tests
     public class GevTests
     {
         string TR01 = @"C:\games\wii\0079\0079_jp\DATA\files\event\missionevent\other\TR01.gev";
+        string AA02 = @"C:\games\wii\0079\0079_jp\DATA\files\event\missionevent\ace\AA02.gev";
+
+        [Fact]
+        public void OFSPaddedToAlignment()
+        {
+            var expectedBytes = File.ReadAllBytes(AA02);
+            var gev = new GEVBinaryRootSegment();
+            gev.Parse(expectedBytes);
+            var actualBytes = gev.GetBytes().ToArray();
+
+            Assert.Equal(expectedBytes, actualBytes);
+        }
 
         [Fact]
         public void Strings()

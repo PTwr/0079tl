@@ -2,6 +2,7 @@
 Big MS letters: ＭＳ
 Big MA letters: ＭＡ
 Big EXAM letters: ＥＸＡＭ
+subweapon2 ＳＵＢ２
 Big colon: ：
 Big dot: 。
 Big dot: ●

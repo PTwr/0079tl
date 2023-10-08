@@ -17,18 +17,18 @@ namespace GEVLib.OFS
         {
         }
 
-        List<ushort> stringIndexes = new List<ushort>();
+        public List<ushort> StringIndexes { get; private set; } = new List<ushort>();
         protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
-            stringIndexes = new List<ushort>();
+            StringIndexes = new List<ushort>();
             for (int i = 0; i < Parent.OFSWordLength; i++)
             {
-                stringIndexes.Add(body.GetBigEndianUWORD(i * 2));
+                StringIndexes.Add(body.GetBigEndianUWORD(i * 2));
             }
 
             ValidateOFSIsSequential();
         }
-        protected override IEnumerable<byte> BodyBytes => stringIndexes.SelectMany(i=>i.GetBigEndianBytes());
+        protected override IEnumerable<byte> BodyBytes => StringIndexes.SelectMany(i=>i.GetBigEndianBytes()).PadToAlignment(Parent.Alignment/8);
 
         protected override void ParseHeader(Span<byte> header, Span<byte> everything)
         {
@@ -37,7 +37,7 @@ namespace GEVLib.OFS
 
         protected void ValidateOFSIsSequential()
         {
-            if (!stringIndexes.SequenceEqual(stringIndexes.OrderBy(i => i)))
+            if (!StringIndexes.SequenceEqual(StringIndexes.OrderBy(i => i)))
             {
                 throw new NotImplementedException("Non-incremental OFS indexes are not supported");
             }
@@ -45,15 +45,15 @@ namespace GEVLib.OFS
 
         public string this[int i]
         {
-            get { return this.Parent.STR[stringIndexes[i] * 4]; }
+            get { return this.Parent.STR[StringIndexes[i] * 4]; }
         }
 
         public void UpdateIndexes()
         {
-            stringIndexes.Clear();
+            StringIndexes.Clear();
             foreach(var str in Parent.STR.IndexedStrings)
             {
-                stringIndexes.Add((ushort)(str.Key / 4));
+                StringIndexes.Add((ushort)(str.Key / 4));
             }
         }
     }

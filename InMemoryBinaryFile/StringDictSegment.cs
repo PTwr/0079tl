@@ -42,8 +42,6 @@ namespace InMemoryBinaryFile
 
                 start += s.Length + 1;
 
-                //start = start + Alignment - start % Alignment;
-
                 start = (int)(Math.Ceiling(1.0 * start / Alignment) * Alignment);
 
             }
