@@ -1,115 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz118.brstm",
-    "Translation": "evz118.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz119.brstm",
-    "Translation": "evz119.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz120.brstm",
-    "Translation": "evz120.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz121.brstm",
-    "Translation": "evz121.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz122.brstm",
-    "Translation": "evz122.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz123.brstm",
-    "Translation": "evz123.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz124.brstm",
-    "Translation": "evz124.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz125.brstm",
-    "Translation": "evz125.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz126.brstm",
-    "Translation": "evz126.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz127.brstm",
-    "Translation": "evz127.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz128.brstm",
-    "Translation": "evz128.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz129.brstm",
-    "Translation": "evz129.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz130.brstm",
-    "Translation": "evz130.brstm",
+    "Translation": "Isn't it a great atmosphere? Maybe it will actually show up.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -118,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz131.brstm",
-    "Translation": "evz131.brstm",
+    "Translation": "Captain! Please stop that!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz132.brstm",
-    "Translation": "evz132.brstm",
+    "Translation": "Idiot, it's about enemy. There's a possibility that there's a sniper class. \nKlaus, I'd appreciate some advice on that.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz133.brstm",
-    "Translation": "evz133.brstm",
+    "Translation": "Its the enemy! Looks like a sniper after all.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz134.brstm",
-    "Translation": "evz134.brstm",
+    "Translation": "Keep moving! If you stop, you'll be hit! \nEstimate enemy positions from their fire, and approach using rubble as a shield",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
