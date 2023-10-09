@@ -1,124 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz079.brstm",
-    "Translation": "evz079.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz080.brstm",
-    "Translation": "evz080.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz081.brstm",
-    "Translation": "evz081.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz082.brstm",
-    "Translation": "evz082.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz083.brstm",
-    "Translation": "evz083.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz084.brstm",
-    "Translation": "evz084.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz085.brstm",
-    "Translation": "evz085.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz086.brstm",
-    "Translation": "evz086.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz087.brstm",
-    "Translation": "evz087.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz088.brstm",
-    "Translation": "evz088.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz089.brstm",
-    "Translation": "evz089.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz090.brstm",
-    "Translation": "evz090.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz091.brstm",
-    "Translation": "evz091.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz092.brstm",
-    "Translation": "evz092.brstm",
+    "Translation": "There is still some time until Dobday arrives.\nEliminate as many enemies as possible!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz093.brstm",
-    "Translation": "evz093.brstm",
+    "Translation": "Okay, let's start cleaning.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz094.brstm",
-    "Translation": "evz094.brstm",
+    "Translation": "Enemy scouts is a unit of tanks.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz095.brstm",
-    "Translation": "evz095.brstm",
+    "Translation": "We'll have an easy win against tank, but there gotta be MS nearby so be careful",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz096.brstm",
-    "Translation": "evz096.brstm",
+    "Translation": "Dobday has entered the area, its your priority defense target",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz097.brstm",
-    "Translation": "evz097.brstm",
+    "Translation": "Dobdai is slow, so don't let enemy get too close",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -172,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz098.brstm",
-    "Translation": "evz098.brstm",
+    "Translation": "New enemy approaching, multiple Mobile Suits. Please be careful",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -181,7 +64,7 @@
   },
   {
     "FileName": "sound/stream/evz099.brstm",
-    "Translation": "evz099.brstm",
+    "Translation": "They're here. Prioritize tank-like ones, and those with shoulder lanuchers\nThey are most lkely to be a threat to Dobday",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

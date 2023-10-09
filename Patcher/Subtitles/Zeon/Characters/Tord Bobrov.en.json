@@ -1,915 +1,1442 @@
 [
   {
-    "FileName": "sound/stream/anf001.brstm",
-    "Translation": "You have reached designated point",
+    "FileName": "sound/stream/trd001.brstm",
+    "Translation": "trd001.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf002.brstm",
-    "Translation": "Everyone, please be careful.",
+    "FileName": "sound/stream/trd002.brstm",
+    "Translation": "trd002.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf003.brstm",
-    "Translation": "Start the operation",
+    "FileName": "sound/stream/trd003.brstm",
+    "Translation": "trd003.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf004.brstm",
-    "Translation": "Entering target airspace",
-    "_": "Operation reaches airspace",
+    "FileName": "sound/stream/trd004.brstm",
+    "Translation": "trd004.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf005.brstm",
-    "Translation": "Mobile Suits launching",
+    "FileName": "sound/stream/trd005.brstm",
+    "Translation": "trd005.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf006.brstm",
-    "Translation": "Enemy troops approaching",
+    "FileName": "sound/stream/trd006.brstm",
+    "Translation": "trd006.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf007.brstm",
-    "Translation": "Pay attentino to weather",
-    "_": "Mind the weather? Pay attentino to it?",
+    "FileName": "sound/stream/trd007.brstm",
+    "Translation": "trd007.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf008.brstm",
-    "Translation": "Captian, its an enemy unit",
+    "FileName": "sound/stream/trd008.brstm",
+    "Translation": "trd008.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf009.brstm",
-    "Translation": "Enemy Mobile Suit approaching",
+    "FileName": "sound/stream/trd009.brstm",
+    "Translation": "trd009.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf010.brstm",
-    "Translation": "Captain! We're being surrounded!",
-    "_": "confirm whats being surrounde/besieged, might be escort target not your team",
+    "FileName": "sound/stream/trd010.brstm",
+    "Translation": "trd010.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf011.brstm",
-    "Translation": "New enemy forces approaching",
+    "FileName": "sound/stream/trd011.brstm",
+    "Translation": "trd011.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf012.brstm",
-    "Translation": "Enemy fighting force has increased",
-    "_": "Target increased in strength?",
+    "FileName": "sound/stream/trd012.brstm",
+    "Translation": "trd012.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf013.brstm",
-    "Translation": "We have visuals on enemy detachment",
+    "FileName": "sound/stream/trd013.brstm",
+    "Translation": "trd013.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf014.brstm",
-    "Translation": "Enemy reinforcements arrived",
-    "_": "Target increased in sttrenght?",
+    "FileName": "sound/stream/trd014.brstm",
+    "Translation": "trd014.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf015.brstm",
-    "Translation": "More enemies approaching!",
+    "FileName": "sound/stream/trd015.brstm",
+    "Translation": "trd015.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf016.brstm",
-    "Translation": "Roger that!",
+    "FileName": "sound/stream/trd016.brstm",
+    "Translation": "trd016.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf017.brstm",
-    "Translation": "Y-yes sir!",
+    "FileName": "sound/stream/trd017.brstm",
+    "Translation": "trd017.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf018.brstm",
-    "Translation": "On it!",
+    "FileName": "sound/stream/trd018.brstm",
+    "Translation": "trd018.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf019.brstm",
-    "Translation": "G-got it",
+    "FileName": "sound/stream/trd019.brstm",
+    "Translation": "trd019.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf020.brstm",
-    "Translation": "Yes sir",
+    "FileName": "sound/stream/trd020.brstm",
+    "Translation": "trd020.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf021.brstm",
-    "Translation": "You're outside of the area of operation",
+    "FileName": "sound/stream/trd021.brstm",
+    "Translation": "trd021.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf022.brstm",
-    "Translation": "You are out of the operation area, please go back",
+    "FileName": "sound/stream/trd022.brstm",
+    "Translation": "trd022.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf023.brstm",
-    "Translation": "Mission target spotted",
+    "FileName": "sound/stream/trd023.brstm",
+    "Translation": "trd023.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf024.brstm",
-    "Translation": "Target is approaching",
+    "FileName": "sound/stream/trd024.brstm",
+    "Translation": "trd024.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf025.brstm",
-    "Translation": "Mission target located",
+    "FileName": "sound/stream/trd025.brstm",
+    "Translation": "trd025.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf026.brstm",
-    "Translation": "Enemy landship, Big Tray, has been spotted",
+    "FileName": "sound/stream/trd026.brstm",
+    "Translation": "trd026.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf027.brstm",
-    "Translation": "Enemy patrol plane, Dish, spotted",
+    "FileName": "sound/stream/trd027.brstm",
+    "Translation": "trd027.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf028.brstm",
-    "Translation": "Medea transport plane spotted",
+    "FileName": "sound/stream/trd028.brstm",
+    "Translation": "trd028.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf029.brstm",
-    "Translation": "Target is entering operational area",
+    "FileName": "sound/stream/trd029.brstm",
+    "Translation": "trd029.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf030.brstm",
-    "Translation": "Taret is taking off",
+    "FileName": "sound/stream/trd030.brstm",
+    "Translation": "trd030.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf031.brstm",
-    "Translation": "Target is still intact",
+    "FileName": "sound/stream/trd031.brstm",
+    "Translation": "trd031.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf032.brstm",
-    "Translation": "At this rate target will escape the area",
+    "FileName": "sound/stream/trd032.brstm",
+    "Translation": "trd032.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf033.brstm",
-    "Translation": "Target has left operational area",
+    "FileName": "sound/stream/trd033.brstm",
+    "Translation": "trd033.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf034.brstm",
-    "Translation": "Continue your attacks against target",
+    "FileName": "sound/stream/trd034.brstm",
+    "Translation": "trd034.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf035.brstm",
-    "Translation": "Target has been damaged",
+    "FileName": "sound/stream/trd035.brstm",
+    "Translation": "trd035.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf036.brstm",
-    "Translation": "Target is almost destroyed, keep up your attack",
+    "FileName": "sound/stream/trd036.brstm",
+    "Translation": "trd036.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf037.brstm",
-    "Translation": "Confirmed target destruction",
+    "FileName": "sound/stream/trd037.brstm",
+    "Translation": "trd037.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf038.brstm",
-    "Translation": "Please destroy remaining enemy forces as well",
+    "FileName": "sound/stream/trd038.brstm",
+    "Translation": "trd038.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf039.brstm",
-    "Translation": "You have achieved requried quota of destroyed targets",
+    "FileName": "sound/stream/trd039.brstm",
+    "Translation": "trd039.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf040.brstm",
-    "Translation": "All targets have been destroyed",
+    "FileName": "sound/stream/trd040.brstm",
+    "Translation": "trd040.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf041.brstm",
-    "Translation": "Set up defense of target",
+    "FileName": "sound/stream/trd041.brstm",
+    "Translation": "trd041.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf042.brstm",
-    "Translation": "Defense target spotted",
+    "FileName": "sound/stream/trd042.brstm",
+    "Translation": "trd042.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf043.brstm",
-    "Translation": "Enemy approaching defens etarget, please intercept",
+    "FileName": "sound/stream/trd043.brstm",
+    "Translation": "trd043.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf044.brstm",
-    "Translation": "Defense target is under attack",
+    "FileName": "sound/stream/trd044.brstm",
+    "Translation": "trd044.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf045.brstm",
-    "Translation": "Enemy is concentrating on defense target",
+    "FileName": "sound/stream/trd045.brstm",
+    "Translation": "trd045.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf046.brstm",
-    "Translation": "Defense target is destroyed!",
-    "_": "almost destroyed or destroyed already? cant tell",
+    "FileName": "sound/stream/trd046.brstm",
+    "Translation": "trd046.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf047.brstm",
-    "Translation": "Defense target has been destroyed!",
-    "_": "almost destroyed or destroyed already? cant tell",
+    "FileName": "sound/stream/trd047.brstm",
+    "Translation": "trd047.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf048.brstm",
-    "Translation": "Captain, defense target has been destroyed...",
-    "_": "almost destroyed or destroyed already? cant tell",
+    "FileName": "sound/stream/trd048.brstm",
+    "Translation": "trd048.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf049.brstm",
-    "Translation": "Its not a fatal loss yet, pleae protect remaining targets",
+    "FileName": "sound/stream/trd049.brstm",
+    "Translation": "trd049.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf050.brstm",
-    "Translation": "Damage is accomulating, if this continues our defenses will fall",
+    "FileName": "sound/stream/trd050.brstm",
+    "Translation": "trd050.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf051.brstm",
-    "Translation": "Target has been lost!",
+    "FileName": "sound/stream/trd051.brstm",
+    "Translation": "trd051.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf052.brstm",
-    "Translation": "Target has been destroyed...",
+    "FileName": "sound/stream/trd052.brstm",
+    "Translation": "trd052.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf053.brstm",
-    "Translation": "Enemy bombers approaching!",
+    "FileName": "sound/stream/trd053.brstm",
+    "Translation": "trd053.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf054.brstm",
-    "Translation": "Enemy airforce approaching on a bombing run, evade!",
+    "FileName": "sound/stream/trd054.brstm",
+    "Translation": "trd054.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf055.brstm",
-    "Translation": "Watch out for enemy artillery fire",
+    "FileName": "sound/stream/trd055.brstm",
+    "Translation": "trd055.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf056.brstm",
-    "Translation": "Mission completed",
+    "FileName": "sound/stream/trd056.brstm",
+    "Translation": "trd056.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf057.brstm",
-    "Translation": "All enemy forces destroyed",
+    "FileName": "sound/stream/trd057.brstm",
+    "Translation": "trd057.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf058.brstm",
-    "Translation": "No contact in the area, all enemies are destroyed",
+    "FileName": "sound/stream/trd058.brstm",
+    "Translation": "trd058.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf059.brstm",
-    "Translation": "Thank you all for your hard work",
+    "FileName": "sound/stream/trd059.brstm",
+    "Translation": "trd059.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf060.brstm",
-    "Translation": "Mission objectives completed",
+    "FileName": "sound/stream/trd060.brstm",
+    "Translation": "trd060.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf061.brstm",
-    "Translation": "Mission failed",
+    "FileName": "sound/stream/trd061.brstm",
+    "Translation": "trd061.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf062.brstm",
-    "Translation": "Operatino has failed...",
+    "FileName": "sound/stream/trd062.brstm",
+    "Translation": "trd062.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf063.brstm",
-    "Translation": "Captain, casualties are rising",
-    "_": "enemy fire is increasing?",
+    "FileName": "sound/stream/trd063.brstm",
+    "Translation": "trd063.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf064.brstm",
-    "Translation": "Captain, it's getting dangerous!",
+    "FileName": "sound/stream/trd064.brstm",
+    "Translation": "trd064.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf065.brstm",
-    "Translation": "Captain, we can't hold out anymore!",
+    "FileName": "sound/stream/trd065.brstm",
+    "Translation": "trd065.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf066.brstm",
-    "Translation": "Captain! Please escape!",
+    "FileName": "sound/stream/trd066.brstm",
+    "Translation": "trd066.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf067.brstm",
-    "Translation": "Claus got hit!",
+    "FileName": "sound/stream/trd067.brstm",
+    "Translation": "trd067.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf068.brstm",
-    "Translation": "Claus is heavily damaged!",
+    "FileName": "sound/stream/trd068.brstm",
+    "Translation": "trd068.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf069.brstm",
-    "Translation": "Claus won't last any longer!",
+    "FileName": "sound/stream/trd069.brstm",
+    "Translation": "trd069.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf070.brstm",
-    "Translation": "Claus! Get out of there!",
+    "FileName": "sound/stream/trd070.brstm",
+    "Translation": "trd070.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf071.brstm",
-    "Translation": "Tord got hit!",
+    "FileName": "sound/stream/trd071.brstm",
+    "Translation": "trd071.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf072.brstm",
-    "Translation": "Tord is heavily damaged!",
+    "FileName": "sound/stream/trd072.brstm",
+    "Translation": "trd072.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf073.brstm",
-    "Translation": "Tord won't last any longer!",
+    "FileName": "sound/stream/trd073.brstm",
+    "Translation": "trd073.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf074.brstm",
-    "Translation": "Tord! Get out of there!",
+    "FileName": "sound/stream/trd074.brstm",
+    "Translation": "trd074.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf075.brstm",
-    "Translation": "Repair and resupply is available in supply containers",
+    "FileName": "sound/stream/trd075.brstm",
+    "Translation": "trd075.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf076.brstm",
-    "Translation": "Please make good use of supply containers",
+    "FileName": "sound/stream/trd076.brstm",
+    "Translation": "trd076.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf077.brstm",
-    "Translation": "It's still doable, please hurry to designated point",
+    "FileName": "sound/stream/trd077.brstm",
+    "Translation": "trd077.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf078.brstm",
-    "Translation": "You can now proceed to extraction point",
+    "FileName": "sound/stream/trd078.brstm",
+    "Translation": "trd078.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf079.brstm",
-    "Translation": "Get to extraction point quickly!",
+    "FileName": "sound/stream/trd079.brstm",
+    "Translation": "trd079.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf080.brstm",
-    "Translation": "Please make use of our reinforcements",
-    "-": "effective use of reserves? spare suits? new suits?",
+    "FileName": "sound/stream/trd080.brstm",
+    "Translation": "trd080.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf081.brstm",
-    "Translation": "Please check the strategy details",
+    "FileName": "sound/stream/trd081.brstm",
+    "Translation": "trd081.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf082.brstm",
-    "Translation": "Thats all for strategy explanation",
+    "FileName": "sound/stream/trd082.brstm",
+    "Translation": "trd082.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf083.brstm",
-    "Translation": "Final summary of strategy details",
+    "FileName": "sound/stream/trd083.brstm",
+    "Translation": "trd083.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf084.brstm",
-    "Translation": "Please prepare for sortie",
+    "FileName": "sound/stream/trd084.brstm",
+    "Translation": "trd084.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf085.brstm",
-    "Translation": "Please select unit formation",
+    "FileName": "sound/stream/trd085.brstm",
+    "Translation": "trd085.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf086.brstm",
-    "Translation": "Unable to sortie, cost too hight",
+    "FileName": "sound/stream/trd086.brstm",
+    "Translation": "trd086.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf087.brstm",
-    "Translation": "Ready to sortie",
+    "FileName": "sound/stream/trd087.brstm",
+    "Translation": "trd087.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf088.brstm",
-    "Translation": "Brauer's Team, heading out!",
+    "FileName": "sound/stream/trd088.brstm",
+    "Translation": "trd088.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf089.brstm",
-    "Translation": "New mobile suit is available",
-    "-": "deployed/delviered/introduced?",
+    "FileName": "sound/stream/trd089.brstm",
+    "Translation": "trd089.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf090.brstm",
-    "Translation": "New weapons are available",
+    "FileName": "sound/stream/trd090.brstm",
+    "Translation": "trd090.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf091.brstm",
-    "Translation": "We have obtained enemy Mobile Suit",
+    "FileName": "sound/stream/trd091.brstm",
+    "Translation": "trd091.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf092.brstm",
-    "Translation": "We have obtained enemy weapon",
+    "FileName": "sound/stream/trd092.brstm",
+    "Translation": "trd092.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf093.brstm",
-    "Translation": "New pilot available in VS mode",
+    "FileName": "sound/stream/trd093.brstm",
+    "Translation": "trd093.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf094.brstm",
-    "Translation": "New pilot available in Ace Pilot mode",
+    "FileName": "sound/stream/trd094.brstm",
+    "Translation": "trd094.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf095.brstm",
-    "Translation": "Please see new elements",
-    "-": "Please check additional elements? new Items?",
+    "FileName": "sound/stream/trd095.brstm",
+    "Translation": "trd095.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf096.brstm",
-    "Translation": "All enemies in area have been eliminated\nThank you for your hard work",
+    "FileName": "sound/stream/trd096.brstm",
+    "Translation": "trd096.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf097.brstm",
-    "Translation": "Objective has been completed, we did it!",
-    "_": "goal has been reached?",
+    "FileName": "sound/stream/trd097.brstm",
+    "Translation": "trd097.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf098.brstm",
-    "Translation": "Defense target entered operational area",
+    "FileName": "sound/stream/trd098.brstm",
+    "Translation": "trd098.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf099.brstm",
-    "Translation": "Severe damage to defense target!",
+    "FileName": "sound/stream/trd099.brstm",
+    "Translation": "trd099.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
   },
   {
-    "FileName": "sound/stream/anf100.brstm",
-    "Translation": "Destroying target is our top priority",
+    "FileName": "sound/stream/trd100.brstm",
+    "Translation": "trd100.brstm",
     "Miliseconds": 5000,
-    "Color": "AntiqueWhite",
+    "Color": 4294967061,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd101.brstm",
+    "Translation": "trd101.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd102.brstm",
+    "Translation": "trd102.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd103.brstm",
+    "Translation": "trd103.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd104.brstm",
+    "Translation": "trd104.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd105.brstm",
+    "Translation": "trd105.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd106.brstm",
+    "Translation": "trd106.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd107.brstm",
+    "Translation": "trd107.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd108.brstm",
+    "Translation": "trd108.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd109.brstm",
+    "Translation": "trd109.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd110.brstm",
+    "Translation": "trd110.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd111.brstm",
+    "Translation": "trd111.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd112.brstm",
+    "Translation": "trd112.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd113.brstm",
+    "Translation": "trd113.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd114.brstm",
+    "Translation": "trd114.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd115.brstm",
+    "Translation": "trd115.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd116.brstm",
+    "Translation": "trd116.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd117.brstm",
+    "Translation": "trd117.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd118.brstm",
+    "Translation": "trd118.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd119.brstm",
+    "Translation": "trd119.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd120.brstm",
+    "Translation": "trd120.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd121.brstm",
+    "Translation": "trd121.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd122.brstm",
+    "Translation": "trd122.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd123.brstm",
+    "Translation": "trd123.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd124.brstm",
+    "Translation": "trd124.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd125.brstm",
+    "Translation": "trd125.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd126.brstm",
+    "Translation": "trd126.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd127.brstm",
+    "Translation": "trd127.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd128.brstm",
+    "Translation": "trd128.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd129.brstm",
+    "Translation": "trd129.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd130.brstm",
+    "Translation": "trd130.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd131.brstm",
+    "Translation": "trd131.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd132.brstm",
+    "Translation": "trd132.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd133.brstm",
+    "Translation": "trd133.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd134.brstm",
+    "Translation": "trd134.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd135.brstm",
+    "Translation": "trd135.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd136.brstm",
+    "Translation": "trd136.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd137.brstm",
+    "Translation": "trd137.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd138.brstm",
+    "Translation": "trd138.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd139.brstm",
+    "Translation": "trd139.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd140.brstm",
+    "Translation": "trd140.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd141.brstm",
+    "Translation": "trd141.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd142.brstm",
+    "Translation": "trd142.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd143.brstm",
+    "Translation": "trd143.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd144.brstm",
+    "Translation": "trd144.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd145.brstm",
+    "Translation": "trd145.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd146.brstm",
+    "Translation": "trd146.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd147.brstm",
+    "Translation": "trd147.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd148.brstm",
+    "Translation": "trd148.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd149.brstm",
+    "Translation": "trd149.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd150.brstm",
+    "Translation": "trd150.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd151.brstm",
+    "Translation": "trd151.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd152.brstm",
+    "Translation": "trd152.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd153.brstm",
+    "Translation": "trd153.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd154.brstm",
+    "Translation": "trd154.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd155.brstm",
+    "Translation": "trd155.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd156.brstm",
+    "Translation": "trd156.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd157.brstm",
+    "Translation": "trd157.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd158.brstm",
+    "Translation": "trd158.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd159.brstm",
+    "Translation": "trd159.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
+  },
+  {
+    "FileName": "sound/stream/trd160.brstm",
+    "Translation": "trd160.brstm",
+    "Miliseconds": 5000,
+    "Color": 4294967061,
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 5
   }
 ]

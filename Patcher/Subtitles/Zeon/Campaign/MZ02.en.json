@@ -1,133 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz041.brstm",
-    "Translation": "evz041.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz042.brstm",
-    "Translation": "evz042.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz043.brstm",
-    "Translation": "evz043.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz044.brstm",
-    "Translation": "evz044.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz045.brstm",
-    "Translation": "evz045.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz046.brstm",
-    "Translation": "evz046.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz047.brstm",
-    "Translation": "evz047.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz048.brstm",
-    "Translation": "evz048.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz049.brstm",
-    "Translation": "evz049.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz050.brstm",
-    "Translation": "evz050.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz051.brstm",
-    "Translation": "evz051.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz052.brstm",
-    "Translation": "evz052.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz053.brstm",
-    "Translation": "evz053.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz054.brstm",
-    "Translation": "evz054.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz055.brstm",
-    "Translation": "evz055.brstm",
+    "Translation": "I knew it. We've got a lot of free time...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz056.brstm",
-    "Translation": "evz056.brstm",
+    "Translation": "I wonder if captain likes to fight...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,8 +19,8 @@
   },
   {
     "FileName": "sound/stream/evz057.brstm",
-    "Translation": "evz057.brstm",
-    "Miliseconds": 5000,
+    "Translation": "No, no, no. I just want to get it done as quickly as possible\nif I have to do it anyway.",
+    "Miliseconds": 8000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -154,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz058.brstm",
-    "Translation": "evz058.brstm",
+    "Translation": "The longer the war goes on, the more people and the world move on.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz059.brstm",
-    "Translation": "evz059.brstm",
+    "Translation": "Yes, that's right. Oh my, look at thos airplanes!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -172,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz060.brstm",
-    "Translation": "evz060.brstm",
+    "Translation": "What happened to it?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -181,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz061.brstm",
-    "Translation": "evz061.brstm",
+    "Translation": "Damn, its the enemy! Alarm isn't even going off!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -190,7 +64,7 @@
   },
   {
     "FileName": "sound/stream/evz062.brstm",
-    "Translation": "evz062.brstm",
+    "Translation": "There appears to be no damage to Gau from that attack\nbut it will be dangerous if it continues",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -199,8 +73,8 @@
   },
   {
     "FileName": "sound/stream/evz063.brstm",
-    "Translation": "evz063.brstm",
-    "Miliseconds": 5000,
+    "Translation": "How can you stay so calm? We'll intercept and gather information.\nBrauer's team, head out!",
+    "Miliseconds": 9000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -208,7 +82,7 @@
   },
   {
     "FileName": "sound/stream/evz064.brstm",
-    "Translation": "evz064.brstm",
+    "Translation": "Hostile activity detected. You are surronded by enemy forces.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -217,8 +91,8 @@
   },
   {
     "FileName": "sound/stream/evz065.brstm",
-    "Translation": "evz065.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Klaus was right. Prioritize defense of carrier.\nKeep enemy at bay until it takes off!",
+    "Miliseconds": 7000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -226,7 +100,7 @@
   },
   {
     "FileName": "sound/stream/evz066.brstm",
-    "Translation": "evz066.brstm",
+    "Translation": "Situation change! Odessa is under attack by large Federation force!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -235,7 +109,7 @@
   },
   {
     "FileName": "sound/stream/evz067.brstm",
-    "Translation": "evz067.brstm",
+    "Translation": "So that's what the intel was about. They just found this place by accident while marching.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -244,8 +118,8 @@
   },
   {
     "FileName": "sound/stream/evz068.brstm",
-    "Translation": "evz068.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Commander of Odessa is colonel M'Quve, I'm afraid its going to fall\nbut for we'll stick to our mission and defend this place",
+    "Miliseconds": 9000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -253,7 +127,7 @@
   },
   {
     "FileName": "sound/stream/evz069.brstm",
-    "Translation": "evz069.brstm",
+    "Translation": "There are big-ass tanks out there! Watch out!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -262,7 +136,7 @@
   },
   {
     "FileName": "sound/stream/evz070.brstm",
-    "Translation": "evz070.brstm",
+    "Translation": "That's more of a Mobile Suit than a tank, I'd say.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -271,7 +145,7 @@
   },
   {
     "FileName": "sound/stream/evz071.brstm",
-    "Translation": "evz071.brstm",
+    "Translation": "New enemy approaching, it looks like MS!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -280,7 +154,7 @@
   },
   {
     "FileName": "sound/stream/evz072.brstm",
-    "Translation": "evz072.brstm",
+    "Translation": "It's the same one as before, don't let your guard down.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -289,7 +163,7 @@
   },
   {
     "FileName": "sound/stream/evz073.brstm",
-    "Translation": "evz073.brstm",
+    "Translation": "Oh come on, are you kidding me? MS using beam weapons?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -298,7 +172,7 @@
   },
   {
     "FileName": "sound/stream/evz074.brstm",
-    "Translation": "evz074.brstm",
+    "Translation": "Don't stop, we can't let that thing hit us!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -307,7 +181,7 @@
   },
   {
     "FileName": "sound/stream/evz075.brstm",
-    "Translation": "evz075.brstm",
+    "Translation": "No enemy activity on perimeter, carrier is finally ready for takeoff",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -316,7 +190,7 @@
   },
   {
     "FileName": "sound/stream/evz076.brstm",
-    "Translation": "evz076.brstm",
+    "Translation": "Odessa looks like a disaster, we are going to be on defensive.\nLeo, what should we do?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -325,7 +199,7 @@
   },
   {
     "FileName": "sound/stream/evz077.brstm",
-    "Translation": "evz077.brstm",
+    "Translation": "Even if we join defense, it won't change anything",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -334,7 +208,7 @@
   },
   {
     "FileName": "sound/stream/evz078.brstm",
-    "Translation": "evz078.brstm",
+    "Translation": "We'll stay as long as possible.\nLets gather some information before making decision.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
