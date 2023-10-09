@@ -34,8 +34,8 @@ namespace InMemoryBinaryFile
 
 
         public virtual void Parse(Span<byte> content) => Parse(content, content);
-        public virtual void ParseHeader(Span<byte> content) => ParseHeader(content, content);
-        public virtual void ParseBody(Span<byte> content) => ParseBody(content, content);
+        protected virtual void ParseHeader(Span<byte> content) => ParseHeader(content, content);
+        protected virtual void ParseBody(Span<byte> content) => ParseBody(content, content);
 
         public virtual void Parse(Span<byte> content, Span<byte> everything)
         {

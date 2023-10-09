@@ -14,7 +14,7 @@ namespace GEVLib.STR
     {
         public const string magicNumber = "$STR";
         const int headerLength = 5 * 4;
-        public STRBinarySegment(GEVBinaryRootSegment Parent) : base(Parent, EncodingHelper.Shift_JIS, magicNumber.ToASCIIBytes(), alignment: 4)
+        public STRBinarySegment(GEVBinaryRootSegment Parent, Dictionary<string, string>? translations = null) : base(Parent, EncodingHelper.Shift_JIS, magicNumber.ToASCIIBytes(), alignment: 4, translations: translations)
         {
         }
     }

@@ -15,13 +15,25 @@ namespace GEVLib.GEV
     {
         public const string magicNumber = "$EVFEV02";
         const int headerLength = 5 * 4;
-        public GEVBinaryRootSegment() : base(null, magicNumber.ToASCIIBytes(), headerLength)
+        public GEVBinaryRootSegment(Dictionary<string, string>? translations = null) : base(null, magicNumber.ToASCIIBytes(), headerLength)
         {
+            Translations = translations;
+        }
+
+        public override string ToString()
+        {
+            return "-----------------------------------EVE-----------------------------------"
+                + Environment.NewLine + EVE.ToString() + Environment.NewLine +
+                "-----------------------------------OFS-----------------------------------"
+                + Environment.NewLine + (OFS?.ToString() ?? "") + Environment.NewLine +
+                "-----------------------------------STR-----------------------------------"
+                + Environment.NewLine + (STR?.ToString() ?? "");
         }
 
         public void UpdateHeader()
         {
-            //TODO EVE
+            //TODO EVE block count
+            EVEBlockCount = EVE.Children.Last().Children.Last().CodeLineId + 1;
 
             OFSStart = 0;
             STRStart = 0;
@@ -36,7 +48,8 @@ namespace GEVLib.GEV
             if (OFS != null && STR != null)
             {
                 STRStart = OFSStart + this.OFS.GetBytes().Count();
-                STRStart += OFSBinarySegment.magicNumber.Length;
+                STRStart -= OFSBinarySegment.magicNumber.Length;
+                STRStart += STRBinarySegment.magicNumber.Length;
             }
         }
 
@@ -79,7 +92,7 @@ namespace GEVLib.GEV
 
             if (STRStart > 0)
             {
-                STR = new STRBinarySegment(this);
+                STR = new STRBinarySegment(this, Translations);
                 var strbytes = everything.Slice(
                     STRStart - OFSBinarySegment.magicNumber.Length
                     );
@@ -115,5 +128,6 @@ namespace GEVLib.GEV
         public EVEBinarySegment EVE { get; private set; }
         public OFSBinarySegment? OFS { get; private set; }
         public STRBinarySegment? STR { get; private set; }
+        public Dictionary<string, string>? Translations { get; }
     }
 }

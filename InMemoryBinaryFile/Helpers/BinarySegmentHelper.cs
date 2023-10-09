@@ -19,25 +19,6 @@ namespace InMemoryBinaryFile.Helpers
         {
             return content.StartsWith(magicNumber);
         }
-
-        public static string ToHexString(this IEnumerable<byte> bytes, int lineLength = 16)
-        {
-            var count = bytes.Count();
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < count; i++)
-            {
-                sb.Append(bytes.ElementAt(i).ToString("X2") + " ");
-                if ((i + 1) % lineLength == 0 && (i + 1) != count)
-                {
-                    sb.AppendLine();
-                }
-                else if ((i + 1) % 4 == 0 && (i + 1) != count)
-                {
-                    sb.Append(" | ");
-                }
-            }
-            return sb.ToString();
-        }
         public static IEnumerable<byte> PadRight(this IEnumerable<byte> bytes, int count, byte padValue = 0)
         {
             return bytes.Concat(Enumerable.Repeat(padValue, count));
@@ -97,6 +78,15 @@ namespace InMemoryBinaryFile.Helpers
         public static byte[] GetBigEndianBytes(this uint n)
         {
             return BitConverter.GetBytes(BinaryPrimitives.ReverseEndianness(n));
+        }
+
+        public static ushort GetHighUWORD(this uint n)
+        {
+            return (ushort)(n >> 16);
+        }
+        public static ushort GetLowUWORD(this uint n)
+        {
+            return (ushort)(n & 0x0000FFFF);
         }
     }
 }

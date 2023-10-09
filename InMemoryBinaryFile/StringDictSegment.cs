@@ -12,10 +12,11 @@ namespace InMemoryBinaryFile
         where TParent : IBinarySegment
     {
         private Dictionary<int, string> values = new Dictionary<int, string>();
-        public StringDictSegment(TParent parent, Encoding encoding, byte[]? magicNumber = null, int alignment = 1) : base(parent, magicNumber)
+        public StringDictSegment(TParent parent, Encoding encoding, byte[]? magicNumber = null, int alignment = 1, Dictionary<string, string>? translations = null) : base(parent, magicNumber)
         {
             Encoding = encoding;
             Alignment = alignment;
+            Translations = translations ?? new Dictionary<string, string>();
         }
 
         public string this[int i]
@@ -25,6 +26,16 @@ namespace InMemoryBinaryFile
 
         public IReadOnlyList<string> Strings => values.Values.ToList().AsReadOnly();
         public IReadOnlyDictionary<int, string> IndexedStrings => values.AsReadOnly();
+
+        public string Translate(string str)
+        {
+            if (Translations.TryGetValue(str, out var tl))
+            {
+                return $"{str} ({tl})";
+            }
+            return str;
+        }
+        public IReadOnlyList<string> TranslatedStrings => values.Values.Select(s => Translate(s)).ToList().AsReadOnly();
 
         protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
@@ -47,12 +58,17 @@ namespace InMemoryBinaryFile
             }
         }
 
+        public void AddString(string str)
+        {
+            ReplaceStrings(new List<string>(Strings) { str });
+        }
+
         public void ReplaceStrings(List<string> strings)
         {
-            if (strings.Count() != values.Count())
-            {
-                throw new NotSupportedException("Adding/Removing strings is not supported yet");
-            }
+            //if (strings.Count() != values.Count())
+            //{
+            //    throw new NotSupportedException("Adding/Removing strings is not supported yet");
+            //}
 
             values.Clear();
 
@@ -74,14 +90,15 @@ namespace InMemoryBinaryFile
 
         public Encoding Encoding { get; }
         public int Alignment { get; }
+        public Dictionary<string, string>? Translations { get; }
 
         public override string ToString()
         {
             if (Alignment != 0)
             {
-                return string.Join(Environment.NewLine, values.Select(i => $"{i.Key:X8} {i.Key / Alignment:X8} {i.Value}"));
+                return string.Join(Environment.NewLine, values.Select(i => $"{i.Key:X8} {i.Key / Alignment:X8} {Translate(i.Value)}"));
             }
-            return string.Join(Environment.NewLine, values.Select(i => $"{i.Key:X8} {i.Value}"));
+            return string.Join(Environment.NewLine, values.Select(i => $"{i.Key:X8} {Translate(i.Value)}"));
         }
     }
 }

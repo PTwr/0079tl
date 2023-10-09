@@ -47,6 +47,12 @@ namespace GEVLib.OFS
         {
             get { return this.Parent.STR[StringIndexes[i] * 4]; }
         }
+        public string Translated(int i)
+        {
+            var s = this.Parent.STR[StringIndexes[i] * 4];
+            s = this.Parent.STR.Translate(s);
+            return s;
+        }
 
         public void UpdateIndexes()
         {
@@ -55,6 +61,13 @@ namespace GEVLib.OFS
             {
                 StringIndexes.Add((ushort)(str.Key / 4));
             }
+        }
+
+        public override string ToString()
+        {
+            return string.Join(Environment.NewLine,
+                StringIndexes.Select((i, n) => $"{n:X4} {i:X4} => {Environment.NewLine} {this.Parent.STR.Translate(this.Parent.STR[i * 4]).Intend()}")
+                );
         }
     }
 }
