@@ -115,7 +115,7 @@
     "ID": "BR_INFO_A_02",
     "Text": null,
     "Lines": [
-      "Recently some of our pattrols went",
+      "Recently some of our patrols went",
       "missing near Seattle."
     ],
     "TabSpace": null,
@@ -126,7 +126,7 @@
     "Text": null,
     "Lines": [
       "As we don't know when another Federation offensive",
-      "will occur, we can't allocate any more garrison."
+      "will occur, we can't allocate any more garrison to patrol."
     ],
     "TabSpace": null,
     "Size": null
@@ -174,7 +174,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "We count on you, Brayer's Team"
+      "We count on you, Brauer's Team"
     ],
     "TabSpace": null,
     "Size": null
