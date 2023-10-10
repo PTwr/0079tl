@@ -1,20 +1,11 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz206",
     "Text": null,
     "Lines": [
-      "ガウとの合流地点まで、もう少しだ。",
-      "ただし、現地に着いても、生き残りの友軍を収容するまで、",
-      "俺たちが盾になるぞ！"
+      "We're almost at extraction point.",
+      "However, once there we wi'll be on defense",
+      "until our forces board Gau."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,7 +14,7 @@
     "ID": "evz207",
     "Text": null,
     "Lines": [
-      "生き残った部隊…、殆どいないようですね…。"
+      "There's so few survivors..."
     ],
     "TabSpace": null,
     "Size": null
@@ -32,7 +23,7 @@
     "ID": "evz208",
     "Text": null,
     "Lines": [
-      "まさに、壊滅状態だね…。"
+      "It's just devastating..."
     ],
     "TabSpace": null,
     "Size": null
@@ -41,8 +32,7 @@
     "ID": "evz209",
     "Text": null,
     "Lines": [
-      "だから尚更、ここで俺たちまでくたばっちまうわけには、",
-      "いかねぇな。"
+      "That's why we can't afford to die hre too, right?"
     ],
     "TabSpace": null,
     "Size": null
@@ -51,9 +41,9 @@
     "ID": "evz210",
     "Text": null,
     "Lines": [
-      "そうだ。",
-      "俺たちは、どんなみっともなく足掻いてでも、",
-      "生き延びなきゃならない。"
+      "Yes.",
+      "No matter how badly hurt we get",
+      "we must survive!"
     ],
     "TabSpace": null,
     "Size": null
@@ -62,8 +52,8 @@
     "ID": "evz211",
     "Text": null,
     "Lines": [
-      "はい。　たとえどんなに少数でも、生き残った味方と共に、",
-      "帰還しましょう！"
+      "Right! We will return with our survivers",
+      "no matter how few are left!"
     ],
     "TabSpace": null,
     "Size": null
@@ -72,7 +62,7 @@
     "ID": "evz212",
     "Text": null,
     "Lines": [
-      "さぁ、もうひと働きするぞ！"
+      "Come on, let's get to work!"
     ],
     "TabSpace": null,
     "Size": null

@@ -6,7 +6,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka002.brstm",
@@ -15,7 +15,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka003.brstm",
@@ -24,7 +24,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka004.brstm",
@@ -33,7 +33,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka005.brstm",
@@ -42,7 +42,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka006.brstm",
@@ -51,7 +51,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka007.brstm",
@@ -60,7 +60,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka008.brstm",
@@ -69,7 +69,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka009.brstm",
@@ -78,7 +78,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka010.brstm",
@@ -87,7 +87,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka011.brstm",
@@ -96,7 +96,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka012.brstm",
@@ -105,7 +105,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka013.brstm",
@@ -114,7 +114,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka014.brstm",
@@ -123,7 +123,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka015.brstm",
@@ -132,7 +132,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka016.brstm",
@@ -141,7 +141,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka017.brstm",
@@ -150,7 +150,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka018.brstm",
@@ -159,7 +159,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka019.brstm",
@@ -168,7 +168,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka020.brstm",
@@ -177,7 +177,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka021.brstm",
@@ -186,7 +186,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka022.brstm",
@@ -195,7 +195,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka023.brstm",
@@ -204,7 +204,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka024.brstm",
@@ -213,7 +213,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka025.brstm",
@@ -222,7 +222,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka026.brstm",
@@ -231,7 +231,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka027.brstm",
@@ -240,7 +240,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka028.brstm",
@@ -249,7 +249,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka029.brstm",
@@ -258,7 +258,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka030.brstm",
@@ -267,7 +267,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka031.brstm",
@@ -276,7 +276,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka032.brstm",
@@ -285,7 +285,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka033.brstm",
@@ -294,7 +294,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka034.brstm",
@@ -303,7 +303,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka035.brstm",
@@ -312,7 +312,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka036.brstm",
@@ -321,7 +321,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka037.brstm",
@@ -330,7 +330,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka038.brstm",
@@ -339,7 +339,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka039.brstm",
@@ -348,7 +348,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka040.brstm",
@@ -357,7 +357,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka041.brstm",
@@ -366,7 +366,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka042.brstm",
@@ -375,7 +375,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka043.brstm",
@@ -384,7 +384,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka044.brstm",
@@ -393,7 +393,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka045.brstm",
@@ -402,7 +402,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka046.brstm",
@@ -411,7 +411,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka047.brstm",
@@ -420,7 +420,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka048.brstm",
@@ -429,7 +429,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka049.brstm",
@@ -438,7 +438,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka050.brstm",
@@ -447,7 +447,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka051.brstm",
@@ -456,7 +456,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka052.brstm",
@@ -465,7 +465,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka053.brstm",
@@ -474,7 +474,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka054.brstm",
@@ -483,7 +483,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka055.brstm",
@@ -492,7 +492,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka056.brstm",
@@ -501,7 +501,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka057.brstm",
@@ -510,7 +510,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka058.brstm",
@@ -519,7 +519,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka059.brstm",
@@ -528,7 +528,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka060.brstm",
@@ -537,7 +537,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka061.brstm",
@@ -546,7 +546,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka062.brstm",
@@ -555,7 +555,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka063.brstm",
@@ -564,7 +564,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka064.brstm",
@@ -573,7 +573,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka065.brstm",
@@ -582,7 +582,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka066.brstm",
@@ -591,7 +591,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka067.brstm",
@@ -600,7 +600,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka068.brstm",
@@ -609,7 +609,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka069.brstm",
@@ -618,7 +618,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka070.brstm",
@@ -627,7 +627,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka071.brstm",
@@ -636,7 +636,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka072.brstm",
@@ -645,7 +645,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka073.brstm",
@@ -654,7 +654,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka074.brstm",
@@ -663,7 +663,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka075.brstm",
@@ -672,7 +672,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka076.brstm",
@@ -681,7 +681,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka077.brstm",
@@ -690,7 +690,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka078.brstm",
@@ -699,7 +699,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka079.brstm",
@@ -708,7 +708,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka080.brstm",
@@ -717,7 +717,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka081.brstm",
@@ -726,7 +726,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka082.brstm",
@@ -735,7 +735,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka083.brstm",
@@ -744,7 +744,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka084.brstm",
@@ -753,7 +753,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka085.brstm",
@@ -762,7 +762,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka086.brstm",
@@ -771,7 +771,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka087.brstm",
@@ -780,7 +780,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka088.brstm",
@@ -789,7 +789,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka089.brstm",
@@ -798,7 +798,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka090.brstm",
@@ -807,7 +807,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka091.brstm",
@@ -816,7 +816,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka092.brstm",
@@ -825,7 +825,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka093.brstm",
@@ -834,7 +834,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka094.brstm",
@@ -843,7 +843,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka095.brstm",
@@ -852,7 +852,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka096.brstm",
@@ -861,7 +861,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka097.brstm",
@@ -870,7 +870,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka098.brstm",
@@ -879,7 +879,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka099.brstm",
@@ -888,7 +888,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka100.brstm",
@@ -897,7 +897,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka101.brstm",
@@ -906,7 +906,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka102.brstm",
@@ -915,7 +915,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka103.brstm",
@@ -924,7 +924,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka104.brstm",
@@ -933,7 +933,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka105.brstm",
@@ -942,7 +942,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka106.brstm",
@@ -951,7 +951,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka107.brstm",
@@ -960,7 +960,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka108.brstm",
@@ -969,7 +969,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka109.brstm",
@@ -978,7 +978,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka110.brstm",
@@ -987,7 +987,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka111.brstm",
@@ -996,7 +996,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka112.brstm",
@@ -1005,7 +1005,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka113.brstm",
@@ -1014,7 +1014,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka114.brstm",
@@ -1023,7 +1023,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka115.brstm",
@@ -1032,7 +1032,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka116.brstm",
@@ -1041,7 +1041,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka117.brstm",
@@ -1050,7 +1050,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka118.brstm",
@@ -1059,7 +1059,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka119.brstm",
@@ -1068,7 +1068,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka120.brstm",
@@ -1077,7 +1077,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka121.brstm",
@@ -1086,7 +1086,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka122.brstm",
@@ -1095,7 +1095,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka123.brstm",
@@ -1104,7 +1104,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka124.brstm",
@@ -1113,7 +1113,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka125.brstm",
@@ -1122,7 +1122,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka126.brstm",
@@ -1131,7 +1131,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka127.brstm",
@@ -1140,7 +1140,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka128.brstm",
@@ -1149,7 +1149,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka129.brstm",
@@ -1158,7 +1158,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka130.brstm",
@@ -1167,7 +1167,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka131.brstm",
@@ -1176,7 +1176,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka132.brstm",
@@ -1185,7 +1185,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka133.brstm",
@@ -1194,7 +1194,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka134.brstm",
@@ -1203,7 +1203,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka135.brstm",
@@ -1212,7 +1212,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka136.brstm",
@@ -1221,7 +1221,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka137.brstm",
@@ -1230,7 +1230,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka138.brstm",
@@ -1239,7 +1239,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka139.brstm",
@@ -1248,7 +1248,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka140.brstm",
@@ -1257,7 +1257,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka141.brstm",
@@ -1266,7 +1266,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka142.brstm",
@@ -1275,7 +1275,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka143.brstm",
@@ -1284,7 +1284,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka144.brstm",
@@ -1293,7 +1293,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka145.brstm",
@@ -1302,7 +1302,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka146.brstm",
@@ -1311,7 +1311,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka147.brstm",
@@ -1320,7 +1320,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka148.brstm",
@@ -1329,7 +1329,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka149.brstm",
@@ -1338,7 +1338,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka150.brstm",
@@ -1347,7 +1347,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka151.brstm",
@@ -1356,7 +1356,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka152.brstm",
@@ -1365,7 +1365,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka153.brstm",
@@ -1374,7 +1374,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka154.brstm",
@@ -1383,7 +1383,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka155.brstm",
@@ -1392,7 +1392,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka156.brstm",
@@ -1401,7 +1401,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka157.brstm",
@@ -1410,7 +1410,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka158.brstm",
@@ -1419,7 +1419,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka159.brstm",
@@ -1428,7 +1428,7 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   },
   {
     "FileName": "sound/stream/aka160.brstm",
@@ -1437,6 +1437,6 @@
     "Color": 4294967041,
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 5
+    "Scale": 2
   }
 ]

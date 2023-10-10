@@ -1,80 +1,8 @@
 [
   {
-    "FileName": "sound/stream/evz205.brstm",
-    "Translation": "evz205.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz206.brstm",
-    "Translation": "evz206.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz207.brstm",
-    "Translation": "evz207.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz208.brstm",
-    "Translation": "evz208.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz209.brstm",
-    "Translation": "evz209.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz210.brstm",
-    "Translation": "evz210.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz211.brstm",
-    "Translation": "evz211.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz212.brstm",
-    "Translation": "evz212.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz213.brstm",
-    "Translation": "evz213.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Due to the arrival of enemy forces, Gau has temporarily taken off\nCarrier cannot land until we clear up enemies on landing zone within time",
+    "Miliseconds": 15000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -82,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz214.brstm",
-    "Translation": "evz214.brstm",
+    "Translation": "Let's do it quickly, Brauer's Team!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -91,8 +19,8 @@
   },
   {
     "FileName": "sound/stream/evz215.brstm",
-    "Translation": "evz215.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Gau has landed and begun loading\nWe have to protect it and hold back enemy forces",
+    "Miliseconds": 10000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -100,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz216.brstm",
-    "Translation": "evz216.brstm",
+    "Translation": "Okay, let's get it under control!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -109,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz217.brstm",
-    "Translation": "evz217.brstm",
+    "Translation": "Time's up, Gau had to abandon us...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -118,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz218.brstm",
-    "Translation": "evz218.brstm",
+    "Translation": "Loading status, 30%",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz219.brstm",
-    "Translation": "evz219.brstm",
+    "Translation": "Loading status, 70%",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +64,7 @@
   },
   {
     "FileName": "sound/stream/evz220.brstm",
-    "Translation": "evz220.brstm",
+    "Translation": "Gau... there is no escape now...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,7 +73,7 @@
   },
   {
     "FileName": "sound/stream/evz221.brstm",
-    "Translation": "evz221.brstm",
+    "Translation": "Captain, loading is complete\nHurry up and get on!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,7 +82,7 @@
   },
   {
     "FileName": "sound/stream/evz222.brstm",
-    "Translation": "evz222.brstm",
+    "Translation": "Okay, okay, let's do it!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +91,7 @@
   },
   {
     "FileName": "sound/stream/evz223.brstm",
-    "Translation": "evz223.brstm",
+    "Translation": "Really.. this assault was not worth it at all...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

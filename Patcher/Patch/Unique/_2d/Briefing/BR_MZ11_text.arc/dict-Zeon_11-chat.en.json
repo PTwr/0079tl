@@ -1,19 +1,11 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz184",
     "Text": null,
     "Lines": [
-      "全体像は把握できていないが、先行した部隊によって、",
-      "このエリアの構造は、大体把握できたぜ。"
+      "We don't have complete map, but we have",
+      "pretty good idea where our targets are",
+      "thanks to unit that came in before us."
     ],
     "TabSpace": null,
     "Size": null
@@ -22,9 +14,9 @@
     "ID": "evz185",
     "Text": null,
     "Lines": [
-      "我々は、水路を使って侵入。",
-      "制限時間内に、攻撃目標の司令施設と、MS工廠を破壊。",
-      "その後、地下水脈を使って撤退します。"
+      "We'll use watergate to infiltrate,",
+      "Target command center and MS factory,",
+      "and withdraw through underground river."
     ],
     "TabSpace": null,
     "Size": null
@@ -33,7 +25,7 @@
     "ID": "evz186",
     "Text": null,
     "Lines": [
-      "全体の戦況は、あまりよくないようだな…。"
+      "Overall battle doesn't seem to be going well..."
     ],
     "TabSpace": null,
     "Size": null
@@ -42,7 +34,7 @@
     "ID": "evz187",
     "Text": null,
     "Lines": [
-      "だからこそ、少しでも打撃を加えておかないとな。"
+      "That's whe we need to deal some damage."
     ],
     "TabSpace": null,
     "Size": null
@@ -51,8 +43,8 @@
     "ID": "evz188",
     "Text": null,
     "Lines": [
-      "そうだ。",
-      "俺たちで、一矢報いてやろうぜ！"
+      "Allright.",
+      "Let's give it a go!"
     ],
     "TabSpace": null,
     "Size": null
@@ -61,7 +53,7 @@
     "ID": "evz189",
     "Text": null,
     "Lines": [
-      "ブラウアー隊、行動開始だ！"
+      "Brauer's team, move on!"
     ],
     "TabSpace": null,
     "Size": null
