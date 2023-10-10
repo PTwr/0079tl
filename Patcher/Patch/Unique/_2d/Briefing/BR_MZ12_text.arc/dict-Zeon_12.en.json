@@ -13,8 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "Destruction of your MS or Gau",
-      "Time Over"
+      "Loss of your MS or Gau",
+      "Gau fails to land within time"
     ],
     "TabSpace": null,
     "Size": null
@@ -23,7 +23,7 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "The war is going badly.",
+      "The battle is going badly.",
       "Quickly secure Gau landing point",
       "and escort firendly forces.",
       "Then leave front with them."

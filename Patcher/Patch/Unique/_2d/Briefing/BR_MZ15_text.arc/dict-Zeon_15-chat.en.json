@@ -1,20 +1,11 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz241",
     "Text": null,
     "Lines": [
-      "さて諸君。　今回は、火事場泥棒をやってみようと思う。",
-      "…といっても、元々ジオンの基地なんだから、",
-      "奪還作戦と言えなくもない。"
+      "Okay, guys. This time we're going out on a heist.",
+      "...but it was originaly Zeon base,",
+      "so you can call it salvage operation."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,8 +14,8 @@
     "ID": "evz242",
     "Text": null,
     "Lines": [
-      "確かな筋の情報だよ。",
-      "貯蔵物資の有無だけで言えば、まず間違いないと思うけどね。"
+      "Information is solid.",
+      "It's good place to start with securing our supplies."
     ],
     "TabSpace": null,
     "Size": null
@@ -33,8 +24,8 @@
     "ID": "evz243",
     "Text": null,
     "Lines": [
-      "嫌がらせの次は、泥棒かよ…。",
-      "ヘヘヘ…、いよいよ悪党が、板についてきたなぁ。"
+      "Next step after harrasment is theft...",
+      "Hehehe... the scoundrels are getting together."
     ],
     "TabSpace": null,
     "Size": null
@@ -43,7 +34,7 @@
     "ID": "evz244",
     "Text": null,
     "Lines": [
-      "貯蔵されてる物資って、なんですかね？"
+      "What is in the storage cache?"
     ],
     "TabSpace": null,
     "Size": null
@@ -52,9 +43,9 @@
     "ID": "evz245_01",
     "Text": null,
     "Lines": [
-      "非公式に貯蔵していたものだからね。",
-      "大方、誰かさんが、終戦後に着服しようとでも考えてたもの…。",
-      "つまりは金目のもの。"
+      "It's something that was stored unofficially.",
+      "Most likely it was something to embezzle after the war.",
+      "In other words. Money."
     ],
     "TabSpace": null,
     "Size": null
@@ -63,9 +54,9 @@
     "ID": "evz245_02",
     "Text": null,
     "Lines": [
-      "金とかダイヤとかだと換金が楽で最高だけど、",
-      "今なら熱核反応炉に必須な、ジルコンとかのレアメタルでも、",
-      "結構な金になるはずだよ。"
+      "Gold and diamonds are best, because its easy to pawn them.",
+      "But currently even rare metals, like zircon which is essential",
+      "for thermonuclear reactos, should be very valuable."
     ],
     "TabSpace": null,
     "Size": null
@@ -74,7 +65,7 @@
     "ID": "evz246",
     "Text": null,
     "Lines": [
-      "ほわぁ～、金銀財宝ですね！　…ステキ。"
+      "Wooow! Treasure of gold and silver! So romantic!"
     ],
     "TabSpace": null,
     "Size": null
@@ -82,8 +73,9 @@
   {
     "ID": "evz247",
     "Text": null,
+    "_": "some proverb?",
     "Lines": [
-      "ま、ネコババしても、誰も文句は言えねぇわな。"
+      "Well, no one can complain about cat burglar, can they?"
     ],
     "TabSpace": null,
     "Size": null
@@ -92,8 +84,8 @@
     "ID": "evz248",
     "Text": null,
     "Lines": [
-      "俺たちも含め、アフリカで潜伏を決め込んだ部隊の",
-      "軍資金になれば、しめたもんだ。"
+      "Everyone, including us, is heading toward Africa.",
+      "It would be great to obtain military funds before hiding."
     ],
     "TabSpace": null,
     "Size": null
@@ -102,7 +94,7 @@
     "ID": "evz249",
     "Text": null,
     "Lines": [
-      "ちょっともったいないですねぇ…。"
+      "It's a bit of a waste..."
     ],
     "TabSpace": null,
     "Size": null
@@ -111,8 +103,8 @@
     "ID": "evz250",
     "Text": null,
     "Lines": [
-      "ハハッ、そういうなよ。",
-      "じゃ、泥棒に出かけるとしますか！"
+      "Haha, don't be like that.",
+      "Well then, lets go rob the bank!"
     ],
     "TabSpace": null,
     "Size": null
@@ -122,15 +114,6 @@
     "Text": null,
     "Lines": [
       "Roger that!"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "",
-    "Text": null,
-    "Lines": [
-      ""
     ],
     "TabSpace": null,
     "Size": null

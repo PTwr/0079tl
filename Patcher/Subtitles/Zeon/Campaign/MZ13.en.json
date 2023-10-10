@@ -1,88 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz224.brstm",
-    "Translation": "evz224.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz225.brstm",
-    "Translation": "evz225.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz226.brstm",
-    "Translation": "evz226.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz227.brstm",
-    "Translation": "evz227.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz228.brstm",
-    "Translation": "evz228.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz229.brstm",
-    "Translation": "evz229.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz230.brstm",
-    "Translation": "evz230.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz231.brstm",
-    "Translation": "evz231.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz232.brstm",
-    "Translation": "evz232.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz233.brstm",
-    "Translation": "evz233.brstm",
+    "Translation": "As per report, Federation is performing exercise here",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -91,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz234.brstm",
-    "Translation": "evz234.brstm",
+    "Translation": "Okay. Brauer's team, lets go get them!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -100,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz235.brstm",
-    "Translation": "evz235.brstm",
+    "Translation": "Cannon type. Be careful of barrage.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -109,7 +28,8 @@
   },
   {
     "FileName": "sound/stream/evz236.brstm",
-    "Translation": "evz236.brstm",
+    "Translation": "Orange one is clueless, pilot is a piece of shit",
+    "-": "The orange one is a slasic movie. The running is a piece of paper, man.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -118,8 +38,8 @@
   },
   {
     "FileName": "sound/stream/evz237.brstm",
-    "Translation": "evz237.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Cannon type and orange one seems to be new models, they are our targets\nDefeat them withing time and proceed to withdrawal point.",
+    "Miliseconds": 10000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -127,7 +47,7 @@
   },
   {
     "FileName": "sound/stream/evz238.brstm",
-    "Translation": "evz238.brstm",
+    "Translation": "Heey, feedie scum! Witness the power of Brauer's Team!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +56,8 @@
   },
   {
     "FileName": "sound/stream/evz239.brstm",
-    "Translation": "evz239.brstm",
+    "Translation": "You've been tainted, young lady...",
+    "-": "Poisoned? as in affected by captain?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

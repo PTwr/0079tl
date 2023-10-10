@@ -1,20 +1,11 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz315",
     "Text": null,
     "Lines": [
-      "基地の周りに設置した爆薬を一斉に点火。",
-      "その隙に、ギャロップで一気に包囲網を突破し、",
-      "受け入れ準備をしている基地に逃げ込む…。"
+      "Explosives set up around the base will be ignited al",
+      "at once, giving a chance for our Gallop to break through ",
+      "the encirclement and escape to base willing to accept us."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,7 +14,7 @@
     "ID": "evz316",
     "Text": null,
     "Lines": [
-      "レオ、ちょっと強引すぎないか？"
+      "Leo, aren't you being a bit too pushy?"
     ],
     "TabSpace": null,
     "Size": null
@@ -32,7 +23,7 @@
     "ID": "evz317",
     "Text": null,
     "Lines": [
-      "せめてMSで、陽動位したほうがいいだろ？"
+      "Wouldn't it be better to use MS as diversion?"
     ],
     "TabSpace": null,
     "Size": null
@@ -41,9 +32,9 @@
     "ID": "evz318",
     "Text": null,
     "Lines": [
-      "いや、今回はだめだ。",
-      "MS3機程度で足止めできる規模じゃない。",
-      "なぁに、大丈夫、うまくいくさ！"
+      "No, not this time.",
+      "Its not something that three MS can stop.",
+      "Hey, its okay, its gonna be fine."
     ],
     "TabSpace": null,
     "Size": null
@@ -52,8 +43,8 @@
     "ID": "evz319",
     "Text": null,
     "Lines": [
-      "隊長、脱出用のギャロップは準備できました。",
-      "…MSは破棄で、いいんですね？"
+      "Captain, our Gallop is ready to escape.",
+      "...is it really okay to discard our MS?"
     ],
     "TabSpace": null,
     "Size": null
@@ -62,8 +53,9 @@
     "ID": "evz320",
     "Text": null,
     "Lines": [
-      "あぁ。",
-      "少しでも身軽にして、とにかく全速で突破するんだ。"
+      "Ah.",
+      "We'll need to lighten our load as much as possible",
+      "to break through at full speed."
     ],
     "TabSpace": null,
     "Size": null
@@ -72,7 +64,7 @@
     "ID": "evz321",
     "Text": null,
     "Lines": [
-      "分りました。　では、後は私たちだけです。"
+      "Understand. Then it's just us."
     ],
     "TabSpace": null,
     "Size": null
@@ -81,9 +73,9 @@
     "ID": "evz322",
     "Text": null,
     "Lines": [
-      "よし。",
-      "では、ギャロップに搭乗しろ。",
-      "俺は爆薬の起爆装置をセットしてから行く。"
+      "Okay.",
+      "Now board that Gallop.",
+      "I'm going to setoff explosives then go as well."
     ],
     "TabSpace": null,
     "Size": null

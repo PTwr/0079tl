@@ -35,7 +35,7 @@ namespace Tests
                 .ToDictionary(kvp => Path.GetFileNameWithoutExtension(kvp.Key), kvp => kvp.Value.Translation);
 
             var root = @"C:\games\wii\0079\0079_jp\DATA\files\event\missionevent\";
-            root = @$"{Environment.ExpandEnvironmentVariables("%userprofile%")}\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\event";
+            //root = @$"{Environment.ExpandEnvironmentVariables("%userprofile%")}\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\event";
             foreach (var file in Directory.EnumerateFiles(root, "*.gev", SearchOption.AllDirectories))
             {
 

@@ -12,4 +12,5 @@ Ace Akahana -> RX-78-1 Port. for Zeon
 Suits: headshots after clearing story one time, continue from same save for new game+
 list of available ms in: MS_POINT_LIST.lua
 
-MZ03, ng+, A, RX-79 Blue Destiny (played as Efreet)
+MZ03, NG+, A, RX-79 Blue Destiny (played as Efreet)
+mz21, NG+, E rank, RX-78NT-1 Alex, played as Prototype Gundam, unlocked Full Armor Gundam

@@ -1,106 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz240.brstm",
-    "Translation": "evz240.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz241.brstm",
-    "Translation": "evz241.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz242.brstm",
-    "Translation": "evz242.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz243.brstm",
-    "Translation": "evz243.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz244.brstm",
-    "Translation": "evz244.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz245.brstm",
-    "Translation": "evz245.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz246.brstm",
-    "Translation": "evz246.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz247.brstm",
-    "Translation": "evz247.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz248.brstm",
-    "Translation": "evz248.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz249.brstm",
-    "Translation": "evz249.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz250.brstm",
-    "Translation": "evz250.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz251.brstm",
-    "Translation": "evz251.brstm",
+    "Translation": "Defenders are at manageable level",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -109,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz252.brstm",
-    "Translation": "evz252.brstm",
+    "Translation": "We should assume there are reserve forces inside of base",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -118,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz253.brstm",
-    "Translation": "evz253.brstm",
+    "Translation": "Fat Uncle from recovery team is comming to land\nEliminate the enemy",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz254.brstm",
-    "Translation": "evz254.brstm",
+    "Translation": "If we can destroy lift doors, we might be able to prevent reinforcements",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz255.brstm",
-    "Translation": "evz255.brstm",
+    "Translation": "Recovery team arrived in Fat Uncle, its our priority to Defend it",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz256.brstm",
-    "Translation": "evz256.brstm",
+    "Translation": "They're counting on us! Let's keep enemy at away!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz257.brstm",
-    "Translation": "evz257.brstm",
+    "Translation": "Another enemy unit has arrived!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +64,7 @@
   },
   {
     "FileName": "sound/stream/evz258.brstm",
-    "Translation": "evz258.brstm",
+    "Translation": "Reinforcements have arrived, so we'll fight back and prioritize defense of recovery team",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -172,7 +73,7 @@
   },
   {
     "FileName": "sound/stream/evz259.brstm",
-    "Translation": "evz259.brstm",
+    "Translation": "We won't last forever",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -181,7 +82,7 @@
   },
   {
     "FileName": "sound/stream/evz260.brstm",
-    "Translation": "evz260.brstm",
+    "Translation": "Recovery team has reached our target",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -190,7 +91,7 @@
   },
   {
     "FileName": "sound/stream/evz261.brstm",
-    "Translation": "evz261.brstm",
+    "Translation": "They are loading it as we speak, please buy a little more time",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -199,7 +100,7 @@
   },
   {
     "FileName": "sound/stream/evz262.brstm",
-    "Translation": "evz262.brstm",
+    "Translation": "Recovery team is leaving, withdraw as well",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

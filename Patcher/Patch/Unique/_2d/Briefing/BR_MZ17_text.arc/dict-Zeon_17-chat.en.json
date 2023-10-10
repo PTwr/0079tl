@@ -1,19 +1,10 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz264",
     "Text": null,
     "Lines": [
-      "手土産もできたことだし、",
-      "一刻も早く、アフリカ戦線に合流したかったところだが…。"
+      "We were on our way to Africa, when we received",
+      "distress call from friendly unit stuck in desert."
     ],
     "TabSpace": null,
     "Size": null
@@ -22,8 +13,8 @@
     "ID": "evz265",
     "Text": null,
     "Lines": [
-      "友軍からの救援要請…。",
-      "放っておけないですよね。"
+      "Distress call from allies...",
+      "We can't leave them alone, can we?"
     ],
     "TabSpace": null,
     "Size": null
@@ -32,8 +23,8 @@
     "ID": "evz266",
     "Text": null,
     "Lines": [
-      "…にしても、",
-      "今回は、ちぃっとばかり危険度が高すぎるかもなぁ。"
+      "...However, this time risk",
+      "might be a little to high."
     ],
     "TabSpace": null,
     "Size": null
@@ -42,7 +33,7 @@
     "ID": "evz267",
     "Text": null,
     "Lines": [
-      "あぁ…、分ってる。　"
+      "Yes... I know."
     ],
     "TabSpace": null,
     "Size": null
@@ -51,9 +42,9 @@
     "ID": "evz268",
     "Text": null,
     "Lines": [
-      "ギャロップが部隊を回収、離脱するまでの間、",
-      "周囲の敵を引き付ける。",
-      "今までも似たようなことは、散々やってきたとはいえ…ね。"
+      "Distracting enemies in the area until Gallop can",
+      "withdraw with friendly troops.",
+      "It's not the first time we've done such things."
     ],
     "TabSpace": null,
     "Size": null
@@ -62,9 +53,9 @@
     "ID": "evz269",
     "Text": null,
     "Lines": [
-      "極東から欧州方面にかけての一帯は、",
-      "完全に連邦の勢力圏となっています。",
-      "現状では、通り抜けることさえ難しいですね。"
+      "Everything from Far East to Europe is completly",
+      "under Federation control.",
+      "At present, it's difficult to even get through."
     ],
     "TabSpace": null,
     "Size": null
@@ -73,7 +64,7 @@
     "ID": "evz270",
     "Text": null,
     "Lines": [
-      "もたもたすれば、あっという間に囲まれて、袋叩きってわけだ。　"
+      "If you stop, you'll be encircled and defeated in no time."
     ],
     "TabSpace": null,
     "Size": null
@@ -82,8 +73,8 @@
     "ID": "evz271",
     "Text": null,
     "Lines": [
-      "でも！　実戦経験豊富なブラウアー隊でしか、",
-      "成し遂げられないのも確かですよ。"
+      "But! I am sure that Brauer's Team, with our",
+      "extensive experience, can accomplish this."
     ],
     "TabSpace": null,
     "Size": null
@@ -92,8 +83,8 @@
     "ID": "evz272",
     "Text": null,
     "Lines": [
-      "そういうこと。",
-      "やってやろうぜ！　みんな！"
+      "That's the spirit.",
+      "Let's do it! C'mon guys!"
     ],
     "TabSpace": null,
     "Size": null
@@ -102,7 +93,7 @@
     "ID": "leo169",
     "Text": null,
     "Lines": [
-      "ブラウアー隊、いくぜ！"
+      "Brauer's Squad, let's go!"
     ],
     "TabSpace": null,
     "Size": null

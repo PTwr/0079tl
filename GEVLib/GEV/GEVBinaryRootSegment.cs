@@ -76,8 +76,9 @@ namespace GEVLib.GEV
         {
             //0x1bb4 0x1c28
             EVE = new EVEBinarySegment(this);
+            var eveLength = OFSStart == 0 ? body.Length - 4 : OFSStart - OFSBinarySegment.magicNumber.Length - this.HeaderLength - this.MagicNumber.Length;
             var evebytes = body
-                .Slice(0, OFSStart - OFSBinarySegment.magicNumber.Length - this.HeaderLength - this.MagicNumber.Length);
+                .Slice(0, eveLength);
             EVE.Parse(evebytes);
 
             if (OFSStart > 0)

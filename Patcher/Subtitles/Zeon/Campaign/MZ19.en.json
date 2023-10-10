@@ -1,160 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz287.brstm",
-    "Translation": "evz287.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz288.brstm",
-    "Translation": "evz288.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz289.brstm",
-    "Translation": "evz289.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz290.brstm",
-    "Translation": "evz290.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz291.brstm",
-    "Translation": "evz291.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz292.brstm",
-    "Translation": "evz292.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz293.brstm",
-    "Translation": "evz293.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz294.brstm",
-    "Translation": "evz294.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz295.brstm",
-    "Translation": "evz295.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz296.brstm",
-    "Translation": "evz296.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz297.brstm",
-    "Translation": "evz297.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz298.brstm",
-    "Translation": "evz298.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz299.brstm",
-    "Translation": "evz299.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz300.brstm",
-    "Translation": "evz300.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz301.brstm",
-    "Translation": "evz301.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz302.brstm",
-    "Translation": "evz302.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz303.brstm",
-    "Translation": "evz303.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz304.brstm",
-    "Translation": "evz304.brstm",
+    "Translation": "Gallop is getting close, they're going to make a detuor\nto prevent enemy from finding out our base location",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz305.brstm",
-    "Translation": "evz305.brstm",
+    "Translation": "We'll defend them, wait it out, and bring them in when we see an opening",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -172,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz306.brstm",
-    "Translation": "evz306.brstm",
+    "Translation": "I feel sorry for you, so I'm going to destroy enemy pursuit so we won't have to abandon this base",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -181,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz307.brstm",
-    "Translation": "evz307.brstm",
+    "Translation": "Captain, we have confirmed destruction of pursuing force. We did it!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -190,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz308.brstm",
-    "Translation": "evz308.brstm",
+    "Translation": "Right. I'm sorry you had to deal with my selfishness until the end.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -199,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz309.brstm",
-    "Translation": "evz309.brstm",
+    "Translation": "What are you talking about? You're crazy.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -208,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz310.brstm",
-    "Translation": "evz310.brstm",
+    "Translation": "I hope you close the door with a bang, Captain!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -217,7 +64,7 @@
   },
   {
     "FileName": "sound/stream/evz311.brstm",
-    "Translation": "evz311.brstm",
+    "Translation": "Same here. Right, Captain?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -226,16 +73,7 @@
   },
   {
     "FileName": "sound/stream/evz312.brstm",
-    "Translation": "evz312.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz313.brstm",
-    "Translation": "evz313.brstm",
+    "Translation": "Oh shut it. Brauer's Team, mission complete. Lets withdraw",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

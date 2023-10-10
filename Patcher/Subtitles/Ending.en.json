@@ -1,0 +1,20 @@
+[
+  {
+    "FileName": "sound/stream/evz385.brstm",
+    "Translation": "ENDING MZ21?",
+    "Miliseconds": 50000,
+    "Color": "Green",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+  {
+    "FileName": "sound/stream/evz577.brstm",
+    "Translation": "ENDING MZ20?",
+    "Miliseconds": 50000,
+    "Color": "Green",
+   "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2
+  }
+]

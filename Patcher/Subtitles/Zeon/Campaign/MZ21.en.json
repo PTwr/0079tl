@@ -1,88 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz314.brstm",
-    "Translation": "evz314.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz315.brstm",
-    "Translation": "evz315.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz316.brstm",
-    "Translation": "evz316.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz317.brstm",
-    "Translation": "evz317.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz318.brstm",
-    "Translation": "evz318.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz319.brstm",
-    "Translation": "evz319.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz320.brstm",
-    "Translation": "evz320.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz321.brstm",
-    "Translation": "evz321.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz322.brstm",
-    "Translation": "evz322.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz323.brstm",
-    "Translation": "evz323.brstm",
+    "Translation": "Sorry guys, its my job.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -91,8 +10,8 @@
   },
   {
     "FileName": "sound/stream/evz324.brstm",
-    "Translation": "evz324.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Now that the preparations are complete, all I have to do is  distract enemy for a while\nand set off the explosives when enemy is close enough",
+    "Miliseconds": 12000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -100,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz325.brstm",
-    "Translation": "evz325.brstm",
+    "Translation": "Captain, what are you doing?!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -109,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz326.brstm",
-    "Translation": "evz326.brstm",
+    "Translation": "It's okay, just follow my orders.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -118,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz327.brstm",
-    "Translation": "evz327.brstm",
+    "Translation": "B-but... that kind of thing...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz328.brstm",
-    "Translation": "evz328.brstm",
+    "Translation": "Hey, hey, what's with that atmosphere?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz329.brstm",
-    "Translation": "evz329.brstm",
+    "Translation": "Really, Leo, it's all too obvious. Gallop, please wait for us for a bit",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,7 +64,7 @@
   },
   {
     "FileName": "sound/stream/evz330.brstm",
-    "Translation": "evz330.brstm",
+    "Translation": "Hey, did you guys come out in MS? hurry up and board Gallop!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,7 +73,8 @@
   },
   {
     "FileName": "sound/stream/evz331.brstm",
-    "Translation": "evz331.brstm",
+    "Translation": "It's fine, It's fine. We're gonna stay with Gallop.",
+    "-": "No idea what he says, Tord uses weird speach and sayings.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +83,7 @@
   },
   {
     "FileName": "sound/stream/evz332.brstm",
-    "Translation": "evz332.brstm",
+    "Translation": "Leo, Dish patrol plane is flying above. It's going to reveal Gallop's location to enemy",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -172,8 +92,8 @@
   },
   {
     "FileName": "sound/stream/evz333.brstm",
-    "Translation": "evz333.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Okay, okay... my bad. I'm a loser who can only charge in on his own\nbut if I'm with you, miracles can happen",
+    "Miliseconds": 15000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -181,7 +101,7 @@
   },
   {
     "FileName": "sound/stream/evz334.brstm",
-    "Translation": "evz334.brstm",
+    "Translation": "That's right, you just have to believe in your partners to the very end",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -190,7 +110,7 @@
   },
   {
     "FileName": "sound/stream/evz335.brstm",
-    "Translation": "evz335.brstm",
+    "Translation": "Right, that's what I'm talking about.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -199,8 +119,8 @@
   },
   {
     "FileName": "sound/stream/evz336.brstm",
-    "Translation": "evz336.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Okay. Gallop, wait a while. I'll give you signal once I'll clear up enemy patrol\nthen you'll break through with your MS escort",
+    "Miliseconds": 8000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -208,7 +128,7 @@
   },
   {
     "FileName": "sound/stream/evz337.brstm",
-    "Translation": "evz337.brstm",
+    "Translation": "Captain, I'll stay with you!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -217,7 +137,7 @@
   },
   {
     "FileName": "sound/stream/evz338.brstm",
-    "Translation": "evz338.brstm",
+    "Translation": "Don't embarass me, Anne. You're very capable operator, just keep team organized",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -226,7 +146,7 @@
   },
   {
     "FileName": "sound/stream/evz339.brstm",
-    "Translation": "evz339.brstm",
+    "Translation": "...but...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -235,7 +155,7 @@
   },
   {
     "FileName": "sound/stream/evz340.brstm",
-    "Translation": "evz340.brstm",
+    "Translation": "Besides, I have no intention of dying.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -244,7 +164,7 @@
   },
   {
     "FileName": "sound/stream/evz341.brstm",
-    "Translation": "evz341.brstm",
+    "Translation": "Is that true?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -253,7 +173,7 @@
   },
   {
     "FileName": "sound/stream/evz342.brstm",
-    "Translation": "evz342.brstm",
+    "Translation": "Believe me!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -262,7 +182,7 @@
   },
   {
     "FileName": "sound/stream/evz343.brstm",
-    "Translation": "evz343.brstm",
+    "Translation": "Explosives must be used in perfect moment",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -271,7 +191,7 @@
   },
   {
     "FileName": "sound/stream/evz344.brstm",
-    "Translation": "evz344.brstm",
+    "Translation": "This is amazing!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -280,7 +200,7 @@
   },
   {
     "FileName": "sound/stream/evz345.brstm",
-    "Translation": "evz345.brstm",
+    "Translation": "Shit, I detonated it at wrong time!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -289,7 +209,7 @@
   },
   {
     "FileName": "sound/stream/evz346.brstm",
-    "Translation": "evz346.brstm",
+    "Translation": "Now that Big Trays are in place, we can finihs them off with single explosion!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -298,7 +218,7 @@
   },
   {
     "FileName": "sound/stream/evz347.brstm",
-    "Translation": "evz347.brstm",
+    "Translation": "See? That's what happens when you corner us!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -307,7 +227,7 @@
   },
   {
     "FileName": "sound/stream/evz348.brstm",
-    "Translation": "evz348.brstm",
+    "Translation": "I hope this distracts the enemy...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -316,7 +236,7 @@
   },
   {
     "FileName": "sound/stream/evz349.brstm",
-    "Translation": "evz349.brstm",
+    "Translation": "I've cleared up the area! Gallop, head out!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -325,7 +245,7 @@
   },
   {
     "FileName": "sound/stream/evz350.brstm",
-    "Translation": "evz350.brstm",
+    "Translation": "Gallop, heading out",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -334,7 +254,7 @@
   },
   {
     "FileName": "sound/stream/evz351.brstm",
-    "Translation": "evz351.brstm",
+    "Translation": "Leo, this is pretty dangerous!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -343,7 +263,7 @@
   },
   {
     "FileName": "sound/stream/evz352.brstm",
-    "Translation": "evz352.brstm",
+    "Translation": "Okay, I'm going too",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -352,7 +272,7 @@
   },
   {
     "FileName": "sound/stream/evz353.brstm",
-    "Translation": "evz353.brstm",
+    "Translation": "Look's like we'll able to escape safely... Captain... thank you... plese, don't die...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -361,7 +281,7 @@
   },
   {
     "FileName": "sound/stream/evz354.brstm",
-    "Translation": "evz354.brstm",
+    "Translation": "That's not my intention, Anne. I'll see you soon.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -370,7 +290,7 @@
   },
   {
     "FileName": "sound/stream/evz355.brstm",
-    "Translation": "evz355.brstm",
+    "Translation": "Y-yes, I'll see you soon...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -379,7 +299,7 @@
   },
   {
     "FileName": "sound/stream/evz356.brstm",
-    "Translation": "evz356.brstm",
+    "Translation": "Well then, lets do it",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -388,7 +308,7 @@
   },
   {
     "FileName": "sound/stream/evz357.brstm",
-    "Translation": "evz357.brstm",
+    "Translation": "I wonder if this be my last big job?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -397,7 +317,7 @@
   },
   {
     "FileName": "sound/stream/evz358.brstm",
-    "Translation": "evz358.brstm",
+    "Translation": "That's what happens in the end, can't help it.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -406,7 +326,8 @@
   },
   {
     "FileName": "sound/stream/evz359.brstm",
-    "Translation": "evz359.brstm",
+    "Translation": "Multiple MS closing in",
+    "-": "Medium MS coming down???",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -415,7 +336,7 @@
   },
   {
     "FileName": "sound/stream/evz360.brstm",
-    "Translation": "evz360.brstm",
+    "Translation": "Oy, oy, that's not a joke!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -424,7 +345,7 @@
   },
   {
     "FileName": "sound/stream/evz361.brstm",
-    "Translation": "evz361.brstm",
+    "Translation": "I'm surprised they threw so much at us. Well then, lets go!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -433,7 +354,7 @@
   },
   {
     "FileName": "sound/stream/evz362.brstm",
-    "Translation": "evz362.brstm",
+    "Translation": "Captain! Gallop is under attack! AAAH!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -442,7 +363,7 @@
   },
   {
     "FileName": "sound/stream/evz363.brstm",
-    "Translation": "evz363.brstm",
+    "Translation": "Anne! ... shit.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -451,7 +372,7 @@
   },
   {
     "FileName": "sound/stream/evz364.brstm",
-    "Translation": "evz364.brstm",
+    "Translation": "Fuck... is this over?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -460,8 +381,9 @@
   },
   {
     "FileName": "sound/stream/evz365.brstm",
-    "Translation": "evz365.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Captain, can you hear me? I have intercepted Federation transmission\nA Baoa Qu has fallen, and ceasefire order was given",
+    "-" : "not sure. Intercepted feedie message, something about A Baoa Qu battle, so probably about peace/ceasefire?",
+    "Miliseconds": 15000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -469,8 +391,9 @@
   },
   {
     "FileName": "sound/stream/evz366.brstm",
-    "Translation": "evz366.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Oh well. Hopefully we'll be able to convince those guys to stop fighting.",
+    "-": "not sure. Hopefully base will be able to surrender?",
+    "Miliseconds": 7000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -478,7 +401,8 @@
   },
   {
     "FileName": "sound/stream/evz367.brstm",
-    "Translation": "evz367.brstm",
+    "Translation": "Eeh? Captain will surrender?",
+    "-":  "lots of static... captain says he will surrneder as soon as he fixes it? fixes WHAT?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -487,7 +411,8 @@
   },
   {
     "FileName": "sound/stream/evz368.brstm",
-    "Translation": "evz368.brstm",
+    "Translation": "Well, there's not a lot we can do, right?",
+    "-": "iddle chatter, Captain is trying to calm down Anne",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -496,7 +421,7 @@
   },
   {
     "FileName": "sound/stream/evz369.brstm",
-    "Translation": "evz369.brstm",
+    "Translation": "Captain? Captain!!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -505,8 +430,8 @@
   },
   {
     "FileName": "sound/stream/evz370.brstm",
-    "Translation": "evz370.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Well then. I think I did my best, but it's still not over...",
+    "Miliseconds": 8000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -514,7 +439,7 @@
   },
   {
     "FileName": "sound/stream/evz371.brstm",
-    "Translation": "evz371.brstm",
+    "Translation": "I'm sure other side won't calm down if things continue like this...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -523,7 +448,8 @@
   },
   {
     "FileName": "sound/stream/evz372.brstm",
-    "Translation": "evz372.brstm",
+    "Translation": "I wonder if anyone will escape...",
+    "-" : "some sad whimpering, I guess its over, or I wonder if we'll survive...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -532,7 +458,7 @@
   },
   {
     "FileName": "sound/stream/evz373.brstm",
-    "Translation": "evz373.brstm",
+    "Translation": "Go ahead. I'm not gonna fight you anymore",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -541,7 +467,7 @@
   },
   {
     "FileName": "sound/stream/evz374.brstm",
-    "Translation": "evz374.brstm",
+    "Translation": "What the hell are they?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -550,7 +476,7 @@
   },
   {
     "FileName": "sound/stream/evz375.brstm",
-    "Translation": "evz375.brstm",
+    "Translation": "It doesn't look like they are hostile",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -559,7 +485,7 @@
   },
   {
     "FileName": "sound/stream/evz376.brstm",
-    "Translation": "evz376.brstm",
+    "Translation": "Yeah, all we can do now is to see what Feedies do",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -568,7 +494,7 @@
   },
   {
     "FileName": "sound/stream/evz377.brstm",
-    "Translation": "evz377.brstm",
+    "Translation": "SRT, Unit One, I heard they are one of Revil's top teams",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -577,7 +503,7 @@
   },
   {
     "FileName": "sound/stream/evz378.brstm",
-    "Translation": "evz378.brstm",
+    "Translation": "It became even more troublesome...",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -586,7 +512,7 @@
   },
   {
     "FileName": "sound/stream/evz379.brstm",
-    "Translation": "evz379.brstm",
+    "Translation": "I'm captain Leo Brauer. Those guys over there seems to want us dead",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -595,7 +521,7 @@
   },
   {
     "FileName": "sound/stream/evz380.brstm",
-    "Translation": "evz380.brstm",
+    "Translation": "Yea, I do care about my friends.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -604,8 +530,8 @@
   },
   {
     "FileName": "sound/stream/evz381.brstm",
-    "Translation": "evz381.brstm",
-    "Miliseconds": 5000,
+    "Translation": "No, you're strong\nPlease tell Federal commander we have no more will to fight\nPlease convey our message",
+    "Miliseconds": 15000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -613,7 +539,7 @@
   },
   {
     "FileName": "sound/stream/evz382.brstm",
-    "Translation": "evz382.brstm",
+    "Translation": "Leo!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -622,7 +548,7 @@
   },
   {
     "FileName": "sound/stream/evz383.brstm",
-    "Translation": "evz383.brstm",
+    "Translation": "Captain!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -631,7 +557,17 @@
   },
   {
     "FileName": "sound/stream/evz384.brstm",
-    "Translation": "evz384.brstm",
+    "Translation": "Thank you",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2
+  },
+
+  {
+    "FileName": "sound/stream/evz580.brstm",
+    "Translation": "Well, I'm going to make one last show of it.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

@@ -1,6 +1,6 @@
 [
   {
-    "-": "Scrolling text before starting campaign",
+    "-": "Scrolling text before starting campaign, styled after anime intro",
     "FileName": "sound/stream/na001.brstm",
     "Translation": "na001.brstm",
     "Miliseconds": 5000,
@@ -10,7 +10,7 @@
     "Scale": 2
   },
   {
-    "-": "Scrolling text. after campaign ends? some post-game summary?",
+    "-": "after last mission, and faction Ending voice files, summary of story thus far",
     "FileName": "sound/stream/na002.brstm",
     "Translation": "na002.brstm",
     "Miliseconds": 5000,

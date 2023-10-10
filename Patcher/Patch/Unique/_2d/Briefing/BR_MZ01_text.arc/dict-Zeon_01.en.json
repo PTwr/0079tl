@@ -16,7 +16,7 @@
       "DEFEAT"
     ],
     "TabSpace": null,
-    "Size": 0.8
+    "Size": null
   },
   {
     "ID": "OPERATION_LOSS_CONTENT",
@@ -24,10 +24,9 @@
     "Lines": [
       "Your MS has been destroyed!",
       "Don't let too many Medea escape!",
-      "some very long test string to check if it fits"
     ],
-    "TabSpace": 3,
-    "Size": 0.5
+    "TabSpace": null,
+    "Size": null
   },
   {
     "ID": "OPERATION_COMMENT_CONTENT",
@@ -63,7 +62,7 @@
       "Medea Transport"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.7
   },
   {
     "ID": "BR_DATA_B_01",
