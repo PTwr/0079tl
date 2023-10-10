@@ -13,8 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "Destruction of your MS.／Time Over",
-      "Lost too many allies."
+      "Mobile Suit loss or Time Over",
+      "Loss of too many allies"
     ],
     "TabSpace": null,
     "Size": null
@@ -81,7 +81,7 @@
       "Anti-Sub torpedoes"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.6
   },
   {
     "ID": "BR_DATA_D_01",
@@ -99,7 +99,7 @@
       "Secure the route"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.7
   },
   {
     "ID": "BR_INFO_A_01",
@@ -174,7 +174,7 @@
     "ID": "BR_INFO_D_02",
     "Text": null,
     "Lines": [
-      "We count on you, Brayer's Team"
+      "We count on you, Brauer's Team"
     ],
     "TabSpace": null,
     "Size": null

@@ -10,6 +10,81 @@ namespace Tests
     public class GevTests
     {
         string TR01 = @"C:\games\wii\0079\0079_jp\DATA\files\event\missionevent\other\TR01.gev";
+        string AA02 = @"C:\games\wii\0079\0079_jp\DATA\files\event\missionevent\ace\AA02.gev";
+
+        [Fact]
+        public void AddCustomTextBox()
+        {
+            var expectedBytes = File.ReadAllBytes(TR01);
+            var gev = new GEVBinaryRootSegment();
+            gev.Parse(expectedBytes);
+
+            gev.EVE.InsertTextbox(0x03, 0x0005, "BLAH");
+            gev.UpdateHeader();
+
+            var actualBytes = gev.GetBytes().ToArray();
+
+            File.WriteAllBytes(@$"{Environment.ExpandEnvironmentVariables("%userprofile%")}\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\event\missionevent\other\TR01.gev", actualBytes);
+        }
+
+        [Fact]
+        public void GEVToString()
+        {
+            var dict = DolphinSubtitles.SubtitleLoader
+                .LoadFlattenedDicionary("../../../../Patcher/Subtitles", true, "en")
+                .ToDictionary(kvp => Path.GetFileNameWithoutExtension(kvp.Key), kvp => kvp.Value.Translation);
+
+            var root = @"C:\games\wii\0079\0079_jp\DATA\files\event\missionevent\";
+            //root = @$"{Environment.ExpandEnvironmentVariables("%userprofile%")}\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\event";
+            foreach (var file in Directory.EnumerateFiles(root, "*.gev", SearchOption.AllDirectories))
+            {
+
+                var pathstub = Path.GetRelativePath(root, file);
+
+                var expectedBytes = File.ReadAllBytes(file);
+
+                var gev = new GEVBinaryRootSegment(dict);
+                gev.Parse(expectedBytes);
+
+                var str = gev.ToString();
+
+                var output = Path.Combine(@"C:\games\wii\0079\gevdump", pathstub + ".txt.");
+                Directory.CreateDirectory(Path.GetDirectoryName(output));
+                File.WriteAllText(output, str);
+            }
+            //var expectedBytes = File.ReadAllBytes(@"C:\Users\LordOfTheSkrzynka\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\event\missionevent\other\TR01.gev");
+
+        }
+
+        [Fact]
+        public void UpdateHeaderWithNoChanges()
+        {
+            var expectedBytes = File.ReadAllBytes(AA02);
+
+            var gev = new GEVBinaryRootSegment();
+            gev.Parse(expectedBytes);
+
+            var expectedOFSStart = gev.OFSStart;
+            var expectedSTRSTart = gev.STRStart;
+            gev.UpdateHeader();
+
+            var actualBytes = gev.GetBytes().ToArray();
+
+            Assert.Equal(expectedOFSStart, gev.OFSStart);
+            Assert.Equal(expectedSTRSTart, gev.STRStart);
+            Assert.Equal(expectedBytes, actualBytes);
+        }
+
+        [Fact]
+        public void OFSPaddedToAlignment()
+        {
+            var expectedBytes = File.ReadAllBytes(AA02);
+            var gev = new GEVBinaryRootSegment();
+            gev.Parse(expectedBytes);
+            var actualBytes = gev.GetBytes().ToArray();
+
+            Assert.Equal(expectedBytes, actualBytes);
+        }
 
         [Fact]
         public void Strings()
@@ -20,7 +95,7 @@ namespace Tests
 
             var strings = gev.STR.ToString();
 
-            Assert.Equal("EVC_TU_003", gev.STR.Values.Last());
+            Assert.Equal("EVC_TU_003", gev.STR.Strings.Last());
             Assert.Equal("EVC_TU_003", gev.STR[0x02D0*4]);
             Assert.Equal("EVC_TU_003", gev.OFS[55]);
         }

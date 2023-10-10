@@ -1,19 +1,10 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz225",
     "Text": null,
     "Lines": [
-      "ここからの戦いは、もはや、ただの意地だ。",
-      "みんな、無理に俺に付き合う必要はないぜ？"
+      "From now on, the fight is alla bout willpower.",
+      "You don't have to force yourself to follow, okay?"
     ],
     "TabSpace": null,
     "Size": null
@@ -22,8 +13,8 @@
     "ID": "evz226",
     "Text": null,
     "Lines": [
-      "意地でいいじゃないですか！",
-      "わたし、最後まで諦めませんよ！"
+      "Don't be so mean!",
+      "I won't give up until the end!"
     ],
     "TabSpace": null,
     "Size": null
@@ -32,8 +23,8 @@
     "ID": "evz227",
     "Text": null,
     "Lines": [
-      "あぁ。　こうなったら最後の最後まで、少しでも連邦の",
-      "悩みの種になってやろうじゃないか。"
+      "Ah. If its going to be that way, lets at least",
+      "be a thorn in Federations side."
     ],
     "TabSpace": null,
     "Size": null
@@ -42,9 +33,9 @@
     "ID": "evz228",
     "Text": null,
     "Lines": [
-      "で、まずは敵の新型MSを潰すという細かい嫌がらせに出るわけだ。",
-      "ハッハッハ！　いいねぇー。",
-      "俺は好きだぜ、隊長のそういうところがよ。"
+      "So, first we'll go out to harass enemy's new MS testing?",
+      "Ha ha ha! That's nice!",
+      "I like how you think, Captain."
     ],
     "TabSpace": null,
     "Size": null
@@ -53,8 +44,8 @@
     "ID": "evz229",
     "Text": null,
     "Lines": [
-      "へへ、小さなところからコツコツと…だ。",
-      "一発逆転のギャンブルは、失敗したばっかりだからなぁ。"
+      "Hehe, let's start small and work our way up...",
+      "Putting everything on one card is recipe for disaster."
     ],
     "TabSpace": null,
     "Size": null
@@ -63,8 +54,8 @@
     "ID": "evz230",
     "Text": null,
     "Lines": [
-      "ふふふ…、ですね。",
-      "目一杯チクチクと、嫌がらせしちゃいましょ！"
+      "Hehehe.. I see.",
+      "Let's harras them to the end!"
     ],
     "TabSpace": null,
     "Size": null
@@ -73,9 +64,9 @@
     "ID": "evz231",
     "Text": null,
     "Lines": [
-      "情報によると、連邦は地上での掃討作戦を実戦訓練用程度に",
-      "考えてるみたいだ。",
-      "この程度で勝った気になってるところ…、詰めが甘いね。"
+      "According to my information, Federation is treating",
+      "mop-up ops as nothing more than live-fire exercise.",
+      "Acting like that is gonna backfire on them."
     ],
     "TabSpace": null,
     "Size": null
@@ -84,8 +75,8 @@
     "ID": "evz232",
     "Text": null,
     "Lines": [
-      "訓練なんて、家の中だけでやって、とっとと宇宙に",
-      "上げとけば良かったって、たっぷり後悔させてやるさ。"
+      "They're gonna wish they kept training at base",
+      "and launching directly to space!"
     ],
     "TabSpace": null,
     "Size": null
@@ -94,7 +85,7 @@
     "ID": "leo169",
     "Text": null,
     "Lines": [
-      "ブラウアー隊、いくぜ！"
+      "Brauer's Squad, let's go!"
     ],
     "TabSpace": null,
     "Size": null

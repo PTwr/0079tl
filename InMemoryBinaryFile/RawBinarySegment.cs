@@ -15,12 +15,12 @@ namespace InMemoryBinaryFile
         {
         }
 
-        protected override void ParseBody(Span<byte> body)
+        protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
             this.body = body.ToArray();
         }
 
-        protected override void ParseHeader(Span<byte> header)
+        protected override void ParseHeader(Span<byte> header, Span<byte> everything)
         {
         }
 

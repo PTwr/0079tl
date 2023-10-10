@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata;
@@ -11,7 +12,7 @@ namespace InMemoryBinaryFile
     public interface IBinarySegment
     {
         IEnumerable<byte> GetBytes();
-        void Parse(Span<byte> content);
+        void Parse(Span<byte> content, Span<byte> everything);
     }
 
     public abstract class _BaseBinarySegment<TParent> : IBinarySegment
@@ -31,14 +32,19 @@ namespace InMemoryBinaryFile
             MagicNumber = magicNumber ?? new byte[] { };
         }
 
-        public virtual void Parse(Span<byte> content)
+
+        public virtual void Parse(Span<byte> content) => Parse(content, content);
+        protected virtual void ParseHeader(Span<byte> content) => ParseHeader(content, content);
+        protected virtual void ParseBody(Span<byte> content) => ParseBody(content, content);
+
+        public virtual void Parse(Span<byte> content, Span<byte> everything)
         {
             if (!content.StartsWithMagicNumber(MagicNumber))
             {
                 throw new Exception($"Content does not start with '{MagicNumber}'");
             }
-            ParseHeader(content.Slice(MagicNumber.Length, HeaderLength));
-            ParseBody(content.Slice(MagicNumber.Length + HeaderLength));
+            ParseHeader(content.Slice(MagicNumber.Length, HeaderLength), everything);
+            ParseBody(content.Slice(MagicNumber.Length + HeaderLength), everything);
         }
 
         protected virtual void ValidateMagicNumber(string magicNumber, Span<byte> content)
@@ -49,8 +55,8 @@ namespace InMemoryBinaryFile
             }
         }
 
-        protected abstract void ParseHeader(Span<byte> header);
-        protected abstract void ParseBody(Span<byte> body);
+        protected abstract void ParseHeader(Span<byte> header, Span<byte> everything);
+        protected abstract void ParseBody(Span<byte> body, Span<byte> everything);
 
         public TParent? Parent { get; private set; }
         public int HeaderLength { get; }
@@ -58,6 +64,10 @@ namespace InMemoryBinaryFile
         protected IEnumerable<T> Concatenate<T>(params IEnumerable<T>[] values)
         {
             return values.SelectMany(t => t);
+        }
+        protected IEnumerable<T> Concatenate<T>(params IEnumerable<IEnumerable<T>>[] values)
+        {
+            return null;// values.SelectMany(t => t.Sel);
         }
     }
 }

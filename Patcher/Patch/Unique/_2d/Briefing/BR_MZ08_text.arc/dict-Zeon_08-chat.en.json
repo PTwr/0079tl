@@ -1,19 +1,10 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz136",
     "Text": null,
     "Lines": [
-      "今回は少し、イレギュラーな仕事だ。",
-      "クラウス、例のものは手に入ったか？"
+      "This time it's a bit of an irregular job.",
+      "Klaus, did you get that thing?"
     ],
     "TabSpace": null,
     "Size": null
@@ -22,8 +13,9 @@
     "ID": "evz137",
     "Text": null,
     "Lines": [
-      "極東方面で鹵獲された、技研預けのヤツをなんとか入手したよ。",
-      "でも、連邦のMSなんか、どうしようっていうんだ？"
+      "I managed to get one from research department,",
+      "captured in Far East.",
+      "But what are we going to do with Federeation MS?"
     ],
     "TabSpace": null,
     "Size": null
@@ -32,7 +24,7 @@
     "ID": "evz138",
     "Text": null,
     "Lines": [
-      "連邦のMS…ですか？"
+      "Federation MS?"
     ],
     "TabSpace": null,
     "Size": null
@@ -41,8 +33,9 @@
     "ID": "evz139",
     "Text": null,
     "Lines": [
-      "戦争にもルールはある。",
-      "が、本来ならご法度なことを今回はやらかす。"
+      "There are rules in war,",
+      "but this time we are going to do something",
+      "that would normally be illegal."
     ],
     "TabSpace": null,
     "Size": null
@@ -51,7 +44,8 @@
     "ID": "evz140",
     "Text": null,
     "Lines": [
-      "敵に偽装して、捜索隊に紛れ込もうってわけか？"
+      "Are you going to disguise yourself as",
+      "the enemy, and blend into the search party?"
     ],
     "TabSpace": null,
     "Size": null
@@ -60,9 +54,9 @@
     "ID": "evz141",
     "Text": null,
     "Lines": [
-      "そうだ。",
-      "俺が敵のMSで紛れ込んで、目標の位置を掴む。",
-      "その後、敵捜索隊を殲滅し、目標を回収する。"
+      "Yes. I'll blend in with enemy MS and",
+      "locate droppods. Then we will destroy",
+      "enemy earch party and retrieve them."
     ],
     "TabSpace": null,
     "Size": null
@@ -71,8 +65,8 @@
     "ID": "evz142",
     "Text": null,
     "Lines": [
-      "また、無茶なことを考えたな…。",
-      "識別はどうする？　すぐにバレるぞ？"
+      "You've thought of something crazy again...",
+      "What about ID? You're going to be discovered quickly."
     ],
     "TabSpace": null,
     "Size": null
@@ -81,7 +75,7 @@
     "ID": "evz143",
     "Text": null,
     "Lines": [
-      "あ、それなら、私のほうで少しの間なら、誤魔化せると思います。"
+      "Oh, I think I can fool them for a little while."
     ],
     "TabSpace": null,
     "Size": null
@@ -90,8 +84,8 @@
     "ID": "evz144",
     "Text": null,
     "Lines": [
-      "それに期待してたんだ。　よろしく頼むぜ。",
-      "今回は、時間との勝負だ。"
+      "I'm looking forward to it, thanks.",
+      "This time, it's a race against time."
     ],
     "TabSpace": null,
     "Size": null
@@ -100,9 +94,9 @@
     "ID": "evz145",
     "Text": null,
     "Lines": [
-      "敵にばれる前に、レオが捜索。　僕たちが合流して、",
-      "だまし討ちと奇襲で、捜索隊を壊滅。　すぐさま回収作業を行い、",
-      "敵の別働隊が来る前に撤収…ってわけか。"
+      "Leo will scout ahead for droppods,",
+      "then we'll join in to ambush search party.",
+      "We'll withdraw before enemy reinforcements arrive."
     ],
     "TabSpace": null,
     "Size": null
@@ -111,9 +105,9 @@
     "ID": "evz146",
     "Text": null,
     "Lines": [
-      "このタイミングで、あえて本国が送ってきた物資だ。",
-      "内容も重要だが、それをキチンと受け取れたってことで、",
-      "友軍の士気も、上がるはずだ。"
+      "It was risky getting those supplies down to Earth.",
+      "While supplies are essential, boosting morale by",
+      "delivering them is more important."
     ],
     "TabSpace": null,
     "Size": null
@@ -122,9 +116,9 @@
     "ID": "evz147",
     "Text": null,
     "Lines": [
-      "ま、偽装によるだまし討ち程度は、",
-      "汚れ仕事っていうほどのもんじゃないぜ…。",
-      "開戦時の、コロニーへの攻撃なんかに比べりゃな…。"
+      "Well, deceiving someone through disguise",
+      "isn't thart dirty work, when compared",
+      "to attack on colonies at start of war..."
     ],
     "TabSpace": null,
     "Size": null
@@ -133,7 +127,7 @@
     "ID": "leo161",
     "Text": null,
     "Lines": [
-      "よし。　ブラウアー隊、出撃準備だ！"
+      "Good. Brauer's Team, prepare to sortie!"
     ],
     "TabSpace": null,
     "Size": null

@@ -6,6 +6,7 @@ using XBFLib;
 using Newtonsoft.Json;
 using InMemoryBinaryFile.Helpers;
 using System.Reflection.Metadata.Ecma335;
+using GEVLib.GEV;
 
 internal class Program
 {
@@ -40,6 +41,10 @@ internal class Program
         public bool Clean { get; set; }
         [Option('s', "subtitles", Required = false, HelpText ="Output dir for subtitle files", Default = null)]
         public string Subtitles { get; set; }
+        [Option('g', "gev", Required = false, HelpText = "Patch GEV scripts", Default = false)]
+        public bool GevPatch { get; set; }
+        [Option('a', "arc", Required = false, HelpText = "Patch ARC archives", Default = false)]
+        public bool ArcPatch { get; set; }
     }
     private static void Main(string[] args)
     {
@@ -68,9 +73,43 @@ internal class Program
                     return;
                 }
 
-                ArcPatchEerything(o.InputDir, o.OutputDir, Path.Combine(o.PatchDir, "Patch"), o.LanguageCode, o.Rewrite, o.Clean);
+                if (o.ArcPatch)
+                {
+                    ArcPatchEerything(o.InputDir, o.OutputDir, Path.Combine(o.PatchDir, "Patch"), o.LanguageCode, o.Rewrite, o.Clean);
+                }
                 CopySubtitles(o);
+                PatchGev(o);
             }));
+    }
+
+    private static void PatchGev(Options o)
+    {
+        if (!o.GevPatch) return;
+
+        var jpgevs = Directory.EnumerateFiles(o.InputDir, $"*.gev", SearchOption.AllDirectories);
+
+        foreach(var jpgev in jpgevs)
+        {
+            var stub = Path.GetRelativePath(o.InputDir, jpgev);
+            var output = Path.Combine(o.OutputDir, stub);
+
+            var dict = Path.Combine(o.PatchDir, "Patch/GEV", Path.GetFileNameWithoutExtension(jpgev) + ".gev.en.json");
+            if (File.Exists(dict))
+            {
+                List<string> strings = JsonConvert.DeserializeObject<List<string>>(File.ReadAllText(dict));
+
+                var gev = new GEVBinaryRootSegment();
+                gev.Parse(File.ReadAllBytes(jpgev));
+
+                gev.STR.ReplaceStrings(strings);
+                gev.OFS.UpdateIndexes();
+
+                var bytes = gev.GetBytes().ToArray();
+
+                Directory.CreateDirectory(Path.GetDirectoryName(output));
+                File.WriteAllBytes(output, bytes);
+            }
+        }
     }
 
     private static void CopySubtitles(Options o)

@@ -13,7 +13,7 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "Destruction of your MS or HLV",
+      "Loss ofyour MS or HLV's",
       "Time limit exceeded"
     ],
     "TabSpace": null,
@@ -23,7 +23,8 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "You will head out alone in Federation unit.",
+      "You will head out alone in ",
+      "Federation Mobile Suit.",
       "Do not fire until forced to."
     ],
     "TabSpace": null,
@@ -81,7 +82,7 @@
       "Important Supplies"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.7
   },
   {
     "ID": "BR_DATA_D_01",
@@ -105,7 +106,7 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "Ship delviering supplies to California Base",
+      "Ship delivering supplies to California Base",
       "got attacked in orbit."
     ],
     "TabSpace": null,
@@ -185,7 +186,7 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "We count on you, Brayer's Team"
+      "We count on you, Brauer's Team"
     ],
     "TabSpace": null,
     "Size": null

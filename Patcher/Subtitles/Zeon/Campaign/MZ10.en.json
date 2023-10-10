@@ -1,115 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz164.brstm",
-    "Translation": "evz164.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz165.brstm",
-    "Translation": "evz165.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz166.brstm",
-    "Translation": "evz166.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz167.brstm",
-    "Translation": "evz167.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz168.brstm",
-    "Translation": "evz168.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz169.brstm",
-    "Translation": "evz169.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz170.brstm",
-    "Translation": "evz170.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz171.brstm",
-    "Translation": "evz171.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz172.brstm",
-    "Translation": "evz172.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz173.brstm",
-    "Translation": "evz173.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz174.brstm",
-    "Translation": "evz174.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz175.brstm",
-    "Translation": "evz175.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz176.brstm",
-    "Translation": "evz176.brstm",
+    "Translation": "You're above the target, everyone, please be careful!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -118,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz177.brstm",
-    "Translation": "evz177.brstm",
+    "Translation": "That's a quick response, as expected from enemy HQ.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz178.brstm",
-    "Translation": "evz178.brstm",
+    "Translation": "Shiiit, visibility here is horrible.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,8 +28,8 @@
   },
   {
     "FileName": "sound/stream/evz179.brstm",
-    "Translation": "evz179.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Enemy has shoot down one of our Gau's! New enemy approaching from sector 9!\nEveryone, focus on enemy Big Tray landship!",
+    "Miliseconds": 10000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -145,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz180.brstm",
-    "Translation": "evz180.brstm",
+    "Translation": "They even sent out a landship? Let's do it!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz181.brstm",
-    "Translation": "evz181.brstm",
+    "Translation": "One of our units has found the entrance, they are moving in",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz182.brstm",
-    "Translation": "evz182.brstm",
+    "Translation": "We've cleared up enemy defenses, lets rush inside too!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

@@ -29,7 +29,7 @@ namespace InMemoryBinaryFile
 
         public IReadOnlyList<string> Values => values.AsReadOnly();
 
-        protected override void ParseBody(Span<byte> body)
+        protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
             for (int start = 0; start < body.Length;)
             {
@@ -46,7 +46,7 @@ namespace InMemoryBinaryFile
             }
         }
 
-        protected override void ParseHeader(Span<byte> header)
+        protected override void ParseHeader(Span<byte> header, Span<byte> everything)
         {
         }
 

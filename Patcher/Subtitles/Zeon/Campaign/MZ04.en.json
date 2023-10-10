@@ -1,133 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz100.brstm",
-    "Translation": "evz100.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz101.brstm",
-    "Translation": "evz101.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz102.brstm",
-    "Translation": "evz102.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz103.brstm",
-    "Translation": "evz103.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz104.brstm",
-    "Translation": "evz104.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz105.brstm",
-    "Translation": "evz105.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz106.brstm",
-    "Translation": "evz106.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz107.brstm",
-    "Translation": "evz107.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz108.brstm",
-    "Translation": "evz108.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz109.brstm",
-    "Translation": "evz109.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz110.brstm",
-    "Translation": "evz110.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz111.brstm",
-    "Translation": "evz111.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz112.brstm",
-    "Translation": "evz112.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz113.brstm",
-    "Translation": "evz113.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz114.brstm",
-    "Translation": "evz114.brstm",
+    "Translation": "Well, lets just stand out and distract enemy forces.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz115.brstm",
-    "Translation": "evz115.brstm",
+    "Translation": "Prioritize anti-sub missle launchers deployed on coastline.\nQuickly wipe them out within time limit.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz116.brstm",
-    "Translation": "evz116.brstm",
+    "Translation": "Understood, let's go",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz117.brstm",
-    "Translation": "evz117.brstm",
+    "Translation": "There's a MS that's slightly different from what we meet last time\nBe careful",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

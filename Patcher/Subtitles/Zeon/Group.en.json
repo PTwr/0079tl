@@ -4,7 +4,7 @@
     "Translation": "Yes sir",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+   "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -13,7 +13,7 @@
     "Translation": "Yes sir!",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+   "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -22,7 +22,7 @@
     "Translation": "Yes sir!",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+   "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -31,7 +31,7 @@
     "Translation": "Yes sir",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+    "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -40,7 +40,7 @@
     "Translation": "Yes sir",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+    "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -49,7 +49,7 @@
     "Translation": "Y-yes sir",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+   "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -58,7 +58,7 @@
     "Translation": "Yes sir",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+   "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -67,7 +67,7 @@
     "Translation": "Yes sir",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+   "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -76,7 +76,7 @@
     "Translation": "Yes sir",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+   "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -85,7 +85,7 @@
     "Translation": "Yes sir",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+   "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -94,7 +94,7 @@
     "Translation": "Yes sir",
     "Miliseconds": 5000,
     "Color": "Green",
-    "Enabled": true,
+   "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   }

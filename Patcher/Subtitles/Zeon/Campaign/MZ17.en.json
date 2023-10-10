@@ -1,97 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz263.brstm",
-    "Translation": "evz263.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz264.brstm",
-    "Translation": "evz264.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz265.brstm",
-    "Translation": "evz265.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz266.brstm",
-    "Translation": "evz266.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz267.brstm",
-    "Translation": "evz267.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz268.brstm",
-    "Translation": "evz268.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz269.brstm",
-    "Translation": "evz269.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz270.brstm",
-    "Translation": "evz270.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz271.brstm",
-    "Translation": "evz271.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz272.brstm",
-    "Translation": "evz272.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz273.brstm",
-    "Translation": "evz273.brstm",
+    "Translation": "Gallop has taken a detour to meet up with stranded unit, and started loading up",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -100,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz274.brstm",
-    "Translation": "evz274.brstm",
+    "Translation": "So, we are in for a wild ride here!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -109,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz275.brstm",
-    "Translation": "evz275.brstm",
+    "Translation": "Gallop loading at 50%, looks like they are doing their best",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -118,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz276.brstm",
-    "Translation": "evz276.brstm",
+    "Translation": "Ooh, its going faster than expected.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz277.brstm",
-    "Translation": "evz277.brstm",
+    "Translation": "The white one is powerfull! Watch out!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz278.brstm",
-    "Translation": "evz278.brstm",
+    "Translation": "Gallop finished recovering our troops",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz279.brstm",
-    "Translation": "evz279.brstm",
+    "Translation": "They're have to play it smart to escape out of here",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,7 +64,7 @@
   },
   {
     "FileName": "sound/stream/evz280.brstm",
-    "Translation": "evz280.brstm",
+    "Translation": "Captain, were in trouble! Gallop has been spotted by enemy force and is under attack\nPlease join it immediately to escort it out",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +73,7 @@
   },
   {
     "FileName": "sound/stream/evz281.brstm",
-    "Translation": "evz281.brstm",
+    "Translation": "As expected, it's not that easy... let's take care of enemies here and proceed to rendezvous",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -172,7 +82,7 @@
   },
   {
     "FileName": "sound/stream/evz282.brstm",
-    "Translation": "evz282.brstm",
+    "Translation": "Gallop is in danger, ignore enemies here and move to it now!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -181,7 +91,7 @@
   },
   {
     "FileName": "sound/stream/evz283.brstm",
-    "Translation": "evz283.brstm",
+    "Translation": "Prioritize defense of Gallop, and eliminate enemy pursuit",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -190,7 +100,7 @@
   },
   {
     "FileName": "sound/stream/evz284.brstm",
-    "Translation": "evz284.brstm",
+    "Translation": "Sure, leave it to me!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -199,7 +109,7 @@
   },
   {
     "FileName": "sound/stream/evz285.brstm",
-    "Translation": "evz285.brstm",
+    "Translation": "I don't want to be chased, so let's get rid of some enemies here",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -208,7 +118,7 @@
   },
   {
     "FileName": "sound/stream/evz286.brstm",
-    "Translation": "evz286.brstm",
+    "Translation": "Well done everyone, let's withdraw immediately",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

@@ -243,7 +243,7 @@ D_MissionName = {
 		code = "MZ10", 
 		--Jaburo, Death Descent Operation
 		name = "MZ10 Jaburo Descent", 
-                map = "Jaburo Underground",
+                map = "Jaburo Surface",
 		difficulty = "HARD",
 	        date="0079/11/30",
 	},
@@ -259,7 +259,7 @@ D_MissionName = {
 		code = "MZ12", 
 		--Time limit to escape
 		name = "MZ12 Hasty Retreat", 
-                map = "Jaburo Underground",
+                map = "Jaburo Surface",
 		difficulty = "HARD",
 	        date="0079/11/30",
 	},

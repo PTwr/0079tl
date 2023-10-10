@@ -1,124 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz135.brstm",
-    "Translation": "evz135.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz136.brstm",
-    "Translation": "evz136.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz137.brstm",
-    "Translation": "evz137.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz138.brstm",
-    "Translation": "evz138.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz139.brstm",
-    "Translation": "evz139.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz140.brstm",
-    "Translation": "evz140.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz141.brstm",
-    "Translation": "evz141.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz142.brstm",
-    "Translation": "evz142.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz143.brstm",
-    "Translation": "evz143.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz144.brstm",
-    "Translation": "evz144.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz145.brstm",
-    "Translation": "evz145.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz146.brstm",
-    "Translation": "evz146.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz147.brstm",
-    "Translation": "evz147.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz148.brstm",
-    "Translation": "evz148.brstm",
+    "Translation": "I've reached operation area. Begin misinformation, please",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz149.brstm",
-    "Translation": "evz149.brstm",
+    "Translation": "Leave it to me!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz150.brstm",
-    "Translation": "evz150.brstm",
+    "Translation": "There are 3 targets that landed in this area.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz151.brstm",
-    "Translation": "evz151.brstm",
+    "Translation": "I have located one of the targets, sending coordinates",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz152.brstm",
-    "Translation": "evz152.brstm",
+    "Translation": "Damn, they beat me to it!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz153.brstm",
-    "Translation": "evz153.brstm",
+    "Translation": "Captain, I'cant keep up disguise anymore!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -172,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz154.brstm",
-    "Translation": "evz154.brstm",
+    "Translation": "Damn, we're gonna have to use brute force!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -181,7 +64,7 @@
   },
   {
     "FileName": "sound/stream/evz155.brstm",
-    "Translation": "evz155.brstm",
+    "Translation": "Captain! Our cover's blown!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -190,7 +73,7 @@
   },
   {
     "FileName": "sound/stream/evz156.brstm",
-    "Translation": "evz156.brstm",
+    "Translation": "You did well, leave fighting to me.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -199,7 +82,7 @@
   },
   {
     "FileName": "sound/stream/evz157.brstm",
-    "Translation": "evz157.brstm",
+    "Translation": "Captain, enemy has given upon recovering droppods\nThey are trying to destroy them now!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -208,7 +91,7 @@
   },
   {
     "FileName": "sound/stream/evz158.brstm",
-    "Translation": "evz158.brstm",
+    "Translation": "I'm not gonna let them!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -217,7 +100,7 @@
   },
   {
     "FileName": "sound/stream/evz159.brstm",
-    "Translation": "evz159.brstm",
+    "Translation": "Sorry to keep you waiting! Let's get it done quickly.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -226,7 +109,7 @@
   },
   {
     "FileName": "sound/stream/evz160.brstm",
-    "Translation": "evz160.brstm",
+    "Translation": "Securing the objective is top priority\nApproach droppods and eliminate the enemy",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -235,7 +118,7 @@
   },
   {
     "FileName": "sound/stream/evz161.brstm",
-    "Translation": "evz161.brstm",
+    "Translation": "Finally, what took you so long?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -244,7 +127,7 @@
   },
   {
     "FileName": "sound/stream/evz162.brstm",
-    "Translation": "evz162.brstm",
+    "Translation": "Recoery team has arrived",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -253,7 +136,7 @@
   },
   {
     "FileName": "sound/stream/evz163.brstm",
-    "Translation": "evz163.brstm",
+    "Translation": "Okay! Lets withdraw quicKly before enemy reinforcements arrive",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

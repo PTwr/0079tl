@@ -1,20 +1,11 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz288",
     "Text": null,
     "Lines": [
-      "最後まで抵抗を続けていた友軍の部隊が、現在こちらに",
-      "向かっている。　しかし、受け入れ要求の呼びかけに、",
-      "他の基地は答えようとしていない…。"
+      "A friendly unit, which had been fighting to the end,",
+      "is now heading here.",
+      "However no base is willing to answer their distress call."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,7 +14,7 @@
     "ID": "evz289",
     "Text": null,
     "Lines": [
-      "あーぁ。　せっかく準備万端で篭城を決め込んだってのに…。"
+      "Ahh. And I was getting ready to lock myself in..."
     ],
     "TabSpace": null,
     "Size": null
@@ -32,7 +23,7 @@
     "ID": "evz290",
     "Text": null,
     "Lines": [
-      "まぁ、それじゃ仕方ないわなぁ。"
+      "Well, I guess we don't have a choice."
     ],
     "TabSpace": null,
     "Size": null
@@ -41,7 +32,8 @@
     "ID": "evz291",
     "Text": null,
     "Lines": [
-      "じゃ、早速、戦闘準備と、受け入れ態勢を整えなくちゃですね！"
+      "Well then, we'd better get ready for battle",
+      "and welcome our guests as fast as possible."
     ],
     "TabSpace": null,
     "Size": null
@@ -50,8 +42,8 @@
     "ID": "evz292",
     "Text": null,
     "Lines": [
-      "お、おいおい。",
-      "さすがの俺でも、ここはどうすべきか悩んでるんだぜ？"
+      "Oh, come on.",
+      "I am still thinking what should we do here, you know?"
     ],
     "TabSpace": null,
     "Size": null
@@ -60,7 +52,7 @@
     "ID": "evz293",
     "Text": null,
     "Lines": [
-      "ふふ…、だって私たち、ブラウアー隊ですから。"
+      "Hehe... we are Brauer's Team after all."
     ],
     "TabSpace": null,
     "Size": null
@@ -69,8 +61,8 @@
     "ID": "evz294",
     "Text": null,
     "Lines": [
-      "ハァ～、いまさら何言ってるんだか…。",
-      "すぐにでも飛び出したいって顔して、よく言うよ。"
+      "Huh, what are you talking about now?",
+      "You clearly want to go out to fight right away."
     ],
     "TabSpace": null,
     "Size": null
@@ -79,7 +71,7 @@
     "ID": "evz295",
     "Text": null,
     "Lines": [
-      "ハッハッハ。　まぁ、そういうことだな。"
+      "Hahaha! That's what I'm talking about!"
     ],
     "TabSpace": null,
     "Size": null
@@ -88,8 +80,8 @@
     "ID": "evz296",
     "Text": null,
     "Lines": [
-      "お、俺はだなぁ！",
-      "……いや、すまないな、みんな。"
+      "O, guys, I'm serious!",
+      "...no. I'm sorry."
     ],
     "TabSpace": null,
     "Size": null
@@ -98,8 +90,8 @@
     "ID": "evz297",
     "Text": null,
     "Lines": [
-      "念のため、基地にいる他の人たちには、",
-      "移動準備をしてもらいますね。"
+      "Just to be safe, I'm going to have others",
+      "at base prepare to move out."
     ],
     "TabSpace": null,
     "Size": null
@@ -108,7 +100,7 @@
     "ID": "evz298",
     "Text": null,
     "Lines": [
-      "無駄、無駄！　やめとけよ、アン。"
+      "No use, no use!　Don't do it, Anne."
     ],
     "TabSpace": null,
     "Size": null
@@ -117,7 +109,7 @@
     "ID": "evz299",
     "Text": null,
     "Lines": [
-      "え？　…隊長？"
+      "What? ...Captain?"
     ],
     "TabSpace": null,
     "Size": null
@@ -126,7 +118,7 @@
     "ID": "evz300",
     "Text": null,
     "Lines": [
-      "フッ、そんな必要、俺がなくしてやるぜ！"
+      "Pfft, I'll make that unnecessary!"
     ],
     "TabSpace": null,
     "Size": null
@@ -135,7 +127,7 @@
     "ID": "evz301",
     "Text": null,
     "Lines": [
-      "プッ！　そうそう！　それでこそ、レオだよ。"
+      "Pfft! That's right! That's the Leo I know."
     ],
     "TabSpace": null,
     "Size": null
@@ -144,7 +136,7 @@
     "ID": "evz302",
     "Text": null,
     "Lines": [
-      "ハハ！　調子出てきたじゃねぇかよ、大将！"
+      "Haha, you're on a roll, Captain!"
     ],
     "TabSpace": null,
     "Size": null
@@ -153,7 +145,7 @@
     "ID": "evz303",
     "Text": null,
     "Lines": [
-      "はい！　それでこそ、隊長です！"
+      "Yes! That's why he's the Captain!"
     ],
     "TabSpace": null,
     "Size": null
@@ -162,7 +154,7 @@
     "ID": "leo169",
     "Text": null,
     "Lines": [
-      "ブラウアー隊、いくぜ！"
+      "Brauer's Squad, let's go!"
     ],
     "TabSpace": null,
     "Size": null

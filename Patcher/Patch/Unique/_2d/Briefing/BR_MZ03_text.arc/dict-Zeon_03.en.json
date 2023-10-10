@@ -80,7 +80,7 @@
       "Dobday landship"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.7
   },
   {
     "ID": "BR_DATA_D_01",
@@ -98,7 +98,7 @@
       "Enemy task force"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.7
   },
   {
     "ID": "BR_INFO_A_01",
@@ -184,7 +184,7 @@
     "ID": "BR_INFO_D_03",
     "Text": null,
     "Lines": [
-      "We count on you, Brayer's Team"
+      "We count on you, Brauer's Team"
     ],
     "TabSpace": null,
     "Size": null

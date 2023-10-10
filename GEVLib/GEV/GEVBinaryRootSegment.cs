@@ -15,8 +15,42 @@ namespace GEVLib.GEV
     {
         public const string magicNumber = "$EVFEV02";
         const int headerLength = 5 * 4;
-        public GEVBinaryRootSegment() : base(null, magicNumber.ToASCIIBytes(), headerLength)
+        public GEVBinaryRootSegment(Dictionary<string, string>? translations = null) : base(null, magicNumber.ToASCIIBytes(), headerLength)
         {
+            Translations = translations;
+        }
+
+        public override string ToString()
+        {
+            return "-----------------------------------EVE-----------------------------------"
+                + Environment.NewLine + EVE.ToString() + Environment.NewLine +
+                "-----------------------------------OFS-----------------------------------"
+                + Environment.NewLine + (OFS?.ToString() ?? "") + Environment.NewLine +
+                "-----------------------------------STR-----------------------------------"
+                + Environment.NewLine + (STR?.ToString() ?? "");
+        }
+
+        public void UpdateHeader()
+        {
+            //TODO EVE block count
+            EVEBlockCount = EVE.Children.Last().Children.Last().CodeLineId + 1;
+
+            OFSStart = 0;
+            STRStart = 0;
+
+            if (OFS != null)
+            {
+                OFSWordLength = OFS.StringIndexes.Count();
+                OFSStart = this.MagicNumber.Length + this.HeaderLength + this.EVE.GetBytes().Count();
+                OFSStart += OFSBinarySegment.magicNumber.Length;
+            }
+
+            if (OFS != null && STR != null)
+            {
+                STRStart = OFSStart + this.OFS.GetBytes().Count();
+                STRStart -= OFSBinarySegment.magicNumber.Length;
+                STRStart += STRBinarySegment.magicNumber.Length;
+            }
         }
 
         protected override void ParseHeader(Span<byte> header, Span<byte> everything)
@@ -42,8 +76,9 @@ namespace GEVLib.GEV
         {
             //0x1bb4 0x1c28
             EVE = new EVEBinarySegment(this);
+            var eveLength = OFSStart == 0 ? body.Length - 4 : OFSStart - OFSBinarySegment.magicNumber.Length - this.HeaderLength - this.MagicNumber.Length;
             var evebytes = body
-                .Slice(0, OFSStart - OFSBinarySegment.magicNumber.Length - this.HeaderLength - this.MagicNumber.Length);
+                .Slice(0, eveLength);
             EVE.Parse(evebytes);
 
             if (OFSStart > 0)
@@ -58,7 +93,7 @@ namespace GEVLib.GEV
 
             if (STRStart > 0)
             {
-                STR = new STRBinarySegment(this);
+                STR = new STRBinarySegment(this, Translations);
                 var strbytes = everything.Slice(
                     STRStart - OFSBinarySegment.magicNumber.Length
                     );
@@ -80,9 +115,20 @@ namespace GEVLib.GEV
         public int OFSStart { get; private set; }
         public int STRStart { get; private set; }
 
-        protected override List<_BaseBinarySegment<GEVBinaryRootSegment>> children => new List<_BaseBinarySegment<GEVBinaryRootSegment>> { EVE, OFS, STR };
+        protected override List<_BaseBinarySegment<GEVBinaryRootSegment>> children
+        {
+            get
+            {
+                var result = new List<_BaseBinarySegment<GEVBinaryRootSegment>> { EVE };
+                if (OFS != null) result.Add(OFS);
+                if (STR != null) result.Add(STR);
+                return result;
+            }
+        }
+
         public EVEBinarySegment EVE { get; private set; }
-        public OFSBinarySegment OFS { get; private set; }
-        public STRBinarySegment STR { get; private set; }
+        public OFSBinarySegment? OFS { get; private set; }
+        public STRBinarySegment? STR { get; private set; }
+        public Dictionary<string, string>? Translations { get; }
     }
 }

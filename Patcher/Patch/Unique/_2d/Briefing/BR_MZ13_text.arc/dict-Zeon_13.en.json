@@ -107,7 +107,7 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "Most of our remaiing ground forces were",
+      "Most of our remaining ground forces were",
       "lost in failed assault on Jaburo."
     ],
     "TabSpace": null,
@@ -118,7 +118,7 @@
     "Text": null,
     "Lines": [
       "Federation is confident in their superiority",
-      "on ground, and is perparing for space campaign."
+      "on ground, and began preparing for space campaign."
     ],
     "TabSpace": null,
     "Size": null
@@ -127,7 +127,7 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "We must wait for our allies to win in sapce",
+      "We must wait for our allies to win in space",
       "before resuming ground offensive."
     ],
     "TabSpace": null,
@@ -157,8 +157,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "Execute surprise attack on test site and destroy new model.",
-      "Afterwards ignore "
+      "Execute surprise attack on test site and destroy",
+      "new model. Afterwards proceed for extraction."
     ],
     "TabSpace": null,
     "Size": null

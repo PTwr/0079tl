@@ -3931,6 +3931,7 @@
     "Text": "BATTLE OPTION"
   },
   {
+    "Size": 0.9,
     "ID": "P1_BAT_OP_COST",
     "Text": "Maximum cost"
   },
@@ -3948,10 +3949,11 @@
   },
   {
     "ID": "P1_BAT_OPT_MS1_THINK_SELECT",
-    "Text": "Player machine cannot be changed"
+    "Text": "---"
   },
   {
     "ID": "P1_BAT_OPT_MS1_DEFENCE",
+    "Size": 0.7,
     "Text": "Handicap: @BAT_OPT_MS1_DEFENCE_VALUE@"
   },
   {

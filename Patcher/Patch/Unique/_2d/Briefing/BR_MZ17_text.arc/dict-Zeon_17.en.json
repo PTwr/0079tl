@@ -106,7 +106,7 @@
     "ID": "BR_INFO_A_01",
     "Text": null,
     "Lines": [
-      "We're sorry for rushing you into Africa,",
+      "We're sorry for interrupting your transit to Africa",
       "but we recived urgend request for assistance."
     ],
     "TabSpace": null,
@@ -126,7 +126,7 @@
     "ID": "BR_INFO_B_01",
     "Text": null,
     "Lines": [
-      "You are only unit close enough to assist."
+      "You are our only unit close enough to assist."
     ],
     "TabSpace": null,
     "Size": null
@@ -145,7 +145,7 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "This area is full of Federation troop.",
+      "This area is full of Federation troops.",
       "Hurry up or we'll get completly surrounded!"
     ],
     "TabSpace": null,

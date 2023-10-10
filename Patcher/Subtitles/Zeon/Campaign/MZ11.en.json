@@ -1,71 +1,8 @@
 [
   {
-    "FileName": "sound/stream/evz183.brstm",
-    "Translation": "evz183.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz184.brstm",
-    "Translation": "evz184.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz185.brstm",
-    "Translation": "evz185.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz186.brstm",
-    "Translation": "evz186.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz187.brstm",
-    "Translation": "evz187.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz188.brstm",
-    "Translation": "evz188.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz189.brstm",
-    "Translation": "evz189.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz190.brstm",
-    "Translation": "evz190.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Okay, infiltration was a success. If we don't hurry we'll miss extraction window\nLets go all out!",
+    "Miliseconds": 7000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -73,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz191.brstm",
-    "Translation": "evz191.brstm",
+    "Translation": "Activating timer, destroy targets within time limit and head to extraction point",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -82,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz192.brstm",
-    "Translation": "evz192.brstm",
+    "Translation": "Damn, they made their base in amazing place.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -91,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz193.brstm",
-    "Translation": "evz193.brstm",
+    "Translation": "This is central cave of this section",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -100,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz194.brstm",
-    "Translation": "evz194.brstm",
+    "Translation": "This cave contains command facilities",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -109,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz195.brstm",
-    "Translation": "evz195.brstm",
+    "Translation": "This cave contains Mobile Suit factory",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -118,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz196.brstm",
-    "Translation": "evz196.brstm",
+    "Translation": "This is dock for spaceshipts, if you take too many detours you'll run out of time!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +64,7 @@
   },
   {
     "FileName": "sound/stream/evz197.brstm",
-    "Translation": "evz197.brstm",
+    "Translation": "That's... Red Comet!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +73,7 @@
   },
   {
     "FileName": "sound/stream/evz198.brstm",
-    "Translation": "evz198.brstm",
+    "Translation": "Char, sir! This is not a place for you to die, please withdraw!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,7 +82,7 @@
   },
   {
     "FileName": "sound/stream/evz199.brstm",
-    "Translation": "evz199.brstm",
+    "Translation": "We'll cover your rear before withdrawing, please go on first",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,7 +91,7 @@
   },
   {
     "FileName": "sound/stream/evz200.brstm",
-    "Translation": "evz200.brstm",
+    "Translation": "Destruction of all targets and enemy forces confirmed,\nplease hurry on to extraction point",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +100,7 @@
   },
   {
     "FileName": "sound/stream/evz201.brstm",
-    "Translation": "evz201.brstm",
+    "Translation": "Roger that! Lets go on!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -172,7 +109,7 @@
   },
   {
     "FileName": "sound/stream/evz202.brstm",
-    "Translation": "evz202.brstm",
+    "Translation": "Captain, we are out of time! There is no way out!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -181,7 +118,7 @@
   },
   {
     "FileName": "sound/stream/evz203.brstm",
-    "Translation": "evz203.brstm",
+    "Translation": "Okay! Objectives completed. Let's scram!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -190,7 +127,7 @@
   },
   {
     "FileName": "sound/stream/evz204.brstm",
-    "Translation": "evz204.brstm",
+    "Translation": "There should still be a Gau left for you to board\nHurry up!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

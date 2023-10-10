@@ -1,7 +1,7 @@
 [
   {
     "FileName": "sound/stream/evs001.brstm",
-    "Translation": "evs001.brstm",
+    "Translation": "Oy, oy! That's a villain's line",
     "Miliseconds": 5000,
     "Color": 4294967049,
     "Enabled": true,
@@ -10,7 +10,8 @@
   },
   {
     "FileName": "sound/stream/evs002.brstm",
-    "Translation": "evs002.brstm",
+    "Translation": "You're a disgrace as a Federation soldier",
+    "-": "as a fellow feedie soldier, you are pathetic",
     "Miliseconds": 5000,
     "Color": 4294967049,
     "Enabled": true,
@@ -19,7 +20,7 @@
   },
   {
     "FileName": "sound/stream/evs003.brstm",
-    "Translation": "evs003.brstm",
+    "Translation": "Ceasefire order. Don't tell me you have not heard it?",
     "Miliseconds": 5000,
     "Color": 4294967049,
     "Enabled": true,
@@ -28,8 +29,8 @@
   },
   {
     "FileName": "sound/stream/evs004.brstm",
-    "Translation": "evs004.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Yes, yes. Both sides are to stand down. I am Alan Aylward, commander of Federation unit SRT-1\nZeon gentelemen, I would like to hear your decision",
+    "Miliseconds": 13000,
     "Color": 4294967049,
     "Enabled": true,
     "AllowDuplicate": false,
@@ -37,8 +38,8 @@
   },
   {
     "FileName": "sound/stream/evs005.brstm",
-    "Translation": "evs005.brstm",
-    "Miliseconds": 5000,
+    "Translation": "I would like to stop meaningless killing now that war is over\nIf you kill someone out of hatred, you'll regret it for the rest of your life",
+    "Miliseconds": 12000,
     "Color": 4294967049,
     "Enabled": true,
     "AllowDuplicate": false,
@@ -46,7 +47,7 @@
   },
   {
     "FileName": "sound/stream/evs006.brstm",
-    "Translation": "evs006.brstm",
+    "Translation": "I know it sounds naive...",
     "Miliseconds": 5000,
     "Color": 4294967049,
     "Enabled": true,
@@ -55,7 +56,7 @@
   },
   {
     "FileName": "sound/stream/evs007.brstm",
-    "Translation": "evs007.brstm",
+    "Translation": "You made good decision, captain Brauer.",
     "Miliseconds": 5000,
     "Color": 4294967049,
     "Enabled": true,
@@ -64,7 +65,7 @@
   },
   {
     "FileName": "sound/stream/evs008.brstm",
-    "Translation": "evs008.brstm",
+    "Translation": "So, what will federal army do?",
     "Miliseconds": 5000,
     "Color": 4294967049,
     "Enabled": true,

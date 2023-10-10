@@ -1444,7 +1444,7 @@
     "Translation": "leo161.brstm",
     "Miliseconds": 5000,
     "Color": 4294967056,
-    "Enabled": true,
+    "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
@@ -1516,7 +1516,7 @@
     "Translation": "leo169.brstm",
     "Miliseconds": 5000,
     "Color": 4294967056,
-    "Enabled": true,
+    "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
