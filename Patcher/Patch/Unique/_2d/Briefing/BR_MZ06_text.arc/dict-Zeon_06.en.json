@@ -46,7 +46,7 @@
       "California Base"
     ],
     "TabSpace": null,
-    "Size": 0.7
+    "Size": null
   },
   {
     "ID": "BR_DATA_B_01",
@@ -126,7 +126,7 @@
     "Text": null,
     "Lines": [
       "As we don't know when another Federation offensive",
-      "will occur, we can't allocate any more garrison to patrol."
+      "will occur, we can't allocate any more garrison."
     ],
     "TabSpace": null,
     "Size": null

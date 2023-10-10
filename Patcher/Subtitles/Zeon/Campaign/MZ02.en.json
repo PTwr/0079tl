@@ -28,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz058.brstm",
-    "Translation": "The longer the war goes on, the more people and the world move on.",
+    "Translation": "The longer the war goes on, the more people and the world moves on.",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -37,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz059.brstm",
-    "Translation": "Yes, that's right. Oh my, look at thos airplanes!",
+    "Translation": "Yes, that's right. Oh my, look at those airplanes!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

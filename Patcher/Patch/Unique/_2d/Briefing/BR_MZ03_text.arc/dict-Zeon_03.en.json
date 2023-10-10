@@ -80,7 +80,7 @@
       "Dobday landship"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.7
   },
   {
     "ID": "BR_DATA_D_01",
@@ -98,7 +98,7 @@
       "Enemy task force"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.7
   },
   {
     "ID": "BR_INFO_A_01",
