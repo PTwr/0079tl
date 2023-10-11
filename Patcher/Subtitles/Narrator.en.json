@@ -1,19 +1,29 @@
 [
   {
+    "bgm_60": "prologue narrative by Char",
+    "bgm_61": "EFF ending 1",
+    "bgm_62": "EFF ending 2",
+    "bgm_63": "Zeon ending 1",
+    "bgm_64": "Zeon ending 2",
+    "bgm_65": "Zeon ending 3"
+  }
+  {
+    "--": "na001 contains clear speach, but muxed version with bgm is used in game",
     "-": "Scrolling text before starting campaign, styled after anime intro",
-    "FileName": "sound/stream/na001.brstm",
-    "Translation": "na001.brstm",
-    "Miliseconds": 5000,
+    "FileName": "sound/stream/bgm_60.brstm",
+    "Translation": "bgm_60.brstm",
+    "Miliseconds": 50000,
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,
     "Scale": 2
   },
   {
+    "--": "merged into later half of bgm_65, for Zeon credits",
     "-": "after last mission, and faction Ending voice files, summary of story thus far",
     "FileName": "sound/stream/na002.brstm",
     "Translation": "na002.brstm",
-    "Miliseconds": 5000,
+    "Miliseconds": 50000,
     "Color": 4278255615,
     "Enabled": false,
     "AllowDuplicate": false,

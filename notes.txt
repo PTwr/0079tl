@@ -215,3 +215,17 @@ Zeon mission tree
 17 | 18
 19 | 20
 21
+
+Endings: 
+tk_ending.lua
+five endings
+EFf, EFF, Zeon, Zeon, Zeon
+{"STRM_66", "STRM_67", "STRM_68", "STRM_69", "STRM_70"}
+strm are in wiireal.brsar
+
+bgm_60 = Char prologue
+STRM_66 => bgm_61 EFF ending 1
+STRM_67 => bgm_62 EFF ending 2 (something about california base?)
+STRM_68 => bgm_63 Zeon ending 1
+STRM_69 => bgm_64 Zeon ending 2
+STRM_70 => bgm_65 Zeon ending 3

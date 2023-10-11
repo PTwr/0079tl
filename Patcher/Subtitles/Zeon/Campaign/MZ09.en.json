@@ -1,124 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz443.brstm",
-    "Translation": "evz443.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz444.brstm",
-    "Translation": "evz444.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz445.brstm",
-    "Translation": "evz445.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz446.brstm",
-    "Translation": "evz446.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz447.brstm",
-    "Translation": "evz447.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz448.brstm",
-    "Translation": "evz448.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz449.brstm",
-    "Translation": "evz449.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz450.brstm",
-    "Translation": "evz450.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz451.brstm",
-    "Translation": "evz451.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz452.brstm",
-    "Translation": "evz452.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz453.brstm",
-    "Translation": "evz453.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz454.brstm",
-    "Translation": "evz454.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz455.brstm",
-    "Translation": "evz455.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz456.brstm",
-    "Translation": "evz456.brstm",
+    "Translation": "It's going to be tough with all of us working alone\nAnne, I'm counting on you!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz457.brstm",
-    "Translation": "evz457.brstm",
+    "Translation": "This is time for me to show my skill! Leave it to me!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz458.brstm",
-    "Translation": "evz458.brstm",
+    "Translation": "Damn, artillery got cover",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,7 +28,7 @@
   },
   {
     "FileName": "sound/stream/evz459.brstm",
-    "Translation": "evz459.brstm",
+    "Translation": "No problem on my side, Captain",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -154,7 +37,7 @@
   },
   {
     "FileName": "sound/stream/evz460.brstm",
-    "Translation": "evz460.brstm",
+    "Translation": "Looks like you were unlucky, Captain, no resistance here",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -163,7 +46,7 @@
   },
   {
     "FileName": "sound/stream/evz461.brstm",
-    "Translation": "evz461.brstm",
+    "Translation": "Captain, reinforcement from Lhasa Base have arived",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -172,7 +55,7 @@
   },
   {
     "FileName": "sound/stream/evz462.brstm",
-    "Translation": "evz462.brstm",
+    "Translation": "It's reassuring Ace is here",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -181,7 +64,7 @@
   },
   {
     "FileName": "sound/stream/evz463.brstm",
-    "Translation": "evz463.brstm",
+    "Translation": "Enemy airforce is heading for mountain",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -190,7 +73,7 @@
   },
   {
     "FileName": "sound/stream/evz464.brstm",
-    "Translation": "evz464.brstm",
+    "Translation": "Daaamn, they will reshape this mountain",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -199,7 +82,7 @@
   },
   {
     "FileName": "sound/stream/evz465.brstm",
-    "Translation": "evz465.brstm",
+    "Translation": "It's getting dangerous, we'll withdrawing!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -208,7 +91,7 @@
   },
   {
     "FileName": "sound/stream/evz466.brstm",
-    "Translation": "evz466.brstm",
+    "Translation": "It appears that friendly forces are being overrun in other areas",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -217,7 +100,7 @@
   },
   {
     "FileName": "sound/stream/evz467.brstm",
-    "Translation": "evz467.brstm",
+    "Translation": "Norris-san, go over there! I'll take care of this place!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -226,7 +109,7 @@
   },
   {
     "FileName": "sound/stream/evz468.brstm",
-    "Translation": "evz468.brstm",
+    "Translation": "Bombers are closing in, don't get caught in a blast",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -235,7 +118,7 @@
   },
   {
     "FileName": "sound/stream/evz469.brstm",
-    "Translation": "evz469.brstm",
+    "Translation": "Our job is done here, boys, let's head to rendezvous point",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -244,7 +127,7 @@
   },
   {
     "FileName": "sound/stream/evz470.brstm",
-    "Translation": "evz470.brstm",
+    "Translation": "It appears that Lhasa Base managed to prepare Zanzibar for launch",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

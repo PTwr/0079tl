@@ -1,88 +1,7 @@
 [
   {
-    "FileName": "sound/stream/evz385.brstm",
-    "Translation": "evz385.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz401.brstm",
-    "Translation": "evz401.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz402.brstm",
-    "Translation": "evz402.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz403.brstm",
-    "Translation": "evz403.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz404.brstm",
-    "Translation": "evz404.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz405.brstm",
-    "Translation": "evz405.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz406.brstm",
-    "Translation": "evz406.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz407.brstm",
-    "Translation": "evz407.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
-    "FileName": "sound/stream/evz408.brstm",
-    "Translation": "evz408.brstm",
-    "Miliseconds": 5000,
-    "Color": "Green",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2
-  },
-  {
     "FileName": "sound/stream/evz409.brstm",
-    "Translation": "evz409.brstm",
+    "Translation": "Okay, lets smash through fedie pursuit!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -91,7 +10,7 @@
   },
   {
     "FileName": "sound/stream/evz410.brstm",
-    "Translation": "evz410.brstm",
+    "Translation": "Escaping units are surronded by enemies",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -100,7 +19,7 @@
   },
   {
     "FileName": "sound/stream/evz411.brstm",
-    "Translation": "evz411.brstm",
+    "Translation": "We'll still make it if we hurry up!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -109,7 +28,8 @@
   },
   {
     "FileName": "sound/stream/evz412.brstm",
-    "Translation": "evz412.brstm",
+    "Translation": "It seems we're still fine",
+    "-": "we're almost there? played when Gallop was almost there",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -118,7 +38,8 @@
   },
   {
     "FileName": "sound/stream/evz413.brstm",
-    "Translation": "evz413.brstm",
+    "Translation": "Uggghh, its freezing!",
+    "_": "just some complaint about weather",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -127,7 +48,7 @@
   },
   {
     "FileName": "sound/stream/evz414.brstm",
-    "Translation": "evz414.brstm",
+    "Translation": "Prioritize taking out artillery MS, they pose a threat to Gallop",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -136,7 +57,8 @@
   },
   {
     "FileName": "sound/stream/evz415.brstm",
-    "Translation": "evz415.brstm",
+    "Translation": "Its unfortunate, but...",
+    "_": "something was unfortunate? defeat message?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -145,8 +67,8 @@
   },
   {
     "FileName": "sound/stream/evz416.brstm",
-    "Translation": "evz416.brstm",
-    "Miliseconds": 5000,
+    "Translation": "Gallop has arrived, please escort it through the area",
+    "Miliseconds": 9000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
@@ -154,7 +76,7 @@
   },
   {
     "FileName": "sound/stream/evz417.brstm",
-    "Translation": "evz417.brstm",
+    "Translation": "Defeat the enemies in the area withing time limit",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

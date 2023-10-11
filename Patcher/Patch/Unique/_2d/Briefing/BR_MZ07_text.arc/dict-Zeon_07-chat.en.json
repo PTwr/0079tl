@@ -1,19 +1,10 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz419",
     "Text": null,
     "Lines": [
-      "ラサ基地の新兵器、「アプサラス」のテスト機が、",
-      "試験場で消息を絶ったらしい。"
+      "It would appear that Apsaras, new weapon constructed",
+      "at Lhasa Base, has gone missing during testflight."
     ],
     "TabSpace": null,
     "Size": null
@@ -22,7 +13,8 @@
     "ID": "evz420",
     "Text": null,
     "Lines": [
-      "なんだよ、秘密兵器のわりにだらしねぇなぁ。"
+      "What the hell? ",
+      "How can you be so sloppy with secret weapon?"
     ],
     "TabSpace": null,
     "Size": null
@@ -31,7 +23,7 @@
     "ID": "evz421",
     "Text": null,
     "Lines": [
-      "開発途中なんですから、無理言っちゃダメです。"
+      "It's in the middle of development, don't demand too much!"
     ],
     "TabSpace": null,
     "Size": null
@@ -40,7 +32,7 @@
     "ID": "evz422",
     "Text": null,
     "Lines": [
-      "同地点では、敵部隊の展開も確認されている。"
+      "Enemy forces have been spotted at same location."
     ],
     "TabSpace": null,
     "Size": null
@@ -49,7 +41,7 @@
     "ID": "evz423",
     "Text": null,
     "Lines": [
-      "今度の仕事は、荒っぽい宝探しってわけだな？"
+      "So our next job is a treasure hunt, eh?"
     ],
     "TabSpace": null,
     "Size": null
@@ -58,7 +50,7 @@
     "ID": "evz424",
     "Text": null,
     "Lines": [
-      "そういうことだ。"
+      "Yup, that's how it is."
     ],
     "TabSpace": null,
     "Size": null
@@ -67,7 +59,8 @@
     "ID": "evz425",
     "Text": null,
     "Lines": [
-      "現状、ラサ基地からはあまり戦力を割けないようですね。"
+      "Currently, we can't dispatch much force",
+      "from Lhasa Base."
     ],
     "TabSpace": null,
     "Size": null
@@ -76,8 +69,8 @@
     "ID": "evz426",
     "Text": null,
     "Lines": [
-      "連邦が近々、ラサ基地に総攻撃を仕掛けるというのは、",
-      "結構、信憑性の高い噂だからな。"
+      "It's a fairly reliable rumor that the Federation will",
+      "soon launch an all-out attack on Lhasa Base."
     ],
     "TabSpace": null,
     "Size": null
@@ -86,8 +79,8 @@
     "ID": "evz427",
     "Text": null,
     "Lines": [
-      "あぁ。　とにかく消息を絶った地点に向かい、",
-      "目標の捜索と、現場の確保を行うぞ。"
+      "Oh. Anyway, let's head to the place where",
+      "it dissapeared and comb through it."
     ],
     "TabSpace": null,
     "Size": null

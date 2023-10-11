@@ -1,18 +1,9 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz401",
     "Text": null,
     "Lines": [
-      "なんでまた、迂回なんかしたんだか…。"
+      "Why have they taken such detour..."
     ],
     "TabSpace": null,
     "Size": null
@@ -21,7 +12,7 @@
     "ID": "evz402",
     "Text": null,
     "Lines": [
-      "行き場を失ったってことなんだろうけどね。"
+      "I guess it means they lost their way."
     ],
     "TabSpace": null,
     "Size": null
@@ -30,8 +21,8 @@
     "ID": "evz403",
     "Text": null,
     "Lines": [
-      "しかしまぁ、こういう困った奴等ほど、",
-      "お前さんは放っておけないんだろ？"
+      "Well, as troublesome as these guys are",
+      "we can't really leave them alone, right?"
     ],
     "TabSpace": null,
     "Size": null
@@ -40,7 +31,7 @@
     "ID": "evz404",
     "Text": null,
     "Lines": [
-      "ま、そうなんだよなぁ。"
+      "Yea, I guess that's true."
     ],
     "TabSpace": null,
     "Size": null
@@ -49,9 +40,9 @@
     "ID": "evz405",
     "Text": null,
     "Lines": [
-      "人員受け入れ用のユーコン級潜水艦、北部海岸に向けて、",
-      "移動開始しました。　それにしても、こんなものまで手配できる",
-      "なんて、クラウスさん凄いですねぇ…。"
+      "Jukon submarine is heading to north coast",
+      "to recover our forces. I'ts amazing you could",
+      "arrange something like that, Klaus."
     ],
     "TabSpace": null,
     "Size": null
@@ -60,7 +51,7 @@
     "ID": "evz406",
     "Text": null,
     "Lines": [
-      "まぁ、今回のは、少し高くついたけどね。"
+      "Well, this one was a little more expensive."
     ],
     "TabSpace": null,
     "Size": null
@@ -69,7 +60,7 @@
     "ID": "evz407",
     "Text": null,
     "Lines": [
-      "いやまったく、大したもんだよ。"
+      "Man, that's quite something."
     ],
     "TabSpace": null,
     "Size": null
@@ -78,7 +69,7 @@
     "ID": "evz408",
     "Text": null,
     "Lines": [
-      "あとは俺らが、敵を蹴散らしてやればいいってわけだな。"
+      "Now all we have to do is to wipe out the enemy."
     ],
     "TabSpace": null,
     "Size": null
