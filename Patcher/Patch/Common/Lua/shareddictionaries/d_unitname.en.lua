@@ -5,7 +5,7 @@ D_UnitName = {
 		{
 		code = "GTM", 
 		excode = "MS_GTM", 
-		name = "RX-75 Guntank Massproduction Prototype", 
+		name = "RX-75 Guntank Prot.", 
 		cost = 40, 
 		code_number = "RX-75 GUNTANK MASSPROTYPE",
 		pause_code = "RX-75",
@@ -107,7 +107,7 @@ D_UnitName = {
 	{
 		code = "CNM", 
 		excode = "MS_CNM", 
-		name = "RX-77D Guncannon Massprod", 
+		name = "RX-77D Guncannon Prot.", 
 		cost = 55, 
 		code_number = "RX-77D GUNCANNON MASSPROTYPE",
 		pause_code = "RX-77D",
