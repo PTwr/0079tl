@@ -3487,7 +3487,8 @@
   },
   {
     "ID": "ACE_INF_NRS_00",
-    "Text": "Norris Packard is an ace of the Far East Army who serves the Sakhalin family.\nWith his outstanding combat sense, he fights to overcome the situation."
+    "Text": "Norris Packard is an ace of the Far East Army \n serving Sakhalin family.\nWith his outstanding combat sense, he fights to overcome the situation.",
+    "Size": "0.8"
   },
   {
     "ID": "ACE_INF_BER_00",

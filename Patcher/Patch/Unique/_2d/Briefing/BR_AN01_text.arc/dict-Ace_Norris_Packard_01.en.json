@@ -3,8 +3,8 @@
     "ID": "OPERATION_WIN_CONTENT",
     "Text": null,
     "Lines": [
-      "Locate target withing time limit.",
-      "Defeat enemy forces while protecting target."
+      "Locate Apsaras withing time limit.",
+      "Repel enemy attack at Apsaras"
     ],
     "TabSpace": null,
     "Size": null
@@ -13,9 +13,8 @@
     "ID": "OPERATION_LOSS_CONTENT",
     "Text": null,
     "Lines": [
-      "Destruction of your MS.",
-      "Destruction of target",
-      "Time limit exceeded."
+      "Loss of your MS or exceeded time",
+      "Failure to protect Apsaras"
     ],
     "TabSpace": null,
     "Size": null
@@ -24,9 +23,9 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "Norris Packard, warrior of Sakhalin family,",
-      "heads out into enemy territory to save Aina",
-      "who crashlanded during Apsaras test flight.",
+      "Norris Packard heads out into enemy",
+      "territory to save Aina who crashlanded ",
+      "during Apsaras test flight.",
       "●Target won't be on Radar until located"
     ],
     "TabSpace": null,

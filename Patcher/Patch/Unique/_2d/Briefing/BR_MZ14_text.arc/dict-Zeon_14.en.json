@@ -22,8 +22,9 @@
     "ID": "OPERATION_COMMENT_CONTENT",
     "Text": null,
     "Lines": [
-      "Destroy Big Tray, command tower, supply",
-      "containers, and bridges on enemy route."
+      "Destroy Big Tray, command tower, ",
+      "supply containers, and bridges ",
+      "on enemy route."
     ],
     "TabSpace": null,
     "Size": null
@@ -95,7 +96,7 @@
     "ID": "BR_DATA_D_02",
     "Text": null,
     "Lines": [
-      "Bridge/Suppliers"
+      "Bridge/Supplies"
     ],
     "TabSpace": null,
     "Size": null
@@ -124,7 +125,7 @@
     "ID": "BR_INFO_B_02",
     "Text": null,
     "Lines": [
-      "We must wait for our allies to win in sapce",
+      "We must wait for our allies to win in space",
       "before resuming ground offensive."
     ],
     "TabSpace": null,
@@ -135,7 +136,7 @@
     "Text": null,
     "Lines": [
       "Federation is confident in their superiority",
-      "on ground, and is perparing for space campaign."
+      "on ground, and is preparing for space campaign."
     ],
     "TabSpace": null,
     "Size": null
