@@ -3764,7 +3764,7 @@
   },
   {
     "ID": "MENU_OPTION",
-    "Text": "OPTION"
+    "Text": "SETTINGS"
   },
   {
     "ID": "TUTORIAL_SUB_01",
@@ -3848,7 +3848,7 @@
   },
   {
     "ID": "POTION_TITLE",
-    "Text": "OPTION"
+    "Text": "SETTINGS"
   },
   {
     "ID": "OPTION_VIB",
