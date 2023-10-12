@@ -28,8 +28,9 @@
   },
   {
     "FileName": "sound/stream/evz236.brstm",
-    "Translation": "Orange one is clueless, pilot is a piece of shit",
+    "Translation": "Orange one is has no armor, its a walking paper-mache!",
     "-": "The orange one is a slasic movie. The running is a piece of paper, man.",
+    "--": "Its about RGM-79L Light Armor :D",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

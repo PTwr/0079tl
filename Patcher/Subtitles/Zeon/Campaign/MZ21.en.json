@@ -372,7 +372,7 @@
   },
   {
     "FileName": "sound/stream/evz364.brstm",
-    "Translation": "Fuck... is this over?",
+    "Translation": "Damn... is it over?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -382,7 +382,8 @@
   {
     "FileName": "sound/stream/evz365.brstm",
     "Translation": "Captain, can you hear me? I have intercepted Federation transmission\nA Baoa Qu has fallen, and ceasefire order was given",
-    "-" : "not sure. Intercepted feedie message, something about A Baoa Qu battle, so probably about peace/ceasefire?",
+    "-": "not sure. Intercepted feedie message, something about A Baoa Qu battle, so probably about peace/ceasefire?",
+    "__": "ceasefire, SRT-1 arrives to enforce it before feedie scum can ignore it",
     "Miliseconds": 15000,
     "Color": "Green",
     "Enabled": true,
@@ -402,7 +403,8 @@
   {
     "FileName": "sound/stream/evz367.brstm",
     "Translation": "Eeh? Captain will surrender?",
-    "-":  "lots of static... captain says he will surrneder as soon as he fixes it? fixes WHAT?",
+    "-": "lots of static... captain says he will surrender as soon as he fixes it? fixes WHAT?",
+    "__": "fixes -> clears up situation? convinces feedies to comply to ceasefire?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -411,7 +413,7 @@
   },
   {
     "FileName": "sound/stream/evz368.brstm",
-    "Translation": "Well, there's not a lot we can do, right?",
+    "Translation": "Well, there's not much else to do now, right?",
     "-": "iddle chatter, Captain is trying to calm down Anne",
     "Miliseconds": 5000,
     "Color": "Green",
@@ -430,7 +432,7 @@
   },
   {
     "FileName": "sound/stream/evz370.brstm",
-    "Translation": "Well then. I think I did my best, but it's still not over...",
+    "Translation": "Well then, I think I did my best, but it's still not over...",
     "Miliseconds": 8000,
     "Color": "Green",
     "Enabled": true,
@@ -440,6 +442,7 @@
   {
     "FileName": "sound/stream/evz371.brstm",
     "Translation": "I'm sure other side won't calm down if things continue like this...",
+    "_": "not sure if feedies will honour ceasefire?",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
