@@ -3725,7 +3725,10 @@
   },
   {
     "ID": "INF_MISSION",
-    "Text": "You can select the mission you want to play. However, you cannot record scores, obtain MS/weapons, change MS color, etc."
+    "Lines": [
+      "You can select the mission you want to play. However,",
+      "you cannot record scores, obtain MS/weapons, etc."
+    ]
   },
   {
     "ID": "INF_DELETE",
