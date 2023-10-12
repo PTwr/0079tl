@@ -22,7 +22,7 @@ D_SubWeaponName = {
 	},
 	{
         --2 x Abdominal Wired-Control Missile
-                name = "Chest Missle",
+                name = "Chest Missile",
                 excode = "WP_MB1",
 	},
 	{
@@ -59,11 +59,11 @@ D_SubWeaponName = {
                 excode = "WP_CFA",
 	},
 	{
-                name = "１２０ｍｍ low recoil cannon",
+                name = "120mm low recoil cannon",
                 excode = "WP_CT2",
 	},
 	{
-                name = "１２０ｍｍ low recoil cannon",
+                name = "120mm low recoil cannon",
                 excode = "WP_CT1",
 	},
 	{

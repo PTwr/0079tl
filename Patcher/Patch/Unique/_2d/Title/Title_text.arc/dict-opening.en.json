@@ -3,7 +3,7 @@
     "ID": "OPENING_TEXT_A_00",
     "Text": null,
     "Lines": [
-      "A half-centry has passed..."
+      "Half a century has passed..."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -29,7 +29,7 @@
     "ID": "OPENING_TEXT_A_01",
     "Text": null,
     "Lines": [
-      "since humanity began moving..."
+      "since humanity began transporting..."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -81,7 +81,7 @@
     "ID": "OPENING_TEXT_A_03",
     "Text": null,
     "Lines": [
-      "Those gigantic space colonies..."
+      "Gigantic space colonies..."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -356,7 +356,7 @@
     "ID": "OPENING_TEXT_B_02",
     "Text": null,
     "Lines": [
-      "proclaimed itself the principality of Zeon."
+      "has proclaimed itself the principality of Zeon."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -409,7 +409,7 @@
     "ID": "OPENING_TEXT_B_04",
     "Text": null,
     "Lines": [
-      "Zeon military while inferior in numbers..."
+      "Zeon military, while inferior in numbers..."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -462,7 +462,7 @@
     "ID": "OPENING_TEXT_B_06",
     "Text": null,
     "Lines": [
-      "by utilising electronic distruption",
+      "by utilizing electronic distruption",
       "with Minovksy particles..."
     ],
     "TabSpace": "1",
@@ -476,7 +476,7 @@
     "ID": "Opening_Space_020",
     "Text": null,
     "Lines": [
-      "and humanoid weapon known as",
+      "and a humanoid weapon known as",
       "Mobile Suit..."
     ],
     "TabSpace": "1",
@@ -516,7 +516,7 @@
     "ID": "OPENING_TEXT_B_08",
     "Text": null,
     "Lines": [
-      "and humiliated numerically superior",
+      "and humiliated the numerically superior",
       "Earth Federation Forces."
     ],
     "TabSpace": "1",
@@ -634,8 +634,8 @@
     "ID": "Opening_Space_028",
     "Text": null,
     "Lines": [
-      "caused death of half of",
-      "total population."
+      "caused the death of half of",
+      "the total population."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -648,7 +648,7 @@
     "ID": "OPENING_TEXT_B_11",
     "Text": null,
     "Lines": [
-      "Not wanting prolonged war..."
+      "Wary of prolonged war..."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -661,7 +661,7 @@
     "ID": "Opening_Space_029",
     "Text": null,
     "Lines": [
-      "Zeon forces don't stop their advance..."
+      "Zeon forces continued their advance..."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -739,8 +739,8 @@
     "ID": "Opening_Space_032",
     "Text": null,
     "Lines": [
-      "it was difficult to maintain",
-      "such extended front."
+      "It was difficult to maintain",
+      "such an extended front."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -766,7 +766,7 @@
     "ID": "Opening_Space_033",
     "Text": null,
     "Lines": [
-      "and more than half a have now passed."
+      "and more than half a century has now passed."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -857,7 +857,7 @@
     "ID": "OPENING_TEXT_C_01",
     "Text": null,
     "Lines": [
-      "Recovering from first crushing defeats..."
+      "Recovering from the initial crushing defeats..."
     ],
     "TabSpace": "1",
     "Size": "1.4",
@@ -870,7 +870,7 @@
     "ID": "Opening_Space_039",
     "Text": null,
     "Lines": [
-      "Earth Federation forces",
+      "the Earth Federation forces",
       "are regaining initiative..."
     ],
     "TabSpace": "1",
@@ -884,7 +884,7 @@
     "ID": "OPENING_TEXT_C_02",
     "Text": null,
     "Lines": [
-      "while Zeon forces unfamiliar with surface..."
+      "while Zeon forces unfamiliar with the terrain..."
     ],
     "TabSpace": "1",
     "Size": "1.4",
