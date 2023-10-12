@@ -94,12 +94,23 @@ namespace GEVLib.EVE
             {
                 var opcode = OpCodes[i];
                 var nextOpCode = i + 1 < OpCodes.Count ? OpCodes[i + 1] : 0;
+                var nextnextOpCode = i + 2 < OpCodes.Count ? OpCodes[i + 2] : 0;
+                if (opcode.GetHighUWORD() == 0x0050 || opcode.GetHighUWORD() == 0x0056)
+                {
+                    //6char MS name takes two opcode spaces, +2 padding nulls
+                    if (i< OpCodes.Count-2)
+                    {
+                        var strbytes = nextOpCode.GetBigEndianBytes().Concat(nextnextOpCode.GetBigEndianBytes()).Take(6).ToArray().AsSpan();
+                        var mscode = strbytes.ToAsciiString();
+
+                        str += $"[{opcodeN:D2}] mech code: {mscode}" + Environment.NewLine;
+                    }
+                }
                 if (opcode.GetHighUWORD() == 0x0046)
                 {
                     var param = opcode.GetLowUWORD();
 
                     str += $"[{opcodeN:D2}] Conditional check? variable {param:X4} 16b value {nextOpCode:X8}" + Environment.NewLine;
-
                 }
                 if (opcode.GetHighUWORD() == 0x0047)
                 {

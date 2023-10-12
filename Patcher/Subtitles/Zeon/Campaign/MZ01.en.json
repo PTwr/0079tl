@@ -27,9 +27,9 @@
     "Scale": 2
   },
   {
+    "_": "amphibious MS is fast in water??? Just some silly saying garbled into MS slang?",
     "FileName": "sound/stream/evz016.brstm",
-    "Translation": "evz016.brstm",
-    "_Comment_": "amphibious MS is fast in water???",
+    "Translation": "Tanks sure are scampering around",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
