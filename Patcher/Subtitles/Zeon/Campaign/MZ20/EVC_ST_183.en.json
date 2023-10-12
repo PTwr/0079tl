@@ -1,0 +1,39 @@
+[
+  {
+    "_": "not sure if reinforced or not...",
+    "FileName": "sound/stream/evz544.brstm",
+    "Translation": "It does not looks like garrison has been reinforced",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz545.brstm",
+    "Translation": "They don't expect another surprise, let's go.",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz546.brstm",
+    "Translation": "Prioritize enemy communication facility, destroy it within time",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz547.brstm",
+    "Translation": "On it!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

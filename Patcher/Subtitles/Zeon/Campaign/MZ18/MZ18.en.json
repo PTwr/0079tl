@@ -1,0 +1,65 @@
+[
+  {
+    "FileName": "sound/stream/evz528.brstm",
+    "Translation": "Oy, Tord, locate Medea!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz529.brstm",
+    "Translation": "Captain...",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz530.brstm",
+    "Translation": "Ugh... Sorry... I just can't forget him...",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz522.brstm",
+    "Translation": "Destroy enemy troops withing time limit",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz524.brstm",
+    "Translation": "Captain, enemy unit has returned from patrol!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz525.brstm",
+    "Translation": "Shit, can't help it. Let's get them too!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz527.brstm",
+    "Translation": "What's that? I've never seen such MS. Well, whatever it is, I'll welcome any help",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

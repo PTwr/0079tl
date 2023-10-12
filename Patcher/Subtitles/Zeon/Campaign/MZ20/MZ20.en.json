@@ -1,0 +1,164 @@
+[
+  {
+    "FileName": "sound/stream/slc006.brstm",
+    "Translation": "slc006.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/leo102.brstm",
+    "Translation": "leo102.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/leo103.brstm",
+    "Translation": "leo103.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/leo104.brstm",
+    "Translation": "leo104.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/anf037.brstm",
+    "Translation": "Confirmed target destruction",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/anf038.brstm",
+    "Translation": "Please destroy remaining enemy forces as well",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz548.brstm",
+    "Translation": "All communication facilities destroyed, Captain\nPlease infiltrate tunnel to launch pad",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz549.brstm",
+    "Translation": "I'll look for entrance, Klaus, cover me",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/cls017.brstm",
+    "Translation": "cls017.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/slb071.brstm",
+    "Translation": "slb071.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/slb072.brstm",
+    "Translation": "slb072.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/slb073.brstm",
+    "Translation": "slb073.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/sla005.brstm",
+    "Translation": "sla005.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz552.brstm",
+    "Translation": "There are enemies inside? You're in the way! MOVE!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/sla012.brstm",
+    "Translation": "sla012.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz555.brstm",
+    "Translation": "Damn, now they've done it",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/anf009.brstm",
+    "Translation": "Enemy Mobile Suit approaching",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/slc075.brstm",
+    "Translation": "slc075.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

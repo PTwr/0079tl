@@ -1,18 +1,10 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
+    "_": "Everyone, change your mind. ???",
     "ID": "evz512",
     "Text": null,
     "Lines": [
-      "みんな…、気持ちを切り替えろ。"
+      "Everyone, its time."
     ],
     "TabSpace": null,
     "Size": null
@@ -21,7 +13,7 @@
     "ID": "evz513",
     "Text": null,
     "Lines": [
-      "…はい。"
+      "..yes."
     ],
     "TabSpace": null,
     "Size": null
@@ -30,7 +22,7 @@
     "ID": "evz514",
     "Text": null,
     "Lines": [
-      "…そうだな。"
+      "...so it is."
     ],
     "TabSpace": null,
     "Size": null
@@ -39,7 +31,7 @@
     "ID": "evz515",
     "Text": null,
     "Lines": [
-      "クラウス。　情報は確かなんだろうな？"
+      "Klauss. Are you certain of that information?"
     ],
     "TabSpace": null,
     "Size": null
@@ -48,8 +40,9 @@
     "ID": "evz516",
     "Text": null,
     "Lines": [
-      "地上潜伏を決めた友軍をかくまっている組織の情報だ。",
-      "アテにしていいと思う。"
+      "Its intel from organization that's harboring",
+      "our troops remaining on surface.",
+      "I think its valid."
     ],
     "TabSpace": null,
     "Size": null
@@ -58,8 +51,9 @@
     "ID": "evz517",
     "Text": null,
     "Lines": [
-      "開戦前から、サイド3の独立に賛同していた協力組織です。",
-      "非公式ではありますが、私も信用していいと思います。"
+      "It's friendly organization that supported Side 3",
+      "independece when war started.",
+      "It's unofficial, but I think we can trust it, too."
     ],
     "TabSpace": null,
     "Size": null
@@ -68,9 +62,9 @@
     "ID": "evz518",
     "Text": null,
     "Lines": [
-      "なるほどな。　脱出を共にする友軍の命運は、俺たちにかかってる。",
-      "MS乗りは2人になっちまったが、敵はそれほど多くない。",
-      "いけるな？　クラウス。"
+      "I see. Fate of troops escaping with us depends on it.",
+      "We only have two MS now, but there are not so many ",
+      "enemies. Klaus, are we ready?"
     ],
     "TabSpace": null,
     "Size": null
@@ -79,8 +73,9 @@
     "ID": "evz519",
     "Text": null,
     "Lines": [
-      "任せてくれよ。",
-      "それに、組織のほうからも支援があるはずだ。"
+      "Leave it to me.",
+      "Also, I'm certain we'll receive further suport",
+      "from organization."
     ],
     "TabSpace": null,
     "Size": null

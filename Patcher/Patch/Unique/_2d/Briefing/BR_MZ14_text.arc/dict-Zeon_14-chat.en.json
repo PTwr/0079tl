@@ -1,39 +1,33 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
+    "_": "MZ13",
     "ID": "evz225",
     "Text": null,
     "Lines": [
-      "ここからの戦いは、もはや、ただの意地だ。",
-      "みんな、無理に俺に付き合う必要はないぜ？"
+      "From now on, the fight is all about willpower.",
+      "You don't have to force yourself to follow, okay?"
     ],
     "TabSpace": null,
     "Size": null
   },
   {
+    "_": "MZ13",
     "ID": "evz226",
     "Text": null,
     "Lines": [
-      "意地でいいじゃないですか！",
-      "わたし、最後まで諦めませんよ！"
+      "Don't be so mean!",
+      "I won't give up until the end!"
     ],
     "TabSpace": null,
     "Size": null
   },
   {
+    "_": "MZ13",
     "ID": "evz227",
     "Text": null,
     "Lines": [
-      "あぁ。　こうなったら最後の最後まで、少しでも連邦の",
-      "悩みの種になってやろうじゃないか。"
+      "Ah. If it's going to be that way, lets at least",
+      "be a thorn in Federations side."
     ],
     "TabSpace": null,
     "Size": null
@@ -42,29 +36,31 @@
     "ID": "evz471",
     "Text": null,
     "Lines": [
-      "で、まずは敵の侵攻を妨害する嫌がらせってわけか。",
-      "ハッハッハ！　いいねぇー。",
-      "好きだぜ、隊長のそういうところがよ。"
+      "So we'll be harrasing enemy to slow them down?",
+      "Hahaha! That's nice.",
+      "I like your thinking, Captain."
     ],
     "TabSpace": null,
     "Size": null
   },
   {
+    "_": "MZ13",
     "ID": "evz229",
     "Text": null,
     "Lines": [
-      "へへ、小さなところからコツコツと…だ。",
-      "一発逆転のギャンブルは、失敗したばっかりだからなぁ。"
+      "Hehe, let's start small and work our way up...",
+      "Putting everything on one card is recipe for disaster."
     ],
     "TabSpace": null,
     "Size": null
   },
   {
+    "_": "MZ13",
     "ID": "evz230",
     "Text": null,
     "Lines": [
-      "ふふふ…、ですね。",
-      "目一杯チクチクと、嫌がらせしちゃいましょ！"
+      "Hehehe.. I see.",
+      "Let's harras them to the end!"
     ],
     "TabSpace": null,
     "Size": null
@@ -73,9 +69,9 @@
     "ID": "evz472",
     "Text": null,
     "Lines": [
-      "情報によると、連邦はシアトルの廃墟に、",
-      "キャリフォルニア･ベース攻略のための、予備戦力を集めている",
-      "ところらしいな。"
+      "According to my information, Federation is assembling",
+      "reserve forces in ruins of Seattle for assault on",
+      "California Base."
     ],
     "TabSpace": null,
     "Size": null
@@ -84,7 +80,7 @@
     "ID": "evz473",
     "Text": null,
     "Lines": [
-      "俺たちゃ、廃墟に相応しい悪霊ってわけだ。"
+      "So we'll be evil ghost worthy of haunting those ruins."
     ],
     "TabSpace": null,
     "Size": null
@@ -103,24 +99,6 @@
     "Text": null,
     "Lines": [
       "Roger that!"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "",
-    "Text": null,
-    "Lines": [
-      ""
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "",
-    "Text": null,
-    "Lines": [
-      ""
     ],
     "TabSpace": null,
     "Size": null

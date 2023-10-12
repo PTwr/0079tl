@@ -1,0 +1,149 @@
+[
+  {
+    "FileName": "sound/stream/evz497.brstm",
+    "Translation": "Captain! We're done here, get on Gau quickly!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz498.brstm",
+    "Translation": "Brauer's Team! Go!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz499.brstm",
+    "Translation": "Well, I guess I'll have to put in some overtime...",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz500.brstm",
+    "Translation": "What? Captian! Tord is still outside!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz501.brstm",
+    "Translation": "What are you doing, Tord?!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz502.brstm",
+    "Translation": "You know you'll get swatted if you launch in such situation?",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz503.brstm",
+    "Translation": "Ughhh...",
+    "Miliseconds": 2000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz504.brstm",
+    "Translation": "Tord...",
+    "Miliseconds": 2000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz505.brstm",
+    "Translation": "Tord!",
+    "Miliseconds": 2000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz506.brstm",
+    "Translation": "Oy oy, listen to your elders and get out of here",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz507.brstm",
+    "Translation": "Sorry...",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz508.brstm",
+    "Translation": "What? If this old man's life can save you all then it's a good deal",
+    "Miliseconds": 9000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz509.brstm",
+    "Translation": "Toordoooo!!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz510.brstm",
+    "Translation": "Well then... I had to live with regrets for all the lives I took in colonies...",
+    "Miliseconds": 10000,
+    "Timestamp": 0,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz510.brstm",
+    "Translation": "I guess it's not such a bad way to make ammends...",
+    "Miliseconds": 6000,
+    "Timestamp": 10000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz510.brstm",
+    "Translation": "HERE I GOOO!!!!!",
+    "Miliseconds": 5000,
+    "Timestamp": 14000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

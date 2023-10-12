@@ -1,0 +1,21 @@
+[
+  {
+    "FileName": "sound/stream/evz550.brstm",
+    "Translation": "I found the entrance, going in!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "_": "testplay and check if Klaus is staying behind",
+    "FileName": "sound/stream/evz551.brstm",
+    "Translation": "I got your back. I'm counting on you, Leo!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

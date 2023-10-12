@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/evz477.brstm",
+    "Translation": "Confirmed destruction of bridge, this should slow down enemy offensive",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

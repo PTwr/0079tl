@@ -1,0 +1,29 @@
+[
+  {
+    "FileName": "sound/stream/evz553.brstm",
+    "Translation": "If you take that lift, you should arrive at launch site. Be careful",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/leo015.brstm",
+    "Translation": "leo015.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz554.brstm",
+    "Translation": "Shuttle is on launchpad! Damn, enemies are here too!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

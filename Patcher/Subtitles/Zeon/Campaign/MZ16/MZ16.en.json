@@ -1,0 +1,29 @@
+[
+  {
+    "FileName": "sound/stream/evz494.brstm",
+    "Translation": "Carrier is ready to take off",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz495.brstm",
+    "Translation": "I'll be boarding last, Anne, you go first",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz496.brstm",
+    "Translation": "Enemy is aproaching from space port, it's getting dangerouns",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

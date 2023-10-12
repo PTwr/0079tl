@@ -1,0 +1,20 @@
+[
+  {
+    "FileName": "sound/stream/evz474.brstm",
+    "Translation": "As reported, enemies are assembling here\nPrioritize destruction of bridges and Big Tray to hamper enemy transportation",
+    "Miliseconds": 10000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/leo004.brstm",
+    "Translation": "leo004.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

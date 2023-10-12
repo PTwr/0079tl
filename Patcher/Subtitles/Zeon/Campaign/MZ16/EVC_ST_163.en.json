@@ -1,0 +1,29 @@
+[
+  {
+    "FileName": "sound/stream/evz489.brstm",
+    "Translation": "Enemy approaching!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz490.brstm",
+    "Translation": "You need to buy time until Gau is ready for takeoff!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz491.brstm",
+    "Translation": "Lave it to me, let's go!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

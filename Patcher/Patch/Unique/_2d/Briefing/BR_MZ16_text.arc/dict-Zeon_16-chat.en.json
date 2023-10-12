@@ -1,19 +1,11 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "evz479",
     "Text": null,
     "Lines": [
-      "残念ながら、キャリフォルニア･ベースは、もうダメだ。",
-      "主要部隊の脱出を手助けして、俺たちもここを離れる…。"
+      "Unfortunately, California Base is lost.",
+      "We'll help main force retreat before we",
+      "scram as well."
     ],
     "TabSpace": null,
     "Size": null
@@ -22,7 +14,7 @@
     "ID": "evz480",
     "Text": null,
     "Lines": [
-      "まだ連邦も、完全包囲には到ってないしな。"
+      "Federation has not completed encirclement yet."
     ],
     "TabSpace": null,
     "Size": null
@@ -31,8 +23,8 @@
     "ID": "evz481",
     "Text": null,
     "Lines": [
-      "敵さんの主力は、基地司令施設と、宇宙基地に集中してるみたい",
-      "だからな…。　まぁ、空軍施設は、まだマシだろうよ。"
+      "Enemy main thrust is concentrated on HQ and space port,",
+      "so... airport will hold on a while longer."
     ],
     "TabSpace": null,
     "Size": null
@@ -41,7 +33,7 @@
     "ID": "evz482",
     "Text": null,
     "Lines": [
-      "まさかキャリフォルニア･ベースが、こうも簡単に落ちるなんて…。"
+      "I never thought California Base would fall so easily..."
     ],
     "TabSpace": null,
     "Size": null
@@ -50,8 +42,8 @@
     "ID": "evz483",
     "Text": null,
     "Lines": [
-      "こっちが奪ったときも、随分簡単だったそうじゃねぇか？",
-      "まぁ、お互い様よ。"
+      "I heard it was pretty easy when we took it from Feedies?",
+      "Well, it goes both ways I guess."
     ],
     "TabSpace": null,
     "Size": null
@@ -60,17 +52,18 @@
     "ID": "evz484",
     "Text": null,
     "Lines": [
-      "やっぱり、ジャブロー攻略戦の失敗が痛かったな。"
+      "After defeat at Jaburo, we can't meet them headon."
     ],
     "TabSpace": null,
     "Size": null
   },
   {
+    "_": "not stay here, or not go to jaburo, its unclear",
     "ID": "evz485",
     "Text": null,
     "Lines": [
-      "いいか？",
-      "お前ら、絶対こんなところで、くたばるんじゃねぇぞ。"
+      "Right?",
+      "We should not stick around here."
     ],
     "TabSpace": null,
     "Size": null
@@ -79,8 +72,8 @@
     "ID": "evz486",
     "Text": null,
     "Lines": [
-      "そのための脱出支援じゃないか。",
-      "もちろん、こんなとこでやられる気はないぜ。"
+      "That's why we're organizing retreat.",
+      "I'm not going to let them kill us here."
     ],
     "TabSpace": null,
     "Size": null
@@ -89,7 +82,7 @@
     "ID": "evz487",
     "Text": null,
     "Lines": [
-      "はい。　まだ、やりたいこと、いっぱいありますから！"
+      "Yes! We still have so much to do in life!"
     ],
     "TabSpace": null,
     "Size": null
@@ -98,8 +91,8 @@
     "ID": "evz488",
     "Text": null,
     "Lines": [
-      "そのいきだ！",
-      "じゃ、ブラウアー隊、出るぜ！"
+      "That's the spirit!",
+      "All right. Brauer's Team, lets go!"
     ],
     "TabSpace": null,
     "Size": null

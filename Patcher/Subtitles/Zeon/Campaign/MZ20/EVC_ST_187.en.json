@@ -1,0 +1,119 @@
+[
+  {
+    "FileName": "sound/stream/evz563.brstm",
+    "Translation": "The garrison has been neutralized. Our friends are on their way to join us",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz564.brstm",
+    "Translation": "Hey, guys, I think there's still something we can do here on Earth",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz565.brstm",
+    "Translation": "Eh, Captain?",
+    "Miliseconds": 5000,
+    "Color": "Eh? Captain?",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz567.brstm",
+    "Translation": "Well, I heard Africa is still fighting.",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz568.brstm",
+    "Translation": "Eehhh, can't get a rest...",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz569.brstm",
+    "Translation": "Of course, you can decide for yourself",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz570.brstm",
+    "Translation": "Hehe, it's not like we can do anything even if we get to space",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz571.brstm",
+    "Translation": "Well, it would be best if shuttle had as few mouths to feed as possible. It's quite cramped already",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz572.brstm",
+    "Translation": "Eeeehh, and here I thought I'd be going to heaven finally, but instead I'll stick to hell...",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz573.brstm",
+    "Translation": "It can't be helped, because we're the Brauer's Team",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz574.brstm",
+    "Translation": "I guess I'll stick with you to the end",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz575.brstm",
+    "Translation": "Okay, then its settled. Brauer's Team, we're going to Africa",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/evz576.brstm",
+    "Translation": "Oy, shuttle, once you get back to space tell our people we're stilling fighting down here. Good luck!",
+    "Miliseconds": 10000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

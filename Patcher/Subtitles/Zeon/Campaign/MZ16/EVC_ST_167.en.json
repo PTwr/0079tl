@@ -1,0 +1,22 @@
+[
+  {
+    "_": "shred with MZ12 (escape from Jaburo), wimpering after Gau is lost",
+    "FileName": "sound/stream/evz220.brstm",
+    "Translation": "Gau... there is no escape now...",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "_": "generic oh noe we lost",
+    "FileName": "sound/stream/leo167.brstm",
+    "Translation": "leo167.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]
