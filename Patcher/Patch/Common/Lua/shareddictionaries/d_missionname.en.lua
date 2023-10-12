@@ -2,14 +2,14 @@
 D_MissionName = {
 	{
 		code = "ME01", 
-		name = "ME01 First Battle in Moonlight", 
+		name = "First Battle in Moonlight", 
                 map = "Seattle",
 		difficulty = "EASY",
 	        date="0079/10/06"
 	},
 	{
 		code = "ME02", 
-		name = "ME02 Gunshots Among Dunes", 
+		name = "Gunshots Among Dunes", 
                 map = "Desert area",
 		difficulty = "EASY",
 	        date="0079/10/10"
@@ -25,7 +25,7 @@ D_MissionName = {
 		code = "ME04", 
 		--8th MS team, SRT-1 ambushes Aina in her flying bunker
 		--The smoke dissolves into the rain
-		name = "ME04 Smoke in the Rain", 
+		name = "Smoke in the Rain", 
                 map = "Valley",
 		difficulty = "NORMAL",
 	        date="0079/10/late",
@@ -33,7 +33,7 @@ D_MissionName = {
 	{
 		code = "ME05", 
 		--The rising smoke of a counterattack
-		name = "ME05 Counterattack Rising", 
+		name = "Counterattack Rising", 
                 map = "Odessa Suburbs",
 		difficulty = "NORMAL",
 	        date="0079/11/09",
@@ -41,7 +41,7 @@ D_MissionName = {
 	{
 		code = "ME06", 
 		--Hound released into the darkness
-		name = "ME06 Hounds in Darkness", 
+		name = "Hounds in Darkness", 
                 map = "Odessa Suburbs",
 		difficulty = "NORMAL",
 	        date="0079/11/10",
@@ -49,7 +49,7 @@ D_MissionName = {
 	{
 		code = "ME07", 
 		--Flames dancing in the clear night sky
-		name = "ME07 Burning Night", 
+		name = "Burning Night", 
                 map = "Desert area",
 		difficulty = "NORMAL",
 	        date="0079/11/11",
@@ -57,7 +57,7 @@ D_MissionName = {
 	{
 		code = "ME08", 
 		--A ruthless snow field that covers even death
-		name = "ME08 Deadly Frost", 
+		name = "Deadly Frost", 
                 map = "Snowfield Area",
 		difficulty = "NORMAL",
 	        date="0079/11/13",
@@ -66,7 +66,7 @@ D_MissionName = {
 		code = "ME09", 
 		--Trembling mountain, death light
 		--8th MS team, siege, "The Shuddering Mountain, Part I"
-		name = "ME09 Shuddering Mountain 1",
+		name = "Shuddering Mountain 1",
                 map = "Lhasa Base",
 		difficulty = "NORMAL",
 	        date="0079/11/late",
@@ -74,7 +74,7 @@ D_MissionName = {
 	{
 		code = "ME10", 
 		--The sound of waves can't be heard far away
-		name = "ME10 Silent Waves", 
+		name = "Silent Waves", 
                 map = "Belfast Base",
 		difficulty = "NORMAL",
 	        date="0079/11/24",
@@ -82,7 +82,7 @@ D_MissionName = {
 	{
 		code = "ME11", 
 		--Death struggle in the fog
-		name = "ME11 Deathly Fog", 
+		name = "Deathly Fog", 
                 map = "Valley・Area 526",
 		difficulty = "NORMAL",
 	        date="0079/11/late",
@@ -90,7 +90,7 @@ D_MissionName = {
 	{
 		code = "ME12", 
 		--Green hell and fierce battle flames
-		name = "ME12 Green Hell", 
+		name = "Green Hell", 
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/11/30",
@@ -98,7 +98,7 @@ D_MissionName = {
 	{
 		code = "ME13", 
 		--Those who sleep in the depths of the earth
-		name = "ME13 Echoes", 
+		name = "Echoes", 
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/11/30",
@@ -106,7 +106,7 @@ D_MissionName = {
 	{
 		code = "ME14", 
 		--鉄の獣は檻の中
-		name = "ME14 Caged Beast", 
+		name = "Caged Beast", 
                 map = "Valley",
 		difficulty = "NORMAL",
 	        date="0079/12/02",
@@ -114,7 +114,7 @@ D_MissionName = {
 	{
 		code = "ME15", 
 		--white snow and black trap
-		name = "ME15 A Chilly Trap", 
+		name = "A Chilly Trap", 
                 map = "Snowfield Area",
 		difficulty = "NORMAL",
 	        date="0079/12/02",
@@ -122,7 +122,7 @@ D_MissionName = {
 	{
 		code = "ME16", 
 		--The roar of anger becomes hazy in the dust
-		name = "ME16 Anger in the Dust", 
+		name = "Anger in the Dust", 
                 map = "Desert area",
 		difficulty = "HARD",
 	        date="0079/12/04",
@@ -130,7 +130,7 @@ D_MissionName = {
 	{
 		code = "ME17", 
 		--A soul disappearing into silver
-		name = "ME17 Silver Soul", 
+		name = "Silver Soul", 
                 map = "Arctic Base",
 		difficulty = "HARD",
 	        date="0079/12/04",
@@ -138,7 +138,7 @@ D_MissionName = {
 	{
 		code = "ME18", 
 		--The morning dew turns into a violent earthquake
-		name = "ME18 Earthquake in Morning", 
+		name = "Earthquake in Morning", 
                 map = "Odessa Suburbs",
 		difficulty = "HARD",
 	        date="0079/12/06",
@@ -146,7 +146,7 @@ D_MissionName = {
 	{
 		code = "ME19", 
 		--The devil lurks in the ruins
-		name = "ME19 Hidden Devil", 
+		name = "Hidden Devil", 
                 map = "Seattle",
 		difficulty = "HARD",
 	        date="0079/12/12",
@@ -155,7 +155,7 @@ D_MissionName = {
 		code = "ME20", 
 		--The hawk of death has descended
 		--Hawk of Endymion? :D
-		name = "ME20 Hawk of Death", 
+		name = "Hawk of Death", 
                 map = "African mining base",
 		difficulty = "HARD",
 	   date="0079/12/13 ",
@@ -163,7 +163,7 @@ D_MissionName = {
 	{
 		code = "ME21", 
 		--Eternal struggle, fleeting end
-		name = "ME21 Eternal Struggle", 
+		name = "Eternal Struggle", 
                 map = "California Base",
 		difficulty = "HARD",
 	        date="0079/12/15",
@@ -171,14 +171,14 @@ D_MissionName = {
 	{
 		code = "MZ01", 
 		--Burnt haired lion
-		name = "MZ01 Desert Lion", 
+		name = "Desert Lion", 
                 map = "Desert area",
 		difficulty = "EASY",
 	        date="0079/11/01",
 	},
 	{
 		code = "MZ02", 
-		name = "MZ02 Odessa Day", 
+		name = "Odessa Day", 
                 map = "Odessa Suburbs",
 		difficulty = "EASY",
 	        date="0079/11/07",
@@ -186,7 +186,7 @@ D_MissionName = {
 	{
 		code = "MZ03", 
 		--time of decision
-		name = "MZ03 The Time Is Now", 
+		name = "The Time Is Now", 
                 map = "Odessa Suburbs",
 		difficulty = "NORMAL",
 	        date="0079/11/08",
@@ -194,7 +194,7 @@ D_MissionName = {
 	{
 		code = "MZ04", 
 		--Darkness Blue
-		name = "MZ04 Darkness Blue", 
+		name = "Darkness Blue", 
                 map = "Belfast Base",
 		difficulty = "NORMAL",
 	        date="0079/11/13",
@@ -202,7 +202,7 @@ D_MissionName = {
 	{
 		code = "MZ05", 
 		--Lost in the snowfield
-		name = "MZ05 Lost in Snowfield", 
+		name = "Lost in Snowfield", 
                 map = "Snowfield Area",
 		difficulty = "NORMAL",
 	        date="0079/11/11",
@@ -210,7 +210,7 @@ D_MissionName = {
 	{
 		code = "MZ06", 
 		--Ghost of Ruins
-		name = "MZ06 Ghost of Ruins", 
+		name = "Ghost of Ruins", 
                 map = "Seattle",
 		difficulty = "NORMAL",
 	        date="0079/11/19",
@@ -218,7 +218,7 @@ D_MissionName = {
 	{
 		code = "MZ07", 
 		--goddess of destruction
-		name = "MZ07 Goddess of Destruction", 
+		name = "Goddess of Destruction", 
                 map = "Valley・Area 526",
 		difficulty = "NORMAL",
 	        date="0079/11/mid",
@@ -226,7 +226,7 @@ D_MissionName = {
 	{
 		code = "MZ08", 
 		--Disguise, big battle
-		name = "MZ08 Ambush", 
+		name = "Ambush", 
                 map = "Valley",
 		difficulty = "NORMAL",
 	        date="0079/11/24",
@@ -234,7 +234,7 @@ D_MissionName = {
 	{
 		code = "MZ09", 
 		--Battle of the Far East
-		name = "MZ09 Battle for Far East", 
+		name = "Battle for Far East", 
                 map = "Lhasa Base",
 		difficulty = "NORMAL",
 	        date="0079/11/late",
@@ -242,7 +242,7 @@ D_MissionName = {
 	{
 		code = "MZ10", 
 		--Jaburo, Death Descent Operation
-		name = "MZ10 Jaburo Descent", 
+		name = "Jaburo Descent", 
                 map = "Jaburo Surface",
 		difficulty = "HARD",
 	        date="0079/11/30",
@@ -250,7 +250,7 @@ D_MissionName = {
 	{
 		code = "MZ11", 
 		--Fierce battle in the underground cavern
-		name = "MZ11 Cavernous Battle", 
+		name = "Cavernous Battle", 
                 map = "Jaburo Underground",
 		difficulty = "HARD",
 	        date="0079/11/30",
@@ -258,7 +258,7 @@ D_MissionName = {
 	{
 		code = "MZ12", 
 		--Time limit to escape
-		name = "MZ12 Hasty Retreat", 
+		name = "Hasty Retreat", 
                 map = "Jaburo Surface",
 		difficulty = "HARD",
 	        date="0079/11/30",
@@ -266,7 +266,7 @@ D_MissionName = {
 	{
 		code = "MZ13", 
 		--A fierce beast that attacks
-		name = "MZ13 Fierce Beast", 
+		name = "Fierce Beast", 
                 map = "Valley",
 		difficulty = "NORMAL",
 	        date="0079/12/03",
@@ -274,7 +274,7 @@ D_MissionName = {
 	{
 		code = "MZ14", 
 		--Sorrow behind me
-		name = "MZ14 Sorrow", 
+		name = "Sorrow", 
                 map = "Seattle",
 		difficulty = "NORMAL",
 	        date="0079/12/04",
@@ -283,7 +283,7 @@ D_MissionName = {
 		code = "MZ15", 
 		--What belongs to Zeon is mine
 		--Zeon's is mine
-		name = "MZ15 I Am Zeon", 
+		name = "I Am Zeon", 
                 map = "Lhasa Base",
 		difficulty = "HARD",
 	        date="0079/12/04",
@@ -291,7 +291,7 @@ D_MissionName = {
 	{
 		code = "MZ16", 
 		--Goodbye is sudden? Goodbye suddenly?
-		name = "MZ16 Sudden Farewell", 
+		name = "Sudden Farewell", 
                 map = "California Base",
 		difficulty = "HARD",
 	        date="0079/12/15",
@@ -299,7 +299,7 @@ D_MissionName = {
 	{
 		code = "MZ17", 
 		--extreme retreat? ultimate retreat battle?
-		name = "MZ17 Final Retreat", 
+		name = "Final Retreat", 
                 map = "Desert area",
 		difficulty = "HARD",
 	        date="0079/12/05",
@@ -307,7 +307,7 @@ D_MissionName = {
 	{
 		code = "MZ18", 
 		--last escape route? the final escape route?
-		name = "MZ18 Last Escape", 
+		name = "Last Escape", 
                 map = "Snowfield Area",
 		difficulty = "HARD",
 	        date="0079/12/18",
@@ -315,7 +315,7 @@ D_MissionName = {
 	{
 		code = "MZ19", 
 		--those who accept
-		name = "MZ19 Acceptance", 
+		name = "Acceptance", 
                 map = "African mining base",
 		difficulty = "HARD",
 	        date="0079/12/12",
@@ -323,7 +323,7 @@ D_MissionName = {
 	{
 		code = "MZ20", 
 		--Return to space...
-		name = "MZ20 Return to Space", 
+		name = "Return to Space", 
                 map = "Arctic Base",
 		difficulty = "HARD",
 	        date="0079/12/20",
@@ -331,7 +331,7 @@ D_MissionName = {
 	{
 		code = "MZ21", 
 		--Requiem for the Earth
-		name = "MZ21 Earth's Requiem", 
+		name = "Earth's Requiem", 
                 map = "African mining base",
 		difficulty = "HARD",
 	        date="0080/01/01",
