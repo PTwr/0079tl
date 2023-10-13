@@ -1,0 +1,128 @@
+[
+  {
+    "FileName": "sound/stream/kai005.brstm",
+    "Translation": "Incoming!",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/hyt002.brstm",
+    "Translation": "hyt002.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/amr094.brstm",
+    "Translation": "amr094.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/amr095.brstm",
+    "Translation": "amr095.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/guy093.brstm",
+    "Translation": "guy093.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/guy109.brstm",
+    "Translation": "guy109.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/guy115.brstm",
+    "Translation": "guy115.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/guy001.brstm",
+    "Translation": "guy001.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/kai154.brstm",
+    "Translation": "kai154.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/hyt154.brstm",
+    "Translation": "hyt154.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/guy106.brstm",
+    "Translation": "guy106.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/guy147.brstm",
+    "Translation": "Let's see if the Federation's mobile suits are as good as rumored",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/amr154.brstm",
+    "Translation": "amr154.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/guy117.brstm",
+    "Translation": "guy117.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  }
+]

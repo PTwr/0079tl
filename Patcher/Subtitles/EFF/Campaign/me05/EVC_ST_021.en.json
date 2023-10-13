@@ -1,0 +1,38 @@
+[
+  {
+    "FileName": "sound/stream/eve126.brstm",
+    "Translation": "eve126.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/eve127.brstm",
+    "Translation": "eve127.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/eve128.brstm",
+    "Translation": "eve128.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/eve129.brstm",
+    "Translation": "eve129.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  }
+]

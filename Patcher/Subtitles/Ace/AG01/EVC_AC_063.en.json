@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/guy055.brstm",
+    "Translation": "guy055.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  }
+]

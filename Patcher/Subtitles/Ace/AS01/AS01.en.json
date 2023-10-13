@@ -1,0 +1,65 @@
+[
+  {
+    "FileName": "sound/stream/sir093.brstm",
+    "Translation": "sir093.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/sir094.brstm",
+    "Translation": "sir094.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/sir002.brstm",
+    "Translation": "sir002.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/sir005.brstm",
+    "Translation": "sir005.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/eva032.brstm",
+    "Translation": "eva032.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/krn006.brstm",
+    "Translation": "krn006.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/sir159.brstm",
+    "Translation": "sir159.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  }
+]

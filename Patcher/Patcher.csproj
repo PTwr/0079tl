@@ -11,4 +11,10 @@
     <ProjectReference Include="..\GEVLib\GEVLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Subtitles\EFF\Campaign\" />
+    <Folder Include="Subtitles\Ace\" />
+    <Folder Include="Subtitles\Combination\" />
+  </ItemGroup>
+
 </Project>

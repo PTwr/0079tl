@@ -1,0 +1,29 @@
+[
+  {
+    "FileName": "sound/stream/eva023.brstm",
+    "Translation": "Kai! Hayato! TAke care of White Base!",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/eva024.brstm",
+    "Translation": "I won't hesitate anymore! I will fight Zeon!",
+    "Miliseconds": 5000,
+    "Color": "DarkGray",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/eva025.brstm",
+    "Translation": "Lave it to us, Amuro! Don't push yourself too hard",
+    "Miliseconds": 5000,
+    "Color": "DodgerBlue",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  }
+]

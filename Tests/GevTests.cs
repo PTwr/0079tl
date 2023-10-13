@@ -119,7 +119,7 @@ namespace Tests
                     });
 
                 {
-                    var outputPath = $@"C:\games\wii\0079\battlesubs\{Path.GetFileNameWithoutExtension(file)}.en.json";
+                    var outputPath = $@"C:\games\wii\0079\scenesubs\{Path.GetFileNameWithoutExtension(file)}\{Path.GetFileNameWithoutExtension(file)}.en.json";
                     Directory.CreateDirectory(Path.GetDirectoryName(outputPath));
                     var json = JsonConvert.SerializeObject(battlesubs, Newtonsoft.Json.Formatting.Indented);
                     File.WriteAllText(outputPath, json);

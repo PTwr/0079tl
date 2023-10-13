@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/eve542.brstm",
+    "Translation": "eve542.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  }
+]

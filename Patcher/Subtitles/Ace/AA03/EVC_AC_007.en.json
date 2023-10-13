@@ -1,0 +1,23 @@
+[
+  {
+    "FileName": "sound/stream/mqv056.brstm"
+  },
+  {
+    "FileName": "sound/stream/eva014.brstm",
+    "Translation": "Looks like its over",
+    "Miliseconds": 5000,
+    "Color": "Green",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/eva016.brstm",
+    "Translation": "Zeon is sending new weapons one after another!",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  }
+]

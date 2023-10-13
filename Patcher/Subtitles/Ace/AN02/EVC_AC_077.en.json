@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/nrs105.brstm",
+    "Translation": "nrs105.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/eva091.brstm",
+    "Translation": "eva091.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  }
+]

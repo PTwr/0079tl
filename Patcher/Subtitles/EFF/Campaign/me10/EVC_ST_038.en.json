@@ -1,0 +1,20 @@
+[
+  {
+    "FileName": "sound/stream/eve183.brstm",
+    "Translation": "eve183.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/eve184.brstm",
+    "Translation": "eve184.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "FileName": "sound/stream/eva021.brstm",
+    "Translation": "I won't let you do it, Zeon!",
+    "Miliseconds": 5000,
+    "Color": "DarkGray",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 1.0
+  },
+  {
+    "FileName": "sound/stream/amr001.brstm"
+  },
+  {
+    "FileName": "sound/stream/hyt015.brstm"
+  }
+]

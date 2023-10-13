@@ -3,7 +3,7 @@
     "FileName": "sound/stream/kai001.brstm",
     "Translation": "kai001.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -12,7 +12,7 @@
     "FileName": "sound/stream/kai002.brstm",
     "Translation": "kai002.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -21,7 +21,7 @@
     "FileName": "sound/stream/kai003.brstm",
     "Translation": "kai003.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -30,16 +30,16 @@
     "FileName": "sound/stream/kai004.brstm",
     "Translation": "kai004.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
   },
   {
     "FileName": "sound/stream/kai005.brstm",
-    "Translation": "kai005.brstm",
+    "Translation": "Incoming!",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -48,7 +48,7 @@
     "FileName": "sound/stream/kai006.brstm",
     "Translation": "kai006.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -57,7 +57,7 @@
     "FileName": "sound/stream/kai007.brstm",
     "Translation": "kai007.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -66,7 +66,7 @@
     "FileName": "sound/stream/kai008.brstm",
     "Translation": "kai008.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -75,7 +75,7 @@
     "FileName": "sound/stream/kai009.brstm",
     "Translation": "kai009.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -84,7 +84,7 @@
     "FileName": "sound/stream/kai010.brstm",
     "Translation": "kai010.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -93,7 +93,7 @@
     "FileName": "sound/stream/kai011.brstm",
     "Translation": "kai011.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -102,7 +102,7 @@
     "FileName": "sound/stream/kai012.brstm",
     "Translation": "kai012.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -111,7 +111,7 @@
     "FileName": "sound/stream/kai013.brstm",
     "Translation": "kai013.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -120,7 +120,7 @@
     "FileName": "sound/stream/kai014.brstm",
     "Translation": "kai014.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -129,7 +129,7 @@
     "FileName": "sound/stream/kai015.brstm",
     "Translation": "kai015.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -138,7 +138,7 @@
     "FileName": "sound/stream/kai016.brstm",
     "Translation": "kai016.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -147,7 +147,7 @@
     "FileName": "sound/stream/kai017.brstm",
     "Translation": "kai017.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -156,7 +156,7 @@
     "FileName": "sound/stream/kai018.brstm",
     "Translation": "kai018.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -165,7 +165,7 @@
     "FileName": "sound/stream/kai019.brstm",
     "Translation": "kai019.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -174,7 +174,7 @@
     "FileName": "sound/stream/kai020.brstm",
     "Translation": "kai020.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -183,7 +183,7 @@
     "FileName": "sound/stream/kai021.brstm",
     "Translation": "kai021.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -192,7 +192,7 @@
     "FileName": "sound/stream/kai022.brstm",
     "Translation": "kai022.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -201,7 +201,7 @@
     "FileName": "sound/stream/kai023.brstm",
     "Translation": "kai023.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -210,7 +210,7 @@
     "FileName": "sound/stream/kai024.brstm",
     "Translation": "kai024.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -219,7 +219,7 @@
     "FileName": "sound/stream/kai025.brstm",
     "Translation": "kai025.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -228,7 +228,7 @@
     "FileName": "sound/stream/kai026.brstm",
     "Translation": "kai026.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -237,7 +237,7 @@
     "FileName": "sound/stream/kai027.brstm",
     "Translation": "kai027.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -246,7 +246,7 @@
     "FileName": "sound/stream/kai028.brstm",
     "Translation": "kai028.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -255,7 +255,7 @@
     "FileName": "sound/stream/kai029.brstm",
     "Translation": "kai029.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -264,7 +264,7 @@
     "FileName": "sound/stream/kai030.brstm",
     "Translation": "kai030.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -273,7 +273,7 @@
     "FileName": "sound/stream/kai031.brstm",
     "Translation": "kai031.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -282,7 +282,7 @@
     "FileName": "sound/stream/kai032.brstm",
     "Translation": "kai032.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -291,7 +291,7 @@
     "FileName": "sound/stream/kai033.brstm",
     "Translation": "kai033.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -300,7 +300,7 @@
     "FileName": "sound/stream/kai034.brstm",
     "Translation": "kai034.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -309,7 +309,7 @@
     "FileName": "sound/stream/kai035.brstm",
     "Translation": "kai035.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -318,7 +318,7 @@
     "FileName": "sound/stream/kai036.brstm",
     "Translation": "kai036.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -327,7 +327,7 @@
     "FileName": "sound/stream/kai037.brstm",
     "Translation": "kai037.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -336,7 +336,7 @@
     "FileName": "sound/stream/kai038.brstm",
     "Translation": "kai038.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -345,7 +345,7 @@
     "FileName": "sound/stream/kai039.brstm",
     "Translation": "kai039.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -354,7 +354,7 @@
     "FileName": "sound/stream/kai040.brstm",
     "Translation": "kai040.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -363,7 +363,7 @@
     "FileName": "sound/stream/kai041.brstm",
     "Translation": "kai041.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -372,7 +372,7 @@
     "FileName": "sound/stream/kai042.brstm",
     "Translation": "kai042.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -381,7 +381,7 @@
     "FileName": "sound/stream/kai043.brstm",
     "Translation": "kai043.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -390,7 +390,7 @@
     "FileName": "sound/stream/kai044.brstm",
     "Translation": "kai044.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -399,7 +399,7 @@
     "FileName": "sound/stream/kai045.brstm",
     "Translation": "kai045.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -408,7 +408,7 @@
     "FileName": "sound/stream/kai046.brstm",
     "Translation": "kai046.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -417,7 +417,7 @@
     "FileName": "sound/stream/kai047.brstm",
     "Translation": "kai047.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -426,7 +426,7 @@
     "FileName": "sound/stream/kai048.brstm",
     "Translation": "kai048.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -435,7 +435,7 @@
     "FileName": "sound/stream/kai049.brstm",
     "Translation": "kai049.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -444,7 +444,7 @@
     "FileName": "sound/stream/kai050.brstm",
     "Translation": "kai050.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -453,7 +453,7 @@
     "FileName": "sound/stream/kai051.brstm",
     "Translation": "kai051.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -462,7 +462,7 @@
     "FileName": "sound/stream/kai052.brstm",
     "Translation": "kai052.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -471,7 +471,7 @@
     "FileName": "sound/stream/kai053.brstm",
     "Translation": "kai053.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -480,25 +480,25 @@
     "FileName": "sound/stream/kai054.brstm",
     "Translation": "kai054.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
   },
   {
     "FileName": "sound/stream/kai055.brstm",
-    "Translation": "kai055.brstm",
+    "Translation": "Aaaahhh! It's gonna blow!",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2
+    "Scale": 1.0
   },
   {
     "FileName": "sound/stream/kai056.brstm",
     "Translation": "kai056.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -507,7 +507,7 @@
     "FileName": "sound/stream/kai057.brstm",
     "Translation": "kai057.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -516,7 +516,7 @@
     "FileName": "sound/stream/kai058.brstm",
     "Translation": "kai058.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -525,7 +525,7 @@
     "FileName": "sound/stream/kai059.brstm",
     "Translation": "kai059.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -534,7 +534,7 @@
     "FileName": "sound/stream/kai060.brstm",
     "Translation": "kai060.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -543,7 +543,7 @@
     "FileName": "sound/stream/kai061.brstm",
     "Translation": "kai061.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -552,7 +552,7 @@
     "FileName": "sound/stream/kai062.brstm",
     "Translation": "kai062.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -561,7 +561,7 @@
     "FileName": "sound/stream/kai063.brstm",
     "Translation": "kai063.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -570,7 +570,7 @@
     "FileName": "sound/stream/kai064.brstm",
     "Translation": "kai064.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -579,7 +579,7 @@
     "FileName": "sound/stream/kai065.brstm",
     "Translation": "kai065.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -588,7 +588,7 @@
     "FileName": "sound/stream/kai066.brstm",
     "Translation": "kai066.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -597,7 +597,7 @@
     "FileName": "sound/stream/kai067.brstm",
     "Translation": "kai067.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -606,7 +606,7 @@
     "FileName": "sound/stream/kai068.brstm",
     "Translation": "kai068.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -615,7 +615,7 @@
     "FileName": "sound/stream/kai069.brstm",
     "Translation": "kai069.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -624,7 +624,7 @@
     "FileName": "sound/stream/kai070.brstm",
     "Translation": "kai070.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -633,7 +633,7 @@
     "FileName": "sound/stream/kai071.brstm",
     "Translation": "kai071.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -642,7 +642,7 @@
     "FileName": "sound/stream/kai072.brstm",
     "Translation": "kai072.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -651,7 +651,7 @@
     "FileName": "sound/stream/kai073.brstm",
     "Translation": "kai073.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -660,7 +660,7 @@
     "FileName": "sound/stream/kai074.brstm",
     "Translation": "kai074.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -669,7 +669,7 @@
     "FileName": "sound/stream/kai075.brstm",
     "Translation": "kai075.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -678,7 +678,7 @@
     "FileName": "sound/stream/kai076.brstm",
     "Translation": "kai076.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -687,7 +687,7 @@
     "FileName": "sound/stream/kai077.brstm",
     "Translation": "kai077.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -696,7 +696,7 @@
     "FileName": "sound/stream/kai078.brstm",
     "Translation": "kai078.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -705,7 +705,7 @@
     "FileName": "sound/stream/kai079.brstm",
     "Translation": "kai079.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -714,7 +714,7 @@
     "FileName": "sound/stream/kai080.brstm",
     "Translation": "kai080.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -723,7 +723,7 @@
     "FileName": "sound/stream/kai081.brstm",
     "Translation": "kai081.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -732,7 +732,7 @@
     "FileName": "sound/stream/kai082.brstm",
     "Translation": "kai082.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -741,7 +741,7 @@
     "FileName": "sound/stream/kai083.brstm",
     "Translation": "kai083.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -750,7 +750,7 @@
     "FileName": "sound/stream/kai084.brstm",
     "Translation": "kai084.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -759,7 +759,7 @@
     "FileName": "sound/stream/kai085.brstm",
     "Translation": "kai085.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -768,7 +768,7 @@
     "FileName": "sound/stream/kai086.brstm",
     "Translation": "kai086.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -777,7 +777,7 @@
     "FileName": "sound/stream/kai087.brstm",
     "Translation": "kai087.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -786,7 +786,7 @@
     "FileName": "sound/stream/kai088.brstm",
     "Translation": "kai088.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -795,7 +795,7 @@
     "FileName": "sound/stream/kai089.brstm",
     "Translation": "kai089.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -804,7 +804,7 @@
     "FileName": "sound/stream/kai090.brstm",
     "Translation": "kai090.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -813,7 +813,7 @@
     "FileName": "sound/stream/kai091.brstm",
     "Translation": "kai091.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -822,7 +822,7 @@
     "FileName": "sound/stream/kai092.brstm",
     "Translation": "kai092.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -831,7 +831,7 @@
     "FileName": "sound/stream/kai093.brstm",
     "Translation": "kai093.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -840,7 +840,7 @@
     "FileName": "sound/stream/kai094.brstm",
     "Translation": "kai094.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -849,7 +849,7 @@
     "FileName": "sound/stream/kai095.brstm",
     "Translation": "kai095.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -858,7 +858,7 @@
     "FileName": "sound/stream/kai096.brstm",
     "Translation": "kai096.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -867,7 +867,7 @@
     "FileName": "sound/stream/kai097.brstm",
     "Translation": "kai097.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -876,7 +876,7 @@
     "FileName": "sound/stream/kai098.brstm",
     "Translation": "kai098.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -885,7 +885,7 @@
     "FileName": "sound/stream/kai099.brstm",
     "Translation": "kai099.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -894,7 +894,7 @@
     "FileName": "sound/stream/kai100.brstm",
     "Translation": "kai100.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -903,7 +903,7 @@
     "FileName": "sound/stream/kai101.brstm",
     "Translation": "kai101.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -912,7 +912,7 @@
     "FileName": "sound/stream/kai102.brstm",
     "Translation": "kai102.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -921,7 +921,7 @@
     "FileName": "sound/stream/kai103.brstm",
     "Translation": "kai103.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -930,7 +930,7 @@
     "FileName": "sound/stream/kai104.brstm",
     "Translation": "kai104.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -939,7 +939,7 @@
     "FileName": "sound/stream/kai105.brstm",
     "Translation": "kai105.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -948,7 +948,7 @@
     "FileName": "sound/stream/kai106.brstm",
     "Translation": "kai106.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -957,7 +957,7 @@
     "FileName": "sound/stream/kai107.brstm",
     "Translation": "kai107.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -966,7 +966,7 @@
     "FileName": "sound/stream/kai108.brstm",
     "Translation": "kai108.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -975,7 +975,7 @@
     "FileName": "sound/stream/kai109.brstm",
     "Translation": "kai109.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -984,7 +984,7 @@
     "FileName": "sound/stream/kai110.brstm",
     "Translation": "kai110.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -993,7 +993,7 @@
     "FileName": "sound/stream/kai111.brstm",
     "Translation": "kai111.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1002,7 +1002,7 @@
     "FileName": "sound/stream/kai112.brstm",
     "Translation": "kai112.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1011,7 +1011,7 @@
     "FileName": "sound/stream/kai113.brstm",
     "Translation": "kai113.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1020,7 +1020,7 @@
     "FileName": "sound/stream/kai114.brstm",
     "Translation": "kai114.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1029,7 +1029,7 @@
     "FileName": "sound/stream/kai115.brstm",
     "Translation": "kai115.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1038,7 +1038,7 @@
     "FileName": "sound/stream/kai116.brstm",
     "Translation": "kai116.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1047,7 +1047,7 @@
     "FileName": "sound/stream/kai117.brstm",
     "Translation": "kai117.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1056,7 +1056,7 @@
     "FileName": "sound/stream/kai118.brstm",
     "Translation": "kai118.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1065,7 +1065,7 @@
     "FileName": "sound/stream/kai119.brstm",
     "Translation": "kai119.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1074,7 +1074,7 @@
     "FileName": "sound/stream/kai120.brstm",
     "Translation": "kai120.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1083,7 +1083,7 @@
     "FileName": "sound/stream/kai121.brstm",
     "Translation": "kai121.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1092,7 +1092,7 @@
     "FileName": "sound/stream/kai122.brstm",
     "Translation": "kai122.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1101,7 +1101,7 @@
     "FileName": "sound/stream/kai123.brstm",
     "Translation": "kai123.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1110,7 +1110,7 @@
     "FileName": "sound/stream/kai124.brstm",
     "Translation": "kai124.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1119,7 +1119,7 @@
     "FileName": "sound/stream/kai125.brstm",
     "Translation": "kai125.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1128,7 +1128,7 @@
     "FileName": "sound/stream/kai126.brstm",
     "Translation": "kai126.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1137,7 +1137,7 @@
     "FileName": "sound/stream/kai127.brstm",
     "Translation": "kai127.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1146,7 +1146,7 @@
     "FileName": "sound/stream/kai128.brstm",
     "Translation": "kai128.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1155,7 +1155,7 @@
     "FileName": "sound/stream/kai129.brstm",
     "Translation": "kai129.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1164,7 +1164,7 @@
     "FileName": "sound/stream/kai130.brstm",
     "Translation": "kai130.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1173,7 +1173,7 @@
     "FileName": "sound/stream/kai131.brstm",
     "Translation": "kai131.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1182,7 +1182,7 @@
     "FileName": "sound/stream/kai132.brstm",
     "Translation": "kai132.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1191,7 +1191,7 @@
     "FileName": "sound/stream/kai133.brstm",
     "Translation": "kai133.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1200,7 +1200,7 @@
     "FileName": "sound/stream/kai134.brstm",
     "Translation": "kai134.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1209,7 +1209,7 @@
     "FileName": "sound/stream/kai135.brstm",
     "Translation": "kai135.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1218,7 +1218,7 @@
     "FileName": "sound/stream/kai136.brstm",
     "Translation": "kai136.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1227,7 +1227,7 @@
     "FileName": "sound/stream/kai137.brstm",
     "Translation": "kai137.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1236,7 +1236,7 @@
     "FileName": "sound/stream/kai138.brstm",
     "Translation": "kai138.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1245,7 +1245,7 @@
     "FileName": "sound/stream/kai139.brstm",
     "Translation": "kai139.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1254,7 +1254,7 @@
     "FileName": "sound/stream/kai140.brstm",
     "Translation": "kai140.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1263,7 +1263,7 @@
     "FileName": "sound/stream/kai141.brstm",
     "Translation": "kai141.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1272,7 +1272,7 @@
     "FileName": "sound/stream/kai142.brstm",
     "Translation": "kai142.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1281,7 +1281,7 @@
     "FileName": "sound/stream/kai143.brstm",
     "Translation": "kai143.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1290,7 +1290,7 @@
     "FileName": "sound/stream/kai144.brstm",
     "Translation": "kai144.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1299,7 +1299,7 @@
     "FileName": "sound/stream/kai145.brstm",
     "Translation": "kai145.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1308,7 +1308,7 @@
     "FileName": "sound/stream/kai146.brstm",
     "Translation": "kai146.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1317,7 +1317,7 @@
     "FileName": "sound/stream/kai147.brstm",
     "Translation": "kai147.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1326,7 +1326,7 @@
     "FileName": "sound/stream/kai148.brstm",
     "Translation": "kai148.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1335,7 +1335,7 @@
     "FileName": "sound/stream/kai149.brstm",
     "Translation": "kai149.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1344,7 +1344,7 @@
     "FileName": "sound/stream/kai150.brstm",
     "Translation": "kai150.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1353,7 +1353,7 @@
     "FileName": "sound/stream/kai151.brstm",
     "Translation": "kai151.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1362,7 +1362,7 @@
     "FileName": "sound/stream/kai152.brstm",
     "Translation": "kai152.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1371,7 +1371,7 @@
     "FileName": "sound/stream/kai153.brstm",
     "Translation": "kai153.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1380,7 +1380,7 @@
     "FileName": "sound/stream/kai154.brstm",
     "Translation": "kai154.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1389,7 +1389,7 @@
     "FileName": "sound/stream/kai155.brstm",
     "Translation": "kai155.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1398,7 +1398,7 @@
     "FileName": "sound/stream/kai156.brstm",
     "Translation": "kai156.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1407,7 +1407,7 @@
     "FileName": "sound/stream/kai157.brstm",
     "Translation": "kai157.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1416,7 +1416,7 @@
     "FileName": "sound/stream/kai158.brstm",
     "Translation": "kai158.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1425,7 +1425,7 @@
     "FileName": "sound/stream/kai159.brstm",
     "Translation": "kai159.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1434,7 +1434,7 @@
     "FileName": "sound/stream/kai160.brstm",
     "Translation": "kai160.brstm",
     "Miliseconds": 5000,
-    "Color": 4294944002,
+    "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
