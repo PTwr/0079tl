@@ -735,12 +735,14 @@
     "Text": "RANK"
   },
   {
+    "_": "this affects many views, gotta provide local TL. This is most common form",
     "ID": "BUTTON_INFO_01",
-    "Text": "｜≒Select｜∋Back｜"
+    "Text": "｜≒Select｜∈OK｜∋Back｜"
   },
   {
+    "_": "this affects many views, gotta provide local TL. This is most common form",
     "ID": "BUTTON_INFO_02",
-    "Text": "｜≒Select｜∈Ok｜∋Back｜"
+    "Text": "｜≒Select｜∈OK｜∋Back｜"
   },
   {
     "ID": "ROOT_LEVEL",
