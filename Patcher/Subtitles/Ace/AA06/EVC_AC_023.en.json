@@ -1,11 +1,12 @@
 [
   {
+    "_": "duplicated from AA01 EVC_AC_002",
     "FileName": "sound/stream/eva091.brstm",
-    "Translation": "eva091.brstm",
+    "Translation": "Who the hell is that pilot to put so much pressure on me?",
     "Miliseconds": 5000,
-    "Color": "Yellow",
-    "Enabled": true,
+    "Color": "Red",
+    "Enabled": false,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   }
 ]

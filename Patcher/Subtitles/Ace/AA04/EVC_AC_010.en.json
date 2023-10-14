@@ -6,7 +6,7 @@
     "Color": "White",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva018.brstm",
@@ -15,7 +15,7 @@
     "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva019.brstm",
@@ -24,6 +24,6 @@
     "Color": "DodgerBlue",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   }
 ]

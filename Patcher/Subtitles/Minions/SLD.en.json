@@ -217,7 +217,7 @@
   },
   {
     "FileName": "sound/stream/sld025.brstm",
-    "Translation": "sld025.brstm",
+    "Translation": "Federation Mobile Suits?!",
     "Miliseconds": 5000,
     "Color": 4288215964,
     "Enabled": true,
@@ -1045,7 +1045,7 @@
   },
   {
     "FileName": "sound/stream/sld117.brstm",
-    "Translation": "sld117.brstm",
+    "Translation": "Is that the rumored Gundam?",
     "Miliseconds": 5000,
     "Color": 4288215964,
     "Enabled": true,

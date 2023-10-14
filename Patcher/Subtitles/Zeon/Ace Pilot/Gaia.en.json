@@ -1320,7 +1320,7 @@
     "Color": "DarkViolet",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/guy148.brstm",

@@ -6,7 +6,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve021.brstm",
@@ -15,7 +15,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve022.brstm",
@@ -24,7 +24,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve023.brstm",
@@ -33,7 +33,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve024.brstm",
@@ -42,7 +42,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve025.brstm",
@@ -51,7 +51,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve026.brstm",
@@ -60,7 +60,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hoa016.brstm",
@@ -69,7 +69,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve543.brstm",
@@ -78,6 +78,6 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   }
 ]

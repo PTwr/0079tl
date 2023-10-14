@@ -6,7 +6,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/dnb118.brstm",
@@ -15,7 +15,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve253.brstm",
@@ -24,7 +24,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve254.brstm",
@@ -33,7 +33,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hoa059.brstm",
@@ -42,7 +42,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/aln117.brstm",
@@ -51,7 +51,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve662.brstm",
@@ -60,7 +60,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/slf008.brstm",
@@ -69,7 +69,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve258.brstm",
@@ -78,7 +78,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eve259.brstm",
@@ -87,7 +87,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hoa009.brstm",
@@ -96,7 +96,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hoa011.brstm",
@@ -105,7 +105,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/aln016.brstm",
@@ -114,7 +114,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/slf095.brstm",
@@ -123,7 +123,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hoa053.brstm",
@@ -132,7 +132,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hoa058.brstm",
@@ -141,6 +141,6 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   }
 ]

@@ -3,13 +3,14 @@
     "FileName": "sound/stream/mqv056.brstm"
   },
   {
+    "_": "Kycilia complains about M'Quve failure?",
     "FileName": "sound/stream/eva014.brstm",
-    "Translation": "Looks like its over",
+    "Translation": "Looks like its over, get back!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva016.brstm",
@@ -18,6 +19,6 @@
     "Color": "White",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   }
 ]

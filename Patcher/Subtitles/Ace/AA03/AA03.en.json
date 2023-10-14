@@ -1,47 +1,38 @@
 [
   {
-    "FileName": "sound/stream/amr153.brstm",
-    "Translation": "amr153.brstm",
-    "Miliseconds": 5000,
-    "Color": "Yellow",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 1.0
+    "FileName": "sound/stream/amr153.brstm"
   },
   {
+    "_": "Ramba Ral",
     "FileName": "sound/stream/eva015.brstm",
-    "Translation": "eva015.brstm",
+    "Translation": "Hamon, attack!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "CornflowerBlue",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
+    "_": "Ramba Ral",
     "FileName": "sound/stream/eva094.brstm",
-    "Translation": "eva094.brstm",
+    "Translation": "Hamon! Attack failed, disengage!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "CornflowerBlue",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
-    "FileName": "sound/stream/amr020.brstm",
-    "Translation": "amr020.brstm",
-    "Miliseconds": 5000,
-    "Color": "Yellow",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 1.0
+    "FileName": "sound/stream/amr020.brstm"
   },
   {
+    "_": "Ramba Ral",
     "FileName": "sound/stream/eva093.brstm",
-    "Translation": "eva093.brstm",
+    "Translation": "Where was that Gundam hiding?",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "CornflowerBlue",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   }
 ]

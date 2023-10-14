@@ -474,7 +474,7 @@
     "Color": "DodgerBlue",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hyt054.brstm",
@@ -1360,7 +1360,7 @@
   },
   {
     "FileName": "sound/stream/hyt152.brstm",
-    "Translation": "hyt152.brstm",
+    "Translation": "If I can't even beat a Zaku, I'll be a laughing stock",
     "Miliseconds": 5000,
     "Color": "DodgerBlue",
     "Enabled": true,

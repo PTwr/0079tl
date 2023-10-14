@@ -6,7 +6,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/ain094.brstm",
@@ -15,7 +15,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/ain052.brstm",
@@ -24,7 +24,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/ain069.brstm",
@@ -33,7 +33,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hoa006.brstm",
@@ -42,7 +42,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hoa029.brstm",
@@ -51,7 +51,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hoa031.brstm",
@@ -60,7 +60,7 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/hoa032.brstm",
@@ -69,6 +69,6 @@
     "Color": "Yellow",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   }
 ]

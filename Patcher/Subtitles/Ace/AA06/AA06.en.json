@@ -1,20 +1,8 @@
 [
   {
-    "FileName": "sound/stream/amr112.brstm",
-    "Translation": "amr112.brstm",
-    "Miliseconds": 5000,
-    "Color": "Yellow",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 1.0
+    "FileName": "sound/stream/amr112.brstm"
   },
   {
-    "FileName": "sound/stream/amr113.brstm",
-    "Translation": "amr113.brstm",
-    "Miliseconds": 5000,
-    "Color": "Yellow",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 1.0
+    "FileName": "sound/stream/amr113.brstm"
   }
 ]

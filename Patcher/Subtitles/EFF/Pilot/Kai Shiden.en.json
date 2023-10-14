@@ -492,7 +492,7 @@
     "Color": "DarkGray",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 1.0
+    "Scale": 2.0
   },
   {
     "FileName": "sound/stream/kai056.brstm",
@@ -1360,7 +1360,7 @@
   },
   {
     "FileName": "sound/stream/kai152.brstm",
-    "Translation": "kai152.brstm",
+    "Translation": "Zaku's are a small fry!",
     "Miliseconds": 5000,
     "Color": "DarkGray",
     "Enabled": true,
