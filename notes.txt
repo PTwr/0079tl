@@ -181,7 +181,7 @@ h_limit Limit:SetLimit modifies hangar screen according to mission code
 hm_br_root_efsf_info.lua
 EFF mission tree
 01
-02
+02 (Shoot down planes for Special)
 03 | 04 (pro-noob)
 05
 06 | 07
@@ -224,8 +224,8 @@ EFf, EFF, Zeon, Zeon, Zeon
 strm are in wiireal.brsar
 
 bgm_60 = Char prologue
-STRM_66 => bgm_61 EFF ending 1 ME20?
-STRM_67 => bgm_62 EFF ending 2 (ME21 something about california base?)
-STRM_68 => bgm_63 Zeon ending 1
-STRM_69 => bgm_64 Zeon ending 2
-STRM_70 => bgm_65 Zeon ending 3 MZ21, whats with bgm63 and bgm64 then?  is bgm65 after getting 100% S?
+STRM_66 => bgm_61 EFF ending 1 ME20 route A
+STRM_67 => bgm_62 EFF ending 2 ME21 route B
+STRM_68 => bgm_63 Zeon ending 1 route A?
+STRM_69 => bgm_64 Zeon ending 2 route B?
+STRM_70 => bgm_65 Zeon ending 3 A+B?

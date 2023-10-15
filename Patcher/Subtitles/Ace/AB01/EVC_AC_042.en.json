@@ -1,27 +1,21 @@
 [
   {
     "FileName": "sound/stream/eva123.brstm",
-    "Translation": "eva123.brstm",
+    "Translation": "Here it comes!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "SeaGreen",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
-    "FileName": "sound/stream/crs002.brstm",
-    "Translation": "crs002.brstm",
-    "Miliseconds": 5000,
-    "Color": "Yellow",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2.0
+    "FileName": "sound/stream/crs002.brstm"
   },
   {
     "FileName": "sound/stream/eva124.brstm",
-    "Translation": "eva124.brstm",
+    "Translation": "Good, I can do it!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "SeaGreen",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0

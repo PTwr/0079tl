@@ -23,3 +23,149 @@ ME09 -> Ace shiro
 ME21 -> Yazan Gable pilot
 
 Ace Shiro -> Terry Sanders Jr pilot, Karen Joshiwa pilot, Pilot Shiro, Ez8 EFF?
+
+
+https://web.archive.org/web/20090414035933/http://game.morirepo.com/data/ms_index.html
+EFF
+Mass-produced gun tank 40
+    occurrence conditions	Mission.06-B "Shivering Mountain, Light of Death" Cleared
+    capture opportunity	Mission.03 “Time to make a decision”
+gym 45
+    occurrence conditions	Mission.02 "Gunshot echoing in the sand dunes" Cleared
+    capture opportunity	Mission.07 “Jaburo, Death Descent Operation”
+Jim Cannon 45
+    occurrence conditions	Mission.03-A "Giant Shadow Reflected in the Haze" Cleared
+    capture opportunity	Mission.04-B “Snowfield Lost”
+Gym cold region specification 50
+    occurrence conditions	Before the sortie of Mission.03-B “Smoke melts into the rain”
+    capture opportunity	Mission.07 “Jaburo, Death Descent Operation”
+Jim Light Armor 50
+    occurrence conditions	Obtain A rank or higher 6 times
+    capture opportunity	Mission.05 “Attacking beast”
+Ground type gym 55
+    occurrence conditions	Available from the beginning.
+    capture opportunity	Mission.01 “Burning-haired Lion”
+Guncannon mass production type 55
+    Appearance conditions	Mission.10-A "Iron Beast is in a Cage" Cleared
+    capture opportunity	Mission.11-A “What belongs to Zeon is mine”
+gun tank 60
+    occurrence conditions	Mission.04 “Rising Counterattack Smoke” Cleared
+    capture opportunity	Mission.02 “Odessa Day”
+gym command 70
+    occurrence conditions	Clear Mission.10-A “The Iron Beast is in a Cage” or Clear Mission.10-B “White Snow and Black Trap”
+    capture opportunity	Mission.11-A “What belongs to Zeon is mine”
+Gym Kai 75
+    Appearance conditions	Make your aircraft a gym command and sortie 3 times.
+    capture opportunity	Mission.08 “Grief behind” Mission.11-B “Sudden goodbye”
+Jim Sniper Custom 80
+    occurrence conditions	Before the sortie of Mission.03-B “Smoke melts into the rain”
+    capture opportunity	Mission.07 “Jaburo, Death Descent Operation”
+Gym Sniper II 90
+    occurrence conditions	Mission.10-A "Iron Beast is in a Cage" Cleared
+    capture opportunity	Mission.13-B "Return to space..."
+Ground type Gundam 95
+    Appearance conditions	Mission.06-B "Shivering Mountain, Light of Death" Cleared
+    capture opportunity	Mission.05-B “Goddess of Destruction”
+Gundam Ez-8 105
+    Appearance conditions	Cleared the Shiro edition of Ace Pilot mode and cleared the story mode.
+    capture opportunity	Clear Mission.06-B "Attack and Defense in the Far East" using the Ground Type Gundam.
+Guncannon 105
+    occurrence conditions	Mission.11-B "Soul Vanishing in Silver" Cleared
+    capture opportunity	Mission.09 "Time limit to escape" Mission.11-B "Sudden goodbye"
+BD Unit 1 120
+    Appearance conditions	Cleared the Yuu chapter of Ace Pilot mode and cleared the story mode.
+    capture opportunity	Make your aircraft into Ifrit Custom and sortie 3 times.
+Guncannon II 120
+    occurrence conditions	Sortie 3 times with your aircraft as a gun cannon.
+    capture opportunity	Mission.10-A “Attacking beast”
+Prototype Gundam 145
+    Appearance conditions	Clear Mission.08 "Green Hell and Fierce Battle Flames" with Gundam
+    capture opportunity	Clear the Akahana chapter of Ace Pilot Mode and progress through Story Mode to a certain level.
+gundam 150
+    Appearance conditions	Clear the Amuro chapter of Ace Pilot mode and the story mode.
+    capture opportunity	Use Prototype Gundam a certain number of times
+G-3 Gundam 155
+    Appearance conditions	Make your aircraft into a Gundam and sortie 3 times.
+    capture opportunity	Make your aircraft into a Gundam and sortie 3 times.
+gundam alex 180
+    occurrence conditions	Clear Ace Pilot Mode's Chris edition and all missions in Story Mode.
+    capture opportunity	
+    Clear both Chris and Bernie's chapters in Ace Pilot mode and all missions in Story mode.
+Full Armor Gundam 225
+    occurrence conditions	Clear all missions
+    capture opportunity	Mission.14 “Requiem for the Earth”
+
+Zeon
+Zaku I 40
+    Appearance conditions	Available from the beginning.
+    capture opportunity	Mission.06-A “A ruthless snow field that covers even death”
+Zaku II-J 45
+    Appearance conditions	Available from the beginning.
+    capture opportunity	Mission.01 “First battle illuminated by moonlight”
+Zaku Cannon 45
+    occurrence conditions	Mission.04 "Snowfield Lost" Cleared
+    capture opportunity	Mission.02 “The sound of gunfire echoing in the sand dunes”
+Zaku II-S 50
+    occurrence conditions	Mission.02 “Odessa Day” cleared
+    capture opportunity	Mission.05-B “Flame dancing in the clear night sky”
+Gouf 55
+    occurrence conditions	Mission.03 "Time of decision" cleared
+    capture opportunity	Mission.02 “The sound of gunfire echoing in the sand dunes”
+Acguy 55
+    occurrence conditions	Mission.04 “Darkness Blue” before sortie
+    capture opportunity	Mission.09 “Those who sleep in the depths of the earth”
+Zaku II Kai 65
+    occurrence conditions	The total number of times Zaku I and Zaku II have been used is 3.
+    capture opportunity	Mission.10-A “The iron beast is in a cage”
+Zaku II-S (Char) 70
+    Appearance conditions	Clear Char's Mission.01 "Red Comet" and Zeon's Mission.04 in Ace Pilot Mode.
+    capture opportunity	Cleared Char's chapter and Federation's chapter in Ace Pilot mode .
+dom 70
+    occurrence conditions	Mission.05 “Goddess of Destruction” cleared 
+    capture opportunity	Mission.05-A “Hound released into the darkness” Mission.05-B “Flames dancing in the clear night sky”
+Gog 70
+    occurrence conditions	Mission.04 “Darkness Blue” before sortie
+    capture opportunity	Mission.07-A “The sound of waves cannot be heard far away”
+Hygog 75
+    occurrence conditions	Sortie 3 times with your aircraft as Gog
+    capture opportunity	Mission.11-B “The soul disappearing into silver”
+Dom Troppen 75
+    occurrence conditions	Sortie 3 times with your own aircraft as Dom
+    capture opportunity	Mission.010-A “The iron beast is in a cage”
+dowadge 80
+    occurrence conditions	Mission.14 “Requiem for the Earth” cleared
+    capture opportunity	Mission.11-A “The roar of anger becomes hazy in the dust”
+Z'Gok 85
+    occurrence conditions	Mission.06 "Attack and Defense in the Far East" Cleared
+    capture opportunity	Mission.08 “Green Hell and Fierce Battle Flames”
+Gouf Custom 95
+    occurrence conditions	Obtain A rank or higher a certain number of times
+    capture opportunity	Mission.12-B “The devil hiding in the ruins”
+Ifrit Kai 115
+    occurrence conditions	Make your aircraft into Jim Blue Destiny and sortie 3 times.
+    capture opportunity	Cleared the Yuu and Zeon chapters in Ace Pilot Mode.
+Z'Gok-E 120
+    occurrence conditions	Mission.13 "Return to space..." Cleared
+    capture opportunity	Mission.11-B “The soul disappearing into silver”
+Z'Gok-S (Char) 130
+    occurrence conditions	Clear Ace Pilot Mode's Char arc and Zeon's Mission.07 "Jaburo's Death Descent Operation".
+    capture opportunity	Cleared the Char arc in Ace Pilot mode and the Zeon arc in Story mode.
+Zock 130
+    Appearance conditions	Mission.08 "Fierce Battle in the Underground Cavern" Cleared
+    capture opportunity	Mission.09 "Those who sleep in the depths of the earth" Mission.11-B "Souls disappearing into silver"
+Gyan 145
+    occurrence conditions	Mission.10 "Attacking beast" cleared
+    capture opportunity	Mission.13-A “The hawk of death has descended”
+Gelgoog 145
+    Appearance conditions	Mission.10 "Grief behind" cleared
+    capture opportunity	Mission.12-A “Morning dew descends into a violent earthquake” Mission.13-B “Eternal struggle, momentary end”
+Gelgoog Cannon 150
+    occurrence conditions	Mission.13 "Acceptors" cleared
+    capture opportunity	Mission.13-A “The hawk of death has descended” Mission.12-B “The devil lurks in the ruins”
+Advance mass production type Gelgoog 155
+    occurrence conditions Sortie your aircraft a certain number of times as Gelgoog or Gelgoog Cannon.
+    capture opportunity	Mission.13 “Eternal struggle, momentary end”
+kampfer 175
+    occurrence conditions	Clear Mission.12-B "The Last Escape Route" without defeating Kampfer.
+    capture opportunity	Mission.13-B “Eternal Struggle, Momentary End”
+

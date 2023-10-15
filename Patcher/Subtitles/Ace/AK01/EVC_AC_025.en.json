@@ -1,9 +1,9 @@
 [
   {
     "FileName": "sound/stream/eva060.brstm",
-    "Translation": "eva060.brstm",
+    "Translation": "Zeon mobile suits? I can't let them cause damage here\nAlex! Heading out!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0

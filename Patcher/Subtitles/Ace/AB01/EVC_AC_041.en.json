@@ -1,11 +1,5 @@
 [
   {
-    "FileName": "sound/stream/ber004.brstm",
-    "Translation": "Even though I think there's no way I can win, \nI still want to fight Gundam. That's weird.",
-    "Miliseconds": 5000,
-    "Color": "Yellow",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2.0
+    "FileName": "sound/stream/ber004.brstm"
   }
 ]

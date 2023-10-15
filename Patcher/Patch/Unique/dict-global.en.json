@@ -1436,7 +1436,7 @@
   },
   {
     "ID": "RESULT_MSG_WIN_02",
-    "Text": "@RESULT_MSG_WIN_02\n is now available for use by Federal forces."
+    "Text": "@RESULT_MSG_WIN_02@\n is now available for use by Federal forces."
   },
   {
     "ID": "RESULT_MSG_WIN_03",
