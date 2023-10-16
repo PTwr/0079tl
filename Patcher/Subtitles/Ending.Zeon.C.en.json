@@ -1,0 +1,12 @@
+[
+  {
+    "FileName": "sound/stream/bgm_65.brstm",
+    "Translation": "ENDING Zeon C",
+    "Miliseconds": 50000,
+    "Color": "White",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": "12000"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/bgm_62.brstm",
+    "Translation": "ENDING EFF B",
+    "Miliseconds": 50000,
+    "Color": "White",
+    "Enabled": false,
+    "AllowDuplicate": false,
+    "Scale": 2
+  }
+]
