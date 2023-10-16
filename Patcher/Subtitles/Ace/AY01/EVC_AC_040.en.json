@@ -1,11 +1,32 @@
 [
   {
     "FileName": "sound/stream/eva076.brstm",
-    "Translation": "eva076.brstm",
-    "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Translation": "Marion is gone...",
+    "Miliseconds": 4000,
+    "Color": "RoyalBlue",
     "Enabled": true,
     "AllowDuplicate": false,
-    "Scale": 2.0
+    "Scale": 2.0,
+    "Timestamp": 0
+  },
+  {
+    "FileName": "sound/stream/eva076.brstm",
+    "Translation": "but he was not freed of her...",
+    "Miliseconds": 4000,
+    "Color": "RoyalBlue",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0,
+    "Timestamp": 5000
+  },
+  {
+    "FileName": "sound/stream/eva076.brstm",
+    "Translation": "this fight is not over yet...",
+    "Miliseconds": 4000,
+    "Color": "RoyalBlue",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0,
+    "Timestamp": 10000
   }
 ]

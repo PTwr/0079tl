@@ -1,9 +1,9 @@
 [
   {
     "FileName": "sound/stream/eva063.brstm",
-    "Translation": "eva063.brstm",
+    "Translation": "EXAM guides me...",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "RoyalBlue",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0

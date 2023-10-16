@@ -3,7 +3,7 @@
     "FileName": "sound/stream/exm01.brstm",
     "Translation": "EXAM SYSTEM - STAND BY",
     "Miliseconds": 5000,
-    "Color": 4294967051,
+    "Color": "Crimson",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -12,7 +12,7 @@
     "FileName": "sound/stream/exm02.brstm",
     "Translation": "EXAM SYSTEM - SHUT DOWN",
     "Miliseconds": 5000,
-    "Color": 4294967051,
+    "Color": "Crimson",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2

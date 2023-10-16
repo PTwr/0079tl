@@ -1,108 +1,103 @@
 [
   {
-    "FileName": "sound/stream/you002.brstm",
-    "Translation": "you002.brstm",
-    "Miliseconds": 5000,
-    "Color": "Yellow",
-    "Enabled": true,
-    "AllowDuplicate": false,
-    "Scale": 2.0
+    "FileName": "sound/stream/you002.brstm"
   },
   {
     "FileName": "sound/stream/eva067.brstm",
-    "Translation": "eva067.brstm",
+    "Translation": "You can't bring Marion to her knees. That's your limit!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "PapayaWhip",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva068.brstm",
-    "Translation": "eva068.brstm",
+    "Translation": "That's the name of girl in EXAM?!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "RoyalBlue",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva065.brstm",
-    "Translation": "eva065.brstm",
+    "Translation": "I was chosen for EXAM!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "PapayaWhip",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva066.brstm",
-    "Translation": "eva066.brstm",
+    "Translation": "You are just a murderer!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "RoyalBlue",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva069.brstm",
-    "Translation": "eva069.brstm",
+    "Translation": "You knew it... from the start?",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "LightSkyBlue",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva070.brstm",
-    "Translation": "eva070.brstm",
+    "Translation": "EXAM? No... Marion?",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "RoyalBlue",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
+    "_": "Or you have to fight? exam screwing with their minds?",
     "FileName": "sound/stream/eva071.brstm",
-    "Translation": "eva071.brstm",
+    "Translation": "Please... don't fight!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "LightSkyBlue",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva072.brstm",
-    "Translation": "eva072.brstm",
+    "Translation": "Nimbus, stop! Those are not your thoughts!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "RoyalBlue",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva073.brstm",
-    "Translation": "eva073.brstm",
+    "Translation": "You can free me...",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "LightSkyBlue",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva074.brstm",
-    "Translation": "eva074.brstm",
+    "Translation": "I am not sure... I don't have any power like that...",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "RoyalBlue",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
   },
   {
     "FileName": "sound/stream/eva075.brstm",
-    "Translation": "eva075.brstm",
+    "Translation": "Nimbus! I will defeat you!",
     "Miliseconds": 5000,
-    "Color": "Yellow",
+    "Color": "RoyalBlue",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2.0
