@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/eva064.brstm",
+    "Translation": "That's Federation EXAM machine? We'll end this here!",
+    "Miliseconds": 5000,
+    "Color": "PapayaWhip",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

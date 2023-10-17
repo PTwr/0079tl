@@ -1,0 +1,38 @@
+[
+  {
+    "FileName": "sound/stream/eve185.brstm",
+    "Translation": "eve185",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/hoa006.brstm",
+    "Translation": "hoa006.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/aln016.brstm",
+    "Translation": "aln016.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eve186.brstm",
+    "Translation": "eve186",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

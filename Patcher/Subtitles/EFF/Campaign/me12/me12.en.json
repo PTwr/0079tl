@@ -1,0 +1,110 @@
+[
+  {
+    "FileName": "sound/stream/hoa008.brstm",
+    "Translation": "hoa008.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/aln002.brstm",
+    "Translation": "aln002.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eve203.brstm",
+    "Translation": "eve203",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eve204.brstm",
+    "Translation": "eve204",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/hoa028.brstm",
+    "Translation": "hoa028.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/aln017.brstm",
+    "Translation": "aln017.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eve543.brstm",
+    "Translation": "eve543.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/aln016.brstm",
+    "Translation": "aln016.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/hoa007.brstm",
+    "Translation": "hoa007.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/hoa013.brstm",
+    "Translation": "hoa013.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/aln010.brstm",
+    "Translation": "aln010.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/hoa058.brstm",
+    "Translation": "hoa058.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

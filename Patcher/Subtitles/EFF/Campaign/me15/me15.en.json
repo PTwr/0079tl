@@ -1,0 +1,65 @@
+[
+  {
+    "FileName": "sound/stream/eve591.brstm",
+    "Translation": "eve591",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eve592.brstm",
+    "Translation": "eve592",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eve595.brstm",
+    "Translation": "eve595",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eve596.brstm",
+    "Translation": "eve596",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/slb097.brstm",
+    "Translation": "slb097.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eve597.brstm",
+    "Translation": "eve597",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/slb098.brstm",
+    "Translation": "slb098.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

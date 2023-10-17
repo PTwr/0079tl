@@ -1,0 +1,29 @@
+[
+  {
+    "FileName": "sound/stream/eva100.brstm",
+    "Translation": "eva100.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eva101.brstm",
+    "Translation": "eva101.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eva102.brstm",
+    "Translation": "eva102.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

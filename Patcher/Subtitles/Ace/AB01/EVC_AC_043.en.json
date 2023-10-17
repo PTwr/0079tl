@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/eva127.brstm",
+    "Translation": "I did it... I'll see you soon, Chris",
+    "Miliseconds": 5000,
+    "Color": "SeaGreen",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

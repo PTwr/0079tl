@@ -1,0 +1,23 @@
+[
+  {
+    "FileName": "sound/stream/amr003.brstm"
+  },
+  {
+    "FileName": "sound/stream/eva020.brstm",
+    "Translation": "They have advantage under water! I have to lure them to the ground!",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/amr008.brstm"
+  },
+  {
+    "FileName": "sound/stream/amr009.brstm"
+  },
+  {
+    "FileName": "sound/stream/amr010.brstm"
+  }
+]

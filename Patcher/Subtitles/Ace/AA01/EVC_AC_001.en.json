@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/eva004.brstm",
+    "Translation": "Let's see how the white mobile suits perform on the ground",
+    "Miliseconds": 5000,
+    "Color": "Red",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

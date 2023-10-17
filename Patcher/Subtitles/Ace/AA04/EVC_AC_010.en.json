@@ -1,0 +1,29 @@
+[
+  {
+    "FileName": "sound/stream/eva017.brstm",
+    "Translation": "Defending Medea is top prioty, Hayato! Kai!",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eva018.brstm",
+    "Translation": "Well, we can try",
+    "Miliseconds": 5000,
+    "Color": "DarkGray",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eva019.brstm",
+    "Translation": "I know!",
+    "Miliseconds": 5000,
+    "Color": "DodgerBlue",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

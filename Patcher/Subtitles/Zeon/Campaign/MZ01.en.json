@@ -1,7 +1,7 @@
 [
   {
     "FileName": "sound/stream/evz013.brstm",
-    "Translation": "Anne, you'll be operating out of the area.\nNow let's go kick some feedie ass!",
+    "Translation": "Anne, you'll be operating out of the area.\nNow let's go kick some feedie scum!",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,
@@ -27,9 +27,9 @@
     "Scale": 2
   },
   {
+    "_": "amphibious MS is fast in water??? Just some silly saying garbled into MS slang?",
     "FileName": "sound/stream/evz016.brstm",
-    "Translation": "evz016.brstm",
-    "_Comment_": "amphibious MS is fast in water???",
+    "Translation": "Tanks sure are scampering around",
     "Miliseconds": 5000,
     "Color": "Green",
     "Enabled": true,

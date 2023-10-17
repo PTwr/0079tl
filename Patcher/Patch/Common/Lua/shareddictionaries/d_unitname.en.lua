@@ -890,7 +890,7 @@ D_UnitName = {
 	{
 		code = "KMP", 
 		excode = "MS_KMP", 
-		name = "MS-18E Kämpfer", 
+		name = "MS-18E Kampfer", 
 		cost = 175, 
 		code_number = "MS-18E KAMPFER",
 		pause_code = "MS-18E",

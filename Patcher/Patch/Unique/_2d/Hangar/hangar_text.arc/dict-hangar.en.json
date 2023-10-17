@@ -1,6 +1,6 @@
 [
-  //full length text instead of just MS to nicely display in hangar
   {
+    "_": "full length text instead of just MS to nicely display in hangar",
     "ID": "MS",
     "Text": "MOBILE SUIT"
   }

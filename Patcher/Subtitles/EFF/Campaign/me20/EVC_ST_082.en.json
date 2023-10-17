@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/aln010.brstm",
+    "Translation": "aln010.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

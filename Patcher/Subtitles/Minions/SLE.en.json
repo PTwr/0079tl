@@ -64,7 +64,8 @@
   },
   {
     "FileName": "sound/stream/sle008.brstm",
-    "Translation": "sle008.brstm",
+    "_": "I'll show you ssomething for your eyes?",
+    "Translation": "I'll show you how its done!",
     "Miliseconds": 5000,
     "Color": 4288215965,
     "Enabled": true,
@@ -217,7 +218,7 @@
   },
   {
     "FileName": "sound/stream/sle025.brstm",
-    "Translation": "sle025.brstm",
+    "Translation": "Federation Mobile Suits?!",
     "Miliseconds": 5000,
     "Color": 4288215965,
     "Enabled": true,

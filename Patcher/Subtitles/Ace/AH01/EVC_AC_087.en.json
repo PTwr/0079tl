@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/aka106.brstm",
+    "Translation": "aka106.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

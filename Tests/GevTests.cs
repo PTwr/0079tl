@@ -31,6 +31,32 @@ namespace Tests
             File.WriteAllBytes(@$"{Environment.ExpandEnvironmentVariables("%userprofile%")}\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\event\missionevent\other\TR01.gev", actualBytes);
         }
 
+        public string FilesToPlaylist(IEnumerable<SubtitleEntry> subs)
+        {
+            var soundfilesbyname = Directory
+                .EnumerateFiles(@"C:\games\wii\0079\0079_unpacked\DATA\files\sound\stream", "*.wav", SearchOption.AllDirectories)
+                .ToDictionary(i => Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(i)), i => i);
+
+            var sb = new StringBuilder();
+
+            sb.AppendLine("[playlist]");
+
+            int n = 0;
+            foreach (var sub in subs)
+            {
+                if (soundfilesbyname.TryGetValue(Path.GetFileNameWithoutExtension(sub.FileName), out var path))
+                {
+                    n++;
+                    sb.AppendLine($"File{n}={path}");
+                }
+            }
+
+            sb.AppendLine($"NumberOfEntries={n}");
+            sb.AppendLine("Version=2");
+
+            return sb.ToString();
+        }
+
         [Fact]
         public void GEVToString()
         {
@@ -103,6 +129,8 @@ namespace Tests
 
                     var json = JsonConvert.SerializeObject(sceneSubs, Newtonsoft.Json.Formatting.Indented);
                     File.WriteAllText(outputPath, json);
+
+                    File.WriteAllText(outputPath + ".pls", FilesToPlaylist(sceneSubs));
                 }
 
                 var battlesubs = gev.STR.Strings
@@ -119,10 +147,12 @@ namespace Tests
                     });
 
                 {
-                    var outputPath = $@"C:\games\wii\0079\battlesubs\{Path.GetFileNameWithoutExtension(file)}.en.json";
+                    var outputPath = $@"C:\games\wii\0079\scenesubs\{Path.GetFileNameWithoutExtension(file)}\{Path.GetFileNameWithoutExtension(file)}.en.json";
                     Directory.CreateDirectory(Path.GetDirectoryName(outputPath));
                     var json = JsonConvert.SerializeObject(battlesubs, Newtonsoft.Json.Formatting.Indented);
                     File.WriteAllText(outputPath, json);
+
+                    File.WriteAllText(outputPath + ".pls", FilesToPlaylist(battlesubs));
                 }
             }
             //var expectedBytes = File.ReadAllBytes(@"C:\Users\LordOfTheSkrzynka\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\event\missionevent\other\TR01.gev");

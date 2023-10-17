@@ -65,7 +65,7 @@
       "Secure the Runaway"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.7
   },
   {
     "ID": "BR_DATA_C_01",
@@ -101,7 +101,7 @@
       "Medea Transport"
     ],
     "TabSpace": null,
-    "Size": null
+    "Size": 0.7
   },
   {
     "ID": "BR_INFO_A_01",

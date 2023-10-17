@@ -1,0 +1,23 @@
+[
+  {
+    "FileName": "sound/stream/eva012.brstm",
+    "Translation": "I need to get back quickly...",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eva013.brstm",
+    "Translation": "This is good chance to show Kycilia power of Adzam",
+    "Miliseconds": 5000,
+    "Color": "BlueViolet",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/amr159.brstm"
+  }
+]

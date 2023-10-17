@@ -1,0 +1,29 @@
+[
+  {
+    "FileName": "sound/stream/eva001.brstm",
+    "Translation": "Hayato, Kai, we'll open path for White Base, follow me!",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eva002.brstm",
+    "Translation": "Hey, hey, I might act cool but I am not so sure about our strength...",
+    "Miliseconds": 5000,
+    "Color": "DarkGray",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/eva003.brstm",
+    "Translation": "I'll show Amuro I can do it too!",
+    "Miliseconds": 5000,
+    "Color": "DodgerBlue",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

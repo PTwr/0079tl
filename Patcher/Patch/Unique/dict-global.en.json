@@ -735,12 +735,14 @@
     "Text": "RANK"
   },
   {
+    "_": "this affects many views, gotta provide local TL. This is most common form",
     "ID": "BUTTON_INFO_01",
-    "Text": "｜≒Select｜∋Back｜"
+    "Text": "｜≒Select｜∈OK｜∋Back｜"
   },
   {
+    "_": "this affects many views, gotta provide local TL. This is most common form",
     "ID": "BUTTON_INFO_02",
-    "Text": "｜≒Select｜∈Ok｜∋Back｜"
+    "Text": "｜≒Select｜∈OK｜∋Back｜"
   },
   {
     "ID": "ROOT_LEVEL",
@@ -1434,7 +1436,7 @@
   },
   {
     "ID": "RESULT_MSG_WIN_02",
-    "Text": "@RESULT_MSG_WIN_02\n is now available for Federal forces."
+    "Text": "@RESULT_MSG_WIN_02@\n is now available for use by Federal forces."
   },
   {
     "ID": "RESULT_MSG_WIN_03",
@@ -2345,7 +2347,7 @@
   },
   {
     "ID": "TITLE_01",
-    "Text": "MS HANGAR"
+    "Text": "MOBILE SUIT GUNDAM 0079"
   },
   {
     "ID": "COST_01",
@@ -3460,7 +3462,7 @@
   },
   {
     "ID": "ACE_INF_SIR_00",
-    "Text": "Shiro Amada, commander of the 08th MS Platoon of Kojima Battalion.\nHe questions the military's methods and pursues the path he believes in."
+    "Text": "Shiro Amada, commander of the 08th MS Platoon..\nQuestions army's methods and pursues his own path."
   },
   {
     "ID": "ACE_INF_CRS_00",
@@ -3764,7 +3766,7 @@
   },
   {
     "ID": "MENU_OPTION",
-    "Text": "OPTION"
+    "Text": "SETTINGS"
   },
   {
     "ID": "TUTORIAL_SUB_01",
@@ -3848,7 +3850,7 @@
   },
   {
     "ID": "POTION_TITLE",
-    "Text": "OPTION"
+    "Text": "SETTINGS"
   },
   {
     "ID": "OPTION_VIB",

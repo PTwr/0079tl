@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/eva008.brstm",
+    "Translation": "Gau began its bombing run! Let's shot it down quickly!",
+    "Miliseconds": 5000,
+    "Color": "DodgerBlue",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

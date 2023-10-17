@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/eva028.brstm",
+    "Translation": "Has Zeon retreated?",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

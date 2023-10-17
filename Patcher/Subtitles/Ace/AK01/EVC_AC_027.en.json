@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/eva062.brstm",
+    "Translation": "I did it... mission...accomplished...",
+    "Miliseconds": 5000,
+    "Color": "Brown",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

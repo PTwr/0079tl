@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 using InMemoryBinaryFile.Helpers;
 using System.Reflection.Metadata.Ecma335;
 using GEVLib.GEV;
+using System.Text;
 
 internal class Program
 {
@@ -470,11 +471,14 @@ internal class Program
                     //try to match patch file length
                     if (newData.Length > node.BinaryData.Length)
                     {
-                        var dataReadAsText = File.ReadAllText(patchfile);
+                        //dictionaries are in utf8, rest seem to be in shiftjis
+                        var encoding = node.Name.StartsWith("d_") ? Encoding.UTF8 : EncodingHelper.Shift_JIS;
+                        var dataReadAsText = File.ReadAllText(patchfile, encoding);
 
                         var lines = dataReadAsText
                             .Split('\x0D', '\x0A');
 
+                        //todo make/use minifier which doesnt break on multiline comment
                         var trimmedLines = lines
                             .Select(i => i.Trim()) //ignore formatting
                             .Select(i => i.Replace(" = ", "=")) // unnecessary spaces in middle of dict lines
@@ -483,7 +487,7 @@ internal class Program
                             ;
 
                         var trimmedscript = string.Join("\x0D\x0A", trimmedLines);
-                        newData = trimmedscript.ToUTF8Bytes();
+                        newData = trimmedscript.ToBytes(encoding);
 
                         //padd spaces to match lnegth without tweaking .arc
                         if (newData.Length < node.BinaryData.Length)

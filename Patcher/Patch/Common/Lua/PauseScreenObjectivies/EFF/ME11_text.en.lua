@@ -1,8 +1,9 @@
 MissionText = {
 	{
 		code = "ME11_EV01",
-		value = "Medea with top secret cargo has crashed\
-Rescue it!",
+		value = "Medea with top secret cargo\
+has crashed.\
+Locate and recover it!",
 	},
 	{
 		code = "ME11_EV02",

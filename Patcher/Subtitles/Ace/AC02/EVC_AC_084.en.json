@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/chr112.brstm",
+    "Translation": "chr112.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

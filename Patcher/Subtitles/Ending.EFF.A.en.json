@@ -1,0 +1,169 @@
+[
+  {
+    "_": "Alan Aylward monologue begins here",
+    "TODO": "Chop/reorder to fully fill fill speach time, prevent two subs at same time"
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "Our fight here is almost over",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 12000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "most of the Earth is free of Zeon forces",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 17000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "However, in Africa, many Zeon troops still hide underground",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 22000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "and will resist Federation rule for years to come",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 27000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "But thats a story for another time...",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 23000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "This war, worst in human history, will soon come to an end",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 28000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "and all I've gained are few reliable comrades and trusted friends",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 33000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "but that's enough",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 38000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "A new story can begin from there...",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 42000
+  },
+  {
+    "_": "Char Aznable monologue begins here"
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "While Zeon mopup operation were unfolding on ground",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 95000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "final battle in space was reaching its end",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 100000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "After capturing space fortress Solomon",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 105000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "Federation has breached Zeon's final line of defense",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 110000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "and struct against ",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 115000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "final battle in space was reaching its end",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 120000
+  },
+  {
+    "FileName": "sound/stream/bgm_61.brstm",
+    "Translation": "final battle in space was reaching its end",
+    "Miliseconds": 5000,
+    "Color": "White",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2,
+    "Timestamp": 125000
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/eva061.brstm",
+    "Translation": "I am not a fighter, but I have to protectet them! Mom, dad, Al... Bernie...",
+    "Miliseconds": 10000,
+    "Color": "Brown",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

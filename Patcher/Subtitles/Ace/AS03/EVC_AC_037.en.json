@@ -1,0 +1,11 @@
+[
+  {
+    "FileName": "sound/stream/sir093.brstm",
+    "Translation": "sir093.brstm",
+    "Miliseconds": 5000,
+    "Color": "Yellow",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]

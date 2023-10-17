@@ -3,34 +3,35 @@
     "FileName": "sound/stream/crs001.brstm",
     "Translation": "crs001.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
   },
   {
     "FileName": "sound/stream/crs002.brstm",
-    "Translation": "crs002.brstm",
+    "Translation": "I have to do it... even if I'm scared...",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
   },
   {
+    "_": "doubting yourself will get you defeated",
     "FileName": "sound/stream/crs003.brstm",
-    "Translation": "crs003.brstm",
+    "Translation": "Calmly, Chirs. Nerves will get you killed",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
   },
   {
     "FileName": "sound/stream/crs004.brstm",
-    "Translation": "crs004.brstm",
+    "Translation": "If this strategy fails, many civilians will die...",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -39,7 +40,7 @@
     "FileName": "sound/stream/crs005.brstm",
     "Translation": "crs005.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -48,7 +49,7 @@
     "FileName": "sound/stream/crs006.brstm",
     "Translation": "crs006.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -57,7 +58,7 @@
     "FileName": "sound/stream/crs007.brstm",
     "Translation": "crs007.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -66,7 +67,7 @@
     "FileName": "sound/stream/crs008.brstm",
     "Translation": "crs008.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -75,7 +76,7 @@
     "FileName": "sound/stream/crs009.brstm",
     "Translation": "crs009.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -84,7 +85,7 @@
     "FileName": "sound/stream/crs010.brstm",
     "Translation": "crs010.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -93,7 +94,7 @@
     "FileName": "sound/stream/crs011.brstm",
     "Translation": "crs011.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -102,7 +103,7 @@
     "FileName": "sound/stream/crs012.brstm",
     "Translation": "crs012.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -111,7 +112,7 @@
     "FileName": "sound/stream/crs013.brstm",
     "Translation": "crs013.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -120,7 +121,7 @@
     "FileName": "sound/stream/crs014.brstm",
     "Translation": "crs014.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -129,7 +130,7 @@
     "FileName": "sound/stream/crs015.brstm",
     "Translation": "crs015.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -138,7 +139,7 @@
     "FileName": "sound/stream/crs016.brstm",
     "Translation": "crs016.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -147,7 +148,7 @@
     "FileName": "sound/stream/crs017.brstm",
     "Translation": "crs017.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -156,7 +157,7 @@
     "FileName": "sound/stream/crs018.brstm",
     "Translation": "crs018.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -165,7 +166,7 @@
     "FileName": "sound/stream/crs019.brstm",
     "Translation": "crs019.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -174,7 +175,7 @@
     "FileName": "sound/stream/crs020.brstm",
     "Translation": "crs020.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -183,7 +184,7 @@
     "FileName": "sound/stream/crs021.brstm",
     "Translation": "crs021.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -192,7 +193,7 @@
     "FileName": "sound/stream/crs022.brstm",
     "Translation": "crs022.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -201,7 +202,7 @@
     "FileName": "sound/stream/crs023.brstm",
     "Translation": "crs023.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -210,7 +211,7 @@
     "FileName": "sound/stream/crs024.brstm",
     "Translation": "crs024.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -219,7 +220,7 @@
     "FileName": "sound/stream/crs025.brstm",
     "Translation": "crs025.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -228,7 +229,7 @@
     "FileName": "sound/stream/crs026.brstm",
     "Translation": "crs026.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -237,7 +238,7 @@
     "FileName": "sound/stream/crs027.brstm",
     "Translation": "crs027.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -246,7 +247,7 @@
     "FileName": "sound/stream/crs028.brstm",
     "Translation": "crs028.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -255,7 +256,7 @@
     "FileName": "sound/stream/crs029.brstm",
     "Translation": "crs029.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -264,7 +265,7 @@
     "FileName": "sound/stream/crs030.brstm",
     "Translation": "crs030.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -273,7 +274,7 @@
     "FileName": "sound/stream/crs031.brstm",
     "Translation": "crs031.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -282,7 +283,7 @@
     "FileName": "sound/stream/crs032.brstm",
     "Translation": "crs032.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -291,7 +292,7 @@
     "FileName": "sound/stream/crs033.brstm",
     "Translation": "crs033.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -300,7 +301,7 @@
     "FileName": "sound/stream/crs034.brstm",
     "Translation": "crs034.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -309,7 +310,7 @@
     "FileName": "sound/stream/crs035.brstm",
     "Translation": "crs035.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -318,7 +319,7 @@
     "FileName": "sound/stream/crs036.brstm",
     "Translation": "crs036.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -327,7 +328,7 @@
     "FileName": "sound/stream/crs037.brstm",
     "Translation": "crs037.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -336,7 +337,7 @@
     "FileName": "sound/stream/crs038.brstm",
     "Translation": "crs038.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -345,7 +346,7 @@
     "FileName": "sound/stream/crs039.brstm",
     "Translation": "crs039.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -354,7 +355,7 @@
     "FileName": "sound/stream/crs040.brstm",
     "Translation": "crs040.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -363,7 +364,7 @@
     "FileName": "sound/stream/crs041.brstm",
     "Translation": "crs041.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -372,7 +373,7 @@
     "FileName": "sound/stream/crs042.brstm",
     "Translation": "crs042.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -381,7 +382,7 @@
     "FileName": "sound/stream/crs043.brstm",
     "Translation": "crs043.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -390,7 +391,7 @@
     "FileName": "sound/stream/crs044.brstm",
     "Translation": "crs044.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -399,7 +400,7 @@
     "FileName": "sound/stream/crs045.brstm",
     "Translation": "crs045.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -408,7 +409,7 @@
     "FileName": "sound/stream/crs046.brstm",
     "Translation": "crs046.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -417,7 +418,7 @@
     "FileName": "sound/stream/crs047.brstm",
     "Translation": "crs047.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -426,7 +427,7 @@
     "FileName": "sound/stream/crs048.brstm",
     "Translation": "crs048.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -435,7 +436,7 @@
     "FileName": "sound/stream/crs049.brstm",
     "Translation": "crs049.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -444,7 +445,7 @@
     "FileName": "sound/stream/crs050.brstm",
     "Translation": "crs050.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -453,7 +454,7 @@
     "FileName": "sound/stream/crs051.brstm",
     "Translation": "crs051.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -462,7 +463,7 @@
     "FileName": "sound/stream/crs052.brstm",
     "Translation": "crs052.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -471,7 +472,7 @@
     "FileName": "sound/stream/crs053.brstm",
     "Translation": "crs053.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -480,7 +481,7 @@
     "FileName": "sound/stream/crs054.brstm",
     "Translation": "crs054.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -489,7 +490,7 @@
     "FileName": "sound/stream/crs055.brstm",
     "Translation": "crs055.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -498,7 +499,7 @@
     "FileName": "sound/stream/crs056.brstm",
     "Translation": "crs056.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -507,7 +508,7 @@
     "FileName": "sound/stream/crs057.brstm",
     "Translation": "crs057.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -516,7 +517,7 @@
     "FileName": "sound/stream/crs058.brstm",
     "Translation": "crs058.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -525,7 +526,7 @@
     "FileName": "sound/stream/crs059.brstm",
     "Translation": "crs059.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -534,7 +535,7 @@
     "FileName": "sound/stream/crs060.brstm",
     "Translation": "crs060.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -543,7 +544,7 @@
     "FileName": "sound/stream/crs061.brstm",
     "Translation": "crs061.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -552,7 +553,7 @@
     "FileName": "sound/stream/crs062.brstm",
     "Translation": "crs062.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -561,7 +562,7 @@
     "FileName": "sound/stream/crs063.brstm",
     "Translation": "crs063.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -570,7 +571,7 @@
     "FileName": "sound/stream/crs064.brstm",
     "Translation": "crs064.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -579,7 +580,7 @@
     "FileName": "sound/stream/crs065.brstm",
     "Translation": "crs065.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -588,7 +589,7 @@
     "FileName": "sound/stream/crs066.brstm",
     "Translation": "crs066.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -597,7 +598,7 @@
     "FileName": "sound/stream/crs067.brstm",
     "Translation": "crs067.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -606,7 +607,7 @@
     "FileName": "sound/stream/crs068.brstm",
     "Translation": "crs068.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -615,7 +616,7 @@
     "FileName": "sound/stream/crs069.brstm",
     "Translation": "crs069.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -624,7 +625,7 @@
     "FileName": "sound/stream/crs070.brstm",
     "Translation": "crs070.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -633,7 +634,7 @@
     "FileName": "sound/stream/crs071.brstm",
     "Translation": "crs071.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -642,7 +643,7 @@
     "FileName": "sound/stream/crs072.brstm",
     "Translation": "crs072.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -651,7 +652,7 @@
     "FileName": "sound/stream/crs073.brstm",
     "Translation": "crs073.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -660,7 +661,7 @@
     "FileName": "sound/stream/crs074.brstm",
     "Translation": "crs074.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -669,7 +670,7 @@
     "FileName": "sound/stream/crs075.brstm",
     "Translation": "crs075.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -678,7 +679,7 @@
     "FileName": "sound/stream/crs076.brstm",
     "Translation": "crs076.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -687,7 +688,7 @@
     "FileName": "sound/stream/crs077.brstm",
     "Translation": "crs077.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -696,7 +697,7 @@
     "FileName": "sound/stream/crs078.brstm",
     "Translation": "crs078.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -705,7 +706,7 @@
     "FileName": "sound/stream/crs079.brstm",
     "Translation": "crs079.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -714,7 +715,7 @@
     "FileName": "sound/stream/crs080.brstm",
     "Translation": "crs080.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -723,7 +724,7 @@
     "FileName": "sound/stream/crs081.brstm",
     "Translation": "crs081.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -732,7 +733,7 @@
     "FileName": "sound/stream/crs082.brstm",
     "Translation": "crs082.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -741,7 +742,7 @@
     "FileName": "sound/stream/crs083.brstm",
     "Translation": "crs083.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -750,7 +751,7 @@
     "FileName": "sound/stream/crs084.brstm",
     "Translation": "crs084.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -759,7 +760,7 @@
     "FileName": "sound/stream/crs085.brstm",
     "Translation": "crs085.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -768,7 +769,7 @@
     "FileName": "sound/stream/crs086.brstm",
     "Translation": "crs086.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -777,7 +778,7 @@
     "FileName": "sound/stream/crs087.brstm",
     "Translation": "crs087.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -786,7 +787,7 @@
     "FileName": "sound/stream/crs088.brstm",
     "Translation": "crs088.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -795,7 +796,7 @@
     "FileName": "sound/stream/crs089.brstm",
     "Translation": "crs089.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -804,7 +805,7 @@
     "FileName": "sound/stream/crs090.brstm",
     "Translation": "crs090.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -813,7 +814,7 @@
     "FileName": "sound/stream/crs091.brstm",
     "Translation": "crs091.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -822,7 +823,7 @@
     "FileName": "sound/stream/crs092.brstm",
     "Translation": "crs092.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -831,7 +832,7 @@
     "FileName": "sound/stream/crs093.brstm",
     "Translation": "crs093.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -840,7 +841,7 @@
     "FileName": "sound/stream/crs094.brstm",
     "Translation": "crs094.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -849,7 +850,7 @@
     "FileName": "sound/stream/crs095.brstm",
     "Translation": "crs095.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -858,7 +859,7 @@
     "FileName": "sound/stream/crs096.brstm",
     "Translation": "crs096.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -867,7 +868,7 @@
     "FileName": "sound/stream/crs097.brstm",
     "Translation": "crs097.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -876,7 +877,7 @@
     "FileName": "sound/stream/crs098.brstm",
     "Translation": "crs098.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -885,7 +886,7 @@
     "FileName": "sound/stream/crs099.brstm",
     "Translation": "crs099.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -894,7 +895,7 @@
     "FileName": "sound/stream/crs100.brstm",
     "Translation": "crs100.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -903,7 +904,7 @@
     "FileName": "sound/stream/crs101.brstm",
     "Translation": "crs101.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -912,7 +913,7 @@
     "FileName": "sound/stream/crs102.brstm",
     "Translation": "crs102.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -921,7 +922,7 @@
     "FileName": "sound/stream/crs103.brstm",
     "Translation": "crs103.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -930,7 +931,7 @@
     "FileName": "sound/stream/crs104.brstm",
     "Translation": "crs104.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -939,7 +940,7 @@
     "FileName": "sound/stream/crs105.brstm",
     "Translation": "crs105.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -948,7 +949,7 @@
     "FileName": "sound/stream/crs106.brstm",
     "Translation": "crs106.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -957,7 +958,7 @@
     "FileName": "sound/stream/crs107.brstm",
     "Translation": "crs107.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -966,7 +967,7 @@
     "FileName": "sound/stream/crs108.brstm",
     "Translation": "crs108.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -975,7 +976,7 @@
     "FileName": "sound/stream/crs109.brstm",
     "Translation": "crs109.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -984,7 +985,7 @@
     "FileName": "sound/stream/crs110.brstm",
     "Translation": "crs110.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -993,7 +994,7 @@
     "FileName": "sound/stream/crs111.brstm",
     "Translation": "crs111.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1002,7 +1003,7 @@
     "FileName": "sound/stream/crs112.brstm",
     "Translation": "crs112.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1011,7 +1012,7 @@
     "FileName": "sound/stream/crs113.brstm",
     "Translation": "crs113.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1020,7 +1021,7 @@
     "FileName": "sound/stream/crs114.brstm",
     "Translation": "crs114.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1029,7 +1030,7 @@
     "FileName": "sound/stream/crs115.brstm",
     "Translation": "crs115.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1038,7 +1039,7 @@
     "FileName": "sound/stream/crs116.brstm",
     "Translation": "crs116.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1047,7 +1048,7 @@
     "FileName": "sound/stream/crs117.brstm",
     "Translation": "crs117.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1056,7 +1057,7 @@
     "FileName": "sound/stream/crs118.brstm",
     "Translation": "crs118.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1065,7 +1066,7 @@
     "FileName": "sound/stream/crs119.brstm",
     "Translation": "crs119.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1074,7 +1075,7 @@
     "FileName": "sound/stream/crs120.brstm",
     "Translation": "crs120.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1083,7 +1084,7 @@
     "FileName": "sound/stream/crs121.brstm",
     "Translation": "crs121.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1092,7 +1093,7 @@
     "FileName": "sound/stream/crs122.brstm",
     "Translation": "crs122.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1101,7 +1102,7 @@
     "FileName": "sound/stream/crs123.brstm",
     "Translation": "crs123.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1110,7 +1111,7 @@
     "FileName": "sound/stream/crs124.brstm",
     "Translation": "crs124.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1119,7 +1120,7 @@
     "FileName": "sound/stream/crs125.brstm",
     "Translation": "crs125.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1128,7 +1129,7 @@
     "FileName": "sound/stream/crs126.brstm",
     "Translation": "crs126.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1137,7 +1138,7 @@
     "FileName": "sound/stream/crs127.brstm",
     "Translation": "crs127.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1146,7 +1147,7 @@
     "FileName": "sound/stream/crs128.brstm",
     "Translation": "crs128.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1155,7 +1156,7 @@
     "FileName": "sound/stream/crs129.brstm",
     "Translation": "crs129.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1164,7 +1165,7 @@
     "FileName": "sound/stream/crs130.brstm",
     "Translation": "crs130.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1173,7 +1174,7 @@
     "FileName": "sound/stream/crs131.brstm",
     "Translation": "crs131.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1182,7 +1183,7 @@
     "FileName": "sound/stream/crs132.brstm",
     "Translation": "crs132.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1191,7 +1192,7 @@
     "FileName": "sound/stream/crs133.brstm",
     "Translation": "crs133.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1200,7 +1201,7 @@
     "FileName": "sound/stream/crs134.brstm",
     "Translation": "crs134.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1209,7 +1210,7 @@
     "FileName": "sound/stream/crs135.brstm",
     "Translation": "crs135.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1218,7 +1219,7 @@
     "FileName": "sound/stream/crs136.brstm",
     "Translation": "crs136.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1227,7 +1228,7 @@
     "FileName": "sound/stream/crs137.brstm",
     "Translation": "crs137.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1236,7 +1237,7 @@
     "FileName": "sound/stream/crs138.brstm",
     "Translation": "crs138.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1245,7 +1246,7 @@
     "FileName": "sound/stream/crs139.brstm",
     "Translation": "crs139.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1254,7 +1255,7 @@
     "FileName": "sound/stream/crs140.brstm",
     "Translation": "crs140.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1263,7 +1264,7 @@
     "FileName": "sound/stream/crs141.brstm",
     "Translation": "crs141.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1272,7 +1273,7 @@
     "FileName": "sound/stream/crs142.brstm",
     "Translation": "crs142.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1281,7 +1282,7 @@
     "FileName": "sound/stream/crs143.brstm",
     "Translation": "crs143.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1290,7 +1291,7 @@
     "FileName": "sound/stream/crs144.brstm",
     "Translation": "crs144.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1299,7 +1300,7 @@
     "FileName": "sound/stream/crs145.brstm",
     "Translation": "crs145.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1308,7 +1309,7 @@
     "FileName": "sound/stream/crs146.brstm",
     "Translation": "crs146.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1317,7 +1318,7 @@
     "FileName": "sound/stream/crs147.brstm",
     "Translation": "crs147.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1326,7 +1327,7 @@
     "FileName": "sound/stream/crs148.brstm",
     "Translation": "crs148.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1335,7 +1336,7 @@
     "FileName": "sound/stream/crs149.brstm",
     "Translation": "crs149.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1344,7 +1345,7 @@
     "FileName": "sound/stream/crs150.brstm",
     "Translation": "crs150.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1353,16 +1354,16 @@
     "FileName": "sound/stream/crs151.brstm",
     "Translation": "crs151.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
   },
   {
     "FileName": "sound/stream/crs152.brstm",
-    "Translation": "crs152.brstm",
+    "Translation": "It's an opponent I've defeated many times in simulations...\nbut I can't be overconfident in real battle...",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1371,16 +1372,17 @@
     "FileName": "sound/stream/crs153.brstm",
     "Translation": "crs153.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
   },
   {
+    "_":  "some saying about stopping drunkards being hard",
     "FileName": "sound/stream/crs154.brstm",
-    "Translation": "crs154.brstm",
+    "Translation": "First I need to stop their rampage... but thats easier said than done...",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1389,7 +1391,7 @@
     "FileName": "sound/stream/crs155.brstm",
     "Translation": "crs155.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1398,7 +1400,7 @@
     "FileName": "sound/stream/crs156.brstm",
     "Translation": "crs156.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1407,16 +1409,16 @@
     "FileName": "sound/stream/crs157.brstm",
     "Translation": "crs157.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
   },
   {
     "FileName": "sound/stream/crs158.brstm",
-    "Translation": "crs158.brstm",
+    "Translation": "Zeon's new suits? Those weapons and thrusters cannot be underestimated...",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1425,7 +1427,7 @@
     "FileName": "sound/stream/crs159.brstm",
     "Translation": "crs159.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2
@@ -1434,7 +1436,7 @@
     "FileName": "sound/stream/crs160.brstm",
     "Translation": "crs160.brstm",
     "Miliseconds": 5000,
-    "Color": 1,
+    "Color": "Brown",
     "Enabled": true,
     "AllowDuplicate": false,
     "Scale": 2

@@ -1,0 +1,32 @@
+[
+  {
+    "FileName": "sound/stream/ber001.brstm"
+  },
+  {
+    "FileName": "sound/stream/ber148.brstm"
+  },
+  {
+    "FileName": "sound/stream/eva126.brstm",
+    "Translation": "Can't let my guard down for a second, gotta be careful",
+    "Miliseconds": 5000,
+    "Color": "SeaGreen",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  },
+  {
+    "FileName": "sound/stream/ber002.brstm"
+  },
+  {
+    "FileName": "sound/stream/crs003.brstm"
+  },
+  {
+    "FileName": "sound/stream/eva125.brstm",
+    "Translation": "Gundam! As expected!",
+    "Miliseconds": 5000,
+    "Color": "SeaGreen",
+    "Enabled": true,
+    "AllowDuplicate": false,
+    "Scale": 2.0
+  }
+]
