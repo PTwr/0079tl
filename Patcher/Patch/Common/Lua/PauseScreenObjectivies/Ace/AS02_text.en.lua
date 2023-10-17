@@ -1,7 +1,7 @@
 MissionText = {
 	{
 		code = "AS02_EV01",
-		value = "Gun Tanks are key to siege.\
+		value = "Gun Tanks are key to victory.\
 Defend them at all costs！",
 	},
 	{

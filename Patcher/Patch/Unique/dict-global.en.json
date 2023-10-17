@@ -20,8 +20,8 @@
     "Text": "RETRY"
   },
   {
-    "ID": "RETURN_TO_SET-UP",
-    "Text": "RETURN TO\nSET-UP"
+    "ID": "RETURN_TO_SETUP",
+    "Text": "RETURN TO\nSETUP"
   },
   {
     "ID": "QUIT_GAME",
@@ -57,7 +57,7 @@
   },
   {
     "ID": "DOUBLE",
-    "Text": "Two handed："
+    "Text": "Two-handed："
   },
   {
     "ID": "SHOULDER",
@@ -170,19 +170,19 @@
   },
   {
     "ID": "WINDOW_RETRY",
-    "Text": "Start the mission over again.\nAre you sure?"
+    "Text": "Are you sure you want to\nstart the mission over again?"
   },
   {
     "ID": "WINDOW_RETURN",
-    "Text": "Return to base\nand try again??"
+    "Text": "Are you sure you want\nto return to the base?"
   },
   {
     "ID": "WINDOW_QUIT",
-    "Text": "Quit the game.\nYou will restart from the point where you saved.\nAre you sure?"
+    "Text": "Are you sure you want to quit?\nUnsaved progress will be lost."
   },
   {
     "ID": "WINDOW_QUIT_NO_SAVE",
-    "Text": "Quit the game.\nAre you sure?"
+    "Text": "Are you sure you\nwant to quit?"
   },
   {
     "ID": "MULTI_Window_YES",
@@ -252,7 +252,7 @@
     "ID": "MANUAL_1",
     "Lines": [
       "●Shooting",
-      "Use wiimote to target your gun",
+      "Use the Wii Remote to target your gun",
       "Lock enemy target with⊆",
       "",
       "",
@@ -273,13 +273,13 @@
   },
   {
     "ID": "MANUAL_A",
-    "Text": "              　　Basic action １\n"
+    "Text": "              　　Basic Controls １\n"
   },
   {
     "ID": "MANUAL_2",
     "Lines": [
       "●Sub weapon",
-      "Press ⊃ to switch to subweapon",
+      "Press ⊃ to switch to sub-weapon",
       "Pressing it again will switch to  ",
       "main weapon.",
       "For missles hold ∋ to perform ",
@@ -298,32 +298,32 @@
   },
   {
     "ID": "MANUAL_B",
-    "Text": "              　　Basic action ２\n"
+    "Text": "              　　Basic Controls ２\n"
   },
   {
     "ID": "MANUAL_3",
-    "Text": "●Guard parry\nWhen guarding (hold ∈＋∋)\nIf you shake wiimote at precise moment\nparry will happen\nallowing for counter attack\n\n\n●Clash\nIf your and enemy melee attack meet\na contest of strength will occur.\nKeep swinging wiimote\nto win clash\n\n\n\n\n　　　　　　　　　　　　　　ＰＡＧＥ－４"
+    "Text": "●Guard parry\nWhen guarding (hold ∈＋∋)\nIf you shake the Wii Remote at the precise moment\nparry will happen\nallowing for a counterattack\n\n\n●Clash\nIf your and your enemy's melee attack meet\na contest of strength will occur.\nKeep swinging the Wii Remote\nto win the clash\n\n\n\n\n　　　　　　　　　　　　　　ＰＡＧＥ－４"
   },
   {
     "ID": "MANUAL_C",
-    "Text": "              　　Advanced action １\n"
+    "Text": "              　　Advanced Controls １\n"
   },
   {
     "ID": "MANUAL_4",
     "Lines": [
-      "●Part desctruction",
+      "●Part destruction",
       "Each part has independent durability",
       "Destroying parts rewards more points",
-      "Destroyed part will detach from target",
+      "Destroyed parts will detach from target",
       "Destroy parts to disable weapons",
       "",
       "Your machine parts are indestructible",
       "",
       "",
       "●Headshot",
-      "Headshot in sniper mode（≒)",
+      "Headshot in Sniper Mode（≒)",
       "you will １-shot them",
-      "Sometimes headshot will drop enemy ",
+      "Sometimes headshots will drop enemy ",
       "weapon allowing you to use it.",
       "",
       "　　　　　　　　　　　　　　ＰＡＧＥ－５"
@@ -331,7 +331,7 @@
   },
   {
     "ID": "MANUAL_D",
-    "Text": "              　　Advanced action ２\n"
+    "Text": "              　　Advanced Controls ２\n"
   },
   {
     "ID": "MANUAL_5",
@@ -342,7 +342,7 @@
       "Some ＭＳ are not capable of using beam",
       "weaponry.",
       "",
-      "●One handed",
+      "●One-handed",
       "Most common shape for both types.",
       "Most ＭＳ can use them",
       "Some weapons have secondary mode",
@@ -356,20 +356,20 @@
   },
   {
     "ID": "MANUAL_E",
-    "Text": "              　　About weapons １\n"
+    "Text": "              　　About Weapons １\n"
   },
   {
     "ID": "MANUAL_6",
     "Lines": [
       "●Shoulder weapon",
-      "Bazzoka and rocket launchers are held",
-      " on shoulder, which disables shoulder",
+      "Bazooka and rocket launchers are held",
+      " on the shoulder, which disables shoulder",
       "subweapons. Attacking it deals damage",
       "to main body. ",
       "Shoulder weapons often deal splash",
       "damage with explosive warheads.",
       "",
-      "●Two handed",
+      "●Two-handed weapons",
       "Can't be equiped with shield.",
       "Shield will be discared on pickup.",
       "Shield can't be picked up again",
@@ -381,7 +381,7 @@
   },
   {
     "ID": "MANUAL_F",
-    "Text": "              　　About weapons ２\n"
+    "Text": "              　　About Weapons ２\n"
   },
   {
     "ID": "MANUAL_7",
@@ -406,15 +406,15 @@
   },
   {
     "ID": "MANUAL_G",
-    "Text": "              　About environment １\n"
+    "Text": "              　About Environment １\n"
   },
   {
     "ID": "MANUAL_8",
     "Lines": [
       "●Formation",
-      "※Can't be used in 「ACE PILOT」'",
+      "※Can't be used in ACE PILOT'",
       "Press ∪ o change formation in battle:",
-      "「Ｖ」- wingmans on your flank",
+      " Ｖ- wingmans on your flank",
       " Arrow - where your ＭＳ is leading",
       " Dispersed - no formation",
       "",
@@ -432,7 +432,7 @@
   },
   {
     "ID": "MANUAL_H",
-    "Text": "              　About environment ２\n"
+    "Text": "              　About Environment ２\n"
   },
   {
     "ID": "MANUAL_9",
@@ -620,7 +620,7 @@
   },
   {
     "ID": "BR_SELECT_BUTTON_INFO_01",
-    "Text": "｜≒Select｜∈Ok｜∋Main Menu｜"
+    "Text": "｜≒Select｜∈Confirm｜∋Main Menu｜"
   },
   {
     "ID": "BR_SELECT_HUNGER",
@@ -656,7 +656,7 @@
   },
   {
     "ID": "BR_SELECT_OPERATION_INFO",
-    "Text": "heck the briefing screen and conversation again\nMake sure you understand the details of the strategy"
+    "Text": "Check the briefing screen and past conversations again\nMake sure you understand the details of the strategy"
   },
   {
     "ID": "BR_SELECT_COND_INFO",
@@ -684,11 +684,11 @@
   },
   {
     "ID": "BR_SELECT_SAVE_DMY_INFO",
-    "Text": "ue to a problem with the Wii's storage memory, the game cannot be saved."
+    "Text": "Unable to save due to a problem with the Wii system memory."
   },
   {
     "ID": "BR_SELECT_LOAD_DMY_INFO",
-    "Text": "Unable to load due to a problem with the Wii's storage memory."
+    "Text": "Unable to load due to a problem with the Wii system memory."
   },
   {
     "ID": "BR_SELECT_ROOT_DMY",
@@ -846,7 +846,7 @@
   },
   {
     "ID": "SPACE_ME16_TEXT_01",
-    "Text": "Gobi DEsert"
+    "Text": "Gobi Desert"
   },
   {
     "ID": "SPACE_ME17_TEXT_01",
@@ -970,27 +970,27 @@
   },
   {
     "ID": "MSG_SAVE_RESULT_AUTHENTICATION_02",
-    "Text": "Save file corrupted\nContinue without save/load？"
+    "Text": "Save file corrupted\nContinue without saving？"
   },
   {
     "ID": "MSG_SAVE_RESULT_CORRUPT_01",
-    "Text": "The Wii's storage memory has been corrupted.\nPlease read the Wii's instruction manual for details."
+    "Text": "The Wii system memory is corrupted.\nRefer to the Wii Operations Manual for details."
   },
   {
     "ID": "MSG_SAVE_RESULT_ECC_CRIT_01",
-    "Text": "This file\ncannot be used because its data is corrupt.\nAre you sure you want to delete the file?"
+    "Text": "This file\ncannot be used because the data is corrupted.\nWould you like to delete the file?"
   },
   {
     "ID": "MSG_SAVE_RESULT_ECC_CRIT_02",
-    "Text": "This file\ncannot be used because the data is corrupted.\nDo you want to continue without saving/loading?"
+    "Text": "This file\ncannot be used because the data is corrupted.\nContinue without saving?"
   },
   {
     "ID": "MSG_SAVE_RESULT_MAXBLOCKS_01",
-    "Text": "There is an error in the amount of free space in the Wii's storage memory.\nPlease read the Wii's instruction manual for details."
+    "Text": "There is an error in the amount of free space in the Wii system memory.\nPlease read the Wii Operations Manual for details."
   },
   {
     "ID": "MSG_SAVE_RESULT_MAXFILES_01",
-    "Text": "The number of free files in the Wii's storage memory is abnormal.\nPlease read the Wii's instruction manual for details."
+    "Text": "The number of available files in the Wii system memory is abnormal.\nPlease read the Wii Operations Manual for details."
   },
   {
     "ID": "MSG_SAVE_RESULT_UNKNOWN_01",
@@ -1026,27 +1026,27 @@
   },
   {
     "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXBLOCKS_01",
-    "Text": "There is not enough free space in the Wii's storage memory.\nPlease move the data to the SD card on the save data screen, or delete the data to free up @NEED_BLOCKS@ blocks."
+    "Text": "There is not enough available space in the Wii system memory.\nCreate @NEED_BLOCKS@ block(s) of free space either by moving data to an SD Card or deleting data in the Wii Console's Data Management screen."
   },
   {
     "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXBLOCKS_02",
-    "Text": "To organize the contents of the Wii console memory,\nplease use the Wii console's Wii console memory editing screen\n."
+    "Text": "To organize the contents of the Wii system memory,\nplease use the Wii console's Data Management screen\n."
   },
   {
     "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXBLOCKS_03",
-    "Text": "Continue playing the game without saving/loading."
+    "Text": "Continue without saving."
   },
   {
     "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXFILES_01",
-    "Text": "There are not enough free files in the Wii's storage memory.\nPlease move the data to the SD card on the save data screen, or delete the data."
+    "Text": "There are not enough free files in the Wii system memory.\nEither move the data to an SD Card or delete the data in the Wii console's Data Management screen."
   },
   {
     "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXFILES_02",
-    "Text": "To organize the contents of the Wii console's memory,\nplease use the Wii console's Wii console memory editing screen."
+    "Text": "To organize the contents of the Wii system memory,\nplease use the Wii console's Data Management screen."
   },
   {
     "ID": "MSG_SAVE_RESULT_APP_CHECK_MAXFILES_03",
-    "Text": "Continue playing the game without saving/loading."
+    "Text": "Continue without saving."
   },
   {
     "ID": "MSG_LOAD_RESULT_OK_01",
@@ -1062,31 +1062,31 @@
   },
   {
     "ID": "MSG_LOAD_RESULT_AUTHENTICATION_01",
-    "Text": "This file\ncannot be used because its data is corrupt.\nAre you sure you want to delete the file?"
+    "Text": "This file\ncannot be used because its data is corrupted.\nWould you like to delete this file?"
   },
   {
     "ID": "MSG_LOAD_RESULT_AUTHENTICATION_02",
-    "Text": "This file\ncannot be used because the data is corrupted.\nDo you want to continue without saving/loading?"
+    "Text": "This file\ncannot be used because the data is corrupted.\nContinue without saving?"
   },
   {
     "ID": "MSG_LOAD_RESULT_CORRUPT_01",
-    "Text": "The Wii's storage memory has been corrupted.\nPlease read the Wii's instruction manual for details."
+    "Text": "The Wii's storage memory has been corrupted.\nRefer to the Wii Operations Manual for details."
   },
   {
     "ID": "MSG_LOAD_RESULT_ECC_CRIT_01",
-    "Text": "This file\ncannot be used because its data is corrupt.\nAre you sure you want to delete the file?"
+    "Text": "This file\ncannot be used because the data is corrupted.\nWould you like to delete the file?"
   },
   {
     "ID": "MSG_LOAD_RESULT_ECC_CRIT_02",
-    "Text": "This file\ncannot be used because the data is corrupted.\nDo you want to continue without saving/loading?"
+    "Text": "This file\ncannot be used because the data is corrupted.\nContinue without saving?"
   },
   {
     "ID": "MSG_LOAD_RESULT_MAXBLOCKS_01",
-    "Text": "There is an error in the amount of free space in the Wii's storage memory.\nPlease read the Wii's instruction manual for details."
+    "Text": "There is an error in the amount of free space in the Wii system memory.\nRefer to the Wii Operations Manual for details."
   },
   {
     "ID": "MSG_LOAD_RESULT_MAXFILES_01",
-    "Text": "The number of free files in the Wii's storage memory is abnormal.\nPlease read the Wii's instruction manual for details."
+    "Text": "The number of free files in Wii system memory is abnormal.\nRefer to the Wii Operations Manual for details."
   },
   {
     "ID": "MSG_LOAD_RESULT_UNKNOWN_01",
@@ -1122,35 +1122,35 @@
   },
   {
     "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXBLOCKS_01",
-    "Text": "There is not enough free space in the Wii's storage memory.\nPlease move the data to the SD card on the save data screen, or delete the data to free up @NEED_BLOCKS@blocks."
+    "Text": "There is not enough available space in the Wii system memory.\nCreate @NEED_BLOCKS@ block(s) of free space either by moving data to an SD Card or deleting data in the Wii Console's Data Management screen."
   },
   {
     "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXBLOCKS_02",
-    "Text": "To organize the contents of the Wii console memory,\nplease go to the Wii console's Wii console memory editing screen."
+    "Text": "To manage the contents of the Wii system memory,\nplease go to the Wii console's Data Management screen."
   },
   {
     "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXBLOCKS_03",
-    "Text": "Start game without saving/loading."
+    "Text": "Continue without saving."
   },
   {
     "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXFILES_01",
-    "Text": "There are not enough free files in the Wii's storage memory.\nPlease move the data to the SD card on the save data screen, or delete the data."
+    "Text": "There are not enough free files in Wii system memory.\nEither move data to an SD Card or delete data in the Wii console's Data Management screen."
   },
   {
     "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXFILES_02",
-    "Text": "To organize the contents of the Wii console memory,\nplease go to the Wii console's Wii console memory editing screen."
+    "Text": "Please go to the Wii console's Data Management screen\nto edit the contents of Wii system memory."
   },
   {
     "ID": "MSG_LOAD_RESULT_APP_CHECK_MAXFILES_03",
-    "Text": "Start game without saving/loading."
+    "Text": "Continue without saving."
   },
   {
     "ID": "MSG_SAVE_START_A_01",
     "Lines": [
       "Do you want to save your campaign?",
-      "Existing save will be overwriten"
+      "Existing save will be overwritten."
     ],
-    "Text": "Save your story data.\nThe next time you play, you will restart from this point.\nAre you sure you want to save?"
+    "Text": "Are you sure you want to save your story data?\nThe next time you play, you will restart from this point."
   },
   {
     "ID": "MSG_SAVE_START_B_01",
@@ -1162,15 +1162,15 @@
   },
   {
     "ID": "MSG_SAVE_RUN_A_01",
-    "Text": "Saving story data.\n\nPlease do not touch the power button."
+    "Text": "Saving story data.\n\nDo not touch the Power Button."
   },
   {
     "ID": "MSG_SAVE_RUN_B_01",
-    "Text": "Auto-saving system data.\n(Story data will not be saved)\nPlease do not touch the power button."
+    "Text": "Autosaving system data.\n(Story data will not be saved)\nDo not touch the Power Button."
   },
   {
     "ID": "MSG_SAVE_RUN_C_01",
-    "Text": "Saving option changes.\n\nPlease do not touch the power button."
+    "Text": "Saving settings.\n\nDo not touch the Power Button."
   },
   {
     "ID": "MSG_LOAD_START_A_01",
@@ -1178,43 +1178,43 @@
       "Load previous save?",
       "Unsaved progress will be lost!"
     ],
-    "Text": "Start loading. Are you sure?"
+    "Text": "Are you sure you want to load the game?"
   },
   {
     "ID": "MSG_LOAD_START_B_01",
-    "Text": "Start loading. Are you sure?"
+    "Text": "Are you sure you want to load the game?"
   },
   {
     "ID": "MSG_LOAD_RUN_A_01",
-    "Text": "Loading.\nPlease do not touch the power button."
+    "Text": "Loading.\nDo not touch the Power Button."
   },
   {
     "ID": "MSG_LOAD_RUN_B_01",
-    "Text": "Loading.\nPlease do not touch the power button."
+    "Text": "Loading.\nDo not touch the Power Button."
   },
   {
     "ID": "MSG_CHECK_NAND_MEM_01",
-    "Text": "Checking Wii storage memory..."
+    "Text": "Checking Wii system memory..."
   },
   {
     "ID": "MSG_DELETE_FILE_01",
-    "Text": "Deleting corrupted files."
+    "Text": "Deleting corrupted file(s)."
   },
   {
     "ID": "MSG_DELETE_FILE_02",
-    "Text": "Corrupted files have been deleted."
+    "Text": "Corrupted file(s) have been deleted."
   },
   {
     "ID": "MSG_NEW_SAVE_CONFIRM_A_01",
-    "Text": "Create story data.\nAre you sure?"
+    "Text": "Are you sure you want\nto create story data?"
   },
   {
     "ID": "MSG_NEW_SAVE_CONFIRM_B_01",
-    "Text": "Create system data.\nAre you sure?"
+    "Text": "Are you sure you want\nto create system data?"
   },
   {
     "ID": "MSG_NEW_SAVE_CONFIRM_C_01",
-    "Text": "Are you sure you want to create\na save file to record your optional settings?"
+    "Text": "Are you sure you want to create\na save file to store additional settings?"
   },
   {
     "ID": "COLOR_CHANGE_TITLE",
@@ -1376,11 +1376,11 @@
   },
   {
     "ID": "MULTI_Window_03_simple",
-    "Text": "Exit the game. Is it OK?"
+    "Text": "Are you sure you want\nto exit the game?"
   },
   {
     "ID": "MULTI_Window_VS",
-    "Text": "Press ≡ＨＯＭＥ to connect\n2nd player wiimote"
+    "Text": "Press ≡ＨＯＭＥ to connect\na 2nd player Wii Remote"
   },
   {
     "ID": "MULTI_Window_04",
@@ -1392,7 +1392,7 @@
   },
   {
     "ID": "MULTI_Window_06",
-    "Text": "There is a weapon in your squad that you don't have yet.\nWould you like to exit without acquiring it?"
+    "Text": "There is a weapon in your squad that has not yet been aquired.\nAre you sure you want to exit?"
   },
   {
     "ID": "MULTI_Window_07",
@@ -1400,7 +1400,7 @@
   },
   {
     "ID": "MULTI_Window_08",
-    "Text": "Return to the pilot selection screen. \nAre you sure?"
+    "Text": "Are you sure you want to return\nto the pilot selection screen."
   },
   {
     "ID": "MULTI_Window_09",
@@ -1420,7 +1420,7 @@
   },
   {
     "ID": "MULTI_Window_13",
-    "Text": "PRess ＨＯＭＥ to connect 2nd player wiimote"
+    "Text": "PRess ＨＯＭＥ to connect 2nd player Wii Remote"
   },
   {
     "ID": "MULTI_Window_14",
@@ -1467,7 +1467,7 @@
   },
   {
     "ID": "RESULT_MSG_WIN_08",
-    "Text": "You can now capture enemy suits!\nYBy performing headshot in Snipe mode."
+    "Text": "You can now capture enemy suits!\nYPerform headshots in Snipe Mode."
   },
   {
     "ID": "Staff_Cast_Title",
@@ -1811,7 +1811,7 @@
   },
   {
     "ID": "Staff_Game_Program_01",
-    "Text": "Main program"
+    "Text": "Main Program"
   },
   {
     "ID": "Staff_Game_007",
@@ -2343,7 +2343,7 @@
   },
   {
     "ID": "FORMATION_INFO_FORM",
-    "Text": "Select formation for use in battle\nfrom available list"
+    "Text": "Select formation to use in battle\nfrom available list"
   },
   {
     "ID": "TITLE_01",
@@ -2794,7 +2794,7 @@
   },
   {
     "ID": "INFO_MS",
-    "Text": "Select an MS (mobile suit) to deploy.\nMake sure to not go over max cost of @COST_MAX@."
+    "Text": "Select an MS (Mobile Suit) to deploy.\nMake sure to not go over max cost of @COST_MAX@."
   },
   {
     "ID": "INFO_PILOT_STATUS",
@@ -2802,7 +2802,7 @@
   },
   {
     "ID": "INFO_COLOR_CHANGE",
-    "Text": "Change the color of your MS (mobile suit).\nCreate your favorite color."
+    "Text": "Change the color of your MS (Mobile Suit).\nCreate your favorite color."
   },
   {
     "ID": "INFO_MS_SELECT",
@@ -3206,7 +3206,7 @@
   },
   {
     "ID": "INFO_MSRESULT_02",
-    "Text": "We have successfully acquired an enemy MS (mobile suit).\nSince it is already deployed to our own unit, \nwe will provide it to the research facility."
+    "Text": "We have successfully acquired an enemy MS (Mobile Suit).\nSince it is already deployed to our own unit,\nwe will provide it to the research facility."
   },
   {
     "ID": "RESULT_TITLE_01",
@@ -3290,7 +3290,7 @@
   },
   {
     "ID": "INFO_RESULTWEAPON_01",
-    "Text": "You have obtained the weapon. \nYou can use it from the next battle."
+    "Text": "You have obtained a weapon.\nYou can use it in the next battle."
   },
   {
     "ID": "INFO_RESULTWEAPON_02",
@@ -3342,7 +3342,7 @@
       "You can acquire enemy weapon.",
       "Pick one."
     ],
-    "Text": "You have acquired an enemy weapon.\nYou may only take one item back to your unit. Please select."
+    "Text": "You have acquired an enemy weapon.\nSelect an item to take back to your unit."
   },
   {
     "ID": "RESULUT_USE_MS",
@@ -3458,7 +3458,7 @@
   },
   {
     "ID": "ACE_INF_AMR_00",
-    "Text": "Amuro Ray, a civilian boy, gets caught up in the war and \ngrows tremendously as a Gundam pilot."
+    "Text": "Amuro Ray, a civilian boy, gets caught up in the war and\ngrows tremendously as a Gundam pilot."
   },
   {
     "ID": "ACE_INF_SIR_00",
@@ -3485,11 +3485,11 @@
   },
   {
     "ID": "ACE_INF_GUY_00",
-    "Text": "Gaia is the leader of a unit feared as the Black Tri-Star. \nDescending to the ground to defeat the White Base team. "
+    "Text": "Gaia is the leader of a unit feared as the Black Tri-Star.\nDescending to the ground to defeat the White Base team. "
   },
   {
     "ID": "ACE_INF_NRS_00",
-    "Text": "Norris Packard is an ace of the Far East Army \n serving Sakhalin family.\nWith his outstanding combat sense, he fights to overcome the situation.",
+    "Text": "Norris Packard is an ace of the Far East Army\n serving Sakhalin family.\nWith his outstanding combat sense, he fights to overcome the situation.",
     "Size": "0.8"
   },
   {
@@ -3818,15 +3818,15 @@
   },
   {
     "ID": "INFO_ACE",
-    "Text": "You can play as ace pilots from both sides. \nYou can simulate the famous situations of ace pilots."
+    "Text": "Play as ace pilots from both sides.\nYou can relive famous encounters with ace pilots."
   },
   {
     "ID": "INFO_TUTORIAL",
-    "Text": "Ace pilots will teach you the basics of the game. \nIf you learn properly, there is nothing scary in combat"
+    "Text": "Ace pilots will teach you the basics of the game.\nIf you learn them properly, you will be able to master combat."
   },
   {
     "ID": "INFO_VERSUS",
-    "Text": "You can compete. To play 'VS 2P and 'VS TAG'\nOpen the HOME button menu and have 2P recognized."
+    "Text": "Compete against another player. To play 'VS 2P and 'VS TAG'\nOpen the HOME button menu and have 2P recognized."
   },
   {
     "ID": "INFO_TIME",
@@ -3838,11 +3838,11 @@
   },
   {
     "ID": "INFO_EXTRA",
-    "Text": "You can see the details of the acquired MS and paint it.\nYou can also check the score record of each mission."
+    "Text": "View the details of the acquired MS and paint it.\nYou can also check the score record of each mission."
   },
   {
     "ID": "INFO_OPTION",
-    "Text": "You can adjust the sound, screen, and vibration."
+    "Text": "Adjust the sound, screen, and rumble."
   },
   {
     "ID": "TUTORIAL_SUB_03",
@@ -3854,7 +3854,7 @@
   },
   {
     "ID": "OPTION_VIB",
-    "Text": "Vibration"
+    "Text": "Rumble"
   },
   {
     "ID": "OPTION_SYS",
@@ -3894,7 +3894,7 @@
   },
   {
     "ID": "RE_INFO",
-    "Text": "Restore settings to default. Are you sure?"
+    "Text": "Restore settings to default?"
   },
   {
     "ID": "RE_YES",
@@ -3906,7 +3906,7 @@
   },
   {
     "ID": "INFO_OPTION_01",
-    "Text": "Turn vibration ON/OFF."
+    "Text": "Turn rumble ON/OFF."
   },
   {
     "ID": "INFO_OPTION_02",
@@ -3976,7 +3976,7 @@
   },
   {
     "ID": "P1_BAT_OPT_INFO_DEFENCE",
-    "Text": "Change your handicap.\nYou can adjust the durability of your MS (mobile suit)."
+    "Text": "Change your handicap.\nYou can adjust the durability of your MS (Mobile Suit)."
   },
   {
     "ID": "P１_BAT_OPT_BUTTON_INFO",
@@ -4244,7 +4244,7 @@
   },
   {
     "ID": "INFO_BATTLE_OPTION",
-    "Text": "Cost/handicap can be changed."
+    "Text": "Change costs and handicaps."
   },
   {
     "ID": "INFO_OK",
