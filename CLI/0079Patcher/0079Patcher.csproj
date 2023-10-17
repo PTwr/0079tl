@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DolphinSubtitles\DolphinSubtitles.csproj" />
     <ProjectReference Include="..\..\GEVLib\GEVLib.csproj" />
     <ProjectReference Include="..\..\InMemoryBinaryFile\InMemoryBinaryFile.csproj" />
     <ProjectReference Include="..\..\U8\U8.csproj" />

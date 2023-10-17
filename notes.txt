@@ -229,3 +229,10 @@ STRM_67 => bgm_62 EFF ending 2 ME21 route B
 STRM_68 => bgm_63 Zeon ending 1 route A?
 STRM_69 => bgm_64 Zeon ending 2 route B?
 STRM_70 => bgm_65 Zeon ending 3 A+B?
+
+all unlockables: FlagCtrl.xbf
+mission rank requirements: result_param.xbf
+endings: result_param.xbf
+
+EFZ endings: ME20 EDE09, M21 EDE01
+Zeon endings: MZ19 (left #12) MZ21 or EDZ0, MZ20 (right #12) MZ21 or EDZ1, MZ21 EDZ2

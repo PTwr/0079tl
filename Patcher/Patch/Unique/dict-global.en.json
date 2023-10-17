@@ -1380,7 +1380,7 @@
   },
   {
     "ID": "MULTI_Window_VS",
-    "Text": "PRess ≡ＨＯＭＥ to connect 2nd player wiimote"
+    "Text": "Press ≡ＨＯＭＥ to connect\n2nd player wiimote"
   },
   {
     "ID": "MULTI_Window_04",
@@ -3830,7 +3830,7 @@
   },
   {
     "ID": "INFO_TIME",
-    "Text": "3 minute score attack\nVS 2P」Two players can compete."
+    "Text": "3 minute score attack\nVS 2P Two players can compete."
   },
   {
     "ID": "INFO_CROSS",
