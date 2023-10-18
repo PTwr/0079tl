@@ -19,6 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		notes.txt = notes.txt
 		Patcher\Unlocks.txt = Patcher\Unlocks.txt
+		voice-notes.txt = voice-notes.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CLI", "CLI", "{B5D993FD-7521-421A-98A8-E968A0397033}"

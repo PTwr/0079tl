@@ -1,0 +1,66 @@
+Aina:
+
+001 - 004 - quotes
+005 - 010 - enemy spotted
+
+011 formation change
+
+015 - 017 - yes sir
+
+019 - 021 - roger that, I will follow/support you
+
+022 - 023 - edge of combat zone
+
+030 - starting sniping?
+031 - PEW?
+032 - miss?
+
+033 - startin melee?
+034 - 037 - ugh agh yaah
+
+041 - 055 - oh noe I'm hit
+056 - death message? story bit?
+
+057 - damaged shield
+058 - destroyed shield
+
+059 - damaged head
+060 - destroyed head
+
+061 - 062 right arm
+063 - 064 left arm
+065 - 066 legs
+
+067 - 069 aaah gotta run aawwaaayy mommmy
+
+070 - exam start?
+071 - exam on, or running out?
+072 - exam off?
+
+
+
+
+026
+027
+028 pew noises?
+
+030 starting snipping and idling
+031 pew pew in sniper 
+
+047
+048 I 'm hit?
+050
+
+052 Im dead?
+
+070 exam?
+
+077 out of ammo
+
+080 low time?
+
+105 end/draw out of time?
+
+115 victory
+
+130 some battle talk on seeing target?
