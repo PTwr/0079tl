@@ -30,9 +30,22 @@ internal class Program
 
         [Option('u', "unlockables", Required = false, HelpText = "Parses unlockables to human readable form", Default = false)]
         public bool ParseUnlockables { get; set; }
+
+        public Options()
+        {
+            InputDir = "";
+            OutputDir = "";
+            XbfToXml = false;
+            BrstmToWav = false;
+            UnpackArc = false;
+            CreateDict = false;
+            GevDictionary = false;
+            ParseUnlockables = false;
+        }
     }
     private static void Main(string[] args)
     {
+        new Options();
         Parser.Default.ParseArguments<Options>(args)
             .WithParsed<Options>(o =>
             {

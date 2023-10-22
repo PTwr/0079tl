@@ -2,11 +2,11 @@
   "profiles": {
     "BinString-extract": {
       "commandName": "Project",
-      "commandLineArgs": "extract --source C:/games/wii/lupin/1clean/files/COMMON/ --filter sfil.orig*.bin --patch C:/games/wii/lupin/1/files/COMMON/combined.json --merge --encoding \"shift jis\" --verbose --pattern \"\\[.*?\\]\\0\\0(3)(?<length>.)(?<text>.*?)\\0\""
+      "commandLineArgs": "extract --source C:/games/wii/lupin/1clean/files/COMMON/ --filter sfil.bin --patch C:/games/wii/lupin/1/files/COMMON/ --encoding \"shift jis\" --verbose --pattern \"\\[s.*?\\]\\0\\0(3)(?<length>.)(?!\\[)(?<text>.*?)\\0\" --index --indexformat |{0}|[n]"
     },
     "BinString-patch": {
       "commandName": "Project",
-      "commandLineArgs": "patch --source C:/games/wii/lupin/1clean/files/COMMON/ --output C:/games/wii/lupin/1/files/COMMON/ --filter sfil*.bin --patch C:/games/wii/lupin/1/files/COMMON/combined.json --encoding \"shift jis\" --verbose"
+      "commandLineArgs": "patch --source C:/games/wii/lupin/1clean/files/COMMON/ --filter sfil.bin --output C:/games/wii/lupin/1/files/COMMON/ --patch C:/games/wii/lupin/1/files/COMMON/ --encoding \"shift jis\" --verbose"
     }
   }
 }

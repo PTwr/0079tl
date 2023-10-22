@@ -28,7 +28,7 @@ namespace InMemoryBinaryFile.Helpers
             for (int i = 0; i < count; i++)
             {
                 sb.Append(bytes.ElementAt(i).ToString("X2") + " ");
-                if ((i + 1) % lineLength == 0 && (i + 1) != count)
+                if (lineLength > 0 && (i + 1) % lineLength == 0 && (i + 1) != count)
                 {
                     sb.AppendLine();
                 }

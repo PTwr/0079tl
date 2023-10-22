@@ -15,6 +15,14 @@ internal class Program
     [Verb("mission", HelpText = "Extracts human-readable form for translation.")]
     public class ExtractionOptions
     {
+        public ExtractionOptions()
+        {
+            InputDir = "";
+            OutputDir = "";
+            Overwrite = false;
+            LanguageCode = "";
+        }
+
         [Option('i', "input", Required = true, HelpText = "Directory containing unpacked game files")]
         public string InputDir { get; set; }
         [Option('o', "output", Required = true, HelpText = "Directory for patch files")]
@@ -28,6 +36,19 @@ internal class Program
     [Verb("patch", HelpText = "Create game patch from translation")]
     public class Options
     {
+        public Options()
+        {
+            InputDir = "";
+            OutputDir = "";
+            PatchDir = "";
+            LanguageCode = "";
+            Rewrite = false;
+            Clean = false;
+            Subtitles = "";
+            GevPatch = false;
+            ArcPatch = false;
+        }
+
         [Option('i', "input", Required = true, HelpText = "Directory containing clean game files")]
         public string InputDir { get; set; }
         [Option('o', "output", Required = true, HelpText = "Directory containing patched game")]
@@ -40,7 +61,7 @@ internal class Program
         public bool Rewrite { get; set; }
         [Option('c', "clean", Required = false, HelpText = "Delets previous patch", Default = false)]
         public bool Clean { get; set; }
-        [Option('s', "subtitles", Required = false, HelpText ="Output dir for subtitle files", Default = null)]
+        [Option('s', "subtitles", Required = false, HelpText = "Output dir for subtitle files", Default = null)]
         public string Subtitles { get; set; }
         [Option('g', "gev", Required = false, HelpText = "Patch GEV scripts", Default = false)]
         public bool GevPatch { get; set; }
@@ -49,6 +70,9 @@ internal class Program
     }
     private static void Main(string[] args)
     {
+        new Options();
+        new ExtractionOptions();
+
         Parser.Default.ParseArguments<ExtractionOptions, Options>(args)
             .WithParsed((Action<ExtractionOptions>)(o =>
             {
@@ -89,7 +113,7 @@ internal class Program
 
         var jpgevs = Directory.EnumerateFiles(o.InputDir, $"*.gev", SearchOption.AllDirectories);
 
-        foreach(var jpgev in jpgevs)
+        foreach (var jpgev in jpgevs)
         {
             var stub = Path.GetRelativePath(o.InputDir, jpgev);
             var output = Path.Combine(o.OutputDir, stub);
@@ -291,7 +315,7 @@ internal class Program
                     result[entry.ID] = entry;
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -502,7 +526,7 @@ internal class Program
                         }
                     }
                     else
-                    { 
+                    {
                         var diff = node.BinaryData.Length - newData.Length;
                         var spaces = Enumerable.Repeat((byte)0x20, diff).ToArray();
                         newData = newData.Concat(spaces).ToArray();

@@ -31,12 +31,27 @@ internal class Program
         [Option('m', "merge", Required = false, HelpText = "Result JSON will be merged into single file")]
         public bool MergeResults { get; set; }
 
+        [Option('i', "index", Required = false, HelpText = "Fills Replacement string with easily searchable incremental indexes")]
+        public bool AutoIndexer { get; set; }
+
+        [Option('j', "indexformat", Required = false, HelpText = "Formats indexer into whatever you want")]
+        public string IndexFormat { get; set; }
+
         public ExtractOptions()
         {
             //Dummy constructor required by CLI reflections,
             //not using it manually will make code trimming remove it and break reflections
+
+            SourcePath = "";
+            SourceFilter = "";
             Recursive = false;
-            
+            PatchPath = "";
+            Encoding = "";
+            Verbose = false;
+            Patterns = new List<string>();
+            MergeResults = false;
+            AutoIndexer = false;
+            IndexFormat = "";
         }
     }
 
@@ -76,13 +91,13 @@ internal class Program
     }
     private static void Main(string[] args)
     {
-        EncodingHelper.EnableShiftJistConsole();
-        EncodingHelper.EnableUTF16Console();
+        //EncodingHelper.EnableShiftJistConsole();
+        //EncodingHelper.EnableUTF16Console();
 
         //avoid code trimming!
         new ExtractOptions();
         new PatchOptions();
-
+        new StringEntry();
 
         Parser.Default.ParseArguments<ExtractOptions, PatchOptions>(args)
             .WithParsed((Action<ExtractOptions>)(options =>
@@ -91,13 +106,14 @@ internal class Program
                 {
                     throw new ArgumentException($"Unrecognized encoding '{options.Encoding}'");
                 }
+                EncodingHelper.ConsoleEncoding(encoding);
 
                 var result = ForEachFile(
                             options.SourcePath,
                             options.PatchPath,
                             options.SourceFilter,
                             options.Recursive,
-                            (i, o) => ParseFile(i, o, encoding, options.Verbose, options.Patterns))
+                            (i, o) => ParseFile(i, o, encoding, options.Verbose, options.Patterns, options.AutoIndexer, options.IndexFormat))
                     .ToDictionary(i => GetRelativePathEx(options.SourcePath, i.path), i => i.patch);
 
                 if (options.MergeResults)
@@ -120,6 +136,7 @@ internal class Program
                 {
                     throw new ArgumentException($"Unrecognized encoding '{options.Encoding}'");
                 }
+                EncodingHelper.ConsoleEncoding(encoding);
 
                 Dictionary<string, PatchModel> combinedPatch = new Dictionary<string, PatchModel>();
                 if (File.Exists(options.PatchPath))
@@ -144,6 +161,7 @@ internal class Program
                         patch = JsonConvert.DeserializeObject<PatchModel>(
                             File.ReadAllText(patchPath)
                             );
+                        return true;
                     }
 
                     return false;
@@ -156,7 +174,7 @@ internal class Program
                             options.Recursive,
                             (i, o) =>
                             {
-                                if (TryGetPatch(Path.GetRelativePath(options.SourcePath, i), out var patch))
+                                if (TryGetPatch(i, out var patch))
                                 {
                                     PatchFile(i, o, patch, encoding, options.Verbose);
                                 }
@@ -179,7 +197,7 @@ internal class Program
         {
             if (verbose)
             {
-                Console.WriteLine($"[{entry.PositionHex}]");
+                Console.WriteLine($"[{entry.PositionHex}] #{entry.Index}");
                 Console.WriteLine(entry.OriginalText);
                 Console.WriteLine(entry.Replacement);
                 Console.WriteLine("=================================================================");
@@ -189,7 +207,7 @@ internal class Program
 
             if (replacementBytes.Length > entry.ByteLengthDec)
             {
-                throw new Exception($"Length mismatch! {replacementBytes.Length} > {entry.ByteLengthDec}");
+                throw new Exception($"Length mismatch at #{entry.Index}! {replacementBytes.Length} > {entry.ByteLengthDec}");
             }
 
             if (replacementBytes.Length < entry.ByteLengthDec)
@@ -218,7 +236,7 @@ internal class Program
         return Path.GetRelativePath(relativeTo, path);
     }
 
-    private static (string path, PatchModel patch) ParseFile(string input, string output, Encoding encoding, bool verbose, IEnumerable<string> patterns)
+    private static (string path, PatchModel patch) ParseFile(string input, string output, Encoding encoding, bool verbose, IEnumerable<string> patterns, bool AutoIndexer, string IndexMask)
     {
         if (verbose)
         {
@@ -233,6 +251,7 @@ internal class Program
         var bytes = File.ReadAllBytes(input);
         var str = bytes.AsSpan().ToDecodedString(encoding);
 
+        int n = 0;
         foreach (var pattern in patterns)
         {
             Regex regex = new Regex(pattern, RegexOptions.Compiled);
@@ -252,8 +271,10 @@ internal class Program
 
                 var entry = new StringEntry()
                 {
+                    Index = n,
+
                     OriginalText = txt.Value,
-                    OriginalBytes = origBytes,
+                    OriginalBytes = origBytes.ToHexString(-1),
 
                     ByteLengthDec = origBytes.Length,
                     ByteLengthHex = $"0x{origBytes.Length:X8}",
@@ -263,11 +284,24 @@ internal class Program
 
                     Replacement = txt.Value,
 
-                    Captures = match.Groups.Values
-                        .Where(i => i.Name != "text")
-                        .Where(i => !int.TryParse(i.Name, out _))
-                        .ToDictionary(i => i.Name, i => (i.Value, "", "")),
+                    //Captures = match.Groups.Values
+                    //    .Where(i => i.Name != "text")
+                    //    .Where(i => !int.TryParse(i.Name, out _))
+                    //    .ToDictionary(i => i.Name, i => (i.Value, "", "")),
                 };
+
+                if (AutoIndexer)
+                {
+                    if (!string.IsNullOrWhiteSpace(IndexMask))
+                    {
+                        entry.Replacement = string.Format(IndexMask, n);
+                    }
+                    else
+                    {
+                        entry.Replacement = $"|{n}|";
+                    }
+                }
+                n++;
 
                 if (verbose)
                     Console.WriteLine($"[{entry.PositionHex}] {entry.OriginalText}");
@@ -318,6 +352,8 @@ internal class Program
         public List<StringEntry> Entries { get; set; } = new List<StringEntry>();
         public class StringEntry
         {
+            public int Index { get; set; }
+
             public int PositionDec { get; set; }
             public string PositionHex { get; set; }
 
@@ -327,9 +363,22 @@ internal class Program
             public string OriginalText { get; set; }
             public string Replacement { get; set; }
 
-            public byte[] OriginalBytes { get; set; }
+            public string OriginalBytes { get; set; }
 
-            public Dictionary<string, (string Text, string Hex, string Bytes)> Captures { get; set; } = new Dictionary<string, (string Text, string Hex, string Bytes)>();
+            //public Dictionary<string, (string Text, string Hex, string Bytes)> Captures { get; set; } = new Dictionary<string, (string Text, string Hex, string Bytes)>();
+
+            //prevent auto trim!
+            public StringEntry()
+            {
+                Index = 0 + Index;
+                PositionDec = 0 + PositionDec;
+                PositionHex = "" + PositionHex;
+                ByteLengthDec = 0 + ByteLengthDec;
+                ByteLengthHex = "" + ByteLengthHex;
+                OriginalText = "" + OriginalText;
+                Replacement = "" + Replacement;
+                OriginalBytes = "" + OriginalBytes;
+            }
         }
     }
 }
