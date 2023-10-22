@@ -5,6 +5,14 @@
     "Text": "I am Ensign Alan Aylward. Captain of SRT Unit 1\nIt was suddenly organized as a combat unit.\nSince expectations are high, let's do our best."
   },
   {
+    "ID": "eve002_02",
+    "Text": "2222"
+  },
+  {
+    "ID": "eve002_03",
+    "Text": "3333"
+  },
+  {
     "ID": "eve003_01",
     "Lines": [
       "I'm Corporal Hoare Blanchett, and I'm the unit's operator.",
@@ -44,7 +52,7 @@
   },
   {
     "ID": "eve007_01",
-    "Text": "Hmph! I have no intention of becoming familiar with you! \nNice to meet you..."
+    "Text": "Hmph! I have no intention of becoming familiar with you! \n\"Nice\" to meet you..."
   },
   {
     "ID": "eve008_01",

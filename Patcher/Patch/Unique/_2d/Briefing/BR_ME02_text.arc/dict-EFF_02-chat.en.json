@@ -1,20 +1,11 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve034_01",
     "Text": null,
     "Lines": [
-      "というわけで、初勝利の余韻に浸る間もなく新たな任務だ。",
-      "てっきり反攻作戦への参加命令だと思ってたけど、",
-      "小規模な戦闘で済みそうで、一安心ってとこだね。"
+      "New mission came in, no time to bask in afterglow",
+      "of victory. I thought we'd participate in counter",
+      "offensive, but luckily its just a small operation."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,9 +14,9 @@
     "ID": "eve035_01",
     "Text": null,
     "Lines": [
-      "なにが、一安心よ！",
-      "なんで、せっかくのMS部隊を",
-      "反攻作戦の主力として配備しないのよ！"
+      "What a relief!",
+      "Why aren't we weploying MS as main",
+      "force of counter offensive?!"
     ],
     "TabSpace": null,
     "Size": null
@@ -34,9 +25,9 @@
     "ID": "eve036_01",
     "Text": null,
     "Lines": [
-      "無理言うなよリルちゃん。　俺らより前から運用試験にあたっている",
-      "部隊だって外されてるんだぜ？",
-      "結局、こっちは未だ主力足りうる練度に達していないってことなのさ。"
+      "Don't strain yourself, Lilly. Even unit that",
+      "operated before us haven't been mobilised.",
+      "I guess we haven't reached combat readiness yet."
     ],
     "TabSpace": null,
     "Size": null
@@ -45,8 +36,8 @@
     "ID": "eve037_01",
     "Text": null,
     "Lines": [
-      "でも、この前は上手くやったじゃない！",
-      "味方の士気だって上がるはずなのに！"
+      "But we fought so well the other day!",
+      "It swould have boosted our troops morale!"
     ],
     "TabSpace": null,
     "Size": null
@@ -55,9 +46,9 @@
     "ID": "eve038_01",
     "Text": null,
     "Lines": [
-      "この前の戦果は、敵の油断と、我が軍がMSを持っているはずがない",
-      "という混乱に付け入った勝利でしたから…。",
-      "仕方ないんじゃないかしら？"
+      "Our previous victory was just due to surprise.",
+      "Enemy did not expect us to field MS, and was careless.",
+      "It can't be helped that army keeps is in back."
     ],
     "TabSpace": null,
     "Size": null
@@ -66,8 +57,8 @@
     "ID": "eve039_01",
     "Text": null,
     "Lines": [
-      "ちょ、ちょっとホア…。",
-      "私たちの実力じゃないって言いたいの！？"
+      "Hey, Hoa...",
+      "Are you saying we're not good enough?!"
     ],
     "TabSpace": null,
     "Size": null
@@ -76,9 +67,9 @@
     "ID": "eve040_01",
     "Text": null,
     "Lines": [
-      "え？　え～と…、そうですけど？",
-      "当然、リルさんレベルのパイロットなら、",
-      "敵に相当の混乱があったことは、気づいているものかと？？？"
+      "Huh? Um... I guess so?",
+      "A pilot of your level should have",
+      "noticed that enemy was in confusion, right?"
     ],
     "TabSpace": null,
     "Size": null
@@ -87,7 +78,7 @@
     "ID": "eve041_01",
     "Text": null,
     "Lines": [
-      "ムムムム～～～！！！！！"
+      "MNHGHGHGHGNNMM!!!!!!"
     ],
     "TabSpace": null,
     "Size": null
@@ -96,9 +87,9 @@
     "ID": "eve042_01",
     "Text": null,
     "Lines": [
-      "（うわぁ…）",
-      "そ、そりゃあ！　リルくらいにもなれば、当然気づいてたさ！",
-      "ねぇ？　当たり前だよね？　リル！　ハ、ハハハハ…。"
+      "(Whoaa...)",
+      "Oh that's right! Such experienced pilot as Lil",
+      "of course have noticed. Right? Lil? Hhahaha..."
     ],
     "TabSpace": null,
     "Size": null
@@ -107,9 +98,9 @@
     "ID": "eve043_01",
     "Text": null,
     "Lines": [
-      "リ、リルちゃんが言いたいのは、前回の戦闘と同様に、こっちにMSが",
-      "あることで敵のメンタル面を攻めないのはおかしいってことだよな！",
-      "な！？　さっすが、リルちゃん！　いやぁ～、考えが深いなぁ～！"
+      "I guess what Lil says is that we should keep",
+      "targeting enemy morale with our MS, just like",
+      "in last battle? Right, Lil? You're so thoughtful!'"
     ],
     "TabSpace": null,
     "Size": null
@@ -118,9 +109,9 @@
     "ID": "eve044_01",
     "Text": null,
     "Lines": [
-      "あ、あったりまえじゃない！",
-      "優秀なパイロットたるもの、常に戦術、戦略レベルまで",
-      "想定しているものよ！　ちょ、ちょっと試しただけだからっ！"
+      "Hah, of course!",
+      "Great pilot is always thinking on both tactical",
+      "and strategic level! Hah, I was just testing you!"
     ],
     "TabSpace": null,
     "Size": null
@@ -129,9 +120,9 @@
     "ID": "eve045_01",
     "Text": null,
     "Lines": [
-      "な～んだ。　さすがリルさん。",
-      "でも、レビル将軍は大局を見極められる方ですから、",
-      "きっと、切り札はまだ使い時ではないとお考えなんですよ。"
+      "Whoa, as expected of Lilly.",
+      "However, General Revil has to think of big picture.",
+      "I'm sure he thinks is not yet time to play our trump card."
     ],
     "TabSpace": null,
     "Size": null
@@ -140,8 +131,8 @@
     "ID": "eve046_01",
     "Text": null,
     "Lines": [
-      "だね。　無理な制圧地区拡大のせいで、",
-      "ジオンの地上部隊は、補給もままならない状態だから…。"
+      "Yes. Due to overextended front line,",
+      "Zeon forces are struggling with supplies..."
     ],
     "TabSpace": null,
     "Size": null
@@ -150,9 +141,9 @@
     "ID": "eve047_01",
     "Text": null,
     "Lines": [
-      "たとえ犠牲が多く出ても、現行戦力を使った物量戦で",
-      "十分にやれるという判断だろうな。",
-      "もっとも、その後は俺たちが相当頑張らなくちゃならんだろうけど。"
+      "Even if casualties are high, the thinking is that",
+      "we can win this operation just with sheer numbers.",
+      "I guess our part will come after that."
     ],
     "TabSpace": null,
     "Size": null
@@ -161,9 +152,9 @@
     "ID": "eve048_01",
     "Text": null,
     "Lines": [
-      "あぁ。　そのためにも、今は少しでも経験値を積んで、",
-      "切り札になりうる実力をつけないと。",
-      "じゃあ、そろそろ行こうか。　各員出撃準備！"
+      "Ah, In order to do that we need to gain as much",
+      "experience as possible, and develop our trump card.",
+      "Well, time to head out! Everyone, preparie for sortie!"
     ],
     "TabSpace": null,
     "Size": null
