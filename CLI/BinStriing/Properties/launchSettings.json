@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "BinString-extract": {
+      "commandName": "Project",
+      "commandLineArgs": "extract --source C:/games/wii/lupin/1clean/files/COMMON/ --filter sfil.orig*.bin --patch C:/games/wii/lupin/1/files/COMMON/combined.json --merge --encoding \"shift jis\" --verbose --pattern \"\\[.*?\\]\\0\\0(3)(?<length>.)(?<text>.*?)\\0\""
+    },
+    "BinString-patch": {
+      "commandName": "Project",
+      "commandLineArgs": "patch --source C:/games/wii/lupin/1clean/files/COMMON/ --output C:/games/wii/lupin/1/files/COMMON/ --filter sfil*.bin --patch C:/games/wii/lupin/1/files/COMMON/combined.json --encoding \"shift jis\" --verbose"
+    }
+  }
+}
