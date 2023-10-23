@@ -236,3 +236,10 @@ endings: result_param.xbf
 
 EFZ endings: ME20 EDE09, M21 EDE01
 Zeon endings: MZ19 (left #12) MZ21 or EDZ0, MZ20 (right #12) MZ21 or EDZ1, MZ21 EDZ2
+
+
+XBF PositionFlag - 
+256 left-aligned text? most of it 0x100 b000100000000
+288 right-aligned text? Record EFF picker 0x120 b000100100000
+272 centered text? briefing, button info 0x110 b000100010000
+273 scrolling text, each line centered separately? 0x111 b000100010001
