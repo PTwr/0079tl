@@ -1,19 +1,14 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve177",
     "Text": null,
     "Lines": [
       "知っての通り、ベルファスト基地は連邦軍の重要拠点の1つだ。",
       "今回はあまり余裕が無いから、準備が出来次第すぐに向かう。"
+    ],
+    "DeepL_mtl": [
+      "As you know, the Belfast base is one of the most important bases for the federal army.",
+      "I don't have much time to spare this time, so I'm heading there as soon as I'm ready."
     ],
     "TabSpace": null,
     "Size": null
@@ -24,6 +19,9 @@
     "Lines": [
       "ここまでなりふり構わずの行動をとられると、",
       "気の毒にさえ思えるわね。"
+    ],
+    "DeepL_mtl": [
+      "I even feel sorry for them when they act so impersonally."
     ],
     "TabSpace": null,
     "Size": null
@@ -36,6 +34,10 @@
       "行動に思えるがな…。　連邦の前線部隊全体に、浮かれムードが",
       "あるのを見透かしての襲撃だろ？"
     ],
+    "DeepL_mtl": [
+      "To me, it seems to me that they are doing what they are doing because they saw a chance to win after diligent information gathering...",
+      "You see through the buoyant mood of the entire federal frontline forces, don't you?"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -45,6 +47,10 @@
     "Lines": [
       "う…。　た、確かにオデッサの勝利で優勢になったからって、",
       "浮かれてる人たち多いよね。"
+    ],
+    "DeepL_mtl": [
+      "Umm....",
+      "I'm sure there are a lot of people who are buoyed up by the victory in Odessa because they have the upper hand."
     ],
     "TabSpace": null,
     "Size": null
@@ -56,6 +62,9 @@
       "ビンソン計画によって宇宙艦隊の再建が終わり、宇宙への反撃が",
       "開始されたところで、ようやく対等になると思うべきだろうね。"
     ],
+    "DeepL_mtl": [
+      "I should think that once the rebuilding of the space fleet is finished by the Vinson Project and the counterattack into space is launched, we will finally be on equal footing."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -66,6 +75,10 @@
       "と、議論は後で。",
       "ユニット1、出撃だ！"
     ],
+    "DeepL_mtl": [
+      "And the discussion will come later.",
+      "Unit 1, let's go!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -73,6 +86,9 @@
     "ID": "eve702",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

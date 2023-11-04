@@ -1,20 +1,16 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve192",
     "Text": null,
     "Lines": [
       "緊急事態だ！",
       "ジオンの大部隊が、このジャブローに迫っている。",
       "僕たちも地上に出て迎撃。　基地施設の防衛にあたるぞ！"
+    ],
+    "DeepL_mtl": [
+      "It's an emergency! A large force of Zeon is approaching here in Jaburo.",
+      "We also went to the ground and intercepted.",
+      "We'll be defending our base facilities!"
     ],
     "TabSpace": null,
     "Size": null
@@ -24,6 +20,9 @@
     "Text": null,
     "Lines": [
       "最後の大勝負をしかけてきたってわけね…。"
+    ],
+    "DeepL_mtl": [
+      "So they are playing the last big game...."
     ],
     "TabSpace": null,
     "Size": null
@@ -35,6 +34,10 @@
       "くそ、まさかジャブローの位置が特定されるとはなぁ…。",
       "ホワイトベースめ、つけられたな？"
     ],
+    "DeepL_mtl": [
+      "Damn, I never thought they would locate Jaburo....",
+      "White Base, you've been followed, haven't you?"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -43,6 +46,9 @@
     "Text": null,
     "Lines": [
       "見た目も戦歴も、とにかく目立つフネですから…。"
+    ],
+    "DeepL_mtl": [
+      "It's just a prominent fune...both in appearance and war history...."
     ],
     "TabSpace": null,
     "Size": null
@@ -53,6 +59,9 @@
     "Lines": [
       "この後、宇宙艦隊の打ち上げを派手に行えば、",
       "どうせ見つかっただろうけど…。"
+    ],
+    "DeepL_mtl": [
+      "A fancy launch of the space fleet after this would have found them anyway...."
     ],
     "TabSpace": null,
     "Size": null
@@ -65,6 +74,11 @@
       "ヘタをすれば、打ち上げ時の無防備な艦隊を攻撃される恐れも",
       "あるからなぁ…。"
     ],
+    "DeepL_mtl": [
+      "Yes.",
+      "Found before that is a totally different meaning....",
+      "If we mess up, we could be attacked by an unprotected fleet at launch...."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -74,6 +88,9 @@
     "Lines": [
       "でも、敵は宇宙艦隊打ち上げ計画を知らない…。"
     ],
+    "DeepL_mtl": [
+      "But the enemy doesn't know about the Starfleet launch program..."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -82,6 +99,9 @@
     "Text": null,
     "Lines": [
       "だから、それを待たずに、今攻めてきた。"
+    ],
+    "DeepL_mtl": [
+      "So they didn't wait for that, they attacked now."
     ],
     "TabSpace": null,
     "Size": null
@@ -94,6 +114,11 @@
       "この敵を退けて、宇宙反攻作戦の主力艦隊とMS隊を送り出すのは、",
       "地上を任された僕たちの責務だ。　絶対に食い止めるぞ！"
     ],
+    "DeepL_mtl": [
+      "That's what I mean.",
+      "It is our responsibility as those in charge of the ground to repel this enemy and send out the main fleet and MS units for the space counter-offensive operation.",
+      "We'll definitely stop them!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -103,6 +128,9 @@
     "Lines": [
       "ユニット1、出撃準備だ！"
     ],
+    "DeepL_mtl": [
+      "Unit 1, prepare to launch!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -110,6 +138,9 @@
     "ID": "eve701",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

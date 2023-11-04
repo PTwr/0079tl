@@ -1,18 +1,12 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve214",
     "Text": null,
     "Lines": [
       "敵は、予想以上に内部まで浸透しているようだ。"
+    ],
+    "DeepL_mtl": [
+      "The enemy seems to have penetrated further into the interior than expected."
     ],
     "TabSpace": null,
     "Size": null
@@ -24,6 +18,9 @@
       "地下水脈を使って侵入した、工作隊の存在が",
       "大きかったようです。"
     ],
+    "DeepL_mtl": [
+      "It seems that the presence of an operative team, which used underground water veins to infiltrate the site, was significant."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -32,6 +29,9 @@
     "Text": null,
     "Lines": [
       "指揮系統が混乱してないのが救いだな。"
+    ],
+    "DeepL_mtl": [
+      "Thank God the chain of command isn't in disarray."
     ],
     "TabSpace": null,
     "Size": null
@@ -43,6 +43,9 @@
       "新米パイロットたちじゃ、やっぱりジオンの相手は",
       "無理みたいね。"
     ],
+    "DeepL_mtl": [
+      "It seems that the new pilots can't take on Zion after all."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -51,6 +54,9 @@
     "Text": null,
     "Lines": [
       "俺たちは、本部施設の護衛をしつつ、同区画の敵を排除する。"
+    ],
+    "DeepL_mtl": [
+      "We'll be escorting the headquarters facility while eliminating the enemy in the same section."
     ],
     "TabSpace": null,
     "Size": null
@@ -61,6 +67,9 @@
     "Lines": [
       "そういえば、さっきのアムロくんとの会話の時から、「俺」とか",
       "言ってるわよね？"
+    ],
+    "DeepL_mtl": [
+      "Come to think of it, you've been saying \"I\" since your conversation with Mr. Amuro earlier, haven't you?"
     ],
     "TabSpace": null,
     "Size": null
@@ -73,6 +82,10 @@
       "正規部隊だって頼りになるってとこを見せてやらなきゃ、",
       "彼は頑張りすぎで、危なっかしいんだよ…。"
     ],
+    "DeepL_mtl": [
+      "Don't make fun of me, Lil.",
+      "We have to show him that even regular troops can be relied on, he's trying too hard, he's in danger..."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -82,6 +95,10 @@
     "Lines": [
       "ガラじゃないけど、そのほうが、ずっと「らしい」わよ？",
       "アラン隊長。　フフフ…。"
+    ],
+    "DeepL_mtl": [
+      "It's not a gala, but it's much more \"typical\" that way, no? Captain Alan.",
+      "Hmph...."
     ],
     "TabSpace": null,
     "Size": null
@@ -93,6 +110,9 @@
       "ほ、ほら！　時間がないぞ！",
       "ユニット1、再出撃だ！"
     ],
+    "DeepL_mtl": [
+      "Oh, look!　We're running out of time! Unit 1, relaunch!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -100,6 +120,9 @@
     "ID": "eve702",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,
@@ -111,6 +134,7 @@
     "Lines": [
       ""
     ],
+    "DeepL_mtl": [],
     "TabSpace": null,
     "Size": null
   }

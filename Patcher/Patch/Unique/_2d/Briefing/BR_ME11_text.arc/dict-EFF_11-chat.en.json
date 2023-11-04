@@ -1,18 +1,12 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve568",
     "Text": null,
     "Lines": [
       "僕たちはこれより、エリア526の渓谷に向かう。"
+    ],
+    "DeepL_mtl": [
+      "We will now head for the canyon in area 526."
     ],
     "TabSpace": null,
     "Size": null
@@ -22,6 +16,9 @@
     "Text": null,
     "Lines": [
       "遭難した輸送機の捜索かぁ。"
+    ],
+    "DeepL_mtl": [
+      "Searching for a lost transport plane, huh?"
     ],
     "TabSpace": null,
     "Size": null
@@ -33,6 +30,9 @@
       "こんな無茶をして行かせるくらいだから、よっぽど重要な物資を",
       "積載していたんだろうな。"
     ],
+    "DeepL_mtl": [
+      "It must have been loaded with very important supplies to make it go this recklessly."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -41,6 +41,9 @@
     "Text": null,
     "Lines": [
       "なんだろう…？　新型のMSとかかな？"
+    ],
+    "DeepL_mtl": [
+      "I wonder...?　Is it a new type of MS or something?"
     ],
     "TabSpace": null,
     "Size": null
@@ -53,6 +56,11 @@
       "それより、到着予定時刻からすると、現場は濃霧に包まれている",
       "頃だと思います。　視界が悪いのは厳しいですね。"
     ],
+    "DeepL_mtl": [
+      "They say the details are confidential.",
+      "More importantly, based on the estimated time of arrival, the site would have been shrouded in thick fog by now.",
+      "The visibility is tough to see."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -64,6 +72,10 @@
       "それに、墜落自体が敵の攻撃によるものなら、鉢合わせになる",
       "可能性もあるから、十分注意していこう。"
     ],
+    "DeepL_mtl": [
+      "Yes, it is.",
+      "Besides, if the crash itself was caused by an enemy attack, we should be very careful because there is a possibility that we could be pitted against each other."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -73,6 +85,9 @@
     "Lines": [
       "では、各員、出撃準備！"
     ],
+    "DeepL_mtl": [
+      "Then, each of you, prepare to go out!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -80,6 +95,9 @@
     "ID": "eve700",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

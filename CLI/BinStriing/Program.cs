@@ -108,13 +108,13 @@ internal class Program
                 }
                 EncodingHelper.ConsoleEncoding(encoding);
 
-                var result = ForEachFile(
+                var result = FileEx.ForEachFile(
                             options.SourcePath,
                             options.PatchPath,
                             options.SourceFilter,
                             options.Recursive,
                             (i, o) => ParseFile(i, o, encoding, options.Verbose, options.Patterns, options.AutoIndexer, options.IndexFormat))
-                    .ToDictionary(i => GetRelativePathEx(options.SourcePath, i.path), i => i.patch);
+                    .ToDictionary(i => PathEx.GetRelativePath(options.SourcePath, i.path), i => i.patch);
 
                 if (options.MergeResults)
                 {
@@ -154,7 +154,7 @@ internal class Program
                         return true;
                     }
 
-                    var patchPath = RebasePath(sourceFile, options.SourcePath, options.PatchPath) + ".json";
+                    var patchPath = PathEx.RebasePath(sourceFile, options.SourcePath, options.PatchPath) + ".json";
 
                     if (File.Exists(patchPath))
                     {
@@ -167,7 +167,7 @@ internal class Program
                     return false;
                 }
 
-                ForEachFile(
+                FileEx.ForEachFile(
                             options.SourcePath,
                             options.OutputPath,
                             options.SourceFilter,
@@ -221,20 +221,6 @@ internal class Program
         File.WriteAllBytes(output, bytes);
     }
 
-    /// <summary>
-    /// GetRelativePath returns . for same paths, this will return path instead
-    /// </summary>
-    /// <param name="relativeTo"></param>
-    /// <param name="path"></param>
-    /// <returns></returns>
-    static string GetRelativePathEx(string relativeTo, string path)
-    {
-        if (string.Equals(relativeTo, path, StringComparison.OrdinalIgnoreCase))
-        {
-            return path;
-        }
-        return Path.GetRelativePath(relativeTo, path);
-    }
 
     private static (string path, PatchModel patch) ParseFile(string input, string output, Encoding encoding, bool verbose, IEnumerable<string> patterns, bool AutoIndexer, string IndexMask)
     {
@@ -311,40 +297,6 @@ internal class Program
         }
 
         return (input, result);
-    }
-
-    private static string RebasePath(string path, string root, string newRoot)
-    {
-        var stub = Path.GetRelativePath(root, path);
-        return Path.Combine(newRoot, stub);
-    }
-    private static IEnumerable<T> ForEachFile<T>(string input, string output, string filter, bool recursive, Func<string, string, T> action, string outputSuffix = ".json")
-    {
-        if (File.Exists(input))
-        {
-            yield return action(input, output + outputSuffix);
-        }
-        else if (Directory.Exists(input))
-        {
-            foreach (var file in Directory.EnumerateFiles(input, filter, recursive ? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly))
-            {
-                yield return action(file, RebasePath(file, input, output));
-            }
-        }
-    }
-    private static void ForEachFile(string input, string output, string filter, bool recursive, Action<string, string> action, string outputSuffix = ".json")
-    {
-        if (File.Exists(input))
-        {
-            action(input, output + outputSuffix);
-        }
-        else if (Directory.Exists(input))
-        {
-            foreach (var file in Directory.EnumerateFiles(input, filter, recursive ? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly))
-            {
-                action(file, RebasePath(file, input, output));
-            }
-        }
     }
 
     public class PatchModel

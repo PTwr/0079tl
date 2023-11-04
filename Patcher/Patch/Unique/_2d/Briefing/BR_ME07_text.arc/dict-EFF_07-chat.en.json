@@ -1,18 +1,12 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve532",
     "Text": null,
     "Lines": [
       "いやぁ、随分と思い切った任務に抜擢されたもんだね。"
+    ],
+    "DeepL_mtl": [
+      "Wow, you were selected for a very drastic mission."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,6 +17,9 @@
     "Lines": [
       "さすがに、こう続けての出撃はキツイなぁ…。"
     ],
+    "DeepL_mtl": [
+      "As expected, it's hard to go out like this continuously..."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -32,6 +29,9 @@
     "Lines": [
       "この前の戦いでは、リルちゃんがやらかしてくれたからなぁ。"
     ],
+    "DeepL_mtl": [
+      "Lil' Lil' did me in the last battle, you know."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -40,6 +40,10 @@
     "Text": null,
     "Lines": [
       "うぅ…。　悪かったわよ…、ホントに。"
+    ],
+    "DeepL_mtl": [
+      "Ugh...",
+      "I'm sorry...really."
     ],
     "TabSpace": null,
     "Size": null
@@ -52,6 +56,11 @@
       "本人も反省してますし。",
       "もう一度やったら、その時は…ね？"
     ],
+    "DeepL_mtl": [
+      "Mr. Dennis, you don't have to talk about that anymore.",
+      "He's sorry for what he's done.",
+      "If you do it again, then...right?"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -60,6 +69,9 @@
     "Text": null,
     "Lines": [
       "ぜ、ぜったい二度といたしませんっっ！！"
+    ],
+    "DeepL_mtl": [
+      "I will never do it again!"
     ],
     "TabSpace": null,
     "Size": null
@@ -71,6 +83,10 @@
       "まぁまぁ、みんな。",
       "リルも聞き分けの良い子になったから、そのくらいでね。"
     ],
+    "DeepL_mtl": [
+      "Well, well, well, guys.",
+      "Lil has become a good listener, so that's about it."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -80,6 +96,10 @@
     "Lines": [
       "あぁ…、この連中ならこうなることは予測できたはずなのに…。",
       "し、死にたい…。"
+    ],
+    "DeepL_mtl": [
+      "Ahhh......these guys should have seen this coming....",
+      "I want to die...."
     ],
     "TabSpace": null,
     "Size": null
@@ -92,6 +112,9 @@
       "あくまでもDestruction of Gau Carrierが目的で、目的達成後に離脱して",
       "いいってんなら、なんとかなりそうだな。"
     ],
+    "DeepL_mtl": [
+      "But, well, if the objective is to be able to get ahead of enemy units and Destruction of Gau Carrier, and if they can disengage after the objective is achieved, then it seems manageable."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -102,6 +125,9 @@
       "支援砲撃はあまりアテになりそうに無いけど、",
       "でもまぁ、敵を攪乱するくらいの効果はあるだろうしね。"
     ],
+    "DeepL_mtl": [
+      "The support bombardment doesn't seem to be very reliable, but, well, it would be effective enough to distract the enemy."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -110,6 +136,9 @@
     "Text": null,
     "Lines": [
       "上も、ようやくMS隊の有効性を認めたって解釈していいのかな？"
+    ],
+    "DeepL_mtl": [
+      "Can we interpret the above as finally acknowledging the validity of the MS squad?"
     ],
     "TabSpace": null,
     "Size": null
@@ -122,6 +151,10 @@
       "でも、今までのように敵に対するメンタル面への効果は、",
       "あまりないと思っておいたほうがいいだろうね。"
     ],
+    "DeepL_mtl": [
+      "Yes, it is.",
+      "But you should expect that the effect on the mental side against the enemy will not be as great as it has been in the past."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -132,6 +165,9 @@
       "指揮系統が乱れているといっても、すでに、各地での目撃情報は",
       "浸透し始めているでしょうしね。"
     ],
+    "DeepL_mtl": [
+      "Even though the chain of command is in disarray, I'm sure that sightings in different parts of the country are already starting to permeate."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -141,6 +177,9 @@
     "Lines": [
       "では、各員、出撃準備！"
     ],
+    "DeepL_mtl": [
+      "Then, each of you, prepare to go out!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -148,6 +187,9 @@
     "ID": "eve700",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AutoTranslator EFF story bits": {
+      "commandName": "Project",
+      "commandLineArgs": "JSON --input ../../../../../Patcher/Patch/Unique/_2d/Briefing --filter */dict-EFF_*-chat.en.json --output ../../../../../Patcher/Patch/Unique/_2d/Briefing --path $..Lines --terminator 。 --split --key C:/tools/DeepLAPIKey.txt --sourcelang ja"
+    }
+  }
+}

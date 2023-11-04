@@ -1,20 +1,15 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve604",
     "Text": null,
     "Lines": [
       "北極基地から、宇宙への物資打ち上げが行われる。",
       "この基地は先日、ジオンの攻撃を受けて、守備隊にかなりの",
       "損害が出たようだね。"
+    ],
+    "DeepL_mtl": [
+      "From the Arctic base, supplies are launched into space.",
+      "I understand that this base was recently attacked by Zion and the garrison suffered considerable damage."
     ],
     "TabSpace": null,
     "Size": null
@@ -24,6 +19,9 @@
     "Text": null,
     "Lines": [
       "守備隊の代役で、打ち上げを警護するってわけね？"
+    ],
+    "DeepL_mtl": [
+      "So, you're going to stand in for the garrison and guard the launch?"
     ],
     "TabSpace": null,
     "Size": null
@@ -35,6 +33,9 @@
       "我ら広域特殊対応部隊も、ついに北の果てまで足を延ばすように",
       "なったかぁ。"
     ],
+    "DeepL_mtl": [
+      "I wonder if our wide-area special response forces are finally extending their reach to the far north."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -43,6 +44,9 @@
     "Text": null,
     "Lines": [
       "看板に偽りなしってことさ。"
+    ],
+    "DeepL_mtl": [
+      "It's all in the sign."
     ],
     "TabSpace": null,
     "Size": null
@@ -54,6 +58,9 @@
       "一度襲撃を受けたってことは、位置や規模は、",
       "敵に知られてるってことね？"
     ],
+    "DeepL_mtl": [
+      "Once you've been attacked, that means your location and size are known to the enemy, right?"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -63,6 +70,10 @@
     "Lines": [
       "今の地上部隊の混乱からすると、そこは五分五分だな。",
       "しかし、噂が広がるのが速いのは世の常だしな。"
+    ],
+    "DeepL_mtl": [
+      "From the current mess in the ground troops, it's 50-50 there.",
+      "But, you know, rumors spread fast in this world."
     ],
     "TabSpace": null,
     "Size": null
@@ -74,6 +85,10 @@
       "それより、また寒い場所なんですよ～。",
       "そっちのほうが問題ですよ～。"
     ],
+    "DeepL_mtl": [
+      "More importantly, it's a cold place again!",
+      "That's more of a problem!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -82,6 +97,9 @@
     "Text": null,
     "Lines": [
       "…ホアの寒がりにも困ったもんだなぁ。"
+    ],
+    "DeepL_mtl": [
+      "...I'm also troubled by Hoa's coldness."
     ],
     "TabSpace": null,
     "Size": null
@@ -93,6 +111,9 @@
       "それほど長居はしないから、我慢してね？",
       "よし、ユニット1、出撃だ！"
     ],
+    "DeepL_mtl": [
+      "We won't be here that long, so bear with us, okay? All right, Unit 1, let's go!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -100,6 +121,9 @@
     "ID": "eve709",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

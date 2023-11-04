@@ -1,0 +1,41 @@
+[
+  {
+    "ID": "MISSION",
+    "Text": "Story completion:"
+  },
+  {
+    "ID": "MS",
+    "Text": "MS completion:"
+  },
+  {
+    "ID": "MISSION_COMPLETE",
+    "Text": "/@MISSION_COMPLETE@"
+  },
+  {
+    "ID": "MS_COMPLETE",
+    "Text": "/@MS_COMPLETE@"
+  },
+  {
+    "ID": "CHARACTER_COMPLETE",
+    "Text": "/@CHARACTER_COMPLETE@"
+  },
+  {
+    "ID": "INF_00",
+    "Text": "Please select save slot to use in your campaign."
+  },
+  {
+    "ID": "INF_CONTINUE",
+    "Text": "Resume from last save."
+  },
+  {
+    "ID": "INF_MISSION",
+    "Lines": [
+      "Freeplay. Any mission, any time!",
+      "You will not unlock new MS/weapon/pilots."
+    ]
+  },
+  {
+    "ID": "INF_DELETE",
+    "Text": "Erase the file."
+  }
+]

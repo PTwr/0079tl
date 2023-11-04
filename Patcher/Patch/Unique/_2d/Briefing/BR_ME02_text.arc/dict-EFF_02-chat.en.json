@@ -7,6 +7,9 @@
       "of victory. I thought we'd participate in counter",
       "offensive, but luckily its just a small operation."
     ],
+    "DeepL_mtl": [
+      "New mission came in, no time to bask in afterglowof victory. i thought we'd participate in counteroffensive, but luckily its just a small operation."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -15,8 +18,11 @@
     "Text": null,
     "Lines": [
       "What a relief!",
-      "Why aren't we weploying MS as main",
+      "Why aren't we eploying MS as main",
       "force of counter offensive?!"
+    ],
+    "DeepL_mtl": [
+      "What a relief!Why aren't we eploying MS as the main force of counter offensive?"
     ],
     "TabSpace": null,
     "Size": null
@@ -25,9 +31,12 @@
     "ID": "eve036_01",
     "Text": null,
     "Lines": [
-      "Don't strain yourself, Lilly. Even unit that",
+      "Don't strain yourself, Lilly. Even units that",
       "operated before us haven't been mobilised.",
       "I guess we haven't reached combat readiness yet."
+    ],
+    "DeepL_mtl": [
+      "Don't strain yourself, Lilly. even units thatoperated before we haven't been mobilised.I guess we haven't reached combat readiness yet."
     ],
     "TabSpace": null,
     "Size": null
@@ -38,6 +47,9 @@
     "Lines": [
       "But we fought so well the other day!",
       "It swould have boosted our troops morale!"
+    ],
+    "DeepL_mtl": [
+      "But we fought so well the other day! It swould have boosted our troops morale!"
     ],
     "TabSpace": null,
     "Size": null
@@ -50,6 +62,9 @@
       "Enemy did not expect us to field MS, and was careless.",
       "It can't be helped that army keeps is in back."
     ],
+    "DeepL_mtl": [
+      "Our previous victory was just due to surprise.Enemy did not expect us to field MS, and was careless.It can't be helped that army keeps is in back."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -59,6 +74,9 @@
     "Lines": [
       "Hey, Hoa...",
       "Are you saying we're not good enough?!"
+    ],
+    "DeepL_mtl": [
+      "Hey, Hoa.... .Are you saying we're not good enough?"
     ],
     "TabSpace": null,
     "Size": null
@@ -71,6 +89,9 @@
       "A pilot of your level should have",
       "noticed that enemy was in confusion, right?"
     ],
+    "DeepL_mtl": [
+      "Huh? Um... A pilot of your level should havenoticed that enemy was in confusion, right?"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -79,6 +100,9 @@
     "Text": null,
     "Lines": [
       "MNHGHGHGHGNNMM!!!!!!"
+    ],
+    "DeepL_mtl": [
+      "MNHGHGHGHGHGNNMMM!!!!!!."
     ],
     "TabSpace": null,
     "Size": null
@@ -91,6 +115,9 @@
       "Oh that's right! Such experienced pilot as Lil",
       "of course have noticed. Right? Lil? Hhahaha..."
     ],
+    "DeepL_mtl": [
+      "(Whoaa...) Oh that's right! Such an experienced pilot as Lilof course has noticed."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -101,6 +128,9 @@
       "I guess what Lil says is that we should keep",
       "targeting enemy morale with our MS, just like",
       "in last battle? Right, Lil? You're so thoughtful!'"
+    ],
+    "DeepL_mtl": [
+      "I guess what Lil says is that we should keeptargeting enemy morale with our MS, just likein last battle? Right, Lil? You're so thoughtful!"
     ],
     "TabSpace": null,
     "Size": null
@@ -113,6 +143,9 @@
       "Great pilot is always thinking on both tactical",
       "and strategic level! Hah, I was just testing you!"
     ],
+    "DeepL_mtl": [
+      "Great pilot is always thinking on both tacticaland strategic level! Hah, I was just testing you!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -124,6 +157,9 @@
       "However, General Revil has to think of big picture.",
       "I'm sure he thinks is not yet time to play our trump card."
     ],
+    "DeepL_mtl": [
+      "Whoa, as expected of Lilly.However, General Revil has to think of the big picture.I'm sure he thinks is not yet time to play our trump card."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -133,6 +169,9 @@
     "Lines": [
       "Yes. Due to overextended front line,",
       "Zeon forces are struggling with supplies..."
+    ],
+    "DeepL_mtl": [
+      "Yes. Due to overextended front line,Zeon forces are struggling with supplies...."
     ],
     "TabSpace": null,
     "Size": null
@@ -145,6 +184,9 @@
       "we can win this operation just with sheer numbers.",
       "I guess our part will come after that."
     ],
+    "DeepL_mtl": [
+      "Even if casualties are high, the thinking is thatwe can win this operation just with sheer numbers.I guess our part will come after that."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -156,6 +198,9 @@
       "experience as possible, and develop our trump card.",
       "Well, time to head out! Everyone, preparie for sortie!"
     ],
+    "DeepL_mtl": [
+      "Ah, In order to do that we need to gain as muchexperience as possible, and develop our trump card.Well, time to head out! Everyone, preparie for sortie!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -163,6 +208,9 @@
     "ID": "eve704_01",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

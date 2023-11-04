@@ -3706,37 +3706,6 @@
     "Text": "@DATE@"
   },
   {
-    "ID": "MISSION_COMPLETE",
-    "Text": "/@MISSION_COMPLETE@"
-  },
-  {
-    "ID": "MS_COMPLETE",
-    "Text": "/@MS_COMPLETE@"
-  },
-  {
-    "ID": "CHARACTER_COMPLETE",
-    "Text": "/@CHARACTER_COMPLETE@"
-  },
-  {
-    "ID": "INF_00",
-    "Text": "Please select a file to use in your story."
-  },
-  {
-    "ID": "INF_CONTINUE",
-    "Text": "Resume from where you last saved."
-  },
-  {
-    "ID": "INF_MISSION",
-    "Lines": [
-      "You can select the mission you want to play. However,",
-      "you cannot record scores, obtain MS/weapons, etc."
-    ]
-  },
-  {
-    "ID": "INF_DELETE",
-    "Text": "Erase the file."
-  },
-  {
     "ID": "MENU_STORY",
     "Text": "STORY"
   },

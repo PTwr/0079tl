@@ -1,23 +1,17 @@
 [
-  //Chat CH_MxNN.arc
   {
     "ID": "eve002_01",
     "Text": "I am Ensign Alan Aylward. Captain of SRT Unit 1\nIt was suddenly organized as a combat unit.\nSince expectations are high, let's do our best."
   },
   {
-    "ID": "eve002_02",
-    "Text": "2222"
-  },
-  {
-    "ID": "eve002_03",
-    "Text": "3333"
-  },
-  {
     "ID": "eve003_01",
     "Lines": [
-      "I'm Corporal Hoare Blanchett, and I'm the unit's operator.",
+      "I'm Corporal Hoa Blanchett, and I'm the unit's operator.",
       "I collect, analyze, and communicate information so that",
       "you can concentrate on the battle. I'll do my best."
+    ],
+    "DeepL_mtl": [
+      "I'm Corporal Hoa Blanchett, and I'm the unit's operator.I collect, analyze, and communicate information so thatyou can concentrate on the battle. I collect, analyze, and communicate information so thatyou can concentrate on the battle."
     ],
     "Text": "I'm Corporal Hore Blanchett, and I'm the unit's operator.\nWe collect, analyze, and communicate information so that\nyou can concentrate on the battle. I'll do my best."
   },
@@ -27,6 +21,9 @@
       "I'm Sergeant Dennis Barrow. I think I'm the only one with",
       "actual combat experience in this unit.",
       "Thank you for your continued support, especially you cuties"
+    ],
+    "DeepL_mtl": [
+      "I'm Sergeant Dennis Barrow.I think I'm the only one withactual combat experience in this unit.Thank you for your continued support, especially you Thank you for your continued support, especially you cuties."
     ],
     "Text": "I'm Sergeant Dennis Barrow\nI think I'm the only one with actual combat experience in this unit\nThank you for your continued support, especially you cuties."
   },
@@ -64,6 +61,9 @@
       "Well, there are many people, including myself, who have",
       "no actual combat experience. You have high potential, so",
       "with experience we'll make great team."
+    ],
+    "DeepL_mtl": [
+      "Well, there are many people, including myself, who haveno actual combat experience. you have high potential, sowith experience we'll make a great team."
     ],
     "Text": "Well, there are many people, including myself, who have no actual combat experience.\nThey are members with high potential, so as long as they gain experience,\nWe should be able to make a good team."
   },

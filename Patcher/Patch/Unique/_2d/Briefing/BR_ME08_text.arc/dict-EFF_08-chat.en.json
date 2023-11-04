@@ -1,18 +1,12 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve149",
     "Text": null,
     "Lines": [
       "というわけで、次の戦地は北の外れの雪原だね。"
+    ],
+    "DeepL_mtl": [
+      "So the next battleground is the snowfield on the outskirts of the north."
     ],
     "TabSpace": null,
     "Size": null
@@ -22,6 +16,10 @@
     "Text": null,
     "Lines": [
       "うぅ…。　わたし寒いの苦手です～。"
+    ],
+    "DeepL_mtl": [
+      "Ugh...",
+      "I don't like cold weather!"
     ],
     "TabSpace": null,
     "Size": null
@@ -33,6 +31,10 @@
       "女の子は冷え性だからなぁ。",
       "いつでも俺が暖めてやるよ？"
     ],
+    "DeepL_mtl": [
+      "The girls are cold.",
+      "I'll warm you up anytime, okay?"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -42,6 +44,9 @@
     "Lines": [
       "最低ね。"
     ],
+    "DeepL_mtl": [
+      "That sucks."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -50,6 +55,9 @@
     "Text": null,
     "Lines": [
       "最低です。"
+    ],
+    "DeepL_mtl": [
+      "Worst."
     ],
     "TabSpace": null,
     "Size": null
@@ -61,6 +69,10 @@
       "わ、悪かったって…。",
       "そんな冷めたリアクションするなよ…。"
     ],
+    "DeepL_mtl": [
+      "I'm sorry...",
+      "Don't react so coldly..."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -70,6 +82,9 @@
     "Lines": [
       "ま、まぁ、MSも指揮所も暖房は効くから…。"
     ],
+    "DeepL_mtl": [
+      "Well, well, both the MS and the command center are heated..."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -78,6 +93,9 @@
     "Text": null,
     "Lines": [
       "でも、寒いものは寒いです～。"
+    ],
+    "DeepL_mtl": [
+      "But cold things are cold!"
     ],
     "TabSpace": null,
     "Size": null
@@ -89,6 +107,9 @@
       "オーガスタの技研でも、MS戦闘における最大の敵は、",
       "苛酷な自然環境だって、技術屋さんが泣いてたわね…。"
     ],
+    "DeepL_mtl": [
+      "Even in Augusta's technical institute, the engineers cried that the biggest enemy in MS combat is the harsh natural environment...."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -97,6 +118,9 @@
     "Text": null,
     "Lines": [
       "寒冷地は、ある意味砂漠より怖いからね…。"
+    ],
+    "DeepL_mtl": [
+      "Cold weather is scarier than deserts in some ways...."
     ],
     "TabSpace": null,
     "Size": null
@@ -107,6 +131,10 @@
     "Lines": [
       "マシントラブルで暖房が止まったら、凍死しちまうよなぁ。",
       "ハッハッハ…。"
+    ],
+    "DeepL_mtl": [
+      "If the heating stops due to machine trouble, I'll freeze to death.",
+      "Hahaha...."
     ],
     "TabSpace": null,
     "Size": null
@@ -119,6 +147,10 @@
       "からね。　えーっと、予備の発電機と自転車とムチ…",
       "あと、足かせはどこにあったかなぁ…。"
     ],
+    "DeepL_mtl": [
+      "Ummm....if that happens, I'll have Mr. Dennis generate the human power.",
+      "Let's see, spare generator, bike and whip....and where were the shackles...."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -127,6 +159,9 @@
     "Text": null,
     "Lines": [
       "ほ、ホアさん…、本気で探すのはやめて下さい。"
+    ],
+    "DeepL_mtl": [
+      "Ho, Hoa-san..., please don't really look for it."
     ],
     "TabSpace": null,
     "Size": null
@@ -138,6 +173,11 @@
       "はいはい。　そろそろ行くよ。",
       "ユニット1、出撃準備！"
     ],
+    "DeepL_mtl": [
+      "Yes, yes, yes.",
+      "I'd better get going.",
+      "Unit 1, prepare to launch!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -145,6 +185,9 @@
     "ID": "eve707",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

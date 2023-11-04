@@ -3,22 +3,18 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>_0079Patcher</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="DeepL.net" Version="1.7.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\0079Shared\0079Shared.csproj" />
-    <ProjectReference Include="..\..\GEVLib\GEVLib.csproj" />
-    <ProjectReference Include="..\..\InMemoryBinaryFile\InMemoryBinaryFile.csproj" />
-    <ProjectReference Include="..\..\U8\U8.csproj" />
-    <ProjectReference Include="..\..\XBFLib\XBFLib.csproj" />
+    <ProjectReference Include="..\..\FileProcessing\FileProcessing.csproj" />
   </ItemGroup>
 
 </Project>

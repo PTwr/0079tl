@@ -8,6 +8,7 @@ using InMemoryBinaryFile.Helpers;
 using System.Reflection.Metadata.Ecma335;
 using GEVLib.GEV;
 using System.Text;
+using _0079Shared;
 
 internal class Program
 {
@@ -190,8 +191,8 @@ internal class Program
             var arcName = Path.GetFileName(missionDir);
             var missionCode = arcName.Substring(3, 2);
             var missionNumber = arcName.Substring(5, 2);
-            List<tlentry> ChatTL = new List<tlentry>();
-            List<tlentry> ObjectivesAndIntel = new List<tlentry>();
+            List<XBFTextEntry> ChatTL = new List<XBFTextEntry>();
+            List<XBFTextEntry> ObjectivesAndIntel = new List<XBFTextEntry>();
 
             var chatfile = Path.Combine(missionDir, $"arc/CH_{missionCode}{missionNumber}.arc/arc/BlockText.xbf.xml");
             var objectivefile = Path.Combine(missionDir, $"arc/OP_{missionCode}{missionNumber}.arc/arc/BlockText.xbf.xml");
@@ -230,7 +231,7 @@ internal class Program
 
     }
 
-    private static void ExtractTLEntries(List<tlentry> ChatTL, string chatfile)
+    private static void ExtractTLEntries(List<XBFTextEntry> ChatTL, string chatfile)
     {
         if (File.Exists(chatfile))
         {
@@ -243,7 +244,7 @@ internal class Program
                 var id = block.SelectSingleNode("ID").InnerText;
                 var text = block.SelectSingleNode("Text").InnerText;
 
-                var entry = new tlentry()
+                var entry = new XBFTextEntry()
                 {
                     ID = block.SelectSingleNode("ID").InnerText,
                     Lines = block.SelectSingleNode("Text").InnerText.Split("\n").ToArray(),
@@ -262,7 +263,7 @@ internal class Program
         }
 
         //get global dicts first
-        Dictionary<string, tlentry> globaldict = GetTLDict(Path.Combine(patchDir, UniqueDir), languageCode);
+        Dictionary<string, XBFTextEntry> globaldict = GetTLDict(Path.Combine(patchDir, UniqueDir), languageCode);
 
         var files = new System.IO.DirectoryInfo(inputDir)
             .GetFiles("*.arc", SearchOption.AllDirectories);
@@ -276,7 +277,7 @@ internal class Program
             root.Parse(bytes);
 
             var arcPath = Path.GetRelativePath(inputDir, file.FullName);
-            var updated = UpdateU8Root(root, Path.Combine(patchDir, UniqueDir, arcPath), Path.Combine(patchDir, CommonDir), Path.Combine(inputDir, arcPath), languageCode, new List<Dictionary<string, tlentry>>() { globaldict });
+            var updated = UpdateU8Root(root, Path.Combine(patchDir, UniqueDir, arcPath), Path.Combine(patchDir, CommonDir), Path.Combine(inputDir, arcPath), languageCode, new List<Dictionary<string, XBFTextEntry>>() { globaldict });
 
             if (updated || rewrite)
             {
@@ -289,17 +290,17 @@ internal class Program
         }
     }
 
-    private static Dictionary<string, tlentry> GetTLDict(string patchDir, string languageCode)
+    private static Dictionary<string, XBFTextEntry> GetTLDict(string patchDir, string languageCode)
     {
         if (!Directory.Exists(patchDir))
         {
-            return new Dictionary<string, tlentry>();
+            return new Dictionary<string, XBFTextEntry>();
         }
 
         var paths = Directory
             .EnumerateFiles(patchDir, string.Format(TranslationDictFilenameMask, languageCode), SearchOption.TopDirectoryOnly);
 
-        Dictionary<string, tlentry> result = new Dictionary<string, tlentry>();
+        Dictionary<string, XBFTextEntry> result = new Dictionary<string, XBFTextEntry>();
 
         //allow for multi-file dicts
         foreach (var path in paths)
@@ -308,7 +309,7 @@ internal class Program
 
             try
             {
-                var dict = JsonConvert.DeserializeObject<List<tlentry>>(json);
+                var dict = JsonConvert.DeserializeObject<List<XBFTextEntry>>(json);
 
                 foreach (var entry in dict)
                 {
@@ -324,29 +325,11 @@ internal class Program
         return result;
     }
 
-    public class tlentry
-    {
-        public string ID { get; set; }
-        public string Text { get; set; }
-        public string[] Lines { get; set; }
-        public string TabSpace { get; set; }
-        public string Size { get; set; }
-
-        public override string ToString()
-        {
-            if (Lines?.Any() == true)
-            {
-                return string.Join("\n", Lines);
-            }
-            return Text;
-        }
-    }
-
     const string CommonDir = "Common";
     const string UniqueDir = "Unique";
-    private static bool UpdateU8Root(U8RootSegment root, string patchDir, string commonDir, string inputDir, string languageCode, List<Dictionary<string, tlentry>> dicts)
+    private static bool UpdateU8Root(U8RootSegment root, string patchDir, string commonDir, string inputDir, string languageCode, List<Dictionary<string, XBFTextEntry>> dicts)
     {
-        dicts = new List<Dictionary<string, tlentry>>(dicts) //clone list
+        dicts = new List<Dictionary<string, XBFTextEntry>>(dicts) //clone list
         {
             //append new dict
             GetTLDict(patchDir, languageCode)
@@ -422,6 +405,7 @@ internal class Program
                         var id = str.SelectSingleNode("Code");
                         var tabspace = str.SelectSingleNode("TabSpace");
                         var size = str.SelectSingleNode("Size");
+                        var positionFlag = str.SelectSingleNode("PositionFlag");
 
                         //from newest dict to oldest
                         foreach (var dict in dicts.AsQueryable().Reverse())
@@ -443,6 +427,18 @@ internal class Program
                                 if (!string.IsNullOrWhiteSpace(tl.Size))
                                 {
                                     size.InnerText = tl.Size;
+                                    break;
+                                }
+                            }
+                        }
+                        //from newest dict to oldest
+                        foreach (var dict in dicts.AsQueryable().Reverse())
+                        {
+                            if (dict.TryGetValue(id.InnerText, out var tl))
+                            {
+                                if (!string.IsNullOrWhiteSpace(tl.TabSpace))
+                                {
+                                    positionFlag.InnerText = tl.PositionFlag;
                                     break;
                                 }
                             }

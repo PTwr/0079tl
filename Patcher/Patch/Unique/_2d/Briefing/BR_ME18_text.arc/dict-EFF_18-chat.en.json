@@ -1,20 +1,15 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve298",
     "Text": null,
     "Lines": [
       "アフリカ掃討作戦の滑り出しは順調だね。",
       "ここからの送り出しも、さっき入ってきたビッグ･トレーが",
       "最終便だ。"
+    ],
+    "DeepL_mtl": [
+      "The Africa sweep operation is off to a good start.",
+      "The big tray that just came in is the last one to be sent out from here."
     ],
     "TabSpace": null,
     "Size": null
@@ -27,6 +22,10 @@
       "出される予定の素人とはな…。",
       "こりゃ、無駄に損害が増えるだろうな…。"
     ],
+    "DeepL_mtl": [
+      "But, well, most of the MS squadrons that will be deployed are amateurs who are scheduled to be sent out to space....",
+      "This will be a lot of unnecessary damage..."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -37,6 +36,10 @@
       "実際の主力は、航空部隊になるようです。",
       "結局のところ、物量での力技ですね。"
     ],
+    "DeepL_mtl": [
+      "The actual main force seems to be the air force.",
+      "After all, it's a tour de force in quantity."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -45,6 +48,9 @@
     "Text": null,
     "Lines": [
       "ほんと、そういう旧体制的なとこは変わらないわねぇ…。"
+    ],
+    "DeepL_mtl": [
+      "I guess the old system is still in place...."
     ],
     "TabSpace": null,
     "Size": null
@@ -57,6 +63,10 @@
       "だけだろうね。",
       "きっと、敵を囲んで立ってるだけとかだよ。"
     ],
+    "DeepL_mtl": [
+      "As for the MS troops, I guess they just want to get used to the atmosphere of the battlefield.",
+      "I bet they just stand around the enemy or something."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -65,6 +75,9 @@
     "Text": null,
     "Lines": [
       "まぁ、それが正解だな。"
+    ],
+    "DeepL_mtl": [
+      "Well, that's the right answer."
     ],
     "TabSpace": null,
     "Size": null
@@ -76,6 +89,10 @@
       "さて、そろそろ交代時間だな。",
       "ユニット1、出撃準備だ！"
     ],
+    "DeepL_mtl": [
+      "Well, it's time for a change.",
+      "Unit 1, prepare to launch!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -83,6 +100,9 @@
     "ID": "eve700",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

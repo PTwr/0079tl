@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\FileProcessing\FileProcessing.csproj" />
     <ProjectReference Include="..\..\InMemoryBinaryFile\InMemoryBinaryFile.csproj" />
   </ItemGroup>
 

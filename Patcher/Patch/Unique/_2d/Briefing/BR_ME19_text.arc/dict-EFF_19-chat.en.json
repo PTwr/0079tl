@@ -1,19 +1,14 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve629",
     "Text": null,
     "Lines": [
       "シアトルか…。",
       "俺たちの初任務の場所だね。"
+    ],
+    "DeepL_mtl": [
+      "Seattle....",
+      "That's where our first mission was."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,6 +18,9 @@
     "Text": null,
     "Lines": [
       "リルちゃんの尖がり具合が、懐かしいねぇ～。"
+    ],
+    "DeepL_mtl": [
+      "I miss Lil' Lil''s sharpness, don't I!"
     ],
     "TabSpace": null,
     "Size": null
@@ -34,6 +32,9 @@
       "ご希望ならデニスの相手は、そっちでやってあげようか？",
       "んん？"
     ],
+    "DeepL_mtl": [
+      "If you prefer, I can deal with Dennis over there. Hmmm?"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -43,6 +44,9 @@
     "Lines": [
       "いやぁ…、遠慮しておくよ…。"
     ],
+    "DeepL_mtl": [
+      "Oh no, I'll pass...."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -51,6 +55,9 @@
     "Text": null,
     "Lines": [
       "リルは、本当に丸くなったものねぇ。"
+    ],
+    "DeepL_mtl": [
+      "Lil is really rounded, isn't she?"
     ],
     "TabSpace": null,
     "Size": null
@@ -62,6 +69,9 @@
       "丸くなったっていうのはヤメテ！！",
       "違う意味に聞こえるでしょ！？"
     ],
+    "DeepL_mtl": [
+      "Don't say \"rounded\"! It sounds like something else, doesn't it?"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -70,6 +80,9 @@
     "Text": null,
     "Lines": [
       "あ！　ごめん、ごめん！　最近気にしてたもんね…。"
+    ],
+    "DeepL_mtl": [
+      "Ah!　Sorry, sorry!　You've been on my mind lately..."
     ],
     "TabSpace": null,
     "Size": null
@@ -80,6 +93,11 @@
     "Lines": [
       "（くぅ～。　この、天然悪魔っ子めぇ……。）"
     ],
+    "DeepL_mtl": [
+      "(Kuu~)",
+      "You natural devil child. ......",
+      "(See Section 2.1.2.)."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -89,6 +107,10 @@
     "Lines": [
       "で、肝心の任務だけど…。",
       "あの廃墟は、確かに潜伏するには最適だよな。"
+    ],
+    "DeepL_mtl": [
+      "So, the key mission....",
+      "That ruin is certainly a great place to hide out."
     ],
     "TabSpace": null,
     "Size": null
@@ -101,6 +123,12 @@
       "待ち伏せてる敵の中に入ることになる。",
       "十分注意していこう。"
     ],
+    "DeepL_mtl": [
+      "Oh.",
+      "No doubt there will be enemy units there.",
+      "You'll be among enemies in ambush.",
+      "Let's be very careful."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -110,6 +138,9 @@
     "Lines": [
       "ユニット1、出撃準備だ！"
     ],
+    "DeepL_mtl": [
+      "Unit 1, prepare to launch!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -117,6 +148,9 @@
     "ID": "eve703",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

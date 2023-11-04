@@ -1,20 +1,14 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve068_01",
     "Text": null,
     "Lines": [
-      "オデッサ作戦決行の為の陽動ってことだったんだけど、",
-      "ウチは運悪く、危険度の高い任務を引き当てちゃったね。",
-      "オデッサ方面へ移動する敵部隊に対しての単独強襲任務だもんな。"
+      "We were supposed to just act as a diversion",
+      "for Operation Odessa, but now we got tasked with",
+      "ambushing enemy reinforcements."
+    ],
+    "DeepL_mtl": [
+      "We were supposed to just act as a diversionfor Operation Odessa, but now we got tasked withambushing enemy reinforcements."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,9 +17,12 @@
     "ID": "eve069_01",
     "Text": null,
     "Lines": [
-      "やったじゃない！",
-      "他の部隊より、ウチが当てにされている…、",
-      "認められてるってことでしょ？"
+      "We did it!",
+      "They rely on us more than other units...",
+      "It means we got acknownledged, right?"
+    ],
+    "DeepL_mtl": [
+      "We did it!They rely on us more than other units.... It means we got acknownledged, right?"
     ],
     "TabSpace": null,
     "Size": null
@@ -34,7 +31,10 @@
     "ID": "eve070_01",
     "Text": null,
     "Lines": [
-      "それか、潰れてもいいってことだな。"
+      "Or that we are expendable."
+    ],
+    "DeepL_mtl": [
+      "Or that we are expendable."
     ],
     "TabSpace": null,
     "Size": null
@@ -43,7 +43,10 @@
     "ID": "eve071_01",
     "Text": null,
     "Lines": [
-      "うっわ！　ネガティヴなこと言わないでよ！"
+      "Ugh! Don't be so negative!"
+    ],
+    "DeepL_mtl": [
+      "Ugh! Don't be so negative!"
     ],
     "TabSpace": null,
     "Size": null
@@ -52,8 +55,11 @@
     "ID": "eve072_01",
     "Text": null,
     "Lines": [
-      "敵勢力圏への強行突入ですから、",
-      "今までとはケタ違いに危険な任務ですよ。"
+      "We never did anything so dangerous,",
+      "we'll be heading into enemy held teritory."
+    ],
+    "DeepL_mtl": [
+      "We never did anything so dangerous,we'll be heading into enemy held teritory."
     ],
     "TabSpace": null,
     "Size": null
@@ -62,9 +68,12 @@
     "ID": "eve073_01",
     "Text": null,
     "Lines": [
-      "うん。　確かに危険だね。",
-      "ただ、逆にそこが付け入る隙になるはずだし、勝機はあるさ。",
-      "なぁに、大丈夫。　僕たちならやれるよ。"
+      "Yeah, sure its dangerous.",
+      "But its an oportunity we can make use of.",
+      "Don't worry, we can do it."
+    ],
+    "DeepL_mtl": [
+      "Yeah, sure its dangerous.But its an oportunity we can make use of.Don't worry, we can do it."
     ],
     "TabSpace": null,
     "Size": null
@@ -73,9 +82,12 @@
     "ID": "eve074_01",
     "Text": null,
     "Lines": [
-      "そうよ！　私たちならやれるわ！　名を上げる絶好のチャンス",
-      "じゃない！　みんなも「２つ名」を考えておいたほうがいいわよ。",
-      "私の「ポイズン・アップル」みたいなやつ！"
+      "Yes! We can do it! Finally we can get famous!",
+      "We should come up with callsigns for everyone,",
+      "like mine 'Poison Apple'!"
+    ],
+    "DeepL_mtl": [
+      "Yes! We can do it! Finally we can get famous! We should come up with callsigns for everyone,like mine 'Poison Apple'!"
     ],
     "TabSpace": null,
     "Size": null
@@ -84,8 +96,11 @@
     "ID": "eve075_01",
     "Text": null,
     "Lines": [
-      "うわぁ～、素敵ですね～。",
-      "リルさんにピッタリ！"
+      "Wow, thats wonderful.",
+      "Its perfect for you!"
+    ],
+    "DeepL_mtl": [
+      "Wow, thats wonderful.Its perfect for you!"
     ],
     "TabSpace": null,
     "Size": null
@@ -94,8 +109,11 @@
     "ID": "eve076_01",
     "Text": null,
     "Lines": [
-      "褒めてるのか、けなしてるのか分からないな…。",
-      "まぁ、俺らならやれるってことを信じるしかないな。"
+      "I don't know if you're praising or insulting me...",
+      "Well, I just have to believe in ourselves."
+    ],
+    "DeepL_mtl": [
+      "I don't know if you're praising or insulting me.... .well, I just have to believe in ourselves."
     ],
     "TabSpace": null,
     "Size": null
@@ -104,8 +122,11 @@
     "ID": "eve076_02",
     "Text": null,
     "Lines": [
-      "気持ちが折れたらそれまでさ。",
-      "危険だなんだっていうなら、いつもそうだしな。"
+      "Can't lose confidence.",
+      "If it can be dangerous, it always will be."
+    ],
+    "DeepL_mtl": [
+      "Can't lose confidence.If it can be dangerous, it always will be."
     ],
     "TabSpace": null,
     "Size": null
@@ -114,9 +135,12 @@
     "ID": "eve077_01",
     "Text": null,
     "Lines": [
-      "そうそう。　今回の作戦は、ある意味凄くシンプルだよ。",
-      "ビューっと降下して、油断してる敵をババババっとやっつけて、",
-      "ヒューーっと帰ってくるだけだからね。"
+      "Yes, yes. This operation is quite simple.",
+      "We drop in, take out unsuspecting enemies,",
+      "and come back in a whif."
+    ],
+    "DeepL_mtl": [
+      "Yes, yes. this operation is quite simple.We drop in, take out unsuspecting enemies,and come back in a whiff."
     ],
     "TabSpace": null,
     "Size": null
@@ -125,9 +149,12 @@
     "ID": "eve078_01",
     "Text": null,
     "Lines": [
-      "そうそう！　分かってるじゃん、アラン。",
-      "あなたの２つ名は…そうねぇ…",
-      "「ひょうひょうたる家猫」とかどう？"
+      "Oh yeah! I know, Alan.",
+      "Your nickename will be... I think...",
+      "How about 'Gloomy House Cat'?"
+    ],
+    "DeepL_mtl": [
+      "Oh yeah! I know, Alan. I think.... How about 'Gloomy House Cat'?"
     ],
     "TabSpace": null,
     "Size": null
@@ -136,7 +163,10 @@
     "ID": "eve079_01",
     "Text": null,
     "Lines": [
-      "う～ん。　…遠慮しとく。"
+      "Hmmm... I'll pass."
+    ],
+    "DeepL_mtl": [
+      "Hmmm... I'll pass."
     ],
     "TabSpace": null,
     "Size": null
@@ -145,8 +175,12 @@
     "ID": "eve080_01",
     "Text": null,
     "Lines": [
-      "ま、みんなも実戦を経験して分かったと思うけど、",
-      "戦場ってのは、いつ何が起こるかなんて分かりゃしない。"
+      "Well, I think everyone already learned ",
+      "through actual combat that nothing is",
+      "certain on battlefield."
+    ],
+    "DeepL_mtl": [
+      "Well, I think everyone already learned through actual combat that nothing iscertain on the battlefield."
     ],
     "TabSpace": null,
     "Size": null
@@ -155,8 +189,11 @@
     "ID": "eve080_02",
     "Text": null,
     "Lines": [
-      "命令は可能な限り守るけど、いざとなれば俺は、",
-      "自分で見て、決めて、動く。"
+      "I will follow orders as much as possible,",
+      "but in the end I have to think for myself."
+    ],
+    "DeepL_mtl": [
+      "I will follow orders as much as possible,but in the end I have to think for myself."
     ],
     "TabSpace": null,
     "Size": null
@@ -165,8 +202,11 @@
     "ID": "eve081_01",
     "Text": null,
     "Lines": [
-      "うん。　それでいいと思うよ。",
-      "それじゃ、ユニット1、各員出撃準備！"
+      "Yeah, it will be fine.",
+      "Well then. Unit 1, prepare for sortie!"
+    ],
+    "DeepL_mtl": [
+      "Yeah, it will be fine.Well then.Unit 1, prepare for sortie!"
     ],
     "TabSpace": null,
     "Size": null
@@ -175,6 +215,9 @@
     "ID": "eve705_01",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

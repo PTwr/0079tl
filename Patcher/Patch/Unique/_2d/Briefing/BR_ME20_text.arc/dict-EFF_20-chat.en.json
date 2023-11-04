@@ -1,19 +1,13 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve322_01",
     "Text": null,
     "Lines": [
       "アフリカ掃討作戦に、ケリをつけるための増援部隊が、",
       "間もなくインド洋沿岸に到着予定だ。"
+    ],
+    "DeepL_mtl": [
+      "Reinforcements are scheduled to arrive off the coast of the Indian Ocean shortly to put an end to the African cleanup operation."
     ],
     "TabSpace": null,
     "Size": null
@@ -26,6 +20,10 @@
       "ギャロップや、ダブデなどの大型陸戦艇からの砲撃は、",
       "最大の脅威となるわけだ。"
     ],
+    "DeepL_mtl": [
+      "Upon landing, troops are densely packed and unprotected.",
+      "So the bombardment from gallops and large land craft such as dubdehs is the biggest threat."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -36,6 +34,9 @@
       "私たちが強襲する基地には、",
       "ギャロップ、ダブデが、1輌ずつ確認されています。"
     ],
+    "DeepL_mtl": [
+      "The base we are raiding has one confirmed gallop and one confirmed dabdeh."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -44,6 +45,9 @@
     "Text": null,
     "Lines": [
       "とにかく、それを潰せばいいんだな？"
+    ],
+    "DeepL_mtl": [
+      "Anyway, we're supposed to squash that, right?"
     ],
     "TabSpace": null,
     "Size": null
@@ -54,6 +58,9 @@
     "Lines": [
       "でも、私たちの小隊だけでなんて、結構無謀よね。"
     ],
+    "DeepL_mtl": [
+      "But it's pretty reckless to do it with just our platoon."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -63,6 +70,10 @@
     "Lines": [
       "そうだな。",
       "一応、支援爆撃があるが、大した効果は期待できないだろうね。"
+    ],
+    "DeepL_mtl": [
+      "Yes.",
+      "In the meantime, there is support bombing, but I doubt it will have much effect."
     ],
     "TabSpace": null,
     "Size": null
@@ -75,6 +86,10 @@
       "合流ポイントに向かってください。",
       "ミデアがピックアップして脱出します。"
     ],
+    "DeepL_mtl": [
+      "After the destruction of the land boats, do not force them to fight, but head for the rendezvous point.",
+      "Midea picks up and escapes."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -85,6 +100,9 @@
       "もちろん、状況次第では、",
       "俺たちだけで基地を攻略してもいいんだけどね。"
     ],
+    "DeepL_mtl": [
+      "Of course, depending on the situation, we could capture the base on our own."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -93,6 +111,9 @@
     "Text": null,
     "Lines": [
       "欲を出すと、ロクなこと無いわよ？　ハハハ…。"
+    ],
+    "DeepL_mtl": [
+      "Greed is a bad thing, right?　Hahaha..."
     ],
     "TabSpace": null,
     "Size": null
@@ -103,6 +124,10 @@
     "Lines": [
       "ちゃんと覚えてて良かったよ。",
       "リルから、それを聞いて少し安心した。"
+    ],
+    "DeepL_mtl": [
+      "I'm glad I remembered it right.",
+      "I was a little relieved to hear that from Lil."
     ],
     "TabSpace": null,
     "Size": null
@@ -115,6 +140,11 @@
       "絶対に全員で、生きて帰るぞ。",
       "では、ユニット1、出撃だ！"
     ],
+    "DeepL_mtl": [
+      "Maybe this mission will be our last big job in this war.",
+      "Absolutely all of us, and we'll get out of here alive.",
+      "Well then, Unit 1, let's go!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -122,6 +152,9 @@
     "ID": "eve702",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

@@ -1,19 +1,14 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve244",
     "Text": null,
     "Lines": [
       "この期におよんで、新鋭機のテストとはね。",
       "まぁ、実力を認められたからこその任務だけど…。"
+    ],
+    "DeepL_mtl": [
+      "At this juncture, I am not surprised that they are testing the newest aircraft.",
+      "Well, it's a mission because I was recognized for my abilities...."
     ],
     "TabSpace": null,
     "Size": null
@@ -25,6 +20,9 @@
       "新鋭機も興味あるけど、もう少しジャブローにいられれば、",
       "壮大な宇宙艦隊発進を間近で見られたのにぃ…。"
     ],
+    "DeepL_mtl": [
+      "I'm interested in the new aircraft, but if I could have stayed in Jaburo a little longer, I could have seen the grand launch of the Starfleet up close...."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -33,6 +31,10 @@
     "Text": null,
     "Lines": [
       "あぁ。　俺も観たかったなぁ…。"
+    ],
+    "DeepL_mtl": [
+      "Oh.",
+      "I wish I could have seen it too..."
     ],
     "TabSpace": null,
     "Size": null
@@ -43,6 +45,9 @@
     "Lines": [
       "さぞかし凄いんでしょうねぇ…。"
     ],
+    "DeepL_mtl": [
+      "It must be amazing...."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -51,6 +56,9 @@
     "Text": null,
     "Lines": [
       "俺だって観たかったよぉ…。"
+    ],
+    "DeepL_mtl": [
+      "I wish I could have seen it too...."
     ],
     "TabSpace": null,
     "Size": null
@@ -63,6 +71,10 @@
       "今後の戦いが楽になるはずですよ。",
       "さ、気分を変えていきましょ！"
     ],
+    "DeepL_mtl": [
+      "If the aircraft we are going to test this time can be used, it will make future battles easier, both in space and on the ground.",
+      "Now, let's change the mood!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -73,6 +85,11 @@
       "だね。　じゃ、とりあえず模擬戦の指定地区に移動しようか。",
       "ユニット1、出撃！"
     ],
+    "DeepL_mtl": [
+      "Yes.",
+      "Well, let's move on to the designated area for the mock battle for now.",
+      "Unit 1, launch!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -80,6 +97,9 @@
     "ID": "eve708",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,
@@ -91,6 +111,7 @@
     "Lines": [
       ""
     ],
+    "DeepL_mtl": [],
     "TabSpace": null,
     "Size": null
   }

@@ -1,9 +1,11 @@
-﻿using CommandLine;
+﻿using _0079Shared;
+using CommandLine;
 using CommandLine.Text;
 using GEVLib.GEV;
 using Newtonsoft.Json;
 using System.Formats.Tar;
 using System.Reflection;
+using System.Reflection.Metadata.Ecma335;
 using System.Xml;
 using U8;
 using XBFLib;
@@ -28,8 +30,8 @@ internal class Program
         [Option('g', "gev", Required = false, HelpText = "Unpacks GEV into human readable form", Default = false)]
         public bool GevDictionary { get; set; }
 
-        [Option('u', "unlockables", Required = false, HelpText = "Parses unlockables to human readable form", Default = false)]
-        public bool ParseUnlockables { get; set; }
+        //[Option('u', "unlockables", Required = false, HelpText = "Parses unlockables to human readable form", Default = false)]
+        //public bool ParseUnlockables { get; set; }
 
         public Options()
         {
@@ -40,7 +42,7 @@ internal class Program
             UnpackArc = false;
             CreateDict = false;
             GevDictionary = false;
-            ParseUnlockables = false;
+            //ParseUnlockables = false;
         }
     }
     private static void Main(string[] args)
@@ -59,31 +61,9 @@ internal class Program
             });
     }
 
-    public class tlentry
+    private static List<XBFTextEntry> ExtractTLEntries(string xbfxmlfile)
     {
-        public string ID { get; set; }
-        public string Text { get; set; }
-        public string[] Lines { get; set; }
-        public string TabSpace { get; set; }
-        public string Size { get; set; }
-        public string? PositionFlag { get; set; }
-        public string? CharSpace { get; set; }
-        public string? LineSpace { get; set; }
-        public string? Color { get; set; }
-
-        public override string ToString()
-        {
-            if (Lines?.Any() == true)
-            {
-                return string.Join("\n", Lines);
-            }
-            return Text;
-        }
-    }
-
-    private static List<tlentry> ExtractTLEntries(string xbfxmlfile)
-    {
-        List<tlentry> result = new List<tlentry>();
+        List<XBFTextEntry> result = new List<XBFTextEntry>();
         if (File.Exists(xbfxmlfile))
         {
             var xml_xbf = new XmlDocument();
@@ -102,12 +82,12 @@ internal class Program
                 var id = block.SelectSingleNode("ID").InnerText;
                 var text = block.SelectSingleNode("Text").InnerText;
 
-                var sgnode = xml_sg.SelectSingleNode($"/StringGroup/String[Code[text()='{id}']]");
-
-                var entry = new tlentry()
+                var entry = new XBFTextEntry()
                 {
-                    ID = block.SelectSingleNode("ID").InnerText,
-                    Lines = block.SelectSingleNode("Text").InnerText.Split("\n").ToArray(),
+                    Source = xbfxmlfile,
+
+                    ID = id,
+                    Lines = text.Split("\n").ToArray(),
 
                     PositionFlag = xml_sg.SelectSingleNode($"/StringGroup/String[Code[text()='{id}']]/PositionFlag")?.InnerText,
                     CharSpace = xml_sg.SelectSingleNode($"/StringGroup/String[Code[text()='{id}']]/CharSpace")?.InnerText,
@@ -149,19 +129,63 @@ internal class Program
             //BrstmToWav(options);
         }
 
+        if (options.XbfToXml)
+        {
+            var files = new System.IO.DirectoryInfo(options.InputDir)
+                .GetFiles("*.xbf", SearchOption.AllDirectories);
+
+            foreach (var file in files)
+            {
+                var xbf = file.FullName;
+
+                var bytes = File.ReadAllBytes(xbf).AsSpan();
+                var root = new XbfRootSegment();
+                root.Parse(bytes);
+
+                var relativePath = Path.GetRelativePath(options.InputDir, file.FullName);
+                var outputPath = Path.Combine(options.OutputDir, relativePath) + ".xml";
+                //Console.WriteLine("Unpacking XBF" + file.FullName);
+
+                Directory.CreateDirectory(Path.GetDirectoryName(outputPath));
+                root.DumpToDisk(outputPath);
+            }
+        }
+
         if (options.CreateDict)
         {
             var extractedXbfXml = new System.IO.DirectoryInfo(options.OutputDir)
                         .GetFiles("BlockText.xbf.xml", SearchOption.AllDirectories);
 
+            List<XBFTextEntry> entries = new List<XBFTextEntry>();
+
             foreach (var file in extractedXbfXml)
             {
                 var dict = ExtractTLEntries(file.FullName);
+                entries.AddRange(dict);
                 var json = JsonConvert.SerializeObject(dict, Newtonsoft.Json.Formatting.Indented);
                 File.WriteAllText(file.FullName.Replace(".xbf.xml", ".xbf") + ".json", json);
 
                 var rawtxt = string.Join(Environment.NewLine + "-----------------------------" + Environment.NewLine, dict.Select(i => i.ToString()));
                 File.WriteAllText(file.FullName.Replace(".xbf.xml", ".xbf") + ".txt", rawtxt);
+            }
+
+            {
+                var global = entries
+                    .GroupBy(i => i.ID)
+                    .Select(i => new
+                    {
+                        ID = i.Key,
+                        Hasduplicates = i.GroupBy(j => j.ToString()).Count() > 1,
+                        Variants = i
+                            .GroupBy(j => j.ToString())
+                            .Select(j => new
+                            {
+                                Files = j.Select(k => k.Source.Replace("\\","/")).ToList(),
+                                Text = j.Key,
+                            }).ToList(),
+                    }).ToList();
+                var json = JsonConvert.SerializeObject(global, Newtonsoft.Json.Formatting.Indented);
+                File.WriteAllText(Path.Combine(options.OutputDir, "global.xbf.json"), json);
             }
         }
 
@@ -186,33 +210,11 @@ internal class Program
             }
         }
 
-        if (options.XbfToXml)
-        {
-            var files = new System.IO.DirectoryInfo(options.InputDir)
-                .GetFiles("*.xbf", SearchOption.AllDirectories);
-
-            foreach (var file in files)
-            {
-                var xbf = file.FullName;
-
-                var bytes = File.ReadAllBytes(xbf).AsSpan();
-                var root = new XbfRootSegment();
-                root.Parse(bytes);
-
-                var relativePath = Path.GetRelativePath(options.InputDir, file.FullName);
-                var outputPath = Path.Combine(options.OutputDir, relativePath) + ".xml";
-                Console.WriteLine("Unpacking XBF" + file.FullName);
-
-                Directory.CreateDirectory(Path.GetDirectoryName(outputPath));
-                root.DumpToDisk(outputPath);
-            }
-        }
-
-        if (options.ParseUnlockables)
-        {
-            var flagctrlfile = Path.Combine(options.InputDir, "DATA\\files\\parameter", "FlagCtrl.xbf");
-            var resultsfile = Path.Combine(options.InputDir, "DATA\\files\\parameter", "result_param.xbf");
-        }
+        //if (options.ParseUnlockables)
+        //{
+        //    var flagctrlfile = Path.Combine(options.InputDir, "DATA\\files\\parameter", "FlagCtrl.xbf");
+        //    var resultsfile = Path.Combine(options.InputDir, "DATA\\files\\parameter", "result_param.xbf");
+        //}
     }
 
     private static void BrstmToWav(Options options)

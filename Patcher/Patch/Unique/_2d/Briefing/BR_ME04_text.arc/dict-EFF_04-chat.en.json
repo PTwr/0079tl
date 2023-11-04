@@ -1,20 +1,14 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve502",
     "Text": null,
+    "_": "complaining that player failed to enter Pro mission :)",
+    "__": "something important in the end, as in mission objective bieng over crew heaeds?",
+    "___": "Or is it some kind of 'I bet we'll be doing something important soon?'",
     "Lines": [
-      "オデッサ作戦決行のための、陽動ってことだったんだけど、",
-      "ウチはさらに後方での、火消し役を仰せつかったってことになるな。",
-      "長い目で見れば、重要な任務なのには違いないね。"
+      "We got shifted from supporting Operation Odessa",
+      "to putting out minor fires in the rear areas,",
+      "but I bet it's still something important in the end."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,8 +17,8 @@
     "ID": "eve503",
     "Text": null,
     "Lines": [
-      "う～ん。　微妙なとこだけど、新装備も回して貰えたし、",
-      "期待されてるって考えていいよね？"
+      "Hmmm. We just received new equipment so I'd",
+      "assume there are high expectation of us, right?"
     ],
     "TabSpace": null,
     "Size": null
@@ -33,8 +27,9 @@
     "ID": "eve504",
     "Text": null,
     "Lines": [
-      "MS実験部隊や、SRTの他のユニットなんかじゃ、すでに結構な被害が",
-      "出てるようだから、ウチは上手くやってるほうさ。"
+      "Other MS teams and SRT units have suffered",
+      "significant losses, so it would appear we",
+      "are doing quite well."
     ],
     "TabSpace": null,
     "Size": null
@@ -43,8 +38,8 @@
     "ID": "eve505",
     "Text": null,
     "Lines": [
-      "民間人が運用しているって噂の、ホワイトベース隊の活躍に",
-      "比べれば、かすんでしまいますけどね。"
+      "It pales in comparison to the activities of the White Base",
+      ", which is rumored to be operated by civilians."
     ],
     "TabSpace": null,
     "Size": null
@@ -53,8 +48,8 @@
     "ID": "eve506",
     "Text": null,
     "Lines": [
-      "え～～！？　ホア…、アナタあんな噂話を信じてるの？",
-      "普通に考えて、ありえないでしょ。"
+      "Whaaat?! Hoa, you believe those rumors?",
+      "Just think about it, it ain't possible."
     ],
     "TabSpace": null,
     "Size": null
@@ -63,9 +58,9 @@
     "ID": "eve507",
     "Text": null,
     "Lines": [
-      "そうですか？　色んな情報を統合すると、真実に思えますけど。",
-      "我軍のMSの制御ソフトには、ホワイトベース隊所属の「ガンダム」",
-      "のデータがフィードバックされてますし。"
+      "Is that so? When you integrate various information,",
+      "it seems to be true.",
+      "Our suits are based on Data from White Base 'Gundam'."
     ],
     "TabSpace": null,
     "Size": null
@@ -74,9 +69,9 @@
     "ID": "eve508",
     "Text": null,
     "Lines": [
-      "おいおい、ホアちゃん…。",
-      "一体そんな情報どこから仕入れて来るんだい？",
-      "どう考えても機密っぽい内容だけど…。"
+      "Oh come on, Hoa....",
+      "Where in the world do you get such information?",
+      "It seems like classified information to me...."
     ],
     "TabSpace": null,
     "Size": null
@@ -85,8 +80,8 @@
     "ID": "eve509",
     "Text": null,
     "Lines": [
-      "フフフ…、ちょちょいのちょいっと！ですよ。",
-      "詳しくは企業秘密です。"
+      "Hehehe... its just gathered bit by bit.",
+      "Details are trade secrets."
     ],
     "TabSpace": null,
     "Size": null
@@ -95,8 +90,8 @@
     "ID": "eve510",
     "Text": null,
     "Lines": [
-      "うはぁ、物騒だねぇ～。",
-      "ま、聞かなかったことにしとくよ。"
+      "Wow, that's disturbing.",
+      "Well, I'll pretend I didn't ask."
     ],
     "TabSpace": null,
     "Size": null
@@ -105,9 +100,9 @@
     "ID": "eve511",
     "Text": null,
     "Lines": [
-      "MSの制御ソフトや、対MS戦の解析データなんかは、確かに",
-      "ここ1、2ヶ月で突然進歩したよね。",
-      "僕も実はファンなんだよ。　ホワイトベースの。"
+      "MS control software and analytical data of MS combat",
+      "have certainly advanced by leaps in last month or two.",
+      "I'm actually a fan of that White Base too."
     ],
     "TabSpace": null,
     "Size": null
@@ -116,9 +111,9 @@
     "ID": "eve512",
     "Text": null,
     "Lines": [
-      "はぁ…、ミーハーというか、モノ好きというか…。",
-      "とにかく！",
-      "私たちも戦場の語り草になるくらいの活躍をしなきゃね！"
+      "Heh... you could say I am a bit of a fan too...",
+      "Anyway!",
+      "We have to do well enough to become famous too!"
     ],
     "TabSpace": null,
     "Size": null
@@ -127,8 +122,9 @@
     "ID": "eve513",
     "Text": null,
     "Lines": [
-      "ハハハ、大きく出たなぁ。",
-      "まぁ、生き残ってる限りは、その資質十分ってことさ。"
+      "Hahaha, you came out big.",
+      "Well, as long as you're still alive,",
+      "you've got all the right qualities."
     ],
     "TabSpace": null,
     "Size": null
@@ -137,9 +133,9 @@
     "ID": "eve514",
     "Text": null,
     "Lines": [
-      "そうそう。　どうせこれからどんどん戦争は激化して、",
-      "危ない任務も増えるんだし。",
-      "とにかく、1戦1戦を確実にこなして、生き残ることが大事だよ。"
+      "Yes, yes. The war is going to get more and more intense anyway",
+      "and there will be more and more dangerous missions.",
+      "Let's first focus on surviving them one by one."
     ],
     "TabSpace": null,
     "Size": null
@@ -148,9 +144,9 @@
     "ID": "eve515",
     "Text": null,
     "Lines": [
-      "ま、まぁ、別にそんな焦ってるわけじゃないのよ？",
-      "どうせ、終戦の頃には、ジオンの「赤い彗星」ばりの、",
-      "メジャーなエースになるでしょうから。"
+      "Well, well, I am not in such a hurry, ya know?",
+      "Anyway, by the end of war I'll as famous as",
+      "Zeon's 'Red Comet'!"
     ],
     "TabSpace": null,
     "Size": null
@@ -159,8 +155,8 @@
     "ID": "eve516",
     "Text": null,
     "Lines": [
-      "期待してるよ。　リル。",
-      "それじゃ、ユニット1。　各員出撃準備！"
+      "I'm looking forward to it, Lil.",
+      "Well then, Unit 1. Prepare for sortie!"
     ],
     "TabSpace": null,
     "Size": null

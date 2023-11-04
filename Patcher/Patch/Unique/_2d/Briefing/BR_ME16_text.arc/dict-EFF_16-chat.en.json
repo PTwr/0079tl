@@ -1,20 +1,15 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve266",
     "Text": null,
     "Lines": [
       "近日実施予定の、アフリカ大陸への大規模掃討作戦に向けて、",
       "参加部隊がオデッサに集結中だ。　しかし、その背面にあたる",
       "地区に、ジオンの敗走部隊が潜伏しているとの情報が入った。"
+    ],
+    "DeepL_mtl": [
+      "Participating troops are gathering in Odessa for a major sweep of the African continent, which is scheduled to take place soon.",
+      "However, information was received that a defeated Zion unit was hiding in the area to its rear."
     ],
     "TabSpace": null,
     "Size": null
@@ -24,6 +19,9 @@
     "Text": null,
     "Lines": [
       "私たちに、その敵を捜索、殲滅しろってわけね。"
+    ],
+    "DeepL_mtl": [
+      "You want us to search for and destroy the enemy."
     ],
     "TabSpace": null,
     "Size": null
@@ -35,6 +33,9 @@
       "この状況下で、部隊としての機能を維持しているってことは、",
       "敵の部隊指揮官は、相当のてだれだな…。"
     ],
+    "DeepL_mtl": [
+      "The fact that they are still functioning as a unit under these circumstances indicates that the enemy unit commanders must be pretty good at what they do..."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -44,6 +45,9 @@
     "Lines": [
       "補給もままならず、絶望的ともいえる状況下で、死を覚悟",
       "するような戦闘を強いるわけですからね…。"
+    ],
+    "DeepL_mtl": [
+      "They are forced to fight to the death in a desperate situation with no way to replenish their supplies...."
     ],
     "TabSpace": null,
     "Size": null
@@ -55,6 +59,10 @@
       "そうだ。",
       "今回の敵は、かなり手ごわいと思っていいだろう。"
     ],
+    "DeepL_mtl": [
+      "Yes, it is.",
+      "It is safe to say that the enemy this time is quite formidable."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -63,6 +71,9 @@
     "Text": null,
     "Lines": [
       "気を引き締めていかないと、こっちがやられる…か。"
+    ],
+    "DeepL_mtl": [
+      "If we don't tighten up, we will get hit...."
     ],
     "TabSpace": null,
     "Size": null
@@ -75,6 +86,10 @@
       "考えてるからな。",
       "最後の詰めにこそ、戦力を余剰投入するべきなのによ。"
     ],
+    "DeepL_mtl": [
+      "At HQ, we consider the ground sweep operation to be little more than a digestive game.",
+      "It is precisely in the final stages that we should be putting in extra forces."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -86,6 +101,9 @@
       "集中…、一気に終戦させたいっていう、レビル将軍の思惑は",
       "分かるけどね。"
     ],
+    "DeepL_mtl": [
+      "I understand General Reville's intention to put off the remnants on the ground, which cannot mount a major counterattack, and concentrate his forces in space...to end the war at once."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -95,6 +113,9 @@
     "Lines": [
       "ジャブローに残って、地上部隊を指揮してる方々には、",
       "利己主義の狸さんが多いですから。"
+    ],
+    "DeepL_mtl": [
+      "There are many selfish raccoon dogs among those who remain at Jaburo and command the ground troops."
     ],
     "TabSpace": null,
     "Size": null
@@ -107,6 +128,12 @@
       "気をつけるさ。　この戦争はもうすぐ終る…。",
       "全員生き残ろう！　ユニット1、出撃だ！"
     ],
+    "DeepL_mtl": [
+      "Hahaha...",
+      "At the very least, I will be careful not to be so bewitched that I end up losing my life.",
+      "This war will be over soon....",
+      "Let's all survive!　Unit 1, let's go!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -114,6 +141,9 @@
     "ID": "eve702",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

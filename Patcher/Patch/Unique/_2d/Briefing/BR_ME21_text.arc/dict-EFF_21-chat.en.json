@@ -1,18 +1,12 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve648",
     "Text": null,
     "Lines": [
       "よし、いよいよ決戦だぞ。"
+    ],
+    "DeepL_mtl": [
+      "Okay, now it's time for the decisive battle."
     ],
     "TabSpace": null,
     "Size": null
@@ -23,6 +17,10 @@
     "Lines": [
       "突入の先陣を切るなんて…。　ワクワクするわ！"
     ],
+    "DeepL_mtl": [
+      "I can't believe I'm leading the charge....",
+      "I'm thrilled!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -31,6 +29,10 @@
     "Text": null,
     "Lines": [
       "また、そんなこと言って…。　一番危険な仕事ですよ？"
+    ],
+    "DeepL_mtl": [
+      "You say that again...",
+      "It's the most dangerous job there is, right?"
     ],
     "TabSpace": null,
     "Size": null
@@ -42,6 +44,9 @@
       "しかしまぁ、敵の防衛戦力は、主力部隊が攻略中の、",
       "基地主要施設と、宇宙施設のある区画に集中してるようだからな。"
     ],
+    "DeepL_mtl": [
+      "But, well, the enemy's defensive forces seem to be concentrated in the main base facility and the section where the space facility is located, which is under attack by the main forces."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -51,6 +56,10 @@
     "Lines": [
       "そうだな。",
       "この作戦は、とにかく時間との戦いだ。"
+    ],
+    "DeepL_mtl": [
+      "Yes.",
+      "This operation is a race against time anyway."
     ],
     "TabSpace": null,
     "Size": null
@@ -62,6 +71,9 @@
       "突入後、制限時間内に攻撃目標になっている施設を",
       "破壊してください。"
     ],
+    "DeepL_mtl": [
+      "After entering the site, destroy the facilities targeted for attack within the time limit."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -72,6 +84,9 @@
       "それで基地制圧のための部隊を載せたミデアが、",
       "滑走路に強行着陸する。"
     ],
+    "DeepL_mtl": [
+      "So the midea carrying the troops to overrun the base makes a hard landing on the runway."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -80,6 +95,9 @@
     "Text": null,
     "Lines": [
       "その後は、そのミデアを守ればいいのね？"
+    ],
+    "DeepL_mtl": [
+      "After that, we just have to protect that midea, right?"
     ],
     "TabSpace": null,
     "Size": null
@@ -92,6 +110,10 @@
       "後は、基地主要施設の攻略にあたっている主力部隊が、",
       "それを制圧するか、この区画の敵を殲滅するまで戦闘を継続する。"
     ],
+    "DeepL_mtl": [
+      "That's what I mean.",
+      "The rest of the battle will continue until the main force that is attacking the base's main facility either overruns it or destroys the enemy in this section."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -100,6 +122,9 @@
     "Text": null,
     "Lines": [
       "大仕事だなぁ～。"
+    ],
+    "DeepL_mtl": [
+      "It's a big job!"
     ],
     "TabSpace": null,
     "Size": null
@@ -112,6 +137,11 @@
       "絶対に全員で、生きて帰るぞ。",
       "では、ユニット1、出撃だ！"
     ],
+    "DeepL_mtl": [
+      "Maybe this mission will be our last big job in this war.",
+      "Absolutely all of us, and we'll get out of here alive.",
+      "Well then, Unit 1, let's go!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -119,6 +149,9 @@
     "ID": "eve702",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

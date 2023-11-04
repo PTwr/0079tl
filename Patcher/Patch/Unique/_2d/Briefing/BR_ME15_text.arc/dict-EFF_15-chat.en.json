@@ -1,19 +1,13 @@
 [
   {
-    "ID": "CHAT_A_BTN_01",
-    "Text": null,
-    "Lines": [
-      "∈"
-    ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
     "ID": "eve583",
     "Text": null,
     "Lines": [
       "というわけで、雪原地帯で孤立している友軍の救助隊に",
       "同行することになった。"
+    ],
+    "DeepL_mtl": [
+      "So, I was asked to accompany a friend's rescue team that was isolated in a snowfield area."
     ],
     "TabSpace": null,
     "Size": null
@@ -24,6 +18,10 @@
     "Lines": [
       "うぅ…。　わたし寒いの苦手です～。"
     ],
+    "DeepL_mtl": [
+      "Ugh...",
+      "I don't like cold weather!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -32,6 +30,10 @@
     "Text": null,
     "Lines": [
       "女の子は冷え性だからなぁ。　いつでも俺が暖めてやるよ？"
+    ],
+    "DeepL_mtl": [
+      "The girls are cold.",
+      "I'll warm you up anytime, okay?"
     ],
     "TabSpace": null,
     "Size": null
@@ -42,6 +44,9 @@
     "Lines": [
       "最低ね。"
     ],
+    "DeepL_mtl": [
+      "That sucks."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -51,6 +56,9 @@
     "Lines": [
       "最低です。"
     ],
+    "DeepL_mtl": [
+      "Worst."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -59,6 +67,10 @@
     "Text": null,
     "Lines": [
       "わ、悪かったって。　そんな冷めたリアクションするなよ…。"
+    ],
+    "DeepL_mtl": [
+      "I'm sorry.",
+      "Don't react so coldly..."
     ],
     "TabSpace": null,
     "Size": null
@@ -70,6 +82,10 @@
       "寒冷地は、MSにとっては、ある意味砂漠より怖いからね。",
       "これもMS運用の、データ収集の一環だと思ってくれよ。"
     ],
+    "DeepL_mtl": [
+      "Cold weather is scarier for MS than deserts in some ways.",
+      "Think of this as part of the MS operation, part of the data collection."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -79,6 +95,9 @@
     "Lines": [
       "戦略的価値もないそんな場所にいるなんて、",
       "敵はやっぱりオデッサあたりからの敗走部隊なのかな？"
+    ],
+    "DeepL_mtl": [
+      "Is the enemy still a defeated force from around Odessa to be in such a place with no strategic value?"
     ],
     "TabSpace": null,
     "Size": null
@@ -91,6 +110,12 @@
       "しかも、指揮系統が機能していないせいで、盗賊のように",
       "民間人からの略奪行為に及ぶ部隊もあるそうです。　許せません。"
     ],
+    "DeepL_mtl": [
+      "Will it be so?",
+      "Now Zion is spreading the war for nothing....",
+      "Moreover, due to the lack of a functioning chain of command, some of the troops are said to engage in looting of civilians like bandits.",
+      "It is unacceptable."
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -99,6 +124,9 @@
     "Text": null,
     "Lines": [
       "もはや、軍隊とは呼べないな…。"
+    ],
+    "DeepL_mtl": [
+      "You can no longer call it an army...."
     ],
     "TabSpace": null,
     "Size": null
@@ -110,6 +138,11 @@
       "戦火が飛び火するなら、俺たちがその火消しをするまでだよ。",
       "じゃ、そろそろ行くよ。　ユニット1、出撃準備！"
     ],
+    "DeepL_mtl": [
+      "If the fires of war fly, it's up to us to put them out.",
+      "Well, I'd better get going.",
+      "Unit 1, prepare to launch!"
+    ],
     "TabSpace": null,
     "Size": null
   },
@@ -117,6 +150,9 @@
     "ID": "eve706",
     "Text": null,
     "Lines": [
+      "Roger that!"
+    ],
+    "DeepL_mtl": [
       "Roger that!"
     ],
     "TabSpace": null,

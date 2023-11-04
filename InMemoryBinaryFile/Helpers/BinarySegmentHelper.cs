@@ -9,6 +9,20 @@ namespace InMemoryBinaryFile.Helpers
 {
     public static class BinarySegmentHelper
     {
+        public static byte[] Update(this byte[] array, int location, byte[] replacement)
+        {
+            if (location+replacement.Length > array.Length)
+            {
+                throw new Exception($"Updated segment overflows array length");
+            }
+
+            for (int i=location, n=0; n<replacement.Length; i++, n++)
+            {
+                array[i] = replacement[n];
+            }
+            return array;
+        }
+
         public static bool StartsWithMagicNumber(this Span<byte> content, string magicNumber)
         {
             var magicBytes = System.Text.Encoding.ASCII.GetBytes(magicNumber);
