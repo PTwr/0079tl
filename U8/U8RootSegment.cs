@@ -19,7 +19,7 @@ namespace U8
         {
         }
 
-        public override void Parse(Span<byte> content)
+        public override void Parse(Span<byte> content, Span<byte> everything)
         {
             if (!content.StartsWithMagicNumber(MagicNumber))
             {
@@ -89,17 +89,17 @@ namespace U8
         }
 
         public List<U8NodeSegment> Nodes = new List<U8NodeSegment>();
-        protected override void ParseBody(Span<byte> body)
+        protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
             throw new NotImplementedException("unused");
         }
 
-        public void DumpToDisk(string outputDir)
+        public void DumpToDisk(string rootDir, bool parseXbf = true)
         {
-            Directory.CreateDirectory(outputDir);
+            Directory.CreateDirectory(rootDir);
             foreach (var node in Nodes)
             {
-                var path = Path.Join(outputDir, node.Path);
+                var path = Path.Join(rootDir, node.Path);
                 if (node.IsDirectory)
                 {
                     Directory.CreateDirectory(path);
@@ -114,7 +114,7 @@ namespace U8
                 {
                     File.WriteAllBytes(path, node.BinaryData);
 
-                    if (node.IsXbf)
+                    if (node.IsXbf && parseXbf)
                     {
                         var parsed = new XbfRootSegment(XbfRootSegment.ShouldBeUTF8(path));
                         parsed.Parse(node.BinaryData.AsSpan());
@@ -166,7 +166,7 @@ namespace U8
             }
         }
 
-        protected override void ParseHeader(Span<byte> header)
+        protected override void ParseHeader(Span<byte> header, Span<byte> everything)
         {
             RootNodeOffset = header.GetBigEndianDWORD(0);
             NodeListAndStringDictLength = header.GetBigEndianDWORD(4);

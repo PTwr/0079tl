@@ -113,7 +113,7 @@ namespace XBFLib
         public XbfStringListSegment NodeDict { get; private set; }
         public XbfStringListSegment AttributeDict { get; private set; }
         public XbfStringListSegment StringDict { get; private set; }
-        protected override void ParseBody(Span<byte> body)
+        protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
             int bodyOffset = headerLength + magicNumber.Length;
             NodeTree = new XbfNodeTreeSegment(this);
@@ -121,12 +121,12 @@ namespace XBFLib
             AttributeDict = new XbfStringListSegment(this, Encoding);
             StringDict = new XbfStringListSegment(this, Encoding);
 
-            NodeDict.Parse(body.Slice(NodeDictPosition - bodyOffset, AttributeDictPosition - NodeDictPosition));
-            AttributeDict.Parse(body.Slice(AttributeDictPosition - bodyOffset, StringDictPosition - AttributeDictPosition));
-            StringDict.Parse(body.Slice(StringDictPosition - bodyOffset));
+            NodeDict.Parse(body.Slice(NodeDictPosition - bodyOffset, AttributeDictPosition - NodeDictPosition), everything);
+            AttributeDict.Parse(body.Slice(AttributeDictPosition - bodyOffset, StringDictPosition - AttributeDictPosition), everything);
+            StringDict.Parse(body.Slice(StringDictPosition - bodyOffset), everything);
 
             //relies on dicts located at end of file
-            NodeTree.Parse(body.Slice(TreePosition - bodyOffset, TreeLength * 4));
+            NodeTree.Parse(body.Slice(TreePosition - bodyOffset, TreeLength * 4), everything);
         }
 
         protected override List<_BaseBinarySegment<XbfRootSegment>> children => new List<_BaseBinarySegment<XbfRootSegment>>()
@@ -150,7 +150,7 @@ namespace XBFLib
             StringDictLength.GetBigEndianBytes()
             );
 
-        protected override void ParseHeader(Span<byte> header)
+        protected override void ParseHeader(Span<byte> header, Span<byte> everything)
         {
             if (header[0x03] != 0)
             {

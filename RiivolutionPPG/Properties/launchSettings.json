@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "RiivolutionPPG-test": {
+      "commandName": "Project",
+      "commandLineArgs": "differential --unmodifed \"C:/games/wii/0079/0079_jp/DATA/files/_2d/Indicator/IZNANM.arc\" --modified \"%userprofile%/Documents/Dolphin Emulator/Load/Riivolution/R79JAF_EN/_2d/Indicator/mod_IZNANM.arc\" --output \"%userprofile%/Documents/Dolphin Emulator/Load/Riivolution\""
+    },
+    "RiivolutionPPG-mass": {
+      "commandName": "Project",
+      "commandLineArgs": "massdiff --unmodifed \"C:/games/wii/0079/0079_jp/DATA/files\" --modified \"%userprofile%/Documents/Dolphin Emulator/Load/Riivolution/R79JAF_EN\" --output \"%userprofile%/Documents/Dolphin Emulator/Load/Riivolution\" --name R79JAF_diffpatch --alignment 16 --tolerance 2048"
+    },
+    "RiivolutionPPG-mass_textures": {
+      "commandName": "Project",
+      "commandLineArgs": "massdiff --unmodifed \"C:/games/wii/0079/0079_jp/DATA/files\" --modified \"C:/games/wii/0079/0079_en_textures\" --output \"%userprofile%/Documents/Dolphin Emulator/Load/Riivolution\" --name R79JAF_textures"
+    }
+  }
+}

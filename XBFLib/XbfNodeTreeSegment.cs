@@ -54,7 +54,7 @@ namespace XBFLib
             return Concatenate(start, attr, inner, stop);
         }
 
-        protected override void ParseBody(Span<byte> body)
+        protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
             var nodeNames = this.Parent.NodeDict.Values;
             var nodeTexts = this.Parent.StringDict.Values;
@@ -96,7 +96,7 @@ namespace XBFLib
             }
         }
 
-        protected override void ParseHeader(Span<byte> header)
+        protected override void ParseHeader(Span<byte> header, Span<byte> everything)
         {
         }
     }

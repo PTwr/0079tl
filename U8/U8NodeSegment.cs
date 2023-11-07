@@ -10,12 +10,12 @@ namespace U8
         {
         }
 
-        protected override void ParseBody(Span<byte> body)
+        protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
             //body is located in shared data segment, at DataOffset
         }
 
-        protected override void ParseHeader(Span<byte> header)
+        protected override void ParseHeader(Span<byte> header, Span<byte> everything)
         {
             Type = header[0];
 
