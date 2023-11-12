@@ -3,7 +3,7 @@
     "ID": "eve090",
     "Text": null,
     "Lines": [
-      "オデッサ作戦は、ほぼ順調に進行してるみたいだね。"
+      "Operation Odessa seems to be going smoothly overall."
     ],
     "DeepL_mtl": [
       "The Odessa operation seems to be going mostly smoothly."
@@ -15,7 +15,8 @@
     "ID": "eve091",
     "Text": null,
     "Lines": [
-      "まぁ、ここに来て攻めあぐねてるみたいだが…。"
+      "Well, it would seem that they are having trouble",
+      "breakiing through in some places..."
     ],
     "DeepL_mtl": [
       "Well, it looks like they are having a hard time attacking here...."
@@ -27,8 +28,8 @@
     "ID": "eve092",
     "Text": null,
     "Lines": [
-      "でも、物量の差は歴然じゃない。",
-      "あと一日もあれば、押し切れるわよ。"
+      "Still, difference in numbers is obvious.",
+      "Give it one more day and we'll push through."
     ],
     "DeepL_mtl": [
       "But the difference in quantity is not obvious.",
@@ -41,8 +42,8 @@
     "ID": "eve093",
     "Text": null,
     "Lines": [
-      "で、その最後の一押しをするための後方予備戦力を",
-      "僕らが護衛するわけだ。"
+      "And thus we are tasked with escorting reserve",
+      "troops for final push."
     ],
     "DeepL_mtl": [
       "And so we escort the rear reserve force to make that final push."
@@ -54,9 +55,9 @@
     "ID": "eve094",
     "Text": null,
     "Lines": [
-      "フッフッフ…、ついに上層部も私の実力を認めたってわけね。",
-      "アンタたちも腕は悪くないんだから、バッチリアピールしないと",
-      "損するわよ。"
+      "It seems that top brass finally recognized by skill.",
+      "You guys aren't that bad, but you'll still fall behind",
+      "if you dont show off your skills more."
     ],
     "DeepL_mtl": [
       "I see that the upper management has finally recognized my ability.",
@@ -69,14 +70,15 @@
     "ID": "eve095",
     "Text": null,
     "Lines": [
-      "フフ…、リルさんは相変わらず野心的ですね。",
-      "私は、今もジャブローとかから誘われたりしてますけど、",
-      "このチームが好きなんで。　今までどおり地道に頑張りますね。"
+      "Heh...our Lilly`s still as ambitious as ever.",
+      "Jaburo and other bases keep inviting me, but I like this team.",
+      "I'll do my part as before."
     ],
+    "_":"invitinig -> requesting transfer?",
     "DeepL_mtl": [
       "Huh..., Mr. Lil is as ambitious as ever.",
       "I'm still getting invitations from Jabro and other places, but I like this team.",
-      "I will continue to work steadily as before."
+      "I'll do my best as always.'"
     ],
     "TabSpace": null,
     "Size": null
@@ -85,12 +87,12 @@
     "ID": "eve096",
     "Text": null,
     "Lines": [
-      "ジャ…ジャブローから誘われてるんだ…。",
-      "ふぅ～ん、ホアも結構やるじゃない。"
+      "Ja...Jaburo's asking for you?!",
+      "Hmmmm... you're doing quite well, Hoa."
     ],
     "DeepL_mtl": [
       "Ja...I'm invited from Jaburo....",
-      "Hmmm...Hoa does pretty well."
+      "Hmmm...Hoa's doeing pretty well."
     ],
     "TabSpace": null,
     "Size": null
@@ -99,8 +101,8 @@
     "ID": "eve097",
     "Text": null,
     "Lines": [
-      "そういや、隊長もこの前お誘いがかかってたろ？",
-      "受けないのかい？"
+      "Oh. You received invitation the other day, right Captain?",
+      "Why have you not accepted it?"
     ],
     "DeepL_mtl": [
       "Well, didn't the captain get an invitation the other day? Why don't you take it?"
@@ -112,9 +114,9 @@
     "ID": "eve098",
     "Text": null,
     "Lines": [
-      "さすがデニスは情報通だなぁ。　でも、僕は地球が好きなんでね。",
-      "フェーベ所属のMS隊じゃ、宇宙に上がることになるだろうから。　",
-      "苦手なんだよねぇ…、無重力のプカっとした感じ。"
+      "Ohh, you're quite informed, Dennis, but I like Earth.",
+      "It's from MS team belonging to Phoebe, which will head to space.",
+      "I am not so good with that vomity feeling when weightless."
     ],
     "DeepL_mtl": [
       "Dennis is indeed a well-informed person.",
@@ -129,9 +131,9 @@
     "ID": "eve099_01",
     "Text": null,
     "Lines": [
-      "な！？　フェーベって…",
-      "レビル将軍が乗艦予定の主力艦隊の旗艦じゃない！",
-      "あ、あんた！　なに断わってんのよ！！"
+      "What?! Isn't Phoebe...",
+      "a flagship General Reville will embark on?!",
+      "How can you reject such ofer?!"
     ],
     "DeepL_mtl": [
       "What?　Phoebe is...not the flagship of the main fleet that General Reville is scheduled to embark on! Oh, you!　What are you saying no to!"
@@ -143,9 +145,9 @@
     "ID": "eve099_02",
     "Text": null,
     "Lines": [
-      "「プカっ」が苦手とか…",
-      "アンタのそのプカっとした性格をまずなんとかしなさいよ！",
-      "バッカじゃない！？　ハァハァハァ…。"
+      "You're not good at puking...",
+      "Do something about that puking ersonality of yours first!!",
+      "Are you an idiot?! Hahahaha..."
     ],
     "DeepL_mtl": [
       "You're not good at \"pukka\"...do something about that pukka personality of yours first! You're not a pukka!　Hahahahaha...."
@@ -157,9 +159,9 @@
     "ID": "eve100_01",
     "Text": null,
     "Lines": [
-      "ま、まぁまぁ、リルちゃん。　落ち着いて。　",
-      "フェーベが旗艦の予定とかって、すごい重要機密だから、",
-      "そんな大声で言っちゃダメね…。"
+      "Hey, hey, chill down Lilly.",
+      "Its still a secret that Phoebe will be a flagship",
+      "so don't go around yelling that out loud..."
     ],
     "DeepL_mtl": [
       "Well, well, well, Lil' girl.",
@@ -172,9 +174,10 @@
   {
     "ID": "eve100_02",
     "Text": null,
+    "_":"should this be in lighter or harsher tone? check the voice",
     "Lines": [
-      "あと。",
-      "一応、隊長なんだから、アンタとかバカとか言っちゃダーメ。"
+      "Also, remember that I am your captain",
+      "so don't insult me like that."
     ],
     "DeepL_mtl": [
       "Also.",
@@ -187,8 +190,8 @@
     "ID": "eve101_01",
     "Text": null,
     "Lines": [
-      "ハハハ…。　この部隊の人は、みんな情報通で困るなぁ。",
-      "いやぁ、参った参った。"
+      "Hahaha... everyone in this unit is so well informed",
+      "Oh my, I'm in trouble..."
     ],
     "DeepL_mtl": [
       "Hahaha...",
@@ -202,9 +205,9 @@
     "ID": "eve101_02",
     "Text": null,
     "Lines": [
-      "リル。　このチームは絶対凄く良いチームになるから、",
-      "もう少し我慢してね。　あんまり焦ってもいいことないからね。",
-      "冷静に、堅実に、地道に…ね？"
+      "Lil. This is definitely going to be  great team, so please",
+      "have a little patience. Its not goof to be in such a hurry.",
+      "Calm and steady wins the rae, right?"
     ],
     "DeepL_mtl": [
       "Lil.",
