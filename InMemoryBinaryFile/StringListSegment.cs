@@ -31,19 +31,7 @@ namespace InMemoryBinaryFile
 
         protected override void ParseBody(Span<byte> body, Span<byte> everything)
         {
-            for (int start = 0; start < body.Length;)
-            {
-                //series of null terminated strings
-                var s = body.Slice(start).FindNullTerminator();
-                start += s.Length + 1;
-                var ss = s.ToDecodedString(Encoding);
-                if (string.IsNullOrEmpty(ss))
-                {
-                    //TODO special handling for nulls?
-                    //ss = "(empty string)";
-                }
-                values.Add(ss);
-            }
+            values.AddRange(body.ToDecodedNullTerminatedStrings(Encoding));
         }
 
         protected override void ParseHeader(Span<byte> header, Span<byte> everything)

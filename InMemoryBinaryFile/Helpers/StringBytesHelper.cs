@@ -28,6 +28,31 @@ namespace InMemoryBinaryFile.Helpers
         {
             return encoding.GetString(buffer);
         }
+        public static List<string> ToDecodedNullTerminatedStrings(this Span<byte> buffer, Encoding encoding, int? count = null)
+        {
+            return buffer.ToDecodedNullTerminatedStringDict(encoding, count).Values.ToList();
+        }
+        public static Dictionary<int, string> ToDecodedNullTerminatedStringDict(this Span<byte> buffer, Encoding encoding, int? count = null)
+        {
+            Dictionary<int, string> result = new();
+            for (int start = 0; start < buffer.Length;)
+            {
+                //series of null terminated strings
+                var s = buffer.Slice(start).FindNullTerminator();
+                var ss = s.ToDecodedString(encoding);
+
+                result[start] = ss;
+
+                start += s.Length + 1;
+
+                if (count.HasValue && result.Count >= count)
+                {
+                    break;
+                }
+            }
+
+            return result;
+        }
 
         public static string ToW1250String(this Span<byte> buffer)
         {

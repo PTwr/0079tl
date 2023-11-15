@@ -245,3 +245,39 @@ XBF PositionFlag -
 
 273 scrolling text, each line centered separately? 0x111 b000100010001
 273 centers text around its left position? can't be tabspaced around?
+
+
+tk_ending.lua
+displays scrolling text with ending credits
+credits text is shared between all endings, can't replace credits with translation (and it would be rude)
+
+ENDING_TextSet.lua has credits text set, which is programatically moved up
+it might be possible to add extra text sets which use extra xbf entries
+positioning will be annoying
+
+maybe adding text to xbf, then just calling it via textset will work?
+Text_SetIsDisp(staffroll.obj[i], true)
+Text_SetPos(staffroll.obj[i], stf_x_pos, staffroll.pos[i], stf_z_pos)
+Text_SetIsDisp(staffroll.obj[i], false)
+
+link_model and link_name makes no sense in ending_textset, leftovers from it using title.brres?
+TODO try to remove it, might be unnecessary
+ending has no calls to SetTextSetLink, neither enable nor disable, 
+
+line 473, link's are nil'ed! crap's not needed?!
+        ENDING_TextSet2[i].link_model = nil
+        ENDING_TextSet2[i].link_name = nil
+
+adding textset manually should work, positioning seems possible, timing will be problematic
+
+//create textobject, using textmanager?
+//text manager has character limit when creating?
+ENDING_TextSet2[i].obj = AddText(man2, ENDING_TextSet2[i].text_name)
+
+//extending text limit might be necessary?
+	SetTextManMax(5)
+	SetTextMax(600)
+//or find text destruction once subtitle is not needed?
+
+ending scroll seems to relly on fixed framerate?
+gotta do some math to translate it to timer, equip each textline with From and To variables
