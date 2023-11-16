@@ -1,6 +1,6 @@
 ﻿namespace InMemoryBinaryFile.New.Attributes
 {
-    public enum FieldOffset
+    public enum OffsetZone
     {
         Absolute = 0,
         Header = 1,

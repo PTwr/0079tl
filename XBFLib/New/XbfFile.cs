@@ -7,66 +7,115 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace XBFLib.New
 {
-
-    [BinarySegment(HeaderOffset = 0, BodyOffset = 0)]
-    public class TreeNode(XbfFile parent) : IBinarySegment<XbfFile>
+    [BinarySegment(HeaderOffset = 0, BodyOffset = 0, Length = 4)]
+    public class TreeNode : BinarySegment<XbfFile>
     {
-        [BinaryFieldAttribute(Position = 0, SegmentOffset = SegmentOffset.Segment)]
+        public TreeNode(XbfFile parent) : base(parent)
+        {
+        }
+
+        [BinaryFieldAttribute(Offset = 0, OffsetScope = OffsetScope.Segment)]
         public short NameId { get; set; }
-        [BinaryFieldAttribute(Position = 2, SegmentOffset = SegmentOffset.Segment)]
+        [BinaryFieldAttribute(Offset = 2, OffsetScope = OffsetScope.Segment)]
         public ushort ValueId { get; set; }
 
         public bool IsClosingTag => ValueId == 0xFFFF;
         public bool IsAttribute => NameId < 0;
-
-        public XbfFile Parent { get; } = parent;
     }
 
     [BinarySegment(HeaderOffset = 8, BodyOffset = 0x28)]
-    public class XbfFile(Encoding encoding) : IBinaryFile
+    public class XbfFile(Encoding encoding) : InMemoryBinaryFile.New.IBinarySegment
     {
-        [NullTerminatedString(ExpectedValue = "XBF", Position = 4 * 0, Order = -1)]
-        public string? MagicNullTerminated { get; set; }
-        [FixedLengthString(ExpectedValue = "XBF", Position = 4 * 0, Order = -1, Length = 3)]
-        public string? MagicFixedLength { get; set; }
+        public XbfFile() : this(Encoding.UTF8)
+        {
+            
+        }
+        public string GetXmlString()
+        {
+            return System.Xml.Linq.XElement.Parse(GetXmlDocument().OuterXml).ToString();
+        }
+        public XmlDocument GetXmlDocument()
+        {
+            var doc = new XmlDocument();
 
-        [BinaryFieldAttribute(ExpectedValue = 0x58_42_46_00, Position = 4 * 0, Order = -1)]
+            XmlNode node = doc;
+            foreach (var entry in Tree)
+            {
+                if (entry.IsClosingTag)
+                {
+                    if (node.ParentNode == null)
+                    {
+                        throw new Exception($"Error in XML tree. Parent of {node.Name} is null.");
+                    }
+                    node = node.ParentNode;
+                }
+                else if (entry.IsAttribute)
+                {
+                    var attributeName = AttributeDict.ElementAt(entry.NameId * -1).Value;
+                    var attributeValue = StringDict.ElementAt(entry.ValueId).Value;
+                    XmlElement el = (XmlElement)node;
+                    el.SetAttribute(attributeName, attributeValue);
+                }
+                else
+                {
+                    var n = doc.CreateNode(XmlNodeType.Element, NodeDict.ElementAt(entry.NameId).Value, null);
+                    n.InnerText = StringDict.ElementAt(entry.ValueId).Value;
+                    node.AppendChild(n);
+                    node = n;
+                }
+            }
+
+            return doc;
+        }
+
+        public override string ToString()
+        {
+            return GetXmlString();
+        }
+
+        [NullTerminatedString(ExpectedValue = "XBF", Offset = 4 * 0, Order = -1)]
+        public string? MagicNullTerminated { get; set; }
+        [FixedLengthString(ExpectedValue = "XBF", Offset = 4 * 0, Order = -1, Length = 3)]
+        public string? MagicFixedLength { get; set; }
+        [BinaryFieldAttribute(ExpectedValue = 0x58_42_46_00, Offset = 4 * 0, Order = -1)]
         public int Magic { get; set; }
 
-        [BinaryFieldAttribute(ExpectedValue = 0x03_00_80_00, Position = 4 * 1, Order = -1)]
+        [BinaryFieldAttribute(ExpectedValue = 0x03_00_80_00, Offset = 4 * 1, Order = -1)]
         public int Magic2 { get; set; }
 
-        [BinaryFieldAttribute(Position = 4 * 2)]
-        public int TreePosition { get; set; }
-        [BinaryFieldAttribute(Position = 4 * 3)]
+        [BinaryFieldAttribute(Offset = 4 * 2)]
+        public int TreeOffset { get; set; }
+        [BinaryFieldAttribute(Offset = 4 * 3)]
         public int TreeCount { get; set; }
+        public int TreeLength => 4 * TreeCount;
 
         [BinaryFieldAttribute()]
-        public TreeNode[] Tree { get; set; }
+        public List<TreeNode>? Tree { get; set; }
 
-        [BinaryFieldAttribute(Position = 4 * 4)]
-        public int NodeDictPosition { get; set; }
-        [BinaryFieldAttribute(Position = 4 * 5)]
+        [BinaryFieldAttribute(Offset = 4 * 4)]
+        public int NodeDictOffset { get; set; }
+        [BinaryFieldAttribute(Offset = 4 * 5)]
         public int NodeDictCount { get; set; }
 
-        [BinaryFieldAttribute(Position = 4 * 6)]
-        public int AttributeDictPosition { get; set; }
-        [BinaryFieldAttribute(Position = 4 * 7)]
+        [BinaryFieldAttribute(Offset = 4 * 6)]
+        public int AttributeDictOffset { get; set; }
+        [BinaryFieldAttribute(Offset = 4 * 7)]
         public int AttributeDictCount { get; set; }
 
-        [BinaryFieldAttribute(Position = 4 * 8)]
-        public int StringDictPosition { get; set; }
-        [BinaryFieldAttribute(Position = 4 * 9)]
+        [BinaryFieldAttribute(Offset = 4 * 8)]
+        public int StringDictOffset { get; set; }
+        [BinaryFieldAttribute(Offset = 4 * 9)]
         public int StringDictCount { get; set; }
 
-        [NullTerminatedString(Order = 1, FieldOffset = FieldOffset.Absolute)]
+        [NullTerminatedString(Order = 1, OffsetZone = OffsetZone.Absolute)]
         public Dictionary<int, string>? AttributeDict { get; set; }
-        [NullTerminatedString(Order = 1, FieldOffset = FieldOffset.Absolute)]
+        [NullTerminatedString(Order = 1, OffsetZone = OffsetZone.Absolute)]
         public Dictionary<int, string>? StringDict { get; set; }
-        [NullTerminatedString(Order = 1, FieldOffset = FieldOffset.Absolute)]
+        [NullTerminatedString(Order = 1, OffsetZone = OffsetZone.Absolute)]
         public Dictionary<int, string>? NodeDict { get; set; }
 
         public Encoding NodeDictEncoding { get; } = encoding;

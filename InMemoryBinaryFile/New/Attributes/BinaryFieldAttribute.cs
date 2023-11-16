@@ -38,25 +38,33 @@ namespace InMemoryBinaryFile.New.Attributes
         /// <summary>
         /// Position in source stream. Used less than 0, PositionFunc will be used
         /// </summary>
-        public int Position { get; set; } = -1;
+        public int Offset { get; set; } = -1;
         /// <summary>
-        /// Controls Position Offset automatic calculation in scope of segment
+        /// Function to calculate Offset in runtime
+        /// Defaults to int FieldNamePosition() {...}
         /// </summary>
-        public FieldOffset FieldOffset { get; set; } = FieldOffset.Absolute;
+        public string? OffsetFunc { get; set; }
+
+        /// <summary>
+        /// Controls Position Offset automatic calculation in given OffsetScope
+        /// </summary>
+        public OffsetZone OffsetZone { get; set; } = OffsetZone.Absolute;
         /// <summary>
         /// Controls Position Offset scope selection for automatic calculation
         /// </summary>
-        public SegmentOffset SegmentOffset { get; set; } = SegmentOffset.Absolute;
-        /// <summary>
-        /// Function to calculate Position in runtime
-        /// Defaults to int FieldNamePosition() {...}
-        /// </summary>
-        public string? PositionFunc { get; set; }
+        public OffsetScope OffsetScope { get; set; } = OffsetScope.Absolute;
 
         public object? ExpectedValue { get; set; } = null;
 
-        public int GetPosition(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue(() => Position, (x) => x >= 0, PositionFunc ?? $"{FieldName}Position", obj);
-        public int GetLength(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue(() => Length, (x) => x >= 0, LengthFunc ?? $"{FieldName}Length", obj);
-        public int GetCount(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue(() => Count, (x) => x >= 0, CountFunc ?? $"{FieldName}Count", obj);
+        /// <summary>
+        /// Function to determine when field should be serialized
+        /// defaults to bool FieldNameIf() {...}
+        /// </summary>
+        public string? IfFunc { get; set; }
+
+        public int GetOffset(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue(() => Offset, (x) => x >= 0, OffsetFunc ?? $"{FieldName}Offset", obj, -1);
+        public int GetLength(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue(() => Length, (x) => x >= 0, LengthFunc ?? $"{FieldName}Length", obj, -1);
+        public int GetCount(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue(() => Count, (x) => x >= 0, CountFunc ?? $"{FieldName}Count", obj, -1);
+        public bool GetIf(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue<bool>(IfFunc ?? $"{FieldName}If", obj, true);
     }
 }
