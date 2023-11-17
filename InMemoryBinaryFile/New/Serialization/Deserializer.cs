@@ -230,8 +230,6 @@ namespace InMemoryBinaryFile.New.Serialization
         public static T Deserialize<T>(Span<byte> bytes)
             where T : IBinarySegment, new()
         {
-            var baseAttribType = typeof(BinaryFieldAttribute);
-
             T t = new T();
 
             return Deserialize(bytes, t);

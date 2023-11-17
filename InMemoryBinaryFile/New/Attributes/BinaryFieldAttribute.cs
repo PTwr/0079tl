@@ -34,6 +34,10 @@ namespace InMemoryBinaryFile.New.Attributes
         /// for when Field Position requires other field to be parsed first
         /// </summary>
         public int Order { get; set; }
+        /// <summary>
+        /// for when Field has to be serialized in different order than deserialized
+        /// </summary>
+        public int? SerializationOrder { get; set; }
 
         /// <summary>
         /// Position in source stream. Used less than 0, PositionFunc will be used

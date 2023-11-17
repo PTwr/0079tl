@@ -34,18 +34,18 @@ namespace Tests
             Assert.Equal(parsed.TreePosition, newXBF.TreeOffset);
             Assert.Equal(parsed.TreeLength, newXBF.TreeCount);
 
-            Assert.Equal(parsed.NodeDictPosition, newXBF.NodeDictOffset);
-            Assert.Equal(parsed.NodeDictLength, newXBF.NodeDictCount);
+            Assert.Equal(parsed.NodeDictPosition, newXBF.NodeListOffset);
+            Assert.Equal(parsed.NodeDictLength, newXBF.NodeListCount);
 
-            Assert.Equal(parsed.AttributeDictPosition, newXBF.AttributeDictOffset);
-            Assert.Equal(parsed.AttributeDictLength, newXBF.AttributeDictCount);
+            Assert.Equal(parsed.AttributeDictPosition, newXBF.AttributeListOffset);
+            Assert.Equal(parsed.AttributeDictLength, newXBF.AttributeListCount);
 
-            Assert.Equal(parsed.StringDictPosition, newXBF.StringDictOffset);
-            Assert.Equal(parsed.StringDictLength, newXBF.StringDictCount);
+            Assert.Equal(parsed.StringDictPosition, newXBF.StringListOffset);
+            Assert.Equal(parsed.StringDictLength, newXBF.StringListCount);
 
-            Assert.Equal(parsed.StringDict.Values, newXBF.StringDict.Values);
-            Assert.Equal(parsed.AttributeDict.Values, newXBF.AttributeDict.Values);
-            Assert.Equal(parsed.NodeDict.Values, newXBF.NodeDict.Values);
+            Assert.Equal(parsed.StringDict.Values, newXBF.StringList);
+            Assert.Equal(parsed.AttributeDict.Values, newXBF.AttributeList);
+            Assert.Equal(parsed.NodeDict.Values, newXBF.NodeList);
 
             var oldxml = parsed.NodeTree.ToString();
             var newxml = newXBF.ToString();
@@ -60,12 +60,21 @@ namespace Tests
             var bytes = File.ReadAllBytes(u8testfile);
 
             var newU8 = Deserializer.Deserialize<U8File>(bytes.AsSpan());
-            var bb = newU8.NodeList[2].BinaryData.AsSpan();
+            //var bb = newU8.NodeList[2].BinaryData.AsSpan();
 
-            var xx = Deserializer.Deserialize<XbfFile>(bb);
+            var xx = newU8.U8HierarchicalNode.Items().FirstOrDefault(i => i.IsXbf).XbfFile;
 
             var xml = xx.GetXmlDocument();
             var str = xx.GetXmlString();
+
+            var xbf = new XbfFile(xml, Encoding.UTF8);
+
+            var xml2 = xx.GetXmlDocument();
+            var str2 = xx.GetXmlString();
+
+            Assert.Equal(str, str2);
+
+            //TODO test serialziation once written
         }
 
         [Fact]

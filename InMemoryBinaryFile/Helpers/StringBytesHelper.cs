@@ -71,6 +71,15 @@ namespace InMemoryBinaryFile.Helpers
             return buffer.ToDecodedString(System.Text.Encoding.UTF8);
         }
 
+        public static byte[] ToBytes(this List<string> texts, Encoding encoding, bool appendNullTerminator = false)
+        {
+            return texts.SelectMany(i => i.ToBytes(encoding, appendNullTerminator)).ToArray();
+        }
+        public static byte[] ToBytes(this Dictionary<int, string> texts, Encoding encoding, bool appendNullTerminator = false)
+        {
+            return texts.SelectMany(i => i.Value.ToBytes(encoding, appendNullTerminator)).ToArray();
+        }
+
         public static byte[] ToBytes(this string text, Encoding encoding, bool appendNullTerminator = false)
         {
             var bytes = encoding.GetBytes(text);

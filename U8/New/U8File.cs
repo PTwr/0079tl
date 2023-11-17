@@ -45,7 +45,7 @@ namespace U8.New
         public int FileNamesLength => NodeListAndStringDictLength - FileNamesOffset;
 
         //[BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Body, Order = 3)]
-        public List<U8Node> NodeList { get; set; }
+        //public List<U8Node> NodeList { get; set; }
 
         [BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Body, Order = 5)]
         public U8HierarchicalNode? U8HierarchicalNode { get; set; }
@@ -59,14 +59,25 @@ namespace U8.New
     [BinarySegmentAttribute(BodyOffset = 12)]
     public class U8HierarchicalNode : U8Node, IPostProcessing
     {
+        public IEnumerable<U8HierarchicalNode> Items()
+        {
+            yield return this;
+            foreach(var item in U8HierarchicalNodes.SelectMany(i=>i.Items()))
+            {
+                yield return item;
+            }
+        }
+
         public U8HierarchicalNode(IBinarySegment parent) : base(parent)
         {
             if (Parent is U8File)
             {
+                //root node always has Id=1
                 NodeCounter = Id = 1;
             }
             else
             {
+                //nested nodes have lineary incremental Id
                 Id = ++Root.NodeCounter;
             }
         }
@@ -75,10 +86,6 @@ namespace U8.New
 
         public int NodeCounter;
 
-        //TODO fix that shit!
-        //ID must be known when deserializing node, to calculate child count
-        //with tree being built recursively we can't rely on parent child count
-        //onyl parent will be set by constructor
         public int Id { get; private set; }
 
         [BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Body, OffsetScope = OffsetScope.Segment, Order = 20)]
@@ -90,16 +97,20 @@ namespace U8.New
 
         public void AfterDeserialization()
         {
-            //if (Parent is U8File)
-            //{
-            //    Id = 1;
-            //}
-            //else if (Parent is U8HierarchicalNode)
-            //{
-            //    var p = (U8HierarchicalNode)Parent;
-            //    Id = (p.U8HierarchicalNodes?.LastOrDefault() ?? p).Id;
-            //    Id++;
-            //}
+        }
+
+        private string GetPath(string separator = "/")
+        {
+            if (Parent is U8File)
+            {
+                return Name;
+            }
+            return ((U8HierarchicalNode)Parent!).GetPath() + separator + Name;
+        }
+
+        public override string ToString()
+        {
+            return GetPath();
         }
     }
 
