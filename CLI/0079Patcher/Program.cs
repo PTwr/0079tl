@@ -9,6 +9,7 @@ using System.Reflection.Metadata.Ecma335;
 using GEVLib.GEV;
 using System.Text;
 using _0079Shared;
+using System.Text.RegularExpressions;
 
 internal class Program
 {
@@ -495,21 +496,11 @@ internal class Program
                         var encoding = node.Name.StartsWith("d_") ? Encoding.UTF8 : EncodingHelper.Shift_JIS;
                         var dataReadAsText = File.ReadAllText(patchfile, encoding);
 
-                        var lines = dataReadAsText
-                            .Split('\x0D', '\x0A');
-
-                        //todo make/use minifier which doesnt break on multiline comment
-                        var trimmedLines = lines
-                            .Select(i => i.Trim()) //ignore formatting
-                            .Select(i => i.Replace(" = ", "=")) // unnecessary spaces in middle of dict lines
-                            .Where(i => !i.StartsWith("--")) //skip comments
-                            .Where(i => !string.IsNullOrWhiteSpace(i)) //skip empty lines
-                            ;
-
-                        var trimmedscript = string.Join("\x0D\x0A", trimmedLines);
+                        var trimmedscript = dataReadAsText.MinifyLua();
+                        
                         newData = trimmedscript.ToBytes(encoding);
 
-                        //padd spaces to match lnegth without tweaking .arc
+                        //padd spaces to match length without tweaking .arc for nicer partial Riivolution patches
                         if (newData.Length < node.BinaryData.Length)
                         {
                             var diff = node.BinaryData.Length - newData.Length;

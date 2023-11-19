@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace InMemoryBinaryFile.Helpers
 {
@@ -38,6 +40,40 @@ namespace InMemoryBinaryFile.Helpers
                 }
             }
             return sb.ToString();
+        }
+
+        /// <summary>
+        /// Shitty Lua minifier
+        /// Build to snatch some more space in 0079 lua scripts to avoid patchign arc with longer files
+        /// </summary>
+        /// <param name="lua"></param>
+        /// <returns></returns>
+        public static string MinifyLua(this string lua)
+        {
+            Regex blockComment = new Regex(@"--\[(=*)\[(.|\n)*?\]\1\]");
+            Regex inlineComment = new Regex(@"--.*");
+
+            var removedComments = blockComment.Replace(lua, string.Empty);
+            removedComments = inlineComment.Replace(removedComments, string.Empty);
+
+            var lines = removedComments
+                .Split('\x0D', '\x0A');
+
+            //todo make/use minifier which doesnt break on multiline comment
+            var trimmedLines = lines
+                .Select(i => i.Trim()) //ignore formatting
+                .Select(i => i.Replace(" = ", "=")) // unnecessary spaces in middle of dict lines
+                .Select(i => i.Replace(" ~= ", "~=")) // unnecessary spaces
+                .Select(i => i.Replace(" ~= ", "~=")) // unnecessary spaces
+                .Select(i => i.Replace(") )", "))")) // unnecessary spaces
+                .Select(i => i.Replace("( (", "((")) // unnecessary spaces
+                .Where(i => !i.StartsWith("--")) //skip comments
+                .Where(i => !string.IsNullOrWhiteSpace(i)) //skip empty lines
+                ;
+
+            var trimmedscript = string.Join("\x0D\x0A", trimmedLines);
+
+            return trimmedscript;
         }
     }
 }
