@@ -67,8 +67,15 @@ namespace InMemoryBinaryFile.New.Attributes
         public string? IfFunc { get; set; }
 
         public int GetOffset(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue(() => Offset, (x) => x >= 0, OffsetFunc ?? $"{FieldName}Offset", obj, -1);
+        public int GetOffset(object obj, PropertyInfo property) => GetOffset(obj, property.Name);
+
         public int GetLength(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue(() => Length, (x) => x >= 0, LengthFunc ?? $"{FieldName}Length", obj, -1);
+        public int GetLength(object obj, PropertyInfo property) => GetLength(obj, property.Name);
+
         public int GetCount(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue(() => Count, (x) => x >= 0, CountFunc ?? $"{FieldName}Count", obj, -1);
+        public int GetCount(object obj, PropertyInfo property) => GetCount(obj, property.Name);
+
         public bool GetIf(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue<bool>(IfFunc ?? $"{FieldName}If", obj, true);
+        public bool GetIf(object obj, PropertyInfo property) => GetIf(obj, property.Name);
     }
 }

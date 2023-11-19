@@ -80,7 +80,7 @@ namespace InMemoryBinaryFile.Helpers
             return texts.SelectMany(i => i.Value.ToBytes(encoding, appendNullTerminator)).ToArray();
         }
 
-        public static byte[] ToBytes(this string text, Encoding encoding, bool appendNullTerminator = false)
+        public static byte[] ToBytes(this string text, Encoding encoding, bool appendNullTerminator = false, int fixedLength = -1)
         {
             var bytes = encoding.GetBytes(text);
 
@@ -88,6 +88,19 @@ namespace InMemoryBinaryFile.Helpers
             {
                 return bytes.Concat(NullTerminator).ToArray();
             }
+
+            if (fixedLength >=0)
+            {
+                if (bytes.Length > fixedLength)
+                {
+                    throw new Exception($"Byte representation is longer than fixed length. ${bytes.Length} > {fixedLength}");
+                }
+                if (bytes.Length < fixedLength)
+                {
+                    bytes = bytes.PadToAlignment(fixedLength).ToArray();
+                }
+            }
+
             return bytes.ToArray();
         }
 

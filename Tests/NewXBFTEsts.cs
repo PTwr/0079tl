@@ -31,21 +31,21 @@ namespace Tests
             XbfFile newXBF = new XbfFile(Encoding.UTF8);
             newXBF = Deserializer.Deserialize<XbfFile>(bytes.AsSpan(), newXBF);
 
-            Assert.Equal(parsed.TreePosition, newXBF.TreeOffset);
-            Assert.Equal(parsed.TreeLength, newXBF.TreeCount);
+            Assert.Equal(parsed.TreePosition, newXBF.TreeStructureOffset);
+            Assert.Equal(parsed.TreeLength, newXBF.TreeStructureCount);
 
-            Assert.Equal(parsed.NodeDictPosition, newXBF.NodeListOffset);
-            Assert.Equal(parsed.NodeDictLength, newXBF.NodeListCount);
+            Assert.Equal(parsed.NodeDictPosition, newXBF.TagListOffset);
+            Assert.Equal(parsed.NodeDictLength, newXBF.TagListCount);
 
             Assert.Equal(parsed.AttributeDictPosition, newXBF.AttributeListOffset);
             Assert.Equal(parsed.AttributeDictLength, newXBF.AttributeListCount);
 
-            Assert.Equal(parsed.StringDictPosition, newXBF.StringListOffset);
-            Assert.Equal(parsed.StringDictLength, newXBF.StringListCount);
+            Assert.Equal(parsed.StringDictPosition, newXBF.ValueListOffset);
+            Assert.Equal(parsed.StringDictLength, newXBF.ValueListCount);
 
-            Assert.Equal(parsed.StringDict.Values, newXBF.StringList);
+            Assert.Equal(parsed.StringDict.Values, newXBF.ValueList);
             Assert.Equal(parsed.AttributeDict.Values, newXBF.AttributeList);
-            Assert.Equal(parsed.NodeDict.Values, newXBF.NodeList);
+            Assert.Equal(parsed.NodeDict.Values, newXBF.TagList);
 
             var oldxml = parsed.NodeTree.ToString();
             var newxml = newXBF.ToString();
@@ -84,6 +84,51 @@ namespace Tests
             var bytes = File.ReadAllBytes(u8testfiledirectories);
 
             var newU8 = Deserializer.Deserialize<U8File>(bytes.AsSpan());
+        }
+
+        [Fact]
+        public void XbfRoundtrip()
+        {
+            var bytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_AA01_text.arc\arc\OP_AA01.arc\arc\StringGroup.xbf");
+            var xbf = Deserializer.Deserialize<XbfFile>(bytes.AsSpan());
+
+            var xmlstr = xbf.ToString();
+
+            var newBytes = Serializer.Serialize(xbf);
+
+            Assert.Equal(bytes, newBytes);
+
+            var xbffromxml = new XbfFile(xmlstr);
+
+            var xmlstr2 = xbffromxml.ToString();
+
+            newBytes = Serializer.Serialize(xbffromxml);
+
+            Assert.Equal(xbf.TreeStructureOffset, xbffromxml.TreeStructureOffset);
+            Assert.Equal(xbf.TreeStructureOffset, xbffromxml.TreeStructureOffset);
+            Assert.Equal(xbf.TreeStructureOffset, xbffromxml.TreeStructureOffset);
+
+            Assert.Equal(xbf.TreeStructureCount, xbffromxml.TreeStructureCount);
+            Assert.Equal(xbf.TagListCount, xbffromxml.TagListCount);
+            Assert.Equal(xbf.AttributeListCount, xbffromxml.AttributeListCount);
+            Assert.Equal(xbf.ValueListCount, xbffromxml.ValueListCount);
+
+            Assert.Equal(xbf.TreeStructureOffset, xbffromxml.TreeStructureOffset);
+            Assert.Equal(xbf.TagListOffset, xbffromxml.TagListOffset);
+            Assert.Equal(xbf.AttributeListOffset, xbffromxml.AttributeListOffset);
+            Assert.Equal(xbf.ValueListOffset, xbffromxml.ValueListOffset);
+
+
+            for(int i=0;i<xbf.TreeStructureCount;i++)
+            {
+                Assert.Equal(xbf.TreeStructure[i].ToString(), xbffromxml.TreeStructure[i].ToString());
+                Assert.Equal(xbf.TreeStructure[i].NameOrAttributeId, xbffromxml.TreeStructure[i].NameOrAttributeId);
+                Assert.Equal(xbf.TreeStructure[i].ValueId, xbffromxml.TreeStructure[i].ValueId);
+            }
+
+            Assert.Equal(bytes, newBytes);
+
+            Assert.Equal(xmlstr, xmlstr2);
         }
     }
 }

@@ -50,10 +50,6 @@ namespace U8.New
         [BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Body, Order = 5)]
         public U8HierarchicalNode? U8HierarchicalNode { get; set; }
         public int U8HierarchicalNodeLength => NodeListCount * 12;
-
-        //TODO NodeTree, and path
-        //flat list will be easier to serialize
-        //tree will be easier to process, but in U8 case it should be enough to generate paths
     }
 
     [BinarySegmentAttribute(BodyOffset = 12)]

@@ -1,6 +1,5 @@
 ﻿using InMemoryBinaryFile;
 using InMemoryBinaryFile.Helpers;
-using InMemoryBinaryFile.New;
 using InMemoryBinaryFile.New.Attributes;
 using System;
 using System.Collections.Generic;
@@ -11,42 +10,6 @@ using System.Xml;
 
 namespace XBFLib.New
 {
-    [BinarySegment(HeaderOffset = 0, BodyOffset = 0, Length = 4)]
-    public class TreeNode : BinarySegment<XbfFile>
-    {
-        public TreeNode(XbfFile parent) : base(parent)
-        {
-        }
-
-        public TreeNode(XbfFile parent, int nameOrAttributeId, int valueId) : base(parent)
-        {
-            NameOrAttributeId = (short)nameOrAttributeId;
-            ValueId = (ushort)valueId;
-        }
-
-        //NodeDict if positive (XmlNode name) or AttributeDict if negative (XmlAttribute name)
-        [BinaryFieldAttribute(Offset = 0, OffsetScope = OffsetScope.Segment)]
-        public short NameOrAttributeId { get; private set; }
-
-        //StringDict (XmlNode/XmlAttributes value) unless IsClosingTag (0xFFFF)
-        [BinaryFieldAttribute(Offset = 2, OffsetScope = OffsetScope.Segment)]
-        public ushort ValueId { get; private set; }
-
-        public bool IsClosingTag => ValueId == 0xFFFF;
-        public bool IsAttribute => NameOrAttributeId < 0;
-
-        public string? Name => IsClosingTag ? null : (IsAttribute ? 
-            Parent!.AttributeList!.ElementAt(NameOrAttributeId * -1) : 
-            Parent!.NodeList!.ElementAt(NameOrAttributeId));
-
-        public string? Value => IsClosingTag ? null : Parent!.StringList!.ElementAt(ValueId);
-
-        public override string ToString()
-        {
-            return IsClosingTag ? "</>" : IsAttribute ? $"<... {Name}=\"{Value}\"" : $"<{Name}>{Value}";
-        }
-
-    }
 
     [BinarySegment(HeaderOffset = 8, BodyOffset = 0x28)]
     public class XbfFile : InMemoryBinaryFile.New.IBinarySegment
@@ -61,11 +24,19 @@ namespace XBFLib.New
             NodeDictEncoding = AttributeDictEncoding = StringDictEncoding = encoding;
         }
 
+        public XbfFile(string xml, Encoding? encoding = null) : this(encoding ?? Encoding.UTF8)
+        {
+            var doc = new XmlDocument();
+            doc.LoadXml(xml);
+
+            XmlToNodeList(doc.FirstChild);
+
+            UpdateHeader();
+
+        }
         public XbfFile(XmlDocument doc, Encoding? encoding = null) : this(encoding ?? Encoding.UTF8)
         {
-            //TODO fill tree and dicts from xml
-
-            TraverseXml(doc.FirstChild);
+            XmlToNodeList(doc.FirstChild);
 
             UpdateHeader();
         }
@@ -82,21 +53,21 @@ namespace XBFLib.New
             return list.Count - 1;
         }
 
-        private void TraverseXml(XmlNode node)
+        private void XmlToNodeList(XmlNode node)
         {
             var txt = node.ChildNodes.Cast<XmlNode>().FirstOrDefault(i => i is XmlText);
 
-            Tree.Add(new TreeNode(this,
-                AddIfMissing(NodeList, node.Name),
-                AddIfMissing(StringList, txt?.InnerText ?? "")));
+            TreeStructure.Add(new TreeNode(this,
+                AddIfMissing(TagList, node.Name),
+                AddIfMissing(ValueList, txt?.InnerText ?? "")));
 
             if (node.Attributes != null)
             {
                 foreach (XmlAttribute attrib in node.Attributes)
                 {
-                    Tree.Add(new TreeNode(this,
+                    TreeStructure.Add(new TreeNode(this,
                         -AddIfMissing(AttributeList, node.Name),
-                        AddIfMissing(StringList, node.InnerText)));
+                        AddIfMissing(ValueList, node.InnerText)));
                 }
             }
 
@@ -104,11 +75,11 @@ namespace XBFLib.New
             {
                 if (child is XmlElement)
                 {
-                    TraverseXml(child);
+                    XmlToNodeList(child);
                 }
             }
 
-            Tree.Add(new TreeNode(this, 0, 0xFFFF));
+            TreeStructure.Add(new TreeNode(this, AddIfMissing(TagList, node.Name), 0xFFFF));
         }
 
         public string GetXmlString()
@@ -120,7 +91,7 @@ namespace XBFLib.New
             var doc = new XmlDocument();
 
             XmlNode node = doc;
-            foreach (var entry in Tree!)
+            foreach (var entry in TreeStructure!)
             {
                 if (entry.IsClosingTag)
                 {
@@ -151,16 +122,16 @@ namespace XBFLib.New
 
         private void UpdateHeader()
         {
-            TreeCount = Tree.Count;
+            TreeStructureCount = TreeStructure.Count;
 
-            NodeListCount = NodeList.Count;
-            NodeListOffset = Tree.Count * 12 + 0x28;
+            TagListCount = TagList.Count;
+            TagListOffset = TreeStructure.Count * 4 + 0x28;
 
             AttributeListCount = AttributeList.Count;
-            AttributeListOffset = NodeListOffset + NodeList.ToBytes(NodeDictEncoding, true).Length;
+            AttributeListOffset = TagListOffset + TagList.ToBytes(NodeDictEncoding, true).Length;
 
-            StringListCount = AttributeList.Count;
-            StringListOffset = AttributeListOffset + AttributeList.ToBytes(StringDictEncoding, true).Length;
+            ValueListCount = ValueList.Count;
+            ValueListOffset = AttributeListOffset + AttributeList.ToBytes(StringDictEncoding, true).Length;
         }
 
         public override string ToString()
@@ -169,23 +140,24 @@ namespace XBFLib.New
         }
 
         //null terminated XBF string
-        [BinaryFieldAttribute(ExpectedValue = 0x58_42_46_00, Offset = 4 * 0, Order = -1)]
-        public int Magic { get; private set; } = 0x58_42_46_00;
+        //0x58_42_46_00
+        [NullTerminatedString(ExpectedValue = "XBF", Offset = 4 * 0, Order = -1)]
+        public string Magic { get; private set; } = "XBF";
 
         //some secret number
         [BinaryFieldAttribute(ExpectedValue = 0x03_00_80_00, Offset = 4 * 1, Order = -1)]
         public int Magic2 { get; private set; } = 0x03_00_80_00;
 
         [BinaryFieldAttribute(Offset = 4 * 2, ExpectedValue = 0x28)] //should be after header
-        public int TreeOffset { get; private set; } = 0x28;
+        public int TreeStructureOffset { get; private set; } = 0x28;
         [BinaryFieldAttribute(Offset = 4 * 3)]
-        public int TreeCount { get; private set; }
-        public int TreeLength => 4 * TreeCount;
+        public int TreeStructureCount { get; private set; }
+        public int TreeStructureLength => 4 * TreeStructureCount;
 
         [BinaryFieldAttribute(Offset = 4 * 4)]
-        public int NodeListOffset { get; private set; }
+        public int TagListOffset { get; private set; }
         [BinaryFieldAttribute(Offset = 4 * 5)]
-        public int NodeListCount { get; private set; }
+        public int TagListCount { get; private set; }
 
         [BinaryFieldAttribute(Offset = 4 * 6)]
         public int AttributeListOffset { get; private set; }
@@ -193,22 +165,22 @@ namespace XBFLib.New
         public int AttributeListCount { get; private set; }
 
         [BinaryFieldAttribute(Offset = 4 * 8)]
-        public int StringListOffset { get; private set; }
+        public int ValueListOffset { get; private set; }
         [BinaryFieldAttribute(Offset = 4 * 9)]
-        public int StringListCount { get; private set; }
+        public int ValueListCount { get; private set; }
 
         [BinaryFieldAttribute(Order = 1)]
-        public List<TreeNode>? Tree { get; private set; } = new List<TreeNode>();
+        public List<TreeNode>? TreeStructure { get; private set; } = new List<TreeNode>();
 
         //three series of null delimited string lists starting after Tree
         //original XBF's lists always have empty string at the begining
         //TODO test if empty string its needed or is just artifact from whatever serialzier was used
         [NullTerminatedString(Order = 2, OffsetZone = OffsetZone.Absolute)]
-        public List<string>? NodeList { get; private set; } = [""];
+        public List<string>? TagList { get; private set; } = [""];
         [NullTerminatedString(Order = 3, OffsetZone = OffsetZone.Absolute)]
         public List<string>? AttributeList { get; private set; } = [""];
         [NullTerminatedString(Order = 4, OffsetZone = OffsetZone.Absolute)]
-        public List<string>? StringList { get; private set; } = [""];
+        public List<string>? ValueList { get; private set; } = [""];
 
         public Encoding NodeDictEncoding { get; }
         public Encoding AttributeDictEncoding { get; }

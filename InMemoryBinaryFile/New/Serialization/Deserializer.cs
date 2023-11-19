@@ -12,89 +12,56 @@ namespace InMemoryBinaryFile.New.Serialization
 {
     public static class Deserializer
     {
+        public static IEnumerable<PropertyInfo> Properties(this object obj, BindingFlags bindingFlags = BindingFlags.Public | BindingFlags.Instance)
+        {
+            return obj.GetType().GetProperties(bindingFlags);
+        }
+        public static IEnumerable<(Tattrib attr, PropertyInfo prop)> WithAttribute<Tattrib>(this IEnumerable<PropertyInfo> props, bool inherit = false)
+            where Tattrib : Attribute
+        {
+            foreach (var prop in props)
+            {
+                var attrib = prop.GetCustomAttribute<Tattrib>(inherit);
+                if (attrib != null)
+                {
+                    yield return (attrib, prop);
+                }
+            }
+        }
         private static object _Deserialize(Span<byte> bytes, object target, List<(int absolute, int header, int body)> offsetsHistory, out int segmentLength)
         {
-            var BinarySegmentAttribute = target.GetType().GetCustomAttribute<BinarySegmentAttribute>();
+            BinarySegmentAttribute BinarySegmentAttribute = target.GetType().GetCustomAttribute<BinarySegmentAttribute>()!;
 
             if (BinarySegmentAttribute == null)
             {
                 throw new Exception($"{nameof(Attributes.BinarySegmentAttribute)} is required");
             }
 
+            //plop root offsets at start of stack
             if (!offsetsHistory.Any())
             {
                 offsetsHistory.Add((0, BinarySegmentAttribute.HeaderOffset, BinarySegmentAttribute.BodyOffset));
             }
 
-            foreach (var prop in target.GetType()
-                .GetProperties()
-                .Where(i => i.GetCustomAttribute<BinaryFieldAttribute>(true) != null)
-                .OrderBy(i => i.GetCustomAttribute<BinaryFieldAttribute>(true)?.Order)
+            foreach ((var BinaryFieldAttribute, var prop) in target.Properties()
+                .WithAttribute<BinaryFieldAttribute>()
+                .Where(i => i.attr.GetIf(target, i.prop))
+                .OrderBy(i=>i.attr.Order)
                 )
             {
+                var encoding = (BinaryFieldAttribute as StringEncodingAttribute)?.GetEncoding(target, prop.Name) ?? Encoding.ASCII;
+
+                var NullTerminatedStringAttribute = BinaryFieldAttribute as NullTerminatedStringAttribute;
+                var FixedLengthStringAttribute = BinaryFieldAttribute as FixedLengthStringAttribute;
+
                 object? newValue = null;
 
-                var BinaryFieldAttribute = prop.GetCustomAttribute<BinaryFieldAttribute>();
-                if (BinaryFieldAttribute == null)
-                {
-                    continue;
-                }
-                if (!BinaryFieldAttribute.GetIf(target, prop.Name))
-                {
-                    continue;
-                }
-
-                var pos = BinaryFieldAttribute.GetOffset(target, prop.Name);
-                var l = BinaryFieldAttribute.GetLength(target, prop.Name);
-                var count = BinaryFieldAttribute.GetCount(target, prop.Name);
-
-                if (BinarySegmentAttribute != null)
-                {
-                    var offsetScope = offsetsHistory.Last();
-                    switch (BinaryFieldAttribute.OffsetScope)
-                    {
-                        case OffsetScope.Absolute:
-                            offsetScope = offsetsHistory.Last();
-                            break;
-                        case OffsetScope.Segment:
-                            offsetScope = offsetsHistory[0];
-                            break;
-                        case OffsetScope.Parent:
-                            offsetScope = offsetsHistory[1];
-                            break;
-                        case OffsetScope.GrandParent:
-                            offsetScope = offsetsHistory[2];
-                            break;
-                        default:
-                            break;
-                    }
-                    pos += offsetScope.absolute;
-                    switch (BinaryFieldAttribute.OffsetZone)
-                    {
-                        case OffsetZone.Absolute:
-                            break;
-                        case OffsetZone.Header:
-                            pos += offsetScope.header;
-                            break;
-                        case OffsetZone.Body:
-                            pos += offsetScope.body;
-                            break;
-                        default:
-                            break;
-                    }
-                }
-
-                var slice = (l >= 0) ? bytes.Slice(pos, l) : bytes.Slice(pos);
-
-                var StringEncodingAttribute = prop.GetCustomAttribute<StringEncodingAttribute>();
-                var NullTerminatedStringAttribute = prop.GetCustomAttribute<NullTerminatedStringAttribute>();
-                var FixedLengthStringAttribute = prop.GetCustomAttribute<FixedLengthStringAttribute>();
-
-                var encoding = StringEncodingAttribute?.GetEncoding(target, prop.Name) ?? Encoding.ASCII;
+                (int pos, int length, int count) = target.GetFieldMetadata(prop, BinaryFieldAttribute, offsetsHistory);
+                var slice = bytes.Segment(pos, length);
 
                 if (prop.PropertyType == typeof(byte))
                 {
-                    newValue = bytes[pos];
+                    newValue = slice[0];
                 }
                 else if (prop.PropertyType == typeof(ushort))
                 {
@@ -179,11 +146,11 @@ namespace InMemoryBinaryFile.New.Serialization
                     }
                     if (prop.IsAssignableTo<IBinarySegment[]>())
                     {
-                        newValue = items.CastToArray(prop.PropertyType.GetCollectionType());
+                        newValue = items.CastToArray(prop.PropertyType.GetCollectionType()!);
                     }
                     else if (prop.IsAssignableTo<IEnumerable<IBinarySegment>>())
                     {
-                        newValue = items.CastToList(prop.PropertyType.GetCollectionType());
+                        newValue = items.CastToList(prop.PropertyType.GetCollectionType()!);
                     }
                 }
                 else if (prop.PropertyType == typeof(byte[]))
@@ -195,13 +162,7 @@ namespace InMemoryBinaryFile.New.Serialization
                 {
                     if (BinaryFieldAttribute.ExpectedValue != null)
                     {
-                        if ((
-                                BinaryFieldAttribute.ExpectedValue is string
-                                &&
-                                (newValue.ToString() != BinaryFieldAttribute.ExpectedValue.ToString())
-                            )
-                            ||
-                            (!newValue.Equals(BinaryFieldAttribute.ExpectedValue)))
+                        if (!newValue.Equals(BinaryFieldAttribute.ExpectedValue))
                         {
                             throw new Exception($"Invalid value for {prop.Name}, expected {BinaryFieldAttribute.ExpectedValue} actual {newValue}");
                         }

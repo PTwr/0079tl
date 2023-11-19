@@ -77,6 +77,23 @@ namespace InMemoryBinaryFile.Helpers
             return BinaryPrimitives.ReadUInt16BigEndian(bytes.Slice(location, 2));
         }
 
+        public static byte[] GetLittleEndianBytes(this short n)
+        {
+            return BitConverter.GetBytes(n);
+        }
+        public static byte[] GetLittleEndianBytes(this ushort n)
+        {
+            return BitConverter.GetBytes(n);
+        }
+        public static byte[] GetLittleEndianBytes(this int n)
+        {
+            return BitConverter.GetBytes(n);
+        }
+        public static byte[] GetLittleEndianBytes(this uint n)
+        {
+            return BitConverter.GetBytes(n);
+        }
+
         public static byte[] GetBigEndianBytes(this short n)
         {
             return BitConverter.GetBytes(BinaryPrimitives.ReverseEndianness(n));
