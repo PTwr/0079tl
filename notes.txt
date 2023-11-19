@@ -281,3 +281,21 @@ ENDING_TextSet2[i].obj = AddText(man2, ENDING_TextSet2[i].text_name)
 
 ending scroll seems to relly on fixed framerate?
 gotta do some math to translate it to timer, equip each textline with From and To variables
+
+
+maps progression: result_param.xbf
+
+
+Indicator
+Degine.lua
+DrawOnTarget - draws 3dmodel on 2d point?
+DrawOnTarget is in Program.lua, calls just Draw
+
+degine can call sound and voice files?
+function ExamShutdown()
+	Sound( SE_EXAM_TIMER_END ) --preloaded sfx? "Warning03"
+	Voice( EXAM_END_VOICE ) --streamed voice? ("exm02")
+end
+
+Snd_VoiceGetPlay( inst.voice ) looks to fetch currently played voice?
+try to put it coroutine and monitor?

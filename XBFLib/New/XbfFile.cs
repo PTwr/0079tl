@@ -66,8 +66,8 @@ namespace XBFLib.New
                 foreach (XmlAttribute attrib in node.Attributes)
                 {
                     TreeStructure.Add(new TreeNode(this,
-                        -AddIfMissing(AttributeList, node.Name),
-                        AddIfMissing(ValueList, node.InnerText)));
+                        -AddIfMissing(AttributeList, attrib.Name),
+                        AddIfMissing(ValueList, attrib.InnerText)));
                 }
             }
 

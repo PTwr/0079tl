@@ -51,10 +51,12 @@ namespace InMemoryBinaryFile.Helpers
         public static string MinifyLua(this string lua)
         {
             Regex blockComment = new Regex(@"--\[(=*)\[(.|\n)*?\]\1\]");
-            Regex inlineComment = new Regex(@"--.*");
+            Regex inlineComment = new Regex(@"^(?!"")--.*"); //comments, but don't touch strings becuase --none-- strings will screw it up :)
+            Regex dbgprint = new Regex(@"Dbg_Print\(.*\)");
 
             var removedComments = blockComment.Replace(lua, string.Empty);
             removedComments = inlineComment.Replace(removedComments, string.Empty);
+            removedComments = dbgprint.Replace(removedComments, string.Empty);
 
             var lines = removedComments
                 .Split('\x0D', '\x0A');

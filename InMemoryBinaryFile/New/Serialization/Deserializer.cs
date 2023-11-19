@@ -45,10 +45,15 @@ namespace InMemoryBinaryFile.New.Serialization
 
             foreach ((var BinaryFieldAttribute, var prop) in target.Properties()
                 .WithAttribute<BinaryFieldAttribute>()
-                .Where(i => i.attr.GetIf(target, i.prop))
+                //.Where(i => i.attr.GetIf(target, i.prop))
                 .OrderBy(i=>i.attr.Order)
                 )
             {
+                if (!BinaryFieldAttribute.GetIf(target, prop))
+                {
+                    continue;
+                }
+
                 var encoding = (BinaryFieldAttribute as StringEncodingAttribute)?.GetEncoding(target, prop.Name) ?? Encoding.ASCII;
 
                 var NullTerminatedStringAttribute = BinaryFieldAttribute as NullTerminatedStringAttribute;

@@ -24,6 +24,7 @@ ME21 -> Yazan Gable pilot
 
 Ace Shiro -> Terry Sanders Jr pilot, Karen Joshiwa pilot, Pilot Shiro, Ez8 EFF?
 
+everything is in FlagCtrl.xbf!!!!
 
 https://web.archive.org/web/20090414035933/http://game.morirepo.com/data/ms_index.html
 EFF

@@ -78,6 +78,18 @@ namespace U8.New
             }
         }
 
+        public void RecalculateLastNodeId()
+        {
+            throw new NotImplementedException();
+
+            //LastNodeId = nodes.SelectMany(indepth:true).Count();
+            //TODO recalculate binary offsets as well
+
+            //TODO add option to place modified binary data in "extra offset",
+            //for nicer Riivolution partial patch (only header and new data will be changed that way)
+            //don't forget to byteallign to 4, to mathc riivolution offsets allignment
+        }
+
         public U8HierarchicalNode? Root => (Parent is U8File) ? this : ((Parent as U8HierarchicalNode).Root);
 
         public int NodeCounter;
