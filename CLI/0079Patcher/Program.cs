@@ -10,6 +10,8 @@ using GEVLib.GEV;
 using System.Text;
 using _0079Shared;
 using System.Text.RegularExpressions;
+using XBFLib.New;
+using InMemoryBinaryFile.New.Serialization;
 
 internal class Program
 {
@@ -362,6 +364,7 @@ internal class Program
             else if (node.IsXbf)
             {
                 var xmlenpath = Path.Combine(patchDir, node.Path);
+                var appendinxPath = xmlenpath.Replace(".xbf", $".xbf.{languageCode}.appendix.xml");
                 xmlenpath = xmlenpath.Replace(".xbf", $".xbf.{languageCode}.xml");
 
                 XmlDocument doc = new XmlDocument();
@@ -372,9 +375,24 @@ internal class Program
                 else
                 {
                     //var xbf = (node as XbfRootSegment);
-                    var xbf = new XbfRootSegment(XbfRootSegment.ShouldBeUTF8(xmlenpath));
-                    xbf.Parse(node.BinaryData.AsSpan(), node.BinaryData.AsSpan());
-                    doc = xbf.NodeTree.XmlDocument;
+                    //var xbf = new XbfRootSegment(XbfRootSegment.ShouldBeUTF8(xmlenpath));
+                    //xbf.Parse(node.BinaryData.AsSpan(), node.BinaryData.AsSpan());
+
+                    var xbffile = Deserializer.Deserialize<XbfFile>(node.BinaryData);
+
+                    doc = xbffile.GetXmlDocument();
+                }
+
+                if (File.Exists(appendinxPath))
+                {
+                    var appendixDoc = new XmlDocument();
+                    appendixDoc.LoadXml(File.ReadAllText(appendinxPath));
+                    var children = appendixDoc.ChildNodes.Cast<XmlNode>().Where(i => i is not XmlDeclaration).First();
+                    foreach (XmlNode child in children.ChildNodes)
+                    {
+                        var imported = doc.ImportNode(child, true);
+                        doc.FirstChild.AppendChild(imported);
+                    }
                 }
 
                 if (xmlenpath.Contains("BlockText.xbf"))
@@ -462,9 +480,12 @@ internal class Program
             }
             else if (node.IsFile && node.Name.EndsWith(".lua"))
             {
+                var encoding = node.Name.StartsWith("d_") ? Encoding.UTF8 : EncodingHelper.Shift_JIS;
+
                 byte[] newData = null;
 
                 var patchfile = Path.Combine(patchDir, node.Path);
+
                 patchfile = patchfile.Replace(".lua", $".{languageCode}.lua");
 
                 if (File.Exists(patchfile)) //patch file
@@ -473,7 +494,7 @@ internal class Program
                 }
                 else
                 {
-                    //override script with commont file
+                    //override script with common file
                     var filename = Path.GetFileName(Path.GetFileName(patchfile));
                     var commonfile = Directory //allow for subdirectories
                         .EnumerateFiles(commonDir, "*.*", SearchOption.AllDirectories)
@@ -487,17 +508,46 @@ internal class Program
                     }
                 }
 
+                //code inserts
+                {
+                    var insertsFiles = Directory.EnumerateFiles(commonDir, $"{Path.GetFileNameWithoutExtension(node.Name)}.{languageCode}.*.lua", SearchOption.AllDirectories)
+                        .Select(path => new
+                        {
+                            text = File.ReadAllText(path),
+                            line = int.Parse(path.Split(".")[^2])
+                        })
+                        //add from bottom to top, to simplify processing
+                        .OrderByDescending(i => i.line)
+                        .ToList();
+
+                    if (insertsFiles.Any())
+                    {
+                        var lines = (newData ?? node.BinaryData).AsSpan()
+                            .ToDecodedString(encoding)
+                            .Split(["\r\n", "\r", "\n"], StringSplitOptions.None)
+                            .ToList();
+
+                        foreach (var insert in insertsFiles)
+                        {
+                            lines.Insert(insert.line - 1, insert.text);
+                        }
+
+                        var moddedText = string.Join(Environment.NewLine, lines);
+
+                        newData = moddedText.ToBytes(encoding);
+                    }
+                }
+
                 if (newData != null)
                 {
                     //try to match patch file length
                     if (newData.Length > node.BinaryData.Length)
                     {
                         //dictionaries are in utf8, rest seem to be in shiftjis
-                        var encoding = node.Name.StartsWith("d_") ? Encoding.UTF8 : EncodingHelper.Shift_JIS;
-                        var dataReadAsText = File.ReadAllText(patchfile, encoding);
+                        var dataReadAsText = newData.AsSpan().ToDecodedString(encoding);
 
                         var trimmedscript = dataReadAsText.MinifyLua();
-                        
+
                         newData = trimmedscript.ToBytes(encoding);
 
                         //padd spaces to match length without tweaking .arc for nicer partial Riivolution patches
