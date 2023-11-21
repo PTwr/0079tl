@@ -51,7 +51,7 @@ namespace InMemoryBinaryFile.Helpers
         public static string MinifyLua(this string lua)
         {
             Regex blockComment = new Regex(@"--\[(=*)\[(.|\n)*?\]\1\]");
-            Regex inlineComment = new Regex(@"^(?!"")--.*"); //comments, but don't touch strings becuase --none-- strings will screw it up :)
+            Regex inlineComment = new Regex(@"--[^""\n]*$", RegexOptions.Multiline); //comments, but don't touch strings becuase --none-- strings will screw it up :)
             Regex dbgprint = new Regex(@"Dbg_Print\(.*\)");
 
             var removedComments = blockComment.Replace(lua, string.Empty);
@@ -61,7 +61,6 @@ namespace InMemoryBinaryFile.Helpers
             var lines = removedComments
                 .Split('\x0D', '\x0A');
 
-            //todo make/use minifier which doesnt break on multiline comment
             var trimmedLines = lines
                 .Select(i => i.Trim()) //ignore formatting
                 .Select(i => i.Replace(" = ", "=")) // unnecessary spaces in middle of dict lines

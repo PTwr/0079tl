@@ -5,7 +5,7 @@ D_UnitName = {
 		{
 		code = "GTM", 
 		excode = "MS_GTM", 
-		name = "RX-75 Guntank Prot.", 
+		name = "RX-75 Guntank Prod.", 
 		cost = 40, 
 		code_number = "RX-75 GUNTANK MASSPROTYPE",
 		pause_code = "RX-75",
@@ -19,7 +19,7 @@ D_UnitName = {
 		stream_name = "msv021",
 		cam_pos_dst = 30,
 	},
-        {
+    {
 		code = "GM_", 
 		excode = "MS_GM_", 
 		name = "RGM-79 GM", 
@@ -393,7 +393,7 @@ D_UnitName = {
 		stream_name = "msv023",
 		cam_pos_dst = 21,
 	},
-	--commented out in Title_lua and Versus d_unitname.lua
+	--not playable, has to be filtered out for ms_viewer by checking for stream_name = nil
 	{
 		code = "Z1C", 
 		excode = "MS_Z1C", 
@@ -409,7 +409,7 @@ D_UnitName = {
 		only = false,
 		iconframe = 24,
 	},
-	--duplciated with ZKI? Not present int Title_lua d_unitname.lua
+	--not playable, has to be filtered out for ms_viewer by checking for stream_name = nil
 	{
 		code = "ZKJ", 
 		excode = "MS_ZKJ", 
@@ -424,10 +424,9 @@ D_UnitName = {
                 sub02_code = "WP_MRL",
 		only = false,
 		iconframe = 25,
-		stream_name = "msv024",
 		cam_pos_dst = 21,
 	},
-        {
+    {
 		code = "ZKI", 
 		excode = "MS_ZKI", 
 		name = "MS-06J ZAKU Ⅱ J", 
@@ -495,7 +494,7 @@ D_UnitName = {
 		stream_name = "msv029",
 		cam_pos_dst = 21,
 	},
-	--not present in Title_lua d_unitname.lua
+	--not playable, has to be filtered out for ms_viewer by checking for stream_name = nil
 	{
 		code = "XX2", 
 		excode = "MS_XX2", 
@@ -510,7 +509,6 @@ D_UnitName = {
                 sub02_code = "WP_HR_",
 		only = false,
 		iconframe = 31,
-		stream_name = "msv029",
 		cam_pos_dst = 21,
 	},
 	{
@@ -547,7 +545,7 @@ D_UnitName = {
 		stream_name = "msv027",
 		cam_pos_dst = 21,
 	},
-	--commented out in Title_lua d_unitname.lua
+	--not playable, has to be filtered out for ms_viewer by checking for stream_name = nil
 	{
 		code = "FZC", 
 		excode = "MS_FZC", 
@@ -699,7 +697,7 @@ D_UnitName = {
 		stream_name = "msv030",
 		cam_pos_dst = 21,
 	},
-	--not present in Title_lua
+	--not playable, has to be filtered out for ms_viewer by checking for stream_name = nil
 	{
 		code = "XX0", 
 		excode = "MS_XX0", 
@@ -714,7 +712,6 @@ D_UnitName = {
                 sub02_code = "WP_HRB",
 		only = true,
 		iconframe = 32,
-		stream_name = "msv030",
 		cam_pos_dst = 21,
 	},
 	{
@@ -734,7 +731,7 @@ D_UnitName = {
 		stream_name = "msv028",
 		cam_pos_dst = 21,
 	},
-	--not present in Title_lua
+	--not playable, has to be filtered out for ms_viewer by checking for stream_name = nil
 	{
 		code = "XX1", 
 		excode = "MS_XX1", 
@@ -749,7 +746,6 @@ D_UnitName = {
                 sub02_code = "WP_MIL",
 		only = true,
 		iconframe = 30,
-		stream_name = "msv028",
 		cam_pos_dst = 21,
 	},
 	{
