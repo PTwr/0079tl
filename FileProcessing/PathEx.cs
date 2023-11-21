@@ -26,6 +26,8 @@
 
             var segments = wildcardPath.Split(allPathSeparators, StringSplitOptions.RemoveEmptyEntries);
 
+            //if (segments.Where(i=>segments))
+
             var path = "";
             List<string> directories = new List<string>();
 
@@ -35,10 +37,16 @@
                 path = root;
             }
 
+            bool wildcardBegan = false;
             //gather directories
             foreach (var segment in segments[0..^1])
             {
                 if (PathEx.IsWildcard(segment))
+                {
+                    wildcardBegan = true;
+                }
+
+                if (wildcardBegan)
                 {
                     if (!directories.Any())
                     {
@@ -49,10 +57,9 @@
                     else
                     {
                         directories = directories
-                            .Select(dir => Path.Join(dir, path))
                             .Where(dir => Directory.Exists(dir))
                             .SelectMany(dir => Directory
-                                .EnumerateDirectories(Path.Join(dir, path), segment, SearchOption.AllDirectories)
+                                .EnumerateDirectories(Path.Join(dir), segment, SearchOption.AllDirectories)
                             ).ToList();
                     }
                     path = "";
@@ -60,6 +67,7 @@
                 else
                 {
                     path = Path.Join(path, segment);
+                    directories = [path];
                 }
             }
 

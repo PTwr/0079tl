@@ -35,6 +35,7 @@ namespace Subtitles
     internal class Program
     {
         [DynamicDependency(DynamicallyAccessedMemberTypes.All, typeof(SubtitleGenerator))] //prevent codetrim, CLI uses reflections
+        [DynamicDependency(DynamicallyAccessedMemberTypes.All, typeof(SubtitleEntry))] //prevent codetrim, CLI uses reflections
         static void Main(string[] args)
         {
             Parser.Default.ParseArguments<SubtitleGenerator>(args)
