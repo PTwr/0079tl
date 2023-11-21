@@ -7,3 +7,4 @@ SetTextReplacer(descriptionTextSet , "descReplacer")
 Text_SetPos(descriptionTextSet[1].obj, 300, 300, -1)
 --set it as visible, mech switcher will just change it to empty string when needed
 Text_SetIsDisp(descriptionTextSet[1].obj, true)
+Text_SetShadow(descriptionTextSet[1].obj, true)
