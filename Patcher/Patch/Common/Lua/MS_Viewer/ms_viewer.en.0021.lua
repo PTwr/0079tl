@@ -88,7 +88,7 @@ the Far East front.
 It can use wide range of weaponry and can be used 
 for a variety of missions.
 ]],
-	["EZB"] = [[This heavily damaged land battle type Gundam was 
+	["EZ8"] = [[This heavily damaged land battle type Gundam was 
 extensively modified during field repairs.
 It was treated as a custom machine, as it  was 
 remade using what was available.
