@@ -299,3 +299,27 @@ end
 
 Snd_VoiceGetPlay( inst.voice ) looks to fetch currently played voice?
 try to put it coroutine and monitor?
+
+--ending
+moving around 3d objects:
+
+	Obj3d_SetPosXY(UseModel, 10,10) --TODO check if its relative or absolute?
+
+    Snd_GetPlay to get currently playing sound? unknown params/result
+
+
+    TODO try to display text from reticle, maybe it will stick during EVC?
+
+    Program.lua ProgmaMain seems to be main loop?
+    Program seems to call Degine
+    Degine also has Update() method
+
+    IsPlayVoice("exm01")
+
+    try to check for Snd_VoiceGetPlay("eve011") 12,13,14,15,16,17,18,19 in IEFANM Program.lua, then display matching text?
+    if it works, it would need to be optimized by prefiltering by mission Id.
+    Gather all played voices to look during battle if evc got detected?
+     
+     try to fuck around with GEV EVC calls, maybe there is some param to not hide UI?
+
+     1. display static text jsut to check if it works, then play through to see how it behaves in evc?

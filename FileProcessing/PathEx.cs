@@ -6,14 +6,14 @@
 
         public static string RemoveDuplicateSeparators(string path)
         {
-            foreach(var separator in allPathSeparators)
+            foreach (var separator in allPathSeparators)
             {
                 path = path.Replace(new string(separator, 2), separator.ToString());
             }
             return path;
         }
 
-        public static List<string> RecursiveSearch(string wildcardPath)
+        public static List<string> RecursiveSearch(string wildcardPath, string root = null)
         {
             if (File.Exists(wildcardPath))
             {
@@ -29,8 +29,14 @@
             var path = "";
             List<string> directories = new List<string>();
 
+            if (root != null)
+            {
+                //directories = [root];
+                path = root;
+            }
+
             //gather directories
-            foreach(var segment in segments[0..^1])
+            foreach (var segment in segments[0..^1])
             {
                 if (PathEx.IsWildcard(segment))
                 {
@@ -43,6 +49,8 @@
                     else
                     {
                         directories = directories
+                            .Select(dir => Path.Join(dir, path))
+                            .Where(dir => Directory.Exists(dir))
                             .SelectMany(dir => Directory
                                 .EnumerateDirectories(Path.Join(dir, path), segment, SearchOption.AllDirectories)
                             ).ToList();

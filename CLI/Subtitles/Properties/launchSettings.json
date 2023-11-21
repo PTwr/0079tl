@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Subtitles-0079": {
+      "commandName": "Project",
+      "commandLineArgs": "prepare --root C:/games/wii/0079/0079_jp/DATA/files --filter sound/*/ev?00?.brstm --output C:/games/wii/0079/placeholdersubs.json"
+    }
+  }
+}

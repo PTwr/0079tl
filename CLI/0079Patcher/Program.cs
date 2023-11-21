@@ -487,7 +487,7 @@ internal class Program
                 var patchfile = Path.Combine(patchDir, node.Path);
 
                 patchfile = patchfile.Replace(".lua", $".{languageCode}.lua");
-
+                            
                 if (File.Exists(patchfile)) //patch file
                 {
                     newData = File.ReadAllBytes(patchfile);

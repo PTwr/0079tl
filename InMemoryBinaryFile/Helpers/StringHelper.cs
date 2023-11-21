@@ -55,7 +55,8 @@ namespace InMemoryBinaryFile.Helpers
             Regex dbgprint = new Regex(@"Dbg_Print\(.*\)");
 
             var removedComments = blockComment.Replace(lua, string.Empty);
-            removedComments = inlineComment.Replace(removedComments, string.Empty);
+            //TODO fix this shit
+            //removedComments = inlineComment.Replace(removedComments, string.Empty);
             removedComments = dbgprint.Replace(removedComments, string.Empty);
 
             var lines = removedComments
