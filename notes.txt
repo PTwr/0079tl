@@ -323,3 +323,36 @@ moving around 3d objects:
      try to fuck around with GEV EVC calls, maybe there is some param to not hide UI?
 
      1. display static text jsut to check if it works, then play through to see how it behaves in evc?
+
+Pause_A
+
+degine.lua 
+ EnemyPoints.TextID	= "ENEMY" -> Id from XBF
+
+ DrawMapPoints( EnemyPoints, 	"EnemyMS" 	) -> EnemyMS is some const or variable name, EnemyPoints has xbf TextID and some style stuff
+ 
+ //methods located in Program.lua
+	CloseText( EnemyPoints, 	"EnemyMS" 	) hides point labels
+	ShowText( EnemyPoints, 		"EnemyMS" 	) shows point labels
+
+EVC
+
+
+//displays cutin related to Unit00/Unit01/Unit02
+    <ImgCutIn>Unit00</ImgCutIn>
+
+//plays voice from pilot voice group Player0/Player1/Friend0/Friend1 etc
+    <VoiceUnit>Friend1</VoiceUnit>
+    <Voice>115</Voice> //voice id, without group prefix
+
+    //static voice group call
+    <Voice>aln003</Voice>
+
+    //delay for n frames? or until nth frame?
+    <Frame type="f32">300</Frame>
+
+    //sound effect (storm)
+    <Place>STRM_1</Place>
+
+    //snow effect :D
+    <Snow type="f32">0</Snow>

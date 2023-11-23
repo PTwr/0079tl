@@ -89,17 +89,17 @@ namespace InMemoryBinaryFile.New.Serialization
                 else if (prop.PropertyType == typeof(string[]) && NullTerminatedStringAttribute != null)
                 {
                     var x = (string[])prop.GetValue(source)!;
-                    fieldBytes = x.SelectMany(s => s.ToBytes(encoding, true));
+                    fieldBytes = x.SelectMany(s => s.ToBytes(encoding, true).PadToAlignment(NullTerminatedStringAttribute.Alignment));
                 }
                 else if (prop.PropertyType == typeof(List<string>) && NullTerminatedStringAttribute != null)
                 {
                     var x = (List<string>)prop.GetValue(source)!;
-                    fieldBytes = x.SelectMany(s => s.ToBytes(encoding, true));
+                    fieldBytes = x.SelectMany(s => s.ToBytes(encoding, true).PadToAlignment(NullTerminatedStringAttribute.Alignment));
                 }
                 else if (prop.PropertyType == typeof(Dictionary<int, string>) && NullTerminatedStringAttribute != null)
                 {
                     var x = (Dictionary<int, string>)prop.GetValue(source)!;
-                    fieldBytes = x.SelectMany(s => s.Value.ToBytes(encoding, true));
+                    fieldBytes = x.SelectMany(s => s.Value.ToBytes(encoding, true).PadToAlignment(NullTerminatedStringAttribute.Alignment));
                 }
                 else if (prop.IsAssignableTo<IBinarySegment>())
                 {

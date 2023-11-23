@@ -20,10 +20,10 @@ namespace InMemoryBinaryFile.New
         TParent? Parent { get; }
     }
 
-    public abstract class BinarySegment<TParent> : IBinarySegment<TParent>
+    public abstract class _BaseBinarySegment<TParent> : IBinarySegment<TParent>
         where TParent : IBinarySegment
     {
-        public BinarySegment(TParent parent)
+        public _BaseBinarySegment(TParent parent)
         {
             Parent = parent;
         }

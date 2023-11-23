@@ -55,9 +55,12 @@ namespace InMemoryBinaryFile.Helpers
             EncodingInfo ei;
             encoding = null;
 
-            var all = Encoding.GetEncodings();
+            var all = Encoding.GetEncodings().Distinct();
 
-            var byDisplayName = all.ToDictionary(i => i.DisplayName, i => i, new EncodingStringComparer());
+            var byDisplayName = all
+                .GroupBy(x => x.DisplayName)
+                .Select(x => x.First())
+                .ToDictionary(i => i.DisplayName, i => i, new EncodingStringComparer());
             var byCodepage = all.ToDictionary(i => i.CodePage.ToString(), i => i, new EncodingStringComparer());
             var byName = all.ToDictionary(i => i.Name, i => i, new EncodingStringComparer());
 

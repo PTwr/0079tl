@@ -28,11 +28,11 @@ namespace InMemoryBinaryFile.Helpers
         {
             return encoding.GetString(buffer);
         }
-        public static List<string> ToDecodedNullTerminatedStrings(this Span<byte> buffer, Encoding encoding, int? count = null)
+        public static List<string> ToDecodedNullTerminatedStrings(this Span<byte> buffer, Encoding encoding, int? count = null, int alignment = 1)
         {
-            return buffer.ToDecodedNullTerminatedStringDict(encoding, count).Values.ToList();
+            return buffer.ToDecodedNullTerminatedStringDict(encoding, count, alignment).Values.ToList();
         }
-        public static Dictionary<int, string> ToDecodedNullTerminatedStringDict(this Span<byte> buffer, Encoding encoding, int? count = null)
+        public static Dictionary<int, string> ToDecodedNullTerminatedStringDict(this Span<byte> buffer, Encoding encoding, int? count = null, int alignment = 1)
         {
             Dictionary<int, string> result = new();
             for (int start = 0; start < buffer.Length;)
@@ -44,6 +44,9 @@ namespace InMemoryBinaryFile.Helpers
                 result[start] = ss;
 
                 start += s.Length + 1;
+
+                //TODO eewwww old copy&paste, rewrite!
+                start = (int)(Math.Ceiling(1.0 * start / alignment) * alignment);
 
                 if (count.HasValue && result.Count >= count)
                 {

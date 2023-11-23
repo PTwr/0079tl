@@ -4,7 +4,7 @@ using InMemoryBinaryFile.New.Attributes;
 namespace XBFLib.New
 {
     [BinarySegment(HeaderOffset = 0, BodyOffset = 0, Length = 4)]
-    public class TreeNode : BinarySegment<XbfFile>
+    public class TreeNode : _BaseBinarySegment<XbfFile>
     {
         public TreeNode(XbfFile parent) : base(parent)
         {

@@ -18,6 +18,7 @@ namespace Tests
         string u8testfile = @"C:\games\wii\0079\0079_jp\DATA\files\_2d\Briefing\BR_AA01.arc";
         string u8testfiledirectories = @"C:\games\wii\0079\0079_jp\DATA\files\hbm\homeBtn.arc";
         string testfile = @"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Title\Title_text.arc\arc\MAIN_MENU.arc\arc\BlockText.xbf";
+
         [Fact]
         public void HeaderTest()
         {

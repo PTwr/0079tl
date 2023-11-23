@@ -74,6 +74,12 @@ namespace InMemoryBinaryFile.New.Serialization
                         BinaryPrimitives.ReadUInt16LittleEndian(slice) :
                         BinaryPrimitives.ReadUInt16BigEndian(slice);
                 }
+                else if (prop.PropertyType == typeof(ushort))
+                {
+                    newValue = BinaryFieldAttribute.LittleEndian ?
+                        BinaryPrimitives.ReadUInt16LittleEndian(slice) :
+                        BinaryPrimitives.ReadUInt16BigEndian(slice);
+                }
                 else if (prop.PropertyType == typeof(short))
                 {
                     newValue = BinaryFieldAttribute.LittleEndian ?
@@ -107,18 +113,18 @@ namespace InMemoryBinaryFile.New.Serialization
                 else if (prop.PropertyType == typeof(string[]) && NullTerminatedStringAttribute != null)
                 {
                     newValue = slice
-                        .ToDecodedNullTerminatedStrings(encoding, count < 0 ? null : count)
+                        .ToDecodedNullTerminatedStrings(encoding, count < 0 ? null : count, NullTerminatedStringAttribute.Alignment)
                         .ToArray();
                 }
                 else if (prop.PropertyType == typeof(List<string>) && NullTerminatedStringAttribute != null)
                 {
                     newValue = slice
-                        .ToDecodedNullTerminatedStrings(encoding, count < 0 ? null : count);
+                        .ToDecodedNullTerminatedStrings(encoding, count < 0 ? null : count, NullTerminatedStringAttribute.Alignment);
                 }
                 else if (prop.PropertyType == typeof(Dictionary<int, string>) && NullTerminatedStringAttribute != null)
                 {
                     newValue = slice
-                        .ToDecodedNullTerminatedStringDict(encoding, count < 0 ? null : count);
+                        .ToDecodedNullTerminatedStringDict(encoding, count < 0 ? null : count, NullTerminatedStringAttribute.Alignment);
                 }
                 else if (prop.IsAssignableTo<IBinarySegment>())
                 {

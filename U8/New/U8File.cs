@@ -123,7 +123,7 @@ namespace U8.New
     }
 
     [BinarySegmentAttribute(Length = 12)]
-    public class U8Node : InMemoryBinaryFile.New.BinarySegment<IBinarySegment>
+    public class U8Node : InMemoryBinaryFile.New._BaseBinarySegment<IBinarySegment>
     {
         public U8Node(IBinarySegment parent) : base(parent)
         {
