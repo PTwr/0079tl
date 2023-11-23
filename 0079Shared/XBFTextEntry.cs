@@ -7,6 +7,16 @@ namespace _0079Shared
         [JsonIgnore]
         public string Source { get; set; }
 
+        public double LineSplit { get; set; }
+        public List<string> Split()
+        {
+            return Lines
+                .Select((s, n) => (s, n))
+                .GroupBy(x => (int)(x.Item2 / LineSplit)) //group into sequential chunks
+                .Select(x => string.Join("\n", x.Select(y => y.s)))
+                .ToList();
+        }
+
         public string ID { get; set; }
         public string Text { get; set; }
         public string[] Lines { get; set; }

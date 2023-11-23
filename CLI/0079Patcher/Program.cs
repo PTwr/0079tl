@@ -265,6 +265,15 @@ internal class Program
             Directory.Delete(outputDir, true);
         }
 
+        //free flaoting xbf
+        //TODO rewrite into reusable module
+        //var hacked = @"C:\Users\LordOfTheSkrzynka\Documents\Dolphin Emulator\Load\Riivolution\parameter\result_param.xbf.en.xml";
+        //Directory.CreateDirectory(@"C:\Users\LordOfTheSkrzynka\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\parameter");
+        //var hhh = @"C:\Users\LordOfTheSkrzynka\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\parameter\result_param.xbf";
+        //var xbfh = new XbfFile(File.ReadAllText(hacked));
+        //var bbb = Serializer.Serialize(xbfh);
+        //File.WriteAllBytes(hhh, bbb.ToArray());
+
         //get global dicts first
         Dictionary<string, XBFTextEntry> globaldict = GetTLDict(Path.Combine(patchDir, UniqueDir), languageCode);
 
@@ -332,11 +341,7 @@ internal class Program
     const string UniqueDir = "Unique";
     private static bool UpdateU8Root(U8RootSegment root, string patchDir, string commonDir, string inputDir, string languageCode, List<Dictionary<string, XBFTextEntry>> dicts)
     {
-        dicts = new List<Dictionary<string, XBFTextEntry>>(dicts) //clone list
-        {
-            //append new dict
-            GetTLDict(patchDir, languageCode)
-        };
+        dicts = [.. dicts, GetTLDict(patchDir, languageCode)];
 
         bool updated = false;
         int offsetChange = 0;
@@ -397,12 +402,12 @@ internal class Program
 
                 if (xmlenpath.Contains("BlockText.xbf"))
                 {
-
+                    var textNode = doc.SelectSingleNode("/Texts");
                     var blocks = doc.SelectNodes("/Texts/Block");
                     foreach (XmlElement block in blocks)
                     {
                         var id = block.SelectSingleNode("ID").InnerText;
-                        var text = block.SelectSingleNode("Text").InnerText;
+                        //var text = block.SelectSingleNode("Text").InnerText;
 
                         //from newest dict to oldest
                         foreach (var dict in dicts.AsQueryable().Reverse())
@@ -410,6 +415,19 @@ internal class Program
                             if (dict.TryGetValue(id, out var tl))
                             {
                                 block.SelectSingleNode("Text").InnerText = tl.ToString();
+
+                                if (tl.LineSplit > 0)
+                                {
+                                    var lines = tl.Split();
+                                    for (int n = 0; n < lines.Count; n++)
+                                    {
+                                        var clone = block.Clone();
+                                        clone.SelectSingleNode("ID").InnerText = $"{clone.SelectSingleNode("ID").InnerText}-{n}";
+                                        clone.SelectSingleNode("Text").InnerText = lines[n];
+                                        textNode.AppendChild(clone);
+                                    }
+                                }
+
                                 //dont look in parent dict if TL was found
                                 break;
                             }
@@ -418,10 +436,11 @@ internal class Program
                 }
                 if (xmlenpath.Contains("StringGroup.xbf"))
                 {
+                    var group = doc.SelectSingleNode("/StringGroup");
                     var strs = doc.SelectNodes("/StringGroup/String");
                     foreach (XmlElement str in strs)
                     {
-                        var id = str.SelectSingleNode("Code");
+                        var id = str.SelectSingleNode("Code").InnerText;
                         var tabspace = str.SelectSingleNode("TabSpace");
                         var size = str.SelectSingleNode("Size");
                         var positionFlag = str.SelectSingleNode("PositionFlag");
@@ -429,37 +448,34 @@ internal class Program
                         //from newest dict to oldest
                         foreach (var dict in dicts.AsQueryable().Reverse())
                         {
-                            if (dict.TryGetValue(id.InnerText, out var tl))
+                            if (dict.TryGetValue(id, out var tl))
                             {
                                 if (!string.IsNullOrWhiteSpace(tl.TabSpace))
                                 {
                                     tabspace.InnerText = tl.TabSpace;
-                                    break;
                                 }
-                            }
-                        }
-                        //from newest dict to oldest
-                        foreach (var dict in dicts.AsQueryable().Reverse())
-                        {
-                            if (dict.TryGetValue(id.InnerText, out var tl))
-                            {
                                 if (!string.IsNullOrWhiteSpace(tl.Size))
                                 {
                                     size.InnerText = tl.Size;
-                                    break;
                                 }
-                            }
-                        }
-                        //from newest dict to oldest
-                        foreach (var dict in dicts.AsQueryable().Reverse())
-                        {
-                            if (dict.TryGetValue(id.InnerText, out var tl))
-                            {
                                 if (!string.IsNullOrWhiteSpace(tl.TabSpace))
                                 {
                                     positionFlag.InnerText = tl.PositionFlag;
-                                    break;
                                 }
+
+
+                                if (tl.LineSplit > 0)
+                                {
+                                    var lines = tl.Split();
+                                    for (int n = 0; n < lines.Count; n++)
+                                    {
+                                        var clone = str.Clone();
+                                        clone.SelectSingleNode("Code").InnerText = $"{clone.SelectSingleNode("Code").InnerText}-{n}";
+                                        clone.SelectSingleNode("ID").InnerText = $"{clone.SelectSingleNode("ID").InnerText}-{n}";
+                                        group.AppendChild(clone);
+                                    }
+                                }
+                                break;
                             }
                         }
                     }
@@ -487,10 +503,11 @@ internal class Program
                 var patchfile = Path.Combine(patchDir, node.Path);
 
                 patchfile = patchfile.Replace(".lua", $".{languageCode}.lua");
-                            
+
                 if (File.Exists(patchfile)) //patch file
                 {
-                    newData = File.ReadAllBytes(patchfile);
+                    var txt = File.ReadAllText(patchfile);
+                    newData = txt.ToBytes(encoding);
                 }
                 else
                 {
@@ -503,7 +520,8 @@ internal class Program
 
                     if (File.Exists(commonfile))
                     {
-                        newData = File.ReadAllBytes(commonfile);
+                        var txt = File.ReadAllText(commonfile);
+                        newData = txt.ToBytes(encoding);
                         patchfile = commonfile;
                     }
                 }
@@ -527,9 +545,20 @@ internal class Program
                             .Split(["\r\n", "\r", "\n"], StringSplitOptions.None)
                             .ToList();
 
-                        foreach (var insert in insertsFiles)
+                        foreach (var insert in insertsFiles.Where(i => i.line > 0))
                         {
                             lines.Insert(insert.line - 1, insert.text);
+                        }
+                        foreach (var insert in insertsFiles.Where(i => i.line < 0))
+                        {
+                            var replacementLines = insert.text
+                                .Split(["\r\n", "\r", "\n"], StringSplitOptions.None);
+
+                            var start = Math.Abs(insert.line) - 1;
+                            for (int i = 0; i < replacementLines.Length; i++)
+                            {
+                                lines[start+i] = replacementLines[i];
+                            }
                         }
 
                         var moddedText = string.Join(Environment.NewLine, lines);
@@ -543,7 +572,9 @@ internal class Program
                     //try to match patch file length
                     if (newData.Length > node.BinaryData.Length)
                     {
+                        var oldText = node.BinaryData.AsSpan().ToDecodedString(encoding);
                         //dictionaries are in utf8, rest seem to be in shiftjis
+
                         var dataReadAsText = newData.AsSpan().ToDecodedString(encoding);
 
                         var trimmedscript = dataReadAsText.MinifyLua();
