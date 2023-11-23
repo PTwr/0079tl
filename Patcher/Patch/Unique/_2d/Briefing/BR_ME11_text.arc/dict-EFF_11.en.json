@@ -116,7 +116,7 @@
     "Text": null,
     "Lines": [
       "Medea Transport carrying supplies went missing",
-      "in valley of Area 526."
+      "in canoyon of Area 526."
     ],
     "TabSpace": null,
     "Size": null
@@ -155,8 +155,8 @@
     "ID": "BR_INFO_D_01",
     "Text": null,
     "Lines": [
-      "Assuming worst, SRT-1 is to search the valluy",
-      "for Medea Transport."
+      "Assuming worst, SRT-1 is to search the",
+      "canyon for Medea Transport."
     ],
     "TabSpace": null,
     "Size": null

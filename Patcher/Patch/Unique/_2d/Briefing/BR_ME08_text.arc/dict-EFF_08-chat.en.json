@@ -2,8 +2,9 @@
   {
     "ID": "eve149",
     "Text": null,
+    "_": "arctic? siberia?",
     "Lines": [
-      "というわけで、次の戦地は北の外れの雪原だね。"
+      "So our next battleground is snowfield in northern periphery."
     ],
     "DeepL_mtl": [
       "So the next battleground is the snowfield on the outskirts of the north."
@@ -15,7 +16,7 @@
     "ID": "eve150",
     "Text": null,
     "Lines": [
-      "うぅ…。　わたし寒いの苦手です～。"
+      "Ugh... I don't like cold weather."
     ],
     "DeepL_mtl": [
       "Ugh...",
@@ -28,8 +29,8 @@
     "ID": "eve151",
     "Text": null,
     "Lines": [
-      "女の子は冷え性だからなぁ。",
-      "いつでも俺が暖めてやるよ？"
+      "Girls are sensitive to cold.",
+      "I'll warm you up whenever you want, okay?"
     ],
     "DeepL_mtl": [
       "The girls are cold.",
@@ -41,8 +42,9 @@
   {
     "ID": "eve152",
     "Text": null,
+    "_": "just girls complaining about creep. Basically an 'Ewwww!'",
     "Lines": [
-      "最低ね。"
+      "You suck."
     ],
     "DeepL_mtl": [
       "That sucks."
@@ -53,8 +55,9 @@
   {
     "ID": "eve153",
     "Text": null,
+    "_": "just girls complaining about creep. Basically an 'Ewwww!'",
     "Lines": [
-      "最低です。"
+      "Disgusting."
     ],
     "DeepL_mtl": [
       "Worst."
@@ -66,8 +69,8 @@
     "ID": "eve154",
     "Text": null,
     "Lines": [
-      "わ、悪かったって…。",
-      "そんな冷めたリアクションするなよ…。"
+      "Wow, I'm sorry...",
+      "Don't react so coldly...."
     ],
     "DeepL_mtl": [
       "I'm sorry...",
@@ -80,7 +83,7 @@
     "ID": "eve155",
     "Text": null,
     "Lines": [
-      "ま、まぁ、MSも指揮所も暖房は効くから…。"
+      "Well, well, the MS and the command center are both heated..."
     ],
     "DeepL_mtl": [
       "Well, well, both the MS and the command center are heated..."
@@ -91,8 +94,9 @@
   {
     "ID": "eve156",
     "Text": null,
+    "_": "just some whining?",
     "Lines": [
-      "でも、寒いものは寒いです～。"
+      "But it is still cold!"
     ],
     "DeepL_mtl": [
       "But cold things are cold!"
@@ -104,8 +108,9 @@
     "ID": "eve157",
     "Text": null,
     "Lines": [
-      "オーガスタの技研でも、MS戦闘における最大の敵は、",
-      "苛酷な自然環境だって、技術屋さんが泣いてたわね…。"
+      "Even at the Augusta Technical Research Institute,",
+      "the engineers complained that MS biggest enemy",
+      "is the harsh natural environment..."
     ],
     "DeepL_mtl": [
       "Even in Augusta's technical institute, the engineers cried that the biggest enemy in MS combat is the harsh natural environment...."
@@ -117,7 +122,7 @@
     "ID": "eve158",
     "Text": null,
     "Lines": [
-      "寒冷地は、ある意味砂漠より怖いからね…。"
+      "In some ways, arctic is scarier than desert..."
     ],
     "DeepL_mtl": [
       "Cold weather is scarier than deserts in some ways...."
@@ -128,9 +133,10 @@
   {
     "ID": "eve159",
     "Text": null,
+    "_": "machine trouble/malfnction? battle damage? Or just disabled, like in 8th MS team cold snowy episode",
     "Lines": [
-      "マシントラブルで暖房が止まったら、凍死しちまうよなぁ。",
-      "ハッハッハ…。"
+      "If heating stops from machine malfunction",
+      "I'll freeze to death. Hahaha..."
     ],
     "DeepL_mtl": [
       "If the heating stops due to machine trouble, I'll freeze to death.",
@@ -143,9 +149,9 @@
     "ID": "eve160",
     "Text": null,
     "Lines": [
-      "うぅ…、そうなったら、デニスさんに人力発電してもらいます",
-      "からね。　えーっと、予備の発電機と自転車とムチ…",
-      "あと、足かせはどこにあったかなぁ…。"
+      "Uh... if that happens, I'll have Dennis generate ",
+      "some power manually. Well, I have a spare generator,",
+      "a bicycle, a whip... I wonder where the shackles were..."
     ],
     "DeepL_mtl": [
       "Ummm....if that happens, I'll have Mr. Dennis generate the human power.",
@@ -157,8 +163,9 @@
   {
     "ID": "eve161",
     "Text": null,
+    "_": "looking at me? lookign for it (whip)?",
     "Lines": [
-      "ほ、ホアさん…、本気で探すのはやめて下さい。"
+      "Hey, Hoa...please stop looking at me like that."
     ],
     "DeepL_mtl": [
       "Ho, Hoa-san..., please don't really look for it."
@@ -170,8 +177,8 @@
     "ID": "eve162",
     "Text": null,
     "Lines": [
-      "はいはい。　そろそろ行くよ。",
-      "ユニット1、出撃準備！"
+      "Yes, yes. It's time to go.",
+      "Unit 1, heading out!"
     ],
     "DeepL_mtl": [
       "Yes, yes, yes.",

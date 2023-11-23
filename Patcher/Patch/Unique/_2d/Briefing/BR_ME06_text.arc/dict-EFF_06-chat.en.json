@@ -2,9 +2,10 @@
   {
     "ID": "eve131",
     "Text": null,
+    "_": "being sent on a mission right away -> can't get a break",
     "Lines": [
-      "ふぅ、オデッサ作戦に勝利したってのに、ご褒美どころか",
-      "代役の任務を仰せつかりました～。"
+      "Ehh... even though we completed Operation Odessa",
+      "we just can't get a break..."
     ],
     "DeepL_mtl": [
       "I've been asked to take over for him instead of being rewarded for winning the Odessa operation."
@@ -16,7 +17,8 @@
     "ID": "eve132",
     "Text": null,
     "Lines": [
-      "さすがに、こう続けての出撃はキツイなぁ…。"
+      "It's tough being sent on missions like this",
+      "one after another"
     ],
     "DeepL_mtl": [
       "As expected, it's hard to go out like this continuously..."
@@ -28,7 +30,7 @@
     "ID": "eve133",
     "Text": null,
     "Lines": [
-      "この前の戦いでは、リルちゃんがやらかしてくれたからなぁ。"
+      "Oy, Lilly, you made it tought on us last time, you know."
     ],
     "DeepL_mtl": [
       "Lil' Lil' did me in the last battle, you know."
@@ -40,7 +42,7 @@
     "ID": "eve134",
     "Text": null,
     "Lines": [
-      "うぅ…。　悪かったわよ…、ホントに。"
+      "Ugh...　I'm sorry... really."
     ],
     "DeepL_mtl": [
       "Ugh...",
@@ -52,10 +54,11 @@
   {
     "ID": "eve135",
     "Text": null,
+    "_": "Dennis? Mr Dennis? Dennis-san?",
     "Lines": [
-      "デニスさん、もうそのことはいいじゃないですか。",
-      "本人も反省してますし。",
-      "もう一度やったら、その時は…ね？"
+      "Dennis, you don't have to mention that again.",
+      "She's reflecting on her mistakes.",
+      "You won't do that again... right?"
     ],
     "DeepL_mtl": [
       "Mr. Dennis, you don't have to talk about that anymore.",
@@ -69,7 +72,7 @@
     "ID": "eve136",
     "Text": null,
     "Lines": [
-      "ぜ、ぜったい二度といたしませんっっ！！"
+      "I'll never do it again! !"
     ],
     "DeepL_mtl": [
       "I will never do it again!"
@@ -81,8 +84,8 @@
     "ID": "eve137",
     "Text": null,
     "Lines": [
-      "まぁまぁ、みんな。",
-      "リルも聞き分けの良い子になったから、そのくらいでね。"
+      "Well, well, well.",
+      "Lilly has started to listen, so lets end it at it."
     ],
     "DeepL_mtl": [
       "Well, well, well, guys.",
@@ -94,9 +97,10 @@
   {
     "ID": "eve138",
     "Text": null,
+    "_": "complaining about last mission? next mission? or about current berating?",
     "Lines": [
-      "あぁ…、この連中ならこうなることは予測できたはずなのに…。",
-      "し、死にたい…。"
+      "Ahhh...I should have seen this coming...",
+      "Ugh... kill me..."
     ],
     "DeepL_mtl": [
       "Ahhh......these guys should have seen this coming....",
@@ -109,8 +113,9 @@
     "ID": "eve139",
     "Text": null,
     "Lines": [
-      "しかしまぁ、今後はMS隊が主力として扱われるようになっていく",
-      "から、新設部隊の練度が安定するまでは、一層忙しくなるぞ。"
+      "However, from now on the MS teams will act as main force",
+      "so we'll be even busier until new teams complete",
+      "their training."
     ],
     "DeepL_mtl": [
       "But, well, since the MS units will be treated as the main force from now on, they will be even busier until the level of training of the newly established units is stabilized."
@@ -122,8 +127,9 @@
     "ID": "eve140",
     "Text": null,
     "Lines": [
-      "そうだね。",
-      "それに、敗走する部隊への追撃や掃討が主な任務になる…。"
+      "Yes, so it is.",
+      "In addition, main mission will be pursuit and mop up",
+      "of retreating Zeon forces..."
     ],
     "DeepL_mtl": [
       "Yes, it is.",
@@ -136,9 +142,9 @@
     "ID": "eve141",
     "Text": null,
     "Lines": [
-      "スコア稼ぎのチャンス！",
-      "…なんて楽観は、とてもできないわね。",
-      "弱い者イジメみたいで、気分良くない…。"
+      "A chance to score!",
+      "...but it doesn't feel good.",
+      "It feels like bullying the weak..."
     ],
     "DeepL_mtl": [
       "A chance to score! ...I can't say I'm very optimistic.",
@@ -151,9 +157,9 @@
     "ID": "eve142",
     "Text": null,
     "Lines": [
-      "それでも僕らは兵士だ。",
-      "敗走する部隊は、各地に戦火を撒き散らす…。",
-      "野放しにすれば、民間人に被害が及ぶからね。"
+      "Still, we are soldiers. Defeated troops will spread",
+      "the flames of war throughout the region...",
+      "If left unchecked, civilians will be harmed."
     ],
     "DeepL_mtl": [
       "Still, we are soldiers.",
@@ -167,7 +173,7 @@
     "ID": "eve143",
     "Text": null,
     "Lines": [
-      "そんなこと、絶対に許せないです。"
+      "I'll never allow that to happen."
     ],
     "DeepL_mtl": [
       "I would never allow such a thing to happen."
@@ -179,8 +185,8 @@
     "ID": "eve144",
     "Text": null,
     "Lines": [
-      "うん。　さて、それじゃ、そろそろ行くよ。",
-      "ユニット1、出撃準備！"
+      "Yeah. Well then, its time to go.",
+      "Unit 1, prepare for deployment!"
     ],
     "DeepL_mtl": [
       "Yeah.",

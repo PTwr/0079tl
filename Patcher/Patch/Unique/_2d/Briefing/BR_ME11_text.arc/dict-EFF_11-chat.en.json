@@ -3,7 +3,7 @@
     "ID": "eve568",
     "Text": null,
     "Lines": [
-      "僕たちはこれより、エリア526の渓谷に向かう。"
+      "We are now heading to the canyons of Area 526."
     ],
     "DeepL_mtl": [
       "We will now head for the canyon in area 526."
@@ -15,7 +15,7 @@
     "ID": "eve569",
     "Text": null,
     "Lines": [
-      "遭難した輸送機の捜索かぁ。"
+      "Searching for a lost transport plane, huh?"
     ],
     "DeepL_mtl": [
       "Searching for a lost transport plane, huh?"
@@ -26,9 +26,11 @@
   {
     "ID": "eve570",
     "Text": null,
+    "_": "since they send us so suddenly?",
+    "__": "to seend them at such risk?",
     "Lines": [
-      "こんな無茶をして行かせるくらいだから、よっぽど重要な物資を",
-      "積載していたんだろうな。"
+      "They must have been loaded with very important",
+      "supplies to send them in such a reckless manner."
     ],
     "DeepL_mtl": [
       "It must have been loaded with very important supplies to make it go this recklessly."
@@ -40,7 +42,7 @@
     "ID": "eve571",
     "Text": null,
     "Lines": [
-      "なんだろう…？　新型のMSとかかな？"
+      "I wonder what it is...? Maybe a new MS model?"
     ],
     "DeepL_mtl": [
       "I wonder...?　Is it a new type of MS or something?"
@@ -52,9 +54,9 @@
     "ID": "eve572",
     "Text": null,
     "Lines": [
-      "詳細は機密だそうですよ。",
-      "それより、到着予定時刻からすると、現場は濃霧に包まれている",
-      "頃だと思います。　視界が悪いのは厳しいですね。"
+      "They say the details are confidential. More importantly,",
+      "based on the estimated time of arrival, mission site",
+      "will shrouded in thick fog. The visibility will be tough."
     ],
     "DeepL_mtl": [
       "They say the details are confidential.",
@@ -68,9 +70,9 @@
     "ID": "eve573",
     "Text": null,
     "Lines": [
-      "そうだね。",
-      "それに、墜落自体が敵の攻撃によるものなら、鉢合わせになる",
-      "可能性もあるから、十分注意していこう。"
+      "So it seems.",
+      "Also, if the crash itself was due to enemy attack",
+      "we might run into them. Let's be careful."
     ],
     "DeepL_mtl": [
       "Yes, it is.",
@@ -83,7 +85,7 @@
     "ID": "aln161",
     "Text": null,
     "Lines": [
-      "では、各員、出撃準備！"
+      "Well then. Everyone, prepare for mission!"
     ],
     "DeepL_mtl": [
       "Then, each of you, prepare to go out!"

@@ -3,7 +3,8 @@
     "ID": "eve546",
     "Text": null,
     "Lines": [
-      "建造物が密集した市街地での戦闘は、初になるね。"
+      "This will be our first battle in such",
+      "densly built urban area."
     ],
     "DeepL_mtl": [
       "This is the first time I've seen a battle in a densely built-up urban area."
@@ -15,8 +16,9 @@
     "ID": "eve547",
     "Text": null,
     "Lines": [
-      "人はいませんが、街はほぼ原形をとどめているようです。",
-      "ビルを遮蔽物にして、うまく戦う必要がありそうですね。"
+      "Although there are no people, the town seems to ",
+      "have remained almost in its original form.",
+      "We'll have to use the building as cover during fight."
     ],
     "DeepL_mtl": [
       "There are no people, but the town seems to have retained most of its original form.",
@@ -29,8 +31,8 @@
     "ID": "eve548",
     "Text": null,
     "Lines": [
-      "行動が制限されるフィールドでは、戦車でさえ",
-      "結構な脅威になるな。"
+      "Even a tank can be quite a threat in a area",
+      "where movement is restricted."
     ],
     "DeepL_mtl": [
       "In a field where action is restricted, even tanks are a pretty good threat."
@@ -42,8 +44,8 @@
     "ID": "eve549",
     "Text": null,
     "Lines": [
-      "MSは機動戦がウリなのに、それが生かせないなら、",
-      "ただの大きな的だもんね。"
+      "Mobile warfare is what MS excels at.",
+      "Take that away, and its just a big target."
     ],
     "DeepL_mtl": [
       "MSs are all about maneuverability, and if you can't take advantage of that, you're just a big target, aren't you?"
@@ -55,9 +57,9 @@
     "ID": "eve550",
     "Text": null,
     "Lines": [
-      "防衛目標のガンタンクだけど、かなり広域に配置されてるから、",
-      "僕らの管轄区域からすると、二手に分かれないとフォローでき",
-      "ないね。　リルとデニスで組んでもらって、僕は単独行動だな。"
+      "We are here to defend Gun Tanks, but they are spread all over",
+      "our assigned area. We will have to split in two groups to cover ",
+      "them. Lilly, you and Dennis will be one group, I'll go alone."
     ],
     "DeepL_mtl": [
       "The gun tanks are defensive targets, but they are deployed over a fairly wide area, so from our jurisdiction, we have to split up to follow them.",
@@ -70,8 +72,8 @@
     "ID": "eve551",
     "Text": null,
     "Lines": [
-      "俺が単独でも構わないが…。",
-      "いや、隊長のほうが適任だろうな。"
+      "I don't mind if I'm alone...",
+      "No, I think the captain would be more suitable."
     ],
     "DeepL_mtl": [
       "I don't mind if I go it alone...",
@@ -83,8 +85,9 @@
   {
     "ID": "eve552",
     "Text": null,
+    "_": "check voice tone, it might be bitchy 'Ill allow you'",
     "Lines": [
-      "そうさせてもらうよ。"
+      "I'll let you do that."
     ],
     "DeepL_mtl": [
       "I'll let you do that."
@@ -96,8 +99,8 @@
     "ID": "eve553",
     "Text": null,
     "Lines": [
-      "じゃあ、そろそろ行くよ。",
-      "ユニット1、出撃準備！"
+      "Well, I'd better get going.",
+      "Unit 1, prepare to launch!"
     ],
     "DeepL_mtl": [
       "Well, I'd better get going.",

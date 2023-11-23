@@ -3,8 +3,9 @@
     "ID": "eve177",
     "Text": null,
     "Lines": [
-      "知っての通り、ベルファスト基地は連邦軍の重要拠点の1つだ。",
-      "今回はあまり余裕が無いから、準備が出来次第すぐに向かう。"
+      "Belfast Base is one of most important Federal bases.",
+      "We don't have much time to spare, so let's head out",
+      "there as soon as we're ready."
     ],
     "DeepL_mtl": [
       "As you know, the Belfast base is one of the most important bases for the federal army.",
@@ -16,9 +17,9 @@
   {
     "ID": "eve178",
     "Text": null,
+    "_": "just making fun of Alan? Or of enemy?",
     "Lines": [
-      "ここまでなりふり構わずの行動をとられると、",
-      "気の毒にさえ思えるわね。"
+      "I almost feel sorry for them when they act so carelessly."
     ],
     "DeepL_mtl": [
       "I even feel sorry for them when they act so impersonally."
@@ -30,9 +31,9 @@
     "ID": "eve179",
     "Text": null,
     "Lines": [
-      "俺には、地道な情報収集の上で勝機を見出したからこその",
-      "行動に思えるがな…。　連邦の前線部隊全体に、浮かれムードが",
-      "あるのを見透かしての襲撃だろ？"
+      "I think they are acting on an opportunity after",
+      "diligently gathering information. Our troops are",
+      "excited and distracted all around the frontline."
     ],
     "DeepL_mtl": [
       "To me, it seems to me that they are doing what they are doing because they saw a chance to win after diligent information gathering...",
@@ -45,8 +46,9 @@
     "ID": "eve180",
     "Text": null,
     "Lines": [
-      "う…。　た、確かにオデッサの勝利で優勢になったからって、",
-      "浮かれてる人たち多いよね。"
+      "Uh... I-I'm sure there are a lot of people who ",
+      "are excited because Odessa's victory gave",
+      "us the upper hand."
     ],
     "DeepL_mtl": [
       "Umm....",
@@ -58,9 +60,10 @@
   {
     "ID": "eve181",
     "Text": null,
+    "_": "finally a fair fight?",
     "Lines": [
-      "ビンソン計画によって宇宙艦隊の再建が終わり、宇宙への反撃が",
-      "開始されたところで、ようやく対等になると思うべきだろうね。"
+      "Now that Space Fleet has been rebuilt and launched",
+      "under Vinson's project we'll finally be on equal footing."
     ],
     "DeepL_mtl": [
       "I should think that once the rebuilding of the space fleet is finished by the Vinson Project and the counterattack into space is launched, we will finally be on equal footing."
@@ -72,8 +75,8 @@
     "ID": "eve182",
     "Text": null,
     "Lines": [
-      "と、議論は後で。",
-      "ユニット1、出撃だ！"
+      "We'll discuss it later.",
+      "Unit 1, "
     ],
     "DeepL_mtl": [
       "And the discussion will come later.",

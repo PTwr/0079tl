@@ -10,8 +10,7 @@
   {
     "ID": "OPERATION_LOSS_CONTENT",
     "Lines": [
-      "Destruction of your MS.",
-      "Destruction of Medea.",
+      "Destruction of your MS or Medea.",
       "Gau Carrier escape."
     ]
   },
@@ -29,7 +28,8 @@
   },
   {
     "ID": "BR_DATA_A_02",
-    "Text": "Operation completed"
+    "Text": "Operation completed",
+    "Size": 0.6
   },
   {
     "ID": "BR_DATA_B_01",
@@ -37,7 +37,8 @@
   },
   {
     "ID": "BR_DATA_B_02",
-    "Text": "Retreating enemy"
+    "Text": "Retreating enemy",
+    "Size": 0.8
   },
   {
     "ID": "BR_DATA_C_01",
@@ -83,7 +84,7 @@
   {
     "ID": "BR_INFO_C_01",
     "Lines": [
-      "Gau Carrie is in the lead, followed",
+      "Gau Carrier is in the lead, followed",
       "by ground forces and Gallop landship."
     ]
   },
@@ -98,14 +99,14 @@
     "ID": "BR_INFO_D_01",
     "Lines": [
       "After shooting down Gau Carrier,",
-      "Mideo will be available for extraction.",
-      "Destroy as much enemy forces as possible."
+      "Midea will be available for extraction.",
+      "Destroy as many enemy forces as possible."
     ]
   },
   {
     "ID": "BR_INFO_D_02",
     "Lines": [
-      "Don't chase too far.'",
+      "But don't chase too far.",
       "Well then, I wish you good luck!"
     ]
   }

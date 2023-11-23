@@ -3,9 +3,9 @@
     "ID": "eve192",
     "Text": null,
     "Lines": [
-      "緊急事態だ！",
-      "ジオンの大部隊が、このジャブローに迫っている。",
-      "僕たちも地上に出て迎撃。　基地施設の防衛にあたるぞ！"
+      "It's an emergency! Large Zeon force is",
+      "approaching Jaburo. We'll intercept enemies",
+      "on surface while defending base facilities!"
     ],
     "DeepL_mtl": [
       "It's an emergency! A large force of Zeon is approaching here in Jaburo.",
@@ -19,7 +19,7 @@
     "ID": "eve193",
     "Text": null,
     "Lines": [
-      "最後の大勝負をしかけてきたってわけね…。"
+      "So that's their last gamble..."
     ],
     "DeepL_mtl": [
       "So they are playing the last big game...."
@@ -31,8 +31,8 @@
     "ID": "eve194",
     "Text": null,
     "Lines": [
-      "くそ、まさかジャブローの位置が特定されるとはなぁ…。",
-      "ホワイトベースめ、つけられたな？"
+      "Damn, I never expected Jaburo to be located...",
+      "Have they followed White Base?"
     ],
     "DeepL_mtl": [
       "Damn, I never thought they would locate Jaburo....",
@@ -45,7 +45,8 @@
     "ID": "eve195",
     "Text": null,
     "Lines": [
-      "見た目も戦歴も、とにかく目立つフネですから…。"
+      "It's just too noticeable, both in ",
+      "appearance and accomplishments..."
     ],
     "DeepL_mtl": [
       "It's just a prominent fune...both in appearance and war history...."
@@ -57,8 +58,8 @@
     "ID": "eve196",
     "Text": null,
     "Lines": [
-      "この後、宇宙艦隊の打ち上げを派手に行えば、",
-      "どうせ見つかっただろうけど…。"
+      "They would have found this place after Space Fleet",
+      "launch, it will be rather spectacular..."
     ],
     "DeepL_mtl": [
       "A fancy launch of the space fleet after this would have found them anyway...."
@@ -70,9 +71,9 @@
     "ID": "eve197",
     "Text": null,
     "Lines": [
-      "そう。　その前に見つかったってのは意味合いが全然違う…。",
-      "ヘタをすれば、打ち上げ時の無防備な艦隊を攻撃される恐れも",
-      "あるからなぁ…。"
+      "Aye, but discovering it beforehand changes things...",
+      "If we mess up, enemy could attack defenseless fleet",
+      "during launch..."
     ],
     "DeepL_mtl": [
       "Yes.",
@@ -86,7 +87,8 @@
     "ID": "eve198",
     "Text": null,
     "Lines": [
-      "でも、敵は宇宙艦隊打ち上げ計画を知らない…。"
+      "But the enemy doesn't know about ",
+      "the Space Fleet launch plan..."
     ],
     "DeepL_mtl": [
       "But the enemy doesn't know about the Starfleet launch program..."
@@ -97,8 +99,10 @@
   {
     "ID": "eve199",
     "Text": null,
+    "_": "are they saying Zeon attacked without knowing about fleet?",
+    "__": "or that they picked wrong time?",
     "Lines": [
-      "だから、それを待たずに、今攻めてきた。"
+      "So instead of waiting for that, we attacked now."
     ],
     "DeepL_mtl": [
       "So they didn't wait for that, they attacked now."
@@ -107,12 +111,14 @@
     "Size": null
   },
   {
+    "LineSplit": 3,
     "ID": "eve200",
     "Text": null,
     "Lines": [
-      "そういうことだ。",
-      "この敵を退けて、宇宙反攻作戦の主力艦隊とMS隊を送り出すのは、",
-      "地上を任された僕たちの責務だ。　絶対に食い止めるぞ！"
+      "That's how it is.",
+      "It's up to use to stop enemy on the ground, so fleet and",
+      "mobile suits can launch safely for counteroffensive.",
+      "We'll definitely stop them!"
     ],
     "DeepL_mtl": [
       "That's what I mean.",
@@ -126,7 +132,7 @@
     "ID": "aln172",
     "Text": null,
     "Lines": [
-      "ユニット1、出撃準備だ！"
+      "Unit 1, we're ehading out!"
     ],
     "DeepL_mtl": [
       "Unit 1, prepare to launch!"

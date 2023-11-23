@@ -3,7 +3,7 @@
     "ID": "eve532",
     "Text": null,
     "Lines": [
-      "いやぁ、随分と思い切った任務に抜擢されたもんだね。"
+      "Wooah, we were selected for quite a drastic mission."
     ],
     "DeepL_mtl": [
       "Wow, you were selected for a very drastic mission."
@@ -15,7 +15,8 @@
     "ID": "eve132",
     "Text": null,
     "Lines": [
-      "さすがに、こう続けての出撃はキツイなぁ…。"
+      "It's tough being sent on missions like this",
+      "one after another"
     ],
     "DeepL_mtl": [
       "As expected, it's hard to go out like this continuously..."
@@ -27,7 +28,7 @@
     "ID": "eve133",
     "Text": null,
     "Lines": [
-      "この前の戦いでは、リルちゃんがやらかしてくれたからなぁ。"
+      "Oy, Lilly, you made it tought on us last time, you know."
     ],
     "DeepL_mtl": [
       "Lil' Lil' did me in the last battle, you know."
@@ -39,7 +40,7 @@
     "ID": "eve134",
     "Text": null,
     "Lines": [
-      "うぅ…。　悪かったわよ…、ホントに。"
+      "Ugh...　I'm sorry... really."
     ],
     "DeepL_mtl": [
       "Ugh...",
@@ -52,9 +53,9 @@
     "ID": "eve135",
     "Text": null,
     "Lines": [
-      "デニスさん、もうそのことはいいじゃないですか。",
-      "本人も反省してますし。",
-      "もう一度やったら、その時は…ね？"
+      "Dennis, you don't have to mention that again.",
+      "She's reflecting on her mistakes.",
+      "You won't do that again... right?"
     ],
     "DeepL_mtl": [
       "Mr. Dennis, you don't have to talk about that anymore.",
@@ -68,7 +69,7 @@
     "ID": "eve136",
     "Text": null,
     "Lines": [
-      "ぜ、ぜったい二度といたしませんっっ！！"
+      "I'll never do it again! !"
     ],
     "DeepL_mtl": [
       "I will never do it again!"
@@ -80,8 +81,8 @@
     "ID": "eve137",
     "Text": null,
     "Lines": [
-      "まぁまぁ、みんな。",
-      "リルも聞き分けの良い子になったから、そのくらいでね。"
+      "Well, well, well.",
+      "Lilly has started to listen, so lets end it at it."
     ],
     "DeepL_mtl": [
       "Well, well, well, guys.",
@@ -94,8 +95,8 @@
     "ID": "eve138",
     "Text": null,
     "Lines": [
-      "あぁ…、この連中ならこうなることは予測できたはずなのに…。",
-      "し、死にたい…。"
+      "Ahhh...I should have seen this coming...",
+      "Ugh... kill me..."
     ],
     "DeepL_mtl": [
       "Ahhh......these guys should have seen this coming....",
@@ -108,9 +109,9 @@
     "ID": "eve533",
     "Text": null,
     "Lines": [
-      "しかし、まぁ、敵部隊に対して先回りが出来ることと、",
-      "あくまでもDestruction of Gau Carrierが目的で、目的達成後に離脱して",
-      "いいってんなら、なんとかなりそうだな。"
+      "Wel, if our objective is just to intercept and",
+      "and shoot down Gau Carrier, and we're allowed to",
+      "disengage afterwards, it seems doable."
     ],
     "DeepL_mtl": [
       "But, well, if the objective is to be able to get ahead of enemy units and Destruction of Gau Carrier, and if they can disengage after the objective is achieved, then it seems manageable."
@@ -122,8 +123,8 @@
     "ID": "eve534",
     "Text": null,
     "Lines": [
-      "支援砲撃はあまりアテになりそうに無いけど、",
-      "でもまぁ、敵を攪乱するくらいの効果はあるだろうしね。"
+      "Artillery support doesn't seem very reliable",
+      "but it should at least distract the enemy."
     ],
     "DeepL_mtl": [
       "The support bombardment doesn't seem to be very reliable, but, well, it would be effective enough to distract the enemy."
@@ -135,7 +136,8 @@
     "ID": "eve535",
     "Text": null,
     "Lines": [
-      "上も、ようやくMS隊の有効性を認めたって解釈していいのかな？"
+      "Can we take it that top brass finally acknownledged",
+      "effectiveness of our MS teams?"
     ],
     "DeepL_mtl": [
       "Can we interpret the above as finally acknowledging the validity of the MS squad?"
@@ -147,9 +149,9 @@
     "ID": "eve536",
     "Text": null,
     "Lines": [
-      "そうだね。",
-      "でも、今までのように敵に対するメンタル面への効果は、",
-      "あまりないと思っておいたほうがいいだろうね。"
+      "It would seem so.",
+      "But we should assume that surprise effect our MS",
+      "had on the enemy morale is starting to wear out."
     ],
     "DeepL_mtl": [
       "Yes, it is.",
@@ -162,8 +164,8 @@
     "ID": "eve537",
     "Text": null,
     "Lines": [
-      "指揮系統が乱れているといっても、すでに、各地での目撃情報は",
-      "浸透し始めているでしょうしね。"
+      "Even though their chain of command is in disarray,",
+      "I'm sure news have already starting to spread."
     ],
     "DeepL_mtl": [
       "Even though the chain of command is in disarray, I'm sure that sightings in different parts of the country are already starting to permeate."
@@ -175,7 +177,7 @@
     "ID": "aln161",
     "Text": null,
     "Lines": [
-      "では、各員、出撃準備！"
+      "Well then. Everyone, prepare for sortie!"
     ],
     "DeepL_mtl": [
       "Then, each of you, prepare to go out!"
