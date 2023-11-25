@@ -41,10 +41,11 @@ namespace GEVLib.New
         public string EVEMagic { get; private set; } = "$EVE";
 
         //TODO complete EVE Section
-        [BinaryField(Order = 2, Offset = 4, OffsetZone = OffsetZone.Body)]
+        [BinaryField(Order = 2, Offset = 0, OffsetZone = OffsetZone.Body)]
         public EVESegment EVESegment { get; private set; }
         public int EVESegmentLength => (OFSMagicOffset - 0x1C); //between header and $OFS
 
+        //TODO might be easier to parse OpCodes into struct that deserialize/serialize EveBlocks 
         [BinaryField(Order = 2, Offset = 4, OffsetZone = OffsetZone.Body)]
         public List<EVEOpCode> EVEOpCodes { get; private set; }
         public int EVEOpCodesCount => EVESegmentLength / 4; //4 bytes per opcode
@@ -92,11 +93,5 @@ namespace GEVLib.New
             if (OFSDataOffset > 0 && (STRDataOffset - OFSDataOffset) != ofsLength)
                 throw new NotSupportedException("OFS length mismatch");
         }
-    }
-
-    [BinarySegment]
-    public class EVESegment : IBinarySegment
-    {
-
     }
 }

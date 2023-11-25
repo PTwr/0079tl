@@ -140,7 +140,7 @@ namespace InMemoryBinaryFile.New
             return GetDynamicValue<T>(dynamicMemberName, obj, defaultValue);
         }
 
-        public static T? GetDynamicValue<T>(string? dynamicMemberName, object obj, T? defaultValue = default)
+        public static T? GetDynamicValue<T>(string? dynamicMemberName, object obj, T? defaultValue, params object[] arguments)
         {
             T? result = defaultValue;
 
@@ -152,9 +152,9 @@ namespace InMemoryBinaryFile.New
                     .GetMethod(dynamicMemberName, BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance);
                 if (func != null
                     &&
-                    func.GetParameters().Length == 0)
+                    func.GetParameters().Length == (arguments?.Length ?? 0))
                 {
-                    reflectionResult = func.Invoke(obj, null);
+                    reflectionResult = func.Invoke(obj, arguments);
                 }
 
                 var prop = obj.GetType()

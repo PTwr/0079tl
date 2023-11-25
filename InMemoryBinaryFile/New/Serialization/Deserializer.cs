@@ -142,6 +142,11 @@ namespace InMemoryBinaryFile.New.Serialization
                     int n = 0;
                     while (childOffset < pos + slice.Length)
                     {
+                        if (!BinaryFieldAttribute.GetContinue(target, prop, items))
+                        {
+                            break;
+                        }
+
                         var item = prop.CreateCollectionItem(target);
                         if (item != null)
                         {
@@ -175,6 +180,7 @@ namespace InMemoryBinaryFile.New.Serialization
                     {
                         if (!newValue.Equals(BinaryFieldAttribute.ExpectedValue))
                         {
+                            //TODO convert numbers to hex
                             throw new Exception($"Invalid value for {prop.Name}, expected {BinaryFieldAttribute.ExpectedValue} actual {newValue}");
                         }
                     }

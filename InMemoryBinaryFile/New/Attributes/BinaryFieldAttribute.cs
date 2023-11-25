@@ -1,10 +1,16 @@
-﻿using System.Reflection;
+﻿using InMemoryBinaryFile.New.Serialization;
+using System.Reflection;
 
 namespace InMemoryBinaryFile.New.Attributes
 {
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class BinaryFieldAttribute : Attribute
     {
+        public string ContinueFunc { get; set; }
+
+        public bool Serialize { get; set; } = true;
+        public string? SerializeIfFunc { get; set; }
+
         /// <summary>
         /// Limits item count when deserializing this property
         /// </summary>
@@ -77,5 +83,11 @@ namespace InMemoryBinaryFile.New.Attributes
 
         public bool GetIf(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue<bool>(IfFunc ?? $"{FieldName}If", obj, true);
         public bool GetIf(object obj, PropertyInfo property) => GetIf(obj, property.Name);
+
+        public bool GetSerializeIf(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue<bool>(SerializeIfFunc ?? $"{FieldName}SerializeIf", obj, true);
+        public bool GetSerializeIf(object obj, PropertyInfo property) => GetSerializeIf(obj, property.Name);
+
+        public bool GetContinue(object obj, string FieldName, object collection) => ReflectionsHelper.GetDynamicValue<bool>(ContinueFunc ?? $"{FieldName}Continue", obj, true, collection);
+        public bool GetContinue(object obj, PropertyInfo property, object collection) => GetContinue(obj, property.Name, collection);
     }
 }

@@ -15,6 +15,8 @@ namespace Tests
         [Fact]
         public void Read()
         {
+            var b = ((int)int.MinValue) == ((uint)uint.MaxValue);
+
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
             var tr01gev = @"C:\games\wii\0079\0079_jp\DATA\files\event\missionevent\other\TR01.gev";
@@ -37,6 +39,9 @@ namespace Tests
             var bbb = Serializer.Serialize(gevNew);
 
             Assert.Equal(bytes.ToArray().ToList(), bbb);
+
+
+            var sss = gevNew.EVESegment.ToString();
         }
 
 
