@@ -1,5 +1,13 @@
 {
   "profiles": {
+    "BinString-Mado": {
+      "commandName": "Project",
+      "commandLineArgs": "extract --source C:/games/mado/ --filter MADO.exe --patch C:/games/mado/_txt --encoding \"shift jis\" --verbose --pattern \"\\0\\0(?<text>[^@,\\0-\\x19]+)@\""
+    },
+    "BinString-MadoPatch": {
+      "commandName": "Project",
+      "commandLineArgs": "patch --source C:/games/mado/ --filter MADO.EXE --patch C:/games/mado/_txt --encoding \"shift jis\" --verbose --output C:/games/mado_EN/"
+    },
     "BinString-extract": {
       "commandName": "Project",
       "commandLineArgs": "extract --source C:/games/wii/lupin/1clean/files/COMMON/ --filter sfil.bin --patch C:/games/wii/lupin/1/files/COMMON/ --encoding \"shift jis\" --verbose --pattern \"\\[s.*?\\]\\0\\0(3)(?<length>.)(?!\\[)(?<text>.*?)\\0\" --index --indexformat |{0}|[n]"

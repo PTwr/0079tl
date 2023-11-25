@@ -118,6 +118,7 @@ internal class Program
 
                 if (options.MergeResults)
                 {
+                    Directory.CreateDirectory(options.PatchPath);
                     var json = JsonConvert.SerializeObject(result, Formatting.Indented);
                     File.WriteAllText(options.PatchPath, json);
                 }
@@ -125,8 +126,11 @@ internal class Program
                 {
                     foreach (var kvp in result)
                     {
+                        var outfile = Path.Combine(options.PatchPath, kvp.Key) + ".json";
+                        Directory.CreateDirectory(Path.GetDirectoryName(outfile));
+
                         var json = JsonConvert.SerializeObject(kvp.Value, Formatting.Indented);
-                        File.WriteAllText(Path.Combine(options.PatchPath, kvp.Key) + ".json", json);
+                        File.WriteAllText(outfile, json);
                     }
                 }
             }))
@@ -195,6 +199,11 @@ internal class Program
 
         foreach (var entry in patch.Entries)
         {
+            if (entry.OriginalText == entry.Replacement)
+            {
+                continue;
+            }
+
             if (verbose)
             {
                 Console.WriteLine($"[{entry.PositionHex}] #{entry.Index}");
