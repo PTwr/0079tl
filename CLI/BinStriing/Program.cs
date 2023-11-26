@@ -1,9 +1,11 @@
 ﻿using CommandLine;
 using InMemoryBinaryFile.Helpers;
 using Newtonsoft.Json;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
+using static InMemoryBinaryFile.Helpers.EncodingHelper;
 using static Program.PatchModel;
 
 internal class Program
@@ -36,23 +38,6 @@ internal class Program
 
         [Option('j', "indexformat", Required = false, HelpText = "Formats indexer into whatever you want")]
         public string IndexFormat { get; set; }
-
-        public ExtractOptions()
-        {
-            //Dummy constructor required by CLI reflections,
-            //not using it manually will make code trimming remove it and break reflections
-
-            SourcePath = "";
-            SourceFilter = "";
-            Recursive = false;
-            PatchPath = "";
-            Encoding = "";
-            Verbose = false;
-            Patterns = new List<string>();
-            MergeResults = false;
-            AutoIndexer = false;
-            IndexFormat = "";
-        }
     }
 
     [Verb("patch", HelpText = "Patches strings in binary file")]
@@ -74,30 +59,16 @@ internal class Program
         [Option('v', "verbose", Required = false, HelpText = "Dumps results to console")]
         public bool Verbose { get; set; }
 
-        public PatchOptions()
-        {
-            //Dummy constructor required by CLI reflections,
-            //not using it manually will make code trimming remove it and break reflections
-
-            SourcePath = "";
-            SourceFilter = "";
-            Recursive = false;
-            PatchPath = "";
-            OutputPath = "";
-            Encoding = "";
-            Verbose = false;
-
-        }
+        [Option('c', "padvalue", Required = false, Default = 0, HelpText = "Padding character ascii code (decimal), defaults to null (0)")]
+        public byte PadValue { get; set; }
     }
+    [DynamicDependency(DynamicallyAccessedMemberTypes.All, typeof(ExtractOptions))] //prevent codetrim, CLI uses reflections
+    [DynamicDependency(DynamicallyAccessedMemberTypes.All, typeof(PatchOptions))] //prevent codetrim, CLI uses reflections
+    [DynamicDependency(DynamicallyAccessedMemberTypes.All, typeof(PatchModel))] //prevent codetrim, NSJ uses reflections
     private static void Main(string[] args)
     {
-        //EncodingHelper.EnableShiftJistConsole();
-        //EncodingHelper.EnableUTF16Console();
-
-        //avoid code trimming!
-        new ExtractOptions();
-        new PatchOptions();
-        new StringEntry();
+        Console.OutputEncoding = Encoding.Unicode;
+        Console.InputEncoding = Encoding.Unicode;
 
         Parser.Default.ParseArguments<ExtractOptions, PatchOptions>(args)
             .WithParsed((Action<ExtractOptions>)(options =>
@@ -180,13 +151,13 @@ internal class Program
                             {
                                 if (TryGetPatch(i, out var patch))
                                 {
-                                    PatchFile(i, o, patch, encoding, options.Verbose);
+                                    PatchFile(i, o, patch, encoding, options.Verbose, options.PadValue);
                                 }
                             });
             }));
     }
 
-    static void PatchFile(string input, string output, PatchModel patch, Encoding encoding, bool verbose)
+    static void PatchFile(string input, string output, PatchModel patch, Encoding encoding, bool verbose, byte padValue)
     {
         if (verbose)
         {
@@ -221,7 +192,7 @@ internal class Program
 
             if (replacementBytes.Length < entry.ByteLengthDec)
             {
-                replacementBytes = replacementBytes.PadRight(entry.ByteLengthDec - replacementBytes.Length).ToArray();
+                replacementBytes = replacementBytes.PadRight(entry.ByteLengthDec - replacementBytes.Length, padValue).ToArray();
             }
 
             bytes = bytes.Update(entry.PositionDec, replacementBytes);
@@ -278,11 +249,6 @@ internal class Program
                     PositionHex = $"0x{pos:X8}",
 
                     Replacement = txt.Value,
-
-                    //Captures = match.Groups.Values
-                    //    .Where(i => i.Name != "text")
-                    //    .Where(i => !int.TryParse(i.Name, out _))
-                    //    .ToDictionary(i => i.Name, i => (i.Value, "", "")),
                 };
 
                 if (AutoIndexer)
@@ -325,21 +291,6 @@ internal class Program
             public string Replacement { get; set; }
 
             public string OriginalBytes { get; set; }
-
-            //public Dictionary<string, (string Text, string Hex, string Bytes)> Captures { get; set; } = new Dictionary<string, (string Text, string Hex, string Bytes)>();
-
-            //prevent auto trim!
-            public StringEntry()
-            {
-                Index = 0 + Index;
-                PositionDec = 0 + PositionDec;
-                PositionHex = "" + PositionHex;
-                ByteLengthDec = 0 + ByteLengthDec;
-                ByteLengthHex = "" + ByteLengthHex;
-                OriginalText = "" + OriginalText;
-                Replacement = "" + Replacement;
-                OriginalBytes = "" + OriginalBytes;
-            }
         }
     }
 }
