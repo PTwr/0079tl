@@ -3,8 +3,8 @@
     "ID": "eve583",
     "Text": null,
     "Lines": [
-      "というわけで、雪原地帯で孤立している友軍の救助隊に",
-      "同行することになった。"
+      "So, we got asked to help a friendly recovery ",
+      "team that got stranded in siberia."
     ],
     "DeepL_mtl": [
       "So, I was asked to accompany a friend's rescue team that was isolated in a snowfield area."
@@ -16,7 +16,7 @@
     "ID": "eve150",
     "Text": null,
     "Lines": [
-      "うぅ…。　わたし寒いの苦手です～。"
+      "Uh... I don't like the cold."
     ],
     "DeepL_mtl": [
       "Ugh...",
@@ -28,8 +28,10 @@
   {
     "ID": "eve151",
     "Text": null,
+    "_": "reused from ME08",
     "Lines": [
-      "女の子は冷え性だからなぁ。　いつでも俺が暖めてやるよ？"
+      "Girls are sensitive to cold.",
+      "I'll warm you up whenever you want, okay?"
     ],
     "DeepL_mtl": [
       "The girls are cold.",
@@ -42,7 +44,7 @@
     "ID": "eve152",
     "Text": null,
     "Lines": [
-      "最低ね。"
+      "You suck."
     ],
     "DeepL_mtl": [
       "That sucks."
@@ -54,7 +56,7 @@
     "ID": "eve153",
     "Text": null,
     "Lines": [
-      "最低です。"
+      "Disgusting."
     ],
     "DeepL_mtl": [
       "Worst."
@@ -66,7 +68,8 @@
     "ID": "eve154",
     "Text": null,
     "Lines": [
-      "わ、悪かったって。　そんな冷めたリアクションするなよ…。"
+      "Wow, I'm sorry...",
+      "Don't react so coldly...."
     ],
     "DeepL_mtl": [
       "I'm sorry.",
@@ -79,8 +82,8 @@
     "ID": "eve584",
     "Text": null,
     "Lines": [
-      "寒冷地は、MSにとっては、ある意味砂漠より怖いからね。",
-      "これもMS運用の、データ収集の一環だと思ってくれよ。"
+      "In some ways, arctic is scarier than desert.",
+      "Just think of it as collecting data on MS operation."
     ],
     "DeepL_mtl": [
       "Cold weather is scarier for MS than deserts in some ways.",
@@ -93,8 +96,8 @@
     "ID": "eve585",
     "Text": null,
     "Lines": [
-      "戦略的価値もないそんな場所にいるなんて、",
-      "敵はやっぱりオデッサあたりからの敗走部隊なのかな？"
+      "Since we're in such remote place with no strategic value, ",
+      "I wonder if its an enemy reatreating from Odessa."
     ],
     "DeepL_mtl": [
       "Is the enemy still a defeated force from around Odessa to be in such a place with no strategic value?"
@@ -105,10 +108,11 @@
   {
     "ID": "eve586",
     "Text": null,
+    "_": "split into two textboxes?",
     "Lines": [
-      "そうなりますかね。　今、ジオンは無駄に戦火を広げてます…。",
-      "しかも、指揮系統が機能していないせいで、盗賊のように",
-      "民間人からの略奪行為に及ぶ部隊もあるそうです。　許せません。"
+      "So that's how it its going to be? Zeon troops spreading flames ",
+      "of war for nothing... And with their broken chain of command, ",
+      "some troops are turning to banditry, looting civilians. Unforgivable..."
     ],
     "DeepL_mtl": [
       "Will it be so?",
@@ -123,7 +127,7 @@
     "ID": "eve587",
     "Text": null,
     "Lines": [
-      "もはや、軍隊とは呼べないな…。"
+      "We can no longer call that an army..."
     ],
     "DeepL_mtl": [
       "You can no longer call it an army...."
@@ -135,8 +139,8 @@
     "ID": "eve588",
     "Text": null,
     "Lines": [
-      "戦火が飛び火するなら、俺たちがその火消しをするまでだよ。",
-      "じゃ、そろそろ行くよ。　ユニット1、出撃準備！"
+      "If the flames of war spread, we'll just have to put them out. ",
+      "Unit 1, prepare for launch!"
     ],
     "DeepL_mtl": [
       "If the fires of war fly, it's up to us to put them out.",

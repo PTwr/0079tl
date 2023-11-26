@@ -3,8 +3,9 @@
     "ID": "eve244",
     "Text": null,
     "Lines": [
-      "この期におよんで、新鋭機のテストとはね。",
-      "まぁ、実力を認められたからこその任務だけど…。"
+      "This time we'll be testing new Mobile Suit models. ",
+      "I guess we got this task because our abilities ",
+      "got recognized.",
     ],
     "DeepL_mtl": [
       "At this juncture, I am not surprised that they are testing the newest aircraft.",
@@ -17,8 +18,9 @@
     "ID": "eve245",
     "Text": null,
     "Lines": [
-      "新鋭機も興味あるけど、もう少しジャブローにいられれば、",
-      "壮大な宇宙艦隊発進を間近で見られたのにぃ…。"
+      "New suits are tempting, but if we could have stayed ",
+      "in Jaburo a little longer I could have seen grand ",
+      "launch of new Space Fleet up close..."
     ],
     "DeepL_mtl": [
       "I'm interested in the new aircraft, but if I could have stayed in Jaburo a little longer, I could have seen the grand launch of the Starfleet up close...."
@@ -30,7 +32,7 @@
     "ID": "eve246",
     "Text": null,
     "Lines": [
-      "あぁ。　俺も観たかったなぁ…。"
+      "Ahh. I wanted to see it too..."
     ],
     "DeepL_mtl": [
       "Oh.",
@@ -43,7 +45,7 @@
     "ID": "eve247",
     "Text": null,
     "Lines": [
-      "さぞかし凄いんでしょうねぇ…。"
+      "It must look amazing..."
     ],
     "DeepL_mtl": [
       "It must be amazing...."
@@ -55,7 +57,7 @@
     "ID": "eve248",
     "Text": null,
     "Lines": [
-      "俺だって観たかったよぉ…。"
+      "I wanted to see it too..."
     ],
     "DeepL_mtl": [
       "I wish I could have seen it too...."
@@ -67,13 +69,12 @@
     "ID": "eve249",
     "Text": null,
     "Lines": [
-      "今回テストする機体が使えれば、宇宙、地上共に、",
-      "今後の戦いが楽になるはずですよ。",
-      "さ、気分を変えていきましょ！"
+      "If machines we're going to test are good, they should ",
+      "make future space and ground battles easier. ",
+      "Come on, let's change the mood!"
     ],
     "DeepL_mtl": [
-      "If the aircraft we are going to test this time can be used, it will make future battles easier, both in space and on the ground.",
-      "Now, let's change the mood!"
+      "If the aircraft we are going to test this time can be used, it will make future battles easier, both in space and on the ground.",     "Come on, let's change the mood!"
     ],
     "TabSpace": null,
     "Size": null
@@ -82,8 +83,9 @@
     "ID": "eve250",
     "Text": null,
     "Lines": [
-      "だね。　じゃ、とりあえず模擬戦の指定地区に移動しようか。",
-      "ユニット1、出撃！"
+      "Right. ",
+      "Time to head to our assigned training area for mock battle.",
+      "Unit 1, launch!"
     ],
     "DeepL_mtl": [
       "Yes.",
@@ -105,14 +107,4 @@
     "TabSpace": null,
     "Size": null
   },
-  {
-    "ID": "",
-    "Text": null,
-    "Lines": [
-      ""
-    ],
-    "DeepL_mtl": [],
-    "TabSpace": null,
-    "Size": null
-  }
 ]

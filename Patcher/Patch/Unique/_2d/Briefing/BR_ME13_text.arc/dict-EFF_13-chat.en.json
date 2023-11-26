@@ -3,7 +3,8 @@
     "ID": "eve214",
     "Text": null,
     "Lines": [
-      "敵は、予想以上に内部まで浸透しているようだ。"
+      "It seems the enemy has penetrated deeper",
+      "into the interior than expected."
     ],
     "DeepL_mtl": [
       "The enemy seems to have penetrated further into the interior than expected."
@@ -15,8 +16,8 @@
     "ID": "eve215",
     "Text": null,
     "Lines": [
-      "地下水脈を使って侵入した、工作隊の存在が",
-      "大きかったようです。"
+      "It seems enemy special forces openned up the path",
+      "by infiltrating through underground river."
     ],
     "DeepL_mtl": [
       "It seems that the presence of an operative team, which used underground water veins to infiltrate the site, was significant."
@@ -28,7 +29,7 @@
     "ID": "eve216",
     "Text": null,
     "Lines": [
-      "指揮系統が混乱してないのが救いだな。"
+      "We're lucky our chain of command was not broken."
     ],
     "DeepL_mtl": [
       "Thank God the chain of command isn't in disarray."
@@ -40,8 +41,8 @@
     "ID": "eve217",
     "Text": null,
     "Lines": [
-      "新米パイロットたちじゃ、やっぱりジオンの相手は",
-      "無理みたいね。"
+      "It seems like our new pilots stand no chance against",
+      "Zeon forces after all."
     ],
     "DeepL_mtl": [
       "It seems that the new pilots can't take on Zion after all."
@@ -52,8 +53,10 @@
   {
     "ID": "eve218",
     "Text": null,
+    "_":  "I will or we will? in battle Alan goes solo?",
     "Lines": [
-      "俺たちは、本部施設の護衛をしつつ、同区画の敵を排除する。"
+      "We will head on to defend HQ, and eliminate ",
+      "enemy forces in nearby sections."
     ],
     "DeepL_mtl": [
       "We'll be escorting the headquarters facility while eliminating the enemy in the same section."
@@ -65,8 +68,8 @@
     "ID": "eve219",
     "Text": null,
     "Lines": [
-      "そういえば、さっきのアムロくんとの会話の時から、「俺」とか",
-      "言ってるわよね？"
+      "Whats with you? Speaking so manly after ",
+      "your conversation with Amuro, eh?"
     ],
     "DeepL_mtl": [
       "Come to think of it, you've been saying \"I\" since your conversation with Mr. Amuro earlier, haven't you?"
@@ -78,9 +81,9 @@
     "ID": "eve220",
     "Text": null,
     "Lines": [
-      "茶化すなよ、リル。",
-      "正規部隊だって頼りになるってとこを見せてやらなきゃ、",
-      "彼は頑張りすぎで、危なっかしいんだよ…。"
+      "Give me a break, Lil.",
+      "We have to show him that regular troops can be ",
+      "relied on. He's trying too hard, risking his life..."
     ],
     "DeepL_mtl": [
       "Don't make fun of me, Lil.",
@@ -93,8 +96,8 @@
     "ID": "eve221",
     "Text": null,
     "Lines": [
-      "ガラじゃないけど、そのほうが、ずっと「らしい」わよ？",
-      "アラン隊長。　フフフ…。"
+      "It's out of character, but it sound much ",
+      "manlier, brave Captain Alan. Hehehe."
     ],
     "DeepL_mtl": [
       "It's not a gala, but it's much more \"typical\" that way, no? Captain Alan.",
@@ -107,8 +110,8 @@
     "ID": "eve222",
     "Text": null,
     "Lines": [
-      "ほ、ほら！　時間がないぞ！",
-      "ユニット1、再出撃だ！"
+      "L-look! We're running out of time!",
+      "Unit 1, back to battle!"
     ],
     "DeepL_mtl": [
       "Oh, look!　We're running out of time! Unit 1, relaunch!"
@@ -125,16 +128,6 @@
     "DeepL_mtl": [
       "Roger that!"
     ],
-    "TabSpace": null,
-    "Size": null
-  },
-  {
-    "ID": "",
-    "Text": null,
-    "Lines": [
-      ""
-    ],
-    "DeepL_mtl": [],
     "TabSpace": null,
     "Size": null
   }

@@ -13,10 +13,11 @@
     "Size": null
   },
   {
+    "_": "reused from ME08",
     "ID": "eve150",
     "Text": null,
     "Lines": [
-      "Ugh... I don't like cold weather."
+      "Uh... I don't like the cold."
     ],
     "DeepL_mtl": [
       "Ugh...",

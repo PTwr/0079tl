@@ -3,9 +3,9 @@
     "ID": "eve266",
     "Text": null,
     "Lines": [
-      "近日実施予定の、アフリカ大陸への大規模掃討作戦に向けて、",
-      "参加部隊がオデッサに集結中だ。　しかし、その背面にあたる",
-      "地区に、ジオンの敗走部隊が潜伏しているとの情報が入った。"
+      "Forces pre amassing in Odessa for upcoming sweep of Africa,",
+      "however we received intel that one of routed Zeon units is ",
+      "hiding on our rear."
     ],
     "DeepL_mtl": [
       "Participating troops are gathering in Odessa for a major sweep of the African continent, which is scheduled to take place soon.",
@@ -18,7 +18,7 @@
     "ID": "eve267",
     "Text": null,
     "Lines": [
-      "私たちに、その敵を捜索、殲滅しろってわけね。"
+      "You want us to locate and eliminate that unit?"
     ],
     "DeepL_mtl": [
       "You want us to search for and destroy the enemy."
@@ -29,9 +29,9 @@
   {
     "ID": "eve268",
     "Text": null,
-    "Lines": [
-      "この状況下で、部隊としての機能を維持しているってことは、",
-      "敵の部隊指揮官は、相当のてだれだな…。"
+      "Lines": [
+        "Given that they can still remain combat effective in this ",
+        "situation means enemy commander must be very good."
     ],
     "DeepL_mtl": [
       "The fact that they are still functioning as a unit under these circumstances indicates that the enemy unit commanders must be pretty good at what they do..."
@@ -43,8 +43,8 @@
     "ID": "eve269",
     "Text": null,
     "Lines": [
-      "補給もままならず、絶望的ともいえる状況下で、死を覚悟",
-      "するような戦闘を強いるわけですからね…。"
+      "Putting on last stand, surrounder and with ",
+      "no supplies... its hopeless..."
     ],
     "DeepL_mtl": [
       "They are forced to fight to the death in a desperate situation with no way to replenish their supplies...."
@@ -56,8 +56,8 @@
     "ID": "eve270",
     "Text": null,
     "Lines": [
-      "そうだ。",
-      "今回の敵は、かなり手ごわいと思っていいだろう。"
+      "That it is.",
+      "This time we're against a formidable enemy."
     ],
     "DeepL_mtl": [
       "Yes, it is.",
@@ -70,7 +70,7 @@
     "ID": "eve271",
     "Text": null,
     "Lines": [
-      "気を引き締めていかないと、こっちがやられる…か。"
+      "If we don't keep our guard up, we'll get knocked out..."
     ],
     "DeepL_mtl": [
       "If we don't tighten up, we will get hit...."
@@ -82,9 +82,8 @@
     "ID": "eve272",
     "Text": null,
     "Lines": [
-      "本部じゃ、地上の掃討作戦は、もう消化試合程度に",
-      "考えてるからな。",
-      "最後の詰めにこそ、戦力を余剰投入するべきなのによ。"
+      "Our HQ treats ground sweep like an aftethough.",
+      "We should put our full force in final offensive."
     ],
     "DeepL_mtl": [
       "At HQ, we consider the ground sweep operation to be little more than a digestive game.",
@@ -96,10 +95,11 @@
   {
     "ID": "eve273",
     "Text": null,
+    "_": "TODO reword and split into two textboxes",
     "Lines": [
-      "大きな反撃もできない地上の残党を後回しにして、宇宙に戦力を",
-      "集中…、一気に終戦させたいっていう、レビル将軍の思惑は",
-      "分かるけどね。"
+      "By ignoring remnants on surface, who can't even mount a counterattack",
+      "anymore, we can concentrate on space offensive... I can understand",
+      "why General Reville plans to end the war at its roots."
     ],
     "DeepL_mtl": [
       "I understand General Reville's intention to put off the remnants on the ground, which cannot mount a major counterattack, and concentrate his forces in space...to end the war at once."
@@ -110,9 +110,12 @@
   {
     "ID": "eve274",
     "Text": null,
+    "_": "something about power seeking bastard? Or whining that plan to focus on space is crafty/soulless?",
+    "__": "or warning Alan about internal powerstruggle?",
+    "___": "chaning chat into foreshadowing to mission stuff?",
     "Lines": [
-      "ジャブローに残って、地上部隊を指揮してる方々には、",
-      "利己主義の狸さんが多いですから。"
+      "There are many plotting sly dogs sitting in Jaburo ",
+      "and in command of ground troops."
     ],
     "DeepL_mtl": [
       "There are many selfish raccoon dogs among those who remain at Jaburo and command the ground troops."
@@ -124,9 +127,9 @@
     "ID": "eve275",
     "Text": null,
     "Lines": [
-      "ハハハ…。　せいぜい化かされて、命まで落とすことにならないよう",
-      "気をつけるさ。　この戦争はもうすぐ終る…。",
-      "全員生き残ろう！　ユニット1、出撃だ！"
+      "Haha... I'll be careful to not get dragged into any intrigue.",
+      "War is going to end soon, let's not get killed...",
+      "Unit 1, don't die on me!"
     ],
     "DeepL_mtl": [
       "Hahaha...",

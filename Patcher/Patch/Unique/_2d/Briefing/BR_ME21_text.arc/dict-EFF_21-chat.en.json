@@ -3,7 +3,7 @@
     "ID": "eve648",
     "Text": null,
     "Lines": [
-      "よし、いよいよ決戦だぞ。"
+      "Alright, it's time for the final battle."
     ],
     "DeepL_mtl": [
       "Okay, now it's time for the decisive battle."
@@ -14,8 +14,9 @@
   {
     "ID": "eve649",
     "Text": null,
+    "_": "forefront -> spearhead?",
     "Lines": [
-      "突入の先陣を切るなんて…。　ワクワクするわ！"
+      "Being at the forefront of the invasion...Finally!"
     ],
     "DeepL_mtl": [
       "I can't believe I'm leading the charge....",
@@ -28,7 +29,8 @@
     "ID": "eve650",
     "Text": null,
     "Lines": [
-      "また、そんなこと言って…。　一番危険な仕事ですよ？"
+      "There she goes again...",
+      "It's the most dangerous job there is, isn't it?"
     ],
     "DeepL_mtl": [
       "You say that again...",
@@ -41,8 +43,9 @@
     "ID": "eve651",
     "Text": null,
     "Lines": [
-      "しかしまぁ、敵の防衛戦力は、主力部隊が攻略中の、",
-      "基地主要施設と、宇宙施設のある区画に集中してるようだからな。"
+      "Although it seems that the enemy's defense forces ",
+      "are concentrated around HQ and space port, which are ",
+      "under attack by our main forces."
     ],
     "DeepL_mtl": [
       "But, well, the enemy's defensive forces seem to be concentrated in the main base facility and the section where the space facility is located, which is under attack by the main forces."
@@ -54,8 +57,8 @@
     "ID": "eve652",
     "Text": null,
     "Lines": [
-      "そうだな。",
-      "この作戦は、とにかく時間との戦いだ。"
+      "That's right.",
+      "This operation is race against time."
     ],
     "DeepL_mtl": [
       "Yes.",
@@ -68,8 +71,8 @@
     "ID": "eve653",
     "Text": null,
     "Lines": [
-      "突入後、制限時間内に攻撃目標になっている施設を",
-      "破壊してください。"
+      "After arriving, please destroy targeted ",
+      "facilities within time limit"
     ],
     "DeepL_mtl": [
       "After entering the site, destroy the facilities targeted for attack within the time limit."
@@ -81,8 +84,8 @@
     "ID": "eve654",
     "Text": null,
     "Lines": [
-      "それで基地制圧のための部隊を載せたミデアが、",
-      "滑走路に強行着陸する。"
+      "Once its done, Medea will perform combat landing to",
+      "unload ground troops, which will occupy enemy base."
     ],
     "DeepL_mtl": [
       "So the midea carrying the troops to overrun the base makes a hard landing on the runway."
@@ -94,7 +97,7 @@
     "ID": "eve655",
     "Text": null,
     "Lines": [
-      "その後は、そのミデアを守ればいいのね？"
+      "Afterwards, all we have to do is protectet Medea, right?"
     ],
     "DeepL_mtl": [
       "After that, we just have to protect that midea, right?"
@@ -106,9 +109,9 @@
     "ID": "eve656",
     "Text": null,
     "Lines": [
-      "そういうこと。",
-      "後は、基地主要施設の攻略にあたっている主力部隊が、",
-      "それを制圧するか、この区画の敵を殲滅するまで戦闘を継続する。"
+      "Correct.",
+      "Battle will continue until we eliminate all enemies around, ",
+      "or until main force overruns this base."
     ],
     "DeepL_mtl": [
       "That's what I mean.",
@@ -121,7 +124,7 @@
     "ID": "eve657",
     "Text": null,
     "Lines": [
-      "大仕事だなぁ～。"
+      "It's such a bit job!"
     ],
     "DeepL_mtl": [
       "It's a big job!"
@@ -133,9 +136,9 @@
     "ID": "eve331",
     "Text": null,
     "Lines": [
-      "多分この任務が、俺たちの、この戦争最後の大仕事になる。",
-      "絶対に全員で、生きて帰るぞ。",
-      "では、ユニット1、出撃だ！"
+      "This will probably be our last big mission of this war.",
+      "We'll absolutely get home alive!",
+      "Well then, Unit 1! Let's go!"
     ],
     "DeepL_mtl": [
       "Maybe this mission will be our last big job in this war.",

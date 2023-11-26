@@ -3,9 +3,8 @@
     "ID": "eve298",
     "Text": null,
     "Lines": [
-      "アフリカ掃討作戦の滑り出しは順調だね。",
-      "ここからの送り出しも、さっき入ってきたビッグ･トレーが",
-      "最終便だ。"
+      "African mop-up operation is off to a good start.",
+      "We're about to send out last Big Tray toward front."
     ],
     "DeepL_mtl": [
       "The Africa sweep operation is off to a good start.",
@@ -18,9 +17,9 @@
     "ID": "eve299",
     "Text": null,
     "Lines": [
-      "しかしまぁ、投入されるMS隊のほとんどが、宇宙に向けて送り",
-      "出される予定の素人とはな…。",
-      "こりゃ、無駄に損害が増えるだろうな…。"
+      "But most of deployed Mobile Suit teams are rookies",
+      "scheduled for transfer to space front...",
+      "This will cause unnecessary losses..."
     ],
     "DeepL_mtl": [
       "But, well, most of the MS squadrons that will be deployed are amateurs who are scheduled to be sent out to space....",
@@ -32,9 +31,11 @@
   {
     "ID": "eve300",
     "Text": null,
+    "_": "quantity is quality on its own",
+    "__":  "Dunno how DeepL came out with 'tour de force', but it sounds great",
     "Lines": [
-      "実際の主力は、航空部隊になるようです。",
-      "結局のところ、物量での力技ですね。"
+      "Actual primary force seems to be air force this time.",
+      "After all, it's a tour de force of quantity."
     ],
     "DeepL_mtl": [
       "The actual main force seems to be the air force.",
@@ -46,8 +47,9 @@
   {
     "ID": "eve301",
     "Text": null,
+    "_": "complaining about using old mix of forces",
     "Lines": [
-      "ほんと、そういう旧体制的なとこは変わらないわねぇ…。"
+      "I guess we're back to old system..."
     ],
     "DeepL_mtl": [
       "I guess the old system is still in place...."
@@ -58,10 +60,11 @@
   {
     "ID": "eve302",
     "Text": null,
+    "_": "complaining that noobs in MS gonna be useless",
     "Lines": [
-      "MS隊に関しては、ただ戦場の雰囲気に慣れさせたいって",
-      "だけだろうね。",
-      "きっと、敵を囲んで立ってるだけとかだよ。"
+      "As for MS teams, I guess they are here just to get ",
+      "used to combat before heading to space.",
+      "They'll just gonna stand and look pretty."
     ],
     "DeepL_mtl": [
       "As for the MS troops, I guess they just want to get used to the atmosphere of the battlefield.",
@@ -74,7 +77,7 @@
     "ID": "eve303",
     "Text": null,
     "Lines": [
-      "まぁ、それが正解だな。"
+      "Can't say you're wrong."
     ],
     "DeepL_mtl": [
       "Well, that's the right answer."
@@ -86,8 +89,8 @@
     "ID": "eve304",
     "Text": null,
     "Lines": [
-      "さて、そろそろ交代時間だな。",
-      "ユニット1、出撃準備だ！"
+      "Well, I guess its our turn.",
+      "Unit 1, launching!"
     ],
     "DeepL_mtl": [
       "Well, it's time for a change.",

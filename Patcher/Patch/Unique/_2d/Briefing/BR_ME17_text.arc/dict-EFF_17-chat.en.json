@@ -3,9 +3,9 @@
     "ID": "eve604",
     "Text": null,
     "Lines": [
-      "北極基地から、宇宙への物資打ち上げが行われる。",
-      "この基地は先日、ジオンの攻撃を受けて、守備隊にかなりの",
-      "損害が出たようだね。"
+      "Our spaceport in Arctic is vital for our supply chain.",
+      "It was attacked recently, and it appears garrison ",
+      "had suffered considerable losses.",
     ],
     "DeepL_mtl": [
       "From the Arctic base, supplies are launched into space.",
@@ -18,7 +18,7 @@
     "ID": "eve605",
     "Text": null,
     "Lines": [
-      "守備隊の代役で、打ち上げを警護するってわけね？"
+      "So we're going relieve base garrison during launch?"
     ],
     "DeepL_mtl": [
       "So, you're going to stand in for the garrison and guard the launch?"
@@ -30,8 +30,8 @@
     "ID": "eve606",
     "Text": null,
     "Lines": [
-      "我ら広域特殊対応部隊も、ついに北の果てまで足を延ばすように",
-      "なったかぁ。"
+      "We, the Wide-area Special Response Mobile Suit Team, ",
+      "have finally reached into far north."
     ],
     "DeepL_mtl": [
       "I wonder if our wide-area special response forces are finally extending their reach to the far north."
@@ -43,7 +43,7 @@
     "ID": "eve607",
     "Text": null,
     "Lines": [
-      "看板に偽りなしってことさ。"
+      "It's all in the name."
     ],
     "DeepL_mtl": [
       "It's all in the sign."
@@ -55,8 +55,9 @@
     "ID": "eve608",
     "Text": null,
     "Lines": [
-      "一度襲撃を受けたってことは、位置や規模は、",
-      "敵に知られてるってことね？"
+      "This base has already been attacked once, ",
+      "so enemy knows its location and defenses. ",
+      "Right?"
     ],
     "DeepL_mtl": [
       "Once you've been attacked, that means your location and size are known to the enemy, right?"
@@ -68,8 +69,8 @@
     "ID": "eve609",
     "Text": null,
     "Lines": [
-      "今の地上部隊の混乱からすると、そこは五分五分だな。",
-      "しかし、噂が広がるのが速いのは世の常だしな。"
+      "Given the disarray their ground forces are in, I give it 50/50. ",
+      "But you know how fast rumors spread."
     ],
     "DeepL_mtl": [
       "From the current mess in the ground troops, it's 50-50 there.",
@@ -82,8 +83,8 @@
     "ID": "eve610",
     "Text": null,
     "Lines": [
-      "それより、また寒い場所なんですよ～。",
-      "そっちのほうが問題ですよ～。"
+      "More importanly, it's yet another cold place?",
+      "That's more of a problem..."
     ],
     "DeepL_mtl": [
       "More importantly, it's a cold place again!",
@@ -95,8 +96,9 @@
   {
     "ID": "eve611",
     "Text": null,
+    "_": "sexual harrasment-desu? :)",
     "Lines": [
-      "…ホアの寒がりにも困ったもんだなぁ。"
+      "...I'm also troubled by Hoa's coldness."
     ],
     "DeepL_mtl": [
       "...I'm also troubled by Hoa's coldness."
@@ -108,8 +110,9 @@
     "ID": "eve612",
     "Text": null,
     "Lines": [
-      "それほど長居はしないから、我慢してね？",
-      "よし、ユニット1、出撃だ！"
+      "We won't be staying here too long, ",
+      "so please bear with it for a while.",
+      "Unit 1, let's go!"
     ],
     "DeepL_mtl": [
       "We won't be here that long, so bear with us, okay? All right, Unit 1, let's go!"

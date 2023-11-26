@@ -3,8 +3,8 @@
     "ID": "eve322_01",
     "Text": null,
     "Lines": [
-      "アフリカ掃討作戦に、ケリをつけるための増援部隊が、",
-      "間もなくインド洋沿岸に到着予定だ。"
+      "Reinforcements will be alnding on coast of Indian ",
+      "Ocean shorty, to bring African mopup to a close."
     ],
     "DeepL_mtl": [
       "Reinforcements are scheduled to arrive off the coast of the Indian Ocean shortly to put an end to the African cleanup operation."
@@ -16,9 +16,9 @@
     "ID": "eve322_02",
     "Text": null,
     "Lines": [
-      "上陸時、部隊は密集状態で無防備になる。",
-      "ギャロップや、ダブデなどの大型陸戦艇からの砲撃は、",
-      "最大の脅威となるわけだ。"
+      "During landing, troops will be densly packed and",
+      "defenseless. Artillery barrage from large landships ",
+      "like Gallop or Dobday is the biggest threat."
     ],
     "DeepL_mtl": [
       "Upon landing, troops are densely packed and unprotected.",
@@ -31,8 +31,8 @@
     "ID": "eve323",
     "Text": null,
     "Lines": [
-      "私たちが強襲する基地には、",
-      "ギャロップ、ダブデが、1輌ずつ確認されています。"
+      "One Gallop and one Dobday have been spotted",
+      "in base we will be assaulting."
     ],
     "DeepL_mtl": [
       "The base we are raiding has one confirmed gallop and one confirmed dabdeh."
@@ -44,7 +44,7 @@
     "ID": "eve324",
     "Text": null,
     "Lines": [
-      "とにかく、それを潰せばいいんだな？"
+      "Anyhow, we should just destroy it, right?"
     ],
     "DeepL_mtl": [
       "Anyway, we're supposed to squash that, right?"
@@ -56,7 +56,7 @@
     "ID": "eve325",
     "Text": null,
     "Lines": [
-      "でも、私たちの小隊だけでなんて、結構無謀よね。"
+      "But it would be pretty reckless to do it with just our team."
     ],
     "DeepL_mtl": [
       "But it's pretty reckless to do it with just our platoon."
@@ -68,8 +68,9 @@
     "ID": "eve326",
     "Text": null,
     "Lines": [
-      "そうだな。",
-      "一応、支援爆撃があるが、大した効果は期待できないだろうね。"
+      "Yes.",
+      "We'll get some air support, but I don't think",
+      "it will have much effect."
     ],
     "DeepL_mtl": [
       "Yes.",
@@ -82,9 +83,9 @@
     "ID": "eve327",
     "Text": null,
     "Lines": [
-      "陸戦艇の破壊後は、無理に戦闘せずに、",
-      "合流ポイントに向かってください。",
-      "ミデアがピックアップして脱出します。"
+      "After destroying landships do not get caught",
+      "up in fighting and head to rendezvous point.",
+      "Medea will be ready for extraction."
     ],
     "DeepL_mtl": [
       "After the destruction of the land boats, do not force them to fight, but head for the rendezvous point.",
@@ -97,8 +98,8 @@
     "ID": "eve328",
     "Text": null,
     "Lines": [
-      "もちろん、状況次第では、",
-      "俺たちだけで基地を攻略してもいいんだけどね。"
+      "Of course, if situation allows, we could capture",
+      "the base on our own."
     ],
     "DeepL_mtl": [
       "Of course, depending on the situation, we could capture the base on our own."
@@ -109,8 +110,10 @@
   {
     "ID": "eve329",
     "Text": null,
+    "_": "some proverb about greed?",
     "Lines": [
-      "欲を出すと、ロクなこと無いわよ？　ハハハ…。"
+      "Greed will get you into trouble, right?",
+      "Hahaha..."
     ],
     "DeepL_mtl": [
       "Greed is a bad thing, right?　Hahaha..."
@@ -122,8 +125,8 @@
     "ID": "eve330",
     "Text": null,
     "Lines": [
-      "ちゃんと覚えてて良かったよ。",
-      "リルから、それを聞いて少し安心した。"
+      "I'm glad you remembered it properly.",
+      "I was a little relieved to hear that from Lil."
     ],
     "DeepL_mtl": [
       "I'm glad I remembered it right.",
@@ -136,9 +139,9 @@
     "ID": "eve331",
     "Text": null,
     "Lines": [
-      "多分この任務が、俺たちの、この戦争最後の大仕事になる。",
-      "絶対に全員で、生きて帰るぞ。",
-      "では、ユニット1、出撃だ！"
+      "This will probably be our last big mission of this war.",
+      "We'll absolutely get home alive!",
+      "Well then, Unit 1! Let's go!"
     ],
     "DeepL_mtl": [
       "Maybe this mission will be our last big job in this war.",

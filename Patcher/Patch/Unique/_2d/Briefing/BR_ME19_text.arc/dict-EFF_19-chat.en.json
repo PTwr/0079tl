@@ -3,8 +3,8 @@
     "ID": "eve629",
     "Text": null,
     "Lines": [
-      "シアトルか…。",
-      "俺たちの初任務の場所だね。"
+      "Seattle...",
+      "That's where our first mission was."
     ],
     "DeepL_mtl": [
       "Seattle....",
@@ -17,7 +17,7 @@
     "ID": "eve630",
     "Text": null,
     "Lines": [
-      "リルちゃんの尖がり具合が、懐かしいねぇ～。"
+      "I miss Lilly's sharpness..."
     ],
     "DeepL_mtl": [
       "I miss Lil' Lil''s sharpness, don't I!"
@@ -29,8 +29,8 @@
     "ID": "eve631",
     "Text": null,
     "Lines": [
-      "ご希望ならデニスの相手は、そっちでやってあげようか？",
-      "んん？"
+      "Do you really want to be treated like that, Dennis?",
+      "Hmmm?"
     ],
     "DeepL_mtl": [
       "If you prefer, I can deal with Dennis over there. Hmmm?"
@@ -42,7 +42,7 @@
     "ID": "eve632",
     "Text": null,
     "Lines": [
-      "いやぁ…、遠慮しておくよ…。"
+      "Naaah... I'll pass..."
     ],
     "DeepL_mtl": [
       "Oh no, I'll pass...."
@@ -54,7 +54,7 @@
     "ID": "eve633",
     "Text": null,
     "Lines": [
-      "リルは、本当に丸くなったものねぇ。"
+      "Our Lilly sure has rounded out..."
     ],
     "DeepL_mtl": [
       "Lil is really rounded, isn't she?"
@@ -66,8 +66,8 @@
     "ID": "eve634",
     "Text": null,
     "Lines": [
-      "丸くなったっていうのはヤメテ！！",
-      "違う意味に聞こえるでしょ！？"
+      "Don't call me 'rounded'!",
+      "It will cause a misunderstanding, won it?!"
     ],
     "DeepL_mtl": [
       "Don't say \"rounded\"! It sounds like something else, doesn't it?"
@@ -79,7 +79,7 @@
     "ID": "eve635",
     "Text": null,
     "Lines": [
-      "あ！　ごめん、ごめん！　最近気にしてたもんね…。"
+      "Oh!　Sorry, sorry!　You've been on my mind lately...."
     ],
     "DeepL_mtl": [
       "Ah!　Sorry, sorry!　You've been on my mind lately..."
@@ -91,12 +91,11 @@
     "ID": "eve636",
     "Text": null,
     "Lines": [
-      "（くぅ～。　この、天然悪魔っ子めぇ……。）"
+      "(Ugh... she's a demon...)"
     ],
     "DeepL_mtl": [
       "(Kuu~)",
       "You natural devil child. ......",
-      "(See Section 2.1.2.)."
     ],
     "TabSpace": null,
     "Size": null
@@ -105,8 +104,8 @@
     "ID": "eve637",
     "Text": null,
     "Lines": [
-      "で、肝心の任務だけど…。",
-      "あの廃墟は、確かに潜伏するには最適だよな。"
+      "So... the most important thing is",
+      "how perfect those ruins are for hiding."
     ],
     "DeepL_mtl": [
       "So, the key mission....",
@@ -119,9 +118,9 @@
     "ID": "eve638",
     "Text": null,
     "Lines": [
-      "あぁ。　間違いなく敵の部隊がいるはずだ。",
-      "待ち伏せてる敵の中に入ることになる。",
-      "十分注意していこう。"
+      "Ah. They will be full of enemies.",
+      "We'll be walking into ambush.",
+      "Let's be very careful."
     ],
     "DeepL_mtl": [
       "Oh.",
@@ -136,7 +135,7 @@
     "ID": "aln172",
     "Text": null,
     "Lines": [
-      "ユニット1、出撃準備だ！"
+      "Unit 1, prepare for sortie!"
     ],
     "DeepL_mtl": [
       "Unit 1, prepare to launch!"
