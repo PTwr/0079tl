@@ -9,6 +9,23 @@ namespace InMemoryBinaryFile.Helpers
 {
     public static class EncodingHelper
     {
+        public static IEnumerable<Encoding> EncodingGuestimator(string expectedString, byte[] rawBytes)
+        {
+            //required for .NET Core
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
+            foreach (var ei in Encoding.GetEncodings())
+            {
+                var e = ei.GetEncoding();
+                var str = e.GetString(rawBytes);
+
+                if (str == expectedString)
+                {
+                    yield return e;
+                }
+            }
+        }
+
         static List<Encoding> allEncodings;
         static EncodingHelper()
         {
