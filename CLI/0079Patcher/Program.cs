@@ -545,10 +545,7 @@ internal class Program
                             .Split(["\r\n", "\r", "\n"], StringSplitOptions.None)
                             .ToList();
 
-                        foreach (var insert in insertsFiles.Where(i => i.line > 0))
-                        {
-                            lines.Insert(insert.line - 1, insert.text);
-                        }
+                        //replace first to not screw up line numbering for inserts
                         foreach (var insert in insertsFiles.Where(i => i.line < 0))
                         {
                             var replacementLines = insert.text
@@ -557,8 +554,13 @@ internal class Program
                             var start = Math.Abs(insert.line) - 1;
                             for (int i = 0; i < replacementLines.Length; i++)
                             {
-                                lines[start+i] = replacementLines[i];
+                                lines[start + i] = replacementLines[i];
                             }
+                        }
+
+                        foreach (var insert in insertsFiles.Where(i => i.line > 0))
+                        {
+                            lines.Insert(insert.line - 1, insert.text);
                         }
 
                         var moddedText = string.Join(Environment.NewLine, lines);
