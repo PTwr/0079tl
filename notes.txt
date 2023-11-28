@@ -356,3 +356,6 @@ EVC
 
     //snow effect :D
     <Snow type="f32">0</Snow>
+
+
+CEnding_END_EFF_1 - variable pulled from native code!

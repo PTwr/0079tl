@@ -15,9 +15,7 @@ namespace Tests
         [Fact]
         public void Read()
         {
-            var b = ((int)int.MinValue) == ((uint)uint.MaxValue);
 
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
             var tr01gev = @"C:\games\wii\0079\0079_jp\DATA\files\event\missionevent\other\TR01.gev";
             var bytes = File.ReadAllBytes(tr01gev).AsSpan();
