@@ -12,6 +12,7 @@ using _0079Shared;
 using System.Text.RegularExpressions;
 using XBFLib.New;
 using InMemoryBinaryFile.New.Serialization;
+using System.IO;
 
 internal class Program
 {
@@ -257,6 +258,21 @@ internal class Program
         }
     }
 
+    public static string InsertLangCode(string path, string languageCode)
+    {
+        if (string.IsNullOrWhiteSpace(languageCode))
+        {
+            return path;
+        }
+
+        var ext = Path.GetExtension(path);
+        var dir = Path.GetDirectoryName(path);
+        path = Path.GetFileNameWithoutExtension(path);
+        path = $"{dir}/{path}.{languageCode}{ext}";
+
+        return path;
+    }
+
     const string TranslationDictFilenameMask = "dict*.{0}.json";
     public static void ArcPatchEerything(string inputDir, string outputDir, string patchDir, string languageCode, bool rewrite, bool clean)
     {
@@ -265,14 +281,30 @@ internal class Program
             Directory.Delete(outputDir, true);
         }
 
-        //free flaoting xbf
-        //TODO rewrite into reusable module
-        //var hacked = @"C:\Users\LordOfTheSkrzynka\Documents\Dolphin Emulator\Load\Riivolution\parameter\result_param.xbf.en.xml";
-        //Directory.CreateDirectory(@"C:\Users\LordOfTheSkrzynka\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\parameter");
-        //var hhh = @"C:\Users\LordOfTheSkrzynka\Documents\Dolphin Emulator\Load\Riivolution\R79JAF_EN\parameter\result_param.xbf";
-        //var xbfh = new XbfFile(File.ReadAllText(hacked));
-        //var bbb = Serializer.Serialize(xbfh);
-        //File.WriteAllBytes(hhh, bbb.ToArray());
+        //fuck relative paths
+        patchDir = Path.GetFullPath(patchDir);
+
+        var uniquePatchDir = Path.Join(patchDir, UniqueDir);
+
+        //flat files
+        FileEx.ForEachFile(inputDir, outputDir, "*", true, (input, output) =>
+        {
+            var patchFile = InsertLangCode(input, languageCode);
+            patchFile = PathEx.RebasePath(patchFile, inputDir, uniquePatchDir);
+            var xbfPatchFile = patchFile + ".xml";
+
+            if (File.Exists(patchFile))
+            {
+                File.Copy(patchFile, output, true);
+            }
+            else if (File.Exists(xbfPatchFile) && xbfPatchFile.EndsWith($"{languageCode}.xbf.xml"))
+            {
+                XbfFile xbf = new XbfFile(File.ReadAllText(xbfPatchFile));
+                var bytes = Serializer.Serialize(xbf).ToArray();
+                Directory.CreateDirectory(Path.GetDirectoryName(output));
+                File.WriteAllBytes(output, bytes);
+            }
+        });
 
         //get global dicts first
         Dictionary<string, XBFTextEntry> globaldict = GetTLDict(Path.Combine(patchDir, UniqueDir), languageCode);

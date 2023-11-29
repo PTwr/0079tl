@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\0079Shared\0079Shared.csproj" />
+    <ProjectReference Include="..\..\FileProcessing\FileProcessing.csproj" />
     <ProjectReference Include="..\..\GEVLib\GEVLib.csproj" />
     <ProjectReference Include="..\..\InMemoryBinaryFile\InMemoryBinaryFile.csproj" />
     <ProjectReference Include="..\..\U8\U8.csproj" />
