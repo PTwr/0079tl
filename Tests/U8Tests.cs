@@ -171,15 +171,16 @@ public class U8Tests
                         }
                     }
 
-                    var parsed = new XbfRootSegment(doc, XbfRootSegment.ShouldBeUTF8(xmlenpath));
+                    //TODO switch to new-new deserializer
+                    //var parsed = new XbfRootSegment(doc, XbfRootSegment.ShouldBeUTF8(xmlenpath));
 
-                    var newData = parsed.GetBytes().ToArray();
+                    //var newData = parsed.GetBytes().ToArray();
 
-                    offsetChange -= node.BinaryData.Length;
-                    offsetChange += newData.Length;
+                    //offsetChange -= node.BinaryData.Length;
+                    //offsetChange += newData.Length;
 
-                    node.BinaryData = newData;
-                    node.Size = newData.Length;
+                    //node.BinaryData = newData;
+                    //node.Size = newData.Length;
 
                     updated |= true;
                 }

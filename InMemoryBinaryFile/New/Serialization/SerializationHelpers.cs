@@ -1,16 +1,28 @@
 ﻿using InMemoryBinaryFile.New.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Runtime.InteropServices.ObjectiveC;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InMemoryBinaryFile.New.Serialization
 {
-    internal static class helpers
+    internal static class SerializationHelpers
     {
+        internal static IEnumerable<(TAttrib attr, PropertyInfo prop)> WithAttribute<TAttrib>(this IEnumerable<PropertyInfo> props, bool inherit = false)
+            where TAttrib : Attribute
+        {
+            foreach (var prop in props)
+            {
+                var attrib = prop.GetCustomAttribute<TAttrib>(inherit);
+                if (attrib != null)
+                {
+                    yield return (attrib, prop);
+                }
+            }
+        }
+
+        internal static IEnumerable<PropertyInfo> Properties(this object obj, BindingFlags bindingFlags = BindingFlags.Public | BindingFlags.Instance)
+        {
+            return obj.GetType().GetProperties(bindingFlags);
+        }
+
         internal static (int pos, int length, int count) GetFieldMetadata(this object obj, PropertyInfo prop, BinaryFieldAttribute attrib, List<(int absolute, int header, int body)> offsetsHistory)
         {
             var pos = attrib.GetOffset(obj, prop);

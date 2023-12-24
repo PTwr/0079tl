@@ -10,7 +10,6 @@ using GEVLib.GEV;
 using System.Text;
 using _0079Shared;
 using System.Text.RegularExpressions;
-using XBFLib.New;
 using InMemoryBinaryFile.New.Serialization;
 using System.IO;
 

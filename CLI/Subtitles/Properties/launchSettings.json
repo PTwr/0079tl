@@ -3,6 +3,10 @@
     "Subtitles-0079": {
       "commandName": "Project",
       "commandLineArgs": "prepare --root C:/games/wii/0079/0079_jp/DATA/files --filter sound/*/ev?00?.brstm --output C:/games/wii/0079/placeholdersubs.json"
+    },
+    "Subtitles-test": {
+      "commandName": "Project",
+      "commandLineArgs": "prepare --root C:\\Users\\newgb\\Downloads\\tetora\\audio --filter se/*.* --output c:\\games\\wii\\blah.json"
     }
   }
 }

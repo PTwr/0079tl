@@ -16,7 +16,7 @@ namespace GEVLib.New
         //TODO add comparer primitive-object, if object has implicit/explicit cast?
         [BinaryField]
         public EVEOpCode TerminatorOpCode { get; private set; } = new EVEOpCode(0x0006FFFF);
-        public int TerminatorOpCodeOffset => this.Parent.OFSMagicOffset - 4;
+        public int TerminatorOpCodeOffset => this.Parent.OFSDataOffset - 4 - 4;
 
         [BinaryField(ExpectedValue = (uint)0x0006FFFF)]
         public uint TerminatorDWORD { get; private set; }

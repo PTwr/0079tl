@@ -1,45 +1,57 @@
-﻿using System;
+﻿using BinarySerializer;
+using BinarySerializer.Helpers;
+using BinarySerializer.Annotation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using InMemoryBinaryFile.Helpers;
-using InMemoryBinaryFile.New;
-using InMemoryBinaryFile.New.Attributes;
-using InMemoryBinaryFile.New.Serialization;
 using XBFLib;
-using XBFLib.New;
 
 namespace U8.New
 {
     [BinarySegmentAttribute(HeaderOffset = 4, BodyOffset = 0x20)]
-    public class U8File : InMemoryBinaryFile.New.IBinarySegment
+    public class U8File : IBinarySegment
     {
-        [BinaryFieldAttribute(ExpectedValue = 0x55_AA_38_2D, Offset = 0, Order = -1)]
+        [Order(-1)]
+        [ExpectedValue<int>(0x55_AA_38_2D)]
+        [BinaryFieldAttribute(Offset = 0)]
         public int Magic { get; set; }
 
         //should be same as BodyOffset
-        [BinaryFieldAttribute(ExpectedValue = 0x20, Offset = 0, OffsetZone = OffsetZone.Header, Order = 0)]
+        [ExpectedValue<int>(0x20)]
+        [BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Header)]
         public int RootNodeOffset { get; set; }
-        [BinaryFieldAttribute(Offset = 4, OffsetZone = OffsetZone.Header, Order = 0)]
+        [BinaryFieldAttribute(Offset = 4, OffsetZone = OffsetZone.Header)]
         public int NodeListAndStringDictLength { get; set; }
-        [BinaryFieldAttribute(Offset = 8, OffsetZone = OffsetZone.Header, Order = 0)]
+        [BinaryFieldAttribute(Offset = 8, OffsetZone = OffsetZone.Header)]
         public int DataOffset { get; set; }
 
-        //32 bytes of zeros
-        [BinaryFieldAttribute(ExpectedValue = 0x00_00_00_00, Offset = 12, OffsetZone = OffsetZone.Header, Order = 0)]
-        public int ZerosA { get; set; }
-        [BinaryFieldAttribute(ExpectedValue = 0x00_00_00_00, Offset = 16, OffsetZone = OffsetZone.Header, Order = 0)]
-        public int ZerosB { get; set; }
-        [BinaryFieldAttribute(ExpectedValue = 0x00_00_00_00, Offset = 20, OffsetZone = OffsetZone.Header, Order = 0)]
-        public int ZerosC { get; set; }
-        [BinaryFieldAttribute(ExpectedValue = 0x00_00_00_00, Offset = 24, OffsetZone = OffsetZone.Header, Order = 0)]
-        public int ZerosD { get; set; }
+        [ExpectedValue<int[]>([0, 0, 0, 0])]
+        [Collection(Count = 4)]
+        [BinaryFieldAttribute(Offset = 12, OffsetZone = OffsetZone.Header)]
+        public int[] Zeros { get; set; }
 
-        [BinaryFieldAttribute(Offset = 8, OffsetZone = OffsetZone.Body, Order = 0)]
+        //32 bytes of zeros
+        //[ExpectedValue<int>(0x00_00_00_00)]
+        //[BinaryFieldAttribute(Offset = 12, OffsetZone = OffsetZone.Header)]
+        //public int ZerosA { get; set; }
+        //[ExpectedValue<int>(0x00_00_00_00)]
+        //[BinaryFieldAttribute(Offset = 16, OffsetZone = OffsetZone.Header)]
+        //public int ZerosB { get; set; }
+        //[ExpectedValue<int>(0x00_00_00_00)]
+        //[BinaryFieldAttribute(Offset = 20, OffsetZone = OffsetZone.Header)]
+        //public int ZerosC { get; set; }
+        //[ExpectedValue<int>(0x00_00_00_00)]
+        //[BinaryFieldAttribute(Offset = 24, OffsetZone = OffsetZone.Header)]
+        //public int ZerosD { get; set; }
+
+        [BinaryFieldAttribute(Offset = 8, OffsetZone = OffsetZone.Body)]
         public int NodeListCount { get; set; }
 
-        [NullTerminatedString(OffsetZone = OffsetZone.Body, Order = 2)]
+        [Order(2)]
+        [NullTerminated]
+        [BinaryField(OffsetZone = OffsetZone.Body)]
         public Dictionary<int, string>? FileNames { get; set; }
         public int FileNamesOffset => NodeListCount * 12;
         public int FileNamesLength => NodeListAndStringDictLength - FileNamesOffset;
@@ -47,18 +59,19 @@ namespace U8.New
         //[BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Body, Order = 3)]
         //public List<U8Node> NodeList { get; set; }
 
-        [BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Body, Order = 5)]
-        public U8HierarchicalNode? U8HierarchicalNode { get; set; }
-        public int U8HierarchicalNodeLength => NodeListCount * 12;
+        [Order(5)]
+        [BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Body)]
+        public U8HierarchicalNode? U8Tree { get; set; }
+        public int U8TreeLength => NodeListCount * 12;
     }
 
     [BinarySegmentAttribute(BodyOffset = 12)]
-    public class U8HierarchicalNode : U8Node, IPostProcessing
+    public class U8HierarchicalNode : U8Node
     {
         public IEnumerable<U8HierarchicalNode> Items()
         {
             yield return this;
-            foreach(var item in U8HierarchicalNodes.SelectMany(i=>i.Items()))
+            foreach (var item in U8HierarchicalNodes.SelectMany(i => i.Items()))
             {
                 yield return item;
             }
@@ -96,16 +109,13 @@ namespace U8.New
 
         public int Id { get; private set; }
 
-        [BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Body, OffsetScope = OffsetScope.Segment, Order = 20)]
+        [Order(20)]
+        [BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Body)]
         public List<U8HierarchicalNode>? U8HierarchicalNodes { get; set; }
         public bool U8HierarchicalNodesIf => IsDirectory;
         public int U8HierarchicalNodesLength => (LastNodeId - Id) * 12;
 
         public int SegmentLength => IsFile ? 12 : (U8HierarchicalNodesLength + 12);
-
-        public void AfterDeserialization()
-        {
-        }
 
         private string GetPath(string separator = "/")
         {
@@ -123,7 +133,7 @@ namespace U8.New
     }
 
     [BinarySegmentAttribute(Length = 12)]
-    public class U8Node : InMemoryBinaryFile.New._BaseBinarySegment<IBinarySegment>
+    public class U8Node : _BaseBinarySegment<IBinarySegment>
     {
         public U8Node(IBinarySegment parent) : base(parent)
         {
@@ -136,23 +146,25 @@ namespace U8.New
 
         public bool IsFile => this.Type == 0x00;
         public bool IsDirectory => this.Type == 0x01;
-        public bool IsArc => IsFile && BinaryData.AsSpan().StartsWith(U8RootSegment.U8MagicNumber);
-        public bool IsXbf => IsFile && BinaryData.AsSpan().StartsWith(XbfRootSegment.magicNumber.ToASCIIBytes());
+        public bool IsU8 => U8File != null;
+        public bool IsXbf => XbfFile != null;
 
-        [BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Header, OffsetScope = OffsetScope.Segment, Order = 0)]
+        [BinaryFieldAttribute(Offset = 0, OffsetZone = OffsetZone.Header)]
         public byte Type { get; set; } //this is really a u8
         //TODO implement (U)Int24 reading
-        [BinaryFieldAttribute(Offset = 2, OffsetZone = OffsetZone.Header, OffsetScope = OffsetScope.Segment, Order = 0)]
+        [BinaryFieldAttribute(Offset = 2, OffsetZone = OffsetZone.Header)]
         public short NameOffset { get; set; } //really a "u24", byte #1 is ignored in this implementation
 
 
-        [BinaryFieldAttribute(Offset = 4, OffsetZone = OffsetZone.Header, OffsetScope = OffsetScope.Segment, Order = 0)]
+        [BinaryFieldAttribute(Offset = 4, OffsetZone = OffsetZone.Header)]
         public int BinaryDataOffset { get; set; }
-        [BinaryFieldAttribute(Offset = 8, OffsetZone = OffsetZone.Header, OffsetScope = OffsetScope.Segment, Order = 0)]
+        [BinaryFieldAttribute(Offset = 8, OffsetZone = OffsetZone.Header)]
         public int BinaryDataLength { get; set; }
-        [BinaryFieldAttribute(OffsetZone = OffsetZone.Absolute, OffsetScope = OffsetScope.Absolute, Order = 1)]
+        [Order(10)]
+        [BinaryFieldAttribute(OffsetZone = OffsetZone.Absolute, OffsetScope = OffsetScope.Absolute)]
         public byte[] BinaryData { get; set; }
-        public bool BinaryDataIf => IsFile;
+        //TODO implement exclusive groups instead? Might be useful for Gev codeblocks/lines
+        public bool BinaryDataIf => IsFile && !IsU8 && !IsXbf;
 
         public string Name => File.FileNames[NameOffset];
 
@@ -161,8 +173,31 @@ namespace U8.New
             return Name;
         }
 
-        public XbfFile? XbfFile => IsXbf ? Deserializer.Deserialize<XbfFile>(BinaryData.AsSpan()) : null;
-        public U8File? U8File => IsArc ? Deserializer.Deserialize<U8File>(BinaryData.AsSpan()) : null;
+        [Order(200)]
+        [BinaryFieldAttribute(OffsetZone = OffsetZone.Absolute, OffsetScope = OffsetScope.Absolute, SeparateScope = true)]
+        [DeserializeAsAttribute<XbfFile>(IfFunc = nameof(IsFile), IfStartsWithPattern = [0x58, 0x42, 0x46, 0x00])]
+        [DeserializeAsAttribute<U8File>(IfFunc = nameof(IsFile), IfStartsWithPattern = [0x55, 0xAA, 0x38, 0x2D])]
+        [DeserializeAsAttribute<RawBinarySegment>(IfFunc = nameof(IsFile), Order = int.MaxValue)] //fallback
+        public IBinarySegment Content { get; set; }
+        public int ContentOffset => BinaryDataOffset;
+        public int ContentLength => BinaryDataLength;
+
+        [Order(2)]
+        [DeserializeAsAttribute<XbfFile>(IfStartsWithPattern = [0x58, 0x42, 0x46, 0x00])]
+        //TODO IsXbf/IsArc requries access to binary data, use Span<byte?>.Match extension to automatically detect?
+        [BinaryFieldAttribute(OffsetZone = OffsetZone.Absolute, OffsetScope = OffsetScope.Absolute, SeparateScope = true)]
+        public XbfFile? XbfFile { get; set; }
+        public bool XbfFileIf => !IsDirectory;
+        public int XbfFileOffset => BinaryDataOffset;
+        public int XbfFileLength => BinaryDataLength;
+
+        [Order(2)]
+        [DeserializeAsAttribute<U8File>(IfStartsWithPattern = [0x55, 0xAA, 0x38, 0x2D])]
+        [BinaryFieldAttribute(OffsetZone = OffsetZone.Absolute, OffsetScope = OffsetScope.Absolute, SeparateScope = true)]
+        public U8File? U8File { get; set; }
+        public bool U8FileIf => !IsDirectory;
+        public int U8FileOffset => BinaryDataOffset;
+        public int U8FileLength => BinaryDataLength;
     }
 
 }

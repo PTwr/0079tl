@@ -116,11 +116,10 @@ namespace U8
 
                     if (node.IsXbf && parseXbf)
                     {
-                        var parsed = new XbfRootSegment(XbfRootSegment.ShouldBeUTF8(path));
-                        parsed.Parse(node.BinaryData.AsSpan());
+                        var xbf = BinarySerializer.Serializer.Deserialize<XbfFile>(node.BinaryData.AsSpan());
 
                         var xmlFile = path + ".xml";
-                        parsed.DumpToDisk(xmlFile);
+                        File.WriteAllText(xbf.ToString(), xmlFile);
                     }
                 }
             }

@@ -1,6 +1,6 @@
-﻿using InMemoryBinaryFile;
-using InMemoryBinaryFile.Helpers;
-using InMemoryBinaryFile.New.Attributes;
+﻿using BinarySerializer;
+using BinarySerializer.Annotation;
+using BinarySerializer.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,15 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace XBFLib.New
+namespace XBFLib
 {
-
     [BinarySegment(HeaderOffset = 8, BodyOffset = 0x28)]
-    public class XbfFile : InMemoryBinaryFile.New.IBinarySegment
+    public class XbfFile : IBinarySegment
     {
+        public const string MagicNumber = "XBF";
+
         public XbfFile() : this(Encoding.UTF8)
         {
-            
+
         }
 
         public XbfFile(Encoding encoding)
@@ -44,7 +45,7 @@ namespace XBFLib.New
         private int AddIfMissing(List<string> list, string str)
         {
             var id = list.IndexOf(str);
-            if (id>=0)
+            if (id >= 0)
             {
                 return id;
             }
@@ -141,14 +142,20 @@ namespace XBFLib.New
 
         //null terminated XBF string
         //0x58_42_46_00
-        [NullTerminatedString(ExpectedValue = "XBF", Offset = 4 * 0, Order = -1)]
+        [Order(-1)]
+        [ExpectedValue<string>("XBF")]
+        [NullTerminated]
+        [BinaryField(Offset = 4 * 0)]
         public string Magic { get; private set; } = "XBF";
 
         //some secret number
-        [BinaryFieldAttribute(ExpectedValue = 0x03_00_80_00, Offset = 4 * 1, Order = -1)]
+        [Order(-1)]
+        [ExpectedValue<int>(0x03_00_80_00)]
+        [BinaryFieldAttribute(Offset = 4 * 1)]
         public int Magic2 { get; private set; } = 0x03_00_80_00;
 
-        [BinaryFieldAttribute(Offset = 4 * 2, ExpectedValue = 0x28)] //should be after header
+        [ExpectedValue<int>(0x28)]
+        [BinaryFieldAttribute(Offset = 4 * 2)] //should be after header
         public int TreeStructureOffset { get; private set; } = 0x28;
         [BinaryFieldAttribute(Offset = 4 * 3)]
         public int TreeStructureCount { get; private set; }
@@ -169,17 +176,24 @@ namespace XBFLib.New
         [BinaryFieldAttribute(Offset = 4 * 9)]
         public int ValueListCount { get; private set; }
 
-        [BinaryFieldAttribute(Order = 1)]
+        [Order(1)]
+        [BinaryFieldAttribute()]
         public List<TreeNode>? TreeStructure { get; private set; } = new List<TreeNode>();
 
         //three series of null delimited string lists starting after Tree
         //original XBF's lists always have empty string at the begining
         //TODO test if empty string its needed or is just artifact from whatever serialzier was used
-        [NullTerminatedString(Order = 2, OffsetZone = OffsetZone.Absolute)]
+        [Order(2)]
+        [NullTerminated]
+        [BinaryField(OffsetZone = OffsetZone.Absolute)]
         public List<string>? TagList { get; private set; } = [""];
-        [NullTerminatedString(Order = 3, OffsetZone = OffsetZone.Absolute)]
+        [Order(3)]
+        [NullTerminated]
+        [BinaryField(OffsetZone = OffsetZone.Absolute)]
         public List<string>? AttributeList { get; private set; } = [""];
-        [NullTerminatedString(Order = 4, OffsetZone = OffsetZone.Absolute)]
+        [Order(4)]
+        [NullTerminated]
+        [BinaryField(OffsetZone = OffsetZone.Absolute)]
         public List<string>? ValueList { get; private set; } = [""];
 
         public Encoding NodeDictEncoding { get; }

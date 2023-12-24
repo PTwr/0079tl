@@ -1,7 +1,7 @@
-﻿using InMemoryBinaryFile.New;
-using InMemoryBinaryFile.New.Attributes;
+﻿using BinarySerializer;
+using BinarySerializer.Annotation;
 
-namespace XBFLib.New
+namespace XBFLib
 {
     [BinarySegment(HeaderOffset = 0, BodyOffset = 0, Length = 4)]
     public class TreeNode : _BaseBinarySegment<XbfFile>
@@ -27,8 +27,8 @@ namespace XBFLib.New
         public bool IsClosingTag => ValueId == 0xFFFF;
         public bool IsAttribute => NameOrAttributeId < 0;
 
-        public string? Name => IsAttribute ? 
-            Parent!.AttributeList!.ElementAt(NameOrAttributeId * -1) : 
+        public string? Name => IsAttribute ?
+            Parent!.AttributeList!.ElementAt(NameOrAttributeId * -1) :
             Parent!.TagList!.ElementAt(NameOrAttributeId);
 
         public string? Value => IsClosingTag ? null : Parent!.ValueList!.ElementAt(ValueId);

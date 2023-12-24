@@ -12,22 +12,6 @@ namespace InMemoryBinaryFile.New.Serialization
 {
     public static class Deserializer
     {
-        public static IEnumerable<PropertyInfo> Properties(this object obj, BindingFlags bindingFlags = BindingFlags.Public | BindingFlags.Instance)
-        {
-            return obj.GetType().GetProperties(bindingFlags);
-        }
-        public static IEnumerable<(Tattrib attr, PropertyInfo prop)> WithAttribute<Tattrib>(this IEnumerable<PropertyInfo> props, bool inherit = false)
-            where Tattrib : Attribute
-        {
-            foreach (var prop in props)
-            {
-                var attrib = prop.GetCustomAttribute<Tattrib>(inherit);
-                if (attrib != null)
-                {
-                    yield return (attrib, prop);
-                }
-            }
-        }
         private static object _Deserialize(Span<byte> bytes, object target, List<(int absolute, int header, int body)> offsetsHistory, out int segmentLength)
         {
             BinarySegmentAttribute BinarySegmentAttribute = target.GetType().GetCustomAttribute<BinarySegmentAttribute>()!;

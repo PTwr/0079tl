@@ -13,6 +13,28 @@ namespace Tests
     public class NewGevTests
     {
         [Fact]
+        public void JumpTable()
+        {
+            var tr01gev = @"C:\games\wii\0079\0079_jp\DATA\files\event\missionevent\other\TR01.gev";
+            var bytes = File.ReadAllBytes(tr01gev).AsSpan();
+
+            var gevOld = new GEVBinaryRootSegment();
+            gevOld.Parse(bytes);
+            var gevNew = Deserializer.Deserialize<GEVFile>(bytes);
+
+
+            var isJumpTable = gevNew.EVESegment.Blocks.First().IsJumpTable();
+            Assert.True(isJumpTable);
+
+            var jumptable = new EVELine_JumpTable(gevNew.EVESegment.Blocks.First().Lines.First());
+
+            jumptable.ParseJumps();
+
+            var bbb = Serializer.Serialize(gevNew);
+            Assert.Equal(bytes.ToArray().ToList(), bbb);
+        }
+
+        [Fact]
         public void Read()
         {
 

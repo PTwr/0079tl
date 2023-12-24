@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BinarySerializer\BinarySerializer.csproj" />
     <ProjectReference Include="..\InMemoryBinaryFile\InMemoryBinaryFile.csproj" />
     <ProjectReference Include="..\XBFLib\XBFLib.csproj" />
   </ItemGroup>

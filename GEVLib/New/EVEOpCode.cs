@@ -8,7 +8,7 @@ namespace GEVLib.New
     {
         public EVEOpCode()
         {
-            
+
         }
 
         public EVEOpCode(ushort command, ushort parameter)
@@ -26,6 +26,8 @@ namespace GEVLib.New
         public ushort Command { get; private set; }
         [BinaryField(Offset = 2, OffsetScope = OffsetScope.Segment, OffsetZone = OffsetZone.Body)]
         public ushort Parameter { get; private set; }
+
+        public uint DWORD => (uint)(Command << 16) + Parameter;
 
         public override string ToString()
         {

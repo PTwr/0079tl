@@ -33,7 +33,7 @@ namespace U8
         public bool IsFile => this.Type == 0x00;
         public bool IsDirectory => this.Type == 0x01;
         public bool IsArc => IsFile && BinaryData.AsSpan().StartsWith(U8RootSegment.U8MagicNumber);
-        public bool IsXbf => IsFile && BinaryData.AsSpan().StartsWith(XbfRootSegment.magicNumber.ToASCIIBytes());
+        public bool IsXbf => IsFile && BinaryData.AsSpan().StartsWith(XbfFile.MagicNumber.ToASCIIBytes());
 
         public byte Type { get; private set; } //this is really a u8
         public short NameOffset { get; private set; } //really a "u24"

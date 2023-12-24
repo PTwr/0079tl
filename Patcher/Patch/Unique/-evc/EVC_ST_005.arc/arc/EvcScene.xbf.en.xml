@@ -1,0 +1,42 @@
+<EvcScn>
+  <Cut>
+    <File>EVMS_A_05.arc</File>
+    <EvcPos>PNT0_B0_L0_EVP101</EvcPos>
+    <FadeInFrm type="f32">240</FadeInFrm>
+    <FadeOutFrm type="f32">120</FadeOutFrm>
+    <Stop type="f32">2000</Stop>
+    <Frame type="f32">300</Frame>
+    <ImgCutIn>Unit00</ImgCutIn>
+    <Text>MISSION</Text>
+    <VoiceUnit>Friend1</VoiceUnit>
+    <Voice>115</Voice>
+    <Snow type="f32">1</Snow>
+    <VoiceWait type="f32">320</VoiceWait>
+    <Voice>ain001</Voice>
+    <VoiceWait type="f32">210</VoiceWait>
+    <Voice>aln003</Voice>
+    <VoiceWait type="f32">20</VoiceWait>
+    <Voice>lls015</Voice>
+    <Default type="f32">0</Default>
+    <VoiceWait type="f32">0</VoiceWait>
+    <Voice>dnb017</Voice>
+    <Text>MISSION</Text>
+    <Unit>
+      <ScnName>Player0</ScnName>
+      <EvcName>Unit00</EvcName>
+    </Unit>
+    <Unit>
+      <ScnName>Friend1</ScnName>
+      <EvcName>Unit01</EvcName>
+    </Unit>
+    <Unit>
+      <ScnName>Friend0</ScnName>
+      <EvcName>Unit02</EvcName>
+    </Unit>
+    <Unit>
+      <ScnName>Other0</ScnName>
+      <EvcName>Unit03</EvcName>
+    </Unit>
+  
+</Cut>
+</EvcScn>

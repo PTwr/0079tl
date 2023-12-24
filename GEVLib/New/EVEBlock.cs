@@ -1,11 +1,16 @@
-﻿using InMemoryBinaryFile.New;
+﻿using GEVLib.EVE;
+using InMemoryBinaryFile.New;
 using InMemoryBinaryFile.New.Attributes;
 
 namespace GEVLib.New
 {
     [BinarySegment]
-    public class EVEBlock : IBinarySegment
+    public class EVEBlock : _BaseBinarySegment<EVESegment>
     {
+        public EVEBlock(EVESegment parent) : base(parent)
+        {
+        }
+
         //TODO remember offset for JumpTable calcs
 
         [BinaryField(Offset = 0, OffsetScope = OffsetScope.Segment, OffsetZone = OffsetZone.Absolute, Order = 1)]
@@ -23,6 +28,25 @@ namespace GEVLib.New
         public override string ToString()
         {
             return string.Join(Environment.NewLine, Lines.Select(i => i.ToString()));
+        }
+
+        public bool IsJumpTable()
+        {
+            return Lines.Count == 1
+                && Lines.First().IsJumpTable();
+        }
+
+        public int JumpOffset
+        {
+            get
+            {
+                var blockPos = this.Parent.Blocks.IndexOf(this);
+                var prevBlocks = this.Parent.Blocks.Take(blockPos);
+                var blockOffset = prevBlocks.Sum(i=> i.SegmentLength);
+
+                //offset to 32bit chunks
+                return blockOffset / 4;
+            }
         }
     }
 }

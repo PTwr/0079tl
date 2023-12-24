@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Patch\Unique\-evc\EVC_ST_005.arc\arc\EVMS_A_05.arc\arc\" />
     <Folder Include="Subtitles\EFF\Campaign\" />
     <Folder Include="Subtitles\Ace\" />
     <Folder Include="Subtitles\Combination\" />

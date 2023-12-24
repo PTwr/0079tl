@@ -23,11 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BinarySerializer\BinarySerializer.csproj" />
     <ProjectReference Include="..\BrresLib\BrresLib.csproj" />
     <ProjectReference Include="..\DolphinSubtitles\DolphinSubtitles.csproj" />
     <ProjectReference Include="..\GEVLib\GEVLib.csproj" />
     <ProjectReference Include="..\U8\U8.csproj" />
-    <ProjectReference Include="..\InMemoryBinaryFile\InMemoryBinaryFile.csproj" />
     <ProjectReference Include="..\XBFLib\XBFLib.csproj" />
   </ItemGroup>
 

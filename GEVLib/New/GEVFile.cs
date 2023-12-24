@@ -27,45 +27,15 @@ namespace GEVLib.New
         [BinaryFieldAttribute(Offset = 4 * 4, OffsetZone = OffsetZone.Header)]
         public int STRDataOffset { get; private set; }
 
-        [FixedLengthString(ExpectedValue = "$OFS", Order = 1, Length = 4)]
-        public string OFSMagic { get; private set; } = "$OFS";
-        public int OFSMagicOffset => OFSDataOffset - 4;
-        public bool OFSMagicIf => OFSDataOffset > 0;
-
-        [FixedLengthString(ExpectedValue = "$STR", Order = 1, Length = 4)]
-        public string STRMagic { get; private set; } = "$STR";
-        public int STRMagicOffset => STRDataOffset - 4;
-        public bool STRMagicIf => STRDataOffset > 0;
-
-        [FixedLengthString(ExpectedValue = "$EVE", Order = 1, Length = 4, Offset = 0, OffsetZone = OffsetZone.Body)]
-        public string EVEMagic { get; private set; } = "$EVE";
-
         //TODO complete EVE Section
         [BinaryField(Order = 2, Offset = 0, OffsetZone = OffsetZone.Body)]
         public EVESegment EVESegment { get; private set; }
-        public int EVESegmentLength => (OFSMagicOffset - 0x1C); //between header and $OFS
+        public int EVESegmentLength => (OFSDataOffset - 4 - 0x1C); //between header and $OFS
 
-        //TODO might be easier to parse OpCodes into struct that deserialize/serialize EveBlocks 
-        [BinaryField(Order = 2, Offset = 4, OffsetZone = OffsetZone.Body)]
-        public List<EVEOpCode> EVEOpCodes { get; private set; }
-        public int EVEOpCodesCount => EVESegmentLength / 4; //4 bytes per opcode
-
-        //read data directly, without nested objects
-        [NullTerminatedStringAttribute(CodePage = 932, Alignment = 4, Order = 2)]
-        public Dictionary<int, string> STRData { get; private set; }
-        public bool STRDataIf => STRDataOffset > 0;
-
-        //nested helper objects
         [BinaryField]
         public OFSSegment OFSSegment { get; private set; }
         public int OFSSegmentOffset => OFSDataOffset - 4;
         public bool OFSSegmentIf => OFSDataOffset > 0;
-
-        //OFSSegment.OFSEntries, but without wrapper class
-        //TODO add (de)serialization of collections of primitive types, can't deserialize List<ushort> currently
-        [BinaryField(Order = 2)]
-        public List<OFSEntry> OFSData { get; private set; }
-        public bool OFSDataIf => OFSDataOffset > 0;
 
         [BinaryField]
         public STRSegment STRSegment { get; private set; }
