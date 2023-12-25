@@ -51,7 +51,7 @@ namespace Tests
                 var bytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_jp\DATA\files\_2d\Briefing\BR_AA01_text.arc");
                 var u8 = Serializer.Deserialize<U8.NewNew.U8File>(bytes.AsSpan());
 
-                xbf = (u8["arc"]["OP_AA01.arc"]["arc"]["BlockText.xbf"] as U8.NewNew.U8FileNode).Xbf;
+                var xbf = (u8["arc"]["OP_AA01.arc"]["arc"]["BlockText.xbf"] as U8.NewNew.U8FileNode).Xbf;
 
                 var xbfoldbytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_AA01_text.arc\arc\OP_AA01.arc\arc\BlockText.xbf");
                 var xbfnewbytes = Serializer.Serialize(xbf);
