@@ -139,7 +139,7 @@ namespace BinarySerializer
             }
 
             foreach ((var BinaryFieldAttribute, var prop) in target.Properties()
-                .WithAttribute<BinaryFieldAttribute>()
+                .WithAttribute<BinaryFieldAttribute>(inherit: true)
                 .OrderBy(i => OrderAttribute.GetSerializationOrder(target, i.prop))
                 )
             {
@@ -158,45 +158,47 @@ namespace BinarySerializer
                 var implementationType = DeserializeAsAttribute.GetTargetType(target, prop, slice);
 
                 //nested binary segments
-                if (implementationType.IsAssignableTo<IBinarySegment>())
+                if (prop.IsAssignableTo<IBinarySegment>())
                 {
                     object? item = prop.CreatePropertyObject(target, implementationType);
                     if (item != null)
                     {
                         var ChildBinarySegmentAttribute = item.GetType().GetCustomAttribute<BinarySegmentAttribute>();
-                        newValue = _Deserialize(BinaryFieldAttribute.SeparateScope ? slice : bytes,
+                        newValue = _Deserialize(prop.HasAttribute<NestedFileAttribute>() ? slice : bytes,
                                                 item,
-                                                BinaryFieldAttribute.SeparateScope ? [] :
+                                                prop.HasAttribute<NestedFileAttribute>() ? [] :
                                                 [(pos, ChildBinarySegmentAttribute?.HeaderOffset ?? 0, ChildBinarySegmentAttribute?.BodyOffset ?? 0), .. offsetsHistory],
                                                 out _);
                     }
                 }
-                else if (implementationType.IsAssignableTo<IBinarySegment[]>() || implementationType.IsAssignableTo<IEnumerable<IBinarySegment>>())
+                else if (prop.IsAssignableTo<IBinarySegment[]>() || prop.IsAssignableTo<IEnumerable<IBinarySegment>>())
                 {
-                    List<IBinarySegment> items = new List<IBinarySegment>();
-                    int childOffset = pos;
+                    Dictionary<int, IBinarySegment> items = new();
+                    int itemOffset = 0;
                     int n = 0;
-                    while (childOffset < pos + slice.Length)
+                    while (itemOffset < slice.Length)
                     {
-                        if (!CollectionAttribute.ShouldContinueDeserialization(target, prop, items))
+                        if (!CollectionAttribute.ShouldContinueDeserialization(target, prop, items.Values.CastToList(prop.GetCollectionType())))
                         {
                             break;
                         }
 
-                        var itemSlice = BinaryFieldAttribute.SeparateScope ? slice : bytes;
+                        var itemSlice = slice.Slice(itemOffset);
                         implementationType = DeserializeAsAttribute.GetTargetType(target, prop, itemSlice);
 
                         var item = prop.CreateCollectionItem(target, implementationType);
                         if (item != null)
                         {
                             var ChildBinarySegmentAttribute = item.GetType().GetCustomAttribute<BinarySegmentAttribute>();
-                            item = _Deserialize(itemSlice,
+                            item = _Deserialize(prop.HasAttribute<NestedFileAttribute>() ? itemSlice : bytes,
                                                 item,
-                                                BinaryFieldAttribute.SeparateScope ? [] :
-                                                [(childOffset, ChildBinarySegmentAttribute?.HeaderOffset ?? 0, ChildBinarySegmentAttribute?.BodyOffset ?? 0), .. offsetsHistory],
-                                                out var itemLength);
-                            childOffset += itemLength;
-                            items.Add((IBinarySegment)item);
+                                                prop.HasAttribute<NestedFileAttribute>() ? [] :
+                                                [(pos+itemOffset, ChildBinarySegmentAttribute?.HeaderOffset ?? 0, ChildBinarySegmentAttribute?.BodyOffset ?? 0), .. offsetsHistory],
+                                                out var itemByteLength);
+                            
+                            items[itemOffset] = (IBinarySegment)item;
+
+                            itemOffset += itemByteLength;
                         }
                         n++;
 
@@ -205,24 +207,38 @@ namespace BinarySerializer
                     }
                     if (prop.IsAssignableTo<IBinarySegment[]>())
                     {
-                        newValue = items.CastToArray(prop.PropertyType.GetCollectionType()!);
+                        newValue = items.Values.CastToArray(prop.PropertyType.GetCollectionType()!);
                     }
                     else if (prop.IsAssignableTo<IEnumerable<IBinarySegment>>())
                     {
-                        newValue = items.CastToList(prop.PropertyType.GetCollectionType()!);
+                        newValue = items.Values.CastToList(prop.PropertyType.GetCollectionType()!);
                     }
+                    else if (prop.IsAssignableTo<IDictionary>())
+                    {
+                        newValue = items.CastToDict(prop.PropertyType.GetCollectionType()!);
+                    }
+                }
+                //TODO read byte[] and similar directly because reflection on every byte is fucking slow
+                else if (prop.PropertyType == typeof(byte[]))
+                {
+                    var array = slice.ToArray();
+                    if (count>=0)
+                    {
+                        array = array.Take(count).ToArray();
+                    }
+                    newValue = array;
                 }
                 //primitive types
                 else if (prop.IsCollection())
                 {
                     var itemType = prop.GetCollectionType();
 
-                    Dictionary<int, object> items = new Dictionary<int, object>();
+                    Dictionary<int, object> items = new();
                     int itemOffset = 0;
                     int n = 0;
                     while (itemOffset < slice.Length)
                     {
-                        if (!CollectionAttribute.ShouldContinueDeserialization(target, prop, items))
+                        if (!CollectionAttribute.ShouldContinueDeserialization(target, prop, items.Values.ToList()))
                         {
                             break;
                         }
@@ -322,7 +338,7 @@ namespace BinarySerializer
             }
 
             foreach ((var BinaryFieldAttribute, var prop) in source.Properties()
-                .WithAttribute<BinaryFieldAttribute>()
+                .WithAttribute<BinaryFieldAttribute>(inherit: true)
                 .Where(i => SerializeIfAttribute.If(source, i.prop))
                 .OrderBy(i => OrderAttribute.GetSerializationOrder(source, i.prop))
                 )

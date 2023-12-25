@@ -66,7 +66,7 @@ namespace BinarySerializer.Helpers
 
             return list;
         }
-        public static object CastToDict(this IDictionary<int, object> source, Type type)
+        public static object CastToDict<T>(this IDictionary<int, T> source, Type type)
         {
             object dict = typeof(Dictionary<,>)
                 .MakeGenericType([typeof(int), type])!
@@ -112,7 +112,8 @@ namespace BinarySerializer.Helpers
         }
         public static object? CreateCollectionItem(this PropertyInfo prop, object parentObject, Type? implementationType = null)
         {
-            var type = implementationType?.GetCollectionType() ?? prop.GetCollectionType();
+            var type = implementationType ?? prop.PropertyType;
+            type = type.IsCollection() ? type.GetCollectionType() : type;
 
             if (type == null)
             {
@@ -146,7 +147,11 @@ namespace BinarySerializer.Helpers
         }
         public static bool IsCollection(this PropertyInfo prop)
         {
-            return prop.PropertyType.IsArray
+            return prop.PropertyType.IsCollection();
+        }
+        public static bool IsCollection(this Type prop)
+        {
+            return prop.IsArray
                 || prop.IsAssignableTo<IEnumerable<object>>()
                 //TODO check for key type? only int is supported currently
                 || prop.IsAssignableTo<IDictionary>();

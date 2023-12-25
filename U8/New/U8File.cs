@@ -139,7 +139,7 @@ namespace U8.New
         {
         }
 
-        public U8File? File => (Parent as U8File) ?? (Parent as U8Node)?.File ?? null;
+        public U8File? RootFile => (Parent as U8File) ?? (Parent as U8Node)?.RootFile ?? null;
 
         //counting from 1, id of node thats last child of this ndoe
         public int LastNodeId => IsDirectory ? BinaryDataLength : 0;
@@ -166,38 +166,28 @@ namespace U8.New
         //TODO implement exclusive groups instead? Might be useful for Gev codeblocks/lines
         public bool BinaryDataIf => IsFile && !IsU8 && !IsXbf;
 
-        public string Name => File.FileNames[NameOffset];
+        public string Name => RootFile.FileNames[NameOffset];
 
         public override string ToString()
         {
             return Name;
         }
 
-        [Order(200)]
-        [BinaryFieldAttribute(OffsetZone = OffsetZone.Absolute, OffsetScope = OffsetScope.Absolute, SeparateScope = true)]
+        [Order(200)] //deserialize after Offset/Length/IsFile
+        [NestedFile]
+        [BinaryFieldAttribute(OffsetZone = OffsetZone.Absolute, OffsetScope = OffsetScope.Absolute)]
         [DeserializeAsAttribute<XbfFile>(IfFunc = nameof(IsFile), IfStartsWithPattern = [0x58, 0x42, 0x46, 0x00])]
         [DeserializeAsAttribute<U8File>(IfFunc = nameof(IsFile), IfStartsWithPattern = [0x55, 0xAA, 0x38, 0x2D])]
         [DeserializeAsAttribute<RawBinarySegment>(IfFunc = nameof(IsFile), Order = int.MaxValue)] //fallback
         public IBinarySegment Content { get; set; }
-        public int ContentOffset => BinaryDataOffset;
-        public int ContentLength => BinaryDataLength;
 
-        [Order(2)]
-        [DeserializeAsAttribute<XbfFile>(IfStartsWithPattern = [0x58, 0x42, 0x46, 0x00])]
-        //TODO IsXbf/IsArc requries access to binary data, use Span<byte?>.Match extension to automatically detect?
-        [BinaryFieldAttribute(OffsetZone = OffsetZone.Absolute, OffsetScope = OffsetScope.Absolute, SeparateScope = true)]
-        public XbfFile? XbfFile { get; set; }
-        public bool XbfFileIf => !IsDirectory;
-        public int XbfFileOffset => BinaryDataOffset;
-        public int XbfFileLength => BinaryDataLength;
+        [BinaryFieldAttribute(Offset = 4, OffsetZone = OffsetZone.Header)]
+        public int ContentOffset { get; set; }
+        [BinaryFieldAttribute(Offset = 8, OffsetZone = OffsetZone.Header)]
+        public int ContentLength { get; set; }
 
-        [Order(2)]
-        [DeserializeAsAttribute<U8File>(IfStartsWithPattern = [0x55, 0xAA, 0x38, 0x2D])]
-        [BinaryFieldAttribute(OffsetZone = OffsetZone.Absolute, OffsetScope = OffsetScope.Absolute, SeparateScope = true)]
-        public U8File? U8File { get; set; }
-        public bool U8FileIf => !IsDirectory;
-        public int U8FileOffset => BinaryDataOffset;
-        public int U8FileLength => BinaryDataLength;
+        public XbfFile? XbfFile => Content as XbfFile;
+        public U8File? U8File => Content as U8File;
     }
 
 }

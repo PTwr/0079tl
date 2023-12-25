@@ -49,9 +49,17 @@ namespace BinarySerializer.Annotation
             var hardcoded = ReflectionsHelper.GetDynamicValue<bool>($"{propertyInfo.Name}If", obj, true)
                 && ReflectionsHelper.GetDynamicValue<bool>($"{propertyInfo.Name}DeserializeIf", obj, true);
 
+            if (!hardcoded)
+            {
+                return false;
+            }
+
             foreach (var attrib in attribs)
             {
-                return hardcoded && attrib.GetIf(obj, propertyInfo.Name, data);
+                if (attrib.GetIf(obj, propertyInfo.Name, data))
+                {
+                    return true;
+                }
             }
 
             return hardcoded;
@@ -119,6 +127,15 @@ namespace BinarySerializer.Annotation
         public DeserializeAsAttribute()
         {
             Type = typeof(T);
+        }
+
+        public DeserializeAsAttribute(int pattern) : this()
+        {
+            //DISGUSTING!
+            this.IfStartsWithPattern = pattern
+                .GetBigEndianBytes()
+                .Select(i => (int)i)
+                .ToArray();
         }
     }
 }

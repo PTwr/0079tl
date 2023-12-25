@@ -61,17 +61,20 @@ namespace BinarySerializer.Annotation
         int GetCount(object obj, string FieldName) => ReflectionsHelper.GetDynamicValue(() => Count, (x) => x >= 0, CountFunc ?? $"{FieldName}Count", obj, -1);
         int GetCount(object obj, PropertyInfo property) => GetCount(obj, property.Name);
 
-        bool GetContinue(object obj, string FieldName, IEnumerable collection) => ReflectionsHelper.GetDynamicValue<bool>(ContinueFunc ?? $"{FieldName}Continue", obj, true, collection);
-        bool GetContinue(object obj, PropertyInfo property, IEnumerable collection) => GetContinue(obj, property.Name, collection);
+        bool GetContinue(object obj, string FieldName, object collection) => ReflectionsHelper.GetDynamicValue<bool>(ContinueFunc ?? $"{FieldName}Continue", obj, true, collection);
+        bool GetContinue(object obj, PropertyInfo property, object collection) => GetContinue(obj, property.Name, collection);
 
-        public static bool ShouldContinueDeserialization(object obj, PropertyInfo propertyInfo, IEnumerable collection)
+        public static bool ShouldContinueDeserialization(object obj, PropertyInfo propertyInfo, object collection)
         {
-            return obj.CheckAttribute<CollectionAttribute, bool>(propertyInfo, (a) => a.GetContinue(obj, propertyInfo, collection), true);
+            var hardcoded = ReflectionsHelper.GetDynamicValue<bool>($"{propertyInfo.Name}Continue", obj, true, collection);
+            return hardcoded &&
+                obj.CheckAttribute<CollectionAttribute, bool>(propertyInfo, (a) => a.GetContinue(obj, propertyInfo, collection), true);
         }
 
         public static int GetExpectedCount(object obj, PropertyInfo propertyInfo)
         {
-            return obj.CheckAttribute<CollectionAttribute, int>(propertyInfo, (a) => a.GetCount(obj, propertyInfo), -1);
+            var hardcoded = ReflectionsHelper.GetDynamicValue<int>($"{propertyInfo.Name}Count", obj, -1);
+            return obj.CheckAttribute<CollectionAttribute, int>(propertyInfo, (a) => a.GetCount(obj, propertyInfo), hardcoded);
         }
     }
 
@@ -79,7 +82,7 @@ namespace BinarySerializer.Annotation
     /// Marks field as being written in LittleEndian, rather than usual BigEndian
     /// </summary>
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
-    public sealed class LittleEndianAttribute : Attribute
+    public class LittleEndianAttribute : Attribute
     {
     }
 
@@ -116,7 +119,6 @@ namespace BinarySerializer.Annotation
             //which makes ExpectedValueAttribute(123) on short/byte properties annoying
             if (expectedValue!.Equals(newValue))
             {
-                123.Equals(123);
                 return (true, expectedValue);
             }
 
@@ -188,7 +190,7 @@ namespace BinarySerializer.Annotation
         }
     }
 
-    public sealed class ExpectedValueAttribute<TValue> : ExpectedValueAttribute
+    public class ExpectedValueAttribute<TValue> : ExpectedValueAttribute
     {
         public ExpectedValueAttribute(TValue value)
             : base(value, typeof(TValue))
@@ -197,11 +199,15 @@ namespace BinarySerializer.Annotation
     }
 
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
+    public class NestedFileAttribute : Attribute
+    {
+
+    }
+
+    [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class BinaryFieldAttribute : Attribute
     {
         public int Alignment { get; set; } = 1;
-
-        public bool SeparateScope { get; set; } = false;
 
         /// <summary>
         /// Limits length of byte buffer used to deserialize this property

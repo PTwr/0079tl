@@ -13,7 +13,8 @@ namespace XBFLib
     [BinarySegment(HeaderOffset = 8, BodyOffset = 0x28)]
     public class XbfFile : IBinarySegment
     {
-        public const string MagicNumber = "XBF";
+        public const int MagicNumber = 0x58_42_46_00; //"XBF";
+        private const int MagicNumber2 = 0x03_00_80_00;
 
         public XbfFile() : this(Encoding.UTF8)
         {
@@ -22,7 +23,7 @@ namespace XBFLib
 
         public XbfFile(Encoding encoding)
         {
-            NodeDictEncoding = AttributeDictEncoding = StringDictEncoding = encoding;
+            TagListEncoding = AttributeDictEncoding = ValueListEncoding = encoding;
         }
 
         public XbfFile(string xml, Encoding? encoding = null) : this(encoding ?? Encoding.UTF8)
@@ -129,10 +130,10 @@ namespace XBFLib
             TagListOffset = TreeStructure.Count * 4 + 0x28;
 
             AttributeListCount = AttributeList.Count;
-            AttributeListOffset = TagListOffset + TagList.ToBytes(NodeDictEncoding, true).Length;
+            AttributeListOffset = TagListOffset + TagList.ToBytes(TagListEncoding, true).Length;
 
             ValueListCount = ValueList.Count;
-            ValueListOffset = AttributeListOffset + AttributeList.ToBytes(StringDictEncoding, true).Length;
+            ValueListOffset = AttributeListOffset + AttributeList.ToBytes(ValueListEncoding, true).Length;
         }
 
         public override string ToString()
@@ -143,19 +144,18 @@ namespace XBFLib
         //null terminated XBF string
         //0x58_42_46_00
         [Order(-1)]
-        [ExpectedValue<string>("XBF")]
-        [NullTerminated]
-        [BinaryField(Offset = 4 * 0)]
-        public string Magic { get; private set; } = "XBF";
+        [ExpectedValue<int>(MagicNumber)]
+        [BinaryField(Offset = 0)]
+        public int Magic { get; private set; } = MagicNumber;
 
         //some secret number
         [Order(-1)]
-        [ExpectedValue<int>(0x03_00_80_00)]
+        [ExpectedValue<int>(MagicNumber2)]
         [BinaryFieldAttribute(Offset = 4 * 1)]
-        public int Magic2 { get; private set; } = 0x03_00_80_00;
+        public int Magic2 { get; private set; } = MagicNumber2;
 
         [ExpectedValue<int>(0x28)]
-        [BinaryFieldAttribute(Offset = 4 * 2)] //should be after header
+        [BinaryFieldAttribute(Offset = 4 * 2)] //should be right after header
         public int TreeStructureOffset { get; private set; } = 0x28;
         [BinaryFieldAttribute(Offset = 4 * 3)]
         public int TreeStructureCount { get; private set; }
@@ -181,8 +181,8 @@ namespace XBFLib
         public List<TreeNode>? TreeStructure { get; private set; } = new List<TreeNode>();
 
         //three series of null delimited string lists starting after Tree
-        //original XBF's lists always have empty string at the begining
-        //TODO test if empty string its needed or is just artifact from whatever serialzier was used
+        //original XBF's lists always have empty string at the begining, even if its not in use
+        //TODO test if empty string its needed or is just artifact from whatever serializer was used
         [Order(2)]
         [NullTerminated]
         [BinaryField(OffsetZone = OffsetZone.Absolute)]
@@ -196,8 +196,10 @@ namespace XBFLib
         [BinaryField(OffsetZone = OffsetZone.Absolute)]
         public List<string>? ValueList { get; private set; } = [""];
 
-        public Encoding NodeDictEncoding { get; }
+        //Encoding is NOT specified in file, like it would in normal Xml, thus you gotta know it beforehand
+        //R79JAF uses multiple encodings because its a badly written mess :)
+        public Encoding TagListEncoding { get; }
         public Encoding AttributeDictEncoding { get; }
-        public Encoding StringDictEncoding { get; }
+        public Encoding ValueListEncoding { get; }
     }
 }

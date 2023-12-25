@@ -39,6 +39,19 @@ namespace Tests
         }
 
         [Fact]
+        public void TestCleanedU8()
+        {
+            {
+                var bytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_jp\DATA\files\_2d\Title\GUIDE.arc");
+                var u8 = Serializer.Deserialize<U8.NewNew.U8File>(bytes.AsSpan());
+            }
+            {
+                var bytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_jp\DATA\files\_2d\Briefing\BR_AA01_text.arc");
+                var u8 = Serializer.Deserialize<U8.NewNew.U8File>(bytes.AsSpan());
+            }
+        }
+
+        [Fact]
         public void TestU8()
         {
             //Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
