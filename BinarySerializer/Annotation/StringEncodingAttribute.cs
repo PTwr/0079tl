@@ -16,7 +16,8 @@ namespace BinarySerializer.Annotation
 
         public static Encoding GetEncoding(object obj, PropertyInfo propertyInfo)
         {
-            return obj.CheckAttribute<StringEncodingAttribute, Encoding>(propertyInfo, (a) => a.GetEncoding(obj, propertyInfo.Name), Encoding.ASCII)!;
+            var hardcoded = ReflectionsHelper.GetDynamicValue<Encoding>($"{propertyInfo.Name}Encoding", obj, Encoding.ASCII);
+            return obj.CheckAttribute<StringEncodingAttribute, Encoding>(propertyInfo, (a) => a.GetEncoding(obj, propertyInfo.Name), hardcoded)!;
         }
     }
 }

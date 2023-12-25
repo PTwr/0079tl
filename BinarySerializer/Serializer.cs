@@ -105,7 +105,7 @@ namespace BinarySerializer
                     BinaryPrimitives.ReadInt32LittleEndian(bytes) :
                     BinaryPrimitives.ReadInt32BigEndian(bytes);
             }
-            else if (itemType == typeof(string) && metadata.nullTerminated)
+            else if (itemType == typeof(string))
             {
                 if (metadata.nullTerminated)
                 {
@@ -348,6 +348,8 @@ namespace BinarySerializer
                 var metadata = source.GetFieldMetadata(prop, BinaryFieldAttribute, offsetsHistory);
                 (int pos, int length, int count, bool littleEndian, int alignment, bool nullTerminated, Encoding encoding) = metadata;
 
+                bool isNestedFile = prop.HasAttribute<NestedFileAttribute>();
+
                 var obj = prop.GetValue(source);
                 if (prop.IsAssignableTo<IBinarySegment>())
                 {
@@ -355,7 +357,15 @@ namespace BinarySerializer
 
                     var ChildBinarySegmentAttribute = x.GetType().GetCustomAttribute<BinarySegmentAttribute>();
 
-                    _Serialize(x, [(pos, ChildBinarySegmentAttribute?.HeaderOffset ?? 0, ChildBinarySegmentAttribute?.BodyOffset ?? 0), .. offsetsHistory], result, out _);
+                    if (isNestedFile)
+                    {
+                        var nestedResult = _Serialize(x, [], null, out _);
+                        result.Emplace(pos, nestedResult);
+                    }
+                    else
+                    {
+                        _Serialize(x, [(pos, ChildBinarySegmentAttribute?.HeaderOffset ?? 0, ChildBinarySegmentAttribute?.BodyOffset ?? 0), .. offsetsHistory], result, out _);
+                    }
                 }
                 else if (prop.IsAssignableTo<IBinarySegment[]>() || prop.IsAssignableTo<IEnumerable<IBinarySegment>>())
                 {
@@ -367,9 +377,17 @@ namespace BinarySerializer
                     {
                         var ChildBinarySegmentAttribute = x.GetType().GetCustomAttribute<BinarySegmentAttribute>();
 
-                        _Serialize(x, [(childOffset, ChildBinarySegmentAttribute?.HeaderOffset ?? 0, ChildBinarySegmentAttribute?.BodyOffset ?? 0), .. offsetsHistory], result, out var itemLength);
-
-                        childOffset += itemLength;
+                        if (isNestedFile)
+                        {
+                            var nestedResult = _Serialize(x, [], null, out var itemLength);
+                            result.Emplace(childOffset, nestedResult);
+                            childOffset += itemLength;
+                        }
+                        else
+                        {
+                            _Serialize(x, [(childOffset, ChildBinarySegmentAttribute?.HeaderOffset ?? 0, ChildBinarySegmentAttribute?.BodyOffset ?? 0), .. offsetsHistory], result, out var itemLength);
+                            childOffset += itemLength;
+                        }
                     }
                 }
                 else if (prop.IsCollection())
@@ -377,13 +395,21 @@ namespace BinarySerializer
                     var value = prop.GetValue(source);
                     bool isDict = value is IDictionary;
                     var items = isDict
-                        ? ((value as IDictionary)!.Values as IEnumerable<object>)!
-                        : (value as IEnumerable<object>)!;
+                        ? ((value as IDictionary)!.Values as IEnumerable)!
+                        : (value as IEnumerable)!;
 
-                    int childOffset = pos;
+                    var e = items.GetEnumerator();
 
-                    fieldBytes = items
-                        .SelectMany(i => _SerializePrimitive(i, metadata));
+                    List<byte> b = new List<byte>();
+
+                    while (e.MoveNext())
+                    {
+                        b.AddRange(_SerializePrimitive(e.Current, metadata));
+                    }
+
+                    (e as IDisposable)?.Dispose();
+
+                    fieldBytes = b;
                 }
                 else
                 {

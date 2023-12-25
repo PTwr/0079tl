@@ -44,10 +44,27 @@ namespace Tests
             {
                 var bytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_jp\DATA\files\_2d\Title\GUIDE.arc");
                 var u8 = Serializer.Deserialize<U8.NewNew.U8File>(bytes.AsSpan());
+                var newBytes = Serializer.Serialize(u8);
+                Assert.Equal(bytes, newBytes);
             }
             {
                 var bytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_jp\DATA\files\_2d\Briefing\BR_AA01_text.arc");
                 var u8 = Serializer.Deserialize<U8.NewNew.U8File>(bytes.AsSpan());
+
+                var x = u8.RootNode.Children[0] as U8.NewNew.U8DirectoryNode; //arc
+                var xx = (x.Children[0] as U8.NewNew.U8FileNode).Content as U8.NewNew.U8File; //OP_AA01.arc
+
+
+                var y = xx.RootNode.Children[0] as U8.NewNew.U8DirectoryNode; //arc
+                var yy = y.Children[0] as U8.NewNew.U8FileNode; //BlockText.xbf
+                var xbf = yy.Content as XbfFile;
+
+                var xbfoldbytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_AA01_text.arc\arc\OP_AA01.arc\arc\BlockText.xbf");
+                var xbfnewbytes = Serializer.Serialize(xbf);
+                Assert.Equal(xbfoldbytes, xbfnewbytes);
+
+                var newBytes = Serializer.Serialize(u8);
+                Assert.Equal(bytes, newBytes);
             }
         }
 
@@ -91,7 +108,7 @@ namespace Tests
         [Fact]
         public void XbfDeserialize()
         {
-            var bytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_AA01_text.arc\arc\OP_AA01.arc\arc\StringGroup.xbf");
+            var bytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_AA01_text.arc\arc\OP_AA01.arc\arc\BlockText.xbf");
             var xbf = Serializer.Deserialize<XbfFile>(bytes.AsSpan());
             var str = xbf.ToString();
 
@@ -103,7 +120,7 @@ namespace Tests
         [Fact]
         public void XbfRoundtrip()
         {
-            var bytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_AA01_text.arc\arc\OP_AA01.arc\arc\StringGroup.xbf");
+            var bytes = File.ReadAllBytes(@"C:\games\wii\0079\0079_unpacked\DATA\files\_2d\Briefing\BR_AA01_text.arc\arc\OP_AA01.arc\arc\BlockText.xbf");
             var xbf = Serializer.Deserialize<XbfFile>(bytes.AsSpan());
             var str = xbf.ToString();
 

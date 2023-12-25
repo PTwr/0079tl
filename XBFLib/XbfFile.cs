@@ -23,7 +23,7 @@ namespace XBFLib
 
         public XbfFile(Encoding encoding)
         {
-            TagListEncoding = AttributeDictEncoding = ValueListEncoding = encoding;
+            TagListEncoding = AttributeListEncoding = ValueListEncoding = encoding;
         }
 
         public XbfFile(string xml, Encoding? encoding = null) : this(encoding ?? Encoding.UTF8)
@@ -199,7 +199,7 @@ namespace XBFLib
         //Encoding is NOT specified in file, like it would in normal Xml, thus you gotta know it beforehand
         //R79JAF uses multiple encodings because its a badly written mess :)
         public Encoding TagListEncoding { get; }
-        public Encoding AttributeDictEncoding { get; }
+        public Encoding AttributeListEncoding { get; }
         public Encoding ValueListEncoding { get; }
     }
 }
