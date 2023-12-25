@@ -48,6 +48,8 @@ namespace U8.NewNew
 
         //HACK deserialization is a more or less stateless and nodes are deserialized recursively so we abuse root object to store node counter
         internal int NodeCounter = 0;
+
+        public U8Node this[string name] => RootNode[name];
     }
 
     public class U8DirectoryNode : U8Node
@@ -72,6 +74,8 @@ namespace U8.NewNew
 
         //override base Length of 12 to also encompass all children
         public int SegmentLength => (LastNodeId - Id) * 12 + 12;
+
+        public override U8Node this[string name] => Children.FirstOrDefault(node => node.Name == name);
     }
 
     public class U8FileNode : U8Node
@@ -92,11 +96,29 @@ namespace U8.NewNew
         public int ContentOffset { get; set; }
         [BinaryFieldAttribute(Offset = 8, OffsetZone = OffsetZone.Header)]
         public int ContentLength { get; set; }
+
+        public XbfFile? Xbf => Content as XbfFile;
+        public U8File? U8 => Content as U8File;
+        public RawBinarySegment? Raw => Content as RawBinarySegment;
+
+        public override U8Node this[string name]
+        {
+            get
+            {
+                switch(Content)
+                {
+                    case U8File u8:
+                        return u8[name];
+                    default:
+                        throw new Exception($"Not a traversable content type '{Content.GetType().FullName}'");
+                }
+            }
+        }
     }
 
 
     [BinarySegment(BodyOffset = 12, Length = 12)]
-    public class U8Node : _BaseBinarySegment<IBinarySegment>
+    public abstract class U8Node : _BaseBinarySegment<IBinarySegment>
     {
         public int Id { get; set; }
         public U8Node(IBinarySegment parent) : base(parent)
@@ -143,5 +165,7 @@ namespace U8.NewNew
         {
             return GetPath();
         }
+
+        public abstract U8Node this[string name] { get; }
     }
 }
