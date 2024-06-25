@@ -9,11 +9,11 @@
   },
   {
     "ID": "MISSION_COMPLETE",
-    "Text": "/@MISSION_COMPLETE@"
+    "Text": "      @MISSION_COMPLETE@"
   },
   {
     "ID": "MS_COMPLETE",
-    "Text": "/@MS_COMPLETE@"
+    "Text": "      @MS_COMPLETE@"
   },
   {
     "ID": "CHARACTER_COMPLETE",

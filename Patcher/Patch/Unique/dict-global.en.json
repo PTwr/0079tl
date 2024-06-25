@@ -3473,7 +3473,7 @@
   },
   {
     "ID": "ACE_INF_YOU_00",
-    "Text": "Yuu Kajima, the pilot of an experimental aircraft equipped with the mysterious system 'EXAM' runs on the battlefield as the 'Blue Grim Reaper'"
+    "Text": "Yuu Kajima, the pilot of an experimental aircraft equipped with the mysterious 'EXAM' system roams the battlefield as the 'Blue Grim Reaper'"
   },
   {
     "ID": "ACE_INF_CHR_00",
@@ -3481,7 +3481,8 @@
   },
   {
     "ID": "ACE_INF_RMB_00",
-    "Text": "Ramba Ral, also known as the ``Blue Giant.'' \nReceiving a special mission to avenge Garma Zabi, he approaches Gundam. "
+    "Text": "Ramba Ral, also known as the 'Blue Giant'. \nReceiving a special mission to avenge Garma Zabi, \nhe lays ambush for Gundam.",
+    "Size": "0.8"
   },
   {
     "ID": "ACE_INF_GUY_00",
